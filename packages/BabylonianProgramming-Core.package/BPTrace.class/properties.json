@@ -1,0 +1,15 @@
+{
+	"category" : "BabylonianProgramming-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"example",
+		"probes" ],
+	"name" : "BPTrace",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

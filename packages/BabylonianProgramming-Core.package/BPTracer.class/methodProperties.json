@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"forExample:" : "pre 5/8/2019 16:28" },
+	"instance" : {
+		"initialize" : "pre 5/8/2019 16:27",
+		"replace:with:for:" : "pre 5/8/2019 17:54",
+		"setExample:" : "pre 5/8/2019 16:29",
+		"trace" : "pre 5/8/2019 16:30",
+		"trace:for:" : "pre 5/8/2019 16:47",
+		"trace:forId:forExpression:inContext:" : "pre 5/8/2019 16:47" } }

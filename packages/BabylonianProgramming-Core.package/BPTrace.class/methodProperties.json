@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addTracedValue:for:" : "pre 5/8/2019 16:43",
+		"example" : "pre 5/8/2019 16:26",
+		"example:" : "pre 5/8/2019 16:26",
+		"initialize" : "pre 5/8/2019 16:44",
+		"probes" : "pre 5/8/2019 16:44",
+		"trace:forId:forExpression:inContext:" : "pre 5/8/2019 18:37",
+		"valuesForProbeId:" : "pre 5/8/2019 16:44" } }

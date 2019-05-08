@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testExamplesAreEqualIfTheirValuesAreEqual" : "pre 5/8/2019 16:58",
+		"testExamplesAreNotEqualIfTheirValuesAreNotEqual" : "pre 5/8/2019 17:01",
+		"testExamplesAreNotEqualIfTheyAreNotBothExamples" : "pre 5/8/2019 17:01",
+		"testExamplesKnowTheirArguments" : "pre 5/8/2019 16:55",
+		"testExamplesKnowTheirName" : "pre 5/8/2019 16:55",
+		"testExamplesKnowTheirOriginalMethod" : "pre 5/8/2019 16:52",
+		"testGetExamplesForAMethod" : "pre 5/8/2019 16:49" } }

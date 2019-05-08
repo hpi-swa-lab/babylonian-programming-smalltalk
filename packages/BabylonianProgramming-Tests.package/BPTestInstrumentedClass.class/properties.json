@@ -1,0 +1,14 @@
+{
+	"category" : "BabylonianProgramming-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPTestInstrumentedClass",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
