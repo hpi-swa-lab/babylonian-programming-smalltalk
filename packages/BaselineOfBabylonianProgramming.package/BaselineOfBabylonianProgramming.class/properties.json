@@ -10,5 +10,5 @@
 	"name" : "BaselineOfBabylonianProgramming",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "BaselineOf",
 	"type" : "normal" }
