@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfBabylonianProgramming",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfBabylonianProgramming",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
