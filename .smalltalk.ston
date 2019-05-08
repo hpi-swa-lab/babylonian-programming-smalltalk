@@ -1,0 +1,16 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'BabylonianProgramming',
+      #load : [ 'tests' ],
+      #directory : 'packages',
+      #platforms : [ #squeak ]
+    }
+  ],
+  #testing : {
+    #categories : [ 'BabylonianProgramming-*' ],
+    #coverage : {
+      #categories : [ 'BabylonianProgramming-*' ]
+    }
+  }
+}
