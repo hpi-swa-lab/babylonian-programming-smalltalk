@@ -7,7 +7,9 @@ baseline: spec
 			spec
 				baseline: 'Ohm' with: 
 					[ spec repository: 'github://hpi-swa/Ohm-S:master/packages' ];
-				package: 'BabylonianProgramming-Core' with: [spec requires: #('BabylonianProgramming-Compiler')];
+				package: 'ContextS2-Core' with:
+ 					[ spec repository: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/ContextSTrunk' ];
+				package: 'BabylonianProgramming-Core' with: [spec requires: #('BabylonianProgramming-Compiler' 'ContextS2-Core')];
 				package: 'BabylonianProgramming-Compiler' with: [spec requires: #('Ohm')];
 				package: 'BabylonianProgramming-Tests' with: [spec requires: #('BabylonianProgramming-Core')];
 				yourself.
