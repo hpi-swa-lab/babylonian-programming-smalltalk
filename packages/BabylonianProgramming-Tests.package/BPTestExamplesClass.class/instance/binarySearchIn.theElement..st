@@ -5,7 +5,7 @@ binarySearchIn: aCollection theElement: anElement
 	<exampleNamed: 'weird error' given: #(1 2) and: 2>
 	
 	| index low high test defaultDirectory anotherVariable |
-	defaultDirectory := "<bpReplace for='weird error' value='nil'>"FileDirectory default"</bpReplace>".
+	defaultDirectory := "<bpReplace for: 'weird error'; value: 'nil'>"FileDirectory default"</bpReplace>".
 	anotherVariable := "<bpProbe>"defaultDirectory / 'test'"<bpProbe>".
 	
 	low := 1.
