@@ -3,5 +3,6 @@
 		 },
 	"instance" : {
 		"methodA" : "pre 5/10/2019 10:42",
+		"methodAWithExamplesAndNestedReplacement" : "pre 5/10/2019 12:48",
 		"methodAWithExamplesAndReplacement" : "pre 5/10/2019 10:42",
 		"methodAWithExamplesAndReplacementAndAssertions" : "pre 5/10/2019 10:41" } }
