@@ -3,5 +3,5 @@ testTheTracingReturnsTheExpressionValueAnyways
 
 	| example methodResult |
 	example := BPExample new.
-	[methodResult := BPTestInstrumentedClass new methodA] bpTraceForExample: example.
+	[methodResult := BPTestManuallyInstrumentedClass new methodA] bpTraceForExample: example.
 	self assert: 2 equals: methodResult

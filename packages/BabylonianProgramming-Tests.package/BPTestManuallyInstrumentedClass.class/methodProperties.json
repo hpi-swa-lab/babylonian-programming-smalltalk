@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"methodA" : "pre 5/8/2019 17:55",
+		"methodA (bpInstrumented)" : "pre 5/10/2019 09:30",
+		"methodAWithExamplesAndReplacement" : "pre 5/10/2019 09:31",
+		"methodAWithExamplesAndReplacement (bpInstrumented)" : "pre 5/10/2019 09:31" } }
