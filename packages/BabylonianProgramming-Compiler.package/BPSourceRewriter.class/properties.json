@@ -12,5 +12,5 @@
 	"name" : "BPSourceRewriter",
 	"pools" : [
 		 ],
-	"super" : "OhmSmalltalkSourceRewriter",
+	"super" : "OhmSourceRewriter",
 	"type" : "normal" }
