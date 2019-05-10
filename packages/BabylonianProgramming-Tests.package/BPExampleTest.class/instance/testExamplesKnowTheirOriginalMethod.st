@@ -1,6 +1,6 @@
 tests
 testExamplesKnowTheirOriginalMethod
 
-	| method |
-	method := BPTestExamplesClass>>#binarySearchIn:theElement:.
-	self assert: method baseMethod equals: method bpExamples first method
+	self 
+		assert: ((method respondsTo: #baseMethod) ifTrue: [method baseMethod] ifFalse: [method])
+		equals: method bpExamples first method 

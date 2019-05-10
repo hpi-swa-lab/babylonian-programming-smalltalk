@@ -2,12 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
+		"createExamples" : "pre 5/10/2019 17:13",
 		"expectedFailures" : "pre 5/10/2019 16:49",
-		"testExamplesAreEqualIfTheirValuesAreEqual" : "pre 5/8/2019 16:58",
-		"testExamplesAreNotEqualIfTheirValuesAreNotEqual" : "pre 5/8/2019 17:01",
-		"testExamplesAreNotEqualIfTheyAreNotBothExamples" : "pre 5/8/2019 17:01",
+		"setUp" : "pre 5/10/2019 17:11",
+		"testExamplesAreEqualIfTheirValuesAreEqual" : "pre 5/10/2019 17:12",
+		"testExamplesAreNotEqualIfTheirValuesAreNotEqual" : "pre 5/10/2019 17:13",
+		"testExamplesAreNotEqualIfTheyAreNotBothExamples" : "pre 5/10/2019 17:13",
 		"testExamplesCanStartTheTracing" : "pre 5/10/2019 16:49",
-		"testExamplesKnowTheirArguments" : "pre 5/8/2019 16:55",
-		"testExamplesKnowTheirName" : "pre 5/8/2019 16:55",
-		"testExamplesKnowTheirOriginalMethod" : "pre 5/10/2019 16:45",
-		"testGetExamplesForAMethod" : "pre 5/8/2019 16:49" } }
+		"testExamplesKnowTheirArguments" : "pre 5/10/2019 17:12",
+		"testExamplesKnowTheirName" : "pre 5/10/2019 17:12",
+		"testExamplesKnowTheirOriginalMethod" : "pre 5/10/2019 17:12",
+		"testGetExamplesForAMethod" : "pre 5/10/2019 17:12" } }
