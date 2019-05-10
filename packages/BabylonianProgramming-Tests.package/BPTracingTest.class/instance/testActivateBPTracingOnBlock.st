@@ -3,5 +3,5 @@ testActivateBPTracingOnBlock
 
 	| result |
 	result := [BPTestManuallyInstrumentedClass new methodA] bpTrace.
-	self assert: result notNil 
+	self assert: result notNil.
 	
