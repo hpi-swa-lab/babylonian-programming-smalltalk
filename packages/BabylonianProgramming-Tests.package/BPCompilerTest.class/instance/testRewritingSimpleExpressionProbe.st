@@ -7,5 +7,6 @@ testRewritingSimpleExpressionProbe
 	"<bpProbe>"2 + 3"</bpProbe>"'
 		to:
 'method
+<layer: #bpInstrumented>
 
 (self bpTrace: (2 + 3) forId: 1 forExpression: ''2 + 3'' inContext: thisContext))'
