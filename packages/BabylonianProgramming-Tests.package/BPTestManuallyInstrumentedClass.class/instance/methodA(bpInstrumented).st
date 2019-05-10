@@ -1,4 +1,4 @@
-example methods
+as yet unclassified
 methodA
 	<layer: #bpInstrumented>
 	| a |

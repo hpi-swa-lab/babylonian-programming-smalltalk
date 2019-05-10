@@ -1,4 +1,4 @@
-example methods
+as yet unclassified
 methodAWithExamplesAndReplacementAndAssertions
 	<exampleNamed: 'some example'>
 	<exampleNamed: 'another example'>
