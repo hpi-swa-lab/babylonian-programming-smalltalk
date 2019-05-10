@@ -2,4 +2,5 @@ initialize-release
 initialize
 
 	super initialize.
-	probes := IdentityDictionary new
+	probes := IdentityDictionary new.
+	assertions := IdentityDictionary new.

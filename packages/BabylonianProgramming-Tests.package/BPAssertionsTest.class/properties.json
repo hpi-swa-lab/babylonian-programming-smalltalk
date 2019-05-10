@@ -1,16 +1,14 @@
 {
-	"category" : "BabylonianProgramming-Core",
+	"category" : "BabylonianProgramming-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"example",
-		"probes",
-		"assertions" ],
-	"name" : "BPTrace",
+		 ],
+	"name" : "BPAssertionsTest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestCase",
 	"type" : "normal" }

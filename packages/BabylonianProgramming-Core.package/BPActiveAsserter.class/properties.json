@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"example",
-		"probes",
-		"assertions" ],
-	"name" : "BPTrace",
+		 ],
+	"name" : "BPActiveAsserter",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "DynamicVariable",
 	"type" : "normal" }

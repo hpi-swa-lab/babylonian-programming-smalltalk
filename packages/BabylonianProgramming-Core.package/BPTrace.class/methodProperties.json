@@ -2,10 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addTracedValue:for:" : "pre 5/8/2019 16:43",
+		"addTracedValue:forAssertion:" : "pre 5/10/2019 10:09",
+		"addTracedValue:forProbe:" : "pre 5/10/2019 10:08",
+		"assertions" : "pre 5/10/2019 10:09",
 		"example" : "pre 5/8/2019 16:26",
 		"example:" : "pre 5/8/2019 16:26",
-		"initialize" : "pre 5/8/2019 16:44",
+		"initialize" : "pre 5/10/2019 10:10",
+		"newTracedValue:expression:stackFrom:" : "pre 5/10/2019 10:07",
 		"probes" : "pre 5/8/2019 16:44",
-		"trace:forId:forExpression:inContext:" : "pre 5/8/2019 18:37",
+		"resultsForAssertionId:" : "pre 5/10/2019 10:10",
+		"trace:forAssertion:inContext:" : "pre 5/10/2019 10:08",
+		"trace:forId:forExpression:inContext:" : "pre 5/10/2019 10:08",
 		"valuesForProbeId:" : "pre 5/8/2019 16:44" } }
