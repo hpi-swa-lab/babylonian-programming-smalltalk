@@ -3,5 +3,5 @@ methodSourceRequiresBPLayers: sourceCode
 
 	| sourceCodeString |
 	sourceCodeString := sourceCode asString.
-	^ self keywords anySatisfy: [:keyword |
+	^ self annotationKeywords anySatisfy: [:keyword |
 		sourceCodeString includesSubstring: keyword]

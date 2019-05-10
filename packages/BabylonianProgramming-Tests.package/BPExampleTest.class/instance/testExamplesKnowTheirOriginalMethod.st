@@ -1,6 +1,6 @@
-as yet unclassified
+tests
 testExamplesKnowTheirOriginalMethod
 
 	| method |
 	method := BPTestExamplesClass>>#binarySearchIn:theElement:.
-	self assert: method equals: method bpExamples first method
+	self assert: method baseMethod equals: method bpExamples first method

@@ -1,4 +1,4 @@
-as yet unclassified
+comparing
 = anotherExample
 
 	anotherExample class = self class ifFalse: [^ false].

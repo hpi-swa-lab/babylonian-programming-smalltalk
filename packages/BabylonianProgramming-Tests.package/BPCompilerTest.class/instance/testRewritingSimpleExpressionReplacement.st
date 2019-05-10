@@ -5,7 +5,7 @@ testRewritingSimpleExpressionReplacement
 		assertCompilerRewrites: 
 'method
 	<exampleNamed: ''example 1''>
-	"<bpReplacement for: ''example 1'' value: 10>"2 + 3"</bpReplacement>"'
+	"<bpReplace for: ''example 1'' value: 10>"2 + 3"</bpReplace>"'
 		to:
 'method
 <layer: #bpInstrumented>

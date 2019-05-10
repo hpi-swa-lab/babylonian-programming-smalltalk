@@ -2,8 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"compile:ifFail:" : "pre 5/8/2019 16:12",
+		"annotationKeywords" : "pre 5/10/2019 16:22",
+		"compile:ifFail:" : "pre 5/10/2019 16:47",
+		"compileInstrumentedVersionOf:" : "pre 5/10/2019 16:55",
 		"keywords" : "pre 5/8/2019 16:13",
-		"methodSourceRequiresBPLayers:" : "pre 5/8/2019 16:12",
-		"rewrite:" : "pre 5/10/2019 11:53",
+		"methodSourceRequiresBPLayers:" : "pre 5/10/2019 16:22",
+		"rewrite:" : "pre 5/10/2019 16:10",
 		"rewriter" : "pre 5/10/2019 13:15" } }

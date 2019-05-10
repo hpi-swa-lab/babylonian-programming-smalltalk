@@ -1,6 +1,10 @@
 private
 rewrite: originalCode
 
-	^ self rewriter value: (BPSmalltalkGrammar 
-					match: originalCode asString 
-					startingFrom: #MethodDeclaration).
+	| parseResult |
+	parseResult := BPSmalltalkGrammar 
+					match: originalCode asString
+					startingFrom: #MethodDeclaration.
+	^ parseResult succeeded 
+		ifTrue: [self rewriter value: parseResult]
+		ifFalse: [Error signal: 'parse failed']
