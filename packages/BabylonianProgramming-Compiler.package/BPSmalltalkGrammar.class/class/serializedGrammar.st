@@ -2,6 +2,9 @@ serialized grammar
 serializedGrammar
 ^ 'BPSmalltalk <: OhmSmalltalk {
 
+AnnotationInformation =
+	Operand KeywordMessage?
+
 Expression := AnnotatedExpression | NormalExpression
 	
 NormalExpression =
@@ -14,7 +17,7 @@ comment :=
 	~"\"<" "\"" (~"\"" (any | " " | "\n"))* "\""
 
 expressionAnnotationStart =
-	"\"<" space* ~"/" space* Expression space* ">\""
+	"\"<" space* ~"/" space* AnnotationInformation space* ">\""
 	
 expressionAnnotationEnd = 
 	"\"</" space* Operand space* ">\""

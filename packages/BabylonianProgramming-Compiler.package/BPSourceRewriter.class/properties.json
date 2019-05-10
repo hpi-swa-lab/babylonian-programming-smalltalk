@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"rewriter" ],
-	"name" : "BPCompiler",
+		"currentAnnotation",
+		"keywordMessageExtraction",
+		"currentProbeId" ],
+	"name" : "BPSourceRewriter",
 	"pools" : [
 		 ],
-	"super" : "Compiler",
+	"super" : "OhmSmalltalkSourceRewriter",
 	"type" : "normal" }

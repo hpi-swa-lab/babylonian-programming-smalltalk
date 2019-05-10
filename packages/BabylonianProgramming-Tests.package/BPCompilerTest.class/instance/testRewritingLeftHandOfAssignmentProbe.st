@@ -1,0 +1,4 @@
+tests
+testRewritingLeftHandOfAssignmentProbe
+
+	self fail

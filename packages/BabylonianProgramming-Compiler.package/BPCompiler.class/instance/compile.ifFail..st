@@ -1,4 +1,4 @@
-as yet unclassified
+public access
 compile: aCue ifFail: failBlock 
 
 	^ super compile: aCue ifFail: failBlock

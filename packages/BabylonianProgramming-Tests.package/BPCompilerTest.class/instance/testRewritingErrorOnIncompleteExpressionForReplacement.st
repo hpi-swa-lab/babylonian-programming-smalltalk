@@ -1,0 +1,4 @@
+tests
+testRewritingErrorOnIncompleteExpressionForReplacement
+
+	self fail

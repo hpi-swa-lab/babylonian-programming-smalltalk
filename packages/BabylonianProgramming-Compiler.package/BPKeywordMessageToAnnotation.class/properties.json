@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"rewriter" ],
-	"name" : "BPCompiler",
+		"currentAnnotation" ],
+	"name" : "BPKeywordMessageToAnnotation",
 	"pools" : [
 		 ],
-	"super" : "Compiler",
+	"super" : "OhmSynthesizedAttribute",
 	"type" : "normal" }

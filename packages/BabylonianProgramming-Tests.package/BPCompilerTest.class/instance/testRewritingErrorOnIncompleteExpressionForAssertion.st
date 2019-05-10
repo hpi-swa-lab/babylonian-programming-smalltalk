@@ -1,0 +1,4 @@
+tests
+testRewritingErrorOnIncompleteExpressionForAssertion
+
+	self fail

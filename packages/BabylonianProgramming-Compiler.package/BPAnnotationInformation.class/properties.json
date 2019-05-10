@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"rewriter" ],
-	"name" : "BPCompiler",
+		"tag",
+		"otherInformation" ],
+	"name" : "BPAnnotationInformation",
 	"pools" : [
 		 ],
-	"super" : "Compiler",
+	"super" : "Object",
 	"type" : "normal" }
