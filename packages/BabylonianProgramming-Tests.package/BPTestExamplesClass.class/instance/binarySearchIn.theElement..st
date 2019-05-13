@@ -4,12 +4,10 @@ binarySearchIn: aCollection theElement: anElement
 	<exampleNamed: 'not found' given: #(1 2 3) and: 4>
 	<exampleNamed: 'weird error' given: #(1 2) and: 2>
      
-	| index low high test defaultDirectory anotherVariable |
-	defaultDirectory := "<bpReplace for: 'weird error' value: 'nil'>"#someString"</bpReplace>".
-	anotherVariable := "<bpProbe>"defaultDirectory , #test"</bpProbe>".
-    
-	low := 1.
-	high := aCollection size.
+	| index low high test distance |
+	low := "<bpReplace for: 'not found' value: '2'>"1"</bpReplace>".
+	high := "<bpProbe>"aCollection size"</bpProbe>".
+	distance := "<bpProbe>"high - low"</bpProbe>". 	
 		
 	[ high < low ] whileFalse: [
 		index := high + low // 2.	
