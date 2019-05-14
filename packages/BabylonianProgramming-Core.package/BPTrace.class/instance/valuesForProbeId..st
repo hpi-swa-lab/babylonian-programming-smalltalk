@@ -1,4 +1,4 @@
 accessing
 valuesForProbeId: aProbeIde
 
-	^ self probes at: aProbeIde
+	^ self probes at: aProbeIde ifAbsent: [#()]
