@@ -7,7 +7,6 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"tracedValue",
-		"expressionSource",
 		"stack" ],
 	"name" : "BPTraceValue",
 	"pools" : [

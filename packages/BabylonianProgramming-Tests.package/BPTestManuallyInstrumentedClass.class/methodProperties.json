@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"methodA" : "pre 5/10/2019 10:42",
-		"methodACallingB" : "pre 5/14/2019 08:42",
-		"methodAWithExamplesAndNestedReplacement" : "pre 5/10/2019 12:48",
-		"methodAWithExamplesAndReplacement" : "pre 5/10/2019 10:42",
-		"methodAWithExamplesAndReplacementAndAssertions" : "pre 5/10/2019 10:41",
+		"methodA" : "pre 5/14/2019 16:56",
+		"methodACallingB" : "pre 5/14/2019 16:56",
+		"methodAWithExamplesAndNestedReplacement" : "pre 5/14/2019 16:58",
+		"methodAWithExamplesAndReplacement" : "pre 5/14/2019 16:58",
+		"methodAWithExamplesAndReplacementAndAssertions" : "pre 5/14/2019 16:58",
 		"methodB" : "",
-		"methodBInstrumented" : "" } }
+		"methodBInstrumented" : "pre 5/14/2019 16:58" } }

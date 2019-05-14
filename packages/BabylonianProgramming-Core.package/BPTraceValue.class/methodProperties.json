@@ -1,9 +1,7 @@
 {
 	"class" : {
-		"value:expression:stack:" : "pre 5/8/2019 18:36" },
+		"value:stack:" : "pre 5/14/2019 16:57" },
 	"instance" : {
-		"expressionSource" : "pre 5/8/2019 16:42",
-		"expressionSource:" : "pre 5/8/2019 16:42",
 		"printOn:" : "pre 5/13/2019 12:05",
 		"stack" : "pre 5/8/2019 18:36",
 		"stack:" : "pre 5/8/2019 18:36",
