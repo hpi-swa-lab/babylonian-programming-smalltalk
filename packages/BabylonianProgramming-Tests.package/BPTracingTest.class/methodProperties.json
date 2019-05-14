@@ -2,11 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "pre 5/14/2019 08:58",
+		"setUp" : "pre 5/14/2019 16:28",
 		"tearDown" : "pre 5/14/2019 08:52",
 		"testActivateBPTracingOnBlock" : "pre 5/10/2019 09:39",
 		"testActivateTracingGivenAnExample" : "pre 5/10/2019 09:29",
-		"testActivateTracingGivenAnExampleAndMethods" : "pre 5/14/2019 08:32",
+		"testActivateTracingGivenAnExampleAndMethods" : "pre 5/14/2019 16:29",
 		"testTheTracingReturnsTheExpressionValueAnyways" : "pre 5/10/2019 09:39",
 		"testTracingRecordsASerializedStack" : "pre 5/10/2019 09:29",
 		"testTracingRecordsValues" : "pre 5/10/2019 09:29" } }
