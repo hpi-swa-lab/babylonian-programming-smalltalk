@@ -7,8 +7,8 @@
 		"actualMethodWithAReceiver" : "pre 5/17/2019 14:09",
 		"methodA" : "pre 5/14/2019 16:56",
 		"methodACallingB" : "pre 5/14/2019 16:56",
-		"methodAWithExamplesAndNestedReplacement" : "pre 5/14/2019 16:58",
-		"methodAWithExamplesAndReplacement" : "pre 5/14/2019 16:58",
-		"methodAWithExamplesAndReplacementAndAssertions" : "pre 5/14/2019 16:58",
+		"methodAWithExamplesAndNestedReplacement" : "pre 5/17/2019 16:36",
+		"methodAWithExamplesAndReplacement" : "pre 5/17/2019 16:37",
+		"methodAWithExamplesAndReplacementAndAssertions" : "pre 5/17/2019 16:37",
 		"methodB" : "",
 		"methodBInstrumented" : "pre 5/14/2019 16:58" } }

@@ -1,6 +1,6 @@
 replacing
-replace: aBlockClosure with: anObject for: exampleName 
-	
-	^ self trace example exampleName = exampleName
-		ifTrue: [anObject]
-		ifFalse: aBlockClosure
+replace: originalCode with: replacementCode for: exampleName 
+
+	^ self example exampleName = exampleName
+ 		ifTrue: replacementCode
+		ifFalse: originalCode
