@@ -2,7 +2,7 @@
 bpReplace: aBlock with: anObject for: exampleName
 
 	^ #bpInstrumented withoutLayerDo: [
-		BPActiveReplacer value 
+		BPActiveTracer value 
 			replace: aBlock 
 			with: anObject 
 			for: exampleName].
