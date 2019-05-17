@@ -10,6 +10,8 @@
 		"testRewritingErrorOnIncompleteExpressionForReplacement" : "pre 5/10/2019 11:41",
 		"testRewritingErrorOnIncompleteExpressionProbe" : "pre 5/10/2019 11:41",
 		"testRewritingLeftHandOfAssignmentProbe" : "pre 5/10/2019 11:40",
-		"testRewritingNestedReplacements" : "pre 5/17/2019 16:39",
+		"testRewritingNestedReplacements" : "pre 5/17/2019 20:51",
+		"testRewritingSimpleExpressionAssertion" : "pre 5/17/2019 20:43",
+		"testRewritingSimpleExpressionGeneralAssertion" : "pre 5/17/2019 20:44",
 		"testRewritingSimpleExpressionProbe" : "pre 5/14/2019 17:00",
-		"testRewritingSimpleExpressionReplacement" : "pre 5/17/2019 16:37" } }
+		"testRewritingSimpleExpressionReplacement" : "pre 5/17/2019 20:51" } }

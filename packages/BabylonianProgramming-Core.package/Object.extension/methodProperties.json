@@ -2,6 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"bpAssert:forAssertion:given:inContext:" : "pre 5/17/2019 17:09",
+		"bpAssertAfter:that:forAssertion:given:inContext:" : "pre 5/17/2019 20:47",
 		"bpReplace:with:for:" : "pre 5/17/2019 17:09",
 		"bpTrace:forId:inContext:" : "pre 5/14/2019 16:55" } }
