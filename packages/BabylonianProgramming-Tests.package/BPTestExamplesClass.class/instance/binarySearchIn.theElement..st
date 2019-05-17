@@ -1,14 +1,14 @@
 example methods
 binarySearchIn: aCollection theElement: anElement
-	<exampleNamed: 'basic' given: #(1 2 3) and: 2> 
-	<exampleNamed: 'not found' given: #(1 2 3) and: 4>
-	<exampleNamed: 'weird error' given: #(1 2) and: 2>
+	<exampleNamed: 'basic' self: #empty given: #(1 2 3) and: 2> 
+	<exampleNamed: 'not found' self: #empty given: #(1 2 3) and: 4>
+	<exampleNamed: 'weird error' self: #empty given: #(1 2) and: 2>
      
 	| index low high test distance | 
-	low := "<bpReplace for: 'not found' value: 2>"1"</bpReplace>".
+	low := "<bpReplace for: 'not found' with: 2>"1"</bpReplace>".
 	high := "<bpProbe>"aCollection size"</bpProbe>".
 	distance := "<bpProbe>"high - low"</bpProbe>". 	
-	   
+	    
 	[ high < low ] whileFalse: [
 		index := high + low // 2.	
 		(test := anElement < (aCollection at: index))

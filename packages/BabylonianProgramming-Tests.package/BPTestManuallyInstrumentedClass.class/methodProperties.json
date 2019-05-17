@@ -1,7 +1,10 @@
 {
 	"class" : {
-		 },
+		"standard" : "pre 5/17/2019 14:17" },
 	"instance" : {
+		"aVariable" : "pre 5/17/2019 14:10",
+		"aVariable:" : "pre 5/17/2019 14:10",
+		"actualMethodWithAReceiver" : "pre 5/17/2019 14:09",
 		"methodA" : "pre 5/14/2019 16:56",
 		"methodACallingB" : "pre 5/14/2019 16:56",
 		"methodAWithExamplesAndNestedReplacement" : "pre 5/14/2019 16:58",

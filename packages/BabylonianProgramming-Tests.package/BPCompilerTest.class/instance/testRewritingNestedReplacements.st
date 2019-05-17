@@ -6,7 +6,7 @@ testRewritingNestedReplacements
 'method
 	<exampleNamed: ''example 1''>
 	<exampleNamed: ''example 2''>
-	"<bpReplace for: ''example 1'' value: 10>""<bpReplace for: ''example 2'' value: 5>"2 + 3"</bpReplace>""</bpReplace>"'
+	"<bpReplace for: ''example 1'' with: 10>""<bpReplace for: ''example 2'' with: 5>"2 + 3"</bpReplace>""</bpReplace>"'
 		to:
 'method
 <layer: #bpInstrumented>

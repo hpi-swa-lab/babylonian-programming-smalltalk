@@ -8,6 +8,7 @@
 	"instvars" : [
 		"method",
 		"exampleName",
+		"receiverConstructor",
 		"arguments" ],
 	"name" : "BPExample",
 	"pools" : [

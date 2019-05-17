@@ -1,0 +1,4 @@
+examples
+one
+
+	^ 1

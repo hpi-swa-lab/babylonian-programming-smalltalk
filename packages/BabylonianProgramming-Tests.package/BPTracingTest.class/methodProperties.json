@@ -8,5 +8,6 @@
 		"testActivateTracingGivenAnExample" : "pre 5/10/2019 09:29",
 		"testActivateTracingGivenAnExampleAndMethods" : "pre 5/14/2019 16:29",
 		"testTheTracingReturnsTheExpressionValueAnyways" : "pre 5/10/2019 09:39",
+		"testTracingExecutesMethodOnTheConstructedReceiver" : "pre 5/17/2019 14:17",
 		"testTracingRecordsASerializedStack" : "pre 5/10/2019 09:29",
 		"testTracingRecordsValues" : "pre 5/10/2019 09:29" } }
