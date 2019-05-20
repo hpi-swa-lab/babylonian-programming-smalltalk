@@ -4,5 +4,9 @@ addAndLog: aNumber
   <exampleNamed: 'large number' self: #one given: 94280292019202>
   | result |
   result := "<bpProbe>"self + aNumber"</bpProbe>".
-  "<bpReplace with: nil>"Transcript showln: result"</bpReplace>".
+  "<bpReplace with: [MockTranscript value showln: result] for: 'Number>>#incrementAndLog>>#withMockLogging'>"
+  "<bpReplace with: nil>"
+  	Transcript showln: result
+  "</bpReplace>"
+  "</bpReplace>".
   ^ "<bpAssert for: 'small number' that: [result = 21]>"result"</bpAssert>"

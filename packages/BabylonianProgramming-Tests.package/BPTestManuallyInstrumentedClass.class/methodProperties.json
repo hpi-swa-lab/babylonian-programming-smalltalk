@@ -5,10 +5,10 @@
 		"aVariable" : "pre 5/17/2019 14:10",
 		"aVariable:" : "pre 5/17/2019 14:10",
 		"actualMethodWithAReceiver" : "pre 5/17/2019 14:09",
-		"methodA" : "pre 5/14/2019 16:56",
-		"methodACallingB" : "pre 5/14/2019 16:56",
-		"methodAWithExamplesAndNestedReplacement" : "pre 5/17/2019 16:36",
-		"methodAWithExamplesAndReplacement" : "pre 5/17/2019 16:37",
-		"methodAWithExamplesAndReplacementAndAssertions" : "pre 5/17/2019 20:41",
+		"methodA" : "pre 5/20/2019 20:20",
+		"methodACallingB" : "pre 5/20/2019 20:20",
+		"methodAWithExamplesAndNestedReplacement" : "pre 5/20/2019 20:20",
+		"methodAWithExamplesAndReplacement" : "pre 5/20/2019 20:20",
+		"methodAWithExamplesAndReplacementAndAssertions" : "pre 5/20/2019 20:20",
 		"methodB" : "",
-		"methodBInstrumented" : "pre 5/14/2019 16:58" } }
+		"methodBInstrumented" : "pre 5/20/2019 20:20" } }

@@ -4,5 +4,5 @@ methodBInstrumented
 	t1 := 'hallo b'.
 	^ self
 		bpTrace: t1
-		forId: 11
+		forProbe: 11
 		inContext: thisContext

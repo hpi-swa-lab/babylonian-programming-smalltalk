@@ -1,8 +1,8 @@
 *BabylonianProgramming-Core
-bpTrace: anObject forId: probeId inContext: aContext
+bpTrace: anObject forProbe: probeId inContext: aContext
 
 	^ #bpInstrumented withoutLayerDo: [
 		BPActiveTracer value 
 			trace: anObject 
-			forId: probeId 
+			forProbe: probeId 
 			inContext: aContext]

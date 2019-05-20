@@ -1,5 +1,5 @@
 tracing
-trace: aValue forId: aProbeId inContext: aContext
+trace: aValue forProbe: aProbeId inContext: aContext
 
 	self trace 
 		trace: aValue 
