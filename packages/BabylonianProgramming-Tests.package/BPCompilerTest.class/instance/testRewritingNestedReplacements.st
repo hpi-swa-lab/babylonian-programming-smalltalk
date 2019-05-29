@@ -10,5 +10,5 @@ testRewritingNestedReplacements
 		to:
 'method
 <layer: #bpInstrumented>
-< exampleNamed: ''example1'' > < exampleNamed: ''example2'' >
+< exampleNamed: ''example 1'' > < exampleNamed: ''example 2'' >
 (self bpReplace: [(self bpReplace: [2 + 3] with: [5] for: ''example 2'')] with: [10] for: ''example 1'')'

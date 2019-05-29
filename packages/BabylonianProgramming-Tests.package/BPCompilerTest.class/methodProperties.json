@@ -3,15 +3,16 @@
 		 },
 	"instance" : {
 		"assertCompilerRewrites:to:" : "pre 5/10/2019 11:46",
-		"expectedFailures" : "pre 5/10/2019 11:50",
+		"expectedFailures" : "pre 5/29/2019 22:55",
 		"setUp" : "pre 5/10/2019 11:42",
 		"testCompilerRecognizesMethodsThatRequireRecompilation" : "pre 5/10/2019 11:42",
+		"testFromFormattedSourceCodeToAnnotatedSourceCode" : "pre 5/29/2019 18:48",
 		"testRewritingErrorOnIncompleteExpressionForAssertion" : "pre 5/10/2019 11:41",
 		"testRewritingErrorOnIncompleteExpressionForReplacement" : "pre 5/10/2019 11:41",
 		"testRewritingErrorOnIncompleteExpressionProbe" : "pre 5/10/2019 11:41",
 		"testRewritingLeftHandOfAssignmentProbe" : "pre 5/10/2019 11:40",
-		"testRewritingNestedReplacements" : "pre 5/17/2019 20:51",
-		"testRewritingSimpleExpressionAssertion" : "pre 5/17/2019 20:43",
-		"testRewritingSimpleExpressionGeneralAssertion" : "pre 5/17/2019 20:44",
+		"testRewritingNestedReplacements" : "pre 5/21/2019 16:45",
+		"testRewritingSimpleExpressionAssertion" : "pre 5/29/2019 09:18",
+		"testRewritingSimpleExpressionGeneralAssertion" : "pre 5/21/2019 16:45",
 		"testRewritingSimpleExpressionProbe" : "pre 5/20/2019 20:21",
-		"testRewritingSimpleExpressionReplacement" : "pre 5/17/2019 20:51" } }
+		"testRewritingSimpleExpressionReplacement" : "pre 5/21/2019 16:45" } }

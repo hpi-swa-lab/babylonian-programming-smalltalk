@@ -2,9 +2,17 @@
 	"class" : {
 		 },
 	"instance" : {
+		"annotatedExpressionSourceCode" : "pre 5/29/2019 18:07",
+		"annotatedExpressionSourceCode:" : "pre 5/29/2019 18:07",
 		"at:" : "pre 5/10/2019 12:41",
 		"at:addInformation:" : "pre 5/10/2019 12:41",
+		"enclosedExpressionSource" : "pre 5/29/2019 17:44",
+		"enclosedExpressionSource:" : "pre 5/29/2019 17:44",
 		"includesKey:" : "pre 5/17/2019 16:42",
 		"initialize" : "pre 5/10/2019 12:41",
+		"otherInformation" : "pre 5/29/2019 10:59",
+		"otherInformation:" : "pre 5/29/2019 10:59",
+		"startTagSource" : "pre 5/29/2019 10:59",
+		"startTagSource:" : "pre 5/29/2019 10:59",
 		"tag" : "pre 5/10/2019 12:01",
 		"tag:" : "pre 5/10/2019 12:01" } }

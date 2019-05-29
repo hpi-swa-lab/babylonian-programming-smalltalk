@@ -9,5 +9,5 @@ testRewritingSimpleExpressionGeneralAssertion
 		to:
 'method
 <layer: #bpInstrumented>
-< exampleNamed: ''example1'' >
+< exampleNamed: ''example 1'' >
 (self bpAssertAfter: [2 + 3] that: [2 = 2] forAssertion: 1 inContext: thisContext)'
