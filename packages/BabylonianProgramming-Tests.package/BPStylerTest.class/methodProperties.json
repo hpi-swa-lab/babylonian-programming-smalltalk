@@ -2,9 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"expectedFailures" : "pre 5/29/2019 17:36",
 		"testStylerSetsAnchorAttributeForNestedProbes" : "pre 5/29/2019 22:29",
 		"testStylerSetsAnchorAttributeForProbe" : "pre 5/29/2019 17:33",
 		"testStylerSetsAnchorCharacterForProbe" : "pre 5/29/2019 17:11",
-		"testStylerSetsAnchorForAssertion" : "pre 5/29/2019 09:19",
-		"testStylerSetsAnchorForReplacement" : "pre 5/29/2019 09:19" } }
+		"testStylerSetsAnchorForAssertion" : "pre 6/28/2019 10:49",
+		"testStylerSetsAnchorForReplacement" : "pre 6/28/2019 10:49" } }

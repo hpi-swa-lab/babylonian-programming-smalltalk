@@ -1,4 +1,0 @@
-tests
-expectedFailures
-
-	^ #(testStylerSetsAnchorForReplacement testStylerSetsAnchorForAssertion)
