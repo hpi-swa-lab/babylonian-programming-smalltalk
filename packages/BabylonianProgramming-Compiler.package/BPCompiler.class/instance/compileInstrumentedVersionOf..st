@@ -1,7 +1,9 @@
 private
 compileInstrumentedVersionOf: aCue
 
-	| instrumentedMethod newCode |
-	[newCode := self rewrite: aCue sourceStream contents asString.
+	| instrumentedMethod newCode results |
+	[newCode := self rewrite: aCue sourceStream contents asBPSource asString.
 	instrumentedMethod := aCue getClass compile: newCode.
-	((aCue getClass >> instrumentedMethod) bpExamples collect: [:example | example trace]) inspect] forkAt: Processor userBackgroundPriority
+	results := ((aCue getClass >> instrumentedMethod) bpExamples collect: [:example | example trace]).
+	(aCue getClass >> instrumentedMethod) baseMethod propertyValueAt: #bpTrace put: results] 
+		forkAt: Processor userBackgroundPriority

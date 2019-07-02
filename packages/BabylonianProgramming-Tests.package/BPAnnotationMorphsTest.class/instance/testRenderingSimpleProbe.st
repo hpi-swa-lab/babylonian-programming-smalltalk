@@ -11,4 +11,4 @@ testRenderingSimpleProbe
 	renderedSource := source asBPSource.
 	self assert: 'method
 <example>
-^ <bpProbe>2 + 3</bpProbe>' equals: renderedSource asString.
+^ "<bpProbe>"2 + 3"</bpProbe>"' equals: renderedSource asString.

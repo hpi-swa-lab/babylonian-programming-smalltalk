@@ -9,6 +9,7 @@ asBPSource
 	resultString := self string copy.
 	intervals := (runs asValuesAndIntervals associations sorted: [:i1 :i2 | 
 		i1 value start < i2 value start and: [i1 value size > i2 value size]]).
+	intervals := intervals select: [:assoc | assoc key anchoredMorph notNil].
 	intervals reversed do: [:association | | attribute interval startTag stopTag newExpression |
 		attribute := association key.
 		interval := association value.

@@ -1,0 +1,14 @@
+{
+	"category" : "BabylonianProgramming-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPAnnotationMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"extractIntervals" : "pre 5/29/2019 10:35",
+		"isAlreadyAnnotatedExpressionAt:in:" : "pre 5/29/2019 22:40",
+		"newMorphFor:" : "pre 7/1/2019 16:41",
+		"nextProbeId" : "pre 7/1/2019 14:04",
+		"privateFormat:" : "pre 7/1/2019 16:39",
+		"reformat:basedOn:" : "pre 7/1/2019 14:03",
+		"resetProbeId" : "pre 7/1/2019 14:04",
+		"selectedMethod:" : "pre 7/1/2019 16:38",
+		"textForAnnotation:from:at:" : "pre 6/28/2019 10:51" } }

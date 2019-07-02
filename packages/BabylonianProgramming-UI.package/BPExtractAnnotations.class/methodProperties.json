@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"AnnotatedExpression:startTag:actualExpression:endTag:" : "pre 5/29/2019 22:33",
+		"AnnotationInformation:with:and:" : "pre 5/29/2019 10:55",
+		"ExecutableCode:variables:with:code:" : "pre 5/29/2019 10:51",
+		"MethodDeclaration:with:and:and:" : "pre 5/29/2019 10:45",
+		"Pragma:with:with:with:" : "pre 6/5/2019 10:08",
+		"Pragmas:pragmas:" : "pre 5/29/2019 10:47",
+		"defaultExpression:" : "pre 5/29/2019 10:54",
+		"initialize" : "pre 5/29/2019 17:45" } }

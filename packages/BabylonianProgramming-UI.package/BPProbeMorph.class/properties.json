@@ -1,0 +1,15 @@
+{
+	"category" : "BabylonianProgramming-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"probeId",
+		"methodReference" ],
+	"name" : "BPProbeMorph",
+	"pools" : [
+		 ],
+	"super" : "BPAnnotationMorph",
+	"type" : "normal" }

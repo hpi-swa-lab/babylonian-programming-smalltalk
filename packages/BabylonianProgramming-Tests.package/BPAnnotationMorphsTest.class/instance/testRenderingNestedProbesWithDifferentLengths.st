@@ -16,4 +16,4 @@ testRenderingNestedProbesWithDifferentLengths
 	renderedSource := source asBPSource.
 	self assert: 'method
 <example>
-^ <bpProbe>2 <bpProbe>+</bpProbe> 3</bpProbe>' equals: renderedSource asString.
+^ "<bpProbe>"2 "<bpProbe>"+"</bpProbe>" 3"</bpProbe>"' equals: renderedSource asString.

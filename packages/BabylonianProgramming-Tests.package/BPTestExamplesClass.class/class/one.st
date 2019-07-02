@@ -1,4 +1,4 @@
 examples
 one
 
-	^ 1
+	^ self new

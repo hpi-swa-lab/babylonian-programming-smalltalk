@@ -16,4 +16,4 @@ testRenderingNestedProbes
 	renderedSource := source asBPSource.
 	self assert: 'method
 <example>
-^ <bpProbe><bpProbe>2 + 3</bpProbe></bpProbe>' equals: renderedSource asString.
+^ "<bpProbe>""<bpProbe>"2 + 3"</bpProbe>""</bpProbe>"' equals: renderedSource asString.

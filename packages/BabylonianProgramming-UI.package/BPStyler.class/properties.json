@@ -1,0 +1,16 @@
+{
+	"category" : "BabylonianProgramming-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"extractIntervals",
+		"currentProbeId",
+		"selectedMethod" ],
+	"name" : "BPStyler",
+	"pools" : [
+		 ],
+	"super" : "SHTextStylerST80",
+	"type" : "normal" }

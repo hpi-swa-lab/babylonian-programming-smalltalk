@@ -1,0 +1,17 @@
+{
+	"category" : "BabylonianProgramming-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"currentAnnotation",
+		"annotations",
+		"keywordMessageExtraction",
+		"expressionExtraction" ],
+	"name" : "BPExtractAnnotations",
+	"pools" : [
+		 ],
+	"super" : "OhmSynthesizedAttribute",
+	"type" : "normal" }

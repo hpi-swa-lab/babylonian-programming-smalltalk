@@ -1,8 +1,10 @@
 {
 	"class" : {
 		"empty" : "pre 5/17/2019 16:40",
-		"one" : "pre 5/17/2019 12:01" },
+		"one" : "pre 7/1/2019 14:22" },
 	"instance" : {
-		"addAndLog:" : "pre 5/20/2019 19:27",
+		"+" : "pre 7/1/2019 14:23",
+		"addAndLog:" : "pre 7/1/2019 17:18",
+		"addAndLog: (bpInstrumented)" : "pre 7/1/2019 17:18",
 		"binarySearchIn:theElement:" : "pre 5/17/2019 16:40",
 		"plainMethod" : "pre 5/10/2019 16:01" } }
