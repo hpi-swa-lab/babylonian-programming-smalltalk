@@ -1,4 +1,4 @@
 as yet unclassified
 stopTag
 
-	^ '"</bpProbe>"'
+	^ self annotation stopTag 

@@ -4,7 +4,8 @@
 		"one" : "pre 7/1/2019 14:22" },
 	"instance" : {
 		"+" : "pre 7/1/2019 14:23",
-		"addAndLog:" : "pre 7/1/2019 17:18",
-		"addAndLog: (bpInstrumented)" : "pre 7/1/2019 17:18",
-		"binarySearchIn:theElement:" : "pre 5/17/2019 16:40",
+		"addAndLog:" : "pre 7/2/2019 16:24",
+		"addAndLog: (bpInstrumented)" : "pre 7/2/2019 16:24",
+		"binarySearchIn:theElement:" : "pre 7/2/2019 16:22",
+		"binarySearchIn:theElement: (bpInstrumented)" : "pre 7/2/2019 16:22",
 		"plainMethod" : "pre 5/10/2019 16:01" } }

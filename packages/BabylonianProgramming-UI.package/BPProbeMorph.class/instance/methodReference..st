@@ -1,4 +1,4 @@
 accessing
 methodReference: anObject
 
-	methodReference := anObject.
+	^ self annotation methodReference: anObject

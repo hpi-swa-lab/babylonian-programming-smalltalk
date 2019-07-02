@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 selectedMethod: aMethod
 
 	selectedMethod := aMethod

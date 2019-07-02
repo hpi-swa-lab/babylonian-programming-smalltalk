@@ -1,4 +1,4 @@
-as yet unclassified
+stepping and presenter
 step
 	
 	| traces |
@@ -7,5 +7,5 @@ step
 	traces ifNotNil: [
 		self removeAllMorphs.
 		traces do: [:t | | valueMorph |
-			valueMorph :=  (t example exampleName , ': ' , (((t valuesForProbeId: self probeId) collect: [:v | v tracedValue]) joinSeparatedBy: ', ')) asMorph.
+			valueMorph :=  (t example exampleName , ': ' , (((t valuesForProbeId: self id) collect: [:v | v tracedValue]) joinSeparatedBy: ', ')) asMorph.
 			self addMorph: valueMorph]].

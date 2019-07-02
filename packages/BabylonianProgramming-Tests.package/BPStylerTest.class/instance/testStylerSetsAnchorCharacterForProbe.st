@@ -3,7 +3,7 @@ testStylerSetsAnchorCharacterForProbe
 
 	| formattedSourceCode originalSourceCode styler |
 	originalSourceCode := 'method
-	"<bpProbe>"2 + 3"</bpProbe>"' asText.
+	"<bpProbe id: 1>"2 + 3"</bpProbe>"' asText.
 	styler := BPStyler new.
 	formattedSourceCode := styler format: originalSourceCode.
 	

@@ -2,7 +2,7 @@ private
 textForAnnotation: annotation from: aText at: startTagStart
 
 	| newMorph startOfExpressionText expressionText |
-	newMorph := self newMorphFor: annotation tag.
+	newMorph := annotation asMorph.
 	newMorph textAnchorProperties
 		consumesHorizontalSpace: false;
 		verticalAlignment: #(top bottom).

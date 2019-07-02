@@ -1,0 +1,20 @@
+{
+	"category" : "BabylonianProgramming-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tag",
+		"otherInformation",
+		"startTagSource",
+		"enclosedExpressionSource",
+		"annotatedExpressionSourceCode",
+		"methodReference",
+		"id" ],
+	"name" : "BPAnnotation",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -3,7 +3,7 @@ testStylerSetsAnchorAttributeForProbe
 
 	| formattedSourceCode originalSourceCode styler anchorTextAttributes theTextAttribute |
 	originalSourceCode := 'method
-	"<bpProbe>"2 + 3"</bpProbe>"' asText.
+	"<bpProbe id: 31412>"2 + 3"</bpProbe>"' asText.
 	styler := BPStyler new.
 	formattedSourceCode := styler styledTextFor: originalSourceCode.
 	
@@ -17,4 +17,4 @@ testStylerSetsAnchorAttributeForProbe
 			assert: anchorTextAttributes notEmpty;
 			assert: anchorTextAttributes first = theTextAttribute;
 			assert: (anchorTextAttributes first anchoredMorph isKindOf: BPProbeMorph);
-			assert: anchorTextAttributes first anchoredMorph probeId = 1]
+			assert: anchorTextAttributes first anchoredMorph id = 31412]

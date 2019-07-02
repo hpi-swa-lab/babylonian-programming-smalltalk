@@ -6,8 +6,8 @@ binarySearchIn: aCollection theElement: anElement
        
 	| index low high test distance | 
 	low := "<bpReplace for: 'not found' with: [2]>"1"</bpReplace>".
-	high := "<bpProbe>"aCollection size"</bpProbe>".
-	distance := "<bpProbe>"high - low"</bpProbe>". 	
+	high := "<bpProbe id: 1>"aCollection size"</bpProbe>".
+	distance := "<bpProbe id: 2>"high - low"</bpProbe>". 	
 	    
 	[ high < low ] whileFalse: [
 		index := high + low // 2.	

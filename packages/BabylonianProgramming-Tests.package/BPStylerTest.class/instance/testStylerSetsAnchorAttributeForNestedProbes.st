@@ -3,7 +3,7 @@ testStylerSetsAnchorAttributeForNestedProbes
 
 	| formattedSourceCode originalSourceCode styler anchorTextAttributes theTextAttributes |
 	originalSourceCode := 'method
-	"<bpProbe>""<bpProbe>"2 + 3"</bpProbe>""</bpProbe>"' asText.
+	"<bpProbe id: 1>""<bpProbe id: 2>"2 + 3"</bpProbe>""</bpProbe>"' asText.
 	styler := BPStyler new.
 	formattedSourceCode := styler styledTextFor: originalSourceCode.
 	

@@ -1,0 +1,4 @@
+morphic
+asMorph
+
+	^ BPReplacementMorph new

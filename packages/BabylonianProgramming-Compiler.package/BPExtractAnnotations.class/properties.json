@@ -6,13 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"tag",
-		"otherInformation",
-		"startTagSource",
-		"enclosedExpressionSource",
-		"annotatedExpressionSourceCode" ],
-	"name" : "BPAnnotationInformation",
+		"currentAnnotation",
+		"annotations",
+		"keywordMessageExtraction",
+		"expressionExtraction" ],
+	"name" : "BPExtractAnnotations",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "OhmSynthesizedAttribute",
 	"type" : "normal" }

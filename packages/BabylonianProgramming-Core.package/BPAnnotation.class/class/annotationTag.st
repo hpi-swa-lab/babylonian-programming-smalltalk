@@ -1,0 +1,4 @@
+constants
+annotationTag
+
+	^ self subclassResponsibility

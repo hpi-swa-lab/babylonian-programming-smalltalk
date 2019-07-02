@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testStylerSetsAnchorAttributeForNestedProbes" : "pre 5/29/2019 22:29",
-		"testStylerSetsAnchorAttributeForProbe" : "pre 7/1/2019 14:04",
-		"testStylerSetsAnchorCharacterForProbe" : "pre 5/29/2019 17:11",
+		"testStylerSetsAnchorAttributeForNestedProbes" : "pre 7/2/2019 16:13",
+		"testStylerSetsAnchorAttributeForProbe" : "pre 7/2/2019 16:35",
+		"testStylerSetsAnchorCharacterForProbe" : "pre 7/2/2019 16:12",
 		"testStylerSetsAnchorForAssertion" : "pre 6/28/2019 10:49",
 		"testStylerSetsAnchorForReplacement" : "pre 6/28/2019 10:49" } }

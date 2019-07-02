@@ -10,7 +10,6 @@ reformat: aText basedOn: annotations
 	
 	| text startOfTag expressionStart sortedAnnotations replacementStart |
 	text := aText.
-	self resetProbeId.
 	
 	"Through sorting the annotations, we ensure that we replace the outer ones first as any smaller one might be enclosed in this one."
 	sortedAnnotations := annotations sorted: [:a1 :a2 | a1 annotatedExpressionSourceCode size > a2 annotatedExpressionSourceCode size].

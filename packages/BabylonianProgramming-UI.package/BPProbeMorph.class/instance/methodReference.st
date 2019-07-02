@@ -1,4 +1,4 @@
 accessing
 methodReference
 
-	^ methodReference
+	^ self annotation methodReference

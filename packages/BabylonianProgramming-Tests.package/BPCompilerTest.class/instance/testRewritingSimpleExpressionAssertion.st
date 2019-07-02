@@ -5,7 +5,7 @@ testRewritingSimpleExpressionAssertion
 		assertCompilerRewrites: 
 'method
 	<exampleNamed: ''example 1''>
-	"<bpAssert for: ''example 1'' that: [2 = 2]>"2 + 3"</bpReplace>"'
+	"<bpAssert id: 1 for: ''example 1'' that: [2 = 2]>"2 + 3"</bpReplace>"'
 		to:
 'method
 <layer: #bpInstrumented>

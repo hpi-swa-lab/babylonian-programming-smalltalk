@@ -7,7 +7,10 @@ privateFormat: aText
 					startingFrom: #MethodDeclaration.
 
 	^ parseResult succeeded 
-		ifTrue: [self reformat: aText basedOn: (self extractIntervals value: parseResult)]
+		ifTrue: [ | annotations |
+			annotations := self extractIntervals value: parseResult.
+			annotations do: [:annotation | annotation methodReference: selectedMethod].
+			self reformat: aText basedOn: annotations.]
 		ifFalse: [super privateFormat: aText"Error signal: 'parse failed'"].
 		
 	

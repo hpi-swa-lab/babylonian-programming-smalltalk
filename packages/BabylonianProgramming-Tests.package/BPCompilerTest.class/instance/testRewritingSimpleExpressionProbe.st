@@ -4,7 +4,7 @@ testRewritingSimpleExpressionProbe
 	self 
 		assertCompilerRewrites: 
 'method
-	"<bpProbe>"2 + 3"</bpProbe>"'
+	"<bpProbe id: 1>"2 + 3"</bpProbe>"'
 		to:
 'method
 <layer: #bpInstrumented>

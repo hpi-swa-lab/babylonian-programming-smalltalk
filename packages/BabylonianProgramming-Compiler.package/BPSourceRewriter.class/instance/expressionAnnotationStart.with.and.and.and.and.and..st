@@ -3,8 +3,10 @@ expressionAnnotationStart: aNode with: startString and: whitespace and: moreWhit
 
 	| previousAnnotation resultAnnotation |
 	previousAnnotation := currentAnnotation.
-	currentAnnotation := BPAnnotationInformation new.
+	
+	"The following sets currentAnnotation."
 	self value: annotationExpression.
+	
 	resultAnnotation := currentAnnotation.
 	currentAnnotation := previousAnnotation.
 	^ resultAnnotation
