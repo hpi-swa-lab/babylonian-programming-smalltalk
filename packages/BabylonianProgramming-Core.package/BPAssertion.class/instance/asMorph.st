@@ -1,4 +1,9 @@
 morphic
 asMorph
 
-	^ BPAssertionMorph new
+	| newMorph |
+	newMorph := BPAssertionMorph new
+		annotation: self;
+		yourself.
+	self updateTextAnchorPropertiesOf: newMorph.
+	^ newMorph

@@ -1,6 +1,9 @@
 morphic
 asMorph
 
-	^ BPProbeMorph new
+	| newMorph |
+	newMorph := BPProbeMorph new
 		annotation: self;
-		yourself
+		yourself.
+	self updateTextAnchorPropertiesOf: newMorph.
+	^ newMorph

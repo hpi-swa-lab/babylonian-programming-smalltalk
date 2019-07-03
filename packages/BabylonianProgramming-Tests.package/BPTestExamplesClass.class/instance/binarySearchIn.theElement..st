@@ -5,9 +5,9 @@ binarySearchIn: aCollection theElement: anElement
 	<exampleNamed: 'weird error' self: #empty given: #(1 2) and: 2>
        
 	| index low high test distance | 
-	low := "<bpReplace for: 'not found' with: [2]>"1"</bpReplace>".
-	high := "<bpProbe id: 1>"aCollection size"</bpProbe>".
-	distance := "<bpProbe id: 2>"high - low"</bpProbe>". 	
+	low := 1.
+	high := aCollection size.
+	distance := high - low. 	
 	    
 	[ high < low ] whileFalse: [
 		index := high + low // 2.	

@@ -1,4 +1,9 @@
 morphic
 asMorph
 
-	^ BPReplacementMorph new
+	| newMorph |
+	newMorph := BPReplacementMorph new
+		annotation: self;
+		yourself.
+	self updateTextAnchorPropertiesOf: newMorph.
+	^ newMorph

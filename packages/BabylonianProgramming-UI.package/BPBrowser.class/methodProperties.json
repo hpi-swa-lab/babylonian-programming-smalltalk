@@ -2,4 +2,14 @@
 	"class" : {
 		"initialize" : "pre 7/1/2019 16:36" },
 	"instance" : {
-		"aboutToStyle:" : "pre 7/2/2019 15:03" } }
+		"aboutToStyle:" : "pre 7/2/2019 15:03",
+		"addAnnotation:" : "pre 7/3/2019 12:04",
+		"addAssertionToSelection" : "pre 7/3/2019 11:28",
+		"addProbeToSelection" : "pre 7/3/2019 11:29",
+		"addReplacementToSelection" : "pre 7/3/2019 11:28",
+		"annotationsInSelection" : "pre 7/3/2019 11:14",
+		"codePaneMenuAnnotationItems:" : "pre 7/3/2019 11:42",
+		"removeAnnotationsSatisfying:" : "pre 7/3/2019 12:05",
+		"removeAssertionFromSelection" : "pre 7/3/2019 12:06",
+		"removeProbeFromSelection" : "pre 7/3/2019 11:29",
+		"removeReplacementFromSelection" : "pre 7/3/2019 12:06" } }

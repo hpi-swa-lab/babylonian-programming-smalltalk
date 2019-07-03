@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"initialize" : "pre 7/1/2019 17:16",
+		"isProbe" : "pre 7/3/2019 11:11",
 		"methodReference" : "pre 7/2/2019 16:38",
 		"methodReference:" : "pre 7/2/2019 16:39",
 		"startTag" : "pre 7/2/2019 16:39",
