@@ -1,0 +1,1 @@
+This class can convert between a text with TextAnchor attributes including BPAnnotations and source code with annotations in comments.
