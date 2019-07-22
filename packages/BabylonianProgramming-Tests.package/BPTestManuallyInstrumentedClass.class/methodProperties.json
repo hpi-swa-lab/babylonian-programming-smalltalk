@@ -7,6 +7,7 @@
 		"actualMethodWithAReceiver" : "pre 5/17/2019 14:09",
 		"methodA" : "pre 5/20/2019 20:20",
 		"methodACallingB" : "pre 5/20/2019 20:20",
+		"methodAWithExamplesAndNestedProbeInReplacement" : "pre 7/12/2019 17:00",
 		"methodAWithExamplesAndNestedReplacement" : "pre 5/20/2019 20:20",
 		"methodAWithExamplesAndReplacement" : "pre 5/20/2019 20:20",
 		"methodAWithExamplesAndReplacementAndAssertions" : "pre 5/20/2019 20:20",

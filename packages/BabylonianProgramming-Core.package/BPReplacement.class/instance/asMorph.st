@@ -6,4 +6,5 @@ asMorph
 		annotation: self;
 		yourself.
 	self updateTextAnchorPropertiesOf: newMorph.
+	newMorph color: Color transparent.
 	^ newMorph

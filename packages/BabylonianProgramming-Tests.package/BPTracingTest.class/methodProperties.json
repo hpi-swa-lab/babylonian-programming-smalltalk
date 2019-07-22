@@ -10,4 +10,5 @@
 		"testTheTracingReturnsTheExpressionValueAnyways" : "pre 5/10/2019 09:39",
 		"testTracingExecutesMethodOnTheConstructedReceiver" : "pre 5/17/2019 14:17",
 		"testTracingRecordsASerializedStack" : "pre 5/10/2019 09:29",
-		"testTracingRecordsValues" : "pre 5/10/2019 09:29" } }
+		"testTracingRecordsValues" : "pre 5/10/2019 09:29",
+		"testTracingRecordsValuesInReplacementsBaseCase" : "pre 7/12/2019 17:00" } }

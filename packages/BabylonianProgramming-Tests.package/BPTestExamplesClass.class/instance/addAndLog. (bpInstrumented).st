@@ -1,4 +1,4 @@
-as yet unclassified
+private
 addAndLog: aNumber
 <layer: #bpInstrumented>
 < exampleNamed: 'small number' self: #one given: 20 > < exampleNamed: 'large number' self: #one given: 94280292019202 >
