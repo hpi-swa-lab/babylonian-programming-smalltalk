@@ -10,7 +10,9 @@
 		"annotationsInSelection" : "pre 7/3/2019 11:14",
 		"codePaneMenuAnnotationItems:" : "pre 7/3/2019 11:42",
 		"compileMessage:notifying:" : "pre 7/3/2019 12:17",
+		"removeAnnotations:" : "pre 7/22/2019 18:28",
 		"removeAnnotationsSatisfying:" : "pre 7/3/2019 12:05",
 		"removeAssertionFromSelection" : "pre 7/3/2019 12:06",
 		"removeProbeFromSelection" : "pre 7/3/2019 11:29",
-		"removeReplacementFromSelection" : "pre 7/3/2019 12:06" } }
+		"removeReplacementFromSelection" : "pre 7/3/2019 12:06",
+		"removeSelectedAnnotationsSatisfying:" : "pre 7/22/2019 18:26" } }

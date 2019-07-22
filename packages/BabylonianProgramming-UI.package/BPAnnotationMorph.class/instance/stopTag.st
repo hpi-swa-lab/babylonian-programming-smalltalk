@@ -1,4 +1,4 @@
-as yet unclassified
+serialization
 stopTag
 
 	^ self subclassResponsibility
