@@ -3,9 +3,9 @@
 		 },
 	"instance" : {
 		"annotation:" : "pre 7/22/2019 18:32",
-		"emptyTraces" : "pre 7/22/2019 18:40",
+		"emptyTraces" : "pre 7/23/2019 10:25",
 		"exploreButtonClickedFor:" : "pre 7/23/2019 09:16",
-		"initialize" : "pre 7/22/2019 18:35",
+		"initialize" : "pre 7/23/2019 11:14",
 		"isProbe" : "pre 7/3/2019 11:11",
 		"methodReference" : "pre 7/2/2019 16:38",
 		"methodReference:" : "pre 7/2/2019 16:39",
@@ -14,5 +14,5 @@
 		"step" : "pre 7/22/2019 17:47",
 		"stepTime" : "pre 7/1/2019 17:18",
 		"stopTag" : "pre 7/2/2019 16:39",
-		"updateFrom:" : "pre 7/23/2019 09:45",
-		"valuesTextFor:" : "pre 7/23/2019 09:56" } }
+		"updateFrom:" : "pre 7/23/2019 11:18",
+		"valuesTextFor:" : "pre 7/23/2019 11:05" } }

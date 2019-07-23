@@ -9,4 +9,4 @@ initialize
 		listDirection: #leftToRight;
 		hResizing: #shrinkWrap;
 		vResizing: #shrinkWrap;
-		layoutInset: 7.
+		layoutInset: 3.

@@ -3,6 +3,6 @@ addAndLog: aNumber
 	<exampleNamed: 'small number' self: #one given: 20>
   	<exampleNamed: 'large number' self: #one given: 94280292019202>
   	| result |
-  	1 to: 10 do: [:i | result := "<bpProbe id: 3232>"self + aNumber"</bpProbe>"].  
+  	1 to: 100 do: [:i | result := "<bpProbe id: 3232>"self + aNumber"</bpProbe>"].  
   	Transcript showln: result.
   	^ result
