@@ -3,9 +3,6 @@ textForAnnotation: annotation from: aText at: startTagStart
 
 	| newMorph startOfExpressionText expressionText |
 	newMorph := annotation asMorph.
-	newMorph textAnchorProperties
-		consumesHorizontalSpace: false;
-		verticalAlignment: #(top bottom).
 	
 	startOfExpressionText := aText indexOfSubCollection: annotation enclosedExpressionSource startingAt: startTagStart.
 	expressionText := aText copyFrom: startOfExpressionText to: startOfExpressionText + annotation enclosedExpressionSource size - 1.

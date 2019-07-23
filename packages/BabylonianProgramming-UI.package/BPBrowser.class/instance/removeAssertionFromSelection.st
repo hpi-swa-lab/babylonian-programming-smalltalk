@@ -1,4 +1,4 @@
 annotations menu
 removeAssertionFromSelection
 
-	self removeAnnotationsSatisfying: [:a | a isAssertion]
+	self removeSelectedAnnotationsSatisfying: [:a | a isAssertion]

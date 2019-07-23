@@ -1,4 +1,4 @@
-as yet unclassified
+ui
 color
 
-	^ Color indexedColors atWrap: self exampleName hash
+	^ Color indexedColors reversed atWrap: self exampleName hash

@@ -1,4 +1,4 @@
 annotations menu
 removeReplacementFromSelection
 
-	self removeAnnotationsSatisfying: [:a | a isReplacement]
+	self removeSelectedAnnotationsSatisfying: [:a | a isReplacement]

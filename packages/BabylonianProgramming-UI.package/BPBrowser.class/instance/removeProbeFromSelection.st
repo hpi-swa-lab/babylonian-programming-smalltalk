@@ -1,4 +1,4 @@
 annotations menu
 removeProbeFromSelection
 
-	self removeAnnotationsSatisfying: [:a | a isProbe]
+	self removeSelectedAnnotationsSatisfying: [:a | a isProbe]

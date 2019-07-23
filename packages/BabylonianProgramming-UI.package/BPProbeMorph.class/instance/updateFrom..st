@@ -4,17 +4,6 @@ updateFrom: traces
 	| exampleLabel exampleLabelMorph lineMorph removeButton exploreButton examplesMorph |
 	self removeAllMorphs.
 	
-	removeButton := IconicButton new.
-	removeButton 
-		labelGraphic: (BPIcons xIcon scaledToSize: self iconSize * 0.8);
-		color: Color transparent;
-		borderWidth: 0;
-		extent: removeButton extent * 0.8.
-	removeButton 
-		actionSelector: #removeButtonClicked;
-		target: self.
-	self addMorph: removeButton.
-	
 	examplesMorph := Morph new
 		color: Color transparent;
 		changeTableLayout;
@@ -66,13 +55,24 @@ updateFrom: traces
 				target: self.
 			
 			lineMorph 
-				addMorph: valuesMorph;
-				addMorph: exampleLabelMorph;
-				addMorph: exploreButton.
+				addMorphBack: exploreButton;
+				addMorphBack: exampleLabelMorph;
+				addMorphBack: valuesMorph.
 				
-			examplesMorph addMorph: lineMorph].
+			examplesMorph addMorphBack: lineMorph].
 		
-	self addMorph: examplesMorph.
+	self addMorphBack: examplesMorph.
+		
+	removeButton := IconicButton new.
+	removeButton 
+		labelGraphic: (BPIcons xIcon scaledToSize: self iconSize * 0.8);
+		color: Color transparent;
+		borderWidth: 0;
+		extent: removeButton extent * 0.8.
+	removeButton 
+		actionSelector: #removeButtonClicked;
+		target: self.
+	self addMorphBack: removeButton.
 		
 	self owner ifNotNil: [
 		"This may be called before we are actually part of a text layout"

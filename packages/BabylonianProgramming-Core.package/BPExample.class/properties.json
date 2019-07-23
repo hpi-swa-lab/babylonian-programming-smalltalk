@@ -9,7 +9,8 @@
 		"method",
 		"exampleName",
 		"receiverConstructor",
-		"argumentScripts" ],
+		"argumentScripts",
+		"isActive" ],
 	"name" : "BPExample",
 	"pools" : [
 		 ],

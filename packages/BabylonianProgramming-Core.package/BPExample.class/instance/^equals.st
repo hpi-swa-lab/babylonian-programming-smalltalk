@@ -4,6 +4,6 @@ comparing
 	anotherExample class = self class ifFalse: [^ false].
 	^ self method = anotherExample method
 		and: [self exampleName = anotherExample exampleName]
-		and: [self arguments = anotherExample arguments]
+		and: [self argumentScripts = anotherExample argumentScripts]
 
 	

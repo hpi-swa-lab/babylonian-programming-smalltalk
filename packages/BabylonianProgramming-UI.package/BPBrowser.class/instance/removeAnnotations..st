@@ -16,7 +16,6 @@ removeAnnotations: aCollectionOfAnnotations
 			with: (newContent copyFrom: interval start + 1 to: interval stop).
 		newContent removeAttribute: attr]. 
 	
-	self codeTextMorph setText: newContent.
-	self codeTextMorph hasUnacceptedEdits: true.
-	self codeTextMorph accept.
+	self saveMethodWithExamplesWith: newContent.
+	
 	
