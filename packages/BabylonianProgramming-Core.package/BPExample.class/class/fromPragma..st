@@ -10,8 +10,8 @@ fromPragma: aPragma
 	(aPragma keyword beginsWith: 'exampleNamed:self:') 
 		ifTrue: [newExample 
 			receiverConstructor: (aPragma arguments second);
-			arguments: (aPragma arguments allButFirst: 2)]
-		ifFalse: [newExample arguments: aPragma arguments allButFirst].
+			argumentScripts: (aPragma arguments allButFirst: 2)]
+		ifFalse: [newExample argumentScripts: aPragma arguments allButFirst].
 		
 	^ newExample
 

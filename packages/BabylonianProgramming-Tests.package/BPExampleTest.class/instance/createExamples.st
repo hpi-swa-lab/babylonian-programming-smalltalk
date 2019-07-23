@@ -5,5 +5,5 @@ createExamples
 		example
 			method: method;
 			exampleName: 'test name';
-			arguments: #(1 2 3);
+			argumentScripts: #('1' '2' '3');
 			yourself].
