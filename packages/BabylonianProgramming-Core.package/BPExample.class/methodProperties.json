@@ -1,9 +1,10 @@
 {
 	"class" : {
-		"bpExamplePragmaSelectors" : "pre 5/17/2019 14:15",
+		"bpExamplePragmaSelectors" : "pre 7/23/2019 12:41",
 		"fromPragma:" : "pre 7/23/2019 09:24" },
 	"instance" : {
 		"=" : "pre 5/8/2019 17:00",
+		"argumentScripts" : "pre 7/23/2019 12:20",
 		"argumentScripts:" : "pre 7/23/2019 09:23",
 		"arguments" : "pre 7/23/2019 09:24",
 		"arguments:" : "pre 5/8/2019 16:54",

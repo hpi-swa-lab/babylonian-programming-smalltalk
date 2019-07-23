@@ -1,4 +1,4 @@
 tests
 testGetExamplesForAMethod
 
-	self assert: 3 equals: method bpExamples size
+	self assert: 4 equals: method bpExamples size

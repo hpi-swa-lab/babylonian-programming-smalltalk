@@ -1,4 +1,4 @@
-nil
+testing
 isReplacement
 
 	^ true

@@ -2,8 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "pre 7/22/2019 18:37",
-		"testRenderingNestedProbes" : "pre 7/22/2019 18:37",
-		"testRenderingNestedProbesWithDifferentLengths" : "pre 7/22/2019 18:37",
-		"testRenderingSiblingProbes" : "pre 7/22/2019 18:38",
-		"testRenderingSimpleProbe" : "pre 7/22/2019 18:38" } }
+		"method" : "pre 7/23/2019 12:41",
+		"setUp" : "pre 7/23/2019 12:30",
+		"testRenderingExample" : "pre 7/23/2019 12:41",
+		"testRenderingNestedProbes" : "pre 7/23/2019 12:27",
+		"testRenderingNestedProbesWithDifferentLengths" : "pre 7/23/2019 12:27",
+		"testRenderingSiblingProbes" : "pre 7/23/2019 12:27",
+		"testRenderingSimpleProbe" : "pre 7/23/2019 12:27" } }

@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"collectAnnotation" ],
-	"name" : "BPAnnotatedExpressionExtraction",
+		"example" ],
+	"name" : "BPExampleMorph",
 	"pools" : [
 		 ],
-	"super" : "OhmSynthesizedAttribute",
+	"super" : "BPAnnotationMorph",
 	"type" : "normal" }

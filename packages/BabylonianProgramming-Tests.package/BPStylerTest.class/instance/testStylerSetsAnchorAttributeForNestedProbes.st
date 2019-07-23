@@ -1,10 +1,9 @@
 tests
 testStylerSetsAnchorAttributeForNestedProbes
 
-	| formattedSourceCode originalSourceCode styler anchorTextAttributes theTextAttributes |
+	| formattedSourceCode originalSourceCode anchorTextAttributes theTextAttributes |
 	originalSourceCode := 'method
 	"<bpProbe id: 1>""<bpProbe id: 2>"2 + 3"</bpProbe>""</bpProbe>"' asText.
-	styler := BPStyler new.
 	formattedSourceCode := styler styledTextFor: originalSourceCode.
 	
 	theTextAttributes := (formattedSourceCode attributesAt: 9) select: [:attribute | 

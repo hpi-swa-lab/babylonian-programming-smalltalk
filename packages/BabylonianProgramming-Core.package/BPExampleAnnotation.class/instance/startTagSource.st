@@ -1,0 +1,4 @@
+accessing
+startTagSource
+
+	^ self annotatedExpressionSourceCode

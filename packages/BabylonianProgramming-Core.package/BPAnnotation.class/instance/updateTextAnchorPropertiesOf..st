@@ -1,4 +1,4 @@
-as yet unclassified
+ui
 updateTextAnchorPropertiesOf: aMorph
 
 	aMorph textAnchorProperties
