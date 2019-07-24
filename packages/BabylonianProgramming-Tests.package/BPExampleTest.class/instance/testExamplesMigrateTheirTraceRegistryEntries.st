@@ -4,6 +4,6 @@ testExamplesMigrateTheirTraceRegistryEntries
 	| examples |
 	BPTraces value: Dictionary new during: [
 		examples := self createExamples.
-		BPTraces value at: examples first uniqueIdentifier put: examples first.
+		BPTraces value at: examples first exampleReference put: examples first.
 		examples first exampleName: 'some otherName'.
-		self assert: examples first equals: (BPTraces value at: examples first uniqueIdentifier) ]
+		self assert: examples first equals: (BPTraces value at: examples first exampleReference) ]
