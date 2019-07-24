@@ -6,10 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"example",
-		"hasSeenChange" ],
-	"name" : "BPExampleMorph",
+		"string",
+		"onChangeBlock" ],
+	"name" : "BPStringValueModel",
 	"pools" : [
 		 ],
-	"super" : "BPAnnotationMorph",
+	"super" : "Model",
 	"type" : "normal" }
