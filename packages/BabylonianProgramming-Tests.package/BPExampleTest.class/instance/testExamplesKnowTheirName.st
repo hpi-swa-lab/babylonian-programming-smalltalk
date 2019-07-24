@@ -1,4 +1,4 @@
 tests
 testExamplesKnowTheirName
 
-	self assert: 'basic' equals: method bpExamples first exampleName
+	self assert: ((method bpExamples collect: [:example | example exampleName]) includes: 'basic')

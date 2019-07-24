@@ -6,6 +6,7 @@ testRenderingExample
 ',Character startOfHeader,'
 ^ 2 + 3') asText.	
 	example := BPExample new
+		method: methodReference compiledMethod;
 		exampleName: 'example 1';
 		argumentScripts: #('Object new' . #(1 2 3) . nil);
 		yourself.
@@ -19,6 +20,6 @@ testRenderingExample
 	
 	renderedSource := source asBPSource.
 	self assert: 'method
-<exampleNamed: ''example 1'' self: #tester given: ''Object new'' and: #(1 2 3) and: nil>
+<exampleNamed: ''example 1'' active: true self: #tester given: ''Object new'' and: #(1 2 3) and: nil>
 ^ 2 + 3' equals: renderedSource.
 	

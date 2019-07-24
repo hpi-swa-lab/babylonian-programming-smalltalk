@@ -3,4 +3,4 @@ runExamples
 
 	| results |
 	results := self bpActiveExamples collect: [:example | example trace].
-	self propertyValueAt: #bpTrace put: results
+	results do: [:t | BPTraces value at: t example uniqueIdentifier put: t].
