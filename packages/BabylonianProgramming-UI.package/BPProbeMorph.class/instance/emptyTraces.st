@@ -1,8 +1,6 @@
 private
 emptyTraces
 
-	^ (BPTraces value keys collect: [:exampleReference | | example |
+	^ (BPTraces value keys select: [:exampleReference | | example |
 		example := exampleReference actualExample.
-		example isActive
-			ifTrue: [BPTrace new example: example; yourself]
-			ifFalse: [nil]]) reject: [:v | v isNil]
+		example isActive]) collect: [:e | BPTrace new example: e actualExample; yourself]
