@@ -1,9 +1,8 @@
 private
 emptyTraces
 
-	^ self methodReference 
-		ifNil: [ "Because we may run as part of a test without a compiled method --pre"
-			#()] 
-		ifNotNil: [:methodReference | 
-			methodReference compiledMethod bpActiveExamples collect: [:example | 
-				BPTrace new example: example; yourself]]
+	^ (BPTraces value keys collect: [:exampleReference | | example |
+		example := exampleReference actualExample.
+		example isActive
+			ifTrue: [BPTrace new example: example; yourself]
+			ifFalse: [nil]]) reject: [:v | v isNil]

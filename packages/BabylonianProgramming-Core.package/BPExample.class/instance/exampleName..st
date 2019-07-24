@@ -1,11 +1,11 @@
 accessing
-exampleName: aString
+exampleName: aStringOrText
 
-	BPTraces value at: self uniqueIdentifier 
+	BPTraces value at: self exampleReference 
 		ifPresent: [:value |
-			BPTraces value removeKey: self uniqueIdentifier.
-			exampleName := aString.	
-			BPTraces value at: self uniqueIdentifier put: value]
-		ifAbsent: [exampleName := aString]
+			BPTraces value removeKey: self exampleReference.
+			exampleName := aStringOrText asString.	
+			BPTraces value at: self exampleReference put: value]
+		ifAbsent: [exampleName := aStringOrText asString]
 	
 	

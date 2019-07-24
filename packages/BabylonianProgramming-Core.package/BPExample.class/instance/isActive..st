@@ -1,4 +1,6 @@
 accessing
-isActive: anObject
+isActive: aBoolean
 	
-	isActive := anObject.
+	isActive := aBoolean.
+	aBoolean ifFalse: [
+		BPTraces value removeKey: self exampleReference].

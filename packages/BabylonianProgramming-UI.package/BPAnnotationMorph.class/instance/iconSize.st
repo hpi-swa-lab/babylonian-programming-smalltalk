@@ -1,4 +1,4 @@
 private - ui
 iconSize
 
-	^ TextStyle defaultFont height * 0.9
+	^ self fontHeight * 0.9
