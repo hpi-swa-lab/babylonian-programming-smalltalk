@@ -8,6 +8,9 @@ runExamples
 		exampleExecution := [[promise resolveWith: example trace]
 			on: BPExampleExecutionInterrupted
 			do: [:e | 
+				"We need to remember this in order to terminate example processes
+				whenever a trace leaves the registry."
+				e trace exampleExecutionProcess: Processor activeProcess.
 				promise resolveWith: e trace.
 				Processor activeProcess suspend.]].
-		exampleExecution forkAt: Processor userBackgroundPriority].
+		exampleExecution forkAt: Processor userBackgroundPriority named: 'Execution of example ' , example exampleName].

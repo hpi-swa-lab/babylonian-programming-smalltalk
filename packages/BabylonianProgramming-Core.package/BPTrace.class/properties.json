@@ -10,7 +10,8 @@
 		"probes",
 		"assertions",
 		"exampleErrored",
-		"recordedException" ],
+		"recordedException",
+		"exampleExecutionProcess" ],
 	"name" : "BPTrace",
 	"pools" : [
 		 ],

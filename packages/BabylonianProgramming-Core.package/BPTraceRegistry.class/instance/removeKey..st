@@ -1,4 +1,6 @@
 accessing
 removeKey: anExampleReference
 
-	^ mutex critical: [dictionary removeKey: anExampleReference]
+	^ mutex critical: [
+		self ensureTerminatedProcessAt: anExampleReference.
+		dictionary removeKey: anExampleReference]
