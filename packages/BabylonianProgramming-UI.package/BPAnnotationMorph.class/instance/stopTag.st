@@ -1,4 +1,4 @@
 serialization
 stopTag
 
-	^ self subclassResponsibility
+	^ self annotation stopTag

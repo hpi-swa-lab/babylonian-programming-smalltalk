@@ -1,4 +1,4 @@
 serialization
 startTag
 
-	^ self subclassResponsibility
+	^ self annotation startTag
