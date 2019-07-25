@@ -4,8 +4,10 @@
 		"one" : "pre 7/1/2019 14:22" },
 	"instance" : {
 		"+" : "pre 7/1/2019 14:23",
-		"addAndLog: (bpInstrumented)" : "pre 7/25/2019 12:11",
+		"addAndLog:" : " 7/25/2019 15:41:14",
+		"addAndLog: (bpInstrumented)" : "pre 7/25/2019 15:16",
 		"binarySearchIn:theElement:" : "pre 7/25/2019 13:57",
-		"binarySearchIn:theElement: (bpInstrumented)" : "pre 7/25/2019 13:57",
+		"binarySearchIn:theElement: (bpInstrumented)" : "pre 7/25/2019 15:36",
 		"otherMethod" : "pre 7/25/2019 12:11",
+		"otherMethod (bpInstrumented)" : "pre 7/25/2019 12:11",
 		"plainMethod" : "pre 5/10/2019 16:01" } }

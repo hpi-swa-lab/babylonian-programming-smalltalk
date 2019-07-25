@@ -1,4 +1,4 @@
 fixtures
 method
-<exampleNamed: 'example 1' active: true self: #tester given: 'Object new' and: #(1 2 3) and: nil>  
+<exampleNamed: 'example 1' active: true self: #tester with: 'Object new' with: #(1 2 3) with: nil>  
 ^ 2 + 3 

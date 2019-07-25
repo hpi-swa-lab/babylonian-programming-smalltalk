@@ -9,7 +9,7 @@
 		"testActivateTracingGivenAnExampleAndMethods" : "pre 5/14/2019 16:29",
 		"testTheTracingReturnsTheExpressionValueAnyways" : "pre 5/10/2019 09:39",
 		"testTracingAnErrorRecordsTheStack" : "pre 7/25/2019 12:22",
-		"testTracingAnErrorShouldNotLeakAnyExceptions" : "pre 7/25/2019 11:27",
+		"testTracingAnErrorShouldNotLeakAnyExceptions" : "pre 7/25/2019 15:40",
 		"testTracingExecutesMethodOnTheConstructedReceiver" : "pre 5/17/2019 14:17",
 		"testTracingRecordsASerializedStack" : "pre 5/10/2019 09:29",
 		"testTracingRecordsValues" : "pre 5/10/2019 09:29",

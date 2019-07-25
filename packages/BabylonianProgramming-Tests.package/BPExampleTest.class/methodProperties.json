@@ -10,8 +10,8 @@
 		"testExamplesAreNotEqualIfTheirValuesAreNotEqual" : "pre 5/10/2019 17:13",
 		"testExamplesAreNotEqualIfTheyAreNotBothExamples" : "pre 5/10/2019 17:13",
 		"testExamplesCanStartTheTracing" : "pre 5/10/2019 16:49",
-		"testExamplesKnowTheirArguments" : "pre 7/24/2019 11:44",
-		"testExamplesKnowTheirName" : "pre 7/24/2019 11:45",
+		"testExamplesKnowTheirArguments" : "pre 7/25/2019 15:38",
+		"testExamplesKnowTheirName" : "pre 7/25/2019 15:35",
 		"testExamplesKnowTheirOriginalMethod" : "pre 5/10/2019 17:12",
-		"testExamplesMigrateTheirTraceRegistryEntries" : "pre 7/25/2019 13:17",
+		"testExamplesMigrateTheirTraceRegistryEntries" : "pre 7/25/2019 15:32",
 		"testGetExamplesForAMethod" : "pre 7/23/2019 12:19" } }

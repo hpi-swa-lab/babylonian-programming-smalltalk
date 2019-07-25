@@ -1,8 +1,8 @@
 as yet unclassified
 binarySearchIn: aCollection theElement: anElement
 <layer: #bpInstrumented>
-< exampleNamed: 'basic' self: #empty given: # ( 1 2 3 ) and: 1 > < exampleNamed: 'not found' active: true self: #empty given: # ( 1 2 3 ) and: 4 > < exampleNamed: 'error example' self: #empty given: # ( 1 2 ) and: 2 > < exampleNamed: 'complex example' self: #empty given: '{DateAndTime yesterday . DateAndTime tomorrow . DateAndTime now}' and: 'DateAndTime now' >
-| index low high test distance |  low := 1 / 0.
+< exampleNamed: 'basic' self: #empty with: # ( 1 2 3 ) with: 1 > < exampleNamed: 'not found' active: true self: #empty with: # ( 1 2 3 ) with: 4 > < exampleNamed: 'error example' self: #empty with: # ( 1 2 ) with: 2 > < exampleNamed: 'complex example' self: #empty with: '{DateAndTime yesterday . DateAndTime tomorrow . DateAndTime now}' with: 'DateAndTime now' >
+| index low high test distance |  low := 1.
 high := aCollection size.
 self otherMethod.
 distance := (self bpTrace: [high - low] forProbe: 686534 inContext: thisContext).

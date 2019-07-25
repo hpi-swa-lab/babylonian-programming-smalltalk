@@ -3,4 +3,8 @@ testTracingAnErrorShouldNotLeakAnyExceptions
 
 	self 
 		shouldnt: [(BPTestManuallyInstrumentedClass>>#methodWithError) bpExamples first trace]
-		raise: BPExampleExecutionInterrupted , ZeroDivide.
+		raise: ZeroDivide.
+		
+	self
+		should: [(BPTestManuallyInstrumentedClass>>#methodWithError) bpExamples first trace]
+		raise: BPExampleExecutionInterrupted

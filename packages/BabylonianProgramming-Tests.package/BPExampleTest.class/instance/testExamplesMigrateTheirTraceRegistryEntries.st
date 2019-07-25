@@ -1,9 +1,10 @@
 tests
 testExamplesMigrateTheirTraceRegistryEntries
 
-	| examples |
+	| examples someTrace |
 	BPTraces value: BPTraceRegistry new during: [
 		examples := self createExamples.
-		BPTraces value at: examples first exampleReference put: examples first.
+		someTrace := BPTrace new.
+		BPTraces value at: examples first exampleReference put: someTrace.
 		examples first exampleName: 'some otherName'.
-		self assert: examples first equals: (BPTraces value at: examples first exampleReference) ]
+		self assert: someTrace equals: (BPTraces value at: examples first exampleReference) ]

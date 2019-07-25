@@ -1,5 +1,5 @@
 example methods
-methodBInstrumented
+methodBInstrumented 
 	| t1 |
 	t1 := 'hallo b'.
 	^ self
