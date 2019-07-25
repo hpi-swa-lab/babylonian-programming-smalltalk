@@ -1,4 +1,5 @@
 SmalltalkCISpec {
+  #preLoading : 'scripts/TextAnchorPlacement.cs',
   #loading : [
     SCIMetacelloLoadSpec {
       #baseline : 'BabylonianProgramming',
