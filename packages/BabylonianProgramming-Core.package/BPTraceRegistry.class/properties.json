@@ -4,11 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "pre 7/25/2019 13:14",
 	"instvars" : [
-		"trace" ],
-	"name" : "BPExampleExecutionInterrupted",
+		"mutex",
+		"dictionary" ],
+	"name" : "BPTraceRegistry",
 	"pools" : [
 		 ],
-	"super" : "Notification",
+	"super" : "Object",
 	"type" : "normal" }

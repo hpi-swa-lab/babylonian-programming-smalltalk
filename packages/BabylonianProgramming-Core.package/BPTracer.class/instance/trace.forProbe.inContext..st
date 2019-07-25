@@ -6,7 +6,7 @@ trace: aBlock forProbe: aProbeId inContext: aContext
 		on: Error 
 		do: [:e | 
 			self trace traceException: e forId: aProbeId.
-			BPExampleExecutionInterrupted signal].
+			e signal].
 	self trace 
 		trace: result
 		forId: aProbeId 

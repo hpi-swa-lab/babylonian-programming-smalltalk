@@ -6,8 +6,8 @@ bpTraceForExample: anExample
 	#bpInstrumented withLayerDo: [
 		BPActiveTracer value: tracer during: [
 			self 
-				on: BPExampleExecutionInterrupted
-				do: [:e | "just continue"]
 				on: Error
-				do: [:e | BPActiveTracer value traceException: e]]].
+				do: [:e | 
+					BPActiveTracer value traceException: e.
+					BPExampleExecutionInterrupted signal: tracer trace]]].
 	^ tracer trace

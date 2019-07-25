@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"at:" : "pre 7/25/2019 13:15",
+		"at:ifAbsent:" : "pre 7/25/2019 13:18",
+		"at:ifPresent:ifAbsent:" : "pre 7/25/2019 13:20",
+		"at:put:" : "pre 7/25/2019 13:16",
+		"initialize" : "pre 7/25/2019 13:15",
+		"keys" : "pre 7/25/2019 13:17",
+		"removeKey:" : "pre 7/25/2019 13:17",
+		"removeKey:ifAbsent:" : "pre 7/25/2019 13:20" } }

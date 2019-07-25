@@ -1,0 +1,1 @@
+This class is only necessary to make access to this global variable thread-safe.

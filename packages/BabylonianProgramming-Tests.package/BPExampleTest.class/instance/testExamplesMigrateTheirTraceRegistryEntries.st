@@ -2,7 +2,7 @@ tests
 testExamplesMigrateTheirTraceRegistryEntries
 
 	| examples |
-	BPTraces value: Dictionary new during: [
+	BPTraces value: BPTraceRegistry new during: [
 		examples := self createExamples.
 		BPTraces value at: examples first exampleReference put: examples first.
 		examples first exampleName: 'some otherName'.

@@ -1,6 +1,13 @@
 *BabylonianProgramming-Core
 runExamples
 
-	| results |
-	results := self bpActiveExamples collect: [:example | example trace].
-	results do: [:t | BPTraces value at: t example exampleReference put: t].
+	self bpActiveExamples do: [:example | |promise exampleExecution|
+		promise := Promise new.
+		promise whenResolved: [:trace |
+			BPTraces value at: trace example exampleReference put: trace].
+		exampleExecution := [[promise resolveWith: example trace]
+			on: BPExampleExecutionInterrupted
+			do: [:e | 
+				promise resolveWith: e trace.
+				Processor activeProcess suspend.]].
+		exampleExecution forkAt: Processor userBackgroundPriority].
