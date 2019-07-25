@@ -6,13 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"example",
-		"probes",
-		"assertions",
-		"exampleErrored",
-		"recordedException" ],
-	"name" : "BPTrace",
+		 ],
+	"name" : "BPExampleExecutionInterrupted",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "Error",
 	"type" : "normal" }

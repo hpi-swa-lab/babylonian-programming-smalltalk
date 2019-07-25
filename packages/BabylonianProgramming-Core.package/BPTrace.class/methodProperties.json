@@ -7,11 +7,16 @@
 		"assertions" : "pre 5/10/2019 10:09",
 		"example" : "pre 5/8/2019 16:26",
 		"example:" : "pre 5/8/2019 16:26",
+		"exampleErrored" : "pre 7/25/2019 12:19",
 		"includesValuesForProbeId:" : "pre 7/24/2019 11:30",
-		"initialize" : "pre 5/10/2019 10:10",
+		"initialize" : "pre 7/25/2019 12:18",
 		"newTracedValue:expression:stackFrom:" : "pre 7/23/2019 11:25",
 		"probes" : "pre 5/8/2019 16:44",
+		"recordedException" : "pre 7/25/2019 12:28",
+		"recordedException:" : "pre 7/25/2019 12:29",
 		"resultsForAssertionId:" : "pre 5/10/2019 10:10",
 		"trace:forAssertion:inContext:" : "pre 5/10/2019 10:08",
 		"trace:forId:inContext:" : "pre 5/14/2019 17:00",
-		"valuesForProbeId:" : "pre 5/14/2019 08:59" } }
+		"traceException:" : "pre 7/25/2019 12:29",
+		"traceException:forId:" : "pre 7/25/2019 12:29",
+		"valuesForProbeId:" : "pre 7/25/2019 12:26" } }

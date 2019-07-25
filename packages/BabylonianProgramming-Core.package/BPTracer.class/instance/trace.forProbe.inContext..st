@@ -1,9 +1,15 @@
 tracing
-trace: aValue forProbe: aProbeId inContext: aContext
+trace: aBlock forProbe: aProbeId inContext: aContext
 
+	| result |
+	result := aBlock 
+		on: Error 
+		do: [:e | 
+			self trace traceException: e forId: aProbeId.
+			BPExampleExecutionInterrupted signal].
 	self trace 
-		trace: aValue 
+		trace: result
 		forId: aProbeId 
 		inContext: aContext.
 		
-	^ aValue
+	^ result
