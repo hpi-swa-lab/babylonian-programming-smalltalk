@@ -1,6 +1,7 @@
 {
 	"class" : {
-		 },
+		"initialize" : "pre 7/25/2019 13:55",
+		"shutDown:" : "pre 7/25/2019 13:56" },
 	"instance" : {
 		"at:" : "pre 7/25/2019 13:15",
 		"at:ifAbsent:" : "pre 7/25/2019 13:18",
@@ -9,5 +10,6 @@
 		"ensureTerminatedProcessAt:" : "pre 7/25/2019 13:49",
 		"initialize" : "pre 7/25/2019 13:15",
 		"keys" : "pre 7/25/2019 13:17",
+		"removeAll" : "pre 7/25/2019 13:56",
 		"removeKey:" : "pre 7/25/2019 13:47",
 		"removeKey:ifAbsent:" : "pre 7/25/2019 13:47" } }

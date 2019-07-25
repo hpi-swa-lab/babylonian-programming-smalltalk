@@ -1,11 +1,10 @@
 example methods
 binarySearchIn: aCollection theElement: anElement
-	<exampleNamed: 'basic' active: true self: #empty given: #(1 2 3) and: 1>                                                                                                                                                       
-	<exampleNamed: 'not found' active: true self: #empty given: #(1 2 3) and: 4>                                                                                                                                                      
-	<exampleNamed: 'error example' self: #empty given: #(1 2) and: 2>                                                                                                                                                      
-	<exampleNamed: 'complex example' self: #empty given: '{DateAndTime yesterday . DateAndTime tomorrow . DateAndTime now}' and: 'DateAndTime now'>                                                                                                                                                      
+	<exampleNamed: 'basic' self: #empty given: #(1 2 3) and: 1>          
+	<exampleNamed: 'not found' active: true self: #empty given: #(1 2 3) and: 4>            
+	<exampleNamed: 'error example' self: #empty given: #(1 2) and: 2>                                                                                                                                                                 	<exampleNamed: 'complex example' self: #empty given: '{DateAndTime yesterday . DateAndTime tomorrow . DateAndTime now}' and: 'DateAndTime now'>                                                                                                                                                                            
 	| index low high test distance | 
-	low := 1.  
+	low := 1 / 0.   
 	high := aCollection size.
 	self otherMethod.
 	distance := "<bpProbe id: 686534>"high - low"</bpProbe>". 	

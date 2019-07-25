@@ -1,6 +1,6 @@
-as yet unclassified
+example methods
 otherMethod
-<layer: #bpInstrumented>
-
-| a |  a := (self bpTrace: [2 + 3] forProbe: 6486778 inContext: thisContext).
- ^ a
+ 
+	| a |
+	a := "<bpProbe id: 6486778>"2 + 3"</bpProbe>".
+	^ a 
