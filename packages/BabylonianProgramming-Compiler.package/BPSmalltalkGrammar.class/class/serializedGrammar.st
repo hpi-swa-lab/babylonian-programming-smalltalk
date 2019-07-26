@@ -5,13 +5,23 @@ serializedGrammar
 AnnotationInformation =
 	Operand KeywordMessage?
 
-Expression := AnnotatedExpression | NormalExpression
+Expression := NormalExpression | AnnotatedExpression
 	
 NormalExpression =
 	Operand (MessageChain CascadedMessage*)?
 
 AnnotatedExpression =
 	expressionAnnotationStart Expression expressionAnnotationEnd
+	
+Operand := NormalOperand | AnnotatedOperand
+
+NormalOperand =
+	Literal
+	| Reference
+	| NestedExpression
+
+AnnotatedOperand =
+	expressionAnnotationStart Operand expressionAnnotationEnd
 
 comment :=
 	~"\"<" "\"" (~"\"" (any | " " | "\n"))* "\""

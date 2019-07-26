@@ -6,6 +6,7 @@
 		"setUp" : "pre 7/23/2019 12:07",
 		"testStylerSetsAnchorAttributeForNestedProbes" : "pre 7/23/2019 12:06",
 		"testStylerSetsAnchorAttributeForProbe" : "pre 7/23/2019 12:06",
+		"testStylerSetsAnchorAttributeForProbeOnOperand" : "pre 7/26/2019 10:51",
 		"testStylerSetsAnchorCharacterForProbe" : "pre 7/23/2019 12:06",
 		"testStylerSetsAnchorForAssertion" : "pre 7/23/2019 12:12",
 		"testStylerSetsAnchorForExample" : "pre 7/23/2019 12:06",

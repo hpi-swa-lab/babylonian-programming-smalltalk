@@ -1,14 +1,16 @@
 {
 	"class" : {
+		"compilerClass" : "pre 7/26/2019 10:07",
 		"initialize" : "pre 7/1/2019 16:36" },
 	"instance" : {
 		"aboutToStyle:" : "pre 7/2/2019 15:03",
 		"addAnnotation:" : "pre 7/3/2019 12:04",
 		"addAssertionToSelection" : "pre 7/3/2019 11:28",
+		"addExample" : "pre 7/26/2019 14:07",
 		"addProbeToSelection" : "pre 7/3/2019 11:29",
 		"addReplacementToSelection" : "pre 7/3/2019 11:28",
 		"annotationsInSelection" : "pre 7/3/2019 11:14",
-		"codePaneMenuAnnotationItems:" : "pre 7/3/2019 11:42",
+		"codePaneMenuAnnotationItems:" : "pre 7/26/2019 09:53",
 		"compileMessage:notifying:" : "pre 7/3/2019 12:17",
 		"messageList" : "pre 7/24/2019 16:08",
 		"removeAnnotations:" : "pre 7/23/2019 14:47",

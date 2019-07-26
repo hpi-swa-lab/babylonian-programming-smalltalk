@@ -2,7 +2,7 @@ tracing
 trace: aBlock forProbe: aProbeId inContext: aContext
 
 	| result |
-	result := aBlock 
+	result := [#bpInstrumented withLayerDo: aBlock]
 		on: Error 
 		do: [:e | 
 			self trace traceException: e forId: aProbeId.

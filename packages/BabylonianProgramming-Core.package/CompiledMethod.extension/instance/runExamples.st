@@ -1,7 +1,7 @@
 *BabylonianProgramming-Core
 runExamples
 
-	self bpActiveExamples do: [:example | |promise exampleExecution|
+	BPTraces value activeExamples do: [:example | |promise exampleExecution|
 		promise := Promise new.
 		promise whenResolved: [:trace |
 			BPTraces value at: trace example exampleReference put: trace].

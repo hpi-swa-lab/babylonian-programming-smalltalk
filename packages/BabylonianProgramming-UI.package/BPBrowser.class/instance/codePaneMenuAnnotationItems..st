@@ -5,6 +5,7 @@ codePaneMenuAnnotationItems: aMenu
 	<menuPriority: 400>
 	| annotationsInSelection |
 	aMenu 
+		add: 'add example' action: #addExample;
 		add: 'add probe' action: #addProbeToSelection;
 		add: 'add assertion' action: #addAssertionToSelection;
 		add: 'add replacement' action: #addReplacementToSelection.

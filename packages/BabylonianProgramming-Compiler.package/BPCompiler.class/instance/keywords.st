@@ -1,4 +1,4 @@
 private
 keywords
 
-	^ #(bpProbe bpReplace)
+	^ #(bpProbe bpReplace bpAssert exampleNamed)
