@@ -1,4 +1,6 @@
 actions
 removeButtonClicked
 
-	self containingBrowser removeAnnotations: {self annotation}
+	BPTraces value removeKey: self example.
+	self containingBrowser removeAnnotations: {self annotation}.
+	
