@@ -11,7 +11,5 @@ privateFormat: aText
 			[annotations := self extractIntervals value: parseResult.
 			annotations do: [:annotation | annotation methodReference: selectedMethod].
 			self reformat: aText basedOn: annotations.]
-				on: Error do: [super privateFormat: aText]]
-		ifFalse: [super privateFormat: aText"Error signal: 'parse failed'"].
-		
-	
+				on: Error do: [:e | e signal. super privateFormat: aText]]
+		ifFalse: [super privateFormat: aText].

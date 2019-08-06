@@ -4,10 +4,8 @@ step
 	| newTraces |
 	self methodReference ifNil: [^ false].
 	newTraces := self getTraces.
-	(newTraces notNil and: [newTraces notEmpty])  
-		ifTrue: [
-			newTraces ~= displayedTraces ifTrue: [
-				self updateFrom: newTraces.
-				displayedTraces := newTraces]]
-		ifFalse: [
-			self updateFrom: self emptyTraces]
+	newTraces ~= displayedTraces ifTrue: [
+		(newTraces notNil and: [newTraces notEmpty])  
+			ifTrue: [	self updateFrom: newTraces]
+			ifFalse: [self updateFrom: self emptyTraces].
+		displayedTraces := newTraces]
