@@ -14,4 +14,5 @@
 		"testExamplesKnowTheirName" : "pre 7/25/2019 15:35",
 		"testExamplesKnowTheirOriginalMethod" : "pre 5/10/2019 17:12",
 		"testExamplesMigrateTheirTraceRegistryEntries" : "pre 7/25/2019 15:32",
-		"testGetExamplesForAMethod" : "pre 7/23/2019 12:19" } }
+		"testGetExamplesForAMethod" : "pre 7/23/2019 12:19",
+		"testNewExample" : "pre 8/7/2019 10:59" } }

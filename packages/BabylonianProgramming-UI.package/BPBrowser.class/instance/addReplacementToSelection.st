@@ -1,4 +1,4 @@
 annotations menu
 addReplacementToSelection
 
-	self addAnnotation: BPReplacement new
+	self addAnnotationAtSelection: BPReplacement new

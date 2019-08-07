@@ -1,5 +1,5 @@
 annotations menu
 addProbeToSelection
 
-	self addAnnotation: BPProbe new.
+	self addAnnotationAtSelection: BPProbe new.
 	

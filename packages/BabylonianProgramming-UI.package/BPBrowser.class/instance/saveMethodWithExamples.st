@@ -2,4 +2,4 @@ private
 saveMethodWithExamples
 
 	self codeTextMorph hasUnacceptedEdits: true.
-	self codeTextMorph accept.
+	self codeTextMorph accept

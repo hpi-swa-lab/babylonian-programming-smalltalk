@@ -11,5 +11,5 @@ privateFormat: aText
 			[annotations := self extractIntervals value: parseResult.
 			annotations do: [:annotation | annotation methodReference: selectedMethod].
 			self reformat: aText basedOn: annotations.]
-				on: Error do: [:e | e signal. super privateFormat: aText]]
+				on: Error do: [:e | super privateFormat: aText]]
 		ifFalse: [super privateFormat: aText].

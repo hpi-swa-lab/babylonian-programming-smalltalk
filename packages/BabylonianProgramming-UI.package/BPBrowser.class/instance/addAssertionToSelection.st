@@ -1,4 +1,4 @@
 annotations menu
 addAssertionToSelection
 
-	self addAnnotation: BPAssertion new
+	self addAnnotationAtSelection: BPAssertion new

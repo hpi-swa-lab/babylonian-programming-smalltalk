@@ -1,6 +1,6 @@
 private
 removeSelectedAnnotationsSatisfying: aSelectBlock
-
+	   
 	| attributes attributesToBeRemoved |
 	attributes := self codeTextMorph text attributesAt: self codeTextMorph selectionInterval start.
 	attributesToBeRemoved := attributes select: [:attr | 

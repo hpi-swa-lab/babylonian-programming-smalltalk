@@ -1,16 +1,16 @@
 annotations menu
 codePaneMenuAnnotationItems: aMenu
-
-	<codePaneMenu>
+	                  
+	<codePaneMenu> 
 	<menuPriority: 400>
 	| annotationsInSelection |
-	aMenu 
+	aMenu
 		add: 'add example' action: #addExample;
 		add: 'add probe' action: #addProbeToSelection;
 		add: 'add assertion' action: #addAssertionToSelection;
 		add: 'add replacement' action: #addReplacementToSelection.
 	aMenu addLine.
-	annotationsInSelection := self annotationsInSelection.
+	annotationsInSelection := "<bpProbe id: 2372880>"self annotationsInSelection"</bpProbe>".
 	(annotationsInSelection anySatisfy: [:a | a isProbe]) ifTrue: [
 		aMenu add: 'remove probe' action: #removeProbeFromSelection].
 	(annotationsInSelection anySatisfy: [:a | a isAssertion]) ifTrue: [
