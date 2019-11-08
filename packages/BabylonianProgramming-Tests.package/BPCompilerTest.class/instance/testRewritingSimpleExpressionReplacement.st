@@ -8,6 +8,6 @@ testRewritingSimpleExpressionReplacement
 	"<bpReplace for: ''example 1'' with: [10]>"2 + 3"</bpReplace>"'
 		to:
 'method
-<layer: #bpInstrumented>
-< exampleNamed: ''example 1'' >
-(self bpReplace: [2 + 3] with: [10] for: ''example 1'')'
+	<layer: #bpInstrumented>
+	<exampleNamed: ''example 1''>
+	(self bpReplace: [2 + 3] with: [10] for: ''example 1'')'

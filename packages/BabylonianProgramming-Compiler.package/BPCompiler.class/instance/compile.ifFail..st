@@ -2,7 +2,7 @@ public access
 compile: aCue ifFail: failBlock 
 
 	| originalMethod bpSource basicCue |
-	bpSource := aCue sourceStream contents asBPSource asString.
+	bpSource := aCue sourceStream contents asString.
 	basicCue := CompilationCue
 		source: bpSource readStream
 		context: aCue context 
@@ -12,7 +12,7 @@ compile: aCue ifFail: failBlock
 		requestor: aCue requestor.
 	originalMethod := super compile: basicCue ifFail: failBlock.
 	
-	bpSource := aCue sourceStream contents asBPSource asString.
+	bpSource := originalMethod sourceText asString.
 	(self methodSourceRequiresBPLayers: bpSource) ifTrue: [
 		self compileInstrumentedVersionOf: aCue].
 									

@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "pre 11/8/2019 20:08",
 	"instvars" : [
 		"currentAnnotation",
 		"keywordMessageExtraction",
@@ -12,5 +12,5 @@
 	"name" : "BPSourceRewriter",
 	"pools" : [
 		 ],
-	"super" : "OhmSourceRewriter",
+	"super" : "OhmConservativeSourceRewriter",
 	"type" : "normal" }

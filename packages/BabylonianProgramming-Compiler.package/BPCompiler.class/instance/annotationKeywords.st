@@ -1,4 +1,4 @@
 private
 annotationKeywords
 
-	^ self keywords collect: [:keyword | '<' , keyword ]
+	^ self keywords collect: [:keyword | '"<' , keyword ]
