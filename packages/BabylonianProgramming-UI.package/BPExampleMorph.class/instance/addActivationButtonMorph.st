@@ -7,4 +7,5 @@ addActivationButtonMorph
 		target: self;
 		getSelector: #isExampleActive;
 		actionSelector: #activateExampleButtonClicked;
+		balloonText: 'activate example';
 		yourself).

@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"string",
-		"onChangeBlock" ],
+		"onChangeBlock",
+		"onAcceptBlock" ],
 	"name" : "BPStringValueModel",
 	"pools" : [
 		 ],

@@ -2,6 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
+		"acceptContent:" : "pre 11/8/2019 16:40",
+		"onAcceptBlock" : "pre 11/8/2019 16:39",
+		"onAcceptBlock:" : "pre 11/8/2019 16:39",
 		"onChangeBlock" : "pre 7/24/2019 13:56",
 		"onChangeBlock:" : "pre 7/24/2019 13:56",
 		"string" : "pre 7/24/2019 13:55",

@@ -10,11 +10,13 @@ addArgumentScriptMorphs
 			do: [:index | | model script |
 				script := argumentScripts at: index.
 				model := BPStringValueModel new
-					string: script printString;
+					string: script asString;
 					onChangeBlock: [:str | 
 						self example argumentScripts at: index put: (Compiler evaluate: str).
 						self exampleContentChanged];
+					onAcceptBlock: [:str |
+						self containingBrowser codeTextMorph accept]
 					yourself.
-				self addMorphBack: (self editFieldFor: model text: #string onChange: #string:)]
+				self addMorphBack: (self editFieldFor: model text: #string onChange: #string: onAccept: #acceptContent:)]
 			separatedBy: [
 				self addMorphBack: 'and: ' asMorph.]]
