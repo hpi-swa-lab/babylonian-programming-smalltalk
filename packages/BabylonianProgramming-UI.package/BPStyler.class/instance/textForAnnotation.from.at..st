@@ -13,6 +13,6 @@ textForAnnotation: annotation from: aText at: startTagStart
 			expressionText := Character startOfHeader asString asText , expressionText.
 			expressionText attributesAt: 2 do: [:attr | 
 				expressionText addAttribute: attr from: 1 to: 1]].
-	expressionText addAttribute: (TextAnchor new anchoredMorph: newMorph; yourself).
+	expressionText addAttribute: (BPTextAnchor new anchoredMorph: newMorph; yourself).
 	
 	^ expressionText

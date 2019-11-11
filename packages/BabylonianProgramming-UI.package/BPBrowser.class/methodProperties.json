@@ -4,10 +4,10 @@
 		"initialize" : "pre 7/1/2019 16:36" },
 	"instance" : {
 		"aboutToStyle:" : "pre 8/6/2019 13:55",
-		"addAnnotation:from:to:" : "pre 8/6/2019 16:28",
+		"addAnnotation:from:to:" : "pre 11/8/2019 12:05",
 		"addAnnotationAtSelection:" : "pre 8/6/2019 16:23",
 		"addAssertionToSelection" : "pre 8/6/2019 16:11",
-		"addExample" : "pre 8/7/2019 11:12",
+		"addExample" : "pre 11/8/2019 12:05",
 		"addProbeToSelection" : "pre 8/6/2019 16:11",
 		"addReplacementToSelection" : "pre 8/6/2019 16:12",
 		"annotationsInSelection" : "pre 7/26/2019 16:11",
@@ -19,5 +19,5 @@
 		"removeProbeFromSelection" : "pre 7/23/2019 14:48",
 		"removeReplacementFromSelection" : "pre 7/23/2019 14:48",
 		"removeSelectedAnnotationsSatisfying:" : "pre 7/26/2019 16:08",
-		"saveMethodWithExamples" : "pre 8/6/2019 13:57",
+		"saveMethodWithExamples" : "pre 11/11/2019 09:36",
 		"saveMethodWithExamplesWith:" : "pre 8/6/2019 13:57" } }

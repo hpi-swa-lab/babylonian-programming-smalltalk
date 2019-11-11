@@ -1,0 +1,4 @@
+accessing
+emphasisCode
+
+	^ 4

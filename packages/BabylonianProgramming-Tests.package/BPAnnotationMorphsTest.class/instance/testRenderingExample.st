@@ -15,7 +15,7 @@ testRenderingExample
 		methodReference: methodReference;
 		yourself.
 	exampleMorph := exampleAnnotation asMorph.
-	anchorAttribute := TextAnchor new anchoredMorph: exampleMorph.
+	anchorAttribute := BPTextAnchor new anchoredMorph: exampleMorph.
 	source addAttribute: anchorAttribute from: 8 to: 9.
 	
 	renderedSource := source asBPSource.

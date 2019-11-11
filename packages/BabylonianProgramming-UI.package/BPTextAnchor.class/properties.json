@@ -1,0 +1,14 @@
+{
+	"category" : "BabylonianProgramming-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPTextAnchor",
+	"pools" : [
+		 ],
+	"super" : "TextAnchor",
+	"type" : "normal" }

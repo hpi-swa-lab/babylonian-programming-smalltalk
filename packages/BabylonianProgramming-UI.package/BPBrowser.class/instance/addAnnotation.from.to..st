@@ -5,7 +5,7 @@ addAnnotation: anAnnotation from: intervalStart to: intervalStop
 	anAnnotation methodReference: self methodReference.
 	text := self codeTextMorph text.
 	newContent := Character startOfHeader asString asText , (text copyFrom: intervalStart to: intervalStop).
-	newContent addAttribute: (TextAnchor new
+	newContent addAttribute: (BPTextAnchor new
 			anchoredMorph: anAnnotation asMorph;
 			yourself).
 	newContent := text 

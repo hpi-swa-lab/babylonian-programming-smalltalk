@@ -22,7 +22,7 @@ addExample
 		yourself.
 		 
 	newSourceSnippet := String cr asText , (Character startOfHeader asText), String cr asText.
-	newSourceSnippet addAttribute: (TextAnchor new anchoredMorph: exampleAnnotation asMorph; yourself) from: 2 to: 2.
+	newSourceSnippet addAttribute: (BPTextAnchor new anchoredMorph: exampleAnnotation asMorph; yourself) from: 2 to: 2.
 	newSourceSnippet.
 	resultText := self codeTextMorph text 
 		replaceFrom: endOfLastExampleLine 

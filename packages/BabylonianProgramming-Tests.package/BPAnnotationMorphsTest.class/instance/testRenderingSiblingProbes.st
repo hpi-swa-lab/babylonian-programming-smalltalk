@@ -6,7 +6,7 @@ testRenderingSiblingProbes
 		id: 1;
 		methodReference: methodReference;
 		asMorph.
-	anchorAttribute := TextAnchor new anchoredMorph: probeMorph.
+	anchorAttribute := BPTextAnchor new anchoredMorph: probeMorph.
 	source addAttribute: anchorAttribute from: expressionInterval start to: expressionInterval start.
 	probeMorph := BPProbe new
 		id: 2;
