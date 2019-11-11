@@ -13,7 +13,7 @@ baseline: spec
  					[ spec repository: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/ContextSTrunk' ];
 				package: 'BabylonianProgramming-Core' with: [spec requires: #('BabylonianProgramming-Compiler' 'ContextS2-Core')];
 				package: 'BabylonianProgramming-Compiler' with: [spec requires: #('Ohm')];
-				package: 'BabylonianProgramming-Tests' with: [spec requires: #('BabylonianProgramming-Core')];
+				package: 'BabylonianProgramming-Tests' with: [spec requires: #('BabylonianProgramming-Core' 'BabylonianProgramming-UI')];
 				package: 'BabylonianProgramming-UI' with: [spec requires: #('BabylonianProgramming-Core' 'IconsBase')];
 				yourself.
 			spec
