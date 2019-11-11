@@ -5,7 +5,7 @@
 		"assertCompilerRewrites:to:" : "pre 5/10/2019 11:46",
 		"expectedFailures" : "pre 5/29/2019 22:55",
 		"setUp" : "pre 5/10/2019 11:42",
-		"testCompilerRecognizesMethodsThatRequireRecompilation" : "pre 9/12/2019 14:31",
+		"testCompilerRecognizesMethodsThatRequireRecompilation" : "pre 11/11/2019 10:01",
 		"testFromFormattedSourceCodeToAnnotatedSourceCode" : "pre 5/29/2019 18:48",
 		"testRewritingDoesNotAddTwoLayerPragmas" : "pre 11/8/2019 19:25",
 		"testRewritingErrorOnIncompleteExpressionForAssertion" : "pre 5/10/2019 11:41",
