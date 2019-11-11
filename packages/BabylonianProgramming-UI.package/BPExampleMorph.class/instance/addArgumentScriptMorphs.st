@@ -12,7 +12,7 @@ addArgumentScriptMorphs
 				model := BPStringValueModel new
 					string: script asString;
 					onChangeBlock: [:str | 
-						self example argumentScripts at: index put: (Compiler evaluate: str).
+						self example argumentScripts at: index put: str.
 						self exampleContentChanged];
 					onAcceptBlock: [:str |
 						self containingBrowser codeTextMorph accept]

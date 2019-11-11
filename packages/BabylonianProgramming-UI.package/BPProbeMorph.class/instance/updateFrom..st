@@ -14,7 +14,7 @@ updateFrom: traces
 		layoutInset: 1;
 		yourself.
 		
-	traces do: [:t | | valuesMorph |
+	(traces select: [:trace | (trace valuesForProbeId: self id) notEmpty]) do: [:t | | valuesMorph |
 			lineMorph := Morph new 
 				color: Color transparent; 
 				changeTableLayout; 
@@ -23,14 +23,16 @@ updateFrom: traces
 				vResizing: #shrinkWrap;
 				hResizing: #shrinkWrap;
 				cellPositioning: #leftCenter;
-				cellInset: 4;
+				cellGap: 1;
+				name: 'example line';
 				yourself.
 			
 			exampleLabel :=  t example exampleName asText.
-			exampleLabel addAttribute: (TextColor color: t example color).
 			exampleLabelMorph := StringMorph contents: exampleLabel.
+			exampleLabelMorph color: t example color.
 			
 			valuesMorph := (self valuesTextFor: t) asMorph.
+			valuesMorph lock.
 			valuesMorph width > 300
 				ifTrue: [ |scrollPane|
 						scrollPane := ScrollPane new.

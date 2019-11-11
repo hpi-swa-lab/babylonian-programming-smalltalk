@@ -8,13 +8,16 @@ valuesTextFor: trace
 		value := v tracedValue.
 		(value isCollection or: [value isNumber])
 			ifTrue: [value printString asText]
-			ifFalse: [ 
+			ifFalse: [| iconMorph |
+				value isMorph
+					ifTrue: [iconMorph := (value imageForm scaledToSize: self iconSize * 4) asMorph]
+					ifFalse: [iconMorph := ((BPEmojis emojiFor: value) scaledToSize: self iconSize * 1.1) asMorph].
 				((Text 
 					string: Character startOfHeader asString 
-					attributes: {TextAnchor new 
-						anchoredMorph: ((BPEmojis emojiFor: value) 
-							scaledToSize: self iconSize * 1.1) asMorph; 
+					attributes: {BPTextAnchor new 
+						anchoredMorph: iconMorph; 
 						yourself}) , 
+				String space ,
 				value printString asText)]].
 	^ Text streamContents: [:str | texts 
 			do: [:t | str << t]
