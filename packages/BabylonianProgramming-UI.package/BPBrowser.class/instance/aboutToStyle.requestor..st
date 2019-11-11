@@ -1,7 +1,7 @@
 code pane
-aboutToStyle: aStyler
-	
-	(super aboutToStyle: aStyler)
+aboutToStyle: aStyler requestor: anObject
+
+	(super aboutToStyle: aStyler requestor: anObject)
 		ifTrue: [
 				(aStyler respondsTo: #selectedMethod:) ifTrue: [
 					aStyler selectedMethod: self methodReference].

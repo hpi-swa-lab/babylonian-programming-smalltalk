@@ -1,0 +1,4 @@
+nil
+defaultBrowserTitle
+
+	^ 'Babylonian Browser'
