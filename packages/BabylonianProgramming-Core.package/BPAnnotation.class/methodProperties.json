@@ -1,7 +1,8 @@
 {
 	"class" : {
 		"annotationTag" : "pre 7/2/2019 15:26",
-		"for:" : "pre 7/2/2019 16:15" },
+		"for:" : "pre 11/11/2019 12:07",
+		"isAbstract" : "pre 11/11/2019 12:04" },
 	"instance" : {
 		"annotatedExpressionSourceCode" : "pre 5/29/2019 18:07",
 		"annotatedExpressionSourceCode:" : "pre 5/29/2019 18:07",
@@ -14,6 +15,7 @@
 		"id:" : "pre 7/2/2019 16:33",
 		"includesKey:" : "pre 5/17/2019 16:42",
 		"initialize" : "pre 7/3/2019 11:01",
+		"instrumentationCallFor:" : "pre 11/13/2019 10:49",
 		"isAssertion" : "pre 7/3/2019 11:12",
 		"isProbe" : "pre 7/3/2019 11:12",
 		"isReplacement" : "pre 7/3/2019 11:12",

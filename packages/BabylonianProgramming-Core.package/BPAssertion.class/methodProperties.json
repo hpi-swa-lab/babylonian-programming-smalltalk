@@ -1,9 +1,11 @@
 {
 	"class" : {
-		"annotationTag" : "pre 7/2/2019 16:05" },
+		"annotationTag" : "pre 11/11/2019 12:04" },
 	"instance" : {
 		"asMorph" : "pre 7/3/2019 12:08",
+		"assertion" : "pre 11/11/2019 13:38",
 		"at:putInformation:" : "pre 7/2/2019 16:41",
+		"instrumentationCallFor:" : "pre 11/13/2019 10:58",
 		"isAssertion" : "pre 7/3/2019 11:13",
-		"startTag" : "pre 7/25/2019 15:49",
+		"startTag" : "pre 10/29/2019 13:46",
 		"stopTag" : "pre 7/25/2019 15:49" } }

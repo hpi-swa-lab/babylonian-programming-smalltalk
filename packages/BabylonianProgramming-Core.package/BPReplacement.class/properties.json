@@ -10,5 +10,5 @@
 	"name" : "BPReplacement",
 	"pools" : [
 		 ],
-	"super" : "BPAnnotation",
+	"super" : "BPExampleSpecificScript",
 	"type" : "normal" }
