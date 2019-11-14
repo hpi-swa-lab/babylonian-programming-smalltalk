@@ -4,7 +4,10 @@
 	"instance" : {
 		"annotation" : "pre 7/2/2019 16:39",
 		"annotation:" : "pre 7/2/2019 16:39",
+		"codeContentChanged" : "pre 11/11/2019 10:25",
 		"containingBrowser" : "pre 7/24/2019 16:42",
+		"editFieldFor:text:onChange:onAccept:" : "pre 11/11/2019 10:06",
+		"editFieldInitialContent:onChange:onAccept:" : "pre 11/11/2019 10:41",
 		"emptyTraces" : "pre 8/6/2019 14:14",
 		"fontHeight" : "pre 7/24/2019 13:17",
 		"fontWidth" : "pre 7/24/2019 15:33",

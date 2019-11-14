@@ -1,14 +1,13 @@
 private - ui
 addExampleNameMorph
 
-	| model nameTextMorph |
-	model := BPStringValueModel new
-		string: self example exampleName asText;
-		onChangeBlock: [:str | 
+	| nameTextMorph |
+	nameTextMorph := self 
+		editFieldInitialContent: self example exampleName asText
+		onChange: [:str | 
 			self annotation exampleName: str.
 			self example exampleName: str.
-			self exampleContentChanged];
-		yourself.
-	nameTextMorph := self editFieldFor: model text: #string onChange: #string:.
+			self codeContentChanged]
+		onAccept: [:str | "nop"].
 	nameTextMorph setTextColor: example color.
 	self addMorphBack: nameTextMorph.
