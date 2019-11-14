@@ -1,4 +1,4 @@
 converting
 unstyledTextFrom: aText
 
-	^ aText asBPSource
+	^ Text fromString: aText asBPSource
