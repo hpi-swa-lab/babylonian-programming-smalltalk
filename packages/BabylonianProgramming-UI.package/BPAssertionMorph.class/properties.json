@@ -10,5 +10,5 @@
 	"name" : "BPAssertionMorph",
 	"pools" : [
 		 ],
-	"super" : "BPAnnotationMorph",
+	"super" : "BPProbeMorph",
 	"type" : "normal" }

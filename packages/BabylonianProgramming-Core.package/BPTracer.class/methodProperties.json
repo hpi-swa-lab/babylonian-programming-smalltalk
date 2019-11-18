@@ -2,10 +2,10 @@
 	"class" : {
 		"forExample:" : "pre 5/8/2019 16:28" },
 	"instance" : {
-		"check:after:forAssertion:given:inContext:" : "pre 5/17/2019 20:55",
+		"check:after:forAssertion:given:inContext:" : "pre 11/18/2019 13:38",
 		"check:after:forAssertion:inContext:" : "pre 5/17/2019 20:55",
 		"example" : "pre 5/17/2019 15:12",
-		"exampleNameMatches:" : "pre 11/18/2019 12:13",
+		"exampleNameMatches:" : "pre 11/18/2019 13:03",
 		"initialize" : "pre 5/8/2019 16:27",
 		"replace:with:" : "pre 5/17/2019 16:43",
 		"replace:with:for:" : "pre 11/18/2019 12:12",

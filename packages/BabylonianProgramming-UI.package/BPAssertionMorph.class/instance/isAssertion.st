@@ -1,4 +1,4 @@
 testing
-isReplacement
+isAssertion
 
 	^ true

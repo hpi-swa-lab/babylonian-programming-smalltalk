@@ -3,11 +3,11 @@ check: assertionBlock after: codeBlock forAssertion: anAssertionId given: anExam
 
 	| result |
 	result := codeBlock value.
-	self example exampleName = anExampleName ifTrue: [
+	(self exampleNameMatches: anExampleName) ifTrue: [
 		self trace
-				trace: assertionBlock value 
-				forAssertion: anAssertionId
-				inContext: aContext].
+			trace: assertionBlock value 
+			forAssertion: anAssertionId
+			inContext: aContext].
 	^ result
 
 	

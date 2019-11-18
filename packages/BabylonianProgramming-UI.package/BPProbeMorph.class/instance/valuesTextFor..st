@@ -14,7 +14,7 @@ valuesTextFor: trace
 					ifFalse: [iconMorph := ((BPEmojis emojiFor: value) scaledToSize: self iconSize * 1.1) asMorph].
 				((Text 
 					string: Character startOfHeader asString 
-					attributes: {BPTextAnchor new 
+					attributes: {TextAnchor new 
 						anchoredMorph: iconMorph; 
 						yourself}) , 
 				String space ,

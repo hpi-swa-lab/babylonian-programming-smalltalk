@@ -1,38 +1,19 @@
 private
 updateFrom: traces
 
-	| exampleLabel exampleLabelMorph lineMorph removeButton exploreButton examplesMorph |
+	| exampleLabelMorph lineMorph removeButton exploreButton tracesMorph |
 	self removeAllMorphs.
 	
-	examplesMorph := Morph new
-		color: Color transparent;
-		changeTableLayout;
-		listDirection: #topToBottom; 
-		vResizing: #shrinkWrap;
-		hResizing: #shrinkWrap;
-		cellPositioning: #topLeft;
-		layoutInset: 1;
-		yourself.
-		
-	(traces select: [:trace | (trace valuesForProbeId: self id) notEmpty]) do: [:t | | valuesMorph |
-			lineMorph := Morph new 
-				color: Color transparent; 
-				changeTableLayout; 
-				layoutInset: 0;
-				listDirection: #leftToRight; 
-				vResizing: #shrinkWrap;
-				hResizing: #shrinkWrap;
-				cellPositioning: #leftCenter;
-				cellGap: 1;
-				name: 'example line';
-				yourself.
+	tracesMorph := self newTracesMorph.
+	
+	self relevantTracesOf: traces do: [:t | | valuesMorph |
+			lineMorph := self newExampleLineMorph.
 			
-			exampleLabel :=  t example exampleName asText.
-			exampleLabelMorph := StringMorph contents: exampleLabel.
-			exampleLabelMorph color: t example color.
+			exampleLabelMorph := self newExampleLabelMorphFor: t.
 			
 			valuesMorph := (self valuesTextFor: t) asMorph.
 			valuesMorph lock.
+			valuesMorph hResizing: #shrinkWrap.
 			valuesMorph width > 300
 				ifTrue: [ |scrollPane|
 						scrollPane := ScrollPane new.
@@ -61,9 +42,9 @@ updateFrom: traces
 				addMorphBack: exampleLabelMorph;
 				addMorphBack: valuesMorph.
 				
-			examplesMorph addMorphBack: lineMorph].
+			tracesMorph addMorphBack: lineMorph].
 		
-	self addMorphBack: examplesMorph.
+	self addMorphBack: tracesMorph.
 		
 	removeButton := self newRemoveButton.
 	removeButton 
