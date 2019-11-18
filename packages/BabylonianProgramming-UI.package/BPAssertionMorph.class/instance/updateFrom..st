@@ -1,7 +1,7 @@
 private
 updateFrom: traces
 
-	| assertionScriptMorph assertionScript exampleSelectionMorph removeButton assertionIndicatorIcon assertionIndicatorMorph editFieldsMorph tracesMorph |
+	| assertionScriptMorph assertionScript exampleSelectionMorph removeButton editFieldsMorph tracesMorph |
 	self removeAllMorphs.
 	
 	editFieldsMorph := Morph new
@@ -50,16 +50,15 @@ updateFrom: traces
 	tracesMorph := self newTracesMorph.
 	self relevantTracesOf: traces do: [:t | | lineMorph |
 		lineMorph := self newExampleLineMorph.
-		assertionIndicatorIcon := (t resultsForAssertionId: self annotation id) 
-			ifEmpty: [ToolIcons testGray]
-			ifNotEmpty: [:results | (results allSatisfy: [:value | value tracedValue])
-				ifTrue: [ToolIcons testGreen]
-				ifFalse: [ToolIcons testOrange]].
-		assertionIndicatorMorph := assertionIndicatorIcon asMorph.
+		lineMorph addMorphBack: (self newExampleLabelMorphFor: t).
 		
-		lineMorph 
-			addMorphBack: (self newExampleLabelMorphFor: t);
-			addMorphBack: assertionIndicatorMorph.
+		(t resultsForAssertionId: self annotation id) 
+			ifEmpty: [lineMorph addMorphBack: ToolIcons testGray asMorph]
+			ifNotEmpty: [:results |
+				results do: [:result | | iconMorph |
+					iconMorph := (result tracedValue ifTrue: [ToolIcons testGreen] ifFalse: [ToolIcons testOrange]) asMorph.
+					lineMorph addMorphBack: iconMorph]].
+			
 		tracesMorph addMorphBack: lineMorph].
 	tracesMorph submorphs ifNotEmpty: [
 		self addMorphBack: tracesMorph].
