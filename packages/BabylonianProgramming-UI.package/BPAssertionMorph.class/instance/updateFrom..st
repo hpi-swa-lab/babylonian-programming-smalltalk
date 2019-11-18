@@ -48,17 +48,24 @@ updateFrom: traces
 
 	"Now to the results"
 	tracesMorph := self newTracesMorph.
-	self relevantTracesOf: traces do: [:t | | lineMorph |
+	self relevantTracesOf: traces do: [:t | | lineMorph valuesMorph |
 		lineMorph := self newExampleLineMorph.
 		lineMorph addMorphBack: (self newExampleLabelMorphFor: t).
+		valuesMorph := self newExampleLineMorph.
 		
 		(t resultsForAssertionId: self annotation id) 
 			ifEmpty: [lineMorph addMorphBack: ToolIcons testGray asMorph]
 			ifNotEmpty: [:results |
 				results do: [:result | | iconMorph |
 					iconMorph := (result tracedValue ifTrue: [ToolIcons testGreen] ifFalse: [ToolIcons testOrange]) asMorph.
-					lineMorph addMorphBack: iconMorph]].
+					valuesMorph addMorphBack: iconMorph]].
 			
+		"The following is necessary to determine the actual width of the morph
+		after it wrapped around its submorphs"
+		valuesMorph layoutChanged; fullBounds.
+		
+		valuesMorph := self checkAndConvertValuesMorphIfNecessary: valuesMorph.
+		lineMorph addMorphBack: valuesMorph.
 		tracesMorph addMorphBack: lineMorph].
 	tracesMorph submorphs ifNotEmpty: [
 		self addMorphBack: tracesMorph].
