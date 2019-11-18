@@ -6,9 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"string" ],
-	"name" : "BPStringValueModel",
+		"model",
+		"optionsBlock",
+		"selectButton",
+		"labelMorph" ],
+	"name" : "BPSelectFieldMorph",
 	"pools" : [
 		 ],
-	"super" : "BPValueModel",
+	"super" : "Morph",
 	"type" : "normal" }

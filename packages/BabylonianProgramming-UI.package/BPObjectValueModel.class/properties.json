@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"string" ],
-	"name" : "BPStringValueModel",
+		"object" ],
+	"name" : "BPObjectValueModel",
 	"pools" : [
 		 ],
 	"super" : "BPValueModel",

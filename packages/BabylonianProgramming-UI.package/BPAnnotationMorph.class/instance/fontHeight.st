@@ -1,4 +1,4 @@
 private - ui
 fontHeight
 
-	^ TextStyle defaultFont height
+	^ self class fontHeight

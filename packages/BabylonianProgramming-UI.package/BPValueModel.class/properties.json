@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"string" ],
-	"name" : "BPStringValueModel",
+		"onChangeBlock",
+		"onAcceptBlock" ],
+	"name" : "BPValueModel",
 	"pools" : [
 		 ],
-	"super" : "BPValueModel",
+	"super" : "Model",
 	"type" : "normal" }
