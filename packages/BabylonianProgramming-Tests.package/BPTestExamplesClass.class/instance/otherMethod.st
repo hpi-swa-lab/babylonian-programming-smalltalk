@@ -1,6 +1,12 @@
-as yet unclassified
+example methods
 otherMethod
-<layer: #bpInstrumented>
-
-| a |  a := (self bpTrace: [2 + 3] forProbe: 6486778 inContext: thisContext).
- ^ a
+ 
+	| a m |
+	a :=2 + 3.
+	m := Morph new.
+	1 to: 5 do: [:i |
+		m addMorph: (EllipseMorph new 
+			width: i;
+			yourself).
+		"<bpProbe id: 1865560>"1 + 1"</bpProbe>".]. 
+	 ^ a 

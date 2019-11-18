@@ -1,7 +1,6 @@
 message list
 messageList
 	"Answer an Array of the message selectors of the currently selected message category. If no category is selected or the '-- all --' category is selected, return all method selectors. Make deprecated messages look gray and struck-out."
-	
 
 	^ (self selectedMessageCategoryName isNil or: [self selectedMessageCategoryName = ClassOrganizer allCategory])
 		ifTrue: [
