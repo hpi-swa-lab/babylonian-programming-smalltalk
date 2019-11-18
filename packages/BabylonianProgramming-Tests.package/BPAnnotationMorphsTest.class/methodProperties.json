@@ -8,4 +8,6 @@
 		"testRenderingNestedProbes" : "pre 11/8/2019 12:05",
 		"testRenderingNestedProbesWithDifferentLengths" : "pre 11/8/2019 12:05",
 		"testRenderingSiblingProbes" : "pre 11/8/2019 12:05",
-		"testRenderingSimpleProbe" : "pre 11/8/2019 12:05" } }
+		"testRenderingSimpleAssertion" : "pre 11/18/2019 11:59",
+		"testRenderingSimpleProbe" : "pre 11/8/2019 12:05",
+		"testRenderingSimpleReplacement" : "pre 11/18/2019 11:55" } }
