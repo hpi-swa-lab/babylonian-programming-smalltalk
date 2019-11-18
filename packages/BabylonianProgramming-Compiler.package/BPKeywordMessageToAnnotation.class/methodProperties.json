@@ -2,7 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
+		"BinaryMessageOperand:with:with:" : "pre 11/18/2019 13:28",
+		"BlockLiteral:with:" : "pre 11/18/2019 13:30",
 		"KeywordMessage:with:" : "pre 5/29/2019 11:06",
-		"KeywordMessageSegment:with:and:" : "pre 11/13/2019 11:05",
+		"KeywordMessageArgument:with:with:" : "pre 11/18/2019 13:28",
+		"KeywordMessageSegment:with:and:" : "pre 11/18/2019 13:22",
+		"Literal:with:" : "pre 11/18/2019 13:31",
+		"NormalOperand:with:" : "pre 11/18/2019 13:29",
+		"Operand:with:" : "pre 11/18/2019 13:29",
 		"currentAnnotation" : "pre 5/10/2019 12:10",
 		"currentAnnotation:" : "pre 5/10/2019 12:10" } }

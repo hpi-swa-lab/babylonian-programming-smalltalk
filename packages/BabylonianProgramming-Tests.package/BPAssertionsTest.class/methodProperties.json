@@ -2,4 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testExampleSpecificAssertionsAreScopedByTracing" : "pre 5/10/2019 10:11" } }
+		"testExampleSpecificAssertionsAreScopedByTracing" : "pre 5/10/2019 10:11",
+		"testGlobalExampleSpecificAssertionsAreScopedByTracing" : "pre 11/18/2019 13:10" } }
