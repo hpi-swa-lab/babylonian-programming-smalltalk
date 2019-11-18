@@ -4,5 +4,5 @@ assertion
 	which evaluates to a block which either takes one or zero arguments"
 
 	^ self otherInformation at: #that 
-		ifPresent: [:assertion | assertion ifEmpty: ['[]'] ifNotEmpty: [assertion]]
-		ifAbsent: ['[]']
+		ifPresent: [:assertion | assertion ifEmpty: ['[:result | ]'] ifNotEmpty: [assertion]]
+		ifAbsent: ['[:result | ]']
