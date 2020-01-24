@@ -2,9 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
+		"AnnotatedBinaryMessage:startTag:actualOperand:endTag:" : "pre 1/24/2020 16:49",
 		"AnnotatedExpression:startTag:actualExpression:endTag:" : "pre 7/26/2019 10:49",
+		"AnnotatedKeywordMessage:startTag:actualOperand:endTag:" : "pre 1/24/2020 16:49",
 		"AnnotatedNode:startTag:actualNode:endTag:" : "pre 7/26/2019 10:49",
 		"AnnotatedOperand:startTag:actualOperand:endTag:" : "pre 7/26/2019 10:49",
+		"AnnotatedUnaryMessage:startTag:actualOperand:endTag:" : "pre 1/24/2020 16:50",
 		"AnnotationInformation:with:and:" : "pre 11/11/2019 12:06",
 		"ExecutableCode:variables:with:code:" : "pre 5/29/2019 10:51",
 		"KeywordPragma:with:with:" : "pre 7/23/2019 12:10",

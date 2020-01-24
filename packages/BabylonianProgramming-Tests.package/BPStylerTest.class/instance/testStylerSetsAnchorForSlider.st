@@ -1,0 +1,18 @@
+tests
+testStylerSetsAnchorForSlider
+
+	| formattedSourceCode originalSourceCode attributes |
+	originalSourceCode := 'method
+	<exampleNamed: ''example 1''>
+	2 "<bpSlider>"+ 3"</bpSlider>"' asText.
+	formattedSourceCode := styler format: originalSourceCode.
+	
+	self 
+		assert: (formattedSourceCode asString includesSubstring: (Character startOfHeader asString , '+'));
+		deny: (formattedSourceCode asString includesSubstring: '</bpSlider>').
+		
+	attributes := formattedSourceCode attributesAt: (formattedSourceCode asString lastIndexOf: Character startOfHeader).
+	attributes := attributes select: [:a | a isKindOf: TextAnchor].
+	self assert: (attributes first anchoredMorph isKindOf: BPSliderMorph)
+	
+	

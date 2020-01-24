@@ -1,0 +1,14 @@
+{
+	"category" : "BabylonianProgramming-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPSlider",
+	"pools" : [
+		 ],
+	"super" : "BPExampleSpecificScript",
+	"type" : "normal" }

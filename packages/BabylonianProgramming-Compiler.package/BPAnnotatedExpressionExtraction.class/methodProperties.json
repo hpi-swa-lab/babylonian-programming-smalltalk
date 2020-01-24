@@ -2,9 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
+		"AnnotatedBinaryMessage:startTag:actualMessage:endTag:" : "pre 1/24/2020 16:58",
 		"AnnotatedExpression:startTag:actualExpression:endTag:" : "pre 5/29/2019 17:53",
+		"AnnotatedKeywordMessage:startTag:actualMessage:endTag:" : "pre 1/24/2020 16:58",
 		"AnnotatedOperand:startTag:actualOperand:endTag:" : "pre 7/26/2019 10:48",
-		"Expression:with:" : "pre 5/29/2019 22:35",
-		"Operand:with:" : "pre 7/26/2019 10:47",
+		"AnnotatedUnaryMessage:startTag:actualMessage:endTag:" : "pre 1/24/2020 16:58",
+		"BinaryMessage:with:" : "pre 1/24/2020 17:04",
+		"Expression:with:" : "pre 1/24/2020 17:04",
+		"KeywordMessage:with:" : "pre 1/24/2020 17:03",
+		"Operand:with:" : "pre 1/24/2020 17:04",
+		"UnaryMessage:with:" : "pre 1/24/2020 17:04",
 		"defaultExpression:" : "pre 5/29/2019 17:52",
+		"extractFrom:" : "pre 1/24/2020 17:03",
 		"initialize" : "pre 5/29/2019 17:46" } }

@@ -1,4 +1,4 @@
-grammar rules
+annotation processing
 AnnotatedNode: aNode startTag: startTag actualNode: actualNode endTag: endTag
 
 	| previousAnnotation |

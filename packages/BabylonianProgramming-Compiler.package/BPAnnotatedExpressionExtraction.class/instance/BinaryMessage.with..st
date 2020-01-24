@@ -1,4 +1,4 @@
 grammar rules
-Operand: aNode with: x
+BinaryMessage: aNode with: x
 
 	^ self extractFrom: aNode
