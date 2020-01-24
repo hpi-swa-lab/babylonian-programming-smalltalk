@@ -5,14 +5,15 @@ testRewritingDoesNotAddTwoLayerPragmas
 	self 
 		assertCompilerRewrites: 
 'keyStroke: evt
-	<exampleNamed: ''remove anchor'' active: true self: #anchoredMorphsInstance with: ''KeyboardEvent new''>                           
+	<exampleNamed: ''remove anchor'' active: true self: #anchoredMorphsInstance with: ''KeyboardEvent new''>
 	  
 	| view previousAnchors  |
 	super keyStroke: evt.'
 		to:
 'keyStroke: evt
 	<layer: #bpInstrumented>
-	<exampleNamed: ''remove anchor'' active: true self: #anchoredMorphsInstance with: ''KeyboardEvent new''>                           
+	<exampleNamed: ''remove anchor'' active: true self: #anchoredMorphsInstance with: ''KeyboardEvent new''>
 	  
 	| view previousAnchors  |
-	super keyStroke: evt.'
+	self bpBlockEntered: thisContext.
+super keyStroke: evt.'

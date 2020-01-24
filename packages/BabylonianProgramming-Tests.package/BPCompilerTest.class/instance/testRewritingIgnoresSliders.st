@@ -8,4 +8,5 @@ testRewritingIgnoresSliders
 		to:
 'method
 	<layer: #bpInstrumented>
-	2 + 3'
+	self bpBlockEntered: thisContext.
+2 + 3'

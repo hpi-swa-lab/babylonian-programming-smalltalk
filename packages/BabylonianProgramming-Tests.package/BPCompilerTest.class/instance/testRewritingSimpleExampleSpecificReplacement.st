@@ -10,4 +10,5 @@ testRewritingSimpleExampleSpecificReplacement
 'method
 	<layer: #bpInstrumented>
 	<exampleNamed: ''example 1''>
-	(self bpReplace: [2 + 3] with: [100] for: ''Class1>>method>>#''''example 1'''''')'
+	self bpBlockEntered: thisContext.
+(self bpReplace: [2 + 3] with: [100] for: ''Class1>>method>>#''''example 1'''''')'

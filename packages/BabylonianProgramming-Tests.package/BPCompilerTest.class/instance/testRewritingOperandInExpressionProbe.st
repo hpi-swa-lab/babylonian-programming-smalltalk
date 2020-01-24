@@ -8,4 +8,5 @@ testRewritingOperandInExpressionProbe
 		to:
 'method
 	<layer: #bpInstrumented>
-	(self bpTrace: [2] forProbe: 1 inContext: thisContext) + 3'
+	self bpBlockEntered: thisContext.
+(self bpTrace: [2] forProbe: 1 inContext: thisContext) + 3'

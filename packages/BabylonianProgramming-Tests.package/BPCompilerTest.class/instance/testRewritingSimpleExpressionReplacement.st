@@ -10,4 +10,5 @@ testRewritingSimpleExpressionReplacement
 'method
 	<layer: #bpInstrumented>
 	<exampleNamed: ''example 1''>
-	(self bpReplace: [2 + 3] with: [10] for: ''example 1'')'
+	self bpBlockEntered: thisContext.
+(self bpReplace: [2 + 3] with: [10] for: ''example 1'')'

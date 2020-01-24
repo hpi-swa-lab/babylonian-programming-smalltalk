@@ -14,6 +14,7 @@ more source". 10 negated.'
 	<layer: #bpInstrumented>
 	<exampleNamed: ''example 1''>
 	<exampleNamed: ''example 2''>
-	(self bpReplace: [(self bpReplace: [2 + 3] with: [5] for: ''example 2'')] with: [10] for: ''example 1'').
+	self bpBlockEntered: thisContext.
+(self bpReplace: [(self bpReplace: [2 + 3] with: [5] for: ''example 2'')] with: [10] for: ''example 1'').
 	"and even
 more source". 10 negated.'
