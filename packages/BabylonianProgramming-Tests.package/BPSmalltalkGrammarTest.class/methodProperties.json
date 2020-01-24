@@ -8,6 +8,7 @@
 		"testAnnotationIsNotAComment" : "pre 5/10/2019 11:08",
 		"testAnnotationStartIsRecognizedAsSuch" : "pre 5/10/2019 12:33",
 		"testExpressionsAlsoCoverAnnotatedExpressions" : "pre 5/10/2019 11:28",
+		"testMessageSendsCanBeAnnotated" : "pre 1/24/2020 16:46",
 		"testNormalExpressionsStillWork" : "pre 5/10/2019 11:27",
 		"testOtherCommentsAreStillComments" : "pre 5/10/2019 11:08",
 		"testRegressionProbeAnnotation01" : "pre 7/26/2019 10:22",

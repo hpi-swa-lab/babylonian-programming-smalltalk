@@ -12,7 +12,8 @@ NormalExpression =
 
 AnnotatedExpression =
 	expressionAnnotationStart Expression expressionAnnotationEnd
-	
+
+
 Operand := NormalOperand | AnnotatedOperand
 
 NormalOperand =
@@ -22,6 +23,32 @@ NormalOperand =
 
 AnnotatedOperand =
 	expressionAnnotationStart Operand expressionAnnotationEnd
+
+
+
+KeywordMessage := NormalKeywordMessage | AnnotatedKeywordMessage
+
+NormalKeywordMessage = KeywordMessageSegment+
+
+AnnotatedKeywordMessage =
+	expressionAnnotationStart KeywordMessage expressionAnnotationEnd
+	
+
+BinaryMessage := NormalBinaryMessage | AnnotatedBinaryMessage
+
+NormalBinaryMessage = binaryMessageSelector BinaryMessageOperand
+
+AnnotatedBinaryMessage =
+	expressionAnnotationStart BinaryMessage expressionAnnotationEnd
+	
+	
+UnaryMessage := NormalUnaryMessage | AnnotatedUnaryMessage
+
+NormalUnaryMessage = ~keyword UnaryMessageSelector
+
+AnnotatedUnaryMessage =
+	expressionAnnotationStart UnaryMessage expressionAnnotationEnd
+	
 
 comment :=
 	~"\"<" "\"" (~"\"" (any | " " | "\n"))* "\""
