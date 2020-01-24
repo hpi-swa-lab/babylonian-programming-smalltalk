@@ -10,5 +10,5 @@ testRenderingSimpleReplacement
 	
 	renderedSource := source asBPSource.
 	self assert: 'method
-<exampleNamed: ''example 1''>
+	<exampleNamed: ''example 1''>
 ^ "<bpReplace for: ''all examples'' with: [100]>"2 + 3"</bpReplace>"' equals: renderedSource asString.

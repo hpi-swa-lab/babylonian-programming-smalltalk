@@ -11,5 +11,5 @@ testRenderingExampleSpecificReplacement
 	
 	renderedSource := source asBPSource.
 	self assert: 'method
-<exampleNamed: ''example 1''>
+	<exampleNamed: ''example 1''>
 ^ "<bpReplace for: ''Class1>>method>>#''''example 1'''''' with: [100]>"2 + 3"</bpReplace>"' equals: renderedSource asString.

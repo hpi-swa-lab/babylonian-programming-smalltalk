@@ -10,7 +10,7 @@ codePaneMenuAnnotationItems: aMenu
 		add: 'add assertion' action: #addAssertionToSelection;
 		add: 'add replacement' action: #addReplacementToSelection.
 	aMenu addLine.
-	annotationsInSelection := "<bpProbe id: 2372880>"self annotationsInSelection"</bpProbe>".
+	annotationsInSelection := self annotationsInSelection.
 	(annotationsInSelection anySatisfy: [:a | a isProbe]) ifTrue: [
 		aMenu add: 'remove probe' action: #removeProbeFromSelection].
 	(annotationsInSelection anySatisfy: [:a | a isAssertion]) ifTrue: [

@@ -11,5 +11,5 @@ testRenderingSimpleAssertion
 	
 	renderedSource := source asBPSource.
 	self assert: 'method
-<exampleNamed: ''example 1''>
+	<exampleNamed: ''example 1''>
 ^ "<bpAssert id: 1 for: ''all examples'' that: [:r | r = 5]>"2 + 3"</bpAssert>"' equals: renderedSource asString.

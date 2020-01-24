@@ -1,0 +1,14 @@
+{
+	"category" : "BabylonianProgramming-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pre 1/24/2020 14:27",
+	"instvars" : [
+		 ],
+	"name" : "BPNullExample",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
