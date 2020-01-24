@@ -12,6 +12,7 @@
 		"testRewritingErrorOnIncompleteExpressionForReplacement" : "pre 5/10/2019 11:41",
 		"testRewritingErrorOnIncompleteExpressionProbe" : "pre 5/10/2019 11:41",
 		"testRewritingExampleSpecificAssertion" : "pre 11/18/2019 13:16",
+		"testRewritingIgnoresSliders" : "pre 1/24/2020 17:30",
 		"testRewritingLeftHandOfAssignmentProbe" : "pre 5/10/2019 11:40",
 		"testRewritingNestedReplacements" : "pre 8/7/2019 11:43",
 		"testRewritingOperandInExpressionProbe" : "pre 8/7/2019 11:42",

@@ -1,0 +1,4 @@
+serialization
+startTag
+
+	^ '<bpSlider>'
