@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "BPTestExamplesClass",
+	"name" : "BPFancyStar",
 	"pools" : [
 		 ],
-	"super" : "BPObject",
+	"super" : "StarMorph",
 	"type" : "normal" }

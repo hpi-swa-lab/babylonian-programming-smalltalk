@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "BPTestExamplesClass",
+	"name" : "BPSearchCollection",
 	"pools" : [
 		 ],
-	"super" : "BPObject",
+	"super" : "OrderedCollection",
 	"type" : "normal" }
