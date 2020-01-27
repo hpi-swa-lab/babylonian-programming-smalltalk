@@ -3,6 +3,11 @@ newExampleLabelMorphFor: aTrace
 
 	| exampleLabel |
 	exampleLabel := aTrace example exampleName asText.
-	^ (StringMorph contents: exampleLabel)
+	exampleLabel addAttribute: (BPPluggableTextAttribute new evalBlock: [
+		ToolSet 
+			browse: aTrace example method methodClass 
+			selector: aTrace example method selector asSymbol]).
+	^ (TextMorph new)
+		contents: exampleLabel;
 		color: aTrace example color;
 		yourself

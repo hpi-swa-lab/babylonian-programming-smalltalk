@@ -1,0 +1,1 @@
+This class is only here to configure the emphasize style the text attribute adds, which should be none, as we want to use it together with differently colored labels.

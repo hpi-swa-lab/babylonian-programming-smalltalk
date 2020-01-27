@@ -1,0 +1,14 @@
+{
+	"category" : "BabylonianProgramming-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pre 1/27/2020 18:22",
+	"instvars" : [
+		 ],
+	"name" : "BPPluggableTextAttribute",
+	"pools" : [
+		 ],
+	"super" : "PluggableTextAttribute",
+	"type" : "normal" }
