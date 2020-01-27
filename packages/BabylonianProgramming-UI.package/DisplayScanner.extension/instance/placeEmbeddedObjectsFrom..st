@@ -6,8 +6,9 @@ placeEmbeddedObjectsFrom: textAttributes
 			currentYPosition := lineY + line baseline.
 			textAttributes do: [:attribute | 
 				attribute anchoredMorph setPositionFromLayout: (destX@currentYPosition) - morphicOffset.
-				currentYPosition := currentYPosition + attribute anchoredMorph height]]
+				currentYPosition := currentYPosition + attribute anchoredMorph height].
+			^ true]
 		ifFalse: ["This is the base system case"
-			super placeEmbeddedObjectsFrom: textAttributes]
+			^ super placeEmbeddedObjectsFrom: textAttributes]
 		
 	
