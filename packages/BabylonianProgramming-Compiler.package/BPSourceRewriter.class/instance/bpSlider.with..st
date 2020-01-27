@@ -1,4 +1,4 @@
-as yet unclassified
+rewrite rules
 bpSlider: aBPSlider with: aString 
 	
 	^ aString

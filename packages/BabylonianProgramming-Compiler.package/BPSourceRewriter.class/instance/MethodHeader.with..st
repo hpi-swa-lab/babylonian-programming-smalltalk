@@ -1,4 +1,4 @@
 grammar rules
 MethodHeader: aNode with: header
 
-	^ (self value: header) , String cr , String tab , '<layer: #bpInstrumented>'
+	^ ("<bpProbe id: 4435150>"self value: header"</bpProbe>") , String cr , String tab , '<layer: #bpInstrumented>'

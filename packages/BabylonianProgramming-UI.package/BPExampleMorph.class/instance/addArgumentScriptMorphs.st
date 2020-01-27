@@ -14,6 +14,7 @@ addArgumentScriptMorphs
 						self example argumentScripts at: index put: str.
 						self codeContentChanged]
 					onAccept: [:str |
-						self containingBrowser codeTextMorph accept])]
+						self containingBrowser saveMethodWithExamples.
+						false "Do not continue handling this morphs edit"])]
 			separatedBy: [
 				self addMorphBack: 'and: ' asMorph.]]

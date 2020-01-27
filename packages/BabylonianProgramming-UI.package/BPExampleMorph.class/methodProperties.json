@@ -4,7 +4,7 @@
 	"instance" : {
 		"activateExampleButtonClicked" : "pre 7/24/2019 16:42",
 		"addActivationButtonMorph" : "pre 8/7/2019 15:37",
-		"addArgumentScriptMorphs" : "pre 11/11/2019 10:42",
+		"addArgumentScriptMorphs" : "pre 1/27/2020 17:59",
 		"addDeleteButtonMorph" : "pre 7/26/2019 09:42",
 		"addExampleNameMorph" : "pre 11/11/2019 10:45",
 		"addReceiverConstructorMorph" : "pre 11/11/2019 10:43",
@@ -20,4 +20,5 @@
 		"isExampleActive" : "pre 7/23/2019 14:45",
 		"removeButtonClicked" : "pre 7/26/2019 16:13",
 		"step" : "pre 7/25/2019 12:53",
+		"textEmphasis" : "pre 1/24/2020 16:14",
 		"updateMorphs" : "pre 7/26/2019 09:39" } }
