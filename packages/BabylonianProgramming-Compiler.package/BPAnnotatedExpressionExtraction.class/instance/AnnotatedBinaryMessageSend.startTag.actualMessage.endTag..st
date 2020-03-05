@@ -1,5 +1,5 @@
 grammar rules
-AnnotatedKeywordMessage: aNode startTag: startTag actualMessage: message endTag: endTag
+AnnotatedBinaryMessageSend: aNode startTag: startTag actualMessage: message endTag: endTag
 
 	collectAnnotation := true.
 	[^ {self value: message}] 

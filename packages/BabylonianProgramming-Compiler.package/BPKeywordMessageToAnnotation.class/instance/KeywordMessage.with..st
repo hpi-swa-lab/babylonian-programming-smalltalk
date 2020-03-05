@@ -1,4 +1,4 @@
-accessing
-KeywordMessage: aNode with: segments
+rules
+KeywordMessage: aNode with: aChild
 
-	segments children do: [:segment | self value: segment].
+	^ self value: aChild

@@ -1,4 +1,4 @@
 grammar rules
-UnaryMessage: aNode with: x
+KeywordMessageSend: aNode with: x
 
 	^ self extractFrom: aNode

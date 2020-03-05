@@ -1,4 +1,4 @@
-grammar rules
+rules
 Pragma: aNode with: literal with: values with: anotherLiteral
 
 	| exampleName |

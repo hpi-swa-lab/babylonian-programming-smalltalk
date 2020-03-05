@@ -1,4 +1,4 @@
-accessing
+rules
 Literal: aNode with: content
 
 	^ content ruleName = #BlockLiteral 

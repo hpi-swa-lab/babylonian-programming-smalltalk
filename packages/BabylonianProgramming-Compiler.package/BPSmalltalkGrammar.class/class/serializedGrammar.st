@@ -1,56 +1,55 @@
 serialized grammar
 serializedGrammar
-^ 'BPSmalltalk <: OhmSmalltalk {
+^ 'BPSmalltalk <: OhmExplicitSendsSmalltalk {
 
-AnnotationInformation =
-	Operand KeywordMessage?
+AnnotationInformation = Operand KeywordMessage?
 
 Expression := NormalExpression | AnnotatedExpression
 	
-NormalExpression =
-	Operand (MessageChain CascadedMessage*)?
-
+NormalExpression = 
+	BinaryMessageSend CascadedMessages -- binaryCascade
+	| UnaryMessageSend CascadedMessages -- unaryCascade
+	| Operand CascadedMessages -- operandCascade
+	| KeywordMessageSend
+	
 AnnotatedExpression =
 	expressionAnnotationStart Expression expressionAnnotationEnd
 
+UnaryMessageSend := NormalUnaryMessageSend | AnnotatedUnaryMessageSend
+	
+NormalUnaryMessageSend = 
+	UnaryMessageReceiver UnaryMessage -- message
+	| Operand -- base
+	
+AnnotatedUnaryMessageSend =
+	expressionAnnotationStart UnaryMessageSend expressionAnnotationEnd
+
+BinaryMessageSend := NormalBinaryMessageSend | AnnotatedBinaryMessageSend
+	
+NormalBinaryMessageSend = 
+	BinaryMessageReceiver BinaryMessage?
+	
+AnnotatedBinaryMessageSend =
+	expressionAnnotationStart BinaryMessageSend expressionAnnotationEnd
+	
+KeywordMessageSend := NormalKeywordMessageSend | AnnotatedKeywordMessageSend 
+	
+NormalKeywordMessageSend = 
+	KeywordMessageReceiver KeywordMessageSegment*
+	
+AnnotatedKeywordMessageSend =
+	expressionAnnotationStart KeywordMessageSend expressionAnnotationEnd
 
 Operand := NormalOperand | AnnotatedOperand
 
-NormalOperand =
-	Literal
+NormalOperand = Literal
 	| Reference
 	| NestedExpression
 
 AnnotatedOperand =
 	expressionAnnotationStart Operand expressionAnnotationEnd
 
-
-
-KeywordMessage := NormalKeywordMessage | AnnotatedKeywordMessage
-
-NormalKeywordMessage = KeywordMessageSegment+
-
-AnnotatedKeywordMessage =
-	expressionAnnotationStart KeywordMessage expressionAnnotationEnd
-	
-
-BinaryMessage := NormalBinaryMessage | AnnotatedBinaryMessage
-
-NormalBinaryMessage = binaryMessageSelector BinaryMessageOperand
-
-AnnotatedBinaryMessage =
-	expressionAnnotationStart BinaryMessage expressionAnnotationEnd
-	
-	
-UnaryMessage := NormalUnaryMessage | AnnotatedUnaryMessage
-
-NormalUnaryMessage = ~keyword UnaryMessageSelector
-
-AnnotatedUnaryMessage =
-	expressionAnnotationStart UnaryMessage expressionAnnotationEnd
-	
-
-comment :=
+comment := 
 	~"\"<" "\"" (~"\"" (any | " " | "\n"))* "\""
 
 expressionAnnotationStart =

@@ -1,4 +1,4 @@
-accessing
+rules
 KeywordMessageSegment: aNode with: keyword and: argument
 
 	currentAnnotation 

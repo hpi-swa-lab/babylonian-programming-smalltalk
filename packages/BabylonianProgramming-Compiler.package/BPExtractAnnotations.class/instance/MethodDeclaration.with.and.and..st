@@ -1,4 +1,4 @@
-grammar rules
+rules
 MethodDeclaration: aNode with: header and: pragmas and: code
 
 	| resultingAnnotations |
