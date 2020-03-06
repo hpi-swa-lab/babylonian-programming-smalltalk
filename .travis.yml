@@ -2,9 +2,9 @@ language: smalltalk
 sudo: false
 
 smalltalk:
-  - Squeak-trunk
+  - Squeak32-trunk
   - Squeak64-trunk
-  - Squeak-5.3
+  - Squeak64-5.3
   
 os:
   - linux
