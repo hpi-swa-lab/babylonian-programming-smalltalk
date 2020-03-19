@@ -15,8 +15,8 @@ aboutToStyle: aPluggableShoutMorphOrView
 	"-------------------- ORIGINAL CODE -----------------------------"
 	
 	(aPluggableShoutMorphOrView respondsTo: #selectedMethod:) ifTrue: [
-		^ false.
-		"aPluggableShoutMorphOrView selectedMethod: self methodReference"].
+		aPluggableShoutMorphOrView selectedMethod: self methodReference.
+		^ true].
 	
 	"-------------------- ORIGINAL CODE -----------------------------"
 	^(#(Comment Hierarchy nil) includes: selectedMessageName) not
