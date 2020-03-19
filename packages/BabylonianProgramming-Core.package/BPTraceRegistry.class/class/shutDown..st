@@ -1,4 +1,5 @@
 system startup
 shutDown: quitting
 
-	quitting ifTrue: [BPTraces value removeAll]
+	self cleanUpTracesOnShutdown ifTrue: [
+		quitting ifTrue: [BPTraces value removeAll]].

@@ -1,7 +1,9 @@
 {
 	"class" : {
+		"cleanUpTracesOnShutdown" : "pre 3/19/2020 13:19",
+		"cleanUpTracesOnShutdown:" : "pre 3/19/2020 13:20",
 		"initialize" : "pre 7/25/2019 13:55",
-		"shutDown:" : "pre 7/25/2019 13:56" },
+		"shutDown:" : "pre 3/19/2020 13:20" },
 	"instance" : {
 		"activeExamples" : "pre 7/26/2019 13:51",
 		"at:" : "pre 7/25/2019 13:15",
