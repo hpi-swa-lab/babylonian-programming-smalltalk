@@ -1,4 +1,5 @@
 private
 extractIntervals
 
-	^ extractIntervals ifNil: [extractIntervals := BPExtractAnnotations new]
+	^ extractIntervals ifNil: [
+		extractIntervals := BPSmalltalkGrammar semanticAction: BPExtractAnnotations new]

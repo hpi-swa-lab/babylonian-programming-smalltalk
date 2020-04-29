@@ -3,6 +3,7 @@ initialize
 
 	super initialize.
 	self color: Color palePeach slightlyLighter.
+	self height: self fontHeight.
 	self 
 		changeTableLayout;
 		cellPositioning: #topLeft;

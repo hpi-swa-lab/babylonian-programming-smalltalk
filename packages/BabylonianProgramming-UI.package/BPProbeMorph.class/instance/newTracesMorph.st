@@ -4,7 +4,7 @@ newTracesMorph
 	^ Morph new
 		color: Color transparent;
 		changeTableLayout;
-		listDirection: #topToBottom; 
+		listDirection: #topToBottom;
 		vResizing: #shrinkWrap;
 		hResizing: #shrinkWrap;
 		cellPositioning: #topLeft;
