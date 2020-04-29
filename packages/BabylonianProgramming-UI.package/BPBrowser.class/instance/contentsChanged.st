@@ -1,9 +1,9 @@
-message list
-messageListIndex: anInteger
+contents
+contentsChanged
 
-	super messageListIndex: anInteger.
+	super contentsChanged.
 	
-	anInteger > 0 ifTrue: [
+	 selectedMessageName ifNotNil: [
 		currentCompiledMethod 
 			propertyValueAt: #bpSourceMap 
 			put: (self bpSourceMapFor: self contents)]
