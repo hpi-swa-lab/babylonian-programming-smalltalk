@@ -1,0 +1,14 @@
+{
+	"category" : "BabylonianProgramming-Compiler",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sourceMap" ],
+	"name" : "BPSourceMapping",
+	"pools" : [
+		 ],
+	"super" : "OhmSemanticAction",
+	"type" : "normal" }
