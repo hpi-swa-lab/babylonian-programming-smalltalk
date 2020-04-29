@@ -1,6 +1,7 @@
 private
 bpSourceMapFor: aText 
 	
-	| cst |
-	cst := (OhmExplicitSendsSmalltalk match: aText startingFrom: #MethodDeclaration) cst.
-	^ (OhmExplicitSendsSmalltalk semanticAction: BPSourceMapping new) createSourceMapFor: cst
+	| result |
+	result := (OhmExplicitSendsSmalltalk match: aText startingFrom: #MethodDeclaration).
+	result succeeded ifFalse: [self haltOnce. ^ #()].
+	^ (OhmExplicitSendsSmalltalk semanticAction: BPSourceMapping new) createSourceMapFor: result cst

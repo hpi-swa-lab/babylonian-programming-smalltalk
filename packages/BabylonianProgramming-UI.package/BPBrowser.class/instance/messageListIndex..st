@@ -3,6 +3,7 @@ messageListIndex: anInteger
 
 	super messageListIndex: anInteger.
 	
-	currentCompiledMethod 
-		propertyValueAt: #bpSourceMap 
-		put: (self bpSourceMapFor: self contents).
+	anInteger > 0 ifTrue: [
+		currentCompiledMethod 
+			propertyValueAt: #bpSourceMap 
+			put: (self bpSourceMapFor: self contents)]
