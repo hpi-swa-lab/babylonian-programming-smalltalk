@@ -1,14 +1,19 @@
 {
 	"class" : {
-		 },
+		"shouldInheritSelectors" : "pre 3/5/2020 18:03" },
 	"instance" : {
-		"setUp" : "pre 5/10/2019 11:07",
-		"testAnnotatedExpressionsAreRecognizedAsSuch" : "pre 5/10/2019 12:33",
+		"expectedFailures" : "pre 4/29/2020 15:51",
+		"setUp" : "pre 3/5/2020 18:21",
+		"testAnnotatedCascadedMessageReceivers" : "pre 4/29/2020 15:55",
+		"testAnnotatedCascadedMessageSends" : "pre 4/29/2020 16:40",
+		"testAnnotatedExpressionsAreRecognizedAsSuch" : "pre 1/28/2020 16:24",
 		"testAnnotationEndIsRecognizedAsSuch" : "pre 5/10/2019 11:14",
 		"testAnnotationIsNotAComment" : "pre 5/10/2019 11:08",
 		"testAnnotationStartIsRecognizedAsSuch" : "pre 5/10/2019 12:33",
+		"testBinaryMessageSendPartsPeculiarity" : "pre 3/5/2020 15:58",
 		"testExpressionsAlsoCoverAnnotatedExpressions" : "pre 5/10/2019 11:28",
-		"testMessageSendsCanBeAnnotated" : "pre 1/24/2020 16:46",
+		"testMessageSendPartsCanBeAnnotated" : "pre 1/28/2020 16:16",
+		"testMessageSendsCanBeAnnotated" : "pre 3/5/2020 18:22",
 		"testNormalExpressionsStillWork" : "pre 5/10/2019 11:27",
 		"testOtherCommentsAreStillComments" : "pre 5/10/2019 11:08",
 		"testRegressionProbeAnnotation01" : "pre 7/26/2019 10:22",

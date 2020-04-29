@@ -7,9 +7,9 @@ AnnotationInformation = Operand KeywordMessage?
 Expression := NormalExpression | AnnotatedExpression
 	
 NormalExpression = 
-	BinaryMessageSend CascadedMessages -- binaryCascade
+	Operand CascadedMessages -- operandCascade
 	| UnaryMessageSend CascadedMessages -- unaryCascade
-	| Operand CascadedMessages -- operandCascade
+	| BinaryMessageSend CascadedMessages -- binaryCascade
 	| KeywordMessageSend
 	
 AnnotatedExpression =
@@ -48,6 +48,15 @@ NormalOperand = Literal
 
 AnnotatedOperand =
 	expressionAnnotationStart Operand expressionAnnotationEnd
+
+MessageChain := NormalMessageChain | AnnotatedMessageChain
+ 
+NormalMessageChain = 
+	KeywordMessage --keyword
+	| BinaryMessage BinaryMessageChain? KeywordMessage? --binary
+	| UnaryMessage UnaryMessageChain? BinaryMessageChain? KeywordMessage? --unary
+
+AnnotatedMessageChain = expressionAnnotationStart MessageChain expressionAnnotationEnd
 
 comment := 
 	~"\"<" "\"" (~"\"" (any | " " | "\n"))* "\""

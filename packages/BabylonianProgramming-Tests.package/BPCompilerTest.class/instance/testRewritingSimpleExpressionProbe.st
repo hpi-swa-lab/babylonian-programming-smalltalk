@@ -1,4 +1,4 @@
-tests
+tests - annotations
 testRewritingSimpleExpressionProbe
 
 	self 

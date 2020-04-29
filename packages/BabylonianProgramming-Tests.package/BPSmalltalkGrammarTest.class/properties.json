@@ -10,5 +10,5 @@
 	"name" : "BPSmalltalkGrammarTest",
 	"pools" : [
 		 ],
-	"super" : "OhmSyntaxTestCase",
+	"super" : "OhmExplicitSendsSmalltalkGrammarTest",
 	"type" : "normal" }

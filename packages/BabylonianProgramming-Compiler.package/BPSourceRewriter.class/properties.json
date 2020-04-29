@@ -4,12 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "pre 11/8/2019 20:08",
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		"currentAnnotation",
 		"keywordMessageExtraction",
 		"currentProbeId",
-		"currentBlockId" ],
+		"currentBlockId",
+		"inCascade" ],
 	"name" : "BPSourceRewriter",
 	"pools" : [
 		 ],

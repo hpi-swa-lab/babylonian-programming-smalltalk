@@ -1,18 +1,19 @@
 as yet unclassified
 initialize
+	<layer: #bpInstrumented>
 	<exampleNamed: 'fancy morph basic example' active: true self: #basicNew>
 
 	super initialize.
 	  
-	"<bpProbe id: 6630921>"self color: Color blue darker"</bpProbe>".
+	(self bpTrace: [self color: Color blue darker] forProbe: 6630921 inContext: thisContext).
 	
-	"<bpProbe id: 5521953>"self width: 200"</bpProbe>".
+	(self bpTrace: [self width: 200] forProbe: 5521953 inContext: thisContext).
 		
-	"<bpProbe id: 6810401>"self height: 200"</bpProbe>". 
+	(self bpTrace: [self height: 200] forProbe: 6810401 inContext: thisContext). 
 	
 	
 	1 to: 50 do: [:i |
-		"<bpAssert id: 9409988 for: 'BPSearchCollection>>#binarySearch:>>#''basic''' that: [:result | result < 50]>"10 + i"</bpAssert>".
-		"<bpProbe id: 5772977>"self addMorph: (BPFancyStar new extent: 100@100; topLeft: (i sin * 10)@(10 + (5*i)))"</bpProbe>"].
+		(self bpAssertAfter: [10 + i] that: [:result | result < 50] forAssertion: 9409988 given: 'BPSearchCollection>>#binarySearch:>>#''basic''' inContext: thisContext).
+		(self bpTrace: [self addMorph: (BPFancyStar new extent: 100@100; topLeft: (i sin * 10)@(10 + (5*i)))] forProbe: 5772977 inContext: thisContext)].
 	
 	
