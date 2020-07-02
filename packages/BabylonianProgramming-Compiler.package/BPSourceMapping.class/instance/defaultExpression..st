@@ -1,9 +1,11 @@
 standard attributes
 defaultExpression: aNode
 
+	| sourceMapNode |
+	sourceMapNode := self sourceMapNodeFor: aNode.
 	(aNode interval start to: (aNode interval end min: self sourceMap size))
 		do: [:index | 
-			(OhmBuiltInRules ownAndInheritedRules keys includes: aNode ruleName) ifFalse: [
-				(self sourceMap at: index) add: aNode ruleName]].
+			(self notOhmBuiltInRule: aNode ruleName) ifTrue: [
+				(self sourceMap at: index) add: sourceMapNode]].
   
 	aNode children do: [:c | self value: c].

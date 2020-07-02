@@ -6,10 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"sourceMap",
-		"ohmNodeToSourceMapNode" ],
-	"name" : "BPSourceMapping",
+		"ruleName",
+		"parent",
+		"interval" ],
+	"name" : "BPSourceMapNode",
 	"pools" : [
 		 ],
-	"super" : "OhmSemanticAction",
+	"super" : "Object",
 	"type" : "normal" }
