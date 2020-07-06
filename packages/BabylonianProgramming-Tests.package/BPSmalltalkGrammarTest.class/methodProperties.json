@@ -4,9 +4,11 @@
 	"instance" : {
 		"expectedFailures" : "pre 7/6/2020 15:27",
 		"setUp" : "pre 3/5/2020 18:21",
+		"testAnnotatedAssignments" : "pre 7/6/2020 17:28",
 		"testAnnotatedCascadedMessageReceivers" : "pre 4/29/2020 15:55",
 		"testAnnotatedCascadedMessageSends" : "pre 4/29/2020 16:40",
 		"testAnnotatedExpressionsAreRecognizedAsSuch" : "pre 1/28/2020 16:24",
+		"testAnnotatedStatements" : "pre 7/6/2020 17:29",
 		"testAnnotationEndIsRecognizedAsSuch" : "pre 5/10/2019 11:14",
 		"testAnnotationIsNotAComment" : "pre 5/10/2019 11:08",
 		"testAnnotationStartIsRecognizedAsSuch" : "pre 5/10/2019 12:33",

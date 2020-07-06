@@ -49,6 +49,14 @@ NormalOperand =
 
 AnnotatedOperand =
 	expressionAnnotationStart Operand expressionAnnotationEnd
+	
+Statement := NormalStatement | AnnotatedStatement
+
+NormalStatement = 
+	AssignmentOperation* Expression
+	
+AnnotatedStatement = 
+	expressionAnnotationStart Statement expressionAnnotationEnd	
 
 MessageChain := NormalMessageChain | AnnotatedMessageChain
  

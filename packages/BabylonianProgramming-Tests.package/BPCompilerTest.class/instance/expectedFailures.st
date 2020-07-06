@@ -1,4 +1,7 @@
 failures
 expectedFailures
 
-	^ #(testRewritingLeftHandOfAssignmentProbe testRewritingErrorOnIncompleteExpressionForAssertion testRewritingErrorOnIncompleteExpressionForReplacement testRewritingErrorOnIncompleteExpressionProbe testFromFormattedSourceCodeToAnnotatedSourceCode) , "should fail" #(testRewritingBinaryMessageChainProbe)
+	^ #(testRewritingErrorOnIncompleteExpressionForAssertion 
+	testRewritingErrorOnIncompleteExpressionForReplacement
+	testRewritingErrorOnIncompleteExpressionProbe
+	testFromFormattedSourceCodeToAnnotatedSourceCode) , "should fail" #(testRewritingBinaryMessageChainProbe)

@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"assertCompilerRewrites:to:" : "pre 5/10/2019 11:46",
-		"expectedFailures" : "pre 3/5/2020 17:42",
+		"expectedFailures" : "pre 7/6/2020 17:15",
 		"setUp" : "pre 5/10/2019 11:42",
 		"testCompilerRecognizesMethodsThatRequireRecompilation" : "pre 11/11/2019 10:01",
 		"testFromFormattedSourceCodeToAnnotatedSourceCode" : "pre 5/29/2019 18:48",
@@ -19,7 +19,8 @@
 		"testRewritingKeywordMessageBinaryReceiverProbe" : "pre 1/27/2020 20:01",
 		"testRewritingKeywordMessageUnaryArgumentProbe" : "pre 1/27/2020 20:00",
 		"testRewritingKeywordMessageUnaryReceiverProbe" : "pre 1/27/2020 20:01",
-		"testRewritingLeftHandOfAssignmentProbe" : "pre 5/10/2019 11:40",
+		"testRewritingLeftHandOfAssignmentProbe" : "pre 7/6/2020 18:06",
+		"testRewritingLeftHandOfAssignmentProbeMultipleVariables" : "pre 7/6/2020 18:06",
 		"testRewritingNestedReplacements" : "pre 1/27/2020 17:51",
 		"testRewritingOperandInExpressionProbe" : "pre 1/27/2020 17:51",
 		"testRewritingProbeWithinABlockAddsBlockTracing" : "pre 1/27/2020 17:53",

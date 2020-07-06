@@ -1,0 +1,14 @@
+{
+	"category" : "BabylonianProgramming-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"variableNames" ],
+	"name" : "BPAssignmentProbe",
+	"pools" : [
+		 ],
+	"super" : "BPProbe",
+	"type" : "normal" }
