@@ -2,7 +2,7 @@
 	"class" : {
 		"shouldInheritSelectors" : "pre 3/5/2020 18:03" },
 	"instance" : {
-		"expectedFailures" : "pre 4/29/2020 15:51",
+		"expectedFailures" : "pre 7/6/2020 15:27",
 		"setUp" : "pre 3/5/2020 18:21",
 		"testAnnotatedCascadedMessageReceivers" : "pre 4/29/2020 15:55",
 		"testAnnotatedCascadedMessageSends" : "pre 4/29/2020 16:40",
@@ -12,6 +12,9 @@
 		"testAnnotationStartIsRecognizedAsSuch" : "pre 5/10/2019 12:33",
 		"testBinaryMessageSendPartsPeculiarity" : "pre 3/5/2020 15:58",
 		"testExpressionsAlsoCoverAnnotatedExpressions" : "pre 5/10/2019 11:28",
+		"testGrammarDistinguishesOperandAndUnaryCascades" : "pre 7/6/2020 14:32",
+		"testGrammarParsesConstantReferencesNotVariables" : "pre 7/6/2020 14:57",
+		"testGrammarParsesVariableNameCorrectly" : "pre 7/6/2020 14:33",
 		"testMessageSendPartsCanBeAnnotated" : "pre 1/28/2020 16:16",
 		"testMessageSendsCanBeAnnotated" : "pre 3/5/2020 18:22",
 		"testNormalExpressionsStillWork" : "pre 5/10/2019 11:27",

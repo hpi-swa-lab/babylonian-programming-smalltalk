@@ -5,7 +5,7 @@ serializedGrammar
 AnnotationInformation = Operand KeywordMessage?
 
 Expression := NormalExpression | AnnotatedExpression
-	
+
 NormalExpression = 
 	Operand CascadedMessages -- operandCascade
 	| UnaryMessageSend CascadedMessages -- unaryCascade
@@ -18,7 +18,7 @@ AnnotatedExpression =
 UnaryMessageSend := NormalUnaryMessageSend | AnnotatedUnaryMessageSend
 	
 NormalUnaryMessageSend = 
-	UnaryMessageReceiver UnaryMessage -- message
+	UnaryMessageReceiver UnaryMessage ~";" -- message
 	| Operand -- base
 	
 AnnotatedUnaryMessageSend =
@@ -42,7 +42,8 @@ AnnotatedKeywordMessageSend =
 
 Operand := NormalOperand | AnnotatedOperand
 
-NormalOperand = Literal
+NormalOperand = 
+	Literal
 	| Reference
 	| NestedExpression
 
@@ -51,13 +52,13 @@ AnnotatedOperand =
 
 MessageChain := NormalMessageChain | AnnotatedMessageChain
  
-NormalMessageChain = 
-	KeywordMessage --keyword
-	| BinaryMessage BinaryMessageChain? KeywordMessage? --binary
-	| UnaryMessage UnaryMessageChain? BinaryMessageChain? KeywordMessage? --unary
+NormalMessageChain =
+	KeywordMessage
+	| BinaryMessage  
+	| UnaryMessage 
 
 AnnotatedMessageChain = expressionAnnotationStart MessageChain expressionAnnotationEnd
-
+ 
 comment := 
 	~"\"<" "\"" (~"\"" (any | " " | "\n"))* "\""
 

@@ -1,4 +1,4 @@
 failures
 expectedFailures
 
-	^ #(testMessageSendsCanBeAnnotated)
+	^ #(testMessageSendsCanBeAnnotated testGrammarParsesUnaryMessageSendsWithProblematicOperand testGrammarParsesConstantReferencesInExpressions)
