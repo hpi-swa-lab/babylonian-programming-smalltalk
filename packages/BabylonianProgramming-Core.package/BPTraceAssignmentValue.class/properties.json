@@ -1,0 +1,14 @@
+{
+	"category" : "BabylonianProgramming-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"previousValues" ],
+	"name" : "BPTraceAssignmentValue",
+	"pools" : [
+		 ],
+	"super" : "BPTraceValue",
+	"type" : "normal" }

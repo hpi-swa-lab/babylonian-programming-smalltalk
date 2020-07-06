@@ -1,5 +1,4 @@
-tracing
+private
 traceException: anException
 
-	^ self trace traceException: anException
-	
+	self trace traceException: anException
