@@ -2,10 +2,10 @@ private
 determineIntervalToAnnotateFor: anInterval
 	"This determines the interval to annotate for a selected interval. The selected interval can also be a 0 width selection."
 
-	<exampleNamed: 'basic case' active: true self: 'BPBrowser new setClass: BPFancyStar selector: #initialize; selectedMessage; yourself' with: '26 to: 36'>
+	<exampleNamed: 'basic case' self: 'BPBrowser new setClass: BPFancyStar selector: #initialize; selectedMessage; yourself' with: '26 to: 36'>
 
 	| nodes parents lowestCommonAncestorIndex ancestors lowestUsefulAncestor |
-	self haltOnce. 
+
 	nodes := currentCompiledMethod bpSourceMap atAll: {"<bpProbe id: 6912574>"anInterval start"</bpProbe>". anInterval stop}.
 	"This is necessary as we do only assume that the last node is the lowest one, not that
 	the rest of the nodes is necessarily ordered according to the tree"
