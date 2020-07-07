@@ -14,7 +14,10 @@ baseline: spec
 				package: 'BabylonianProgramming-Core' with: [spec requires: #('BabylonianProgramming-Compiler' 'ContextS2-Core')];
 				package: 'BabylonianProgramming-Compiler' with: [spec requires: #('Ohm')];
 				package: 'BabylonianProgramming-Tests' with: [spec requires: #('BabylonianProgramming-Core' 'BabylonianProgramming-UI')];
-				package: 'BabylonianProgramming-UI' with: [spec requires: #('BabylonianProgramming-Core' 'IconsBase')];
+				package: 'BabylonianProgramming-UI' with: [
+					spec 
+						requires: #('BabylonianProgramming-Core' 'IconsBase');
+						postLoadDoIt: #postLoadUI];
 				yourself.
 			spec
 				group: 'default' with: #('BabylonianProgramming-Core' 'BabylonianProgramming-UI');
