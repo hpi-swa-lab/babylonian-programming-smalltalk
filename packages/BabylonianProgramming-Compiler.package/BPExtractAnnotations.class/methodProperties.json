@@ -5,8 +5,9 @@
 		"AnnotatedBinaryMessageSend:startTag:actualOperand:endTag:" : "pre 3/5/2020 16:36",
 		"AnnotatedExpression:startTag:actualExpression:endTag:" : "pre 7/26/2019 10:49",
 		"AnnotatedKeywordMessageSend:startTag:actualOperand:endTag:" : "pre 3/5/2020 16:36",
-		"AnnotatedNode:startTag:actualNode:endTag:" : "pre 7/26/2019 10:49",
+		"AnnotatedNode:startTag:actualNode:endTag:" : "pre 7/7/2020 15:13",
 		"AnnotatedOperand:startTag:actualOperand:endTag:" : "pre 3/5/2020 17:56",
+		"AnnotatedStatement:startTag:actualStatement:endTag:" : "pre 7/7/2020 15:14",
 		"AnnotatedUnaryMessageSend:startTag:actualOperand:endTag:" : "pre 3/5/2020 16:36",
 		"AnnotationInformation:with:and:" : "pre 11/11/2019 12:06",
 		"ExecutableCode:variables:with:code:" : "pre 5/29/2019 10:51",
@@ -16,5 +17,7 @@
 		"Pragmas:pragmas:" : "pre 5/29/2019 10:47",
 		"defaultExpression:" : "pre 5/29/2019 10:54",
 		"initialize" : "pre 3/24/2020 09:39",
+		"initializeAnnotationGiven:from:" : "pre 7/7/2020 15:11",
 		"initializeExtractionAttributes" : "pre 3/24/2020 09:40",
+		"preserveCurrentAnnotationDuring:" : "pre 7/7/2020 15:12",
 		"resetExtractionAttributes" : "pre 3/20/2020 14:30" } }

@@ -19,7 +19,7 @@
 		"testRewritingKeywordMessageBinaryReceiverProbe" : "pre 1/27/2020 20:01",
 		"testRewritingKeywordMessageUnaryArgumentProbe" : "pre 1/27/2020 20:00",
 		"testRewritingKeywordMessageUnaryReceiverProbe" : "pre 1/27/2020 20:01",
-		"testRewritingLeftHandOfAssignmentProbe" : "pre 7/6/2020 18:06",
+		"testRewritingLeftHandOfAssignmentProbe" : "pre 7/7/2020 15:45",
 		"testRewritingLeftHandOfAssignmentProbeMultipleVariables" : "pre 7/6/2020 18:06",
 		"testRewritingNestedReplacements" : "pre 1/27/2020 17:51",
 		"testRewritingOperandInExpressionProbe" : "pre 1/27/2020 17:51",

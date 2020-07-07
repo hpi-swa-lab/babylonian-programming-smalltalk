@@ -1,0 +1,14 @@
+{
+	"category" : "BabylonianProgramming-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPAssignmentProbeMorph",
+	"pools" : [
+		 ],
+	"super" : "BPProbeMorph",
+	"type" : "normal" }

@@ -10,6 +10,7 @@
 		"testStylerSetsAnchorAttributeForProbeOnUnaryMessageChain" : "pre 1/27/2020 18:27",
 		"testStylerSetsAnchorCharacterForProbe" : "pre 7/23/2019 12:06",
 		"testStylerSetsAnchorForAssertion" : "pre 7/23/2019 12:12",
+		"testStylerSetsAnchorForAssignmentProbe" : "pre 7/7/2020 15:41",
 		"testStylerSetsAnchorForExample" : "pre 7/23/2019 12:06",
 		"testStylerSetsAnchorForReplacement" : "pre 7/23/2019 12:12",
 		"testStylerSetsAnchorForSlider" : "pre 3/5/2020 17:47" } }
