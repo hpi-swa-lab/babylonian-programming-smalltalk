@@ -8,8 +8,8 @@ Expression := NormalExpression | AnnotatedExpression
 
 NormalExpression = 
 	Operand CascadedMessages -- operandCascade
-	| UnaryMessageSend CascadedMessages -- unaryCascade
-	| BinaryMessageSend CascadedMessages -- binaryCascade
+	| UnaryMessageReceiver CascadedMessages -- unaryCascade
+	| BinaryMessageReceiver CascadedMessages -- binaryCascade
 	| KeywordMessageSend
 	
 AnnotatedExpression =
@@ -18,7 +18,7 @@ AnnotatedExpression =
 UnaryMessageSend := NormalUnaryMessageSend | AnnotatedUnaryMessageSend
 	
 NormalUnaryMessageSend = 
-	UnaryMessageReceiver UnaryMessage ~";" -- message
+	UnaryMessageReceiver UnaryMessage -- message
 	| Operand -- base
 	
 AnnotatedUnaryMessageSend =
