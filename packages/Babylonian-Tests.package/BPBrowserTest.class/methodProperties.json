@@ -4,6 +4,5 @@
 	"instance" : {
 		"runCase" : "pre 7/10/2020 15:23",
 		"setUp" : "pre 7/10/2020 15:44",
-		"setUp (bpInstrumented)" : "pre 7/10/2020 15:42",
 		"tearDown" : "pre 7/10/2020 15:32",
 		"testDeleteMethod" : "pre 7/10/2020 15:30" } }

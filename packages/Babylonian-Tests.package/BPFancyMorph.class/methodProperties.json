@@ -2,5 +2,4 @@
 	"class" : {
 		"compilerClass" : "pre 11/9/2019 15:08" },
 	"instance" : {
-		"initialize" : "pre 7/10/2020 15:42",
-		"initialize (bpInstrumented)" : "pre 7/10/2020 15:42" } }
+		"initialize" : "pre 7/10/2020 15:42" } }
