@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-Compiler",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"collectAnnotation" ],
+	"name" : "BPAnnotatedExpressionExtraction",
+	"pools" : [
+		 ],
+	"super" : "OhmSynthesizedAttribute",
+	"type" : "normal" }

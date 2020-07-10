@@ -1,0 +1,15 @@
+{
+	"category" : "Babylonian-Core-Tracing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"CleanUpOnShutdown" ],
+	"commentStamp" : "pre 7/25/2019 13:14",
+	"instvars" : [
+		"mutex",
+		"dictionary" ],
+	"name" : "BPTraceRegistry",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

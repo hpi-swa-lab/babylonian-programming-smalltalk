@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"extractIntervals" : "pre 3/24/2020 08:54",
+		"ifNoSelectedMethod:" : "pre 3/19/2020 11:07",
+		"isAlreadyAnnotatedExpressionAt:in:" : "pre 5/29/2019 22:40",
+		"privateFormat:" : "pre 7/7/2020 15:48",
+		"reformat:basedOn:" : "pre 4/30/2020 17:56",
+		"selectedMethod:" : "pre 7/1/2019 16:38",
+		"textForAnnotation:from:at:" : "pre 11/8/2019 13:32",
+		"unstyledTextFrom:" : "pre 11/11/2019 11:52" } }

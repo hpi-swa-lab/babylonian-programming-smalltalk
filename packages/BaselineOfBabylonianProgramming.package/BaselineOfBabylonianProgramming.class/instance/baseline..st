@@ -11,15 +11,15 @@ baseline: spec
 					spec repository: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/SwaUtilities'];
 				package: 'ContextS2-Core' with:
  					[ spec repository: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/ContextSTrunk' ];
-				package: 'BabylonianProgramming-Core' with: [spec requires: #('BabylonianProgramming-Compiler' 'ContextS2-Core')];
-				package: 'BabylonianProgramming-Compiler' with: [spec requires: #('Ohm')];
-				package: 'BabylonianProgramming-Tests' with: [spec requires: #('BabylonianProgramming-Core' 'BabylonianProgramming-UI')];
-				package: 'BabylonianProgramming-UI' with: [
+				package: 'Babylonian-Core' with: [spec requires: #('Babylonian-Compiler' 'ContextS2-Core')];
+				package: 'Babylonian-Compiler' with: [spec requires: #('Ohm')];
+				package: 'Babylonian-Tests' with: [spec requires: #('Babylonian-Core' 'Babylonian-UI')];
+				package: 'Babylonian-UI' with: [
 					spec 
-						requires: #('BabylonianProgramming-Core' 'IconsBase');
+						requires: #('Babylonian-Core' 'IconsBase');
 						postLoadDoIt: #postLoadUI];
 				yourself.
 			spec
-				group: 'default' with: #('BabylonianProgramming-Core' 'BabylonianProgramming-UI');
-				group: 'tests' with: #('BabylonianProgramming-Tests')];
+				group: 'default' with: #('Babylonian-Core' 'Babylonian-UI');
+				group: 'tests' with: #('Babylonian-Tests')];
 		yourself

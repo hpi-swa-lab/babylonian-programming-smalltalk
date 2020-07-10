@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pre 7/3/2019 10:39",
+	"instvars" : [
+		 ],
+	"name" : "BPTextReadWriter",
+	"pools" : [
+		 ],
+	"super" : "TextReadWriter",
+	"type" : "normal" }

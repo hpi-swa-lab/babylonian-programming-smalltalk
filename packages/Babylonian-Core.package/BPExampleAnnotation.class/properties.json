@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-Core-Annotations",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pre 7/23/2019 12:46",
+	"instvars" : [
+		"exampleName" ],
+	"name" : "BPExampleAnnotation",
+	"pools" : [
+		 ],
+	"super" : "BPAnnotation",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "Babylonian-Core-Annotations",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"methodReference",
+		"exampleName" ],
+	"name" : "BPExampleReference",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

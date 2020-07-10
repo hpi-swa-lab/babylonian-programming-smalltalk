@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-Compiler",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"rewriter" ],
+	"name" : "BPCompiler",
+	"pools" : [
+		 ],
+	"super" : "Compiler",
+	"type" : "normal" }

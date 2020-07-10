@@ -1,0 +1,19 @@
+{
+	"category" : "Babylonian-Core-Tracing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"example",
+		"probes",
+		"assertions",
+		"exampleErrored",
+		"recordedException",
+		"exampleExecutionProcess" ],
+	"name" : "BPTrace",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

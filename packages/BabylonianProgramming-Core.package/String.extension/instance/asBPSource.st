@@ -1,4 +1,0 @@
-*BabylonianProgramming-COre
-asBPSource
-
-	^ self

@@ -1,0 +1,18 @@
+{
+	"category" : "Babylonian-Compiler",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"currentAnnotation",
+		"keywordMessageExtraction",
+		"currentProbeId",
+		"currentBlockId",
+		"inCascade" ],
+	"name" : "BPSourceRewriter",
+	"pools" : [
+		 ],
+	"super" : "OhmConservativeSourceRewriter",
+	"type" : "normal" }

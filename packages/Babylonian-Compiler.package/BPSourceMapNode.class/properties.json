@@ -1,0 +1,16 @@
+{
+	"category" : "Babylonian-Compiler",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ruleName",
+		"parent",
+		"interval" ],
+	"name" : "BPSourceMapNode",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPSmalltalkGrammarTest",
+	"pools" : [
+		 ],
+	"super" : "OhmExplicitSendsSmalltalkGrammarTest",
+	"type" : "normal" }

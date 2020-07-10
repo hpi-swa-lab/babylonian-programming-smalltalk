@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"compilerClass" : "pre 1/27/2020 09:44",
+		"exampleTextAnchor" : "pre 11/8/2019 12:05" },
+	"instance" : {
+		"annotationKeywords" : "pre 11/8/2019 20:29",
+		"compile:ifFail:" : "pre 11/11/2019 15:48",
+		"compileInstrumentedVersionOf:" : "pre 11/13/2019 10:00",
+		"keywords" : "pre 7/26/2019 14:00",
+		"methodSourceRequiresBPLayers:" : "pre 11/11/2019 15:49",
+		"rewrite:" : "pre 7/6/2020 17:18",
+		"rewrite: (bpInstrumented)" : "pre 7/6/2020 17:18",
+		"rewriter" : "pre 3/5/2020 18:20" } }

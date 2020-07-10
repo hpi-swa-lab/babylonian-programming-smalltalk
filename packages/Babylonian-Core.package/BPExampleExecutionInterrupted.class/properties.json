@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-Core-Tracing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"trace" ],
+	"name" : "BPExampleExecutionInterrupted",
+	"pools" : [
+		 ],
+	"super" : "Notification",
+	"type" : "normal" }

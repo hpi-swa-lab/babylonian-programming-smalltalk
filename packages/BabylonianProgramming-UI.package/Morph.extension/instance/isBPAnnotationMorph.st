@@ -1,4 +1,0 @@
-*BabylonianProgramming-UI
-isBPAnnotationMorph
-	
-	^ false
