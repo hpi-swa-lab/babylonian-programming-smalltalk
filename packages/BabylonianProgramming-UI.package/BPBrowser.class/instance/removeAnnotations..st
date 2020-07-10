@@ -14,7 +14,7 @@ removeAnnotations: aCollectionOfAnnotations
 			copyReplaceFrom: interval start
 			to: interval stop
 			with: (newContent copyFrom: interval start + 1 to: interval stop).
-		newContent removeAttribute: attr]. 
+		newContent removeAttribute: attr from: 1 to: newContent size]. 
 	
 	self saveMethodWithExamplesWith: newContent.
 	
