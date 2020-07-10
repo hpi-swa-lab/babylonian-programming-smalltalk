@@ -4,6 +4,11 @@ codePaneMenuAnnotationItems: aMenu
 	<codePaneMenu> 
 	<menuPriority: 400>
 	| annotationsInSelection |
+	
+	self hasUnacceptedEdits ifTrue: [
+		aMenu add: 'for annotations save method first' action: #yourself.	
+		^ aMenu].
+	
 	annotationsInSelection := self annotationsInSelection.
 	
 	aMenu add: 'add example' action: #addExample.
