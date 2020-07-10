@@ -9,9 +9,9 @@ SmalltalkCISpec {
     }
   ],
   #testing : {
-    #categories : [ 'BabylonianProgramming-*' ],
+    #categories : [ 'Babylonian-*' ],
     #coverage : {
-      #categories : [ 'BabylonianProgramming-*' ]
+      #categories : [ 'Babylonian-*' ]
     }
   }
 }
