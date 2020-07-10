@@ -1,0 +1,1 @@
+This is a TraceValue recorded from an AssignmentProbe which also records the value previously stored in the assigned variable.

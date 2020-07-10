@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "pre 7/10/2020 15:57",
 	"instvars" : [
-		"previousValues" ],
-	"name" : "BPTraceAssignmentValue",
+		 ],
+	"name" : "BPFailedTrace",
 	"pools" : [
 		 ],
 	"super" : "BPTraceValue",
