@@ -15,7 +15,7 @@ codePaneMenuAnnotationItems: aMenu
 
 	annotationsInSelection ifEmpty: [
 		aMenu
-			add: 'add probe' action: #addProbeToSelection;
+			add: 'add probe (u)' action: #addProbeToSelection;
 			add: 'add assertion' action: #addAssertionToSelection;
 			add: 'add replacement' action: #addReplacementToSelection].
 

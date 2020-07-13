@@ -2,6 +2,11 @@ private
 addAnnotationAtSelection: anAnnotation
 
 	| result |
+	self hasUnacceptedEdits ifTrue: [
+		self inform: 'To add annotations,
+save method first.'.
+		^ false].
+	
 	result := self 
 		addAnnotation: anAnnotation 
 		in: (self selectedInterval start to: self selectedInterval stop).
