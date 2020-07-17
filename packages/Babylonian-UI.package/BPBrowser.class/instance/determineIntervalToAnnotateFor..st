@@ -2,14 +2,14 @@ private
 determineIntervalToAnnotateFor: anInterval
 	"This determines the interval to annotate for a selected interval. The selected interval can also be a 0 width selection."
 
-	<exampleNamed: 'basic case' self: 'BPBrowser new setClass: BPFancyStar selector: #initialize; selectedMessage; yourself' with: '26 to: 36'>
-
+	<exampleNamed: 'problematic case' active: true self: 'BPBrowser new setClass: BPSearchCollection selector: #binarySearch:; selectedMessage; yourself' with: '87 to: 87'>
+	<exampleNamed: 'base case' self: 'BPBrowser new setClass: BPFancyStar selector: #initialize; selectedMessage; yourself' with: '26 to: 36'>
 	| nodes parents lowestCommonAncestorIndex ancestors lowestUsefulAncestor |
 
 	nodes := currentCompiledMethod bpSourceMap atAll: {"<bpProbe id: 6912574>"anInterval start"</bpProbe>". anInterval stop}.
 	"This is necessary as we do only assume that the last node is the lowest one, not that
 	the rest of the nodes is necessarily ordered according to the tree"
-	parents := nodes collect: [:allNodes | allNodes last allParents].
+	parents := nodes collect: [:allNodes | {allNodes last} , allNodes last allParents].
 	 
 	"This is a naiive approach but is fine as the trees are not that deep."
 	lowestCommonAncestorIndex := "<bpProbe id: 7963799>"parents first findFirst: [:n | parents second includes: n]"</bpProbe>".
@@ -28,8 +28,5 @@ determineIntervalToAnnotateFor: anInterval
 				(parents first first: lowestCommonAncestorIndex) reverse 
 					detect: [:n | self isAnnotatableRule: n ruleName]
 					ifNone: [self error: 'no selectable node found']].
-		
-	"<bpProbe id: 4564072>"(BPStyler new selectedMethod: currentCompiledMethod; format: currentCompiledMethod getSource) asString 
-		copyFrom: lowestUsefulAncestor interval start to: lowestUsefulAncestor interval stop"</bpProbe>".
-		
+			
 	^ lowestUsefulAncestor interval
