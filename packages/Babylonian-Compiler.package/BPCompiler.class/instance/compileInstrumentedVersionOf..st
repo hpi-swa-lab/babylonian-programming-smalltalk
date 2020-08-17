@@ -1,16 +1,16 @@
 private
 compileInstrumentedVersionOf: aCue
 
-	| instrumentedMethod newCode originalCode parseResult |
+	| originalCode parseResult |
 	originalCode := aCue sourceStream contents asBPSource asString.
-	parseResult := BPSmalltalkGrammar
-					match: originalCode
-					startingFrom: #MethodDeclaration.
-	parseResult failed ifTrue: [^ false].
+	parseResult := self parse: originalCode.
 	
-	[newCode := self rewrite: originalCode basedOn: parseResult.
-	instrumentedMethod := aCue getClass compile: newCode.
-	(aCue getClass >> instrumentedMethod) runExamples.] 
-		forkAt: Processor userBackgroundPriority.
-		
-	^ true
+	parseResult succeeded 
+		ifTrue: [
+			self backgroundCompileInstrumentedVersionOf: aCue basedOn: parseResult.
+			^ true]
+		ifFalse: [^ false].
+	
+	
+	
+	
