@@ -4,7 +4,7 @@ check: assertionBlock after: codeBlock forAssertion: anAssertionId given: anExam
 	| result |
 	result := codeBlock value.
 	(self exampleNameMatches: anExampleName) ifTrue: [
-		self trace
+		trace
 			trace: ((assertionBlock cull: result) = true)
 			forAssertion: anAssertionId
 			inContext: aContext].

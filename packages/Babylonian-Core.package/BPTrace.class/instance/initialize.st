@@ -5,3 +5,4 @@ initialize
 	probes := IdentityDictionary new.
 	assertions := IdentityDictionary new.
 	exampleErrored := false.
+	hasTraceCompleted := false.

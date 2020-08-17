@@ -2,5 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"bpTrace" : "pre 5/8/2019 17:52",
-		"bpTraceForExample:" : "pre 7/17/2020 18:06" } }
+		"bpTraceAsyncForExample:notifying:" : "pre 8/17/2020 10:21",
+		"bpTraceForExample:" : "pre 8/17/2020 10:20",
+		"bpTraceWith:" : "pre 8/17/2020 10:19" } }

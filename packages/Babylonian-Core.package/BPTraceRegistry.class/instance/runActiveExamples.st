@@ -5,7 +5,7 @@ runActiveExamples
 		promise := Promise new.
 		promise whenResolved: [:trace |
 			BPTraces value at: trace example exampleReference put: trace].
-		exampleExecution := [[promise resolveWith: example trace]
+		exampleExecution := [[example traceAsyncNotifying: [:intermediateTrace | promise resolveWith: intermediateTrace]]
 			on: BPExampleExecutionInterrupted
 			do: [:e | 
 				"We need to remember this in order to terminate example processes

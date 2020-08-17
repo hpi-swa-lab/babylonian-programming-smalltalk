@@ -3,7 +3,7 @@ traceAssignment: aBlock previousValues: variablesAndValueTuples forProbe: aProbe
 
 	| result |
 	result := self traceBlock: aBlock forProbe: aProbeId.
-	self trace 
+	trace 
 		traceAssignment: result
 		previousValues: variablesAndValueTuples 
 		forId: aProbeId 

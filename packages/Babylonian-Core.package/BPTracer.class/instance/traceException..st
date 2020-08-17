@@ -1,4 +1,4 @@
 private
 traceException: anException
 
-	self trace traceException: anException
+	trace traceException: anException

@@ -1,7 +1,7 @@
 tests
-testActivateBPTracingOnBlock
+testFinishedTracesAreComplete
 
 	| result |
 	result := [BPTestManuallyInstrumentedClass new methodA] bpTraceForExample: nil.
-	self assert: result notNil.
+	self assert: result hasTraceCompleted.
 	

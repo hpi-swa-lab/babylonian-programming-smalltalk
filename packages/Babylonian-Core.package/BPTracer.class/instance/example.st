@@ -1,4 +1,4 @@
 accessing
 example
 
-	^ self trace example
+	^ trace example

@@ -11,7 +11,8 @@
 		"assertions",
 		"exampleErrored",
 		"recordedException",
-		"exampleExecutionProcess" ],
+		"exampleExecutionProcess",
+		"hasTraceCompleted" ],
 	"name" : "BPTrace",
 	"pools" : [
 		 ],
