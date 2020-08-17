@@ -14,6 +14,7 @@ updateFrom: traces
 			t exampleErrored 
 				ifTrue: [errorIndicatorMorph := self createErrorIndicatorFor: t]
 				ifFalse: [errorIndicatorMorph := nil].
+				
 			valuesMorph := (self valuesTextFor: t) asMorph.
 			valuesMorph lock.
 			valuesMorph hResizing: #shrinkWrap.
