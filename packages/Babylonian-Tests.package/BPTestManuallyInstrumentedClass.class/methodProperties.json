@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"compilerClass" : "pre 11/18/2019 12:08",
+		"standard" : "pre 5/17/2019 14:17" },
+	"instance" : {
+		"aVariable" : "pre 5/17/2019 14:10",
+		"aVariable:" : "pre 5/17/2019 14:10",
+		"actualMethodWithAReceiver" : "pre 7/25/2019 15:40",
+		"methodA" : "pre 7/25/2019 12:04",
+		"methodACallingB" : "pre 7/25/2019 12:04",
+		"methodAWithAssertionUsingExpressionResult" : "pre 11/18/2019 15:58",
+		"methodAWithAssertionWithNonBooleanResult" : "pre 11/18/2019 16:13",
+		"methodAWithExamplesAndAssertionWithGlobalName" : "pre 11/18/2019 13:09",
+		"methodAWithExamplesAndNestedProbeInReplacement" : "pre 7/25/2019 15:26",
+		"methodAWithExamplesAndNestedReplacement" : "pre 7/25/2019 15:26",
+		"methodAWithExamplesAndReplacement" : "pre 7/25/2019 15:26",
+		"methodAWithExamplesAndReplacementAndAssertions" : "pre 7/25/2019 15:26",
+		"methodB" : "pre 7/25/2019 15:26",
+		"methodBInstrumented" : "pre 7/25/2019 15:26",
+		"methodWithAssignment" : "pre 7/6/2020 18:17",
+		"methodWithError" : "pre 7/25/2019 15:38",
+		"methodWithErrorNotInProbe" : "pre 7/25/2019 15:38",
+		"methodWithProbeBeforeError" : "pre 7/25/2019 15:38" } }

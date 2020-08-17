@@ -1,0 +1,17 @@
+{
+	"category" : "Babylonian-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"model",
+		"optionsBlock",
+		"selectButton",
+		"labelMorph" ],
+	"name" : "BPSelectFieldMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

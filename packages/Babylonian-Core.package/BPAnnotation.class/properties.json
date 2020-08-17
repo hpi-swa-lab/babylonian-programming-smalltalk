@@ -1,0 +1,20 @@
+{
+	"category" : "Babylonian-Core-Annotations",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pre 7/25/2019 15:52",
+	"instvars" : [
+		"tag",
+		"otherInformation",
+		"startTagSource",
+		"enclosedExpressionSource",
+		"annotatedExpressionSourceCode",
+		"methodReference",
+		"id" ],
+	"name" : "BPAnnotation",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

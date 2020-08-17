@@ -1,4 +1,0 @@
-failures
-expectedFailures
-
-	^ #(testRewritingLeftHandOfAssignmentProbe testRewritingErrorOnIncompleteExpressionForAssertion testRewritingErrorOnIncompleteExpressionForReplacement testRewritingErrorOnIncompleteExpressionProbe)

@@ -1,0 +1,1 @@
+These annotation objects are the bridge between textual source code and the visual representation of annotations in the editor. You can go to the morphic world via #asMorph and to the textual world via #startTag and #stopTag.

@@ -1,0 +1,4 @@
+private
+createMorphs
+
+	self removeAllMorphs.

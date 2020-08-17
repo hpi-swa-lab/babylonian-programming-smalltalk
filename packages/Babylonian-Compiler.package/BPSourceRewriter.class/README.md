@@ -1,0 +1,1 @@
+The BPSourceRewriter maps source code with annotations in comments to instrumented source code which includes actual calls to the tracer.

@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-Core-Annotations",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPAssertion",
+	"pools" : [
+		 ],
+	"super" : "BPExampleSpecificScript",
+	"type" : "normal" }

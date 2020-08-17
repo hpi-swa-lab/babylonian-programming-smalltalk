@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"AnnotatedBinaryMessageSend:startTag:actualMessage:endTag:" : "pre 3/5/2020 16:38",
+		"AnnotatedExpression:startTag:actualExpression:endTag:" : "pre 5/29/2019 17:53",
+		"AnnotatedKeywordMessageSend:startTag:actualMessage:endTag:" : "pre 3/5/2020 16:38",
+		"AnnotatedOperand:startTag:actualOperand:endTag:" : "pre 3/5/2020 17:38",
+		"AnnotatedStatement:startTag:actualStatement:endTag:" : "pre 7/7/2020 14:24",
+		"AnnotatedUnaryMessageSend:startTag:actualMessage:endTag:" : "pre 3/5/2020 16:38",
+		"BinaryMessageSend:with:" : "pre 3/5/2020 16:40",
+		"Expression:with:" : "pre 1/24/2020 17:04",
+		"KeywordMessageSend:with:" : "pre 3/5/2020 16:38",
+		"Operand:with:" : "pre 3/5/2020 17:38",
+		"Statement:with:" : "pre 7/7/2020 16:25",
+		"UnaryMessageSend:with:" : "pre 3/5/2020 16:38",
+		"defaultExpression:" : "pre 5/29/2019 17:52",
+		"extractFrom:" : "pre 1/24/2020 17:03",
+		"initialize" : "pre 5/29/2019 17:46",
+		"terminalExpression:" : "pre 7/7/2020 14:26" } }

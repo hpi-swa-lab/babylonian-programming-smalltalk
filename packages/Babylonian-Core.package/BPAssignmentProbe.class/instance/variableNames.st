@@ -1,0 +1,4 @@
+accessing
+variableNames
+
+	^ variableNames ifNil: [#()]

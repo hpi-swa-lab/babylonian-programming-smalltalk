@@ -1,0 +1,1 @@
+A BNullPExample represents a non-existant example. It may be the result of trying to resolve a stale BPExampleReference.

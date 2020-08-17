@@ -1,0 +1,15 @@
+{
+	"category" : "Babylonian-Core-Tracing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tracedValue",
+		"stack" ],
+	"name" : "BPTraceValue",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

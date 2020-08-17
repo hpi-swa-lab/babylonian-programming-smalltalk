@@ -1,0 +1,1 @@
+This is a placeholder TraceValue that is used for all probes after the execution of an example was interrupted to propagate the fact that the execution errored throughout all probes.

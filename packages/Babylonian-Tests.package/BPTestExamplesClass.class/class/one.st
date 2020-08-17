@@ -1,0 +1,4 @@
+examples
+one
+
+	^ self new

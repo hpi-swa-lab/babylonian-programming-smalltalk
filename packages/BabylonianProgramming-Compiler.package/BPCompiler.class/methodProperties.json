@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"compile:ifFail:" : "pre 5/8/2019 16:12",
-		"keywords" : "pre 5/8/2019 16:13",
-		"methodSourceRequiresBPLayers:" : "pre 5/8/2019 16:12",
-		"rewrite:" : "pre 5/10/2019 11:53",
-		"rewriter" : "pre 5/10/2019 13:15" } }

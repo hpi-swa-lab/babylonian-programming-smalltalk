@@ -1,0 +1,4 @@
+accessing
+isProbe
+
+	^ true

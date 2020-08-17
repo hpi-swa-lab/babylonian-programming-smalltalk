@@ -1,0 +1,4 @@
+tests
+testExamplesCanStartTheTracing
+
+	self fail

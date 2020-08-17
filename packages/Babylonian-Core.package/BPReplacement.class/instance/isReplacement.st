@@ -1,0 +1,4 @@
+testing
+isReplacement
+
+	^ true

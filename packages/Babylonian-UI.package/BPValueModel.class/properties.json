@@ -1,0 +1,15 @@
+{
+	"category" : "Babylonian-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"onChangeBlock",
+		"onAcceptBlock" ],
+	"name" : "BPValueModel",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

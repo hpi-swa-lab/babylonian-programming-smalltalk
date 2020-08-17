@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAssertionsCanUseTheExpressionResult" : "pre 11/18/2019 16:14",
+		"testExampleSpecificAssertionsAreScopedByTracing" : "pre 5/10/2019 10:11",
+		"testGlobalExampleSpecificAssertionsAreScopedByTracing" : "pre 11/18/2019 13:10" } }

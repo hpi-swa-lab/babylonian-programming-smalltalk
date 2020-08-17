@@ -1,0 +1,4 @@
+baseline
+postLoadCompiler
+
+	PEGOhmParserGenerator generateFrom: BPSmalltalkGrammar

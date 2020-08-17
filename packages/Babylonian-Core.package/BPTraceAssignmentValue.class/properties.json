@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-Core-Tracing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pre 7/10/2020 15:57",
+	"instvars" : [
+		"previousValues" ],
+	"name" : "BPTraceAssignmentValue",
+	"pools" : [
+		 ],
+	"super" : "BPTraceValue",
+	"type" : "normal" }

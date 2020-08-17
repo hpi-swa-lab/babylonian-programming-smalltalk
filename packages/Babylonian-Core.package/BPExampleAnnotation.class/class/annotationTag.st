@@ -1,0 +1,4 @@
+constants
+annotationTag
+
+	^ 'bpExample'

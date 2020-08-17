@@ -1,0 +1,4 @@
+testing
+traceHasFailedBefore
+
+	^ true

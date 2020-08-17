@@ -1,0 +1,4 @@
+ui
+asMorph
+
+	^ self subclassResponsibility

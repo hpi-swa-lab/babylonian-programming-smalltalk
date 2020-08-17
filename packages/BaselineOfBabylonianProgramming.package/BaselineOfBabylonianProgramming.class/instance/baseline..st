@@ -7,13 +7,24 @@ baseline: spec
 			spec
 				baseline: 'Ohm' with: 
 					[ spec repository: 'github://hpi-swa/Ohm-S:master/packages' ];
+				baseline: 'PEG' with:
+					[ spec repository: 'github://codeZeilen/peg_parser/packages' ];
+				package: 'IconsBase' with: [
+					spec repository: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/SwaUtilities'];
 				package: 'ContextS2-Core' with:
  					[ spec repository: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/ContextSTrunk' ];
-				package: 'BabylonianProgramming-Core' with: [spec requires: #('BabylonianProgramming-Compiler' 'ContextS2-Core')];
-				package: 'BabylonianProgramming-Compiler' with: [spec requires: #('Ohm')];
-				package: 'BabylonianProgramming-Tests' with: [spec requires: #('BabylonianProgramming-Core')];
+				package: 'Babylonian-Core' with: [spec requires: #('Babylonian-Compiler' 'ContextS2-Core')];
+				package: 'Babylonian-Compiler' with: [
+					spec 
+						requires: #('Ohm' 'PEG');
+						postLoadDoIt: #postLoadCompiler];
+				package: 'Babylonian-Tests' with: [spec requires: #('Babylonian-Core' 'Babylonian-UI')];
+				package: 'Babylonian-UI' with: [
+					spec 
+						requires: #('Babylonian-Core' 'IconsBase');
+						postLoadDoIt: #postLoadUI];
 				yourself.
 			spec
-				group: 'default' with: #('BabylonianProgramming-Core');
-				group: 'tests' with: #('BabylonianProgramming-Tests')];
+				group: 'default' with: #('Babylonian-Core' 'Babylonian-UI');
+				group: 'tests' with: #('Babylonian-Tests')];
 		yourself

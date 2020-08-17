@@ -1,0 +1,4 @@
+examples
+empty
+
+	^ self new

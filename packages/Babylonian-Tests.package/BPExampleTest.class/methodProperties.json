@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"createExamples" : "pre 7/23/2019 09:24",
+		"expectedFailures" : "pre 5/10/2019 16:49",
+		"setUp" : "pre 5/10/2019 17:11",
+		"testExampleAndExampleReferenceCompareEqual" : "pre 7/26/2019 16:13",
+		"testExamplesAreEqualIfTheirValuesAreEqual" : "pre 5/10/2019 17:12",
+		"testExamplesAreNotEqualIfTheirValuesAreNotEqual" : "pre 5/10/2019 17:13",
+		"testExamplesAreNotEqualIfTheyAreNotBothExamples" : "pre 5/10/2019 17:13",
+		"testExamplesCanStartTheTracing" : "pre 5/10/2019 16:49",
+		"testExamplesKnowTheirArguments" : "pre 7/10/2020 17:17",
+		"testExamplesKnowTheirName" : "pre 7/25/2019 15:35",
+		"testExamplesKnowTheirOriginalMethod" : "pre 5/10/2019 17:12",
+		"testExamplesMigrateTheirTraceRegistryEntries" : "pre 7/25/2019 15:32",
+		"testGetExamplesForAMethod" : "pre 7/23/2019 12:19",
+		"testLiveSpecimanExample" : "pre 7/10/2020 17:30",
+		"testLiveSpecimanExampleDoesNotExist" : "pre 7/10/2020 17:33",
+		"testNewExample" : "pre 8/7/2019 10:59" } }

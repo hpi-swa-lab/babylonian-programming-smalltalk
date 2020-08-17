@@ -1,0 +1,18 @@
+{
+	"category" : "Babylonian-Core-Annotations",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"method",
+		"exampleName",
+		"receiverConstructor",
+		"argumentScripts",
+		"isActive" ],
+	"name" : "BPExample",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

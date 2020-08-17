@@ -1,0 +1,4 @@
+constants
+allExamplesName
+
+	^ 'all examples'

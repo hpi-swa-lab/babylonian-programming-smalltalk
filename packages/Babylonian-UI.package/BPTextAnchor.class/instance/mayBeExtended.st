@@ -1,0 +1,4 @@
+accessing
+mayBeExtended
+	
+	^ true

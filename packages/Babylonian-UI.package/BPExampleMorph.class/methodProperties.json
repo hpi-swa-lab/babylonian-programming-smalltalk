@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"activateExampleButtonClicked" : "pre 7/24/2019 16:42",
+		"addActivationButtonMorph" : "pre 8/7/2019 15:37",
+		"addArgumentScriptMorphs" : "pre 7/10/2020 18:25",
+		"addDeleteButtonMorph" : "pre 7/26/2019 09:42",
+		"addExampleNameMorph" : "pre 11/11/2019 10:45",
+		"addReceiverConstructorMorph" : "pre 11/11/2019 10:43",
+		"example" : "pre 7/23/2019 12:01",
+		"example:" : "pre 7/23/2019 12:55",
+		"initialize" : "pre 8/21/2019 08:43",
+		"isExample" : "pre 7/23/2019 12:47",
+		"isExampleActive" : "pre 7/23/2019 14:45",
+		"removeButtonClicked" : "pre 8/17/2020 09:46",
+		"selectLiveSpecimenThen:" : "pre 7/10/2020 18:24",
+		"step" : "pre 7/25/2019 12:53",
+		"textEmphasis" : "pre 1/24/2020 16:14",
+		"updateMorphs" : "pre 7/26/2019 09:39" } }

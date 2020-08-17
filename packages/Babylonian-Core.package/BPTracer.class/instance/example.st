@@ -1,0 +1,4 @@
+accessing
+example
+
+	^ trace example
