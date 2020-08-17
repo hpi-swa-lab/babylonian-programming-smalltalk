@@ -7,6 +7,8 @@ baseline: spec
 			spec
 				baseline: 'Ohm' with: 
 					[ spec repository: 'github://hpi-swa/Ohm-S:master/packages' ];
+				baseline: 'PEG' with:
+					[ spec repository: 'github://codeZeilen/peg_parser/packages' ];
 				package: 'IconsBase' with: [
 					spec repository: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/SwaUtilities'];
 				package: 'ContextS2-Core' with:
@@ -14,7 +16,7 @@ baseline: spec
 				package: 'Babylonian-Core' with: [spec requires: #('Babylonian-Compiler' 'ContextS2-Core')];
 				package: 'Babylonian-Compiler' with: [
 					spec 
-						requires: #('Ohm');
+						requires: #('Ohm' 'PEG');
 						postLoadDoIt: #postLoadCompiler];
 				package: 'Babylonian-Tests' with: [spec requires: #('Babylonian-Core' 'Babylonian-UI')];
 				package: 'Babylonian-UI' with: [
