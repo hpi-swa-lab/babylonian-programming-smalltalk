@@ -1,7 +1,7 @@
 private
 updateFrom: traces
 
-	| exampleLabelMorph lineMorph removeButton exploreButton tracesMorph |
+	| exampleLabelMorph lineMorph removeButton exploreButton tracesMorph errorIndicatorMorph |
 	self removeAllMorphs.
 	
 	tracesMorph := self newTracesMorph.
@@ -11,6 +11,9 @@ updateFrom: traces
 			
 			exampleLabelMorph := self newExampleLabelMorphFor: t.
 			
+			t exampleErrored 
+				ifTrue: [errorIndicatorMorph := self createErrorIndicatorFor: t]
+				ifFalse: [errorIndicatorMorph := nil].
 			valuesMorph := (self valuesTextFor: t) asMorph.
 			valuesMorph lock.
 			valuesMorph hResizing: #shrinkWrap.
@@ -29,6 +32,7 @@ updateFrom: traces
 			
 			lineMorph 
 				addMorphBack: exploreButton;
+				in: [:l | errorIndicatorMorph ifNotNil: [l addMorphBack: errorIndicatorMorph]];
 				addMorphBack: exampleLabelMorph;
 				addMorphBack: valuesMorph.
 				
