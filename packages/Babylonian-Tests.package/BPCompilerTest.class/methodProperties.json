@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assertCompilerRewrites:to:" : "pre 5/10/2019 11:46",
+		"assertCompilerRewrites:to:" : "pre 8/17/2020 08:54",
 		"expectedFailures" : "pre 7/6/2020 17:15",
 		"setUp" : "pre 5/10/2019 11:42",
 		"testCompilerRecognizesMethodsThatRequireRecompilation" : "pre 11/11/2019 10:01",
@@ -11,7 +11,7 @@
 		"testRewritingDoesNotAddTwoLayerPragmas" : "pre 1/27/2020 14:39",
 		"testRewritingErrorOnIncompleteExpressionForAssertion" : "pre 5/10/2019 11:41",
 		"testRewritingErrorOnIncompleteExpressionForReplacement" : "pre 5/10/2019 11:41",
-		"testRewritingErrorOnIncompleteExpressionProbe" : "pre 5/10/2019 11:41",
+		"testRewritingErrorOnIncompleteExpressionProbe" : "pre 8/17/2020 08:52",
 		"testRewritingExampleSpecificAssertion" : "pre 1/27/2020 17:50",
 		"testRewritingIgnoresSliders" : "pre 3/5/2020 17:45",
 		"testRewritingKeywordMessageArgumentProbe" : "pre 1/27/2020 20:00",
@@ -22,6 +22,7 @@
 		"testRewritingLeftHandOfAssignmentProbe" : "pre 7/7/2020 15:45",
 		"testRewritingLeftHandOfAssignmentProbeMultipleVariables" : "pre 7/6/2020 18:06",
 		"testRewritingNestedReplacements" : "pre 1/27/2020 17:51",
+		"testRewritingOnIncompleteExpressionProbeDoesNotApplyChange" : "pre 8/17/2020 08:52",
 		"testRewritingOperandInExpressionProbe" : "pre 1/27/2020 17:51",
 		"testRewritingProbeWithinABlockAddsBlockTracing" : "pre 1/27/2020 17:53",
 		"testRewritingSimpleBinaryMessageOperandProbe" : "pre 1/27/2020 19:51",
