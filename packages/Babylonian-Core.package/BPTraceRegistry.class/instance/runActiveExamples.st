@@ -1,10 +1,12 @@
 running
 runActiveExamples
 
+	processes do: [:p | p terminate]; removeAll.
+	self haltOnce.
 	self activeExamples do: [:example | |promise exampleExecution|
 		promise := Promise new.
 		promise whenResolved: [:trace |
-			BPTraces value at: trace example exampleReference put: trace].
+			Project current addDeferredUIMessage: [BPTraces value at: trace example exampleReference put: trace]].
 		exampleExecution := [[example traceAsyncNotifying: [:intermediateTrace | promise resolveWith: intermediateTrace]]
 			on: BPExampleExecutionInterrupted
 			do: [:e | 
@@ -13,4 +15,6 @@ runActiveExamples
 				e trace exampleExecutionProcess: Processor activeProcess.
 				promise resolveWith: e trace.
 				Processor activeProcess suspend.]].
-		exampleExecution forkAt: Processor userBackgroundPriority named: 'Execution of example ' , example exampleName].
+		processes add: (exampleExecution 
+			forkAt: Processor userSchedulingPriority
+			named: 'Execution of example ' , example exampleName)].

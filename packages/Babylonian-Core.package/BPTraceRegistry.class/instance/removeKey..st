@@ -5,8 +5,10 @@ removeKey: anExampleReference
 
 	| notFound result |
 	notFound := false.
-	result := mutex critical: [
+	mutex critical: [
 		self ensureTerminatedProcessAt: anExampleReference.
-		dictionary removeKey: anExampleReference ifAbsent: [notFound := true]].
+		result := dictionary 
+			removeKey: anExampleReference 
+			ifAbsent: [notFound := true]].
 	notFound ifTrue: [dictionary errorKeyNotFound: anExampleReference].
 	^ result
