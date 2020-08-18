@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "pre 7/23/2019 12:46",
 	"instvars" : [
-		"exampleName" ],
+		"exampleName",
+		"actualExample" ],
 	"name" : "BPExampleAnnotation",
 	"pools" : [
 		 ],
