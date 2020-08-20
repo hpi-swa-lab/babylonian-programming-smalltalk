@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"displayedTraces" ],
+		"displayedTraces",
+		"tracesMorph",
+		"allTracesCompleted" ],
 	"name" : "BPProbeMorph",
 	"pools" : [
 		 ],

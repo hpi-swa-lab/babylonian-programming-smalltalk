@@ -1,14 +1,13 @@
 stepping and presenter
 step
 	
-	| newTraces allCompleted |
+	| newTraces |
 	self methodReference ifNil: [^ false].
-	newTraces := self getTraces.
+	newTraces := self getTraces asIdentitySet.
 	
-	allCompleted := false.
-	(allCompleted not or: [newTraces ~= displayedTraces]) ifTrue: [
-		allCompleted := newTraces allSatisfy: [:t | t hasTraceCompleted].
+	(allTracesCompleted not or: [newTraces ~= displayedTraces]) ifTrue: [
+		allTracesCompleted := newTraces ifEmpty: [false] ifNotEmpty: [:ts | ts allSatisfy: [:t | t hasTraceCompleted]].
 		(newTraces notNil and: [newTraces notEmpty])  
-			ifTrue: [	self updateFrom: newTraces]
+			ifTrue: [	self updateFrom: newTraces] 
 			ifFalse: [self updateFrom: self emptyTraces].
 		displayedTraces := newTraces]
