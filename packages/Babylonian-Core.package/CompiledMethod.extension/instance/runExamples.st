@@ -1,4 +1,6 @@
 *Babylonian-Core
 runExamples
-
-	BPTraces value runActiveExamples
+	
+	self bpExamples
+		select: [:example | example isActive] 
+		thenDo: [:example | example traceInBackground]

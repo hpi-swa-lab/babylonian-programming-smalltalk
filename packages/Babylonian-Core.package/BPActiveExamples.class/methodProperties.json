@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"cleanUpTracesOnShutdown" : "pre 8/18/2020 08:37",
+		"cleanUpTracesOnShutdown:" : "pre 8/18/2020 08:37",
+		"default" : "pre 8/18/2020 08:34",
+		"initialize" : "pre 8/18/2020 08:37",
+		"shutDown:" : "pre 8/18/2020 08:38" },
+	"instance" : {
+		"add:" : "pre 8/20/2020 16:16",
+		"examples" : "pre 8/20/2020 16:16",
+		"initialize" : "pre 8/20/2020 16:15",
+		"remove:" : "pre 8/20/2020 16:16",
+		"removeAll:" : "pre 8/20/2020 12:17",
+		"removeTraces" : "pre 8/18/2020 08:38",
+		"runActiveExamples" : "pre 8/20/2020 10:38",
+		"systemChangeEvent:" : "pre 8/20/2020 16:16",
+		"tracesOfActiveExamples" : "pre 8/20/2020 10:43",
+		"updateActiveExamplesOnEvent:" : "pre 8/20/2020 16:14" } }

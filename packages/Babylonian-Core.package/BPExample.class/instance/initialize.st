@@ -3,3 +3,4 @@ initialize
 
 	super initialize.
 	isActive := false.
+	traceInformation := BPExampleTraceInformation new.

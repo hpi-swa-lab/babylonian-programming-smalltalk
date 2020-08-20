@@ -2,6 +2,7 @@ tracing
 execute
 
 	| instance |
+	Transcript showln: 'Executing example named: ' , self exampleName. 
 	self receiverConstructor isEmptyOrNil
 		ifFalse: [
 			self receiverConstructor isSymbol

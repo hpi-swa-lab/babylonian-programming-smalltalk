@@ -9,5 +9,6 @@ bpExamples
 						method: self;
 						yourself].
 		newExamples do: [:newExample |
-			newExample isActive ifTrue: [BPTraces value at: newExample exampleReference put: nil]].
+			newExample isActive ifTrue: [
+				BPActiveExamples value add: newExample]].
 		newExamples asOrderedCollection]

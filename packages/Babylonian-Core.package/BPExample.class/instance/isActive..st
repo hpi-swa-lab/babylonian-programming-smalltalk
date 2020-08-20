@@ -3,5 +3,7 @@ isActive: aBoolean
 	
 	isActive := aBoolean.
 	aBoolean 
-		ifFalse: [BPTraces value removeKey: self exampleReference ifAbsent: []]
-		ifTrue: [BPTraces value at: self exampleReference put: nil]
+		ifFalse: [
+			BPActiveExamples value remove: self.
+			self ensureTerminatedProcess]
+		ifTrue: [BPActiveExamples value add: self]

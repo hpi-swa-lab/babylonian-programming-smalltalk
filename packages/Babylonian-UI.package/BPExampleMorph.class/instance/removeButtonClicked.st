@@ -1,6 +1,6 @@
 actions
 removeButtonClicked
 
-	BPTraces value removeKey: self example ifAbsent: ["dont care"].
+	self example isActive: false.
 	self containingBrowser removeAnnotations: {self annotation}.
 	
