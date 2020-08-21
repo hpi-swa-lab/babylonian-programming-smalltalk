@@ -2,16 +2,7 @@ private - ui
 newLineMorphFor: aTrace
 
 	| newLine scrollPane |
-	newLine := Morph new 
-		color: Color transparent; 
-		changeTableLayout; 
-		layoutInset: 0;
-		listDirection: #leftToRight; 
-		vResizing: #shrinkWrap;
-		hResizing: #shrinkWrap;
-		cellPositioning: #leftCenter;
-		cellGap: 1;
-		name: 'example line';
+	newLine := self newExampleLineMorph
 		setProperty: #bpTrace toValue: aTrace;
 		yourself.
 		
@@ -28,16 +19,8 @@ newLineMorphFor: aTrace
 	
 	newLine addMorphBack: (self newExampleLabelMorphFor: aTrace).
 		
-	scrollPane := ScrollPane new
-		width: 300;
-		color: Color transparent;
-		vScrollBarPolicy: #never;
-		showHScrollBarOnlyWhenNeeded;
-		scrollBarThickness: self scrollBarSize;
-		height: 20;
-		name: #scrollPane;
-		yourself.
-	
+	scrollPane := self newScrollPane.
 	newLine addMorphBack: scrollPane.
+	
 	^ newLine
 	
