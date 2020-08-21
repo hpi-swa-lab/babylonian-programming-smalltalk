@@ -7,17 +7,22 @@ updateFrom: traces
 	self relevantTracesOf: traces do: [:t | | valuesMorph scrollPane |
 			lineMorph := self ensureLineMorphFor: t.
 			scrollPane := lineMorph submorphNamed: #scrollPane.
-
-			errorIndicatorMorph := nil.
-			"t exampleErrored 
-				ifTrue: [errorIndicatorMorph := self createErrorIndicatorFor: t]
-				ifFalse: [errorIndicatorMorph := nil]."
+			errorIndicatorMorph := lineMorph submorphNamed: #errorIndicatorHolder.
+			
+			t exampleErrored 
+				ifTrue: [errorIndicatorMorph addMorph: (self createErrorIndicatorFor: t)]
+				ifFalse: [errorIndicatorMorph 
+							removeAllMorphs;
+							extent: 0@0].
 
 			scrollPane scroller removeAllMorphs.				
+		
 			valuesMorph := (self valuesTextFor: t) asMorph.
 			valuesMorph lock.
 			valuesMorph hResizing: #shrinkWrap.
-			scrollPane scroller addMorph: valuesMorph].
+		
+			scrollPane scroller addMorph: valuesMorph.
+			scrollPane height: valuesMorph height + self scrollBarSize].
 		
 	self owner ifNotNil: [
 		"This may be called before we are actually part of a text layout"

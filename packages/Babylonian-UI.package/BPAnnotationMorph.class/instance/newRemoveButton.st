@@ -8,4 +8,7 @@ newRemoveButton
 		color: Color transparent;
 		borderWidth: 0;
 		extent: removeButton extent * 0.7.
+	removeButton 
+		actionSelector: #removeButtonClicked;
+		target: self.
 	^ removeButton

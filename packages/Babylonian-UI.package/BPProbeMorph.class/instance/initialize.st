@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initialize
 
 	| removeButton |
@@ -10,7 +10,4 @@ initialize
 	self addMorphBack: tracesMorph.
 		
 	removeButton := self newRemoveButton.
-	removeButton 
-		actionSelector: #removeButtonClicked;
-		target: self.
 	self addMorphBack: removeButton.

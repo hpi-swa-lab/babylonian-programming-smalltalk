@@ -26,9 +26,6 @@ createMorphs
 		yourself.
 		
 	removeButton := self newRemoveButton.
-	removeButton 
-		actionSelector: #removeButtonClicked;
-		target: self.	
 		
 	self 
 		addMorphBack: replacementScriptMorph;

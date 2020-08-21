@@ -35,10 +35,7 @@ updateFrom: traces
 		yourself.
 		
 	removeButton := self newRemoveButton.
-	removeButton 
-		actionSelector: #removeButtonClicked;
-		target: self.	
-		
+	
 	editFieldsMorph 
 		addMorphBack: assertionScriptMorph;
 		addMorphBack: exampleSelectionMorph;
