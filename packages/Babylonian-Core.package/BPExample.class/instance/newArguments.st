@@ -1,5 +1,5 @@
 accessing
-arguments
+newArguments
 
 	^ (argumentScripts 
 		collect: [:script | Compiler evaluate: script])
