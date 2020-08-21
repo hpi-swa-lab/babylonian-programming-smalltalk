@@ -6,3 +6,7 @@ step
 	trace exampleErrored 
 		ifTrue: [self ensureErrorIndicatorFor: trace]
 		ifFalse: [self ensureNoErrorIndicator].
+		
+	trace hasTraceCompleted
+		ifFalse: [self ensureLoaderIcon]
+		ifTrue: [self ensureNoLoaderIcon].

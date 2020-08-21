@@ -5,6 +5,7 @@ updateMorphs
 	
 	self 
 		addActivationButtonMorph;
+		addLoaderIconHolder;
 		addExampleNameMorph;
 		addReceiverConstructorMorph;
 		addArgumentScriptMorphs;
