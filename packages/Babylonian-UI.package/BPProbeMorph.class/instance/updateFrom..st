@@ -10,7 +10,8 @@ updateFrom: traces
 			errorIndicatorMorph := lineMorph submorphNamed: #errorIndicatorHolder.
 			
 			t exampleErrored 
-				ifTrue: [errorIndicatorMorph addMorph: (self createErrorIndicatorFor: t)]
+				ifTrue: [errorIndicatorMorph submorphs ifEmpty: [
+							errorIndicatorMorph addMorph: (self createErrorIndicatorFor: t)]]
 				ifFalse: [errorIndicatorMorph 
 							removeAllMorphs;
 							extent: 0@0].
