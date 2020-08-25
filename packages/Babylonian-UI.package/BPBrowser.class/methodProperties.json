@@ -1,7 +1,8 @@
 {
 	"class" : {
 		"compilerClass" : "pre 7/26/2019 10:07",
-		"initialize" : "pre 7/13/2020 15:41" },
+		"initialize" : "pre 8/25/2020 10:35",
+		"startUp" : "pre 8/25/2020 10:36" },
 	"instance" : {
 		"aboutToStyle:" : "pre 11/11/2019 09:44",
 		"aboutToStyle:requestor:" : "pre 11/8/2019 17:16",

@@ -2,7 +2,10 @@ initialization
 addCreateExampleButton
 	
 	| addExampleButton |
-	addExampleButton := SimpleButtonMorph newWithLabel: 'add an example'.
+	addExampleButton := IconicButton new
+		labelGraphic: ('add an example' asText addAttribute: (TextColor color: Color lightGray); yourself) asMorph imageForm;
+		yourself.
+	
 	addExampleButton 
 		color: Color transparent;
 		borderWidth: 0;

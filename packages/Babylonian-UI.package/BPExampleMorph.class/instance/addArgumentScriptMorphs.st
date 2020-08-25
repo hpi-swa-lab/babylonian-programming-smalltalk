@@ -9,7 +9,7 @@ addArgumentScriptMorphs
 		editField := self
 			editFieldInitialContent: (self example argumentScriptStringAt: index)
 			onChange: [:str | 
-				self example at: index put: str.
+				self example argumentScripts at: index put: str.
 				self codeContentChanged]
 			onAccept: [:str |
 				self containingBrowser saveMethodWithExamples.
