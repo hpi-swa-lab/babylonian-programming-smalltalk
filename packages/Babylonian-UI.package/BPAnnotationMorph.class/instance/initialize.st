@@ -1,6 +1,6 @@
 initialization
 initialize
-
+	
 	super initialize.
 	self color: Color palePeach slightlyLighter.
 	self height: self fontHeight.
@@ -10,4 +10,4 @@ initialize
 		listDirection: #leftToRight;
 		hResizing: #shrinkWrap;
 		vResizing: #shrinkWrap;
-		layoutInset: 3.
+		layoutInset: 1.

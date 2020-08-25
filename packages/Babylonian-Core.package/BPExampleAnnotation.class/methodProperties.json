@@ -3,10 +3,12 @@
 		"annotationTag" : "pre 7/24/2019 11:05" },
 	"instance" : {
 		"actualExample" : "pre 8/17/2020 14:21",
-		"asMorph" : "pre 7/25/2019 15:45",
+		"asMorph" : "pre 8/24/2020 16:21",
+		"createExampleMorph" : "pre 8/24/2020 16:13",
 		"enclosedExpressionSource" : "pre 7/23/2019 12:18",
 		"exampleName" : "pre 7/23/2019 11:56",
 		"exampleName:" : "pre 7/23/2019 11:56",
+		"isExample" : "pre 8/24/2020 16:43",
 		"startTag" : "pre 7/25/2019 15:43",
 		"startTagSource" : "pre 7/23/2019 11:59",
 		"stopTag" : "pre 7/25/2019 15:43" } }

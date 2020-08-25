@@ -3,13 +3,14 @@ testStylerSetsAnchorForAssignmentProbe
 
 	| formattedSourceCode originalSourceCode anchorTextAttributes theTextAttribute |
 	originalSourceCode := 'method
+	
 	| variable |
 	"<bpProbe id: 31412>"variable := 2 + 3"</bpProbe>"' asText.
 	formattedSourceCode := styler styledTextFor: originalSourceCode.
 	
-	theTextAttribute := ((formattedSourceCode attributesAt: 23) select: [:attribute | 
+	theTextAttribute := ((formattedSourceCode attributesAt: 26) select: [:attribute | 
 			attribute isKindOf: TextAnchor]) first.
-	23 to: 39 do: [:offset | 
+	26 to: 42 do: [:offset | 
 		anchorTextAttributes := (formattedSourceCode attributesAt: offset) select: [:attribute | 
 			attribute isKindOf: TextAnchor].
 	

@@ -25,7 +25,9 @@ reformat: aText basedOn: annotations
 		text := text 
 			copyReplaceFrom: replacementStart 
 			to: startOfTag + each annotatedExpressionSourceCode size - 1  
-			with: (self textForAnnotation: each from: text at: startOfTag)].
+			with: (self textForAnnotation: each from: text at: startOfTag).
+
+		text := self removePotentialEmptyLinesInText: text around: replacementStart].
 
 	^ text
 	
