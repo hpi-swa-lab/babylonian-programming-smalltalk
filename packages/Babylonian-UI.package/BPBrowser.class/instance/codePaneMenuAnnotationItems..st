@@ -10,8 +10,6 @@ codePaneMenuAnnotationItems: aMenu
 		^ aMenu].
 	
 	annotationsInSelection := self annotationsInSelection.
-	
-	aMenu add: 'add example' action: #addExample.
 
 	annotationsInSelection ifEmpty: [
 		aMenu

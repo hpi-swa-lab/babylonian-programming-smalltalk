@@ -12,3 +12,5 @@ initialize
 		changeTableLayout;
 		listDirection: #topToBottom;
 		cellInset: 1.
+		
+	self addCreateExampleButton.

@@ -2,4 +2,4 @@ accessing
 exampleAnnotations: annotations
 	
 	exampleAnnotations := annotations.
-	self addAllMorphs: (annotations collect: [:a | a createExampleMorph])
+	self addAllMorphsFront: (annotations collect: [:a | a createExampleMorph]).
