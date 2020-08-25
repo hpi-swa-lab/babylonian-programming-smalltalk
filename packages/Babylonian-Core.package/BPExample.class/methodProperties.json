@@ -5,6 +5,7 @@
 		"newFor:" : "pre 8/7/2019 10:59" },
 	"instance" : {
 		"=" : "pre 8/20/2020 11:56",
+		"argumentNames" : "pre 8/25/2020 09:41",
 		"argumentScriptStringAt:" : "pre 7/10/2020 18:23",
 		"argumentScripts" : "pre 7/23/2019 12:20",
 		"argumentScripts:" : "pre 7/23/2019 09:23",
@@ -16,7 +17,7 @@
 		"exampleReference" : "pre 7/24/2019 13:29",
 		"execute" : "pre 8/21/2020 16:51",
 		"hash" : "pre 8/20/2020 11:58",
-		"initialize" : "pre 8/20/2020 10:26",
+		"initialize" : "pre 8/25/2020 09:24",
 		"isActive" : "pre 7/23/2019 14:14",
 		"isActive:" : "pre 8/20/2020 15:54",
 		"isLiveSpecimenReference:" : "pre 7/10/2020 18:22",

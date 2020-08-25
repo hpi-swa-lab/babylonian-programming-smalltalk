@@ -1,7 +1,6 @@
 adding examples
 addExampleButtonClicked
 	
-
 	| newExample newExampleName |
 	newExampleName := 'some example ' , 100 random.
 	newExample := (BPExample newFor: self containingBrowser compiledMethod)
@@ -10,4 +9,6 @@ addExampleButtonClicked
 		
 	self addNewExampleAnnotation: (BPExampleAnnotation 
 		newFor: newExample 
-		in: self containingBrowser methodReference)
+		in: self containingBrowser methodReference).
+		
+	self codeContentChanged.
