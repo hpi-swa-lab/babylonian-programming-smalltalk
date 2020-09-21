@@ -1,10 +1,10 @@
 tracing
-trace: aBlock forProbe: aProbeId inContext: aContext
-
+trace: aBlock through: expressionProbe forProbe: aProbeId inContext: aContext
+	
 	| result |
 	result := self traceBlock: aBlock forProbe: aProbeId.
 	trace 
-		trace: result
+		trace: (expressionProbe value: result)
 		forId: aProbeId 
 		inContext: aContext.
 		

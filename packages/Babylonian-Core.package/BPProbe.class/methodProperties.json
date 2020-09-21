@@ -4,7 +4,13 @@
 	"instance" : {
 		"asAssignmentProbe" : "pre 7/6/2020 17:55",
 		"asMorph" : "pre 7/3/2019 09:22",
-		"instrumentationCallFor:" : "pre 11/13/2019 10:50",
+		"at:putInformation:" : "pre 9/21/2020 17:16",
+		"expression" : "pre 9/21/2020 17:13",
+		"expression:" : "pre 9/21/2020 17:13",
+		"hasExpression" : "pre 9/21/2020 17:13",
+		"instrumentationCallFor:" : "pre 9/21/2020 17:13",
 		"isProbe" : "pre 7/3/2019 11:12",
-		"startTag" : "pre 7/2/2019 16:33",
+		"probeId" : "pre 9/21/2020 17:13",
+		"probeId:" : "pre 9/21/2020 17:13",
+		"startTag" : "pre 9/21/2020 17:17",
 		"stopTag" : "pre 7/2/2019 16:17" } }

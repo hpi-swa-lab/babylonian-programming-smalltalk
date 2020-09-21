@@ -1,9 +1,9 @@
 *Babylonian-Core
-bpTrace: anObject forProbe: probeId inContext: aContext
+bpTrace: anObject through: aBlock forProbe: probeId inContext: aContext
 	
 	^ #bpInstrumented withoutLayerDo: [
 		BPActiveTracer value 
-			trace: anObject 
-			through: [:r | r]
+			trace: anObject
+			through: aBlock
 			forProbe: probeId 
 			inContext: aContext]

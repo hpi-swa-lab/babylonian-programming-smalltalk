@@ -31,6 +31,7 @@
 		"testRewritingSimpleCascadeUnaryMessageProbe" : "pre 1/27/2020 20:05",
 		"testRewritingSimpleExampleSpecificReplacement" : "pre 1/27/2020 17:54",
 		"testRewritingSimpleExpressionAssertion" : "pre 1/27/2020 17:54",
+		"testRewritingSimpleExpressionExpressionProbe" : "pre 9/21/2020 17:05",
 		"testRewritingSimpleExpressionGeneralAssertion" : "pre 1/27/2020 17:54",
 		"testRewritingSimpleExpressionProbe" : "pre 1/27/2020 09:30",
 		"testRewritingSimpleExpressionReplacement" : "pre 1/27/2020 10:07",
