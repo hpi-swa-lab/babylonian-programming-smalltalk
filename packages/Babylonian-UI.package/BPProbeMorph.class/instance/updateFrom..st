@@ -1,8 +1,10 @@
 private
 updateFrom: traces
-
+	
 	| lineMorph errorIndicatorMorph |
-	self removeLinesWithoutCurrentTrace: traces.
+	self 
+		removeLinesWithoutCurrentTrace: traces;
+		updateExpressionMorphIfNecessary.
 	
 	self relevantTracesOf: traces do: [:t | | valuesMorph scrollPane |
 			lineMorph := self ensureLineMorphFor: t.

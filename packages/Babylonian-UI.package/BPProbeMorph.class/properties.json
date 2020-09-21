@@ -8,7 +8,8 @@
 	"instvars" : [
 		"displayedTraces",
 		"tracesMorph",
-		"allTracesCompleted" ],
+		"allTracesCompleted",
+		"expressionMorph" ],
 	"name" : "BPProbeMorph",
 	"pools" : [
 		 ],
