@@ -2,7 +2,7 @@ private
 addAnnotation: anAnnotation in: interval
 
 	| newContent text actualInterval |
-	actualInterval := self determineIntervalToAnnotateFor: interval.
+	actualInterval := self determineIntervalToAnnotateFor: interval forNodes: anAnnotation canBeAnnotatedTo.
 	actualInterval ifNil: [self codeTextMorph textMorph flash. ^ self].
 	
 	anAnnotation methodReference: self methodReference.

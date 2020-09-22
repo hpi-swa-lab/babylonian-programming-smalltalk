@@ -3,6 +3,7 @@
 		"annotationTag" : "pre 1/24/2020 16:17" },
 	"instance" : {
 		"asMorph" : "pre 1/24/2020 17:05",
+		"canBeAnnotatedTo" : "pre 9/22/2020 18:19",
 		"instrumentationCallFor:" : "pre 1/24/2020 17:23",
 		"startTag" : "pre 1/24/2020 17:23",
 		"stopTag" : "pre 1/24/2020 17:23" } }
