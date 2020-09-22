@@ -1,6 +1,6 @@
 private
 updateFrom: traces
-
+	
 	| assertionScriptMorph assertionScript exampleSelectionMorph removeButton editFieldsMorph tracesMorph |
 	self removeAllMorphs.
 	
@@ -9,6 +9,15 @@ updateFrom: traces
 		changeTableLayout;
 		cellPositioning: #topLeft;
 		listDirection: #leftToRight;
+		hResizing: #shrinkWrap;
+		vResizing: #shrinkWrap;
+		yourself.
+		
+	widgetsMorph := Morph new
+		color: Color transparent;
+		changeTableLayout;
+		cellPositioning: #topLeft;
+		listDirection: #topToBottom;
 		hResizing: #shrinkWrap;
 		vResizing: #shrinkWrap;
 		yourself.
@@ -36,12 +45,14 @@ updateFrom: traces
 		
 	removeButton := self newRemoveButton.
 	
+	self 	
+		addMorphBack: widgetsMorph;
+		addMorphBack: removeButton.
+		
 	editFieldsMorph 
 		addMorphBack: assertionScriptMorph;
-		addMorphBack: exampleSelectionMorph;
-		addMorphBack: removeButton.
-	self addMorphBack: editFieldsMorph.
-	
+		addMorphBack: exampleSelectionMorph.
+	widgetsMorph addMorphBack: editFieldsMorph.	
 
 	"Now to the results"
 	tracesMorph := self newTracesMorph.
@@ -65,5 +76,5 @@ updateFrom: traces
 		lineMorph addMorphBack: valuesMorph.
 		tracesMorph addMorphBack: lineMorph].
 	tracesMorph submorphs ifNotEmpty: [
-		self addMorphBack: tracesMorph].
+		widgetsMorph addMorphFront: tracesMorph].
 	

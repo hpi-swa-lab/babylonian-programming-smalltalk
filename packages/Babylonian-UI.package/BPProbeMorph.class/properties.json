@@ -9,7 +9,9 @@
 		"displayedTraces",
 		"tracesMorph",
 		"allTracesCompleted",
-		"expressionMorph" ],
+		"expressionMorph",
+		"addExpressionMorph",
+		"widgetsMorph" ],
 	"name" : "BPProbeMorph",
 	"pools" : [
 		 ],

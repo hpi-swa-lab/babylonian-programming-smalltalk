@@ -7,10 +7,12 @@ initialize
 	
 	allTracesCompleted := false.
 	
-	"The expressions morph is only added later in #updateFrom:"
+	"This morph holds the traces and the expression morph"
+	widgetsMorph := self newWidgetsMorph.
+	self addMorphBack: widgetsMorph.
 	
 	tracesMorph := self newTracesMorph.
-	self addMorphBack: tracesMorph.
+	widgetsMorph addMorphBack: tracesMorph.
 		
 	removeButton := self newRemoveButton.
 	self addMorphBack: removeButton.
