@@ -26,6 +26,7 @@
 		"testRewritingOperandInExpressionProbe" : "pre 1/27/2020 17:51",
 		"testRewritingProbeWithinABlockAddsBlockTracing" : "pre 1/27/2020 17:53",
 		"testRewritingSimpleBinaryMessageOperandProbe" : "pre 1/27/2020 19:51",
+		"testRewritingSimpleBlockSlider" : "pre 9/22/2020 17:51",
 		"testRewritingSimpleCascadeKeywordMessageProbe" : "pre 1/27/2020 20:06",
 		"testRewritingSimpleCascadeReceiverProbe" : "pre 1/27/2020 20:04",
 		"testRewritingSimpleCascadeUnaryMessageProbe" : "pre 1/27/2020 20:05",
