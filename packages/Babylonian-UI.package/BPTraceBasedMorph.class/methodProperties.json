@@ -1,0 +1,8 @@
+{
+	"class" : {
+		"isAbstract" : "pre 9/25/2020 10:15" },
+	"instance" : {
+		"initialize" : "pre 9/25/2020 10:16",
+		"step" : "pre 8/21/2020 12:11",
+		"stepTime" : "pre 8/20/2020 17:35",
+		"updateFrom:" : "pre 9/25/2020 10:17" } }

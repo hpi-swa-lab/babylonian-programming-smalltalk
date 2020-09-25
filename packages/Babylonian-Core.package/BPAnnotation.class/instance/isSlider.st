@@ -1,0 +1,4 @@
+testing
+isSlider
+
+	^ false

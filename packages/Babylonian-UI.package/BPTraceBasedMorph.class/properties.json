@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "BPSliderMorph",
+		"displayedTraces",
+		"allTracesCompleted" ],
+	"name" : "BPTraceBasedMorph",
 	"pools" : [
 		 ],
-	"super" : "BPTraceBasedMorph",
+	"super" : "BPAnnotationMorph",
 	"type" : "normal" }
