@@ -1,13 +1,12 @@
 tests - annotations - sliders
 testRewritingSimpleBlockSlider
 	
-	"Sliders do not influence the instrumentation"
 	self 
 		assertCompilerRewrites: 
 'method
-	"<bpSlider interval: (1 to: 1)>"2 + 3"</bpSlider>"'
+	#(a b c) do: "<bpSlider id: 1230123 interval: (1 to: 1)>"[:v | | c | 2 + 3]"</bpSlider>"'
 		to:
 'method
 	<layer: #bpInstrumented>
-	self bpBlock: 1 enteredAt: thisContext.
-self bpBlock: 1 leftWith: (2 + 3) at: thisContext'
+	#(a b c) do: [:v | | c | self bpBlock: 1230123 enteredAt: thisContext.
+2 + 3]'
