@@ -13,11 +13,9 @@
 		"addReplacementToSelection" : "pre 11/14/2019 15:50",
 		"addSliderToSelection" : "pre 9/22/2020 18:27",
 		"annotationsInSelection" : "pre 11/8/2019 12:05",
-		"annotationsInSelection (bpInstrumented)" : "pre 7/26/2019 16:11",
 		"bindingOf:" : "pre 8/25/2020 10:10",
 		"buildCodePaneWith:" : "pre 7/13/2020 16:07",
 		"codePaneMenuAnnotationItems:" : "pre 9/24/2020 11:33",
-		"codePaneMenuAnnotationItems: (bpInstrumented)" : "pre 7/26/2019 16:12",
 		"compileMessage:notifying:" : "pre 11/11/2019 09:46",
 		"compiledMethod" : "pre 1/24/2020 15:08",
 		"defaultBrowserTitle" : "pre 11/8/2019 17:17",
@@ -32,6 +30,5 @@
 		"removeProbeFromSelection" : "pre 7/23/2019 14:48",
 		"removeReplacementFromSelection" : "pre 4/29/2020 19:07",
 		"removeSelectedAnnotationsSatisfying:" : "pre 7/26/2019 16:08",
-		"removeSelectedAnnotationsSatisfying: (bpInstrumented)" : "pre 7/26/2019 16:06",
 		"saveMethodWithExamples" : "pre 11/11/2019 09:36",
 		"saveMethodWithExamplesWith:" : "pre 8/6/2019 13:57" } }

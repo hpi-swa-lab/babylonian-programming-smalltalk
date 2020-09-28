@@ -2,4 +2,6 @@ accessing
 listenToSlider: aSliderMorph
 	
 
-	sliderForFiltering := aSliderMorph
+	sliderForFiltering ifNotNil: [sliderForFiltering removeDependent: self].
+	sliderForFiltering := aSliderMorph.
+	aSliderMorph addDependent: self.
