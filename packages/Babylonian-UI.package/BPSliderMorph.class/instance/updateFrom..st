@@ -1,7 +1,7 @@
 private
 updateFrom: traces
 	
-	tracesMorph removeAllMorphs.
+	
 	self removeLinesWithoutCurrentTrace: traces.
 	traces do: [:aTrace |
 		(aTrace runsForBlockId: self annotation id) ifNotEmpty: [:candidateRuns | | runs newLine selectedContextModel sliderMorph runLabelMorph offsetOfRuns |

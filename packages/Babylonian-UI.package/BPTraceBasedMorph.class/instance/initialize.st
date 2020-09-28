@@ -7,6 +7,7 @@ initialize
 	
 	allTracesCompleted := false.
 	slidersForFiltering := Set new.
+	displayedTraces := Set new.
 	
 	tracesMorph := self newTracesMorph.
 	removeButton := self newRemoveButton.
