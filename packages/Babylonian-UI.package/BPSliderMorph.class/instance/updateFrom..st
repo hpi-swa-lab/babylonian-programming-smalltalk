@@ -1,11 +1,12 @@
 private
 updateFrom: traces
 	
-
+	tracesMorph removeAllMorphs.
 	self removeLinesWithoutCurrentTrace: traces.
 	traces do: [:aTrace |
-		self haltOnce.
-		(aTrace runsForBlockId: self annotation id) ifNotEmpty: [:runs | | newLine selectedContextModel sliderMorph runLabelMorph |
+		(aTrace runsForBlockId: self annotation id) ifNotEmpty: [:candidateRuns | | runs newLine selectedContextModel sliderMorph runLabelMorph offsetOfRuns |
+			runs := self filterValues: candidateRuns throughSliderForTrace: aTrace.
+			offsetOfRuns := runs ifEmpty: [0] ifNotEmpty: [(candidateRuns indexOf: runs first) - 1].
 			newLine := self newExampleLineMorph
 				setProperty: #bpTrace toValue: aTrace;
 				yourself.
@@ -16,11 +17,11 @@ updateFrom: traces
 			selectedContextModel := BPObjectValueModel new.
 			selectedContextModel 
 				object: 0;
-				onChangeBlock: [:index | 
-					self for: aTrace example selectContextAt: index.
-					
-					runLabelMorph contents: (index = 0 ifTrue: ['all'] ifFalse: [index asString]).
-					
+				onChangeBlock: [:index | |actualIndex|
+					actualIndex := index = 0 ifTrue: [0] ifFalse: [offsetOfRuns + index].
+					self annotation selectedContexts: (actualIndex to: actualIndex).
+					self for: aTrace selectContextAt: actualIndex.
+					runLabelMorph contents: (index = 0 ifTrue: ['all'] ifFalse: [actualIndex asString]).
 					selectedContextModel changed: #object].
 			sliderMorph := Slider 
 				on: selectedContextModel
@@ -33,6 +34,10 @@ updateFrom: traces
 				orientation: #horizontal;
 				hResizing: #rigid;
 				extent: 100@15.
+				
+			sliderMorph value: ((self annotation selectedContexts first between: offsetOfRuns + 1 and: offsetOfRuns + runs size) 
+				ifTrue: [self annotation selectedContexts first - offsetOfRuns]
+				ifFalse: [selectedContextModel object: 0. 0]).
 			newLine addMorphBack: sliderMorph.
 			
 			newLine addMorphBack: runLabelMorph.

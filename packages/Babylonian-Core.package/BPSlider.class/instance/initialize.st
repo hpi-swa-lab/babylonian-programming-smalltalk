@@ -1,5 +1,5 @@
 accessing
 initialize
-
+	
 	super initialize.
-	self selectedContexts: Set new.
+	self selectedContexts: (0 to: 0).

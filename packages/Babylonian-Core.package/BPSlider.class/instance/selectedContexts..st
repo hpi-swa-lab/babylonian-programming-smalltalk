@@ -1,4 +1,4 @@
 accessing
-selectedContexts: anObject
-
-	selectedContexts := anObject.
+selectedContexts: anInterval
+	
+	selectedContexts := anInterval.

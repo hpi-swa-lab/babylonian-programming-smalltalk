@@ -35,14 +35,14 @@ reformat: aText basedOn: annotations
 	"Until the whole infrastructure is reworked to be completely AST based, the intervalMap is used
 	to hook up probes to any sliders in the method. It should be removed on fixing the infrastructure"
 	intervalMap := text textAnchorIntervals.
-	(intervalMap keys select: [:k | k anchoredMorph isSlider]) do: [:sliderAnchor | | sliderInterval affectedProbeMorphs |
+	(intervalMap keys select: [:k | k anchoredMorph isSlider]) do: [:sliderAnchor | | sliderInterval affectedAnnotationMorphs |
 		sliderInterval := intervalMap at: sliderAnchor.
-		affectedProbeMorphs := intervalMap associations 
+		affectedAnnotationMorphs := intervalMap associations 
 			select: [:attributeToInterval | 
 				(sliderInterval includesAllOf: attributeToInterval value) and: [
-					attributeToInterval key anchoredMorph isProbe]]
+					attributeToInterval key anchoredMorph isProbe or: [attributeToInterval key anchoredMorph isAssertion] or: [attributeToInterval key anchoredMorph isSlider]]]
 			thenCollect: [:annotationToInterval | annotationToInterval key anchoredMorph].
-		affectedProbeMorphs do: [:probeMorph | probeMorph listenToSlider: sliderAnchor anchoredMorph]].
+		affectedAnnotationMorphs do: [:annotationMorph | annotationMorph listenToSlider: sliderAnchor anchoredMorph]].
 
 	^ text	
 	

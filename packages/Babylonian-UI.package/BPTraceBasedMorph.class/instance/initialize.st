@@ -6,6 +6,8 @@ initialize
 	super initialize.
 	
 	allTracesCompleted := false.
+	slidersForFiltering := Set new.
+	
 	tracesMorph := self newTracesMorph.
 	removeButton := self newRemoveButton.
 	"This morph holds the traces and the expression morph"

@@ -9,7 +9,9 @@
 		"displayedTraces",
 		"allTracesCompleted",
 		"tracesMorph",
-		"widgetsMorph" ],
+		"widgetsMorph",
+		"sliderForFiltering",
+		"slidersForFiltering" ],
 	"name" : "BPTraceBasedMorph",
 	"pools" : [
 		 ],

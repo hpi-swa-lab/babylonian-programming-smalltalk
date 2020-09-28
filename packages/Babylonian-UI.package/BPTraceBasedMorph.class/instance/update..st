@@ -1,4 +1,4 @@
-dependents
+private
 update: anAspect
 	
 	anAspect = #filterContext ifTrue: [
