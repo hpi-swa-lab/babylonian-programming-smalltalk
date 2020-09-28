@@ -7,7 +7,6 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"trace",
-		"sendRecorder",
 		"sendCounter",
 		"sendRecords" ],
 	"name" : "BPTracer",
