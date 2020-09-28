@@ -3,6 +3,8 @@
 		 },
 	"instance" : {
 		"method" : "pre 11/18/2019 17:07",
+		"methodWithBlock" : "pre 9/22/2020 18:52",
+		"methodWithBlockAndProbe" : "pre 9/22/2020 18:56",
 		"setUp" : "pre 7/25/2019 12:06",
 		"testRenderingExample" : "pre 8/25/2020 08:24",
 		"testRenderingExampleSpecificReplacement" : "pre 1/24/2020 15:25",
@@ -13,4 +15,6 @@
 		"testRenderingSimpleAssignmentProbe" : "pre 7/7/2020 14:01",
 		"testRenderingSimpleExpressionProbe" : "pre 9/21/2020 17:14",
 		"testRenderingSimpleProbe" : "pre 1/24/2020 15:26",
-		"testRenderingSimpleReplacement" : "pre 1/24/2020 15:26" } }
+		"testRenderingSimpleReplacement" : "pre 1/24/2020 15:26",
+		"testRenderingSimpleSlider" : "pre 9/28/2020 11:43",
+		"testRenderingSliderWithNestedProbe" : "pre 9/28/2020 11:43" } }

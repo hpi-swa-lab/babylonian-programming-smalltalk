@@ -1,4 +1,4 @@
 serialization
 startTag
-
-	^ '<bpSlider>'
+	
+	^ '"<bpSlider id: {1}>"' format: {self id} 

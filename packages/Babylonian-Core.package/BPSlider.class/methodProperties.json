@@ -3,6 +3,11 @@
 		"annotationTag" : "pre 1/24/2020 16:17" },
 	"instance" : {
 		"asMorph" : "pre 1/24/2020 17:05",
+		"canBeAnnotatedTo" : "pre 9/22/2020 18:19",
+		"initialize" : "pre 9/28/2020 11:30",
 		"instrumentationCallFor:" : "pre 1/24/2020 17:23",
-		"startTag" : "pre 1/24/2020 17:23",
-		"stopTag" : "pre 1/24/2020 17:23" } }
+		"isSlider" : "pre 9/24/2020 11:27",
+		"selectedContexts" : "pre 9/25/2020 10:11",
+		"selectedContexts:" : "pre 9/28/2020 11:29",
+		"startTag" : "pre 9/25/2020 17:23",
+		"stopTag" : "pre 9/22/2020 18:55" } }

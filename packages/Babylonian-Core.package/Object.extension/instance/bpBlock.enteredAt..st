@@ -1,4 +1,7 @@
 *Babylonian-Core
 bpBlock: blockId enteredAt: aContext
-
-	"NOP"
+	
+	^ #bpInstrumented withoutLayerDo: [
+		BPActiveTracer value 
+			recordBlock: blockId
+			enteredFrom: aContext].

@@ -1,6 +1,6 @@
 tests
 testRewritingExampleSpecificAssertion
-
+	
 	self 
 		assertCompilerRewrites: 
 'method
@@ -10,5 +10,4 @@ testRewritingExampleSpecificAssertion
 'method
 	<layer: #bpInstrumented>
 	<exampleNamed: ''example 1''>
-	self bpBlock: 1 enteredAt: thisContext.
-self bpBlock: 1 leftWith: ((self bpAssertAfter: [2 + 3] that: [2 = 2] forAssertion: 1 given: ''Class1>>method>>#''''example 1'''''' inContext: thisContext)) at: thisContext'
+	(self bpAssertAfter: [2 + 3] that: [2 = 2] forAssertion: 1 given: ''Class1>>method>>#''''example 1'''''' inContext: thisContext)'

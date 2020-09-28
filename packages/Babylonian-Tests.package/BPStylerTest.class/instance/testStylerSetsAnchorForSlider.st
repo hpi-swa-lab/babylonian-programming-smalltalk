@@ -1,14 +1,14 @@
 tests
 testStylerSetsAnchorForSlider
-
+	
 	| formattedSourceCode originalSourceCode attributes |
 	originalSourceCode := 'method
 	<exampleNamed: ''example 1''>
-	2 + "<bpSlider>"3"</bpSlider>"' asText.
+	"<bpSlider>"2 + 3"</bpSlider>"' asText.
 	formattedSourceCode := styler format: originalSourceCode.
 	
 	self 
-		assert: (formattedSourceCode asString includesSubstring: (Character startOfHeader asString , '3'));
+		assert: (formattedSourceCode asString includesSubstring: (Character startOfHeader asString , '2 + 3'));
 		deny: (formattedSourceCode asString includesSubstring: '</bpSlider>').
 		
 	attributes := formattedSourceCode attributesAt: (formattedSourceCode asString lastIndexOf: Character startOfHeader).

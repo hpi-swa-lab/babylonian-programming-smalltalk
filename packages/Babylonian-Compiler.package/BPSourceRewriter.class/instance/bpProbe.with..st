@@ -1,4 +1,4 @@
 rewrite rules
-bpProbe: annotation with: originalExpressionSource
-
-	^ annotation instrumentationCallFor: originalExpressionSource
+bpProbe: annotation with: originalExpressionSourceNode
+	
+	^ annotation instrumentationCallFor: (self value: originalExpressionSourceNode)
