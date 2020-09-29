@@ -3,7 +3,7 @@ addCreateExampleButton
 	
 	| addExampleButton |
 	addExampleButton := IconicButton new
-		labelGraphic: ('add an example' asText addAttribute: (TextColor color: Color lightGray); yourself) asMorph imageForm;
+		labelGraphic: ((TextMorph string: 'add an example' size: 8) textColor: Color lightGray; imageForm);
 		yourself.
 	
 	addExampleButton 

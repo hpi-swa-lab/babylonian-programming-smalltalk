@@ -6,7 +6,7 @@ initialize
 	self 
 		color: Color transparent;
 		borderWidth: 1;
-		borderColor: Color lightGray.
+		borderColor: Color veryLightGray. 
 		
 	self
 		changeTableLayout;

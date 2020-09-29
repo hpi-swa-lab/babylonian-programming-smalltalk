@@ -1,6 +1,6 @@
 tests
 testRewritingLeftHandOfAssignmentProbe
-
+	
 	self 
 		assertCompilerRewrites: 
 'method
@@ -10,5 +10,4 @@ testRewritingLeftHandOfAssignmentProbe
 'method
 	<layer: #bpInstrumented>
 	| variable |
-	self bpBlock: 1 enteredAt: thisContext.
-self bpBlock: 1 leftWith: ((self bpTraceAssignmentOf: [variable := 2 raisedTo: 3] before: {''variable'' . variable} forProbe: 1 inContext: thisContext)) at: thisContext.'.
+	(self bpTraceAssignmentOf: [variable := 2 raisedTo: 3] before: {''variable'' . variable} forProbe: 1 inContext: thisContext).'.

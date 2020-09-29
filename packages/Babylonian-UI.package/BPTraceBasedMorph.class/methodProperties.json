@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"isAbstract" : "pre 9/25/2020 10:15" },
+	"instance" : {
+		"filterValues:throughSliderForTrace:" : "pre 9/28/2020 11:21",
+		"initialize" : "pre 9/28/2020 11:49",
+		"listenToSlider:" : "pre 9/28/2020 11:14",
+		"newExampleLabelMorphFor:" : "pre 9/25/2020 17:22",
+		"newExampleLineMorph" : "pre 9/25/2020 17:16",
+		"newTracesMorph" : "pre 9/25/2020 17:13",
+		"newWidgetsMorph" : "pre 9/25/2020 17:27",
+		"removeLinesWithoutCurrentTrace:" : "pre 9/25/2020 17:13",
+		"step" : "pre 8/21/2020 12:11",
+		"stepTime" : "pre 8/20/2020 17:35",
+		"update:" : "pre 9/28/2020 10:48",
+		"updateFrom:" : "pre 9/25/2020 10:17" } }

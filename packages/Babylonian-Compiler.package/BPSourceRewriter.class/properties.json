@@ -10,7 +10,8 @@
 		"keywordMessageExtraction",
 		"currentProbeId",
 		"currentBlockId",
-		"inCascade" ],
+		"inCascade",
+		"currentSliderId" ],
 	"name" : "BPSourceRewriter",
 	"pools" : [
 		 ],

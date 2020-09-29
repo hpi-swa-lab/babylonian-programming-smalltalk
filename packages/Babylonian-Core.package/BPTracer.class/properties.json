@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"trace" ],
+		"trace",
+		"sendCounter",
+		"sendRecords" ],
 	"name" : "BPTracer",
 	"pools" : [
 		 ],

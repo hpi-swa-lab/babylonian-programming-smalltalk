@@ -1,6 +1,6 @@
 private - ui
 newTracesMorph
-
+	
 	^ Morph new
 		color: Color transparent;
 		changeTableLayout;

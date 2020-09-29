@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "pre 5/14/2019 16:28",
+		"setUp" : "pre 9/25/2020 09:28",
 		"tearDown" : "pre 5/14/2019 08:52",
 		"testActivateBPTracingOnBlock" : "pre 8/17/2020 10:31",
 		"testActivateTracingGivenAnExample" : "pre 5/10/2019 09:29",
@@ -15,7 +15,7 @@
 		"testTracingAnErrorShouldNotLeakAnyExceptions" : "pre 7/25/2019 15:40",
 		"testTracingExecutesMethodOnTheConstructedReceiver" : "pre 5/17/2019 14:17",
 		"testTracingOfAssignments" : "pre 7/6/2020 18:17",
-		"testTracingRecordsASerializedStack" : "pre 5/10/2019 09:29",
+		"testTracingRecordsASerializedStack" : "pre 9/28/2020 11:43",
 		"testTracingRecordsValues" : "pre 5/10/2019 09:29",
 		"testTracingRecordsValuesInReplacementsBaseCase" : "pre 7/12/2019 17:00",
 		"testTracingRecordsValuesTransformedByTheProbeExpression" : "pre 9/21/2020 17:18",

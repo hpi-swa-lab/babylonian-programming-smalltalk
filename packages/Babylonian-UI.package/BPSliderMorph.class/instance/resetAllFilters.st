@@ -1,0 +1,4 @@
+private
+resetAllFilters
+
+	selectedContextPerExample removeAll.

@@ -1,6 +1,6 @@
 annotations menu
 codePaneMenuAnnotationItems: aMenu
-	                  
+	
 	<codePaneMenu> 
 	<menuPriority: 400>
 	| annotationsInSelection |
@@ -11,11 +11,11 @@ codePaneMenuAnnotationItems: aMenu
 	
 	annotationsInSelection := self annotationsInSelection.
 
-	annotationsInSelection ifEmpty: [
-		aMenu
-			add: 'add probe (u)' action: #addProbeToSelection;
-			add: 'add assertion' action: #addAssertionToSelection;
-			add: 'add replacement' action: #addReplacementToSelection].
+	aMenu
+		add: 'add probe (u)' action: #addProbeToSelection;
+		add: 'add assertion' action: #addAssertionToSelection;
+		add: 'add replacement' action: #addReplacementToSelection;
+		add: 'add slider' action: #addSliderToSelection.
 
 	aMenu addLine.
 	
@@ -25,5 +25,7 @@ codePaneMenuAnnotationItems: aMenu
 		aMenu add: 'remove assertion' action: #removeAssertionFromSelection].
 	(annotationsInSelection anySatisfy: [:a | a isReplacement]) ifTrue: [
 		aMenu add: 'remove replacement' action: #removeReplacementFromSelection].
+	(annotationsInSelection anySatisfy: [:a | a isSlider]) ifTrue: [
+		aMenu add: 'remove slider' action: #removeSliderFromSelection].
 	
 	^ aMenu

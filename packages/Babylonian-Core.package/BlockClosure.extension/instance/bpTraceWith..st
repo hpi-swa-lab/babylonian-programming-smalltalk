@@ -6,6 +6,7 @@ bpTraceWith: tracer
 			self 
 				on: Error, Halt
 				do: [:e | 
-					BPActiveTracer value traceException: e.
-					BPExampleExecutionInterrupted signal: tracer completeTrace]]].
+					#bpInstrumented withoutLayerDo: [
+						BPActiveTracer value traceException: e.
+						BPExampleExecutionInterrupted signal: tracer completeTrace]]]].
 	^ tracer completeTrace

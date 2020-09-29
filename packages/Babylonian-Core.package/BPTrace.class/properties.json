@@ -12,7 +12,8 @@
 		"exampleErrored",
 		"recordedException",
 		"exampleExecutionProcess",
-		"hasTraceCompleted" ],
+		"hasTraceCompleted",
+		"blockRecord" ],
 	"name" : "BPTrace",
 	"pools" : [
 		 ],
