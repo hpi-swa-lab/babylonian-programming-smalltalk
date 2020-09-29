@@ -3,5 +3,6 @@
 		 },
 	"instance" : {
 		"bpTraceAsyncForExample:notifying:" : "pre 8/17/2020 10:21",
-		"bpTraceForExample:" : "pre 8/17/2020 10:20",
+		"bpTraceForExample:" : "pre 9/29/2020 16:44",
+		"bpTraceForExample:andHaltAt:" : "pre 9/29/2020 16:32",
 		"bpTraceWith:" : "pre 9/22/2020 15:15" } }

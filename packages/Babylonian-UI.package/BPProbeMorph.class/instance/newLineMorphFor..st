@@ -1,12 +1,13 @@
 private - ui
 newLineMorphFor: aTrace
-
+	
 	| newLine scrollPane |
 	newLine := self newExampleLineMorph
 		setProperty: #bpTrace toValue: aTrace;
 		yourself.
 		
 	newLine addMorphBack: (self newExploreButtonFor: aTrace).
+	newLine addMorphBack: (self newHaltButtonFor: aTrace).
 	
 	newLine addMorphBack: (Morph new
 		color: Color transparent; 

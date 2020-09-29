@@ -1,7 +1,9 @@
 asserting
 check: assertionBlock after: codeBlock forAssertion: anAssertionId given: anExampleName inContext: aContext
-
+	
 	| result |
+	self checkForHaltAt: anAssertionId.
+	
 	result := #bpInstrumented withLayerDo: [codeBlock value].
 	(self exampleNameMatches: anExampleName) ifTrue: [
 		trace

@@ -8,7 +8,8 @@
 	"instvars" : [
 		"trace",
 		"sendCounter",
-		"sendRecords" ],
+		"sendRecords",
+		"haltProbeId" ],
 	"name" : "BPTracer",
 	"pools" : [
 		 ],
