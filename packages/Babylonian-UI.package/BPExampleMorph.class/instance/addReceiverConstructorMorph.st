@@ -1,14 +1,28 @@
 private - ui
 addReceiverConstructorMorph
 	
+	| editField |
 	self addMorphBack: 'self: ' asMorph.
 	
-	self addMorphBack: (self
-			editFieldInitialContent: (self example receiverConstructor isSymbol 
-				ifTrue: [self example receiverConstructor printString] 
-				ifFalse: [self example receiverConstructor])
+	editField := (self
+			editFieldInitialContent: self example receiverConstructorString
 			onChange: [:str | 
 				self example receiverConstructor: str.
 				self codeContentChanged]
 			onAccept: [:str |
-				self containingBrowser codeTextMorph accept])
+				self containingBrowser codeTextMorph accept]).
+	self addMorphBack: editField.
+			
+	"Live specimen selection - Copied from addArgumentScriptMorphs"
+		self addMorphBack: (SimpleButtonMorph new
+			height: self fontHeight;
+			color: self color;
+			borderWidth: 2;
+			label: 's';
+			target: [
+				self selectLiveSpecimenThen: [:specimen |.
+					self example receiverConstructor: specimen.
+					self codeContentChanged.
+					editField setText: self example receiverConstructorString]];
+			actionSelector: #value;
+			yourself)
