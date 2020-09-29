@@ -6,13 +6,14 @@
 		"initialize" : "pre 8/18/2020 08:37",
 		"shutDown:" : "pre 8/18/2020 08:38" },
 	"instance" : {
-		"add:" : "pre 8/20/2020 16:16",
+		"add:" : "pre 9/29/2020 17:31",
 		"examples" : "pre 8/20/2020 16:16",
 		"initialize" : "pre 8/20/2020 16:15",
-		"remove:" : "pre 8/20/2020 16:16",
+		"remove:" : "pre 9/29/2020 17:31",
 		"removeAll:" : "pre 8/20/2020 12:17",
 		"removeTraces" : "pre 8/18/2020 08:38",
 		"runActiveExamples" : "pre 8/20/2020 10:38",
 		"systemChangeEvent:" : "pre 8/20/2020 16:16",
 		"tracesOfActiveExamples" : "pre 8/20/2020 10:43",
-		"updateActiveExamplesOnEvent:" : "pre 8/20/2020 16:14" } }
+		"update:" : "pre 9/29/2020 17:31",
+		"updateActiveExamplesOnEvent:" : "pre 9/29/2020 17:36" } }
