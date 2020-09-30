@@ -1,6 +1,6 @@
 tests - annotations - sliders
 testRewritingNestedBlockSlider
-	<exampleNamed: 'some example 92' active: true self: '(BPCompilerTest run: #testRewritingNestedBlockSlider)'>
+	<exampleNamed: 'some example 92' self: '(BPCompilerTest run: #testRewritingNestedBlockSlider)'>
 	self 
 		assertCompilerRewrites: 
 'method
