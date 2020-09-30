@@ -1,5 +1,5 @@
 adding examples
 addNewExampleAnnotation: anExampleAnnotation
-
+	
 	self exampleAnnotations addLast: anExampleAnnotation.
-	self addMorphFront: anExampleAnnotation createExampleMorph.
+	self addMorph: anExampleAnnotation asMorph inFrontOf: buttonBar.

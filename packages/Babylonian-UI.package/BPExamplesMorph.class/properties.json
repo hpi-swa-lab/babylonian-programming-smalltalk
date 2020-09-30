@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"exampleAnnotations" ],
+		"exampleAnnotations",
+		"buttonBar" ],
 	"name" : "BPExamplesMorph",
 	"pools" : [
 		 ],

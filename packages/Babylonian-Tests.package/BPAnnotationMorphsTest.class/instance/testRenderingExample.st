@@ -5,7 +5,7 @@ testRenderingExample
 	source := ('method
 ',Character startOfHeader,'
 ^ 2 + 3') asText.
-	example := BPExample new
+	example := BPMethodExample new
 		method: methodReference compiledMethod;
 		exampleName: 'example 1';
 		argumentScripts: #('Object new' . #(1 2 3) . nil);

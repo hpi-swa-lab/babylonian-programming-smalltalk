@@ -1,9 +1,9 @@
 initialization
-addCreateExampleButton
+addCreateExampleButtonLabeled: aLabel selector: anActionSelector
 	
 	| addExampleButton |
 	addExampleButton := IconicButton new
-		labelGraphic: ((TextMorph string: 'add an example' size: 8) textColor: Color lightGray; imageForm);
+		labelGraphic: ((TextMorph string: aLabel size: 8) textColor: Color lightGray; imageForm);
 		yourself.
 	
 	addExampleButton 
@@ -15,7 +15,7 @@ addCreateExampleButton
 	
 	addExampleButton 
 		target: self;
-		actionSelector: #addExampleButtonClicked. 
+		actionSelector: anActionSelector. 
 		
-	self addMorph: addExampleButton
+	buttonBar addMorphBack: addExampleButton
 	

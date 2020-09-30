@@ -5,4 +5,4 @@ comparing
 		and: [self methodReference = anotherReference methodReference]
 		and: [self exampleName = anotherReference exampleName])
 			or: [
-				anotherReference class = BPExample and: [self = anotherReference exampleReference]]
+				anotherReference class = BPMethodExample and: [self = anotherReference exampleReference]]

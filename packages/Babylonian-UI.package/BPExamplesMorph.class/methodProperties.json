@@ -2,9 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addCreateExampleButton" : "pre 9/28/2020 11:53",
-		"addExampleButtonClicked" : "pre 9/21/2020 16:30",
-		"addNewExampleAnnotation:" : "pre 8/25/2020 09:08",
+		"addButtonBar" : "pre 9/30/2020 11:06",
+		"addCreateExampleButtonLabeled:selector:" : "pre 9/30/2020 11:05",
+		"addExampleButtonClicked" : "pre 9/30/2020 11:12",
+		"addNewExampleAnnotation:" : "pre 9/30/2020 11:11",
+		"addScriptExampleButtonClicked" : "pre 9/30/2020 11:12",
+		"createAndAddNewExampleFrom:" : "pre 9/30/2020 11:12",
 		"exampleAnnotations" : "pre 8/24/2020 17:10",
-		"exampleAnnotations:" : "pre 8/25/2020 08:47",
-		"initialize" : "pre 9/28/2020 11:53" } }
+		"exampleAnnotations:" : "pre 9/30/2020 10:32",
+		"initialize" : "pre 9/30/2020 11:06" } }

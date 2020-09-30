@@ -1,0 +1,1 @@
+A BPExample is a standard example which lives as a pragma in a CompiledMethod. Thus, its lifetime is very much bound to the lifetime of the compiled method.

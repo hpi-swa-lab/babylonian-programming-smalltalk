@@ -4,6 +4,7 @@
 		"cleanUpTracesOnShutdown:" : "pre 8/18/2020 08:37",
 		"default" : "pre 8/18/2020 08:34",
 		"initialize" : "pre 8/18/2020 08:37",
+		"removeAll" : "pre 9/30/2020 10:45",
 		"shutDown:" : "pre 8/18/2020 08:38" },
 	"instance" : {
 		"add:" : "pre 9/29/2020 17:31",

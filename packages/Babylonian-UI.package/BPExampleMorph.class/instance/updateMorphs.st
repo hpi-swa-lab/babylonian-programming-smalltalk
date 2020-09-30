@@ -7,7 +7,6 @@ updateMorphs
 		addActivationButtonMorph;
 		addLoaderIconHolder;
 		addExampleNameMorph;
-		addReceiverConstructorMorph;
-		addArgumentScriptMorphs;
+		addExampleSpecificMorphs;
 		addDeleteButtonMorph.
 	

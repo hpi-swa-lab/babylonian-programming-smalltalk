@@ -1,0 +1,4 @@
+accessing
+scriptString
+
+	^ script printString

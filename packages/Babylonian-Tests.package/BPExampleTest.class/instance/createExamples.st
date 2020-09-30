@@ -1,7 +1,7 @@
 utility
 createExamples
 
-	^ {BPExample new . BPExample new} collect: [:example |
+	^ {BPMethodExample new . BPMethodExample new} collect: [:example |
 		example
 			method: method;
 			exampleName: 'test name';

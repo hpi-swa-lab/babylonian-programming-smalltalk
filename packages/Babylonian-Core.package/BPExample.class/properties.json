@@ -4,13 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "pre 8/20/2020 10:29",
+	"commentStamp" : "",
 	"instvars" : [
-		"method",
-		"exampleName",
-		"receiverConstructor",
-		"argumentScripts",
 		"isActive",
+		"exampleName",
+		"method",
 		"traceInformation" ],
 	"name" : "BPExample",
 	"pools" : [
