@@ -3,7 +3,7 @@ addArgumentScriptMorphs
 	
 	| editField |
 	self example argumentNames withIndexDo: [:argumentName :index |
-		self addMorphBack: (argumentName , ': ') asMorph.
+		self addMorphBack: ((argumentName , ': ') asMorph color: Color lightGray; yourself).
 
 		"Editing field"
 		editField := self
@@ -18,7 +18,7 @@ addArgumentScriptMorphs
 		
 		"Live specimen selection"
 		self addMorphBack: (SimpleButtonMorph new
-			height: self fontHeight;
+			height: self smallFontHeight;
 			color: self color;
 			borderWidth: 2;
 			label: 's';

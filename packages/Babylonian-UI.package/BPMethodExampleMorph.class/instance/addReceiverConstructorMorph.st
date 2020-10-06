@@ -2,7 +2,7 @@ private - ui
 addReceiverConstructorMorph
 	
 	| editField |
-	self addMorphBack: 'self: ' asMorph.
+	self addMorphBack: ('self: ' asMorph color: Color lightGray; yourself).
 	
 	editField := (self
 			editFieldInitialContent: self example receiverConstructorString
@@ -15,7 +15,7 @@ addReceiverConstructorMorph
 			
 	"Live specimen selection - Copied from addArgumentScriptMorphs"
 		self addMorphBack: (SimpleButtonMorph new
-			height: self fontHeight;
+			height: self smallFontHeight;
 			color: self color;
 			borderWidth: 2;
 			label: 's';

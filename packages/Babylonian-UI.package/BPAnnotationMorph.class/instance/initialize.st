@@ -2,7 +2,7 @@ initialization
 initialize
 	
 	super initialize.
-	self color: Color palePeach slightlyLighter.
+	self color: (ScrollPane basicNew userInterfaceTheme color ifNil: [Color peach lighter]) slightlyDarker.
 	self height: self fontHeight.
 	self 
 		changeTableLayout;

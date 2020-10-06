@@ -4,7 +4,7 @@ newAddExpressionMorph
 	
 	| setExpressionButton |
 	setExpressionButton := IconicButton new
-		labelGraphic: ((TextMorph string: 'set expression' size: 8) textColor: Color lightGray; yourself) imageForm;
+		labelGraphic: ((TextMorph string: 'set expression' size: BPAnnotationMorph smallFontHeight) textColor: Color lightGray; yourself) imageForm;
 		yourself.
 	
 	setExpressionButton 

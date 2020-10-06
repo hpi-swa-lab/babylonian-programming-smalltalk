@@ -23,6 +23,7 @@ updateFrom: traces
 			valuesMorph := (self valuesTextFor: t) asMorph.
 			valuesMorph lock.
 			valuesMorph hResizing: #shrinkWrap.
+			valuesMorph color: PluggableTextMorph basicNew userInterfaceTheme textColor.
 		
 			scrollPane scroller addMorph: valuesMorph.
 			scrollPane height: valuesMorph height + self scrollBarSize].

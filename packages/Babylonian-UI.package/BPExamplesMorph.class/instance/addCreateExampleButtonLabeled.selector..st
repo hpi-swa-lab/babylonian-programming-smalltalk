@@ -3,7 +3,7 @@ addCreateExampleButtonLabeled: aLabel selector: anActionSelector
 	
 	| addExampleButton |
 	addExampleButton := IconicButton new
-		labelGraphic: ((TextMorph string: aLabel size: 8) textColor: Color lightGray; imageForm);
+		labelGraphic: ((TextMorph string: aLabel size: BPAnnotationMorph smallFontHeight) textColor: Color lightGray; imageForm);
 		yourself.
 	
 	addExampleButton 
