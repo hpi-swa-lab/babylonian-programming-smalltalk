@@ -3,7 +3,7 @@
 		"isAbstract" : "pre 9/25/2020 10:15" },
 	"instance" : {
 		"filterValues:throughSliderForTrace:" : "pre 9/28/2020 11:21",
-		"initialize" : "pre 9/28/2020 11:49",
+		"initialize" : "pre 10/6/2020 10:40",
 		"listenToSlider:" : "pre 9/28/2020 11:14",
 		"newExampleLabelMorphFor:" : "pre 9/25/2020 17:22",
 		"newExampleLineMorph" : "pre 9/25/2020 17:16",
