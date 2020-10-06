@@ -1,8 +1,7 @@
-private
+*Babylonian-UI-private
 addAnnotationAtSelection: anAnnotation
 	
 	| result |
-	self haltOnce.
 	self hasUnacceptedEdits ifTrue: [
 		self inform: 'To add annotations,
 save method first.'.

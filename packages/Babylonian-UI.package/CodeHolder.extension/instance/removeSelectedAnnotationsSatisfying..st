@@ -1,4 +1,4 @@
-private
+*Babylonian-UI-private
 removeSelectedAnnotationsSatisfying: aSelectBlock
 	   
 	| attributes attributesToBeRemoved |

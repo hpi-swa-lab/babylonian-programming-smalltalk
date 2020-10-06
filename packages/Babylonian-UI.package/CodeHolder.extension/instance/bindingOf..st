@@ -1,4 +1,4 @@
-binding
+*Babylonian-UI-evaluating
 bindingOf: aString
 	
 	^ self exampleForEvaluation 

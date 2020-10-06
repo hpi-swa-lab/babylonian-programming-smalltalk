@@ -1,4 +1,4 @@
-private
+*Babylonian-UI-private
 addAnnotation: anAnnotation in: interval
 	
 	| newContent text actualInterval newMorph |
@@ -24,6 +24,5 @@ addAnnotation: anAnnotation in: interval
 		addMorph: newMorph;
 		setText: newContent;
 		hasUnacceptedEdits: true;
-		haltOnce;
 		accept.
 	

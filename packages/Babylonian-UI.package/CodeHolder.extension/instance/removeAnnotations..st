@@ -1,4 +1,4 @@
-private
+*Babylonian-UI-annotations
 removeAnnotations: aCollectionOfAnnotations
 	
 	| attributes attributesToBeRemoved newContent |

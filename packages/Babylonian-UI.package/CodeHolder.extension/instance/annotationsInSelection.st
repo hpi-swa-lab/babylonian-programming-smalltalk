@@ -1,4 +1,4 @@
-private
+*Babylonian-UI-private
 annotationsInSelection
 
 	| annotations interval|

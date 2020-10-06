@@ -1,4 +1,4 @@
-private
+*Babylonian-UI-private
 exampleForEvaluation
 	
 	^ self compiledMethod bpActiveExamples

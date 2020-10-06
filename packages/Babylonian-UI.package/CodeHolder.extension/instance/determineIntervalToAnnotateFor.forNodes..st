@@ -1,4 +1,4 @@
-private - interval selection
+*Babylonian-UI-private
 determineIntervalToAnnotateFor: anInterval forNodes: nodeList
 	<exampleNamed: 'problematic case' self: 'BPBrowser new setClass: BPSearchCollection selector: #binarySearch:; selectedMessage; yourself' with: '83 to: 92' with: '#(UnaryMessageSend BinaryMessageSend KeywordMessageSend Expression Statement Operand)'>
 	<exampleNamed: 'base case' self: 'BPBrowser new setClass: BPFancyStar selector: #initialize2; selectedMessage; yourself' with: '82 to: 92' with: '#(BlockLiteral ExecutableCode)'>

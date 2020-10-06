@@ -1,4 +1,4 @@
-private
+*Babylonian-UI-private
 exampleMorphFor: anExample
 	
 	^ self codeTextMorph allMorphs 
