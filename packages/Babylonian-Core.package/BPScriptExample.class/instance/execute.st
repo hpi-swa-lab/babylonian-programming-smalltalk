@@ -1,4 +1,8 @@
 tracing
 execute
 	
-	self script ifNotNil: [Compiler evaluate: self script]
+	| block |
+	self script ifNotNil: [
+		#bpInstrumented withoutLayerDo: [
+			block := Compiler evaluate: '[' , self script , ']'].	
+		block value]
