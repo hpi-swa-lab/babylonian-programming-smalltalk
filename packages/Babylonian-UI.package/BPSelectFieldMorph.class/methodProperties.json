@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addLabelMorph" : "pre 11/18/2019 11:06",
+		"addLabelMorph" : "pre 10/6/2020 10:30",
 		"addSelectButtonMorph" : "pre 11/18/2019 11:08",
 		"fontWidth" : "pre 11/18/2019 10:43",
 		"iconSize" : "pre 11/18/2019 10:40",
@@ -13,4 +13,4 @@
 		"selectButtonClicked" : "pre 11/18/2019 11:19",
 		"selectedObject" : "pre 11/18/2019 11:09",
 		"update:" : "pre 11/18/2019 11:16",
-		"updateLabel" : "pre 11/18/2019 11:06" } }
+		"updateLabel" : "pre 10/6/2020 10:35" } }

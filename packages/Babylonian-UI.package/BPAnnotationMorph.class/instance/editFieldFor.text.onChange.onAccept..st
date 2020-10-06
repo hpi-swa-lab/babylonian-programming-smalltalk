@@ -1,6 +1,6 @@
 private - ui
 editFieldFor: model text: getTextSelector onChange: setTextSelector onAccept: acceptTextSelector
-
+	
 	| pluggableTextMorph | 
 	pluggableTextMorph := PluggableTextMorph 
 		on: model
@@ -10,8 +10,10 @@ editFieldFor: model text: getTextSelector onChange: setTextSelector onAccept: ac
 		color: Color transparent;
 		editTextSelector: setTextSelector;
 		vResizing: #shrinkWrap;
+		hResizing: #rigid;
+		wrapFlag: true;
 		wantsFrameAdornments: false;
 		height: self fontHeight;
 		width: ((TextStyle defaultFont widthOfString: (model perform: getTextSelector)) + (self fontWidth) 
-			max: (10 * self fontWidth)).
+			max: (20 * self fontWidth)).
 	^ pluggableTextMorph

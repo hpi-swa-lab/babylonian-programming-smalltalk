@@ -1,4 +1,5 @@
 private - ui
 updateLabel
-
-	labelMorph contents: self labelOfSelectedObject
+	
+	self removeMorph: labelMorph.
+	self addLabelMorph.
