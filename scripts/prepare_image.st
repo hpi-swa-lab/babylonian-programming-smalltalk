@@ -16,9 +16,12 @@ author initials which might fail these tests. So we set some dummy initials here
 (Smalltalk at: #Metacello) new
   baseline: 'BabylonianProgramming';
   repository: 'filetree:///home/runner/work/babylonian-programming-smalltalk/babylonian-programming-smalltalk/packages';
-  load.
+  load: 'tests'.
 
 "Prepare Image a little bit"
 SystemBrowser default: BPBrowser.
+
+TranscriptStream redirectToStdOut: false.
+Deprecation suppressed: false.
 
 SmalltalkImage current snapshot: true andQuit: true.
