@@ -25,3 +25,5 @@ jobs:
         timeout-minutes: 15
         env: 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: scripts/build_image.sh
+        shell: bash
