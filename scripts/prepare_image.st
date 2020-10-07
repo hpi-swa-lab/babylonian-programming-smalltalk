@@ -3,7 +3,7 @@ TranscriptStream redirectToStdOut: true.
 Deprecation showDeprecationWarnings: false.
 
 "Update the image."
-[MCMcmUpdater updateFromServer] valueSupplyingAnswer: true.
+"[MCMcmUpdater updateFromServer] valueSupplyingAnswer: true."
 
 Installer ensureRecentMetacello.
 Installer installGitInfrastructure.
