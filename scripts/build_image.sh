@@ -36,11 +36,11 @@ gunzip SqueakV50.sources.gz
 
 mv *.image "${DEPLOY_IMAGE}"
 mv *.changes "${DEPLOY_CHANGES}"
-cp "${BUILD_DIR}/scripts/TextAnchorPlacement.cs" TextAnchorPlacement.cs
+cp "../scripts/TextAnchorPlacement.cs" TextAnchorPlacement.cs
 
 print_info "Preparing ${SMALLTALK_VERSION} image..."
 EXIT_STATUS=0
-"${VM}" $COG_VM_PARAM "${DEPLOY_IMAGE}" "${BUILD_DIR}/scripts/prepare_image.st" || EXIT_STATUS=$?
+"${VM}" $COG_VM_PARAM "${DEPLOY_IMAGE}" "../scripts/prepare_image.st" || EXIT_STATUS=$?
 
 if [[ $EXIT_STATUS -eq 0 ]]; then
     zip "Babylonian-${SMALLTALK_VERSION}.zip" *.image *.changes *.sources
