@@ -11,7 +11,7 @@ function print_info {
 
 DEPLOY_PATH="deploy"
 BUILD_DIR=.
-SMALLTALK_VERSION=$GITHUB_SMALLTALK_VERSION
+SMALLTALK_VERSION="5.3"
 VM=$SMALLTALK_CI_VM
 # ==============================================================================
 
@@ -19,31 +19,29 @@ VM=$SMALLTALK_CI_VM
 # ==============================================================================
 DEPLOY_IMAGE="Babylonian-${SMALLTALK_VERSION}.image"
 DEPLOY_CHANGES="Babylonian-${SMALLTALK_VERSION}.changes"
-COG_VM_PARAM=""
-if [[ "$(uname -s)" == "Linux" ]]; then
-    COG_VM_PARAM="-nosound -nodisplay"
-fi
+DEPLOY_PACKAGE="Babylonian-${SMALLTALK_VERSION}.zip"
+COG_VM_PARAM="-nosound -nodisplay"
 # ==============================================================================
 
 mkdir -p "${DEPLOY_PATH}" 
 cd "${DEPLOY_PATH}"
 
 print_info "Downloading Squeak-5.3 image..."
-wget http://files.squeak.org/5.3rc3/Squeak5.3rc3-19428-64bit/Squeak5.3rc3-19428-64bit.zip
-unzip Squeak5.3rc3-19428-64bit.zip
-wget http://files.squeak.org/sources_files/SqueakV50.sources.gz
-gunzip SqueakV50.sources.gz
+wget http://files.squeak.org/5.3rc3/Squeak5.3rc3-19428-64bit/Squeak5.3rc3-19428-64bit-202002240037-Linux.zip
+unzip Squeak5.3rc3-19428-64bit-202002240037-Linux.zip
+mv Squeak5.3rc3-19428-64bit-202002240037-Linux Squeak5.3
 
-mv *.image "${DEPLOY_IMAGE}"
-mv *.changes "${DEPLOY_CHANGES}"
+mv Squeak5.3/shared/*.image "${DEPLOY_IMAGE}"
+mv Squeak5.3/shared/*.changes "${DEPLOY_CHANGES}"
+mv Squeak5.3/shared/SqueakV50.sources .
 cp "../scripts/TextAnchorPlacement.cs" TextAnchorPlacement.cs
 
-print_info "Preparing ${SMALLTALK_VERSION} image..."
+print_info "Preparing image..."
 EXIT_STATUS=0
-"${VM}" $COG_VM_PARAM "${DEPLOY_IMAGE}" "../scripts/prepare_image.st" || EXIT_STATUS=$?
+Squeak5.3/bin/squeak $COG_VM_PARAM "${DEPLOY_IMAGE}" "../scripts/prepare_image.st" || EXIT_STATUS=$?
 
 if [[ $EXIT_STATUS -eq 0 ]]; then
-    zip "Babylonian-${SMALLTALK_VERSION}.zip" *.image *.changes *.sources
+    zip "${DEPLOY_PACKAGE}" *.image *.changes *.sources
 else
     print_info "Preparation of image file failed."
 fi
