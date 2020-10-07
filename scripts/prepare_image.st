@@ -1,4 +1,4 @@
-|package zip ws rackIcon contact editor|
+Deprecation suppressed: true.
 
 "Update the image."
 [MCMcmUpdater updateFromServer] valueSupplyingAnswer: true.
