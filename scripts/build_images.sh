@@ -9,7 +9,7 @@ function print_info {
     printf "\e[0;34m$1\e[0m\n"
 }
 
-DEPLOY_PATH="${SMALLTALK_CI_HOME}/deploy"
+DEPLOY_PATH="deploy"
 BUILD_DIR=.
 SMALLTALK_VERSION=$GITHUB_SMALLTALK_VERSION
 VM=$SMALLTALK_CI_VM

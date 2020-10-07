@@ -28,3 +28,8 @@ jobs:
       - run: scripts/build_image.sh
         if: matrix.os == 'ubuntu-latest'
         shell: bash
+      - name: Upload Image
+        uses: actions/upload-artifact@v2
+        with:
+          name: image
+          path: ./deploy/Babylonian-5.3.zip
