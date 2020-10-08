@@ -5,16 +5,17 @@ updateFrom: traces
 	tracesMorph removeAllMorphs.
 
 	"Now to the results"
-	self relevantTracesOf: traces do: [:t | | lineMorph valuesMorph |
-		lineMorph := self ensureLineMorphFor: t.
+	self relevantTracesOf: traces do: [:trace | | lineMorph valuesMorph |
+		lineMorph := self ensureLineMorphFor: trace.
 		scrollPane := (lineMorph submorphNamed: #scrollWrapper) submorphNamed: #scrollPane.
 		scrollPane scroller removeAllMorphs.
 		
 		valuesMorph := self newExampleLineMorph.
-		(t resultsForAssertionId: self annotation id) 
+		(trace resultsForAssertionId: self annotation id) 
 			ifEmpty: [lineMorph addMorphBack: ToolIcons testGray asMorph]
-			ifNotEmpty: [:results |
-				results do: [:result | | iconMorph |
+			ifNotEmpty: [:results | |values|
+				values := self filterValues: results throughSliderForTrace: trace.
+				values do: [:result | | iconMorph |
 					iconMorph := (result tracedValue ifTrue: [ToolIcons testGreen] ifFalse: [ToolIcons testOrange]) asMorph.
 					valuesMorph addMorphBack: iconMorph]].
 			
