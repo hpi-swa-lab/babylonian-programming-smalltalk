@@ -1,9 +1,10 @@
 private - ui
 newScrollPane
-
+	
 	^ ScrollPane new
 		width: 300;
 		color: Color transparent;
+		borderWidth: 0;
 		vScrollBarPolicy: #never;
 		showHScrollBarOnlyWhenNeeded;
 		scrollBarThickness: self scrollBarSize;

@@ -9,6 +9,7 @@ newExpressionMorph
 		vResizing: #shrinkWrap;
 		hResizing: #shrinkWrap;
 		cellPositioning: #topLeft;
+		borderWidth: 0;
 		layoutInset: 1;
 		yourself.
 		

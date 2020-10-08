@@ -11,6 +11,7 @@ newLineMorphFor: aTrace
 	
 	newLine addMorphBack: (Morph new
 		color: Color transparent; 
+		borderWidth: 0;
 		layoutInset: 0;
 		vResizing: #shrinkWrap;
 		hResizing: #shrinkWrap;

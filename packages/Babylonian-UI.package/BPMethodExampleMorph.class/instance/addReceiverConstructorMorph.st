@@ -2,7 +2,10 @@ private - ui
 addReceiverConstructorMorph
 	
 	| editField |
-	self addMorphBack: ('self: ' asMorph color: Color lightGray; yourself).
+	self addMorphBack: ('self: ' asMorph 
+			color: Color lightGray;
+			borderWidth: 0;
+			yourself).
 	
 	editField := (self
 			editFieldInitialContent: self example receiverConstructorString

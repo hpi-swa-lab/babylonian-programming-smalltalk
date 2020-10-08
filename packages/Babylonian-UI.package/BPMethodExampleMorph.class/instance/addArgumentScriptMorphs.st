@@ -3,7 +3,10 @@ addArgumentScriptMorphs
 	
 	| editField |
 	self example argumentNames withIndexDo: [:argumentName :index |
-		self addMorphBack: ((argumentName , ': ') asMorph color: Color lightGray; yourself).
+		self addMorphBack: ((argumentName , ': ') asMorph 
+			color: Color lightGray; 
+			borderWidth: 0;
+			yourself).
 
 		"Editing field"
 		editField := self

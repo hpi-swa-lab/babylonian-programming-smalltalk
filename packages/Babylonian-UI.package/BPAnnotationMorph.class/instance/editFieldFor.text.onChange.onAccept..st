@@ -8,6 +8,7 @@ editFieldFor: model text: getTextSelector onChange: setTextSelector onAccept: ac
 		accept: acceptTextSelector.
 	pluggableTextMorph 
 		color: Color transparent;
+		borderWidth: 0;
 		editTextSelector: setTextSelector;
 		vResizing: #shrinkWrap;
 		hResizing: #rigid;
