@@ -1,5 +1,5 @@
 accessing
 annotation: anObject
-
+	
 	super annotation: anObject.
-	self updateFrom: self emptyTraces.
+	self updateAssertionFieldsMorph.

@@ -1,66 +1,16 @@
 private
 updateFrom: traces
 	
-	| assertionScriptMorph assertionScript exampleSelectionMorph removeButton editFieldsMorph tracesMorph |
-	self removeAllMorphs.
-	
-	editFieldsMorph := Morph new
-		color: Color transparent;
-		changeTableLayout;
-		cellPositioning: #topLeft;
-		listDirection: #leftToRight;
-		hResizing: #shrinkWrap;
-		vResizing: #shrinkWrap;
-		yourself.
-		
-	widgetsMorph := Morph new
-		color: Color transparent;
-		changeTableLayout;
-		cellPositioning: #topLeft;
-		listDirection: #topToBottom;
-		hResizing: #shrinkWrap;
-		vResizing: #shrinkWrap;
-		yourself.
-	
-	assertionScript := self annotation ifNil: [''] ifNotNil: [:a | a assertion asString].
-	assertionScript := assertionScript copyFrom: 2 to: (assertionScript size - 1 max: 1). "Removes the square brackets"
-	assertionScriptMorph := self 
-		editFieldInitialContent: assertionScript
-		onChange: [:str | 
-			self annotation assertion: ('[{1}]' format: {str}).
-			self codeContentChanged]
-		onAccept: [:str | 
-			self containingBrowser codeTextMorph accept].
-		
-	exampleSelectionMorph := BPSelectFieldMorph new
-		optionsBlock: [
-			{BPExampleSpecificScript allExamplesName} , 
-			(SystemNavigation default allExamples collect: [:e | e uniqueIdentifier])];
-		model: (BPObjectValueModel new
-			object: (self annotation ifNotNil: [:a | a exampleName] ifNil: ['']);
-			onChangeBlock: [:exampleName | 
-				self annotation exampleName: exampleName.
-				self codeContentChanged]);
-		yourself.
-		
-	removeButton := self newRemoveButton.
-	
-	self 	
-		addMorphBack: widgetsMorph;
-		addMorphBack: removeButton.
-		
-	editFieldsMorph 
-		addMorphBack: assertionScriptMorph;
-		addMorphBack: exampleSelectionMorph.
-	widgetsMorph addMorphBack: editFieldsMorph.	
+	| scrollPane |
+	tracesMorph removeAllMorphs.
 
 	"Now to the results"
-	tracesMorph := self newTracesMorph.
 	self relevantTracesOf: traces do: [:t | | lineMorph valuesMorph |
-		lineMorph := self newExampleLineMorph.
-		lineMorph addMorphBack: (self newExampleLabelMorphFor: t).
-		valuesMorph := self newExampleLineMorph.
+		lineMorph := self ensureLineMorphFor: t.
+		scrollPane := (lineMorph submorphNamed: #scrollWrapper) submorphNamed: #scrollPane.
+		scrollPane scroller removeAllMorphs.
 		
+		valuesMorph := self newExampleLineMorph.
 		(t resultsForAssertionId: self annotation id) 
 			ifEmpty: [lineMorph addMorphBack: ToolIcons testGray asMorph]
 			ifNotEmpty: [:results |
@@ -72,9 +22,6 @@ updateFrom: traces
 		after it wrapped around its submorphs"
 		valuesMorph layoutChanged; fullBounds.
 		
-		valuesMorph := self checkAndConvertValuesMorphIfNecessary: valuesMorph.
-		lineMorph addMorphBack: valuesMorph.
-		tracesMorph addMorphBack: lineMorph].
-	tracesMorph submorphs ifNotEmpty: [
-		widgetsMorph addMorphFront: tracesMorph].
+		scrollPane scroller addMorph: valuesMorph.
+		scrollPane height: valuesMorph height + self scrollBarSize].
 	
