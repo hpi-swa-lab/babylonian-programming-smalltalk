@@ -12,6 +12,9 @@ Installer installGitInfrastructure.
 author initials which might fail these tests. So we set some dummy initials here to avoid this."
 (Smalltalk at: #MetacelloPlatform) current authorName: 'BabylonianInstallation'.
 
+"Load patches for text anchor placement"
+FileStream fileIn: 'TextAnchorPlacement.cs'.
+
 "Load Babylonian into image"
 (Smalltalk at: #Metacello) new
   baseline: 'BabylonianProgramming';
@@ -19,7 +22,11 @@ author initials which might fail these tests. So we set some dummy initials here
   load: 'tests'.
 
 "Prepare Image a little bit"
+PluggableSystemWindow allInstances do: #abandon.
+PreferenceWizardMorph allInstances do: #abandon.
 SystemBrowser default: BPBrowser.
+
+((Smalltalk at: #BPFancyStar)>>#initialize) browse.
 
 TranscriptStream redirectToStdOut: false.
 Deprecation suppressed: false.
