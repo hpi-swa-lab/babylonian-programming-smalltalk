@@ -8,7 +8,7 @@ updateFrom: traces
 	
 	self relevantTracesOf: traces do: [:t | | valuesMorph scrollPane |
 			lineMorph := self ensureLineMorphFor: t.
-			scrollPane := lineMorph submorphNamed: #scrollPane.
+			scrollPane := (lineMorph submorphNamed: #scrollWrapper) submorphNamed: #scrollPane.
 			errorIndicatorMorph := lineMorph submorphNamed: #errorIndicatorHolder.
 			
 			t exampleErrored 
@@ -20,10 +20,11 @@ updateFrom: traces
 
 			scrollPane scroller removeAllMorphs.				
 		
-			valuesMorph := (self valuesTextFor: t) asMorph.
-			valuesMorph lock.
-			valuesMorph hResizing: #shrinkWrap.
-			valuesMorph color: PluggableTextMorph basicNew userInterfaceTheme textColor.
+			valuesMorph := (self valuesTextFor: t) asMorph
+				lock;
+				hResizing: #shrinkWrap;
+				color: PluggableTextMorph basicNew userInterfaceTheme textColor;
+				yourself.
 		
 			scrollPane scroller addMorph: valuesMorph.
 			scrollPane height: valuesMorph height + self scrollBarSize].
