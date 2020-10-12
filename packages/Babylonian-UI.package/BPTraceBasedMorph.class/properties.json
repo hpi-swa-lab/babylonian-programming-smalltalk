@@ -10,7 +10,6 @@
 		"allTracesCompleted",
 		"tracesMorph",
 		"widgetsMorph",
-		"sliderForFiltering",
 		"slidersForFiltering" ],
 	"name" : "BPTraceBasedMorph",
 	"pools" : [
