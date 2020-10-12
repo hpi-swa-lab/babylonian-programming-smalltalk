@@ -20,10 +20,9 @@ updateFrom: traces
 
 			scrollPane scroller removeAllMorphs.				
 		
-			valuesMorph := (self valuesTextFor: t) asMorph
+			valuesMorph := (self valuesMorphFor: t)
 				lock;
 				hResizing: #shrinkWrap;
-				color: PluggableTextMorph basicNew userInterfaceTheme textColor;
 				yourself.
 		
 			scrollPane scroller addMorph: valuesMorph.
