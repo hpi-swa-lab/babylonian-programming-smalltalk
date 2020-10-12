@@ -1,9 +1,9 @@
 *Babylonian-Compiler
-noteCompilationOf: aSelector meta: isMeta
+updateAndRemoveBPMethods: aSelector
 	
 	| theClass method methodHasInstalledInstrumentation sourceIsNotInstrumented |
-	theClass := isMeta ifTrue: [self class] ifFalse: [self].
-	method := theClass>>aSelector.
+	theClass := self.
+	method := theClass>>aSelector. 
 
 	sourceIsNotInstrumented := (BPCompiler new methodSourceRequiresBPLayers: method getSource) not.
 	methodHasInstalledInstrumentation := method isContextSMethod and: [method isLayered and: [method allInvolvedLayers = #(bpInstrumented)]].
