@@ -21,7 +21,6 @@ updateFrom: traces
 			scrollPane scroller removeAllMorphs.				
 		
 			valuesMorph := (self valuesMorphFor: t)
-				lock;
 				hResizing: #shrinkWrap;
 				yourself.
 		

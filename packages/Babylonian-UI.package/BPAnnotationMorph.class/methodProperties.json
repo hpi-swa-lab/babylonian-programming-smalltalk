@@ -2,6 +2,7 @@
 	"class" : {
 		"fontHeight" : "pre 11/18/2019 10:40",
 		"fontWidth" : "pre 11/18/2019 10:44",
+		"newContainerMorph" : "pre 10/12/2020 17:47",
 		"smallFontHeight" : "pre 10/6/2020 11:54" },
 	"instance" : {
 		"annotation" : "pre 7/2/2019 16:39",
@@ -31,7 +32,7 @@
 		"isSlider" : "pre 1/24/2020 16:15",
 		"methodReference" : "pre 11/18/2019 12:28",
 		"methodReference:" : "pre 11/18/2019 12:28",
-		"newContainerMorph" : "pre 10/12/2020 17:19",
+		"newContainerMorph" : "pre 10/12/2020 17:47",
 		"newRemoveButton" : "pre 8/21/2020 10:32",
 		"removeButtonClicked" : "pre 11/18/2019 12:29",
 		"scrollBarSize" : "pre 7/23/2019 11:18",

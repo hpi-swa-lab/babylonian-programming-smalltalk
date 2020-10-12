@@ -3,5 +3,6 @@ newTracedAssignmentValue: aValue previousValues: variableAndValuesTuples express
 	
 	^ BPTraceAssignmentValue
 			value: aValue bpSnapshot
+			identityHash: aValue identityHash
 			previousValues: variableAndValuesTuples
 			stack: (self stackFrom: aContext)
