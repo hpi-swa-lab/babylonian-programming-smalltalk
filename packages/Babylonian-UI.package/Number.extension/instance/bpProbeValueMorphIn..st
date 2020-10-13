@@ -1,4 +1,4 @@
 *Babylonian-UI
 bpProbeValueMorphIn: traceValue
 	
-	^ (' ' , self printString) asMorph
+	^ self printString asMorph
