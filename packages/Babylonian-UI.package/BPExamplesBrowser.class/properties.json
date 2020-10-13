@@ -1,0 +1,17 @@
+{
+	"category" : "Babylonian-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"packageList",
+		"packageListIndex",
+		"exampleList",
+		"exampleListIndex" ],
+	"name" : "BPExamplesBrowser",
+	"pools" : [
+		 ],
+	"super" : "MessageSet",
+	"type" : "normal" }
