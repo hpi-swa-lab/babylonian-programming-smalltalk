@@ -13,7 +13,7 @@ author initials which might fail these tests. So we set some dummy initials here
 (Smalltalk at: #MetacelloPlatform) current authorName: 'BabylonianInstallation'.
 
 "Load patches for text anchor placement"
-FileStream fileIn: 'TextAnchorPlacement.cs'.
+"FileStream fileIn: 'TextAnchorPlacement.cs'. Only needed for 5.3"
 
 "Load Babylonian into image"
 (Smalltalk at: #Metacello) new
