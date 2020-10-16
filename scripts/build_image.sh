@@ -11,7 +11,7 @@ function print_info {
 
 DEPLOY_PATH="deploy"
 BUILD_DIR=.
-SMALLTALK_VERSION="5.3"
+SMALLTALK_VERSION="trunk"
 VM=$SMALLTALK_CI_VM
 # ==============================================================================
 
@@ -26,19 +26,23 @@ COG_VM_PARAM="-nosound -nodisplay"
 mkdir -p "${DEPLOY_PATH}" 
 cd "${DEPLOY_PATH}"
 
-print_info "Downloading Squeak-5.3 image..."
-wget http://files.squeak.org/5.3rc3/Squeak5.3rc3-19428-64bit/Squeak5.3rc3-19428-64bit-202002240037-Linux.zip
-unzip Squeak5.3rc3-19428-64bit-202002240037-Linux.zip
-mv Squeak5.3rc3-19428-64bit-202002240037-Linux Squeak5.3
+print_info "Downloading Squeak-trunk image..."
+#wget http://files.squeak.org/5.3rc3/Squeak5.3rc3-19428-64bit/Squeak5.3rc3-19428-64bit-202002240037-Linux.zip
+#unzip Squeak5.3rc3-19428-64bit-202002240037-Linux.zip
+#mv Squeak5.3rc3-19428-64bit-202002240037-Linux Squeak5.3
 
-mv Squeak5.3/shared/*.image "${DEPLOY_IMAGE}"
-mv Squeak5.3/shared/*.changes "${DEPLOY_CHANGES}"
-mv Squeak5.3/shared/SqueakV50.sources .
+wget http://files.squeak.org/6.0alpha/Squeak6.0alpha-19999-64bit/Squeak6.0alpha-19999-64bit-202003021730-Linux.zip
+unzip Squeak6.0alpha-19999-64bit-202003021730-Linux.zip
+mv Squeak6.0alpha-19999-64bit-202003021730-Linux Squeak-trunk
+
+mv Squeak-trunk/shared/*.image "${DEPLOY_IMAGE}"
+mv Squeak-trunk/shared/*.changes "${DEPLOY_CHANGES}"
+mv Squeak-trunk/shared/SqueakV50.sources .
 cp "../scripts/TextAnchorPlacement.cs" TextAnchorPlacement.cs
 
 print_info "Preparing image..."
 EXIT_STATUS=0
-Squeak5.3/bin/squeak $COG_VM_PARAM "${DEPLOY_IMAGE}" "../scripts/prepare_image.st" || EXIT_STATUS=$?
+Squeak-trunk/bin/squeak $COG_VM_PARAM "${DEPLOY_IMAGE}" "../scripts/prepare_image.st" || EXIT_STATUS=$?
 
 if [[ $EXIT_STATUS -eq 0 ]]; then
     zip "${DEPLOY_PACKAGE}" *.image *.changes *.sources

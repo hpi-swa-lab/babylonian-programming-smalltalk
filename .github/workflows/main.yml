@@ -33,4 +33,4 @@ jobs:
         if: matrix.os == 'ubuntu-latest'
         with:
           name: image
-          path: ./deploy/Babylonian-5.3.zip
+          path: ./deploy/Babylonian-trunk.zip
