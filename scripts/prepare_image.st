@@ -13,7 +13,7 @@ author initials which might fail these tests. So we set some dummy initials here
 (Smalltalk at: #MetacelloPlatform) current authorName: 'BabylonianInstallation'.
 
 "Load patches for text anchor placement"
-"FileStream fileIn: 'TextAnchorPlacement.cs'. Only needed for 5.3"
+FileStream fileIn: 'SOHCharacter.cs'.
 
 "Load Babylonian into image"
 (Smalltalk at: #Metacello) new
@@ -26,7 +26,7 @@ PluggableSystemWindow allInstances do: #abandon.
 PreferenceWizardMorph allInstances do: #abandon.
 SystemBrowser default: BPBrowser.
 
-((Smalltalk at: #BPFancyStar)>>#initialize) browse.
+((Smalltalk at: #BPFancyMorph)>>#initialize) browse.
 
 TranscriptStream redirectToStdOut: false.
 Deprecation suppressed: false.
