@@ -38,7 +38,7 @@ mv Squeak6.0alpha-19999-64bit-202003021730-Linux Squeak-trunk
 mv Squeak-trunk/shared/*.image "${DEPLOY_IMAGE}"
 mv Squeak-trunk/shared/*.changes "${DEPLOY_CHANGES}"
 mv Squeak-trunk/shared/SqueakV50.sources .
-cp "../scripts/TextAnchorPlacement.cs" TextAnchorPlacement.cs
+cp "../scripts/SOHCharacter.cs" SOHCharacter.cs
 
 print_info "Preparing image..."
 EXIT_STATUS=0
