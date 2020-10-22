@@ -27,13 +27,21 @@ PreferenceWizardMorph allInstances do: #abandon.
 SystemBrowser default: BPBrowser.
 
 
-"Take a screenshot"
+"
+Take a screenshot
+"
+
+"First, ensure that the method is fully compiled and the examples are run"
+(Smalltalk at: #BPSearchCollection) recompile: #binarySearch:.
+
+"Second, set up the stage and take the screenshot"
 browserWindow := (ToolSet default browse: (Smalltalk at: #BPSearchCollection) selector: #binarySearch:) containingWindow.
 browserWindow extent: 891@806.
 (browserWindow submorphsSatisfying: [:m | (m isKindOf: ProportionalSplitterMorph) and: [m width > m height]]) first repositionBy: 0@(-100).
 browserWindow topLeft: 30@30.
 browserWindow exportAsPNGNamed: 'screenshot-for-readme.png'.
 
+"Wrap up the image and save it"
 TranscriptStream redirectToStdOut: false.
 Deprecation suppressed: false.
 
