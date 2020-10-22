@@ -1,26 +1,17 @@
-as yet unclassified
+searching
 binarySearch: anElement
-	<layer: #bpInstrumented>
 	<exampleNamed: 'basic' active: true self: 'BPSearchCollection newFrom: (1 to: 15)' with: '15'>
-	<exampleNamed: 'not found' self: #numbersUpTo10 with: '20'>
-	<exampleNamed: 'broken example' with: ''>
-
-	| index low high flag | 
-	self bpBlock: 1 enteredAt: thisContext.
-low := 1.
-	high := self size.
-	flag := Object new.
-	
-	self bpBlock: 1 leftWith: ([self bpBlock: 2 enteredAt: thisContext.
-self bpBlock: 2 leftWith: (high < low) at: thisContext] whileFalse: [
-		self bpBlock: 3 enteredAt: thisContext.
-index := (self bpAssertAfter: [high + low // 2] that: [:result | result < 20] forAssertion: 7345425 given: 'BPSearchCollection>>#binarySearch:>>#''not found''' inContext: thisContext).self bpBlock: 3 leftWith: ((anElement < (self at: (self bpTrace: [index] forProbe: 3156627 inContext: thisContext)))
-			ifTrue: [ self bpBlock: 4 enteredAt: thisContext.
-self bpBlock: 4 leftWith: (high := index - 1) at: thisContext ]
+	<exampleNamed: 'not found' active: true self: #numbersUpTo10 with: '20'>
+	<exampleNamed: 'large example' active: true self: #numbersUpTo10000 with: '4532'>
+	| index low high | 
+	low := 1.
+	high := "<bpReplace for: 'BPSearchCollection>>#binarySearch:>>#''not found''' with: [20]>"self size"</bpReplace>".
+	 
+	[high < low] whileFalseDo: "<bpSlider id: 5638804>"[
+		index := "<bpAssert id: 7345425 for: 'BPSearchCollection>>#binarySearch:>>#''large example''' that: [:result | result between: 4000 and: 5000]>"high + low // 2"</bpAssert>".	 
+		(anElement < (self at: "<bpProbe id: 3156627>"index"</bpProbe>"))
+			ifTrue: [ high := index - 1 ]
 			ifFalse: [
-				self bpBlock: 5 enteredAt: thisContext.
-self bpBlock: 5 leftWith: (anElement > (self at: index)
-					ifTrue: [ self bpBlock: 6 enteredAt: thisContext.
-self bpBlock: 6 leftWith: ((self bpTraceAssignmentOf: [low := index + 1] before: {'low' . low} forProbe: 4824443 inContext: thisContext)) at: thisContext]
-					ifFalse: [ self bpBlock: 7 enteredAt: thisContext.
-^ self bpBlock: 7 leftWith: ((self bpTrace: [index] forProbe: 5475766 inContext: thisContext)) at: thisContext ]) at: thisContext]) at: thisContext]) at: thisContext.
+				anElement > (self at: index)
+					ifTrue: [ low := index + 1]
+					ifFalse: [ ^ index ]]]"</bpSlider>".
