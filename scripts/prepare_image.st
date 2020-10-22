@@ -1,3 +1,4 @@
+| browserWindow |
 FileStream startUp: true.
 TranscriptStream redirectToStdOut: true.
 Deprecation showDeprecationWarnings: false.
@@ -25,7 +26,13 @@ PluggableSystemWindow allInstances do: #abandon.
 PreferenceWizardMorph allInstances do: #abandon.
 SystemBrowser default: BPBrowser.
 
-((Smalltalk at: #BPFancyMorph)>>#initialize) browse.
+
+"Take a screenshot"
+browserWindow := (ToolSet default browse: (Smalltalk at: #BPSearchCollection) selector: #binarySearch:) containingWindow.
+browserWindow extent: 891@806.
+(browserWindow submorphsSatisfying: [:m | (m isKindOf: ProportionalSplitterMorph) and: [m width > m height]]) first repositionBy: 0@(-100).
+browserWindow topLeft: 30@30.
+browserWindow exportAsPNGNamed: 'screenshot-for-readme.png'.
 
 TranscriptStream redirectToStdOut: false.
 Deprecation suppressed: false.

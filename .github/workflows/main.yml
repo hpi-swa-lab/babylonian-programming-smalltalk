@@ -32,5 +32,11 @@ jobs:
         uses: actions/upload-artifact@v2
         if: matrix.os == 'ubuntu-latest'
         with:
-          name: image
+          name: Babylonian-trunk.zip 
           path: ./deploy/Babylonian-trunk.zip
+      - name: Upload Image
+        uses: actions/upload-artifact@v2
+        if: matrix.os == 'ubuntu-latest'
+        with:
+          name: screenshot 
+          path: ./deploy/screenshot-for-readme.png
