@@ -22,6 +22,7 @@ FileStream fileIn: 'SOHCharacter.cs'.
   load: 'tests'.
 
 "Prepare Image a little bit"
+Preferences disable: #showSharedFlaps.
 PluggableSystemWindow allInstances do: #abandon.
 PreferenceWizardMorph allInstances do: #abandon.
 SystemBrowser default: BPBrowser.
