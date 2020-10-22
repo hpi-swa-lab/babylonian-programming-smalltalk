@@ -1,5 +1,6 @@
 # Babylonian Programming / Smalltalk [![Build Status](https://travis-ci.com/hpi-swa-lab/babylonian-programming-smalltalk.svg?token=bqyHR3eLHhu2pssQTD6R&branch=master)](https://travis-ci.com/hpi-swa-lab/babylonian-programming-smalltalk)
-A hierarchical ordering system for objects in Squeak/Smalltalk with a graphical interface
+
+A Smalltalk implementation of the Babylonian Programming System.
 
 ## How to install
 1. Get [a recent trunk Squeak](http://www.squeak.org)
