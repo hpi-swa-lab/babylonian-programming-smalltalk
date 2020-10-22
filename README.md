@@ -14,5 +14,7 @@ Metacello new
   load.
 ```
 
-## Getting Started
+## Current State
+
+![Babylonian/S screenshot](https://github.com/hpi-swa-lab/babylonian-programming-smalltalk/blob/media/screenshot-for-readme.png?raw=true)
 
