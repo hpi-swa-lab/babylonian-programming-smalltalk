@@ -6,4 +6,5 @@ isActive: aBoolean
 		ifFalse: [
 			BPActiveExamples value remove: self.
 			self ensureTerminatedProcess]
-		ifTrue: [BPActiveExamples value add: self]
+		ifTrue: [BPActiveExamples value add: self].
+	^ aBoolean

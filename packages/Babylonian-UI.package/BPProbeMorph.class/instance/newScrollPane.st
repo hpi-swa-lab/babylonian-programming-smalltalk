@@ -24,7 +24,7 @@ newScrollPane
 		
 	scrollPane := ScrollPane new
 		name: #scrollPane;
-		width: 300;
+		width: 500;
 		color: Color transparent;
 		borderWidth: 0;
 		vScrollBarPolicy: #never;

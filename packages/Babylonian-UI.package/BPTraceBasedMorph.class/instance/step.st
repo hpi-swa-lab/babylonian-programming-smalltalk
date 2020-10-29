@@ -10,4 +10,6 @@ step
 		(newTraces notNil and: [newTraces notEmpty])  
 			ifTrue: [	self updateFrom: newTraces] 
 			ifFalse: [self updateFrom: self emptyTraces].
-		displayedTraces := newTraces]
+		displayedTraces := newTraces].
+	
+	self owner owner changed.

@@ -5,13 +5,14 @@ binarySearch: anElement
 	<exampleNamed: 'large example' active: true self: #numbersUpTo10000 with: '4532'>
 	| index low high | 
 	low := 1.
-	high := "<bpReplace for: 'BPSearchCollection>>#binarySearch:>>#''not found''' with: [20]>"self size"</bpReplace>".
+	high := self size. 
 	 
-	[high < low] whileFalseDo: "<bpSlider id: 5638804>"[
+	[high < low] whileFalseDo: [
 		index := "<bpAssert id: 7345425 for: 'BPSearchCollection>>#binarySearch:>>#''large example''' that: [:result | result between: 4000 and: 5000]>"high + low // 2"</bpAssert>".	 
+		
 		(anElement < (self at: "<bpProbe id: 3156627>"index"</bpProbe>"))
 			ifTrue: [ high := index - 1 ]
 			ifFalse: [
 				anElement > (self at: index)
 					ifTrue: [ low := index + 1]
-					ifFalse: [ ^ index ]]]"</bpSlider>".
+					ifFalse: [ ^ index ]]].

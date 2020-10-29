@@ -1,4 +1,4 @@
 accessing
 toggleIsActive
-
-	self isActive: self isActive not
+	
+	^ self isActive: self isActive not
