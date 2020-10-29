@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"addButtonBar" : "pre 9/30/2020 11:06",
+		"addCreateExampleButton" : "pre 8/25/2020 10:22",
 		"addCreateExampleButtonLabeled:selector:" : "pre 10/6/2020 11:54",
 		"addExampleButtonClicked" : "pre 9/30/2020 11:12",
 		"addNewExampleAnnotation:" : "pre 9/30/2020 11:11",

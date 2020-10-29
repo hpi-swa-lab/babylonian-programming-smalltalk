@@ -1,0 +1,16 @@
+{
+	"category" : "Babylonian-Core-Callgraph-Simulator",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"events",
+		"result",
+		"trace" ],
+	"name" : "BPCallgraphFromSimulator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

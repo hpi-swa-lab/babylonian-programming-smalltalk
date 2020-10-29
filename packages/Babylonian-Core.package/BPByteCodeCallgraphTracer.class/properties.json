@@ -1,0 +1,15 @@
+{
+	"category" : "Babylonian-Core-Callgraph-ByteCode",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"depth",
+		"events" ],
+	"name" : "BPByteCodeCallgraphTracer",
+	"pools" : [
+		 ],
+	"super" : "DynamicVariable",
+	"type" : "normal" }

@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addChild:" : "cmfcmf 10/27/2020 14:01",
+		"children" : "cmfcmf 10/26/2020 12:18",
+		"doBrowse" : "cmfcmf 10/23/2020 15:42",
+		"expandByDefault" : "cmfcmf 10/23/2020 17:37",
+		"hasChildren" : "cmfcmf 10/22/2020 14:15",
+		"icon" : "cmfcmf 10/23/2020 17:05",
+		"initialize" : "cmfcmf 10/22/2020 14:10",
+		"keyPressed:" : "cmfcmf 10/23/2020 15:51",
+		"label" : "cmfcmf 10/22/2020 13:43",
+		"menu:" : "cmfcmf 10/27/2020 16:12",
+		"parent" : "cmfcmf 10/27/2020 14:10",
+		"parent:" : "cmfcmf 10/27/2020 14:01",
+		"path" : "cmfcmf 10/27/2020 16:31",
+		"root" : "cmfcmf 10/27/2020 16:20",
+		"textColor" : "cmfcmf 10/23/2020 16:14" } }

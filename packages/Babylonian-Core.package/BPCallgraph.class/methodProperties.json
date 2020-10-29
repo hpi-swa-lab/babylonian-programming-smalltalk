@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addRoot:" : "cmfcmf 10/27/2020 14:10",
+		"babylonianEntries" : "cmfcmf 10/28/2020 11:01",
+		"detect:" : "cmfcmf 10/27/2020 16:22",
+		"detect:after:" : "cmfcmf 10/27/2020 16:26",
+		"detect:after:ifFound:ifNone:" : "cmfcmf 10/27/2020 16:25",
+		"detect:before:" : "cmfcmf 10/27/2020 16:37",
+		"detect:before:ifFound:ifNone:" : "cmfcmf 10/27/2020 16:37",
+		"do:" : "cmfcmf 10/27/2020 14:48",
+		"do:after:" : "cmfcmf 10/27/2020 17:07",
+		"do:before:" : "cmfcmf 10/27/2020 16:42",
+		"do:entry:" : "cmfcmf 10/27/2020 14:48",
+		"initialize" : "cmfcmf 10/27/2020 14:14",
+		"roots" : "cmfcmf 10/27/2020 14:11",
+		"select:" : "cmfcmf 10/28/2020 10:47" } }

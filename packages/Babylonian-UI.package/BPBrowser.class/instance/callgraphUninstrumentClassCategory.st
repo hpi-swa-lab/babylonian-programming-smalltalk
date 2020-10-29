@@ -1,0 +1,4 @@
+callgraphs
+callgraphUninstrumentClassCategory
+	
+	BPByteCodeRewriter uninstrumentClassCategory: self selectedSystemCategory

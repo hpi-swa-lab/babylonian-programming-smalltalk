@@ -1,0 +1,4 @@
+callgraphs
+callgraphInstrumentClass
+	
+	BPByteCodeRewriter instrumentClass: self selectedClassOrMetaClass 

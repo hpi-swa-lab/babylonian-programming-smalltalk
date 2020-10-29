@@ -1,0 +1,26 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"callgraph" : "cmfcmf 10/28/2020 10:40",
+		"callgraph:" : "cmfcmf 10/27/2020 14:12",
+		"childrenOf:" : "cmfcmf 10/22/2020 13:22",
+		"getSelectedEntry" : "cmfcmf 10/22/2020 14:29",
+		"getSpec" : "cmfcmf 10/28/2020 10:09",
+		"hasChildren:" : "cmfcmf 10/22/2020 13:22",
+		"iconOf:" : "cmfcmf 10/23/2020 16:05",
+		"initialize" : "cmfcmf 10/27/2020 16:44",
+		"key:from:event:" : "cmfcmf 10/26/2020 13:03",
+		"labelOf:" : "cmfcmf 10/22/2020 13:23",
+		"menuOf:" : "cmfcmf 10/27/2020 16:14",
+		"rootEntries" : "cmfcmf 10/27/2020 14:13",
+		"selectContextSenderChange" : "cmfcmf 10/27/2020 17:17",
+		"selectCorrespondingBlockEnter" : "cmfcmf 10/27/2020 17:15",
+		"selectCorrespondingBlockExit" : "cmfcmf 10/28/2020 12:25",
+		"selectCorrespondingMethodEnter" : "cmfcmf 10/27/2020 17:15",
+		"selectCorrespondingMethodExit" : "cmfcmf 10/27/2020 17:15",
+		"selectEntry:" : "cmfcmf 10/27/2020 16:30",
+		"selectExecutionContinuation" : "cmfcmf 10/27/2020 17:15",
+		"selectNextCustomEvent" : "cmfcmf 10/28/2020 11:01",
+		"selectPrevCustomEvent" : "cmfcmf 10/28/2020 11:01",
+		"setSelectedEntry:" : "cmfcmf 10/23/2020 15:38" } }

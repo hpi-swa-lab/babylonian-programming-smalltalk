@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-Tests-Callgraph-ByteCode",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPByteCodeRewriterTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+callgraphs
+callgraphUninstrumentClass
+	
+	BPByteCodeRewriter uninstrumentClass: self selectedClassOrMetaClass 

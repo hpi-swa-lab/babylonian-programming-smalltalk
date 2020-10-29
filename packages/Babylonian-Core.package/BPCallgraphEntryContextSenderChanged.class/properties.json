@@ -1,0 +1,16 @@
+{
+	"category" : "Babylonian-Core-Callgraph",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"depthDelta",
+		"inChain",
+		"hasActiveTracing" ],
+	"name" : "BPCallgraphEntryContextSenderChanged",
+	"pools" : [
+		 ],
+	"super" : "BPCallgraphEntry",
+	"type" : "normal" }

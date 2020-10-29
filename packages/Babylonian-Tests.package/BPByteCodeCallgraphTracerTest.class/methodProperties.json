@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assertBlock:generatesTrace:" : "cmfcmf 10/8/2020 11:22",
+		"testBlockReturn" : "cmfcmf 10/11/2020 12:16",
+		"testBlockTemporaries" : "cmfcmf 10/26/2020 10:56",
+		"testBlockTemporariesAgain" : "cmfcmf 10/26/2020 12:25",
+		"testCascade" : "cmfcmf 10/12/2020 14:03",
+		"testException" : "cmfcmf 10/26/2020 10:53",
+		"testGenerator" : "cmfcmf 10/26/2020 10:55",
+		"testMixedBlockReturn" : "cmfcmf 10/20/2020 12:02",
+		"testRecursion" : "cmfcmf 10/11/2020 12:17",
+		"testSimple" : "cmfcmf 10/7/2020 14:06",
+		"testWorksWithBPCompiler" : "cmfcmf 10/27/2020 12:39",
+		"withFixtureInstrumentedAssertBlock:generatesTrace:" : "cmfcmf 10/27/2020 12:32" } }

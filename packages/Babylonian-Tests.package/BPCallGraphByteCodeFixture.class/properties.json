@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-Tests-Callgraph-ByteCode-Fixtures",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPCallGraphByteCodeFixture",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

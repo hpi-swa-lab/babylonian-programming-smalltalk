@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"value:identityHash:previousValues:stack:" : "pre 10/12/2020 17:58" },
+		"value:identityHash:previousValues:stack:" : "pre 10/12/2020 17:58",
+		"value:previousValues:stack:methodReference:" : "cmfcmf 10/28/2020 12:06" },
 	"instance" : {
 		"assignedVariableNames" : "pre 7/6/2020 18:41",
 		"initialize" : "pre 7/6/2020 18:23",

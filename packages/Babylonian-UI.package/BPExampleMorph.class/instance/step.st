@@ -1,6 +1,6 @@
 stepping and presenter
 step
-
+	
 	| trace |
 	trace := self example currentTrace.
 	(trace notNil and: [trace exampleErrored])
@@ -10,3 +10,7 @@ step
 	(trace notNil and: [trace hasTraceCompleted not])
 		ifTrue: [self ensureLoaderIcon]
 		ifFalse: [self ensureNoLoaderIcon].
+
+	(trace notNil and: [trace hasTraceCompleted] and: [trace exampleErrored not])
+		ifTrue: [(self submorphNamed: #duration) contents: trace duration asMilliSeconds asString, ' ms'] 
+		ifFalse: [(self submorphNamed: #duration) contents: 'did not run yet']

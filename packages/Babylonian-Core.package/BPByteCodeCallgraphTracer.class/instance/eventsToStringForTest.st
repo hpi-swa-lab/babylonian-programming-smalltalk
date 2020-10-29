@@ -1,0 +1,4 @@
+private
+eventsToStringForTest
+	
+	^ self eventsToString 

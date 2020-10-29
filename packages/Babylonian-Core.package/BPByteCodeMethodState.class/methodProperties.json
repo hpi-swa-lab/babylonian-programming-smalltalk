@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"ofMethod:" : "cmfcmf 10/9/2020 16:07" },
+	"instance" : {
+		"initialize" : "cmfcmf 10/10/2020 13:43",
+		"isActive" : "cmfcmf 10/9/2020 16:09",
+		"isInactive" : "cmfcmf 10/9/2020 16:08",
+		"nopPositions" : "cmfcmf 10/10/2020 13:45",
+		"setNOPPositions:" : "cmfcmf 10/10/2020 13:43",
+		"state:" : "cmfcmf 10/9/2020 16:09" } }

@@ -1,0 +1,4 @@
+accessing
+receiverConstructor
+
+	^ receiverConstructor

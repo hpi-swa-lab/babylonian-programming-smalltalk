@@ -1,0 +1,25 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"check:" : "cmfcmf 10/11/2020 14:22",
+		"findNode:in:" : "cmfcmf 10/11/2020 17:59",
+		"visitAssignmentNode:" : "cmfcmf 10/11/2020 14:07",
+		"visitBlockNode:" : "cmfcmf 10/11/2020 15:46",
+		"visitBraceNode:" : "cmfcmf 10/11/2020 14:10",
+		"visitCascadeNode:" : "cmfcmf 10/11/2020 14:10",
+		"visitCommentNode:" : "cmfcmf 10/11/2020 14:10",
+		"visitFieldNode:" : "cmfcmf 10/11/2020 14:10",
+		"visitFutureNode:" : "cmfcmf 10/11/2020 14:11",
+		"visitInstanceVariableNode:" : "cmfcmf 10/11/2020 14:11",
+		"visitLiteralNode:" : "cmfcmf 10/11/2020 14:11",
+		"visitLiteralVariableNode:" : "cmfcmf 10/11/2020 14:11",
+		"visitMessageNode:" : "cmfcmf 10/11/2020 14:11",
+		"visitMessageNodeInCascade:" : "cmfcmf 10/11/2020 14:11",
+		"visitMethodNode:" : "cmfcmf 10/11/2020 14:12",
+		"visitNewArrayNode:" : "cmfcmf 10/11/2020 14:12",
+		"visitRemoteTempVectorNode:" : "cmfcmf 10/11/2020 14:12",
+		"visitReturnNode:" : "cmfcmf 10/11/2020 14:12",
+		"visitSelectorNode:" : "cmfcmf 10/11/2020 14:12",
+		"visitTempVariableNode:" : "cmfcmf 10/11/2020 14:12",
+		"visitVariableNode:" : "cmfcmf 10/11/2020 14:12" } }

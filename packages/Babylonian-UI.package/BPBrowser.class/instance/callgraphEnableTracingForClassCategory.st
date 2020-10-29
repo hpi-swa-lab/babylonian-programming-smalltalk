@@ -1,0 +1,4 @@
+callgraphs
+callgraphEnableTracingForClassCategory
+	
+	BPByteCodeRewriter enableTracingForClassCategory: self selectedSystemCategory 

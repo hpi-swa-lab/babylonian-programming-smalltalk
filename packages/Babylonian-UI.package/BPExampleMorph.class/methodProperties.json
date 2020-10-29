@@ -4,10 +4,13 @@
 	"instance" : {
 		"activateExampleButtonClicked" : "pre 10/23/2020 12:03",
 		"addActivationButtonMorph" : "pre 9/30/2020 10:35",
+		"addArgumentScriptMorphs" : "pre 8/25/2020 10:23",
+		"addCallgraphMorphs" : "cmfcmf 9/18/2020 11:09",
 		"addDeleteButtonMorph" : "pre 9/30/2020 10:35",
 		"addExampleNameMorph" : "pre 10/6/2020 10:27",
 		"addExampleSpecificMorphs" : "pre 9/30/2020 10:37",
 		"addLoaderIconHolder" : "pre 9/30/2020 10:36",
+		"addReceiverConstructorMorph" : "pre 8/25/2020 09:26",
 		"ensureLoaderIcon" : "pre 9/30/2020 10:35",
 		"ensureNoLoaderIcon" : "pre 9/30/2020 10:35",
 		"example" : "pre 9/30/2020 10:34",
@@ -16,6 +19,9 @@
 		"isExample" : "pre 9/30/2020 10:34",
 		"isExampleActive" : "pre 9/30/2020 10:34",
 		"removeButtonClicked" : "pre 9/30/2020 10:35",
-		"step" : "pre 9/30/2020 10:35",
+		"runOnce" : "cmfcmf 9/18/2020 11:10",
+		"selectLiveSpecimenThen:" : "pre 7/10/2020 18:24",
+		"step" : "cmfcmf 9/18/2020 11:11",
 		"textEmphasis" : "pre 9/30/2020 10:35",
-		"updateMorphs" : "pre 9/30/2020 10:37" } }
+		"updateMorphs" : "pre 9/30/2020 10:37",
+		"viewCallgraph" : "cmfcmf 10/27/2020 14:27" } }

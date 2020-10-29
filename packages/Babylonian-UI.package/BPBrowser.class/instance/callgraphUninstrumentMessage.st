@@ -1,0 +1,4 @@
+callgraphs
+callgraphUninstrumentMessage
+	
+	BPByteCodeRewriter uninstrumentClass: self selectedClassOrMetaClass selector: self selectedMessageName

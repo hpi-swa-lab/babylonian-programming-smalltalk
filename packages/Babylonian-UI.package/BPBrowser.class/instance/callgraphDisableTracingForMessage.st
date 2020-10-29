@@ -1,0 +1,4 @@
+callgraphs
+callgraphDisableTracingForMessage
+	
+	BPByteCodeRewriter disableTracingForClass: self selectedClassOrMetaClass selector: self selectedMessageName

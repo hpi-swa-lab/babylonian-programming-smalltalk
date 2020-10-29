@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testEdgeCases" : "cmfcmf 10/20/2020 12:06",
+		"testPragmas" : "cmfcmf 10/27/2020 12:39",
+		"testSimple" : "cmfcmf 10/27/2020 13:00",
+		"testWithBlock" : "cmfcmf 10/27/2020 13:01" } }
