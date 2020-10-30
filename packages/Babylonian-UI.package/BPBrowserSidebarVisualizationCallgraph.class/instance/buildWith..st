@@ -1,7 +1,7 @@
 toolbuilder
 buildWith: aBuilder
 	
-	| model |
+
 	model := BPCallgraphModel new.
 	model callgraph: self callgraph.
 	model when: #doubleClicked evaluate: [:entry | (entry respondsTo: #methodReference) 

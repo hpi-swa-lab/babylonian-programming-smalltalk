@@ -15,7 +15,7 @@
 		"annotationsInSelection" : "pre 11/8/2019 12:05",
 		"bindingOf:" : "pre 8/25/2020 10:10",
 		"buildCodePaneWith:" : "pre 7/13/2020 16:07",
-		"buildWindowWith:specs:" : "cmfcmf 10/30/2020 15:00",
+		"buildWindowWith:specs:" : "cmfcmf 10/30/2020 15:58",
 		"callgraphCategoryMenu:" : "cmfcmf 10/23/2020 12:56",
 		"callgraphClassMenu:" : "cmfcmf 10/23/2020 12:56",
 		"callgraphDisableTracingForClass" : "cmfcmf 10/23/2020 12:55",
@@ -50,4 +50,5 @@
 		"removeReplacementFromSelection" : "pre 4/29/2020 19:07",
 		"removeSelectedAnnotationsSatisfying:" : "pre 7/26/2019 16:08",
 		"saveMethodWithExamples" : "pre 11/11/2019 09:36",
-		"saveMethodWithExamplesWith:" : "pre 8/6/2019 13:57" } }
+		"saveMethodWithExamplesWith:" : "pre 8/6/2019 13:57",
+		"sidebarShowExample:traceValue:" : "cmfcmf 10/30/2020 16:01" } }

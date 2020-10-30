@@ -11,7 +11,7 @@ valuesMorphFor: trace
 	
 	valuesContainer := self newContainerMorph.
 	values 
-		do: [:v | valuesContainer addMorphBack: (self valueMorphFor: v)]
+		do: [:v | valuesContainer addMorphBack: (self valueMorphFor: v trace: trace)]
 		separatedBy: [valuesContainer addMorphBack: ', ' asMorph].
 	
 	^ valuesContainer

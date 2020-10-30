@@ -3,16 +3,17 @@ visualizationMorphs
 	
 	| morphs |
 
+	visualization := nil.
 	self selectedExample
 		ifNil: [morphs := {'No example selected'}]
 		ifNotNil: [
 			morphs := self selectedVisualizationType caseOf: {
 				[#none] -> [{'No visualization selected'}].
-				[#callgraph] -> [{BPBrowserSidebarVisualizationCallgraph new 
+				[#callgraph] -> [{(visualization := BPBrowserSidebarVisualizationCallgraph new) 
 					example: self selectedExample;
 					when: #browseMethod evaluate: [:ref | self triggerEvent: #browseMethod with: ref];
 					buildWith: ToolBuilder default}].
-				[#annotations] -> [{BPBrowserSidebarVisualizationAnnotations new 
+				[#annotations] -> [{(visualization := BPBrowserSidebarVisualizationAnnotations new) 
 					example: self selectedExample;
 					when: #browseMethod evaluate: [:ref | self triggerEvent: #browseMethod with: ref];
 					buildWith: ToolBuilder default}].
