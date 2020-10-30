@@ -1,6 +1,6 @@
 private - ui
 updateMorphs
-
+	
 	self removeAllMorphs.
 	
 	self 
@@ -8,5 +8,6 @@ updateMorphs
 		addLoaderIconHolder;
 		addExampleNameMorph;
 		addExampleSpecificMorphs;
-		addDeleteButtonMorph.
+		addDeleteButtonMorph;
+		addCallgraphMorphs.
 	

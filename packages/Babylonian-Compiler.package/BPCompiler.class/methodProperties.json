@@ -1,12 +1,12 @@
 {
 	"class" : {
-		"compilerClass" : "cmfcmf 10/27/2020 11:16",
+		"compilerClass" : "cmfcmf 10/30/2020 12:39",
 		"exampleTextAnchor" : "pre 11/8/2019 12:05" },
 	"instance" : {
 		"annotationKeywords" : "pre 11/8/2019 20:29",
 		"backgroundCompileInstrumentedVersionOf:basedOn:" : "pre 8/20/2020 15:46",
 		"compile:ifFail:" : "cmfcmf 10/27/2020 11:15",
-		"compileCue:noPattern:ifFail:" : "cmfcmf 10/29/2020 14:13",
+		"compileCue:noPattern:ifFail:" : "cmfcmf 10/30/2020 12:39",
 		"compileInstrumentedVersionOf:" : "pre 8/17/2020 08:58",
 		"keywords" : "pre 7/26/2019 14:00",
 		"methodSourceRequiresBPLayers:" : "pre 11/11/2019 15:49",

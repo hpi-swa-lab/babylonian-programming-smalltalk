@@ -1,10 +1,10 @@
 public access
 compileCue: aCueWithBPSource noPattern: aBoolean ifFail: failBlock
 	
-
-	"This method expects source code which already has annotations in comments present"
-
-	| originalMethod bpSource basicCue |
+	
+	"This method expects source code which has annotations embedded in comments, if any."
+	| originalMethodNode bpSource basicCue |
+	
 	aBoolean ifTrue: [self error: 'Cannot use BPCompiler for methods without patterns.'].
 	
 	bpSource := aCueWithBPSource sourceStream contents asString.
@@ -15,10 +15,10 @@ compileCue: aCueWithBPSource noPattern: aBoolean ifFail: failBlock
 		class: aCueWithBPSource getClass 
 		environment: aCueWithBPSource environment 
 		requestor: aCueWithBPSource requestor.
-	originalMethod := super compileCue: basicCue noPattern: aBoolean ifFail: failBlock.
+	originalMethodNode := super compileCue: basicCue noPattern: aBoolean ifFail: failBlock.
 	
-	"bpSource := originalMethod sourceText asString.
+	bpSource := originalMethodNode sourceText asString.
 	(self methodSourceRequiresBPLayers: bpSource) ifTrue: [
-		(self compileInstrumentedVersionOf: aCueWithBPSource) ifFalse: failBlock]."
-									
-	^ originalMethod
+		(self compileInstrumentedVersionOf: aCueWithBPSource) ifFalse: failBlock].
+
+	^ originalMethodNode

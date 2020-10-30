@@ -1,7 +1,6 @@
 {
 	"class" : {
-		"value:identityHash:stack:" : "pre 10/12/2020 17:57",
-		"value:stack:methodReference:" : "cmfcmf 10/28/2020 12:04" },
+		"value:identityHash:stack:methodReference:" : "cmfcmf 10/30/2020 12:30" },
 	"instance" : {
 		"initialize" : "cmfcmf 9/17/2020 14:45",
 		"methodReference" : "cmfcmf 10/28/2020 12:05",

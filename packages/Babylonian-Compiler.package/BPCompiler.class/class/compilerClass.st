@@ -1,4 +1,4 @@
-as yet unclassified
+compiling
 compilerClass
 	
-	^ "BP"Compiler
+	^ BPCompiler

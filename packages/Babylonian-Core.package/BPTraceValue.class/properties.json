@@ -8,7 +8,9 @@
 	"instvars" : [
 		"tracedValue",
 		"tracedValueIdentityHash",
-		"stack" ],
+		"stack",
+		"time",
+		"methodReference" ],
 	"name" : "BPTraceValue",
 	"pools" : [
 		 ],

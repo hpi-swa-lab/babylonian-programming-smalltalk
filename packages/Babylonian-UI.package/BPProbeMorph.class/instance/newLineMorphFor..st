@@ -24,5 +24,14 @@ newLineMorphFor: aTrace
 	scrollPane := self newScrollPane.
 	newLine addMorphBack: scrollPane.
 	
+	newLine addMorphBack: (SimpleButtonMorph new
+		hResizing: #shrinkWrap;
+		"vResizing: #shrinkWrap;"
+		label: 'view callgraph';
+		target: self;
+		actionSelector: #viewCallgraphForTrace:;
+		arguments: {aTrace};
+		yourself).
+		
 	^ newLine
 	
