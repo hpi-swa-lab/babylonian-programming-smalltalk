@@ -1,0 +1,5 @@
+example selection
+getExampleListIndex
+
+
+	^ exampleListIndex

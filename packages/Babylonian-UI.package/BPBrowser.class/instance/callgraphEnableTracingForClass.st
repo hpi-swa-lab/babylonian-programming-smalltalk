@@ -1,4 +1,4 @@
-callgraphs
+callgraph context menus
 callgraphEnableTracingForClass
 	
 	BPByteCodeRewriter enableTracingForClass: self selectedClassOrMetaClass 

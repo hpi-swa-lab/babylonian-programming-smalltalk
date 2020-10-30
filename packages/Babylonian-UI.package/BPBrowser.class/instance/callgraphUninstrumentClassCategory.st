@@ -1,4 +1,4 @@
-callgraphs
+callgraph context menus
 callgraphUninstrumentClassCategory
 	
 	BPByteCodeRewriter uninstrumentClassCategory: self selectedSystemCategory

@@ -1,4 +1,4 @@
-callgraphs
+callgraph context menus
 callgraphInstrumentMessage
 	
 	BPByteCodeRewriter instrumentClass: self selectedClassOrMetaClass selector: self selectedMessageName

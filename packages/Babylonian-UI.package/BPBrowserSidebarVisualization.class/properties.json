@@ -1,0 +1,15 @@
+{
+	"category" : "Babylonian-UI-Callgraph",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"example",
+		"callgraph" ],
+	"name" : "BPBrowserSidebarVisualization",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

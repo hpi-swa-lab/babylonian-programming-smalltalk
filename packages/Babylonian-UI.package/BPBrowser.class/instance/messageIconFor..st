@@ -1,4 +1,4 @@
-callgraphs
+callgraph context menus
 messageIconFor: aSelector
 	| baseIcon callgraphIcon combinedIcon |
 	baseIcon := super messageIconFor: aSelector.
