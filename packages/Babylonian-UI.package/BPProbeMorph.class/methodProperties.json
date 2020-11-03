@@ -16,7 +16,7 @@
 		"newExploreButtonFor:" : "pre 8/21/2020 11:15",
 		"newExpressionMorph" : "pre 10/8/2020 10:46",
 		"newHaltButtonFor:" : "pre 9/29/2020 15:55",
-		"newLineMorphFor:" : "cmfcmf 10/30/2020 12:46",
+		"newLineMorphFor:" : "cmfcmf 11/2/2020 21:11",
 		"newScrollPane" : "pre 10/12/2020 11:23",
 		"newTracesMorph" : "pre 3/19/2020 14:06",
 		"newWidgetsMorph" : "pre 9/22/2020 10:03",
@@ -32,4 +32,5 @@
 		"valueTextFor:" : "pre 7/7/2020 16:43",
 		"valuesMorphFor:" : "cmfcmf 10/30/2020 15:56",
 		"valuesTextFor:" : "pre 8/17/2020 09:31",
-		"viewCallgraphForTrace:" : "cmfcmf 10/28/2020 11:02" } }
+		"viewCallgraphForTrace:" : "cmfcmf 10/28/2020 11:02",
+		"viewCommonAncestorForTrace:" : "cmfcmf 11/2/2020 21:15" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-UI-Callgraph",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"annotationIndex" ],
+	"name" : "BPBrowserSidebarVisualizationAnnotationsWithPaths",
+	"pools" : [
+		 ],
+	"super" : "BPBrowserSidebarVisualizationAnnotations",
+	"type" : "normal" }

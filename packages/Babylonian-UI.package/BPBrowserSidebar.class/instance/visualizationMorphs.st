@@ -17,6 +17,18 @@ visualizationMorphs
 					example: self selectedExample;
 					when: #browseMethod evaluate: [:ref | self triggerEvent: #browseMethod with: ref];
 					buildWith: ToolBuilder default}].
+				[#annotationsWithPaths] -> [{(visualization := BPBrowserSidebarVisualizationAnnotationsWithPaths new) 
+					example: self selectedExample;
+					when: #browseMethod evaluate: [:ref | self triggerEvent: #browseMethod with: ref];
+					buildWith: ToolBuilder default}].
+				[#methodSet] -> [{(visualization := BPBrowserSidebarVisualizationExecutedMethods new) 
+					example: self selectedExample;
+					when: #browseMethod evaluate: [:ref | self triggerEvent: #browseMethod with: ref];
+					buildWith: ToolBuilder default}].
+				[#methodSetWithPaths] -> [{(visualization := BPBrowserSidebarVisualizationExecutedMethodsWithPaths new) 
+					example: self selectedExample;
+					when: #browseMethod evaluate: [:ref | self triggerEvent: #browseMethod with: ref];
+					buildWith: ToolBuilder default}].
 			} otherwise: [{'Visualization is not yet supported.'}]].
 		
 	^ morphs 

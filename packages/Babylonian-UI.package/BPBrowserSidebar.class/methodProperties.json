@@ -2,21 +2,24 @@
 	"class" : {
 		 },
 	"instance" : {
+		"buildButtonBarWith:" : "cmfcmf 11/2/2020 21:02",
 		"buildExampleListWith:" : "cmfcmf 10/30/2020 15:37",
 		"buildVisualizationTypeWith:" : "cmfcmf 10/30/2020 14:09",
 		"buildVisualizationWith:" : "cmfcmf 10/30/2020 14:08",
-		"buildWith:" : "cmfcmf 10/30/2020 15:35",
+		"buildWith:" : "cmfcmf 11/2/2020 12:18",
 		"exampleListDoubleClick" : "cmfcmf 10/30/2020 14:26",
 		"getExampleList" : "cmfcmf 10/30/2020 13:59",
 		"getExampleListIndex" : "cmfcmf 10/30/2020 13:38",
 		"getExampleListLabels" : "cmfcmf 10/30/2020 15:39",
 		"getVisualizationTypeIndex" : "cmfcmf 10/30/2020 14:02",
 		"getVisualizationTypeLabels" : "cmfcmf 10/30/2020 14:09",
-		"getVisualizationTypes" : "cmfcmf 10/30/2020 15:33",
+		"getVisualizationTypes" : "cmfcmf 11/2/2020 20:34",
 		"initialize" : "cmfcmf 10/30/2020 14:03",
+		"popout" : "cmfcmf 11/2/2020 11:49",
 		"selectedExample" : "cmfcmf 10/30/2020 14:20",
 		"selectedVisualizationType" : "cmfcmf 10/30/2020 14:14",
 		"setExampleListIndex:" : "cmfcmf 10/30/2020 16:08",
 		"setVisualizationTypeIndex:" : "cmfcmf 10/30/2020 14:10",
 		"showExample:traceValue:" : "cmfcmf 10/30/2020 16:05",
-		"visualizationMorphs" : "cmfcmf 10/30/2020 16:05" } }
+		"showMethod:" : "cmfcmf 11/2/2020 14:34",
+		"visualizationMorphs" : "cmfcmf 11/2/2020 20:34" } }

@@ -27,6 +27,15 @@ newLineMorphFor: aTrace
 	newLine addMorphBack: (SimpleButtonMorph new
 		hResizing: #shrinkWrap;
 		"vResizing: #shrinkWrap;"
+		label: 'view common ancestor';
+		target: self;
+		actionSelector: #viewCommonAncestorForTrace:;
+		arguments: {aTrace};
+		yourself).
+	
+	newLine addMorphBack: (SimpleButtonMorph new
+		hResizing: #shrinkWrap;
+		"vResizing: #shrinkWrap;"
 		label: 'view callgraph';
 		target: self;
 		actionSelector: #viewCallgraphForTrace:;

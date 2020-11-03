@@ -1,7 +1,7 @@
 post processing
 eventsForTree
 	
-	| callgraph depth depthAfterExit depthMap printContinuesHere eventStream treeCache addToTree prevDepth overwriteDepth |
+	| callgraph depth depthAfterExit depthMap printContinuesHere eventStream treeCache addToTree prevDepth overwriteDepth executionContinuationEntry |
 	
 	depth := 0.
 	depthAfterExit := nil.
@@ -16,7 +16,7 @@ eventsForTree
 		theDepth := overwriteDepth >= 0 ifTrue: [overwriteDepth] ifFalse: [depth].
 		theDepth > (prevDepth + 1) ifTrue: [
 			"context moved to the right -> we need to add new tree nodes to correctly display the context change"
-			0 to: theDepth - 1 do: [:i | 
+			(theDepth - 1 - executionContinuationEntry second) to: theDepth - 1 do: [:i | 
 				overwriteDepth := i.
 				addToTree value: BPCallgraphEntryContextJumpHelper new].
 			overwriteDepth := -1].
@@ -28,8 +28,8 @@ eventsForTree
 		prevDepth := theDepth].
 
 	printContinuesHere := [| entry |
-		entry := BPCallgraphEntryContextJump new.
-		addToTree value: entry].
+		addToTree value: executionContinuationEntry first.
+		executionContinuationEntry := nil].
 	
 	eventStream := self eventStream.
 	[eventStream atEnd] whileFalse: [| entry | eventStream next caseOf: {
@@ -71,9 +71,10 @@ eventsForTree
 				depth := depthAfterExit.
 				depthAfterExit := nil.
 				printContinuesHere value]].
-		[#contextSenderChanged] -> [ | depthDelta inChain hasActiveTracing |
+		[#contextSenderChanged] -> [ | depthDelta inChainOrNumMoveRight inChain hasActiveTracing |
 			depthDelta := eventStream next.
-			inChain := eventStream next.
+			inChainOrNumMoveRight := eventStream next.
+			inChain := inChainOrNumMoveRight == true.
 			hasActiveTracing := eventStream next.
 			
 			"ignore events when depth didn't change and method that causes the change does not have active tracing."
@@ -85,8 +86,10 @@ eventsForTree
 					ifFalse: [depth := depth + depthDelta].
 				self assert: depth >= 0.
 				
+				executionContinuationEntry := {BPCallgraphEntryContextExecutionContinuation new. inChainOrNumMoveRight}.
 				entry := BPCallgraphEntryContextSenderChanged new.
-				entry depthDelta: depthDelta inChain: inChain hasActiveTracing: hasActiveTracing.
+				entry depthDelta: depthDelta inChain: inChain hasActiveTracing: hasActiveTracing executionContinuationEntry: executionContinuationEntry first
+					debug: inChainOrNumMoveRight.
 				addToTree value: entry.
 				
 				hasActiveTracing ifFalse: [printContinuesHere value]]].

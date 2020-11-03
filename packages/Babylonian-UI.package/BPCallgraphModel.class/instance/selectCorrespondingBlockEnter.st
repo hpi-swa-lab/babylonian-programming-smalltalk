@@ -13,4 +13,4 @@ selectCorrespondingBlockEnter
 			and: [each getInvocationCount == entry getInvocationCount]] 
 		before: entry
 		ifFound: [:each | self selectEntry: each]
-		ifNone: [UIManager default inform: 'Block exit not found']
+		ifNone: [UIManager default inform: 'Block enter not found']

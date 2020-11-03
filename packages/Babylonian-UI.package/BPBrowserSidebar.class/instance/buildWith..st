@@ -1,8 +1,9 @@
 as yet unclassified
 buildWith: aBuilder
 	
-	| visualizationTypeHeight |
-	visualizationTypeHeight := self getVisualizationTypes size * 16 + 2.
+	| visualizationTypeHeight buttonBarHeight |
+	visualizationTypeHeight := self getVisualizationTypes size * 15 + 3.
+	buttonBarHeight := 23.
 	
 	^ aBuilder pluggablePanelSpec new
 		wantsResizeHandles: true;
@@ -18,6 +19,11 @@ buildWith: aBuilder
 			(self buildVisualizationWith: aBuilder)
 				frame: (LayoutFrame
 					fractions: (0@0.2 corner: 1@1)
-					offsets: (0@visualizationTypeHeight corner: 0@0));
+					offsets: (0@visualizationTypeHeight corner: 0@(buttonBarHeight * -1)));
+				yourself.
+			(self buildButtonBarWith: aBuilder)
+				frame: (LayoutFrame
+					fractions: (0@1 corner: 1@1)
+					offsets: (0@(buttonBarHeight * -1) corner: 0@0));
 				yourself};
 		yourself

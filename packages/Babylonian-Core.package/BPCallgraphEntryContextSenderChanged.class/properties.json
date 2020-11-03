@@ -8,7 +8,9 @@
 	"instvars" : [
 		"depthDelta",
 		"inChain",
-		"hasActiveTracing" ],
+		"hasActiveTracing",
+		"executionContinuationEntry",
+		"tmpdebug" ],
 	"name" : "BPCallgraphEntryContextSenderChanged",
 	"pools" : [
 		 ],

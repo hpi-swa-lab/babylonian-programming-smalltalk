@@ -27,10 +27,12 @@
 		"callgraphInstrumentClass" : "cmfcmf 10/23/2020 12:55",
 		"callgraphInstrumentClassCategory" : "cmfcmf 10/22/2020 17:38",
 		"callgraphInstrumentMessage" : "cmfcmf 10/23/2020 12:54",
-		"callgraphMessageMenu:" : "cmfcmf 10/23/2020 12:56",
+		"callgraphMessageMenu:" : "cmfcmf 11/2/2020 14:22",
+		"callgraphShowMessage" : "cmfcmf 11/2/2020 14:26",
 		"callgraphUninstrumentClass" : "cmfcmf 10/23/2020 12:55",
 		"callgraphUninstrumentClassCategory" : "cmfcmf 10/22/2020 17:38",
 		"callgraphUninstrumentMessage" : "cmfcmf 10/23/2020 11:39",
+		"callgraphcodePaneMenu:" : "cmfcmf 11/2/2020 14:22",
 		"codePaneMenuAnnotationItems:" : "pre 8/25/2020 09:17",
 		"compileMessage:notifying:" : "pre 11/11/2019 09:46",
 		"compiledMethod" : "pre 1/24/2020 15:08",
@@ -51,4 +53,5 @@
 		"removeSelectedAnnotationsSatisfying:" : "pre 7/26/2019 16:08",
 		"saveMethodWithExamples" : "pre 11/11/2019 09:36",
 		"saveMethodWithExamplesWith:" : "pre 8/6/2019 13:57",
-		"sidebarShowExample:traceValue:" : "cmfcmf 10/30/2020 16:01" } }
+		"sidebarShowExample:traceValue:" : "cmfcmf 10/30/2020 16:01",
+		"sidebarShowMethod:" : "cmfcmf 11/2/2020 14:14" } }
