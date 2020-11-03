@@ -1,0 +1,4 @@
+toolbuilder
+getMenu: shiftKeyState
+	
+	^ nil

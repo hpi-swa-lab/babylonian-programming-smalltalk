@@ -1,9 +1,14 @@
 as yet unclassified
 getList
 	
-	^ self getMethods collect: [:each | (each isKindOf: BPCallgraphEntry)
+	| methodSetSize |
+	methodSetSize := super getMethods size.
+	
+	^ self getMethods withIndexCollect: [:each :i | (each isKindOf: BPCallgraphEntry)
 		ifTrue: [ | label |
-			label := (each label splitBy: String tab) first.
+			i > methodSetSize 
+				ifTrue: [label := (each label splitBy: String tab) joinSeparatedBy: '     ']
+				ifFalse: [label := (each label splitBy: String tab) first].
 			each textColor ifNotNil: [:color | label := Text string: label attribute: (TextColor color: color)].
 			label]
 		ifFalse: [each]]

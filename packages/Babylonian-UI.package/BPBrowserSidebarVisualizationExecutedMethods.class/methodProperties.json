@@ -2,14 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildWith:" : "cmfcmf 11/2/2020 11:54",
+		"buildWith:" : "cmfcmf 11/3/2020 11:27",
 		"doubleClick" : "cmfcmf 11/2/2020 12:00",
 		"getIndex" : "cmfcmf 10/30/2020 14:41",
 		"getList" : "cmfcmf 11/2/2020 12:02",
 		"getListIcon:" : "cmfcmf 11/2/2020 11:59",
+		"getMenu:" : "cmfcmf 11/3/2020 11:29",
 		"getMethods" : "cmfcmf 11/2/2020 12:50",
 		"highlightMethod:" : "cmfcmf 11/2/2020 14:13",
 		"highlightTraceValue:" : "cmfcmf 11/2/2020 11:54",
 		"initialize" : "cmfcmf 10/30/2020 14:41",
-		"keyPressed:" : "cmfcmf 11/2/2020 12:00",
 		"setIndex:" : "cmfcmf 10/30/2020 14:41" } }

@@ -1,0 +1,4 @@
+accessing
+doBrowse
+
+	self subclassResponsibility 

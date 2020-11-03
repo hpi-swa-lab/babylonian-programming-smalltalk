@@ -1,20 +1,24 @@
-accessing
+finding ancestors
 commonAncestorOf: aCollection ignoringInvocationCounts: aBoolean
 	
-	| possibleAncestors |
-	
-	aBoolean ifTrue: [self error: 'not yet implemented'].
+	| theAncestor possibleAncestors |
+	aCollection ifEmpty: [^ nil].
 	
 	possibleAncestors := aCollection first pathWithoutContextMovingRight.
 	
 	aCollection allButFirst do: [:each | | path found |
 		path := each pathWithoutContextMovingRight.
 		found := false.
-		path reverseDo: [:entry | | idx |
+		path allButLast reverseDo: [:entry | | idx |
 			found ifFalse: [
-				idx := possibleAncestors indexOf: entry.
+				idx := possibleAncestors findFirst: [:ancestor | entry class == BPCallgraphEntryEnter
+					ifFalse: [false]
+					ifTrue: [aBoolean 
+						ifFalse: [ancestor equalsClassSelectorBlockIdxInvocation: entry]
+						ifTrue: [ancestor equalsClassSelectorBlockIdx: entry]]].
 				idx ~= 0 ifTrue: [possibleAncestors := possibleAncestors copyFrom: 1 to: idx.
 					found := true]]].
 		found ifFalse: [^ nil]].
 	
-	^possibleAncestors last.
+	theAncestor := possibleAncestors last.
+	^ aBoolean ifTrue: [theAncestor asPathPart] ifFalse: [theAncestor]

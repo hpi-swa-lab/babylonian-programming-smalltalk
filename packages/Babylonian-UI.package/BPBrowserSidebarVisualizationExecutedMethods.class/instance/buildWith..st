@@ -15,4 +15,5 @@ buildWith: aBuilder
 		doubleClick: #doubleClick;
 		getIndex: #getIndex;
 		setIndex: #setIndex:;
+		menu: #getMenu:;
 		yourself)

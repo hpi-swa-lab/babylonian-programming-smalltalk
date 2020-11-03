@@ -2,4 +2,4 @@ as yet unclassified
 textColor
 	
 
-	^ Color orchid
+	^ self class textColor 
