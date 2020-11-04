@@ -2,4 +2,4 @@ as yet unclassified
 textColor
 	
 
-	^ Color tangerine
+	^ self class textColor 

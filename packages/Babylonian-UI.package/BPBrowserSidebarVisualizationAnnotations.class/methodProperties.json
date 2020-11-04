@@ -2,14 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildWith:" : "cmfcmf 10/30/2020 14:44",
-		"doubleClick" : "cmfcmf 10/30/2020 14:48",
-		"getAnnotations" : "cmfcmf 10/30/2020 14:42",
-		"getIndex" : "cmfcmf 10/30/2020 14:41",
-		"getList" : "cmfcmf 10/30/2020 14:42",
-		"getListIcon:" : "cmfcmf 10/30/2020 14:44",
-		"highlightMethod:" : "cmfcmf 11/2/2020 14:09",
-		"highlightTraceValue:" : "cmfcmf 10/30/2020 16:14",
-		"initialize" : "cmfcmf 10/30/2020 14:41",
-		"keyPressed:" : "cmfcmf 10/30/2020 14:45",
-		"setIndex:" : "cmfcmf 10/30/2020 14:41" } }
+		"bottomEntries" : "cmfcmf 11/4/2020 15:04",
+		"highlightMethod:" : "cmfcmf 11/4/2020 15:46",
+		"highlightTraceValue:" : "cmfcmf 11/4/2020 14:45",
+		"topEntries" : "cmfcmf 11/4/2020 16:11",
+		"topMenu:for:" : "cmfcmf 11/4/2020 14:41" } }

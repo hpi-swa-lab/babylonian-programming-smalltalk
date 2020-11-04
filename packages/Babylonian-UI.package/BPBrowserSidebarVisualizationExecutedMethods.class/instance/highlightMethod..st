@@ -1,5 +1,6 @@
-as yet unclassified
+actions
 highlightMethod: aMethodReference
 	
-	self getMethods
-		withIndexDo: [:each :i | (each getClass == aMethodReference actualClass and: [each getSelector == aMethodReference selector]) ifTrue: [^ self setIndex: i]]
+	self topEntries
+		withIndexDo: [:each :i | (each getClass == aMethodReference actualClass 
+			and: [each getSelector == aMethodReference selector]) ifTrue: [^ self topIndex: i]]

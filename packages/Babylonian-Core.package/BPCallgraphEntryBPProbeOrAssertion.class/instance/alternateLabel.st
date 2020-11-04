@@ -4,7 +4,7 @@ alternateLabel
 	| parts method | 
 
 	parts := self label splitBy: String tab.
-	method := self traceValue methodReference actualClass asString,
+	method := self traceValue methodReference classSymbol,
 		' >> #',
 		self traceValue methodReference methodSymbol.
 

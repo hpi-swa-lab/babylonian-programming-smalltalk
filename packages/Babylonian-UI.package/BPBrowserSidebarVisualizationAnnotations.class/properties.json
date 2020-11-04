@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"listIndex" ],
+		 ],
 	"name" : "BPBrowserSidebarVisualizationAnnotations",
 	"pools" : [
 		 ],
-	"super" : "BPBrowserSidebarVisualization",
+	"super" : "BPBrowserSidebarVisualizationExecutedMethods",
 	"type" : "normal" }

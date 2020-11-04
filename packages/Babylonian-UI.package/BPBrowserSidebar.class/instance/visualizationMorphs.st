@@ -1,40 +1,26 @@
 visualization
 visualizationMorphs
 	
-	| morphs |
+	| content |
 
-	visualization := nil.
-	self selectedExample
-		ifNil: [morphs := {'No example selected'}]
-		ifNotNil: [
-			morphs := self selectedVisualizationType caseOf: {
-				[#none] -> [{'No visualization selected'}].
-				[#callgraph] -> [{(visualization := BPBrowserSidebarVisualizationCallgraph new) 
-					example: self selectedExample;
-					when: #browseMethod evaluate: [:ref | self triggerEvent: #browseMethod with: ref];
-					buildWith: ToolBuilder default}].
-				[#annotations] -> [{(visualization := BPBrowserSidebarVisualizationAnnotations new) 
-					example: self selectedExample;
-					when: #browseMethod evaluate: [:ref | self triggerEvent: #browseMethod with: ref];
-					buildWith: ToolBuilder default}].
-				[#annotationsWithPaths] -> [{(visualization := BPBrowserSidebarVisualizationAnnotationsWithPaths new) 
-					example: self selectedExample;
-					when: #browseMethod evaluate: [:ref | self triggerEvent: #browseMethod with: ref];
-					buildWith: ToolBuilder default}].
-				[#methodSet] -> [{(visualization := BPBrowserSidebarVisualizationExecutedMethods new) 
-					example: self selectedExample;
-					when: #browseMethod evaluate: [:ref | self triggerEvent: #browseMethod with: ref];
-					buildWith: ToolBuilder default}].
-				[#methodSetWithPaths] -> [{(visualization := BPBrowserSidebarVisualizationExecutedMethodsWithPaths new) 
-					example: self selectedExample;
-					when: #browseMethod evaluate: [:ref | self triggerEvent: #browseMethod with: ref];
-					buildWith: ToolBuilder default}].
-			} otherwise: [{'Visualization is not yet supported.'}]].
+	content := true caseOf: {
+		[self selectedExample isNil] -> [	visualization := nil. 'No example selected'].
+		[self selectedVisualizationType == #none] -> [visualization := nil. 'No visualization selected'].
+		[true] -> [ | class |
+			class := self selectedVisualizationType caseOf: {
+				[#callgraph] -> [BPBrowserSidebarVisualizationCallgraph].
+				[#annotations] -> [BPBrowserSidebarVisualizationAnnotations].
+				[#methodSet] -> [BPBrowserSidebarVisualizationExecutedMethods].
+			}.
+			(visualization := class new)
+				example: self selectedExample;
+				when: #browseMethod evaluate: [:ref | self triggerEvent: #browseMethod with: ref];
+				buildWith: ToolBuilder default]}.
 		
-	^ morphs 
-		collect: [:each | each isString
-			ifFalse: [each]
-			ifTrue: [TextMorph new
-				contents: each;
+	^ {content isString
+		ifTrue: [
+			TextMorph new
+				contents: content;
 				layoutFrame: (LayoutFrame fractions: (0@0 corner: 1@1));
-				yourself]]
+				yourself]
+		ifFalse: [content]}

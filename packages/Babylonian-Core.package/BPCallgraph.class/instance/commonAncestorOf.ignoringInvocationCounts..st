@@ -20,5 +20,5 @@ commonAncestorOf: aCollection ignoringInvocationCounts: aBoolean
 					found := true]]].
 		found ifFalse: [^ nil]].
 	
-	theAncestor := possibleAncestors last.
+	theAncestor := possibleAncestors reversed detect: [:each | each class == BPCallgraphEntryEnter].
 	^ aBoolean ifTrue: [theAncestor asPathPart] ifFalse: [theAncestor]

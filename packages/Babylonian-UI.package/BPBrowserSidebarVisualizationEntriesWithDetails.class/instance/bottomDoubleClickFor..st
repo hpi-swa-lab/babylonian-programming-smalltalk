@@ -1,0 +1,2 @@
+list bottom
+bottomDoubleClickFor: entry
