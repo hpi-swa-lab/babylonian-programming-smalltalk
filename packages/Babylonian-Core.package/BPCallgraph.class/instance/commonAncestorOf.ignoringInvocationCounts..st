@@ -3,8 +3,11 @@ commonAncestorOf: aCollection ignoringInvocationCounts: aBoolean
 	
 	| theAncestor possibleAncestors |
 	aCollection ifEmpty: [^ nil].
+	"aCollection size == 1 ifTrue: [| path |
+		path := aCollection first pathWithoutContextMovingRight allButLast.
+		^ path ifEmpty: [nil] ifNotEmpty: [path last]]."
 	
-	possibleAncestors := aCollection first pathWithoutContextMovingRight.
+	possibleAncestors := aCollection first pathWithoutContextMovingRight allButLast.
 	
 	aCollection allButFirst do: [:each | | path found |
 		path := each pathWithoutContextMovingRight.
@@ -20,5 +23,8 @@ commonAncestorOf: aCollection ignoringInvocationCounts: aBoolean
 					found := true]]].
 		found ifFalse: [^ nil]].
 	
+	possibleAncestors ifEmpty: [^ nil].
+	
+	self flag: #todo. "What if the ancestor is not an enter event?"
 	theAncestor := possibleAncestors reversed detect: [:each | each class == BPCallgraphEntryEnter].
 	^ aBoolean ifTrue: [theAncestor asPathPart] ifFalse: [theAncestor]

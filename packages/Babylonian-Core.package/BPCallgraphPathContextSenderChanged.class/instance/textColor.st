@@ -1,4 +1,5 @@
 accessing
-textColor 
+textColor
+	
 
 	^ BPCallgraphEntryContextSenderChanged textColor 

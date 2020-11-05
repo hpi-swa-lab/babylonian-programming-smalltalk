@@ -1,4 +1,4 @@
 as yet unclassified
-highlightTraceValue: aBPTraceValue
-
+highlightTraceValue: aBPTraceValue id: aNumber
+	
 	self subclassResponsibility 

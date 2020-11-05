@@ -2,8 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"bottomEntries" : "cmfcmf 11/4/2020 15:04",
+		"bottomEntries" : "cmfcmf 11/5/2020 12:41",
 		"highlightMethod:" : "cmfcmf 11/4/2020 15:46",
-		"highlightTraceValue:" : "cmfcmf 11/4/2020 14:45",
+		"highlightTraceValue:id:" : "cmfcmf 11/5/2020 13:05",
+		"preprocessBottomEntriesForAncestorSearch:" : "cmfcmf 11/5/2020 12:46",
+		"selectMatchingEntriesFromCallgraph:" : "cmfcmf 11/5/2020 12:39",
 		"topEntries" : "cmfcmf 11/4/2020 16:11",
 		"topMenu:for:" : "cmfcmf 11/4/2020 14:41" } }

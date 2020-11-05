@@ -1,5 +1,5 @@
 toolbuilder
-highlightTraceValue: aBPTraceValue
+highlightTraceValue: aBPTraceValue id: aNumber
 	
 	callgraph babylonianEntries detect: [:each |
 		((each respondsTo: #traceValue) and: [each traceValue == aBPTraceValue])]

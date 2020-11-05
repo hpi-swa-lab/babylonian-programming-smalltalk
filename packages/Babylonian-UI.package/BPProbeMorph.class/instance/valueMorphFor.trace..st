@@ -9,5 +9,5 @@ valueMorphFor: traceValue trace: trace
 			[1] -> [traceValue tracedValue explore].
 			[2] -> [traceValue tracedValue inspect].
 			[3] -> [traceValue tracedValue browse].
-			[4] -> [self containingBrowser sidebarShowExample: trace example traceValue: traceValue]} otherwise: []].
+			[4] -> [self containingBrowser sidebarShowExample: trace example id: self id traceValue: traceValue]} otherwise: []].
 	^ morph 
