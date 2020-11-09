@@ -1,4 +1,7 @@
 as yet unclassified
 rootEntries
 	
-	^ callgraph ifNotNil: #roots ifNil: [{}]
+	| roots |
+	roots := callgraph ifNotNil: #roots ifNil: [{}].
+	self class showReturnNodes ifFalse: [roots := self withoutReturnNodes: roots].
+	^ roots

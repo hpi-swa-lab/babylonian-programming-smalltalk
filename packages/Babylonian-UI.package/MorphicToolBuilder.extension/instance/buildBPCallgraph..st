@@ -1,4 +1,4 @@
-*Babylonian-UI-Callgraph
+*Babylonian-UI-ToolBuilder
 buildBPCallgraph: aSpec
 	"largely copied from buildPluggableTree:"
 	| widget |

@@ -1,7 +1,7 @@
 bottom content
 calculateBottomContent
 	
-	| entries entriesForAncestorSearch paths list ancestor ancestorHighlightAttributes |
+	| entries entriesForAncestorSearch paths list ancestor ancestorHighlightAttributes bottomFirstPartLength |
 	additionalBottomTextAttributes := Dictionary new.
 	
 	ancestorHighlightAttributes := {TextColor color: (Color fromString: '#7FB40C') . "TextEmphasis bold"}.
@@ -27,6 +27,8 @@ calculateBottomContent
 			list add: each.
 			each = ancestor ifTrue: [additionalBottomTextAttributes at: list size put: ancestorHighlightAttributes]]].
 	
+	bottomFirstPartLength := list size.
+	
 	2 timesRepeat: [list add: ''].
 	
 	"common ancestor with invocation counts"
@@ -47,4 +49,4 @@ calculateBottomContent
 			self flag: #todo. "What if the ancestor is not a BPCallgraphEntryEnter?"
 			(ancestor notNil and: [each class == BPCallgraphEntryEnter] and: [each equalsClassSelectorBlockIdxInvocation: ancestor]) 
 				ifTrue: [additionalBottomTextAttributes at: list size put: ancestorHighlightAttributes]]].
-	^ list
+	^ {list . bottomFirstPartLength}

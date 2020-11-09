@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"currentFilter" ],
-	"name" : "BPCallgraphIndentingListItemMorph",
+		 ],
+	"name" : "BPLazyListMorph",
 	"pools" : [
 		 ],
-	"super" : "IndentingListItemMorph",
+	"super" : "LazyListMorph",
 	"type" : "normal" }

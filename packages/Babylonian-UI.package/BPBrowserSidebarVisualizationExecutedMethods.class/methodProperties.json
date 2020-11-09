@@ -2,8 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
+		"bottomBackgroundColor:" : "cmfcmf 11/6/2020 16:02",
+		"bottomBackgroundColorFor:" : "cmfcmf 11/6/2020 15:50",
 		"bottomDoubleClickFor:" : "cmfcmf 11/4/2020 13:40",
-		"bottomEntries" : "cmfcmf 11/5/2020 12:41",
+		"bottomEntries" : "cmfcmf 11/6/2020 15:54",
 		"bottomIconColumnFor:" : "cmfcmf 11/4/2020 16:22",
 		"bottomIconFor:" : "cmfcmf 11/4/2020 15:32",
 		"bottomKey:pressedFor:" : "cmfcmf 11/4/2020 14:00",
@@ -11,7 +13,7 @@
 		"bottomMenu:for:" : "cmfcmf 11/4/2020 13:52",
 		"bottomTextAttributesFor:" : "cmfcmf 11/4/2020 13:39",
 		"bottomTextAttributesFor:row:" : "cmfcmf 11/5/2020 13:21",
-		"calculateBottomContent" : "cmfcmf 11/5/2020 13:23",
+		"calculateBottomContent" : "cmfcmf 11/6/2020 15:53",
 		"highlightMethod:" : "cmfcmf 11/4/2020 12:50",
 		"preprocessBottomEntriesForAncestorSearch:" : "cmfcmf 11/5/2020 12:37",
 		"selectMatchingEntriesFromCallgraph:" : "cmfcmf 11/5/2020 12:38",

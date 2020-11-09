@@ -2,4 +2,4 @@ list bottom
 bottomEntries
 	
 	^ self selectedTopEntry ifNil: [{}] ifNotNil: [:topEntry |
-		cache at: topEntry ifAbsentPut: [self calculateBottomContent]]
+		(cache at: topEntry ifAbsentPut: [self calculateBottomContent]) first]

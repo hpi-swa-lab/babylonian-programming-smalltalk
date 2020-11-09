@@ -1,10 +1,11 @@
 {
 	"class" : {
-		 },
+		"showReturnNodes" : "cmfcmf 11/6/2020 14:26",
+		"showReturnNodes:" : "cmfcmf 11/6/2020 14:27" },
 	"instance" : {
 		"callgraph" : "cmfcmf 10/28/2020 10:40",
 		"callgraph:" : "cmfcmf 10/27/2020 14:12",
-		"childrenOf:" : "cmfcmf 10/22/2020 13:22",
+		"childrenOf:" : "cmfcmf 11/6/2020 14:29",
 		"doubleClick:" : "cmfcmf 10/30/2020 14:57",
 		"findCommonAncestorOfAllInvocations" : "cmfcmf 11/3/2020 14:00",
 		"getSelectedEntry" : "cmfcmf 10/22/2020 14:29",
@@ -14,7 +15,7 @@
 		"key:from:event:" : "cmfcmf 10/26/2020 13:03",
 		"labelOf:" : "cmfcmf 10/22/2020 13:23",
 		"menuOf:" : "cmfcmf 10/27/2020 16:14",
-		"rootEntries" : "cmfcmf 10/27/2020 14:13",
+		"rootEntries" : "cmfcmf 11/6/2020 14:28",
 		"selectContextSenderChange" : "cmfcmf 10/27/2020 17:17",
 		"selectCorrespondingBlockEnter" : "cmfcmf 11/2/2020 14:07",
 		"selectCorrespondingBlockExit" : "cmfcmf 10/28/2020 12:25",
@@ -30,4 +31,5 @@
 		"selectPrevBlockCallInSameContext" : "cmfcmf 11/2/2020 14:07",
 		"selectPrevCustomEvent" : "cmfcmf 10/28/2020 11:01",
 		"selectPrevMethodCall" : "cmfcmf 11/2/2020 14:02",
-		"setSelectedEntry:" : "cmfcmf 10/23/2020 15:38" } }
+		"setSelectedEntry:" : "cmfcmf 10/23/2020 15:38",
+		"withoutReturnNodes:" : "cmfcmf 11/6/2020 14:29" } }

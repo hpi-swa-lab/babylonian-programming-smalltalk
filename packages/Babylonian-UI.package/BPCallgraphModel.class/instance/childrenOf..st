@@ -1,4 +1,6 @@
 as yet unclassified
 childrenOf: aBPCallgraphEntry
-
-	^ aBPCallgraphEntry children
+	
+	^ self class showReturnNodes
+		ifTrue: [aBPCallgraphEntry children]
+		ifFalse: [self withoutReturnNodes: aBPCallgraphEntry children]

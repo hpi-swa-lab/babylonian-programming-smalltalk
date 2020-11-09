@@ -19,7 +19,7 @@ buildWith: aBuilder
 				keyPress: #topKeyPress:;
 				menu: #topMenu:;
 				yourself).
-			(aBuilder pluggableMultiColumnListSpec new
+			(aBuilder bpPluggableMultiColumnListSpec new
 				frame: (0@0.3 corner: 1@1);
 				autoDeselect: false;
 				clearFilterAutomatically: false;
@@ -36,5 +36,6 @@ buildWith: aBuilder
 				setIndex: #bottomIndex:;
 				keyPress: #bottomKeyPress:;
 				menu: #bottomMenu:;
+				backgroundColor: #bottomBackgroundColor:;
 				yourself)};
 		yourself)

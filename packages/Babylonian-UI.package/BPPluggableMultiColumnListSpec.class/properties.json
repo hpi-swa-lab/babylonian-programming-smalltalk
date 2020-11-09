@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"currentFilter" ],
-	"name" : "BPCallgraphIndentingListItemMorph",
+		"backgroundColor" ],
+	"name" : "BPPluggableMultiColumnListSpec",
 	"pools" : [
 		 ],
-	"super" : "IndentingListItemMorph",
+	"super" : "PluggableMultiColumnListSpec",
 	"type" : "normal" }
