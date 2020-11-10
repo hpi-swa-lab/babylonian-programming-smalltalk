@@ -5,9 +5,11 @@
 		"addButtonBar" : "pre 9/30/2020 11:06",
 		"addCreateExampleButtonLabeled:selector:" : "pre 10/6/2020 11:54",
 		"addExampleButtonClicked" : "pre 9/30/2020 11:12",
+		"addExtractedFromClassExampleButtonClicked" : "ek 11/2/2020 14:57",
+		"addExtractedFromTestExampleButtonClicked" : "ek 11/2/2020 14:57",
 		"addNewExampleAnnotation:" : "pre 9/30/2020 11:11",
 		"addScriptExampleButtonClicked" : "pre 9/30/2020 11:12",
 		"createAndAddNewExampleFrom:" : "pre 9/30/2020 11:12",
 		"exampleAnnotations" : "pre 8/24/2020 17:10",
 		"exampleAnnotations:" : "pre 9/30/2020 10:32",
-		"initialize" : "pre 9/30/2020 11:06" } }
+		"initialize" : "ek 11/2/2020 14:56" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-ExampleExtraction-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPExtractedExampleMorph",
+	"pools" : [
+		 ],
+	"super" : "BPExampleMorph",
+	"type" : "normal" }

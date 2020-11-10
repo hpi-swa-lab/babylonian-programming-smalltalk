@@ -16,4 +16,6 @@ initialize
 	self 
 		addButtonBar;
 		addCreateExampleButtonLabeled: 'add example' selector: #addExampleButtonClicked;
-		addCreateExampleButtonLabeled: '| add script example' selector: #addScriptExampleButtonClicked
+		addCreateExampleButtonLabeled: '| add script example' selector: #addScriptExampleButtonClicked;
+		addCreateExampleButtonLabeled: '| add extracted example (from test)' selector: #addExtractedFromTestExampleButtonClicked;
+		addCreateExampleButtonLabeled: '| add extracted example (from class)' selector: #addExtractedFromClassExampleButtonClicked

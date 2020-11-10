@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-ExampleExtraction-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ek 7/29/2020 17:46",
+	"instvars" : [
+		 ],
+	"name" : "MethodTestFinderThings",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

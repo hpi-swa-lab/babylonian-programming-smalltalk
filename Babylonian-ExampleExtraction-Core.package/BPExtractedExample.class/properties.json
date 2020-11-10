@@ -1,0 +1,15 @@
+{
+	"category" : "Babylonian-ExampleExtraction-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"extractedClassName",
+		"extractedMethodSelector" ],
+	"name" : "BPExtractedExample",
+	"pools" : [
+		 ],
+	"super" : "BPExample",
+	"type" : "normal" }

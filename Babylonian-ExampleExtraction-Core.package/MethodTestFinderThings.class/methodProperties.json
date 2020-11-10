@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"exampleValueFromMethodSource:for:" : "ek 8/12/2020 14:45",
+		"getExamplesFor:" : "ek 8/12/2020 14:20",
+		"getExamplesFor:for:" : "ek 8/12/2020 14:20",
+		"getHardcodedExamplesFor:" : "ek 7/29/2020 17:27",
+		"newExampleNamed:with:for:" : "ek 7/23/2020 19:51" },
+	"instance" : {
+		"addEvaExample" : "abc 8/21/2020 15:09",
+		"baseClass" : "ek 7/16/2020 22:30",
+		"extractMessageSendRecorder" : "ek 11/6/2020 09:54",
+		"findCategories" : "ek 7/16/2020 22:30",
+		"findClassesForCategories:" : "ek 7/16/2020 22:31",
+		"findTestsForMethod:" : "ek 8/12/2020 14:38",
+		"prettifyForMethodName:" : "ek 7/29/2020 17:13",
+		"prettifyForMethodSource:" : "abc 10/27/2020 10:32" } }

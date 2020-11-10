@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"bpExamplePragmaSelectors" : "ek 11/2/2020 15:21" },
+	"instance" : {
+		"asPragma" : "ek 11/2/2020 16:17",
+		"execute" : "ek 11/2/2020 16:15",
+		"executeString" : "ek 11/2/2020 15:11",
+		"extractedClassName" : "ek 11/2/2020 16:15",
+		"extractedClassName:" : "ek 11/2/2020 16:15",
+		"extractedMethodSelector" : "ek 11/2/2020 16:15",
+		"extractedMethodSelector:" : "ek 11/2/2020 16:15",
+		"initializeFromPragma:" : "ek 11/2/2020 16:16",
+		"morphClass" : "ek 11/2/2020 14:54",
+		"pragmaStart" : "ek 11/2/2020 15:16" } }
