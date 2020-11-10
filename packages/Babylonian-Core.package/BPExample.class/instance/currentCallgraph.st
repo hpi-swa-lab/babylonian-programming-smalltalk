@@ -1,0 +1,5 @@
+tracing
+currentCallgraph
+	
+
+	^ traceInformation callgraph

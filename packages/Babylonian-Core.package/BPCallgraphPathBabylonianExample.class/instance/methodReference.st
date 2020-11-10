@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 methodReference
 	
 	^ self example method asCodeReference 

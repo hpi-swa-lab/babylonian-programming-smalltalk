@@ -1,4 +1,4 @@
-as yet unclassified
+comparing
 hash
 
 	^ id hash

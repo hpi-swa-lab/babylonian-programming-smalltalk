@@ -3,9 +3,6 @@ commonAncestorOf: aCollection ignoringInvocationCounts: aBoolean
 	
 	| theAncestor possibleAncestors |
 	aCollection ifEmpty: [^ nil].
-	"aCollection size == 1 ifTrue: [| path |
-		path := aCollection first pathWithoutContextMovingRight allButLast.
-		^ path ifEmpty: [nil] ifNotEmpty: [path last]]."
 	
 	possibleAncestors := aCollection first pathWithoutContextMovingRight allButLast.
 	

@@ -14,7 +14,8 @@
 		"exampleExecutionProcess",
 		"hasTraceCompleted",
 		"blockRecord",
-		"duration" ],
+		"duration",
+		"callgraph" ],
 	"name" : "BPTrace",
 	"pools" : [
 		 ],

@@ -1,0 +1,4 @@
+comparing
+equalsCallgraphEntry: aBPCallgraphEntry
+
+	self subclassResponsibility 

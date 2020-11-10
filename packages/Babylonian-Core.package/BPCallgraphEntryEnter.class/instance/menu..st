@@ -20,4 +20,4 @@ menu: aMenuMorph
 	aMenuMorph addLine.
 	aMenuMorph add: 'find common ancestor of all invocations' action: #findCommonAncestorOfAllInvocations.
 	
-	^ aMenuMorph
+	super menu: aMenuMorph

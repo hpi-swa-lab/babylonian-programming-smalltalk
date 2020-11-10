@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildWith: aBuilder
 	
 	| visualizationTypeHeight buttonBarHeight |

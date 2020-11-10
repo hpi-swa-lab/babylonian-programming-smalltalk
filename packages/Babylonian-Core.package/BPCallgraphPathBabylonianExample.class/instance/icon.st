@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 icon
 	
 	^ BPEmojis emojiFor: example

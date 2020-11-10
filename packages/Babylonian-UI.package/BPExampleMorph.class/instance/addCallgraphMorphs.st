@@ -14,15 +14,7 @@ addCallgraphMorphs
 		hResizing: #shrinkWrap;
 		vResizing: #shrinkWrap;
 		name: #contextTrace;
-		label: 'view callgraph';
+		label: 'view in sidebar';
 		target: self;
-		actionSelector: #viewCallgraph
-		yourself).
-	self addMorphBack: (SimpleButtonMorph new
-		hResizing: #shrinkWrap;
-		vResizing: #shrinkWrap;
-		name: #contextTrace;
-		label: 'run once';
-		target: self;
-		actionSelector: #runOnce
+		actionSelector: #viewInSidebar
 		yourself).

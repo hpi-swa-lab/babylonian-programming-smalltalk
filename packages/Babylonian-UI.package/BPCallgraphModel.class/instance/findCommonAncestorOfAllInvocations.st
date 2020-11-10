@@ -7,5 +7,5 @@ findCommonAncestorOfAllInvocations
 	allInvocations := callgraph allInvocationsOf: selected.
 	ancestor := callgraph commonAncestorOf: allInvocations ignoringInvocationCounts: true.
 	ancestor ifNil: [^ UIManager default inform: 'No common ancestor found'].
-	paths := callgraph pathsIgnoringInvocationCountsBetween: ancestor andChildren: allInvocations.
+	paths := callgraph pathsBetween: ancestor andChildren: allInvocations.
 	paths explore

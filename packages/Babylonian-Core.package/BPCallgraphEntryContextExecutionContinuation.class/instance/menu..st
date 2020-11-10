@@ -2,4 +2,4 @@ as yet unclassified
 menu: aMenuMorph
 	
 	aMenuMorph add: 'go to context sender change' action: #selectContextSenderChange.
-	^ aMenuMorph
+	super menu: aMenuMorph.

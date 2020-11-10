@@ -1,5 +1,5 @@
 tracing
-executeWithCallgraph
+deprecatedExecuteWithCallgraphUsingSimulator
 	
 	| receiver arguments selector block graph trace |
 

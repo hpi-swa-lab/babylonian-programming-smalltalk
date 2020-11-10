@@ -5,7 +5,7 @@
 		"activateExampleButtonClicked" : "pre 10/23/2020 12:03",
 		"addActivationButtonMorph" : "pre 9/30/2020 10:35",
 		"addArgumentScriptMorphs" : "pre 8/25/2020 10:23",
-		"addCallgraphMorphs" : "cmfcmf 9/18/2020 11:09",
+		"addCallgraphMorphs" : "cmfcmf 11/10/2020 10:59",
 		"addDeleteButtonMorph" : "pre 9/30/2020 10:35",
 		"addExampleNameMorph" : "pre 10/6/2020 10:27",
 		"addExampleSpecificMorphs" : "pre 9/30/2020 10:37",
@@ -19,9 +19,8 @@
 		"isExample" : "pre 9/30/2020 10:34",
 		"isExampleActive" : "pre 9/30/2020 10:34",
 		"removeButtonClicked" : "pre 9/30/2020 10:35",
-		"runOnce" : "cmfcmf 9/18/2020 11:10",
 		"selectLiveSpecimenThen:" : "pre 7/10/2020 18:24",
 		"step" : "cmfcmf 10/30/2020 12:43",
 		"textEmphasis" : "pre 9/30/2020 10:35",
 		"updateMorphs" : "cmfcmf 10/30/2020 12:28",
-		"viewCallgraph" : "cmfcmf 10/27/2020 14:27" } }
+		"viewInSidebar" : "cmfcmf 11/10/2020 11:01" } }

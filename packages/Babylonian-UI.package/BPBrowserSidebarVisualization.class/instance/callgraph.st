@@ -1,6 +1,4 @@
 as yet unclassified
 callgraph
-
-	callgraph ifNotNil: [^ callgraph].
-	callgraph := self example traceWithCallgraphUsingByteCodeTracer eventsForTree.
-	^ callgraph
+	
+	^ self example currentCallgraph 

@@ -10,5 +10,5 @@
 	"name" : "BPCallgraphPathBabylonian",
 	"pools" : [
 		 ],
-	"super" : "BPCallgraphPathPart",
+	"super" : "BPCallgraphPathCustomEvent",
 	"type" : "normal" }

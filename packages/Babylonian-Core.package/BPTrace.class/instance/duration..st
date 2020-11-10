@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 duration: aDuration
 
 	duration := aDuration
