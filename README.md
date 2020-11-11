@@ -24,8 +24,7 @@ Metacello new
 
 ## Related Publications
 
-*To cite this work, please use [the Onward!'20 paper on
-"Example-Based Live Programming for Everyone"][onward20_paper].*
+*To cite this work, please use the [COP'19][cop19_paper] and the [Programming'19][prog19_paper] paper.
 
 - Patrick Rein, Jens Lincke, Stefan Ramson, Toni Mattis, Fabio Niephaus, and
 Robert Hirschfeld. *Implementing Babylonian/S by Putting Examples Into Contexts:
