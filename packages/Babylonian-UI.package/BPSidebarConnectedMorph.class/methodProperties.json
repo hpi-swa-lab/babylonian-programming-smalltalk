@@ -1,0 +1,22 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"abandon" : "pre 11/11/2020 11:43",
+		"connectedMorph" : "pre 11/11/2020 11:15",
+		"connectedMorph:" : "pre 11/11/2020 11:36",
+		"delete" : "pre 11/11/2020 11:44",
+		"initialize" : "pre 11/11/2020 12:00",
+		"isProbe" : "pre 11/11/2020 11:21",
+		"isSlider" : "pre 11/11/2020 11:19",
+		"line" : "pre 11/11/2020 11:15",
+		"line:" : "pre 11/11/2020 11:15",
+		"listenToSlider:" : "pre 11/11/2020 11:47",
+		"noteNewOwner:" : "pre 11/11/2020 11:46",
+		"paragraph" : "pre 11/11/2020 11:30",
+		"startTag" : "pre 11/11/2020 11:42",
+		"step" : "pre 11/11/2020 11:53",
+		"stepTime" : "pre 11/11/2020 11:56",
+		"stopTag" : "pre 11/11/2020 11:41",
+		"textEmphasis" : "pre 11/11/2020 11:26",
+		"updateFromParagraph" : "pre 11/11/2020 11:31" } }
