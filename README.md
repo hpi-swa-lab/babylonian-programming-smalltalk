@@ -53,6 +53,7 @@ Systems, Languages, and Applications (OOPSLA), pages 108-124, Chicago, United
 States, November 17-18, 2020, ACM DL.  
 [![doi][onward20_doi]][onward20_paper] [![Preprint][preprint]][onward20_pdf]
 
+
 [ci_badge]: https://travis-ci.com/hpi-swa-lab/babylonian-programming-smalltalk.svg?token=bqyHR3eLHhu2pssQTD6R&branch=develop
 [travis_ci]: https://travis-ci.com/hpi-swa-lab/babylonian-programming-smalltalk
 [preprint]: https://img.shields.io/badge/preprint-download-blue.svg
@@ -63,7 +64,8 @@ States, November 17-18, 2020, ACM DL.
 [prog19_pdf]: https://arxiv.org/pdf/1902.00549v1
 [cop19_doi]: https://img.shields.io/badge/doi-10.1145/3340671.3343358-blue.svg
 [cop19_paper]: https://doi.org/10.1145/3340671.3343358
-[cop19_pdf]: http://hirschfeld.org/writings/media/ReinLinckeRamsonMattisNiephausHirschfeld_2019_ImplementingBabylonianSbyPuttingExamplesIntoContextsTracingInstrumentationForExampleBasedLiveProgrammingAsAUseCaseForContextOrientedProgramming_AcmDL.pdf[onward20_doi]: https://img.shields.io/badge/doi-10.1145/3426428.3426919-blue.svg
+[cop19_pdf]: http://hirschfeld.org/writings/media/ReinLinckeRamsonMattisNiephausHirschfeld_2019_ImplementingBabylonianSbyPuttingExamplesIntoContextsTracingInstrumentationForExampleBasedLiveProgrammingAsAUseCaseForContextOrientedProgramming_AcmDL.pdf
+[onward20_doi]: https://img.shields.io/badge/doi-10.1145/3426428.3426919-blue.svg
 [onward20_paper]: https://doi.org/10.1145/3426428.3426919
 [onward20_pdf]: http://fniephaus.com/2020/onward20-live-programming.pdf
 [onward20]: https://2020.splashcon.org/details/splash-2020-Onward-papers/7/Example-Based-Live-Programming-for-Everyone-Building-Language-agnostic-Tools-for-Liv
