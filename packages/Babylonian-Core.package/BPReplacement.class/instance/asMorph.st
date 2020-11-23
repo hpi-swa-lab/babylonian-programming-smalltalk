@@ -1,9 +1,12 @@
 morphic
 asMorph
-
-	| newMorph |
+	
+	| newMorph connectedMorph |
 	newMorph := BPReplacementMorph new
 		annotation: self;
 		yourself.
-	self updateTextAnchorPropertiesOf: newMorph.
-	^ newMorph
+	connectedMorph := BPSidebarConnectedMorph new
+		connectedMorph: newMorph;
+		yourself.
+	self updateTextAnchorPropertiesOf: connectedMorph.
+	^ connectedMorph

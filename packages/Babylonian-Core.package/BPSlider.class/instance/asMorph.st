@@ -1,9 +1,12 @@
 ui
 asMorph
 	
-	| newMorph |
+	| newMorph connectedMorph |
 	newMorph := BPSliderMorph new
 		annotation: self;
 		yourself.
-	self updateTextAnchorPropertiesOf: newMorph.
-	^ newMorph
+	connectedMorph := BPSidebarConnectedMorph new
+		connectedMorph: newMorph;
+		yourself.
+	self updateTextAnchorPropertiesOf: connectedMorph.
+	^ connectedMorph
