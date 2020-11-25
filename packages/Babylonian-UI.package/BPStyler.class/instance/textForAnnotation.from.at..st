@@ -1,8 +1,8 @@
 private
 textForAnnotation: annotation from: aText at: startTagStart
-
+	
 	| newMorph startOfExpressionText expressionText |
-	newMorph := annotation asMorph.
+	newMorph := self annotationMorphFor: annotation.	
 	
 	newMorph ifNil: [
 		"The annotation does not want to be drawn directly"

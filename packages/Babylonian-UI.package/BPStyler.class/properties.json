@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"extractIntervals",
-		"currentProbeId",
-		"selectedMethod" ],
+		"selectedMethod",
+		"annotationMorphs" ],
 	"name" : "BPStyler",
 	"pools" : [
 		 ],
