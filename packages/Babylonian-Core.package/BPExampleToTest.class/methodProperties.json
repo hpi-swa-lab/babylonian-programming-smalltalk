@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"buildClass" : "pm 11/30/2020 21:24",
+		"buildMethodCall" : "pm 11/30/2020 21:25",
+		"buildTest" : "pm 11/30/2020 21:25",
+		"combineMethod:withParameters:" : "pm 11/30/2020 20:38",
+		"example" : "pm 11/30/2020 18:50",
+		"example:" : "pm 11/30/2020 18:51",
+		"serialize:" : "pm 11/30/2020 20:38",
+		"serialized" : "pm 11/30/2020 21:24",
+		"serializedClassCategory" : "pm 11/30/2020 21:23",
+		"serializedClassName" : "pm 11/30/2020 21:23",
+		"serializedMethodCategory" : "pm 11/30/2020 21:23",
+		"serializedMethodName" : "pm 11/30/2020 21:23",
+		"serializedMethodParameters" : "pm 11/30/2020 21:23",
+		"serializedReceiverConstructor" : "pm 11/30/2020 21:23",
+		"serializedTestName" : "pm 11/30/2020 21:23" } }
