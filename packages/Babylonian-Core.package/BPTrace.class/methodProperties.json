@@ -10,6 +10,8 @@
 		"exampleErrored" : "pre 7/25/2019 12:19",
 		"exampleExecutionProcess" : "pre 7/25/2019 13:48",
 		"exampleExecutionProcess:" : "pre 7/25/2019 13:49",
+		"executionResult" : "jb 11/29/2020 19:10",
+		"executionResult:" : "jb 11/29/2020 20:13",
 		"hasTraceCompleted" : "pre 8/17/2020 09:55",
 		"hasTraceCompleted:" : "pre 8/17/2020 09:56",
 		"includesValuesForProbeId:" : "pre 7/24/2019 11:30",
@@ -29,4 +31,5 @@
 		"traceBlock:enteredInContext:" : "pre 9/28/2020 10:52",
 		"traceException:" : "pre 7/25/2019 12:29",
 		"traceException:forId:" : "pre 7/25/2019 12:29",
+		"traceExecutionResult:" : "jb 11/29/2020 22:04",
 		"valuesForProbeId:" : "pre 8/17/2020 09:30" } }
