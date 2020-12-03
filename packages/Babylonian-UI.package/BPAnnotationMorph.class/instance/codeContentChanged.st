@@ -1,4 +1,4 @@
 private - ui
 codeContentChanged
 
-	self containingBrowser codeTextMorph hasUnacceptedEdits: true.
+	self containingBrowser codeTextMorph hasUnacceptedEdits: true

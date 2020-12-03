@@ -3,4 +3,4 @@ AnnotatedBinaryMessageSend: aNode startTag: startTag actualMessage: message endT
 
 	collectAnnotation := true.
 	[^ {self value: message}] 
-		ensure: [collectAnnotation := false].
+		ensure: [collectAnnotation := false]

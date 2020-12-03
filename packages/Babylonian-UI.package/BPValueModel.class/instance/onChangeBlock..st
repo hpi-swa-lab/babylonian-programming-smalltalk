@@ -1,4 +1,4 @@
 accessing
 onChangeBlock: anObject
 
-	onChangeBlock := anObject.
+	onChangeBlock := anObject

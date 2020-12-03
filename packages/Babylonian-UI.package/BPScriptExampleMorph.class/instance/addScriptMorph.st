@@ -11,4 +11,4 @@ addScriptMorph
 				self codeContentChanged]
 			onAccept: [:str |
 				self containingBrowser codeTextMorph accept]).
-	self addMorphBack: editField.
+	self addMorphBack: editField

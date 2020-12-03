@@ -3,4 +3,4 @@ initialize
 
 	super initialize.
 	examples := WeakIdentityKeyDictionary new.
-	mutex := Mutex new.
+	mutex := Mutex new

@@ -1,7 +1,7 @@
 private - ui
 newExampleLineMorph
 
-	^  Morph new 
+	^ Morph new 
 			color: Color transparent; 
 			changeTableLayout; 
 			layoutInset: 0;
@@ -11,4 +11,4 @@ newExampleLineMorph
 			cellPositioning: #leftCenter;
 			cellGap: 1;
 			name: 'example line';
-			yourself.
+			yourself

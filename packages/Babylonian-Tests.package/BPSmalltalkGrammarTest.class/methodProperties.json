@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"shouldInheritSelectors" : "pre 3/5/2020 18:03" },
+		"shouldInheritSelectors" : "jb 12/3/2020 23:08" },
 	"instance" : {
 		"expectedFailures" : "pre 7/6/2020 15:27",
 		"setUp" : "pre 3/5/2020 18:21",
@@ -19,8 +19,8 @@
 		"testGrammarParsesConstantReferencesNotVariables" : "pre 7/6/2020 14:57",
 		"testGrammarParsesVariableNameCorrectly" : "pre 7/6/2020 14:33",
 		"testMessageSendPartsCanBeAnnotated" : "pre 1/28/2020 16:16",
-		"testMessageSendsCanBeAnnotated" : "pre 3/5/2020 18:22",
+		"testMessageSendsCanBeAnnotated" : "jb 12/3/2020 23:01",
 		"testNormalExpressionsStillWork" : "pre 5/10/2019 11:27",
 		"testOtherCommentsAreStillComments" : "pre 5/10/2019 11:08",
-		"testRegressionProbeAnnotation01" : "pre 7/26/2019 10:22",
-		"testRegressionProbesExamplesReplacements01" : "pre 11/13/2019 10:22" } }
+		"testRegressionProbeAnnotation01" : "jb 12/3/2020 23:02",
+		"testRegressionProbesExamplesReplacements01" : "jb 12/3/2020 23:02" } }

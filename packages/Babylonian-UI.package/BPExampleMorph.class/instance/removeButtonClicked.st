@@ -7,4 +7,4 @@ removeButtonClicked
 	self owner exampleAnnotations remove: self annotation.
 	
 	self containingBrowser saveMethodWithExamples.
-	self abandon.
+	self abandon

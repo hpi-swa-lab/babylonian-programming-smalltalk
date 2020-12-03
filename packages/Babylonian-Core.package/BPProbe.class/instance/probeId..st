@@ -1,4 +1,4 @@
 accessing
 probeId: anObject
 
-	probeId := anObject.
+	probeId := anObject

@@ -1,4 +1,4 @@
 accessing
 expression: anObject
 
-	expression := anObject.
+	expression := anObject

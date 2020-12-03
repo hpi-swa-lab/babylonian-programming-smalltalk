@@ -1,4 +1,4 @@
 accessing
 packageList
 	
-	^ self actualPackageList collect: [:p | p name]
+	^ self actualPackageList collect: [:aPackage | aPackage name]

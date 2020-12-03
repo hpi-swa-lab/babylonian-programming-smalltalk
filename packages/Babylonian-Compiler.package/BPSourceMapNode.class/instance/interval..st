@@ -1,4 +1,4 @@
 accessing
 interval: anObject
 
-	interval := anObject.
+	interval := anObject

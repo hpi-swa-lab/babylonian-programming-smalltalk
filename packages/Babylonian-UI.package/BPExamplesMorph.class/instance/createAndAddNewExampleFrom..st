@@ -1,6 +1,5 @@
 adding examples
 createAndAddNewExampleFrom: aClass
-	
 	"This is were new examples are created. The other place where examples come to be is CompiledMethod>>#bpExamples"
 	
 	| newExample newExampleName compiledMethod |
@@ -16,4 +15,4 @@ createAndAddNewExampleFrom: aClass
 		newFor: newExample 
 		in: self containingBrowser methodReference).
 		
-	self codeContentChanged.
+	self codeContentChanged

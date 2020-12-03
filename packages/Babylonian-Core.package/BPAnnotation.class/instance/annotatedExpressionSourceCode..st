@@ -1,4 +1,4 @@
 accessing
 annotatedExpressionSourceCode: anObject
 
-	annotatedExpressionSourceCode := anObject.
+	annotatedExpressionSourceCode := anObject

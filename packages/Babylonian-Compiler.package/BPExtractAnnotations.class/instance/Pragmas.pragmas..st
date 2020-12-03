@@ -1,4 +1,4 @@
 rules
 Pragmas: aNode pragmas: pragmas
 
-	pragmas children do: [:p | self value: p]
+	pragmas children do: [:aPragma | self value: aPragma]

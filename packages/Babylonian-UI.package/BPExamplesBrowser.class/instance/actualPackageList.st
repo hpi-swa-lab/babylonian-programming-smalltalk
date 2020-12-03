@@ -1,5 +1,5 @@
 accessing
 actualPackageList
 	
-	^ packageList ifNil: [packageList := (SystemNavigation default allExamples collect: [:e | 
-			e method methodClass package]) asSet sorted: [:p | p name]]
+	^ packageList ifNil: [packageList := (SystemNavigation default allExamples collect: [:anExample | 
+			anExample method methodClass package]) asSet sorted: [:aPackage | aPackage name]]

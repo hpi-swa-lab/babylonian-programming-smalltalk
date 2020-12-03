@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"method" : "pre 7/23/2019 12:04",
-		"setUp" : "pre 7/23/2019 12:07",
+		"setUp" : "jb 12/3/2020 23:02",
 		"testStylerCanCopeWithProbeWithinSliderRange" : "pre 9/22/2020 18:44",
 		"testStylerSetsAnchorAttributeForNestedProbes" : "pre 8/25/2020 08:25",
 		"testStylerSetsAnchorAttributeForProbe" : "pre 8/25/2020 08:25",

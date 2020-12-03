@@ -6,4 +6,4 @@ addDeleteButtonMorph
 	removeButton 
 		actionSelector: #removeButtonClicked;
 		target: self.
-	self addMorphBack: removeButton.
+	self addMorphBack: removeButton

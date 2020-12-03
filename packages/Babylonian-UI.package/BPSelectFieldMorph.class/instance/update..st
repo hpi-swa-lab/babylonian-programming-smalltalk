@@ -1,4 +1,4 @@
 updating
 update: aModel
 
-	self updateLabel.
+	self updateLabel
