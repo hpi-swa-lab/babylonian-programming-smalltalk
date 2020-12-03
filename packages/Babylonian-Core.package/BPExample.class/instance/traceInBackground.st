@@ -8,11 +8,11 @@ traceInBackground
 		Project current addDeferredUIMessage: [traceInformation trace: trace]].
 	exampleExecution := [[self traceAsyncNotifying: [:intermediateTrace | promise resolveWith: intermediateTrace]]
 		on: BPExampleExecutionInterrupted
-		do: [:e | 
+		do: [:anError | 
 			"We need to remember this in order to terminate example processes
 			whenever a trace leaves the registry."
-			e trace exampleExecutionProcess: Processor activeProcess.
-			promise resolveWith: e trace.
+			anError trace exampleExecutionProcess: Processor activeProcess.
+			promise resolveWith: anError trace.
 			Processor activeProcess suspend.]].
 	traceInformation tracingProcess: (exampleExecution 
 		forkAt: Processor userSchedulingPriority 

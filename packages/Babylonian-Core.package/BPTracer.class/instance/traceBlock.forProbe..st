@@ -3,6 +3,6 @@ traceBlock: aBlock forProbe: aProbeId
 	
 	^ [#bpInstrumented withLayerDo: aBlock]
 		on: Error 
-		do: [:e | 
-			trace traceException: e forId: aProbeId.
-			e signal].
+		do: [:anError | 
+			trace traceException: anError forId: aProbeId.
+			anError signal]

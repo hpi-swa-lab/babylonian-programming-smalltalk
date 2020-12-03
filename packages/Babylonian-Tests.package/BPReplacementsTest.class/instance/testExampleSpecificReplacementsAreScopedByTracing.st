@@ -9,4 +9,4 @@ testExampleSpecificReplacementsAreScopedByTracing
 	
 	example := method bpExamples second.
 	result := [BPTestManuallyInstrumentedClass new methodAWithExamplesAndReplacement] bpTraceForExample: example.
-	self assert: 2 equals: (result valuesForProbeId: 10) first tracedValue.
+	self assert: 2 equals: (result valuesForProbeId: 10) first tracedValue

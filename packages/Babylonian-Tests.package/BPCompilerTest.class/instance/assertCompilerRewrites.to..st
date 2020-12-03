@@ -6,5 +6,5 @@ assertCompilerRewrites: originalCode to: targetCode
 					match: originalCode asString
 					startingFrom: #MethodDeclaration.
 	resultingCode := compiler rewriteToSource: parseResult.
-	self assert: targetCode equals: resultingCode. 
+	self assert: targetCode equals: resultingCode
 	

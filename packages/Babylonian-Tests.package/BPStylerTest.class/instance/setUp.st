@@ -5,4 +5,4 @@ setUp
 	styler := BPStyler new.
 	styler
 		classOrMetaClass: self class; 
-		selectedMethod: (self class>>#method) methodReference.
+		selectedMethod: (self class>>#method) methodReference

@@ -5,4 +5,4 @@ testAsyncTracingReturnsSameTrace
 	resultTrace := [BPTestManuallyInstrumentedClass new methodA] 
 		bpTraceAsyncForExample: nil
 		notifying: [:t | trace := t].
-	self assert: trace == resultTrace.
+	self assert: trace == resultTrace

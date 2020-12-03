@@ -24,4 +24,4 @@ testRenderingSliderWithNestedProbe
 	renderedSource := source asBPSource.
 	self assert: 'methodWithBlock
 	<exampleNamed: ''example 1''>
-^ self do: "<bpSlider id: 10>"[:r | "<bpProbe id: 1>"2 + 3"</bpProbe>"]"</bpSlider>"' equals: renderedSource asString.
+^ self do: "<bpSlider id: 10>"[:r | "<bpProbe id: 1>"2 + 3"</bpProbe>"]"</bpSlider>"' equals: renderedSource asString

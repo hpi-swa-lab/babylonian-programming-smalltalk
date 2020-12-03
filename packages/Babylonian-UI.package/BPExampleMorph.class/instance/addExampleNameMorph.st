@@ -11,4 +11,4 @@ addExampleNameMorph
 		onAccept: [:str | "nop"].
 	nameTextMorph setTextColor: example color.
 	nameTextMorph width: 15 * self fontWidth.
-	self addMorphBack: nameTextMorph.
+	self addMorphBack: nameTextMorph

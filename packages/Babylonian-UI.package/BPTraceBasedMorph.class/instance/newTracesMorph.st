@@ -9,4 +9,4 @@ newTracesMorph
 		hResizing: #shrinkWrap;
 		cellPositioning: #topLeft;
 		layoutInset: 1;
-		yourself.
+		yourself

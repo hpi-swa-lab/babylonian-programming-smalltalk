@@ -1,6 +1,7 @@
 message category list
 rawMessageCategoryList
 	"Removes the empty category if there are only bpInstrumented methods in there"
+	
 	| categories |
 	categories := super rawMessageCategoryList.
 	self hasClassSelected ifTrue: [

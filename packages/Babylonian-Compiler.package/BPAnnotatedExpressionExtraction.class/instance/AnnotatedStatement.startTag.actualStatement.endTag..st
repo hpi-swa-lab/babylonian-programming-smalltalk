@@ -3,4 +3,4 @@ AnnotatedStatement: aNode startTag: startTag actualStatement: statement endTag: 
 
 	collectAnnotation := true.
 	[^ {self value: statement}] 
-		ensure: [collectAnnotation := false].
+		ensure: [collectAnnotation := false]

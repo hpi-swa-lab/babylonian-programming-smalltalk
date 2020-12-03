@@ -13,4 +13,4 @@ initialize
 	
 	self 
 		addSelectButtonMorph;
-		addLabelMorph.
+		addLabelMorph

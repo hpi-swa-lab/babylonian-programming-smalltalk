@@ -6,4 +6,4 @@ addLoaderIconHolder
 		hResizing: #shrinkWrap;
 		vResizing: #shrinkWrap;
 		name: #loaderIconHolder;
-		yourself).
+		yourself)

@@ -1,10 +1,10 @@
 private - ui
 newScrollPane
-	
 	"This weird morph hierarchy pushes the scrollpane down far enough 
 	to balance out the height added by the scroll bar thereby putting the 
 	text in the scroll pan on the same baseline as the label text in the rest 
 	of the annotation morph"
+	
 	| blocker scrollPane wrapper |
 	wrapper := Morph new
 		name: #scrollWrapper;

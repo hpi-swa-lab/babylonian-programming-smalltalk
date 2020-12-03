@@ -9,4 +9,4 @@ testGlobalExampleSpecificAssertionsAreScopedByTracing
 	
 	example := method bpExamples second.
 	result := [BPTestManuallyInstrumentedClass new methodAWithExamplesAndReplacementAndAssertions] bpTraceForExample: example.
-	self assert: result assertions isEmpty.
+	self assert: result assertions isEmpty

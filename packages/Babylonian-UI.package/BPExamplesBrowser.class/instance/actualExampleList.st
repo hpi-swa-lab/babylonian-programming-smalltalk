@@ -3,9 +3,11 @@ actualExampleList
 	
 	^ exampleList ifNil: [
 		exampleList := self selectedPackage 
-							ifNotNil: [:p | p methods gather: [:m | m compiledMethod bpExamples]]
+							ifNotNil: [:aPackage | aPackage methods gather: [:aMethod | aMethod compiledMethod bpExamples]]
 							ifNil: [#()].
-		exampleList := exampleList sorted: [:e | 
+		exampleList := exampleList sorted: [:anExample | 
 			self flag: #todo. "Sorry for that... too lazy to do it correctly right now,
 			writing browsers is boring --pre"
-			(e isActive ifTrue: ['aaa'] ifFalse: ['xxx']) , e exampleName]]
+			(anExample isActive 
+				ifTrue: ['aaa'] 
+				ifFalse: ['xxx']) , anExample exampleName]]

@@ -1,4 +1,4 @@
 accessing
 annotation: anObject
 
-	annotation := anObject.
+	annotation := anObject

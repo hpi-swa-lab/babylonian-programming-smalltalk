@@ -3,11 +3,11 @@
 		"annotationTag" : "pre 8/24/2020 16:16" },
 	"instance" : {
 		"asMorph" : "pre 8/24/2020 17:31",
-		"canBeAnnotatedTo" : "pre 9/22/2020 18:19",
+		"canBeAnnotatedTo" : "jb 12/3/2020 22:37",
 		"enclosedExpressionSource" : "pre 8/24/2020 16:48",
 		"exampleAnnotations" : "pre 8/24/2020 16:47",
-		"exampleAnnotations:" : "pre 8/24/2020 16:47",
-		"initialize" : "pre 8/24/2020 16:49",
+		"exampleAnnotations:" : "jb 12/3/2020 22:32",
+		"initialize" : "jb 12/3/2020 22:32",
 		"startTag" : "pre 8/24/2020 17:37",
 		"startTagSource" : "pre 8/24/2020 16:50",
 		"stopTag" : "pre 8/24/2020 17:12" } }

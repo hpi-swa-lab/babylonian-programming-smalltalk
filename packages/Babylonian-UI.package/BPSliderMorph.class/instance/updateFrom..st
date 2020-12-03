@@ -1,7 +1,6 @@
 private
 updateFrom: traces
 	
-	
 	tracesMorph removeAllMorphs.
 	self removeLinesWithoutCurrentTrace: traces.
 	traces do: [:aTrace |

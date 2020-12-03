@@ -1,5 +1,6 @@
 tests
 testMessageSendsCanBeAnnotated
+
 	"This is required for sliders ... probably also for ordinary probes"
 	startRule := #Expression.
 

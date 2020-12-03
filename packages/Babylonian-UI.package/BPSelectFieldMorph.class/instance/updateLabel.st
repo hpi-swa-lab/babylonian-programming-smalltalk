@@ -2,4 +2,4 @@ private - ui
 updateLabel
 	
 	self removeMorph: labelMorph.
-	self addLabelMorph.
+	self addLabelMorph

@@ -2,15 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addLabelMorph" : "pre 10/6/2020 17:10",
+		"addLabelMorph" : "jb 12/3/2020 22:56",
 		"addSelectButtonMorph" : "pre 10/6/2020 17:13",
 		"fontWidth" : "pre 11/18/2019 10:43",
 		"iconSize" : "pre 11/18/2019 10:40",
-		"initialize" : "pre 11/18/2019 11:07",
-		"labelOfSelectedObject" : "pre 11/18/2019 11:15",
-		"model:" : "pre 11/18/2019 10:52",
+		"initialize" : "jb 12/3/2020 22:56",
+		"labelOfSelectedObject" : "jb 12/3/2020 23:34",
+		"model:" : "jb 12/3/2020 22:56",
 		"optionsBlock:" : "pre 11/18/2019 10:59",
-		"selectButtonClicked" : "pre 11/18/2019 11:19",
+		"selectButtonClicked" : "jb 12/3/2020 23:34",
 		"selectedObject" : "pre 11/18/2019 11:09",
-		"update:" : "pre 11/18/2019 11:16",
-		"updateLabel" : "pre 10/6/2020 10:35" } }
+		"update:" : "jb 12/3/2020 22:57",
+		"updateLabel" : "jb 12/3/2020 22:57" } }

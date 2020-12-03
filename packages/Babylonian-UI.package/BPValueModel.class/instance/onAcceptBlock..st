@@ -1,4 +1,4 @@
 accessing
 onAcceptBlock: anObject
 
-	onAcceptBlock := anObject.
+	onAcceptBlock := anObject

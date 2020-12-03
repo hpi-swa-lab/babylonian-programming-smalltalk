@@ -11,4 +11,4 @@ nextPutText: aText
 				activateAttributesEnding: previous starting: attributes;
 				writeContent: (aText string copyFrom: start to: stop).
 			previous := attributes].
-	self deactivateAttributesEnding: previous starting: #().
+	self deactivateAttributesEnding: previous starting: #()

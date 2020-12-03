@@ -1,5 +1,4 @@
 tracing
 currentTrace
 	
-
 	^ traceInformation trace 

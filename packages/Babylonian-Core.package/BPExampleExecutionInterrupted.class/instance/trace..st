@@ -1,4 +1,4 @@
 accessing
 trace: anObject
 
-	trace := anObject.
+	trace := anObject

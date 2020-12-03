@@ -17,4 +17,4 @@ initialize
 	
 	self addMorphBack: widgetsMorph.
 	widgetsMorph addMorphBack: tracesMorph.
-	self addMorphBack: removeButton.
+	self addMorphBack: removeButton

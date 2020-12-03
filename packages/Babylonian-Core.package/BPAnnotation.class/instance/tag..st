@@ -1,4 +1,4 @@
 accessing
 tag: anObject
 
-	tag := anObject.
+	tag := anObject

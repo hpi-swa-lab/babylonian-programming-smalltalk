@@ -1,6 +1,5 @@
 tests
 testRewritingDoesNotAddTwoLayerPragmas
-	
 	"This is a regression test. The bug was caused by a naive try to replace substrings in the source."
 	
 	self 

@@ -1,4 +1,4 @@
 accessing
 enclosedExpressionSource: anObject
 
-	enclosedExpressionSource := anObject.
+	enclosedExpressionSource := anObject

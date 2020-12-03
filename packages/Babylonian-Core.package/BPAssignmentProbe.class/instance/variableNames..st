@@ -1,4 +1,4 @@
 accessing
 variableNames: anObject
 
-	variableNames := anObject.
+	variableNames := anObject

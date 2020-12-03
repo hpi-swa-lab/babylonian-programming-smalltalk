@@ -1,4 +1,4 @@
 accessing
 previousValues: anObject
 
-	previousValues := anObject.
+	previousValues := anObject

@@ -1,4 +1,4 @@
 accessing
 tracedValueIdentityHash: anObject
 	
-	tracedValueIdentityHash := anObject.
+	tracedValueIdentityHash := anObject

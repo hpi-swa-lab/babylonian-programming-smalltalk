@@ -1,4 +1,4 @@
 accessing
 sourceMap: anObject
 
-	sourceMap := anObject.
+	sourceMap := anObject
