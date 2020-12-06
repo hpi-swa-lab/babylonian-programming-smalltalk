@@ -1,4 +1,4 @@
 0 - setup
 instrumentationMode
 	
-	^ #slow
+	^ InstrumentationMode ifNil: [#slow]

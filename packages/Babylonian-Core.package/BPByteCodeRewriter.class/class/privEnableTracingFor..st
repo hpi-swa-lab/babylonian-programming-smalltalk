@@ -54,6 +54,8 @@ privEnableTracingFor: method
 			
 			(encoder instVarNamed: #stream) position: interval start - 1.
 			
+			"interval start >= 538 ifTrue: [self halt]."
+			
 			type == #beginRoot ifTrue: [
 				self assert: tempIdxMap isEmpty.
 				tempIdxMap at: blockId put: {method numTemps - 1}.
