@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"expressionMorph",
-		"addExpressionMorph",
-		"colorCache" ],
-	"name" : "BPProbeMorph",
+		"bottomColor" ],
+	"name" : "BPMorphWithBottomBorder",
 	"pools" : [
 		 ],
-	"super" : "BPTraceBasedMorph",
+	"super" : "Morph",
 	"type" : "normal" }

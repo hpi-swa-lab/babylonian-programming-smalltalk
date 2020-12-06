@@ -11,5 +11,4 @@ viewCommonAncestorForTrace: aTrace
 	self containingBrowser sidebarShowMethod: ancestor methodReference.
 	
 	paths := callgraph pathsBetween: ancestor andChildren: children.
-	paths explore.
-	
+	paths explore

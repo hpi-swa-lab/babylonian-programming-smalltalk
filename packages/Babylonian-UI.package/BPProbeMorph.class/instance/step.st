@@ -10,8 +10,4 @@ step
 		(newTraces notNil and: [newTraces notEmpty])  
 			ifTrue: [	self updateFrom: newTraces] 
 			ifFalse: [self updateFrom: self emptyTraces].
-		displayedTraces := newTraces].
-	
-	blinkCounter > 0 ifTrue: [
-		self color: (blinkCounter odd ifTrue: [Color palePeach slightlyLighter] ifFalse: [Color red]).
-		blinkCounter := blinkCounter - 1]
+		displayedTraces := newTraces]

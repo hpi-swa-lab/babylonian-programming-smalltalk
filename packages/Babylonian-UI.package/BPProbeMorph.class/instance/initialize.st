@@ -4,7 +4,7 @@ initialize
 
 	| removeButton |
 	super initialize.
-	blinkCounter := 0.
+	colorCache := Dictionary new.
 	
 	allTracesCompleted := false.
 	
