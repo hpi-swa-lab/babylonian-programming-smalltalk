@@ -3,7 +3,10 @@
 		"customEvent:data:" : "cmfcmf 10/23/2020 14:56",
 		"enter:invocation:" : "cmfcmf 10/20/2020 12:18",
 		"exit:invocation:returns:" : "cmfcmf 10/19/2020 12:50",
-		"swapSenderOf:newSender:" : "cmfcmf 11/2/2020 19:06" },
+		"swapSenderOf:newSender:" : "cmfcmf 11/2/2020 19:06",
+		"value" : "cmfcmf 12/7/2020 21:10",
+		"value:during:" : "cmfcmf 12/7/2020 21:12",
+		"value:during:inProcess:" : "cmfcmf 12/7/2020 21:07" },
 	"instance" : {
 		"customEvent:data:" : "cmfcmf 10/23/2020 14:56",
 		"enter:invocation:" : "cmfcmf 10/20/2020 13:44",
