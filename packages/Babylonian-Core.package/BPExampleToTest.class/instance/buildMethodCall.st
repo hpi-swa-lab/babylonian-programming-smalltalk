@@ -1,6 +1,6 @@
 building
 buildMethodCall
 
-	^ '({0}) {1}' format: {
-		self exampleReceiverConstructor.
-		self combineMethod: (self exampleMethodName) withParameters: (self exampleMethodParameters)}
+	^ '({1}) {2}' format: {
+		self serializedReceiverConstructor.
+		self combineMethod: (self serializedMethodName) withParameters: (self serializedMethodParameters)}

@@ -1,5 +1,7 @@
 {
 	"class" : {
-		 },
+		"createMockExample" : "pm 12/7/2020 11:35" },
 	"instance" : {
-		"testMethodBody" : "pm 11/30/2020 21:32" } }
+		"testCombineMethod" : "pm 12/7/2020 11:34",
+		"testMethodBody" : "pm 12/7/2020 11:36",
+		"testTest" : "pm 12/7/2020 11:37" } }

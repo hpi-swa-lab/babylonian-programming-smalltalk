@@ -1,14 +1,13 @@
 {
 	"class" : {
-		 },
+		"forExample:" : "pm 12/7/2020 11:20" },
 	"instance" : {
 		"buildClass" : "pm 11/30/2020 21:24",
-		"buildMethodCall" : "pm 11/30/2020 21:25",
+		"buildMethodCall" : "pm 12/7/2020 11:23",
 		"buildTest" : "pm 11/30/2020 21:25",
-		"combineMethod:withParameters:" : "pm 11/30/2020 20:38",
+		"combineMethod:withParameters:" : "pm 12/7/2020 11:34",
 		"example" : "pm 11/30/2020 18:50",
 		"example:" : "pm 11/30/2020 18:51",
-		"serialize:" : "pm 11/30/2020 20:38",
 		"serialized" : "pm 11/30/2020 21:24",
 		"serializedClassCategory" : "pm 11/30/2020 21:23",
 		"serializedClassName" : "pm 11/30/2020 21:23",
