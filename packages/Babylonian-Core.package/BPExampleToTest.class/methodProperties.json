@@ -2,7 +2,7 @@
 	"class" : {
 		"forExample:" : "pm 12/7/2020 11:20" },
 	"instance" : {
-		"buildClass" : "pm 11/30/2020 21:24",
+		"buildClass" : "pm 12/7/2020 15:31",
 		"buildMethodCall" : "pm 12/7/2020 12:09",
 		"buildTest" : "pm 12/7/2020 12:10",
 		"combineMethod:withParameters:" : "pm 12/7/2020 12:12",

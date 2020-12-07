@@ -1,8 +1,11 @@
 building
 buildClass
 
-	^ Object subclass: (self serializedClassName) asSymbol
-		instanceVariableNames: ''
-		classVariableNames: ''
-		poolDictionaries: ''
-		category: (self serializedClassCategory)
+	^ Smalltalk 
+		at: (self serializedClassName asSymbol) 
+		ifAbsent: [Object 
+			subclass: (self serializedClassName asSymbol)
+			instanceVariableNames: ''
+			classVariableNames: ''
+			poolDictionaries: ''
+			category: (self serializedClassCategory)]
