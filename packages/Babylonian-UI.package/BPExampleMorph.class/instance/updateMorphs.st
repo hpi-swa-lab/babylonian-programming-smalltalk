@@ -8,5 +8,6 @@ updateMorphs
 		addLoaderIconHolder;
 		addExampleNameMorph;
 		addExampleSpecificMorphs;
+		addExpectecResultMorph;
 		addExampleResultMorph;
 		addDeleteButtonMorph.	
