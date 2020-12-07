@@ -1,0 +1,4 @@
+building
+buildMethod
+
+	^ self buildMethodCall

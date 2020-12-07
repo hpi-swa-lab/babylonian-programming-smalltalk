@@ -2,6 +2,7 @@ helper
 combineMethod: aMethodString withParameters: aParameterArray
 	"zips the method string together with parameters. 
 	example: combineMethod: 'do:with:' withParameters: #(2 3) --> 'do: 2 with: 3'"
+	
 	| methodParts |
 	
 	methodParts := (aMethodString splitBy: ':') allButLast.
