@@ -10,6 +10,6 @@ testRegressionProbeAnnotation01
 
 	startRule := #MethodDeclaration.
 	self shouldParse: 'textAnchorIntervals
-"<bpProbe id: 287>"runs"</bpProbe>" do: [:a | a + 2]'
+"<bpProbe id: 287>"runs"</bpProbe>" do: [:a | a + 2]'.
 
 	

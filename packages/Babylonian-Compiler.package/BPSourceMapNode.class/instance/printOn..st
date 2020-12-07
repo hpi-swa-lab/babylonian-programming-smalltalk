@@ -5,4 +5,4 @@ printOn: aStream
 		<< self ruleName;
 		<< '(';
 		print: self interval;
-		<< ') '
+		<< ') '.

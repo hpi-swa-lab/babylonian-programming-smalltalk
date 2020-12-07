@@ -12,4 +12,4 @@ addSelectButtonMorph
 		target: self;
 		actionSelector: #selectButtonClicked. 
 		
-	self addMorphBack: selectButton
+	self addMorphBack: selectButton.

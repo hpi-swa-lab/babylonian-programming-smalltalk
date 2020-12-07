@@ -24,5 +24,5 @@ updateFrom: traces
 		valuesMorph layoutChanged; fullBounds.
 		
 		scrollPane scroller addMorph: valuesMorph.
-		scrollPane height: valuesMorph height + self scrollBarSize]
+		scrollPane height: valuesMorph height + self scrollBarSize].
 	

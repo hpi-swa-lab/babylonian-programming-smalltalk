@@ -30,4 +30,4 @@ createMorphs
 	self 
 		addMorphBack: replacementScriptMorph;
 		addMorphBack: exampleSelectionMorph;
-		addMorphBack: removeButton
+		addMorphBack: removeButton.

@@ -3,4 +3,4 @@ AnnotatedKeywordMessageSend: aNode startTag: startTag actualMessage: message end
 
 	collectAnnotation := true.
 	[^ {self value: message}] 
-		ensure: [collectAnnotation := false]
+		ensure: [collectAnnotation := false].

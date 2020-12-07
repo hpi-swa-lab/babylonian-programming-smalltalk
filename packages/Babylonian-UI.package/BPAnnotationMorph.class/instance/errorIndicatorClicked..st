@@ -6,5 +6,5 @@ errorIndicatorClicked: aBPTrace
 		context: aBPTrace recordedException signalerContext
 		label: aBPTrace recordedException printString
 		contents: nil
-		fullView: true
+		fullView: true.
 	

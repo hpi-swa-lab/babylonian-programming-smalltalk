@@ -1,4 +1,4 @@
 accessing
 ohmNodeToSourceMapNode: anObject
 
-	ohmNodeToSourceMapNode := anObject
+	ohmNodeToSourceMapNode := anObject.

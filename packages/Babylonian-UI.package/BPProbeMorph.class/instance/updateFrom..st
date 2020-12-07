@@ -30,4 +30,4 @@ updateFrom: traces
 	self owner ifNotNil: [
 		"This may be called before we are actually part of a text layout"
 		self owner paragraph composeAll.
-		self owner updateFromParagraph]
+		self owner updateFromParagraph].

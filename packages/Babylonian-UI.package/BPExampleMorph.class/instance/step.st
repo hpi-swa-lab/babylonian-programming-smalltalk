@@ -13,4 +13,4 @@ step
 		
 	(trace notNil and: [trace hasTraceCompleted])
 		ifTrue: [self setExecutionResultButtonContentForTrace: trace]
-		ifFalse: [self setExecutionResultButtonContentToInitialState]
+		ifFalse: [self setExecutionResultButtonContentToInitialState].

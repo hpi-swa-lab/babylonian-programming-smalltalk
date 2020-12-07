@@ -16,4 +16,4 @@ traceInBackground
 			Processor activeProcess suspend.]].
 	traceInformation tracingProcess: (exampleExecution 
 		forkAt: Processor userSchedulingPriority 
-		named: 'Execution of example ' , self exampleName) 
+		named: 'Execution of example ' , self exampleName).

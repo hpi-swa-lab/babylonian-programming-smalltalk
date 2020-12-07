@@ -14,4 +14,4 @@ AnnotatedStatement: aNode startTag: startTag actualStatement: statement endTag: 
 		self initializeAnnotationGiven: aNode from: startTag.	
 		annotations add: currentAnnotation].
 	
-	self value: statement
+	self value: statement.

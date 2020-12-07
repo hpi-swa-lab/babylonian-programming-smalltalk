@@ -9,4 +9,4 @@ testFromFormattedSourceCodeToAnnotatedSourceCode
 		addAttribute: (nil) 
 		from: 27 to: 31.
 		
-	BPCompiler compile: text "TODO: Better word for that."
+	BPCompiler compile: text. "TODO: Better word for that."

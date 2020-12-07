@@ -3,4 +3,4 @@ AnnotatedUnaryMessageSend: aNode startTag: startTag actualMessage: message endTa
 
 	collectAnnotation := true.
 	[^ {self value: message}] 
-		ensure: [collectAnnotation := false]
+		ensure: [collectAnnotation := false].

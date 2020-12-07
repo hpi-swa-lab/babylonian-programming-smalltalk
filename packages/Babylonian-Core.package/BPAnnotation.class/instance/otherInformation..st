@@ -1,4 +1,4 @@
 accessing
 otherInformation: anObject
 
-	otherInformation := anObject
+	otherInformation := anObject.

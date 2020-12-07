@@ -14,4 +14,4 @@ step
 			ifFalse: [self updateFrom: self emptyTraces].
 		displayedTraces := newTraces].
 	
-	self owner owner changed
+	self owner owner changed.

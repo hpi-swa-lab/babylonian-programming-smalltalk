@@ -10,4 +10,4 @@ buildCodePaneWith: aBuilder
 			structure of the browser"
 			textSpec := spec children last].
 	textSpec stylerClass: BPStyler.
-	^ spec.
+	^ spec

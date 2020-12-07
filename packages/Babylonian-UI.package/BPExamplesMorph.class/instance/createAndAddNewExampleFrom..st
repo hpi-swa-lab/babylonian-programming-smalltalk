@@ -15,4 +15,4 @@ createAndAddNewExampleFrom: aClass
 		newFor: newExample 
 		in: self containingBrowser methodReference).
 		
-	self codeContentChanged
+	self codeContentChanged.

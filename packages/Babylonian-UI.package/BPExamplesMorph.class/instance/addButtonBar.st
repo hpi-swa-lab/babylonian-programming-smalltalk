@@ -10,5 +10,5 @@ addButtonBar
 		vResizing: #shrinkWrap;
 		hResizing: #shrinkWrap;
 		yourself.
-	self addMorphBack: buttonBar
+	self addMorphBack: buttonBar.
 	

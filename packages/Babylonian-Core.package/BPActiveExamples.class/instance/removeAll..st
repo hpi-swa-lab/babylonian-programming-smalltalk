@@ -1,4 +1,4 @@
 accessing
 removeAll: bpExamples
 	
-	mutex critical: [bpExamples do: [:anExample | self remove: anExample]]
+	mutex critical: [bpExamples do: [:anExample | self remove: anExample]].

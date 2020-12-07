@@ -3,12 +3,12 @@ updateExpressionMorphIfNecessary
 	
 	self annotation hasExpression 
 		ifTrue: [
-			addExpressionMorph ifNotNil: [:m | m abandon].
+			addExpressionMorph ifNotNil: [:aMorph | aMorph abandon].
 			expressionMorph ifNil: [
 				expressionMorph := self newExpressionMorph.
 				widgetsMorph addMorphBack: expressionMorph]]
 		ifFalse: [
-			expressionMorph ifNotNil: [:m | m abandon].
+			expressionMorph ifNotNil: [:aMorph | aMorph abandon].
 			addExpressionMorph ifNil: [
 				addExpressionMorph := self newAddExpressionMorph.
-				widgetsMorph addMorphBack: addExpressionMorph]]
+				widgetsMorph addMorphBack: addExpressionMorph]].

@@ -1,4 +1,4 @@
 accessing
 example: anObject
 
-	example := anObject
+	example := anObject.

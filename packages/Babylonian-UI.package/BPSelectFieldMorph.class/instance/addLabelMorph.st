@@ -8,4 +8,4 @@ addLabelMorph
 	labelMorph color: (PluggableTextMorph basicNew userInterfaceTheme textColor).
 	labelMorph lock.
 	
-	self addMorphBack: labelMorph
+	self addMorphBack: labelMorph.

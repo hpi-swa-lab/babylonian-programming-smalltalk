@@ -6,4 +6,4 @@ preserveSelectorIfPossibleSurrounding: aBlock
 	aClass := self selectedClassOrMetaClass.
 	aSelector := self selectedMessageName.
 	aBlock value.
-	self maybeReselectClass: aClass selector: aSelector
+	self maybeReselectClass: aClass selector: aSelector.

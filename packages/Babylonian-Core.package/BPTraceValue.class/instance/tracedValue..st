@@ -1,4 +1,4 @@
 accessing
 tracedValue: anObject
 
-	tracedValue := anObject
+	tracedValue := anObject.

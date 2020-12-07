@@ -6,4 +6,4 @@ layoutChanged
 		ifTrue: [
 			"We are in a text morph"
 			self owner releaseParagraph.
-			self owner editView restoreSelectionInterval]
+			self owner editView restoreSelectionInterval].

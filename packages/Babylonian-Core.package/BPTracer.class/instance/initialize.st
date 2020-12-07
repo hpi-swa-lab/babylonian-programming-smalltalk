@@ -8,4 +8,4 @@ initialize
 	sendCounter := IdentityDictionary new.
 	
 	"Required as the send recorder expects us to provide the record for a context"
-	sendRecords := IdentityDictionary new
+	sendRecords := IdentityDictionary new.

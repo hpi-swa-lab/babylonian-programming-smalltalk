@@ -13,6 +13,6 @@ testStylerSetsAnchorForSlider
 		
 	attributes := formattedSourceCode attributesAt: (formattedSourceCode asString lastIndexOf: Character startOfHeader).
 	attributes := attributes select: [:a | a isKindOf: TextAnchor].
-	self assert: (attributes first anchoredMorph isKindOf: BPSliderMorph)
+	self assert: (attributes first anchoredMorph isKindOf: BPSliderMorph).
 	
 	

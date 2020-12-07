@@ -3,14 +3,14 @@
 		"isAbstract" : "pre 9/25/2020 10:15" },
 	"instance" : {
 		"filterValues:throughSliderForTrace:" : "pre 9/28/2020 11:21",
-		"initialize" : "jb 12/3/2020 22:48",
-		"listenToSlider:" : "jb 12/3/2020 22:48",
+		"initialize" : "jb 12/7/2020 18:59",
+		"listenToSlider:" : "jb 12/7/2020 18:59",
 		"newExampleLabelMorphFor:" : "pre 9/25/2020 17:22",
 		"newExampleLineMorph" : "jb 12/3/2020 22:48",
 		"newTracesMorph" : "jb 12/3/2020 22:48",
 		"newWidgetsMorph" : "pre 9/25/2020 17:27",
-		"removeLinesWithoutCurrentTrace:" : "jb 12/3/2020 23:28",
-		"step" : "jb 12/3/2020 23:28",
+		"removeLinesWithoutCurrentTrace:" : "jb 12/7/2020 19:00",
+		"step" : "jb 12/7/2020 19:00",
 		"stepTime" : "pre 8/20/2020 17:35",
-		"update:" : "jb 12/3/2020 22:48",
-		"updateFrom:" : "pre 9/25/2020 10:17" } }
+		"update:" : "jb 12/7/2020 19:00",
+		"updateFrom:" : "jb 12/7/2020 19:00" } }

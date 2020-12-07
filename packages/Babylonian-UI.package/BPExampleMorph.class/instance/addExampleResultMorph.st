@@ -8,4 +8,4 @@ addExampleResultMorph
 		actionSelector: #value;
 		yourself.
 	self setExecutionResultButtonContentToInitialState.
-	self addMorphBack: executionResultButton
+	self addMorphBack: executionResultButton.
