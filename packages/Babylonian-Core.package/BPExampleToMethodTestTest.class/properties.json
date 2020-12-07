@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-Core-Serializing-Test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPExampleToMethodTestTest",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
