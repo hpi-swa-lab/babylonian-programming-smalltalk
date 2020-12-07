@@ -3,8 +3,8 @@
 		 },
 	"instance" : {
 		"ensureLineMorphFor:" : "jb 12/3/2020 23:29",
-		"exploreButtonClickedFor:" : "jb 12/3/2020 23:30",
-		"haltButtonClickedFor:and:" : "pre 9/29/2020 16:12",
+		"exploreButtonClickedFor:" : "jb 12/7/2020 19:00",
+		"haltButtonClickedFor:and:" : "jb 12/7/2020 19:00",
 		"iconForValue:" : "pre 10/6/2020 09:21",
 		"isProbe" : "pre 7/3/2019 11:11",
 		"newAddExpressionMorph" : "jb 12/3/2020 22:49",
@@ -16,7 +16,7 @@
 		"noValuesText" : "pre 7/7/2020 16:38",
 		"relevantTracesOf:do:" : "pre 11/18/2019 12:47",
 		"setExpressionButtonClicked" : "pre 9/22/2020 10:05",
-		"updateExpressionMorphIfNecessary" : "pre 9/22/2020 10:04",
-		"updateFrom:" : "jb 12/3/2020 23:30",
+		"updateExpressionMorphIfNecessary" : "jb 12/7/2020 19:00",
+		"updateFrom:" : "jb 12/7/2020 19:01",
 		"valueMorphFor:" : "pre 10/12/2020 18:00",
 		"valuesMorphFor:" : "jb 12/3/2020 23:30" } }

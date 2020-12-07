@@ -1,4 +1,4 @@
 accessing
 currentAnnotation: anObject
 
-	currentAnnotation := anObject
+	currentAnnotation := anObject.

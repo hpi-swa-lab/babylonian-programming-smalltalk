@@ -9,4 +9,4 @@ testExampleNestedReplacementsDoWork
 	
 	example := method bpExamples second.
 	result := [BPTestManuallyInstrumentedClass new methodAWithExamplesAndNestedReplacement] bpTraceForExample: example.
-	self assert: 10 equals: (result valuesForProbeId: 10) first tracedValue
+	self assert: 10 equals: (result valuesForProbeId: 10) first tracedValue.

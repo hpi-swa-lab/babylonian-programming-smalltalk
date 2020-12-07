@@ -5,4 +5,4 @@ testAssertionsCanUseTheExpressionResult
 	method := BPTestManuallyInstrumentedClass>>#methodAWithAssertionWithNonBooleanResult.
 	example := method bpExamples first.
 	result := [BPTestManuallyInstrumentedClass new methodAWithAssertionWithNonBooleanResult] bpTraceForExample: example.
-	self assert: false equals: (result resultsForAssertionId: 5) first tracedValue
+	self assert: false equals: (result resultsForAssertionId: 5) first tracedValue.

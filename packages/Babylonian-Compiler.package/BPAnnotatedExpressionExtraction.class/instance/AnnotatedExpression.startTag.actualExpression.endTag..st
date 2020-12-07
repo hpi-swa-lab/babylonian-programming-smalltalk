@@ -3,4 +3,4 @@ AnnotatedExpression: aNode startTag: startTag actualExpression: expression endTa
 
 	collectAnnotation := true.
 	[^ {self value: expression}] 
-		ensure: [collectAnnotation := false]
+		ensure: [collectAnnotation := false].

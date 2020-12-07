@@ -10,4 +10,4 @@ testRewritingLeftHandOfAssignmentProbeMultipleVariables
 'method
 	<layer: #bpInstrumented>
 	| variable |
-	(self bpTraceAssignmentOf: [variable1 := variable2 := 2 raisedTo: 3] before: {''variable1'' . variable1 . ''variable2'' . variable2} forProbe: 1 inContext: thisContext)'
+	(self bpTraceAssignmentOf: [variable1 := variable2 := 2 raisedTo: 3] before: {''variable1'' . variable1 . ''variable2'' . variable2} forProbe: 1 inContext: thisContext)'.

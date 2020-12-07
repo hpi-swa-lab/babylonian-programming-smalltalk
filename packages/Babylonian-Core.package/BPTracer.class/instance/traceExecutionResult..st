@@ -1,4 +1,4 @@
 private
 traceExecutionResult: anExecutionResult
 	
-	trace traceExecutionResult: anExecutionResult
+	trace traceExecutionResult: anExecutionResult.

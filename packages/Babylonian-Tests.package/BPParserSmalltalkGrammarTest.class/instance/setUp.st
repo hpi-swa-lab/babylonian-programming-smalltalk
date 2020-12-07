@@ -1,4 +1,4 @@
 running
 setUp
 
-	grammar := PEGParserBPSmalltalk new
+	grammar := PEGParserBPSmalltalk new.

@@ -1,4 +1,4 @@
 accessing
 executionResult: anExecutionResult
 	
-	executionResult:= anExecutionResult
+	executionResult:= anExecutionResult.

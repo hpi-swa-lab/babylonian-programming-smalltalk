@@ -8,5 +8,5 @@ for: trace selectContextAt: index
 		ifFalse: [self selectedContextPerExample 
 					at: trace example 
 					put: ((trace runsForBlockId: self id) at: index) stack first].
-	self changed: #filterContext
+	self changed: #filterContext.
 	

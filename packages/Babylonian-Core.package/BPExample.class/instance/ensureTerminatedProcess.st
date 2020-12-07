@@ -1,4 +1,4 @@
 tracing
 ensureTerminatedProcess
 
-	traceInformation terminateTracingProcess
+	traceInformation terminateTracingProcess.

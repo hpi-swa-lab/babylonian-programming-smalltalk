@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addButtonBar" : "jb 12/3/2020 22:47",
-		"addCreateExampleButtonLabeled:selector:" : "pre 10/6/2020 11:54",
-		"addExampleButtonClicked" : "pre 9/30/2020 11:12",
-		"addNewExampleAnnotation:" : "jb 12/3/2020 22:47",
-		"addScriptExampleButtonClicked" : "pre 9/30/2020 11:12",
-		"createAndAddNewExampleFrom:" : "jb 12/3/2020 22:47",
+		"addButtonBar" : "jb 12/7/2020 18:59",
+		"addCreateExampleButtonLabeled:selector:" : "jb 12/7/2020 18:59",
+		"addExampleButtonClicked" : "jb 12/7/2020 18:59",
+		"addNewExampleAnnotation:" : "jb 12/7/2020 18:59",
+		"addScriptExampleButtonClicked" : "jb 12/7/2020 18:59",
+		"createAndAddNewExampleFrom:" : "jb 12/7/2020 18:59",
 		"exampleAnnotations" : "pre 8/24/2020 17:10",
-		"exampleAnnotations:" : "jb 12/3/2020 23:24",
-		"initialize" : "pre 9/30/2020 11:06" } }
+		"exampleAnnotations:" : "jb 12/7/2020 18:59",
+		"initialize" : "jb 12/7/2020 18:59" } }

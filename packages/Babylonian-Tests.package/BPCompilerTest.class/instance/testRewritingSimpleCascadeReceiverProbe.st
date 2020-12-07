@@ -8,4 +8,4 @@ testRewritingSimpleCascadeReceiverProbe
 		to:
 'method
 	<layer: #bpInstrumented>
-	(self bpTrace: [2] forProbe: 1 inContext: thisContext) negated; moreNegated'
+	(self bpTrace: [2] forProbe: 1 inContext: thisContext) negated; moreNegated'.

@@ -1,4 +1,4 @@
 accessing
 then: anObject
 
-	then := anObject
+	then := anObject.

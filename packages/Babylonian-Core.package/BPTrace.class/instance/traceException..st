@@ -2,4 +2,4 @@ recording
 traceException: anException
 
 	exampleErrored := true.
-	recordedException := anException
+	recordedException := anException.

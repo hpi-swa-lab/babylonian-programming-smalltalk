@@ -1,4 +1,4 @@
 running
 runCase
 
-	SystemChangeNotifier uniqueInstance doSilently: [super runCase]
+	SystemChangeNotifier uniqueInstance doSilently: [super runCase].

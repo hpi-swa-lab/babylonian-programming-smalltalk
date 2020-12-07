@@ -3,4 +3,4 @@ testOtherCommentsAreStillComments
 
 	startRule := #comment.
 
-	self shouldParseAll: {'"any comment"' . '"s<test>"' . '" <"'}
+	self shouldParseAll: {'"any comment"' . '"s<test>"' . '" <"'}.

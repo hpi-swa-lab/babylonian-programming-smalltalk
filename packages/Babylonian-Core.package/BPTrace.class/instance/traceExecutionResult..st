@@ -1,4 +1,4 @@
 recording
 traceExecutionResult: anExecutionResult
 	
-	executionResult := anExecutionResult
+	executionResult := anExecutionResult.

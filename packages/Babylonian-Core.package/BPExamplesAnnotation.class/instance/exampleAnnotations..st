@@ -1,4 +1,4 @@
 accessing
 exampleAnnotations: anObject
 
-	exampleAnnotations := anObject
+	exampleAnnotations := anObject.

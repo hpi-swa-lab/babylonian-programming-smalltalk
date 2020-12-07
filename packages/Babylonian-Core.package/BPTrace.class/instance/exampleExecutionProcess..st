@@ -1,4 +1,4 @@
 accessing
 exampleExecutionProcess: aProcess
 
-	exampleExecutionProcess := aProcess
+	exampleExecutionProcess := aProcess.

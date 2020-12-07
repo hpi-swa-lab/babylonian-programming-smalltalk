@@ -11,4 +11,4 @@ testAnnotatedAssignments
 	self 
 		shouldParse: '"<bpProbe id: 1>"variable := 2"</bpProbe>"'
 		to: #(Statement
-				(AnnotatedStatement '"<bpProbe id: 1>"variable := 2"</bpProbe>"'))
+				(AnnotatedStatement '"<bpProbe id: 1>"variable := 2"</bpProbe>"')).

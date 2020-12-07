@@ -1,4 +1,4 @@
 accessing
 recordedException: anObject
 
-	recordedException := anObject
+	recordedException := anObject.

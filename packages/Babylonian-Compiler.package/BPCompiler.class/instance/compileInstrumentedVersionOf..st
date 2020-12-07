@@ -9,7 +9,7 @@ compileInstrumentedVersionOf: aCue
 		ifTrue: [
 			self backgroundCompileInstrumentedVersionOf: aCue basedOn: parseResult.
 			^ true]
-		ifFalse: [^ false]
+		ifFalse: [^ false].
 	
 	
 	

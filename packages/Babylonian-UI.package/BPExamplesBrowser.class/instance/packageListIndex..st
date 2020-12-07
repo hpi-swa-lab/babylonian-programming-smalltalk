@@ -6,4 +6,4 @@ packageListIndex: anObject
 	self exampleListIndex: 0.
 	self 
 		changed: #packageListIndex;
-		changed: #exampleList
+		changed: #exampleList.

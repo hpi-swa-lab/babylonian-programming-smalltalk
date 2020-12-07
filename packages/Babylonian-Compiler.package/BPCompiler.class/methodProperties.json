@@ -4,11 +4,11 @@
 		"exampleTextAnchor" : "pre 11/8/2019 12:05" },
 	"instance" : {
 		"annotationKeywords" : "pre 11/8/2019 20:29",
-		"backgroundCompileInstrumentedVersionOf:basedOn:" : "jb 12/3/2020 23:08",
+		"backgroundCompileInstrumentedVersionOf:basedOn:" : "jb 12/7/2020 18:00",
 		"compile:ifFail:" : "jb 12/3/2020 22:35",
-		"compileInstrumentedVersionOf:" : "jb 12/3/2020 22:28",
+		"compileInstrumentedVersionOf:" : "jb 12/7/2020 18:00",
 		"keywords" : "pre 7/26/2019 14:00",
 		"methodSourceRequiresBPLayers:" : "pre 11/11/2019 15:49",
 		"parse:" : "jb 12/3/2020 22:29",
 		"rewriteToSource:" : "pre 8/17/2020 08:54",
-		"rewriter" : "pre 3/5/2020 18:20" } }
+		"rewriter" : "jb 12/7/2020 18:03" } }

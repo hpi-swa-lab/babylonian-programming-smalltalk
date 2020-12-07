@@ -1,4 +1,4 @@
 tests
 testRewritingErrorOnIncompleteExpressionProbe
 
-	self fail
+	self fail.

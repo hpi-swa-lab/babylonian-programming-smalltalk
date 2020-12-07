@@ -1,4 +1,4 @@
 accessing
 parent: anObject
 
-	parent := anObject
+	parent := anObject.

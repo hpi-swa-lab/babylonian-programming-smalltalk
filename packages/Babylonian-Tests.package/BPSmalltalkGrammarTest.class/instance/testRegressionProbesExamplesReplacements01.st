@@ -17,4 +17,4 @@ testRegressionProbesExamplesReplacements01
 			ifFalse: [
 				anElement > (self at: index)
 					ifTrue: [ low := index + 1 ]
-					ifFalse: [ ^ "<bpProbe id: 5475766>"index"</bpProbe>" ]]].'
+					ifFalse: [ ^ "<bpProbe id: 5475766>"index"</bpProbe>" ]]].'.

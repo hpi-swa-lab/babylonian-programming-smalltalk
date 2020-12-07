@@ -1,4 +1,4 @@
 accessing
 tracingProcess: anObject
 
-	tracingProcess := anObject
+	tracingProcess := anObject.

@@ -1,4 +1,4 @@
 accessing
 ruleName: anObject
 
-	ruleName := anObject
+	ruleName := anObject.

@@ -9,4 +9,4 @@ updateMorphs
 		addExampleNameMorph;
 		addExampleSpecificMorphs;
 		addExampleResultMorph;
-		addDeleteButtonMorph
+		addDeleteButtonMorph.

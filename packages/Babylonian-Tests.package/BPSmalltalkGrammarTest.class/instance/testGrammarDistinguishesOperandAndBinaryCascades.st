@@ -7,4 +7,4 @@ testGrammarDistinguishesOperandAndBinaryCascades
 			Expression (NormalExpression
 				(NormalExpression_operandCascade
 					(Operand (NormalOperand '1'))
-					(CascadedMessages '+ 2 negated; negated'))))
+					(CascadedMessages '+ 2 negated; negated')))).

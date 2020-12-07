@@ -18,4 +18,4 @@ traceToHaltAt: probeId
 					fullView: true]].
 	exampleExecution 
 		forkAt: Processor userSchedulingPriority + 1
-		named: 'Execution to halt of example ' , self exampleName
+		named: 'Execution to halt of example ' , self exampleName.

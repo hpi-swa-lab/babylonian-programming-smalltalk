@@ -11,4 +11,4 @@ testRewritingNestedBlockSlider
 	<layer: #bpInstrumented>
 	#(a b c) do: [:v | | c | self bpBlock: 123123 enteredAt: thisContext.
 #(1 2 3) select: [:x | self bpBlock: 111111 enteredAt: thisContext.
-x > 2]]'
+x > 2]]'.
