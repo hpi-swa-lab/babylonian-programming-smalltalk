@@ -1,4 +1,4 @@
-as yet unclassified
+serialization
 asPragma
 	
 	^ '<', self pragmaStart ,' ''{1}''{2}{3}{4}>' format: {

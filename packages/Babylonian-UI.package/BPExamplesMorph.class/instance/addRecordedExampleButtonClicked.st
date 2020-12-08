@@ -1,0 +1,4 @@
+adding examples
+addRecordedExampleButtonClicked
+	
+	self createAndAddNewExampleFrom: BPRecordedExample

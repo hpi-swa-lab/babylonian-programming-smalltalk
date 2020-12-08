@@ -14,6 +14,7 @@ extractMessageSendRecorder
   		after: { [:record :rcvr :args :result :context | "record extension returnValue: result" ] }.
 		
 	recorder record.
+	^ recorder topRecord 
 	"self example receiver: recorder topRecord children first children first extension receiverObject.
 	self example arguments: recorder topRecord children first children first extension argumentObjects."
 	"recorder topRecord inspect."

@@ -1,0 +1,4 @@
+as yet unclassified
+updateRecordingButtonLabel
+
+	recordingButton label: self isRecordingButtonString
