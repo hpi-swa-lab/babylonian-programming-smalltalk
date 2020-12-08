@@ -1,4 +1,4 @@
-private - serializing
+as yet unclassified
 serializedMethodCategory
 
 	^ #tests

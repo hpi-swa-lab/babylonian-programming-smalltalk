@@ -1,6 +1,6 @@
 tracing
 execute
 	
-	^ self newReceiver 
+	^self newReceiver 
 		perform: self method selector 
 		withArguments: self newArguments

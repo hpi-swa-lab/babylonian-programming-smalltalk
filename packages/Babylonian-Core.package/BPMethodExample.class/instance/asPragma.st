@@ -1,8 +1,9 @@
 serialization
 asPragma
-
-	^ '<exampleNamed: ''{1}''{2}{3}{4}>' format: {
-		self exampleName .
+	
+	^ '<exampleNamed: ''{1}''{2}{3}{4}{5}>' format: {
+		self exampleName.
+		' expectedResult: ' , self expectedResult printString.
 		self isActive ifFalse: [''] ifTrue: [' active: true'].
 		self receiverConstructor ifNil: [''] ifNotNil: [:c | ' self: ' , c printString].
 		self argumentScripts ifEmpty: [''] ifNotEmpty: [(self argumentScripts collect: [:s | ' with: ' , s printString]) join]}

@@ -5,8 +5,8 @@ initializeFromPragma: aPragma
 	super initializeFromPragma: aPragma.
 
 	remainingArguments := (aPragma keyword includesSubstring: 'active:') 
-		ifTrue: [aPragma arguments allButFirst: 2]
-		ifFalse: [aPragma arguments allButFirst].
+		ifTrue: [aPragma arguments allButFirst: 3]
+		ifFalse: [aPragma arguments allButFirst: 2].
 
 	(aPragma keyword includesSubstring: 'self:') 
 		ifTrue: [self 
