@@ -1,4 +1,8 @@
 serializing
 serialized
+	"Serialize example to test-method"
+	
+	| class |
 
-	self buildClass compile: (self buildTest) classified: (self serializedMethodCategory)
+	class := self buildClass.
+	class compile: (self buildTestForClass: class) classified: (self serializedMethodCategory)

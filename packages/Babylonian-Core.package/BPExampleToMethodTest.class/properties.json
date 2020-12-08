@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "pm 12/7/2020 12:07",
+	"commentStamp" : "pm 12/7/2020 12:08",
 	"instvars" : [
-		"example" ],
-	"name" : "BPExampleToTest",
+		 ],
+	"name" : "BPExampleToMethodTest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "BPExampleToTest",
 	"type" : "normal" }

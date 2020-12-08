@@ -1,13 +1,13 @@
 {
-	"category" : "Babylonian-Core-Serializing",
+	"category" : "Babylonian-Core-Serializing-Test",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "pm 12/7/2020 12:07",
+	"commentStamp" : "",
 	"instvars" : [
-		"example" ],
-	"name" : "BPExampleToTest",
+		 ],
+	"name" : "BPExampleToMethodTestTest",
 	"pools" : [
 		 ],
 	"super" : "Object",
