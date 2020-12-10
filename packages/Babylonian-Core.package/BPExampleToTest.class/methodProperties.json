@@ -1,11 +1,11 @@
 {
 	"class" : {
-		"forExample:" : "pm 12/7/2020 11:20" },
+		"forExample:" : "pm 12/10/2020 10:07" },
 	"instance" : {
 		"buildClass" : "pm 12/7/2020 15:31",
 		"buildMethod" : "pm 12/7/2020 16:47",
 		"buildMethodCall" : "pm 12/7/2020 12:09",
-		"buildTestForClass:" : "pm 12/7/2020 16:47",
+		"buildTestForClass:" : "pm 12/10/2020 10:02",
 		"buildTestNameForClass:" : "pm 12/7/2020 16:39",
 		"combineMethod:withParameters:" : "pm 12/7/2020 15:56",
 		"example" : "pm 11/30/2020 18:50",
@@ -19,4 +19,4 @@
 		"serializedMethodParameters" : "pm 11/30/2020 21:23",
 		"serializedReceiverConstructor" : "pm 11/30/2020 21:23",
 		"serializedTestName" : "pm 11/30/2020 21:23",
-		"testComment" : "pm 12/7/2020 16:16" } }
+		"testComment" : "pm 12/10/2020 09:54" } }
