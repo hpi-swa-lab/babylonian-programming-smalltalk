@@ -10,7 +10,7 @@ addExampleSpecificMorphs
 			height: self smallFontHeight;
 			color: self color;
 			borderWidth: 2;
-			label: 'e';
+			label: 't';
 			target: self;
 			actionSelector: #findExamples;
 			yourself)

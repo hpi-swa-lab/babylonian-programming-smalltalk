@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addRecordingButton" : "ek 12/8/2020 22:31",
+		"exampleMorph" : "ek 12/8/2020 13:27",
+		"exampleMorph:" : "ek 12/8/2020 13:27",
+		"initialize" : "ek 12/9/2020 11:04",
+		"isRecordingButtonString" : "ek 12/8/2020 14:01",
+		"newTopRecord:" : "ek 12/8/2020 14:37",
+		"startRecording" : "ek 12/8/2020 14:03",
+		"stopRecording" : "ek 12/8/2020 14:03",
+		"toggleRecording" : "ek 12/8/2020 14:08",
+		"updateRecordingButtonLabel" : "ek 12/8/2020 14:01" } }

@@ -1,0 +1,5 @@
+accessing
+exampleMorph
+	
+
+	^ exampleMorph 

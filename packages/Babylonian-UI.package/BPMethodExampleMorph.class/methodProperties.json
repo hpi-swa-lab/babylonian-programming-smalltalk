@@ -3,6 +3,9 @@
 		 },
 	"instance" : {
 		"addArgumentScriptMorphs" : "pre 10/8/2020 10:48",
-		"addExampleSpecificMorphs" : "pre 9/30/2020 10:37",
-		"addReceiverConstructorMorph" : "pre 10/8/2020 10:52",
-		"selectLiveSpecimenThen:" : "pre 7/10/2020 18:24" } }
+		"addExampleSpecificMorphs" : "ek 12/8/2020 13:29",
+		"addReceiverConstructorMorph" : "ek 12/8/2020 13:44",
+		"addRecordingButton" : "ek 12/8/2020 13:30",
+		"openRecordingTool" : "ek 12/8/2020 14:18",
+		"selectLiveSpecimenThen:" : "pre 7/10/2020 18:24",
+		"setReceiverSpecimen:andPotentiallyArgumentSpecimen:" : "ek 12/8/2020 14:43" } }

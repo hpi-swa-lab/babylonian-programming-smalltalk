@@ -7,5 +7,5 @@ stopRecording
 	self wrappers do: [:wrapper | wrapper uninstall].
 	self collectArgumentNames.
 	self fixDuration.		
-	"self triggerEvent: #recordingEnded"
-	self exampleMorph updateExample: self topRecord
+
+	self exampleMorph newTopRecord: self topRecord
