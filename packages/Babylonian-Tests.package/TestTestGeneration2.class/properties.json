@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-Tests-Fixtures-Test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TestTestGeneration2",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

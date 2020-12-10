@@ -10,3 +10,7 @@ step
 	(trace notNil and: [trace hasTraceCompleted not])
 		ifTrue: [self ensureLoaderIcon]
 		ifFalse: [self ensureNoLoaderIcon].
+		
+	(trace notNil and: [trace hasTraceCompleted])
+		ifTrue: [self setExecutionResultButtonContentForTrace: trace]
+		ifFalse: [self setExecutionResultButtonContentToInitialState]
