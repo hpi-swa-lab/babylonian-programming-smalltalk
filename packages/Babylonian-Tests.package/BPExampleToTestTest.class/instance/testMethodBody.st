@@ -1,5 +1,5 @@
 tests
 testMethodBody
 	
-	self assert: ((BPExampleToTest forExample: (BPExampleToTestTest createMockExample)) buildMethod) 
-		equals:  '(Thing new) doBla: 2 with: 42'
+	self assert: '(Thing new) doBla: 2 with: 42'
+		equals: ((BPExampleToTest forExample: (BPExampleToTestTest createMockExample)) buildMethod).
