@@ -15,7 +15,6 @@
 		"testTracingAnErrorShouldNotLeakAnyExceptions" : "jb 12/7/2020 19:11",
 		"testTracingExecutesMethodOnTheConstructedReceiver" : "jb 12/7/2020 19:11",
 		"testTracingOfAssignments" : "jb 12/7/2020 19:11",
-		"testTracingOfExecutionResult" : "jb 12/7/2020 19:11",
 		"testTracingRecordsASerializedStack" : "jb 12/7/2020 19:11",
 		"testTracingRecordsValues" : "jb 12/7/2020 19:11",
 		"testTracingRecordsValuesInReplacementsBaseCase" : "jb 12/7/2020 19:11",
