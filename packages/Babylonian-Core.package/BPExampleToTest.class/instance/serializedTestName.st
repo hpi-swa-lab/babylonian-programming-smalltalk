@@ -1,4 +1,4 @@
-as yet unclassified
+private - serializing
 serializedTestName
 
 	^ self example exampleName asCamelCase

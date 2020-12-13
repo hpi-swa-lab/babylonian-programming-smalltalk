@@ -1,4 +1,4 @@
-as yet unclassified
+private - serializing
 serializedClassName
 
 	^ (self method methodClass asString, 'Test') asSymbol

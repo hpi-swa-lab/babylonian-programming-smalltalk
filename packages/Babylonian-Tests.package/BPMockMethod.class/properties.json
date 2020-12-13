@@ -1,0 +1,16 @@
+{
+	"category" : "Babylonian-Tests-Core-Serializing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"methodName",
+		"className",
+		"classCategory" ],
+	"name" : "BPMockMethod",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

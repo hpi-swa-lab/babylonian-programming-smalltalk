@@ -1,5 +1,5 @@
 instance-creation
 forExample: anExample
 
-	^ BPExampleToTest new
+	^ self new
 		example: anExample
