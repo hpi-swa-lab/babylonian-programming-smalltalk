@@ -9,4 +9,4 @@ addLiveSpecimenSelectionMorphFor: anEditField withTarget: aTarget
 		label: 's';
 		target: aTarget;
 		actionSelector: #value;
-		yourself)
+		yourself).

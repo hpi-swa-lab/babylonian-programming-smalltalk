@@ -26,5 +26,5 @@ testRenderingExample
 	renderedSource := source asBPSource.
 	self assert: 'method
 	<exampleNamed: ''example 1'' expectedResult: ''5'' self: #tester with: ''Object new'' with: #(1 2 3) with: nil>
-^ 2 + 3' equals: renderedSource.
+^ 2 + 3' equals: renderedSource
 	
