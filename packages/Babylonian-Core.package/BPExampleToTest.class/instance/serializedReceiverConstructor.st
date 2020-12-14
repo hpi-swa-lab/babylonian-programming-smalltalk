@@ -1,4 +1,8 @@
 private - serializing
 serializedReceiverConstructor
+	| constructor |
 
-	^ self example receiverConstructor asString
+	constructor := self example receiverConstructor.
+	^ constructor isSymbol ifTrue: [
+		self example method methodClass asString, ' ', constructor
+	] ifFalse: [constructor]
