@@ -1,6 +1,5 @@
 {
 	"class" : {
-		 },
+		"canSerialize:" : "jb 12/13/2020 23:45" },
 	"instance" : {
-		"buildAssertion" : "pm 12/7/2020 11:53",
-		"buildMethod" : "pm 12/7/2020 16:48" } }
+		"buildMethodBody" : "jb 12/14/2020 00:42" } }

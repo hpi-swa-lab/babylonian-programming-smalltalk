@@ -1,4 +1,4 @@
 private - serializing
 serializedClassName
 
-	^ (self method methodClass asString, 'Test') asSymbol
+	^ (self example method methodClass asString, 'Test') asSymbol

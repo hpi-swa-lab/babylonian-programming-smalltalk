@@ -1,5 +1,5 @@
 serializing
-serialized
+serialize
 	"Serialize example to test-method"
 	
 	| class |

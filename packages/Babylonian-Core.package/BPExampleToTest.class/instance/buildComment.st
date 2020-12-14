@@ -1,4 +1,4 @@
-private - serializing
-testComment
+building
+buildComment
 
 	^ '"Generated from an example, do not modify"'

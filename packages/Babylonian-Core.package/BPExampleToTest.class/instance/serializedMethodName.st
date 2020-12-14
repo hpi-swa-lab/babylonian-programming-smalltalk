@@ -1,4 +1,4 @@
 private - serializing
 serializedMethodName
 
-	^ self example method selector asString
+	^ self example methodName

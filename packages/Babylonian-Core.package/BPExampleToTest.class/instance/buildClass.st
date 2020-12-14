@@ -3,7 +3,7 @@ buildClass
 
 	^ Smalltalk 
 		at: (self serializedClassName asSymbol) 
-		ifAbsent: [Object 
+		ifAbsent: [TestCase 
 			subclass: (self serializedClassName asSymbol)
 			instanceVariableNames: ''
 			classVariableNames: ''

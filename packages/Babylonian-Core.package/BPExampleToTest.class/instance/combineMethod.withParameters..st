@@ -4,8 +4,8 @@ combineMethod: aMethodString withParameters: aParameterArray
 	example: combineMethod: 'do:with:' withParameters: #(2 3) --> 'do: 2 with: 3'"
 	
 	| methodParts |
-	
 	methodParts := (aMethodString splitBy: ':') allButLast.
+	methodParts isEmpty ifTrue: [^ aMethodString].
 	
 	^ (methodParts size = aParameterArray size) 
 		ifTrue: [

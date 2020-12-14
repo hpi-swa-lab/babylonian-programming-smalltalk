@@ -1,4 +1,4 @@
-private - serializing
+building
 buildTestNameForClass: aClass
 
 	| coreName number |
