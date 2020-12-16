@@ -4,7 +4,7 @@ checkAndConvertValuesMorphIfNecessary: valuesMorph
 	|scrollPane|
 	scrollPane := ScrollPane new.
 	scrollPane scroller addMorph: valuesMorph.
-	scrollPane width: 300.
+	scrollPane hResizing: #spaceFill.
 	scrollPane color: Color transparent.
 	scrollPane vScrollBarPolicy: #never.
 	scrollPane showHScrollBarOnlyWhenNeeded.

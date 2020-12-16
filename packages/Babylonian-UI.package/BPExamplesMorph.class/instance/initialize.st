@@ -9,7 +9,6 @@ initialize
 		borderColor: Color veryLightGray. 
 		
 	self
-		hResizing: #shrinkWrap;
 		changeTableLayout;
 		listDirection: #topToBottom;
 		cellInset: 1.

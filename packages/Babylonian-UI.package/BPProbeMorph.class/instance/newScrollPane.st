@@ -12,7 +12,7 @@ newScrollPane
 		borderWidth: 0;
 		changeTableLayout;
 		listDirection: #topToBottom;
-		hResizing: #shrinkWrap;
+		hResizing: #spaceFill;
 		vResizing: #shrinkWrap;
 		yourself.
 	
@@ -27,6 +27,7 @@ newScrollPane
 		width: 300;
 		color: Color transparent;
 		borderWidth: 0;
+		hResizing: #spaceFill;
 		vScrollBarPolicy: #never;
 		showHScrollBarOnlyWhenNeeded;
 		scrollBarThickness: self scrollBarSize;

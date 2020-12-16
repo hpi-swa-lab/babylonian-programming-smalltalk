@@ -9,7 +9,7 @@ initialize
 		cellPositioning: #topLeft;
 		listDirection: #leftToRight;
 		hResizing: #rigid;
-		width: 440;
+		width: 370;
 		vResizing: #shrinkWrap;
 		cellInset: 2; 
 		layoutInset: 2.
