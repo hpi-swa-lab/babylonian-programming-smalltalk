@@ -3,4 +3,4 @@ parse: code
 
 	^ BPSmalltalkGrammar
 				match: code
-				startingFrom: #MethodDeclaration.
+				startingFrom: #MethodDeclaration

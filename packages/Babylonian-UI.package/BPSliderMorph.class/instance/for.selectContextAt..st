@@ -1,7 +1,6 @@
 private
 for: trace selectContextAt: index
 	
-
 	index = 0 
 		ifTrue: [self selectedContextPerExample 
 					removeKey: trace example 

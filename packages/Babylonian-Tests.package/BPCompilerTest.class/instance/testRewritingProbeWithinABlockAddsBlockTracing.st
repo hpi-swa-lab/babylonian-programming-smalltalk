@@ -10,4 +10,4 @@ testRewritingProbeWithinABlockAddsBlockTracing
 'method
 	<layer: #bpInstrumented>
 	<exampleNamed: ''example 1''>
-	true ifTrue: [(self bpTrace: [2 + 3] forProbe: 1 inContext: thisContext)].'
+	true ifTrue: [(self bpTrace: [2 + 3] forProbe: 1 inContext: thisContext)].'.

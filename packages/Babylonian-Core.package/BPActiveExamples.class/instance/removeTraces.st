@@ -1,4 +1,4 @@
 tracing
 removeTraces
 
-	self examples do: [:example | example removeTrace]
+	self examples do: [:example | example removeTrace].

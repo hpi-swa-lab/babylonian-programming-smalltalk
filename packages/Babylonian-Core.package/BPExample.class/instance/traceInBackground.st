@@ -1,12 +1,13 @@
 tracing
 traceInBackground
-
+	
 	| exampleExecution promise |
 	traceInformation terminateTracingProcess.
 	promise := Promise new.
 	promise whenResolved: [:trace |
 		Project current addDeferredUIMessage: [traceInformation trace: trace]].
-	exampleExecution := [[self traceAsyncNotifying: [:intermediateTrace | promise resolveWith: intermediateTrace]]
+	exampleExecution := [[
+		self traceAsyncNotifying: [:intermediateTrace | promise resolveWith: intermediateTrace]]
 		on: BPExampleExecutionInterrupted
 		do: [:e | 
 			"We need to remember this in order to terminate example processes

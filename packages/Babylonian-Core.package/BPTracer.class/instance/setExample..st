@@ -1,4 +1,4 @@
 private - initialize
 setExample: anExample
 
-	trace example: anExample
+	trace example: anExample.

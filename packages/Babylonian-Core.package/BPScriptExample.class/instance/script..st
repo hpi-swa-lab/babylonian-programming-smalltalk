@@ -1,4 +1,4 @@
 accessing
 script: aString
 
-	script := aString
+	script := aString.

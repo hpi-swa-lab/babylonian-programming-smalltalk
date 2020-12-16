@@ -1,6 +1,6 @@
 stepping and presenter
 step
-
+	
 	| trace |
 	trace := self example currentTrace.
 	(trace notNil and: [trace exampleErrored])

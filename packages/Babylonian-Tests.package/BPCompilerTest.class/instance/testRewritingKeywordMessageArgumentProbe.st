@@ -8,4 +8,4 @@ testRewritingKeywordMessageArgumentProbe
 		to:
 'method
 	<layer: #bpInstrumented>
-	2 raisedTo: (self bpTrace: [3] forProbe: 1 inContext: thisContext)'
+	2 raisedTo: (self bpTrace: [3] forProbe: 1 inContext: thisContext)'.

@@ -1,4 +1,4 @@
 accessing
 haltAt: aProbeId
 	
-	haltProbeId := aProbeId
+	haltProbeId := aProbeId.

@@ -5,5 +5,4 @@ initializeFromPragma: aPragma
 		method: aPragma method;
 		exampleName: aPragma arguments first.
 		
-	(aPragma keyword includesSubstring: 'active:') ifTrue: [
-		self isActive: aPragma arguments second].
+	(aPragma keyword includesSubstring: 'active:') ifTrue: [self isActive: aPragma arguments second].

@@ -1,4 +1,4 @@
 tracing
 runActiveExamples
 
-	self examples do: [:e | e traceInBackground]
+	self examples do: [:anExample | anExample traceInBackground].

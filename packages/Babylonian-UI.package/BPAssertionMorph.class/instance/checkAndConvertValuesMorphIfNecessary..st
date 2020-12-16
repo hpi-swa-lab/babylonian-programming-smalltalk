@@ -1,13 +1,12 @@
 private - ui
 checkAndConvertValuesMorphIfNecessary: valuesMorph
 	
-	|scrollPane|
-	scrollPane := ScrollPane new.
-	scrollPane scroller addMorph: valuesMorph.
-	scrollPane hResizing: #spaceFill.
-	scrollPane color: Color transparent.
-	scrollPane vScrollBarPolicy: #never.
-	scrollPane showHScrollBarOnlyWhenNeeded.
-	scrollPane scrollBarThickness: self scrollBarSize.
-	scrollPane height: valuesMorph height + self scrollBarSize.
-	^ scrollPane
+	^ ScrollPane new
+		scroller addMorph: valuesMorph;
+		width: 300;
+		color: Color transparent;
+		vScrollBarPolicy: #never;
+		showHScrollBarOnlyWhenNeeded;
+		scrollBarThickness: self scrollBarSize;
+		height: valuesMorph height + self scrollBarSize;
+		yourself

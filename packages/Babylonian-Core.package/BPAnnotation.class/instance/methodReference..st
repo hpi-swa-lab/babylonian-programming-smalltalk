@@ -1,4 +1,4 @@
 accessing
 methodReference: aMethod
 
-	methodReference := aMethod
+	methodReference := aMethod.

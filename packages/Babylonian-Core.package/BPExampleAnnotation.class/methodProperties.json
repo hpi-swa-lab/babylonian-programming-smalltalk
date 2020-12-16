@@ -1,15 +1,15 @@
 {
 	"class" : {
 		"annotationTag" : "pre 7/24/2019 11:05",
-		"newFor:in:" : "pre 8/25/2020 09:13" },
+		"newFor:in:" : "jb 12/3/2020 23:04" },
 	"instance" : {
-		"actualExample" : "pre 8/17/2020 14:21",
+		"actualExample" : "jb 12/7/2020 18:12",
 		"asMorph" : "pre 9/30/2020 10:41",
-		"canBeAnnotatedTo" : "pre 9/22/2020 18:19",
+		"canBeAnnotatedTo" : "jb 12/3/2020 22:37",
 		"enclosedExpressionSource" : "pre 7/23/2019 12:18",
 		"exampleName" : "pre 7/23/2019 11:56",
-		"exampleName:" : "pre 7/23/2019 11:56",
-		"initializeActualExample:" : "pre 8/25/2020 09:13",
+		"exampleName:" : "jb 12/7/2020 18:08",
+		"initializeActualExample:" : "jb 12/7/2020 18:08",
 		"isExample" : "pre 8/24/2020 16:43",
 		"startTag" : "pre 9/30/2020 10:50",
 		"startTagSource" : "pre 7/23/2019 11:59",

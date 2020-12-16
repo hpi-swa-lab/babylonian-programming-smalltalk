@@ -9,4 +9,4 @@ testRewritingSimpleBlockSlider
 'method
 	<layer: #bpInstrumented>
 	#(a b c) do: [:v | | c | self bpBlock: 1230123 enteredAt: thisContext.
-2 + 3]'
+2 + 3]'.

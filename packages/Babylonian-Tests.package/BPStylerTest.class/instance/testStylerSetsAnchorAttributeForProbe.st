@@ -16,4 +16,4 @@ testStylerSetsAnchorAttributeForProbe
 			assert: anchorTextAttributes notEmpty;
 			assert: anchorTextAttributes first = theTextAttribute;
 			assert: (anchorTextAttributes first anchoredMorph isKindOf: BPProbeMorph);
-			assert: anchorTextAttributes first anchoredMorph id = 31412]
+			assert: anchorTextAttributes first anchoredMorph id = 31412].

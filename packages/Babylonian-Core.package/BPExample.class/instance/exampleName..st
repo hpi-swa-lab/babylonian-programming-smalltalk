@@ -1,6 +1,6 @@
 accessing
 exampleName: aStringOrText
 
-	exampleName := aStringOrText asString
+	exampleName := aStringOrText asString.
 	
 	

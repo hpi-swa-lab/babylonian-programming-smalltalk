@@ -2,7 +2,7 @@
 	"class" : {
 		"compilerClass" : "pre 7/10/2020 15:42" },
 	"instance" : {
-		"runCase" : "pre 7/10/2020 15:23",
-		"setUp" : "pre 7/10/2020 15:44",
-		"tearDown" : "pre 7/10/2020 15:32",
-		"testDeleteMethod" : "pre 7/10/2020 15:30" } }
+		"runCase" : "jb 12/7/2020 19:05",
+		"setUp" : "jb 12/7/2020 19:05",
+		"tearDown" : "jb 12/7/2020 19:05",
+		"testDeleteMethod" : "jb 12/7/2020 19:05" } }

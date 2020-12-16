@@ -1,4 +1,4 @@
 accessing
 hasTraceCompleted: aBoolean
 
-	hasTraceCompleted := aBoolean
+	hasTraceCompleted := aBoolean.

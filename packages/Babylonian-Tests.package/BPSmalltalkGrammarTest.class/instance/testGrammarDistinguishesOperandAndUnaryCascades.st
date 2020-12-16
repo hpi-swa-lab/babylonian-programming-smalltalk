@@ -7,4 +7,4 @@ testGrammarDistinguishesOperandAndUnaryCascades
 			Expression (NormalExpression
 				(NormalExpression_unaryCascade
 					(UnaryMessageReceiver (UnaryMessageSend 'self new'))
-					(CascadedMessages 'test; test'))))
+					(CascadedMessages 'test; test')))).
