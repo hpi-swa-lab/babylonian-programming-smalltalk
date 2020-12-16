@@ -1,4 +1,4 @@
-annotation morph - testing
+annotation morph
 selectedContextFor: anExample
 	
 	^ self connectedMorph selectedContextFor: anExample
