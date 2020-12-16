@@ -3,7 +3,7 @@ checkAndConvertValuesMorphIfNecessary: valuesMorph
 	
 	^ ScrollPane new
 		scroller addMorph: valuesMorph;
-		width: 300;
+		hResizing: #spaceFill;
 		color: Color transparent;
 		vScrollBarPolicy: #never;
 		showHScrollBarOnlyWhenNeeded;
