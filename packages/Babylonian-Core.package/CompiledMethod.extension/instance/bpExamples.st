@@ -13,7 +13,4 @@ bpExamples
 					(BPExample fromPragma: pragma)
 						method: self;
 						yourself].
-		newExamples do: [:newExample |
-			newExample isActive ifTrue: [
-				BPActiveExamples value add: newExample]].
 		newExamples asOrderedCollection]

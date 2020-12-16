@@ -14,4 +14,4 @@ updateActiveExamplesOnEvent: aChangeEvent
 			self removeAll: aChangeEvent oldItem bpExamples].
 		
 		(aChangeEvent isAdded or: [aChangeEvent isModified]) ifTrue: [
-			aChangeEvent item bpExamples. "forces an update"]].
+			aChangeEvent item bpExamples. "forces an update"].] 

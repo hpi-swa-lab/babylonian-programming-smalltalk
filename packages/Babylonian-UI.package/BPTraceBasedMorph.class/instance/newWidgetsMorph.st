@@ -6,7 +6,7 @@ newWidgetsMorph
 		changeTableLayout;
 		listDirection: #topToBottom;
 		vResizing: #shrinkWrap;
-		hResizing: #shrinkWrap;
+		hResizing: #spaceFill;
 		cellPositioning: #topLeft;
 		layoutInset: 1;
 		yourself.

@@ -1,6 +1,7 @@
 private
 updateFrom: traces
 	
+	
 	tracesMorph removeAllMorphs.
 	self removeLinesWithoutCurrentTrace: traces.
 	traces do: [:aTrace |
@@ -21,7 +22,7 @@ updateFrom: traces
 					actualIndex := index = 0 ifTrue: [0] ifFalse: [offsetOfRuns + index].
 					self annotation selectedContexts: (actualIndex to: actualIndex).
 					self for: aTrace selectContextAt: actualIndex.
-					runLabelMorph contents: (index = 0 ifTrue: ['all'] ifFalse: [actualIndex asString]).
+					runLabelMorph contents: ((index = 0 ifTrue: ['all'] ifFalse: [actualIndex asString]) padded: #left to: 4 with: Character space).
 					selectedContextModel changed: #object].
 			sliderMorph := Slider 
 				on: selectedContextModel

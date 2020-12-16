@@ -1,11 +1,12 @@
 {
 	"class" : {
-		"compilerClass" : "pre 1/27/2020 09:44",
+		"bpInstrumentedLayerName" : "pre 11/25/2020 11:41",
+		"compilerClass" : "pre 11/25/2020 11:17",
 		"exampleTextAnchor" : "pre 11/8/2019 12:05" },
 	"instance" : {
 		"annotationKeywords" : "pre 11/8/2019 20:29",
-		"backgroundCompileInstrumentedVersionOf:basedOn:" : "jb 12/7/2020 18:00",
-		"compile:ifFail:" : "jb 12/3/2020 22:35",
+		"backgroundCompileInstrumentedVersionOf:basedOn:" : "pre 10/12/2020 15:36",
+		"compile:ifFail:" : "pre 10/12/2020 15:28",
 		"compileInstrumentedVersionOf:" : "jb 12/7/2020 18:00",
 		"keywords" : "pre 7/26/2019 14:00",
 		"methodSourceRequiresBPLayers:" : "pre 11/11/2019 15:49",

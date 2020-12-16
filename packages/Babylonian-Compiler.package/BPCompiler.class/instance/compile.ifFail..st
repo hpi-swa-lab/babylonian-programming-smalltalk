@@ -1,7 +1,7 @@
 public access
 compile: aCueWithBPSource ifFail: failBlock
-	"This method expects source code which has annotations embedded in comments, if any."
 	
+	"This method expects source code which has annotations embedded in comments, if any."
 	| originalMethodNode bpSource basicCue |
 	bpSource := aCueWithBPSource sourceStream contents asString.
 	basicCue := CompilationCue
@@ -14,7 +14,7 @@ compile: aCueWithBPSource ifFail: failBlock
 	originalMethodNode := super compile: basicCue ifFail: failBlock.
 	self haltOnce.
 	bpSource := originalMethodNode sourceText asString.
-	(self methodSourceRequiresBPLayers: bpSource) 
-		ifTrue: [(self compileInstrumentedVersionOf: aCueWithBPSource) ifFalse: failBlock].
+	(self methodSourceRequiresBPLayers: bpSource) ifTrue: [
+		(self compileInstrumentedVersionOf: aCueWithBPSource) ifFalse: failBlock].
 									
 	^ originalMethodNode
