@@ -2,13 +2,13 @@
 	"class" : {
 		"annotationTag" : "pre 8/24/2020 16:16" },
 	"instance" : {
-		"asMorph" : "pre 8/24/2020 17:31",
+		"asMorph" : "pre 11/23/2020 15:41",
 		"canBeAnnotatedTo" : "pre 9/22/2020 18:19",
 		"enclosedExpressionSource" : "pre 8/24/2020 16:48",
 		"exampleAnnotations" : "pre 8/24/2020 16:47",
 		"exampleAnnotations:" : "pre 8/24/2020 16:47",
 		"initialize" : "pre 8/24/2020 16:49",
 		"isExamples" : "pre 11/23/2020 12:57",
-		"startTag" : "pre 8/24/2020 17:37",
+		"startTag" : "pre 11/25/2020 11:24",
 		"startTagSource" : "pre 8/24/2020 16:50",
 		"stopTag" : "pre 8/24/2020 17:12" } }
