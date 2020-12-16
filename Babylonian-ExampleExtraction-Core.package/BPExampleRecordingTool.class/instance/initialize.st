@@ -7,5 +7,4 @@ initialize
 	
 	self
 		color: Color gray lighter;
-		addRecordingButton";
-		addMorphBack: (ObjectExplorer explore: 42)"
+		updateMorphs

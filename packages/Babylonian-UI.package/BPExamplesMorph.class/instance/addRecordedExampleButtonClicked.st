@@ -1,4 +1,6 @@
 adding examples
 addRecordedExampleButtonClicked
 	
-	self createAndAddNewExampleFrom: BPRecordedExample
+	(BPExampleRecordingTool new
+		exampleMorph: self;
+		compiledMethod: self compiledMethod) openInWindow

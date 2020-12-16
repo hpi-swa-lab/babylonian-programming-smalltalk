@@ -8,9 +8,11 @@
 		"addExtractedFromClassExampleButtonClicked" : "ek 11/2/2020 14:57",
 		"addExtractedFromTestExampleButtonClicked" : "ek 11/2/2020 14:57",
 		"addNewExampleAnnotation:" : "pre 9/30/2020 11:11",
-		"addRecordedExampleButtonClicked" : "ek 12/3/2020 22:44",
+		"addRecordedExampleButtonClicked" : "ek 12/16/2020 10:34",
 		"addScriptExampleButtonClicked" : "pre 9/30/2020 11:12",
-		"createAndAddNewExampleFrom:" : "pre 9/30/2020 11:12",
+		"compiledMethod" : "ek 12/16/2020 10:30",
+		"createAndAddNewExampleFrom:" : "ek 12/16/2020 10:30",
+		"createNewRecordedExampleWithReceiverSpecimen:andPotentiallyArgumentSpecimen:" : "ek 12/10/2020 21:37",
 		"exampleAnnotations" : "pre 8/24/2020 17:10",
 		"exampleAnnotations:" : "pre 9/30/2020 10:32",
-		"initialize" : "ek 12/8/2020 13:24" } }
+		"initialize" : "ek 12/10/2020 21:31" } }

@@ -1,6 +1,6 @@
 private - ui
 addRecordingButton
-	<exampleNamed: 'some example 50' self: ''>
+	
 	recordingButton := (SimpleButtonMorph new
 		"height: self smallFontHeight;
 		borderWidth: 2;"

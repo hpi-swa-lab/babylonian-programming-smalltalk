@@ -9,15 +9,17 @@ newTopRecord: aTopRecord
 		UIManager default inform: 'No example was recorded.'.
 		^ self].
 	
-	newExample := UIManager default
+	self recordings: aTopRecord children.
+	
+	"newExample := UIManager default
 		chooseFrom: (aTopRecord children collectWithIndex: [:record :index | record extension receiverObject asString, index asString])
 		values: (aTopRecord children collect: [:record | record extension]).
-	newExample ifNil: [^ self].
+	newExample ifNil: [^ self]."
 			
-	receiverSpecimen := BPActiveSpecimenRegistry default storeSpecimen: newExample receiverObject.
+	"receiverSpecimen := BPActiveSpecimenRegistry default storeSpecimen: newExample receiverObject.
 	argumentSpecimen := newExample argumentObjects
 		collect: [:argumentObject | BPActiveSpecimenRegistry default storeSpecimen: argumentObject].
 	
 	self exampleMorph
-		setReceiverSpecimen: receiverSpecimen
-		andPotentiallyArgumentSpecimen: argumentSpecimen
+		createNewRecordedExampleWithReceiverSpecimen: receiverSpecimen
+		andPotentiallyArgumentSpecimen: argumentSpecimen"

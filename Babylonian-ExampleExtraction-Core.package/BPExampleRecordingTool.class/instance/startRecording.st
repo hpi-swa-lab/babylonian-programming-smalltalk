@@ -2,7 +2,7 @@ recording
 startRecording
 	
 	recorder := (BPMessageSendRecorder new
-  		watchMethod: self exampleMorph example method;
+  		watchMethod: self compiledMethod;
 		exampleMorph: self;
 		yourself).
 	

@@ -7,6 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"exampleMorph",
+		"compiledMethod",
+		"recordings",
+		"selectedRecording",
 		"isRecording",
 		"recordingButton",
 		"recorder" ],
