@@ -10,17 +10,13 @@ annotationMorphFor: anAnnotation
 	annotationMorphs ifNil: [annotationMorphs := Dictionary new].
 	annotationMorph := annotationMorphs at: anAnnotation id ifAbsentPut: [
 		newMorph := anAnnotation asMorph.
-		(anAnnotation isProbe or: [
-			anAnnotation isReplacement or: [
-			anAnnotation isAssertion or: [
-			anAnnotation isSlider or: [
-			anAnnotation isExamples]]]])
-				ifTrue: [
-					connectedMorph := BPSidebarConnectedMorph new
-						connectedMorph: newMorph;
-						yourself.
-					connectedMorph setProperty: #textAnchorProperties toValue: newMorph textAnchorProperties.
-					newMorph := connectedMorph].
-			newMorph].
+		(BPStyler wantsSidebarAnnotations and: [
+			self annotationCanBePutInSidebar: anAnnotation]) ifTrue: [
+				connectedMorph := BPSidebarConnectedMorph new
+					connectedMorph: newMorph;
+					yourself.
+				connectedMorph setProperty: #textAnchorProperties toValue: newMorph textAnchorProperties.
+				newMorph := connectedMorph].
+		newMorph].
 	annotationMorph annotation: anAnnotation.
 	^ annotationMorph

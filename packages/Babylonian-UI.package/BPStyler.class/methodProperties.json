@@ -1,8 +1,10 @@
 {
 	"class" : {
-		 },
+		"wantsSidebarAnnotations" : "pre 12/16/2020 18:59",
+		"wantsSidebarAnnotations:" : "pre 12/16/2020 18:59" },
 	"instance" : {
-		"annotationMorphFor:" : "pre 11/23/2020 15:55",
+		"annotationCanBePutInSidebar:" : "pre 12/16/2020 19:02",
+		"annotationMorphFor:" : "pre 12/16/2020 19:03",
 		"applyAnnotationsFrom:to:" : "pre 8/24/2020 17:31",
 		"extractEndOfMethodHeader" : "pre 8/24/2020 17:04",
 		"extractIntervals" : "jb 12/3/2020 22:57",
