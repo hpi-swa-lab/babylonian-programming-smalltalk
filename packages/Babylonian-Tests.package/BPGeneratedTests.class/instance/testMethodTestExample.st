@@ -3,4 +3,4 @@ testMethodTestExample
 	
 	"generated Test"
 	
-	self assert: 'Halo' equals: ((String fromString: 'Hello') copyReplaceAll: 'el' with: 'a').
+	self assert: 15 equals: ((BPGeneratedTests for: 10) add: 2 to: 3).
