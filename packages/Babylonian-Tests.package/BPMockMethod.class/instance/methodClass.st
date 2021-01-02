@@ -1,4 +1,0 @@
-mock-methods
-methodClass
-
-	^ self

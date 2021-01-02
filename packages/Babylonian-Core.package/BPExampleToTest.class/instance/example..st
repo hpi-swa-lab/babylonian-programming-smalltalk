@@ -1,4 +1,4 @@
 accessing
 example: anExample
 
-	example := anExample
+	example := anExample.

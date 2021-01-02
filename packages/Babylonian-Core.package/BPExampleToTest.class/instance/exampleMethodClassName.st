@@ -1,4 +1,4 @@
 private - serializing
 exampleMethodClassName
 
-	^ self example method methodClass asString
+	^ self example methodClass asString

@@ -1,2 +1,1 @@
-This class extends BPExampleToTest and creates an assertion for the expectedResult in an example.
-see BPExampleToTest for an overview about serialization and usage
+Serializes an example by adding an assertion if the example's expected result is equal to the actual result.

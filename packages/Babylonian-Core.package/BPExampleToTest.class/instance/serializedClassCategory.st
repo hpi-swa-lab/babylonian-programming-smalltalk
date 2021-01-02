@@ -1,4 +1,4 @@
 private - serializing
 serializedClassCategory
 
-	^ self example method methodClass category asString , '-Test'
+	^ self example methodClassCategory asString , '-Test'

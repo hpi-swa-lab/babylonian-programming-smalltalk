@@ -1,13 +1,9 @@
 building
 buildTestNameForClass: aClass
-
-	| coreName number |
+	
+	| coreName |
 	
 	coreName := 'test', self serializedTestName.
-	^ (self methodNotExistsOrCanBeOverritten: coreName inClass: aClass)
+	^ (self canBeCreated: coreName in: aClass)
 		ifTrue: [coreName]
-		ifFalse: [
-			number := 0.
-			[number := number + 1] doWhileFalse: [self methodNotExistsOrCanBeOverritten: coreName, number asString inClass: aClass].
-			coreName, number
-		]
+		ifFalse: [coreName, self smallestAvailableIdFor: coreName in: aClass]
