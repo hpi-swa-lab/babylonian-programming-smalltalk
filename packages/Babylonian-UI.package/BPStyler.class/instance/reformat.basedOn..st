@@ -1,7 +1,5 @@
 private
 reformat: aText basedOn: annotations
-	
-
 	"The idea of this rewriting is that nested annotations simply set the annotation text attribute on
 	their complete enclosed expression, no matter whether it is also annotated or normal.
 	We then go from large to small annotations as this guarantees that we go from the enclosing to 

@@ -3,6 +3,6 @@ testExamplesAreEqualIfTheirValuesAreEqual
 
 	| examples |
 	examples := self createExamples.
-	self assert: examples first = examples second
+	self assert: examples first = examples second.
 		
 	

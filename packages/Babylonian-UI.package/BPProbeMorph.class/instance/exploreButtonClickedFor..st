@@ -1,4 +1,4 @@
 actions
 exploreButtonClickedFor: tracedValues
 	
-	(tracedValues collect: [:v | v tracedValue]) explore
+	(tracedValues collect: [:aValue | aValue tracedValue]) explore.

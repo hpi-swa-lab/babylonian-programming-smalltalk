@@ -1,4 +1,4 @@
 printing
 printOn: aStream
 
-	aStream << 'Ex for ' << self uniqueIdentifier
+	aStream << 'Ex for ' << self uniqueIdentifier.

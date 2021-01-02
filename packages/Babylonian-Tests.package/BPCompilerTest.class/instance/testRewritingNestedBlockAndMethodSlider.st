@@ -12,4 +12,4 @@ testRewritingNestedBlockAndMethodSlider
 	self bpBlock: 123123 enteredAt: thisContext.
 	#(a b c) do: [:v | | c | 
 		#(1 2 3) select: [:x | self bpBlock: 111111 enteredAt: thisContext.
-x > 2]]'
+x > 2]]'.

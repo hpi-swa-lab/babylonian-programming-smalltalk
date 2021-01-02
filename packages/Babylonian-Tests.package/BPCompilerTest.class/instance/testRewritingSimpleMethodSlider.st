@@ -10,4 +10,4 @@ testRewritingSimpleMethodSlider
 'method
 	<layer: #bpInstrumented>
 	self bpBlock: 1230123 enteredAt: thisContext.
-	2 + 3'
+	2 + 3'.

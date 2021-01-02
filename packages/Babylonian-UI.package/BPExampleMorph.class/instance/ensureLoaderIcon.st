@@ -3,4 +3,4 @@ ensureLoaderIcon
 
 	| loaderIconHolder |
 	(loaderIconHolder := self submorphNamed: #loaderIconHolder) submorphs ifEmpty: [
-		loaderIconHolder addMorphBack: (BPIcons loaderIcon scaledToSize: self iconSize) asMorph]
+		loaderIconHolder addMorphBack: (BPIcons loaderIcon scaledToSize: self iconSize) asMorph].

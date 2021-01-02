@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-Core-Tracing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"recordedCalls" ],
+	"name" : "BPExampleRecorder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

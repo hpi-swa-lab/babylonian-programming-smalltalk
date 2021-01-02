@@ -8,4 +8,4 @@ testRewritingKeywordMessageUnaryReceiverProbe
 		to:
 'method
 	<layer: #bpInstrumented>
-	(self bpTrace: [2 negated] forProbe: 1 inContext: thisContext) raisedTo: 3'
+	(self bpTrace: [2 negated] forProbe: 1 inContext: thisContext) raisedTo: 3'.

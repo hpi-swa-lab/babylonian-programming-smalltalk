@@ -1,4 +1,4 @@
 private
 updateFrom: traces
 	
-	self subclassResponsibility
+	self subclassResponsibility.

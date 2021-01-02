@@ -8,4 +8,4 @@ testRewritingSimpleOperandProbe
 		to:
 'method
 	<layer: #bpInstrumented>
-	(self bpTrace: [2] forProbe: 1 inContext: thisContext) + 3'
+	(self bpTrace: [2] forProbe: 1 inContext: thisContext) + 3'.

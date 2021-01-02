@@ -8,4 +8,4 @@ Pragma: aNode with: literal with: values with: anotherLiteral
 			exampleName: exampleName;
 			enclosedExpressionSource: aNode interval contents;
 			annotatedExpressionSourceCode: aNode interval contents;
-			yourself) ]
+			yourself) ].

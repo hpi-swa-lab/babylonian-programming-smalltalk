@@ -14,7 +14,7 @@ insertExamplesMorphFrom: parseResult into: text basedOn: annotations
 			morph, if not we can use it"
 			((lineAfterHeader at: 2 ifAbsent: [nil]) = Character startOfHeader and: [
 				(text attributesAt: endOfHeaderIndex + 3) anySatisfy: [:a | 
-					(a isKindOf: BPTextAnchor) and: [a anchoredMorph isKindOf: BPExamplesMorph]]]) 
+					(a isKindOf: BPTextAnchor) and: [a anchoredMorph isExamples]]]) 
 				ifTrue: [text]
 				ifFalse: [
 					text 

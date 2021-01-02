@@ -1,4 +1,4 @@
 actions
 haltButtonClickedFor: aProbeId and: aBPExample 
 	
-	aBPExample traceToHaltAt: aProbeId
+	aBPExample traceToHaltAt: aProbeId.

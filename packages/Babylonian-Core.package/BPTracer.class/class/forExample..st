@@ -1,7 +1,6 @@
 instance creation
 forExample: anExample
 
-	| newTracer |
-	newTracer := self new.
-	newTracer setExample: anExample.
-	^ newTracer
+	^ self new
+		setExample: anExample;
+		yourself

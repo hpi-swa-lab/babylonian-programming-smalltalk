@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"current" : "pre 12/16/2020 16:22" },
+	"instance" : {
+		"initialize" : "pre 12/16/2020 16:37",
+		"installMyselfInProcess" : "pre 12/16/2020 16:21",
+		"instrumentMethod:" : "pre 12/16/2020 17:06",
+		"instrumentedSourceFor:" : "pre 12/16/2020 17:00",
+		"recordFrom:" : "pre 12/16/2020 17:03",
+		"removeRecordingLayer" : "pre 12/16/2020 16:35",
+		"startRecording" : "pre 12/16/2020 16:19",
+		"stopRecording" : "pre 12/16/2020 17:04",
+		"uninstall" : "pre 12/16/2020 17:05",
+		"uninstallMyselfFromProcess" : "pre 12/16/2020 16:28" } }
