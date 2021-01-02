@@ -1,5 +1,5 @@
 example methods
 errorMethod: aNumber
-	<exampleNamed: 'working' expectedResult: '0.5' active: true self: '' with: '2'>
-	<exampleNamed: 'throws error' expectedResult: 'ZeroDivide' active: true self: '' with: '0'>
+	<exampleNamed: 'working' active: true self: '' with: '2' expectedResult: '0.5' >
+	<exampleNamed: 'throws error' active: true self: '' with: '0' expectedResult: 'ZeroDivide' >
 	^ 1 / aNumber
