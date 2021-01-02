@@ -1,9 +1,9 @@
 searching
 binarySearch: anElement
-	<exampleNamed: 'basic' expectedResult: '15' active: true self: 'BPSearchCollection newFrom: (1 to: 15)' with: '15'>
-	<exampleNamed: 'not found' expectedResult: 'BPSearchCollection newFrom: (1 to: 10)' active: true self: '#numbersUpTo10' with: '20'>
-	<exampleNamed: 'large example' expectedResult: 4532 active: true self: '#numbersUpTo10000' with: '4532'>
-	| index low high | 
+	<exampleNamed: 'basic' active: true self: 'BPSearchCollection newFrom: (1 to: 15)' with: '15' expectedResult: '15'>
+	<exampleNamed: 'not found' active: true self: '#numbersUpTo10' with: '20' expectedResult: 'BPSearchCollection newFrom: (1 to: 10)'>
+	<exampleNamed: 'large example' active: true self: '#numbersUpTo10000' with: '4532' expectedResult: 4532>
+	| index low high |
 	low := 1.
 	high := self size. 
 	 
