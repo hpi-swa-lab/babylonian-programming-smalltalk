@@ -8,7 +8,7 @@
 		"addExampleNameMorph" : "pre 10/6/2020 10:27",
 		"addExampleResultMorph" : "jb 11/30/2020 16:00",
 		"addExampleSpecificMorphs" : "pre 9/30/2020 10:37",
-		"addExpectecResultMorph" : "jb 12/8/2020 00:10",
+		"addExpectedResultMorph" : "jb 1/2/2021 18:49",
 		"addLoaderIconHolder" : "pre 9/30/2020 10:36",
 		"addSimpleTextMorph:" : "jb 12/7/2020 22:11",
 		"ensureLoaderIcon" : "pre 9/30/2020 10:35",
@@ -26,4 +26,4 @@
 		"setExecutionResultButtonContentToInitialState" : "jb 11/30/2020 16:05",
 		"step" : "jb 11/30/2020 15:59",
 		"textEmphasis" : "pre 9/30/2020 10:35",
-		"updateMorphs" : "jb 12/7/2020 22:33" } }
+		"updateMorphs" : "jb 1/2/2021 18:50" } }

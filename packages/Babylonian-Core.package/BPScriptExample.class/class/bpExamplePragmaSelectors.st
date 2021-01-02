@@ -2,4 +2,5 @@ constants
 bpExamplePragmaSelectors
 	
 
-	^   #(scriptExampleNamed:expectedResult:script: scriptExampleNamed:expectedResult:active:script: scriptExampleNamed:expectedResult: scriptExampleNamed:expectedResult:active:).
+	^   #(scriptExampleNamed:script: scriptExampleNamed:active:script: scriptExampleNamed: scriptExampleNamed:active:
+	scriptExampleNamed:script:expectedResult: scriptExampleNamed:active:script:expectedResult: scriptExampleNamed:expectedResult: scriptExampleNamed:active:expectedResult:).
