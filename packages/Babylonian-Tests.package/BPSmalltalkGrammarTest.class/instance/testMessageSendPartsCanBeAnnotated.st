@@ -12,4 +12,4 @@ testMessageSendPartsCanBeAnnotated
 		'"<ab>"2 negated"</ab>" raisedTo: 3' .
 		'"<ab>"2 + 3"</ab>" raisedTo: 3'.
 		'3 raisedTo: "<ab>"2 negated"</ab>"'.
-		'3 raisedTo: "<ab>"2 + 4"</ab>"' }
+		'3 raisedTo: "<ab>"2 + 4"</ab>"' }.

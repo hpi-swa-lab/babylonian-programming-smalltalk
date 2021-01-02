@@ -1,6 +1,5 @@
 serialization
 instrumentationCallFor: actualEnclosedExpressionSource
-	
 
 	^ self hasExpression 
 		ifTrue: [

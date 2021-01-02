@@ -1,4 +1,4 @@
 private
 traceError: anError
 	
-	trace traceException: anError
+	trace traceException: anError.

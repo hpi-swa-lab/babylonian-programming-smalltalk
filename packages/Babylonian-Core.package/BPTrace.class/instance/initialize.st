@@ -6,4 +6,4 @@ initialize
 	assertions := IdentityDictionary new.
 	exampleErrored := false.
 	hasTraceCompleted := false.
-	blockRecord := Dictionary new
+	blockRecord := Dictionary new.

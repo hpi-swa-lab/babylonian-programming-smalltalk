@@ -3,4 +3,4 @@ traceAssignment: anObject previousValues: variableValueTuples forId: probeId inC
 
 	self 
 		addTracedValue: (self newTracedAssignmentValue: anObject previousValues: variableValueTuples expression: '' stackFrom: aContext)
-		forProbe: probeId
+		forProbe: probeId.

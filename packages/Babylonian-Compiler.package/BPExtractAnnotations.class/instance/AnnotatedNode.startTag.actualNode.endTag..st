@@ -7,4 +7,4 @@ AnnotatedNode: aNode startTag: startTag actualNode: actualNode endTag: endTag
 		self initializeAnnotationGiven: aNode from: startTag.
 		annotations add: currentAnnotation].
 	
-	self value: actualNode
+	self value: actualNode.

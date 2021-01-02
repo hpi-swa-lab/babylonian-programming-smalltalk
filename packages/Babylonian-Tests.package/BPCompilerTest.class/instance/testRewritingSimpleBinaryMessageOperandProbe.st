@@ -8,4 +8,4 @@ testRewritingSimpleBinaryMessageOperandProbe
 		to:
 'method
 	<layer: #bpInstrumented>
-	2 negated + (self bpTrace: [3 negated] forProbe: 1 inContext: thisContext)'
+	2 negated + (self bpTrace: [3 negated] forProbe: 1 inContext: thisContext)'.

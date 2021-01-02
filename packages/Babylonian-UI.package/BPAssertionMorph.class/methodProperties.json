@@ -2,11 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"annotation:" : "pre 10/8/2020 11:45",
-		"checkAndConvertValuesMorphIfNecessary:" : "pre 8/25/2020 08:42",
-		"initialize" : "pre 10/8/2020 11:44",
+		"annotation:" : "pre 11/23/2020 12:51",
+		"checkAndConvertValuesMorphIfNecessary:" : "pre 12/16/2020 18:54",
+		"initialize" : "jb 12/7/2020 19:01",
 		"isAssertion" : "pre 11/18/2019 11:50",
 		"isProbe" : "pre 11/18/2019 12:31",
 		"relevantTracesOf:do:" : "pre 11/18/2019 12:54",
-		"updateAssertionFieldsMorph" : "pre 10/8/2020 11:45",
-		"updateFrom:" : "pre 10/8/2020 11:51" } }
+		"updateAssertionFieldsMorph" : "jb 12/3/2020 23:31",
+		"updateFrom:" : "jb 12/7/2020 19:01" } }

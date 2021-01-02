@@ -8,5 +8,5 @@ activateExampleButtonClicked
 			self containingBrowser saveMethodWithExamples]
 		ifFalse: [
 			self example isActive ifTrue: [
-				self example traceInBackground]]
+				self example traceInBackground]].
 	

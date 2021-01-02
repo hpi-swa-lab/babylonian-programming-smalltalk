@@ -5,4 +5,4 @@ testAnnotationEndIsRecognizedAsSuch
 
 	self 
 		shouldParseAll: {'"</ab>"' . '"</ test >"'};
-		shouldntParseAny: {'"<>"' . '"</>"' . '"<a>"'}
+		shouldntParseAny: {'"<>"' . '"</>"' . '"<a>"'}.

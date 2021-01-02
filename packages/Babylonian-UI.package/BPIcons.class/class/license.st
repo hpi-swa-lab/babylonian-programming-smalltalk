@@ -2,4 +2,4 @@ license
 license
 	
 	^ 'Copyright Feather Icons: https://github.com/feathericons/feather.
-licensed under MIT license'
+licensed under MIT license'.

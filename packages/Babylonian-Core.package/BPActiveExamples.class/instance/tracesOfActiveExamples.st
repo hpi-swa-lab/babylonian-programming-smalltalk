@@ -1,4 +1,4 @@
 tracing
 tracesOfActiveExamples
 
-	^ self examples collect: [:e | e currentTrace]
+	^ self examples collect: [:anExample | anExample currentTrace]

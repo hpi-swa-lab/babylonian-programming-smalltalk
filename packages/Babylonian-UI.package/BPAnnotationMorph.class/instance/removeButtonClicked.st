@@ -1,4 +1,4 @@
 actions
 removeButtonClicked
 
-	self containingBrowser removeAnnotations: {self annotation}
+	self containingBrowser removeAnnotations: {self annotation}.
