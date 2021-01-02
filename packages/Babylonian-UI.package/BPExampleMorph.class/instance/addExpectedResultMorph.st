@@ -1,5 +1,5 @@
 private - ui
-addExpectecResultMorph
+addExpectedResultMorph
 	
 	| exampleResultMorph |
 	self addSimpleTextMorph: 'expected: '.
