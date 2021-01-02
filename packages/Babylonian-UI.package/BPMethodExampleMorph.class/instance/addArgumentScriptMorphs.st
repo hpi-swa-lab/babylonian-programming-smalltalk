@@ -21,6 +21,4 @@ addArgumentScriptMorphs
 				self selectLiveSpecimenThen: [:specimen |.
 					self example argumentScripts at: index put: specimen.
 					self codeContentChanged.
-					editField setText: (self example argumentScriptStringAt: index)]];
-			actionSelector: #value;
-			yourself)].
+					editField setText: (self example argumentScriptStringAt: index)]]].
