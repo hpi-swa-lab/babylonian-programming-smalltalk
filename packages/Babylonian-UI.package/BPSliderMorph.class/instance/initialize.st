@@ -3,4 +3,4 @@ initialize
 	
 	super initialize.
 	
-	selectedContextPerExample := IdentityDictionary new
+	selectedContextPerExample := IdentityDictionary new.

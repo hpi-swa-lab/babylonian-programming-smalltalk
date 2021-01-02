@@ -16,4 +16,4 @@ testStylerSetsAnchorAttributeForNestedProbes
 		self 
 			assert: anchorTextAttributes notEmpty;
 			assert: anchorTextAttributes asSet = theTextAttributes asSet;
-			assert: (anchorTextAttributes first anchoredMorph isKindOf: BPProbeMorph)]
+			assert: (anchorTextAttributes first anchoredMorph isKindOf: BPProbeMorph)].

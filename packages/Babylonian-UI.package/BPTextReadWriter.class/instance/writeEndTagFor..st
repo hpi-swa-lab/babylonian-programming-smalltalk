@@ -1,4 +1,4 @@
 writing
 writeEndTagFor: aTextAttribute
 
-	self nextPutAll: aTextAttribute anchoredMorph stopTag
+	self nextPutAll: aTextAttribute anchoredMorph stopTag.

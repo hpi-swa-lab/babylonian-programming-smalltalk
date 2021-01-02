@@ -1,16 +1,19 @@
 {
 	"class" : {
-		 },
+		"wantsSidebarAnnotations" : "pre 12/16/2020 18:59",
+		"wantsSidebarAnnotations:" : "pre 12/16/2020 18:59" },
 	"instance" : {
+		"annotationCanBePutInSidebar:" : "pre 12/16/2020 19:02",
+		"annotationMorphFor:" : "pre 12/16/2020 19:03",
 		"applyAnnotationsFrom:to:" : "pre 8/24/2020 17:31",
 		"extractEndOfMethodHeader" : "pre 8/24/2020 17:04",
-		"extractIntervals" : "pre 3/24/2020 08:54",
+		"extractIntervals" : "jb 12/3/2020 22:57",
 		"ifNoSelectedMethod:" : "pre 3/19/2020 11:07",
-		"insertExamplesMorphFrom:into:basedOn:" : "pre 8/24/2020 18:23",
+		"insertExamplesMorphFrom:into:basedOn:" : "pre 11/25/2020 10:56",
 		"isAlreadyAnnotatedExpressionAt:in:" : "pre 5/29/2019 22:40",
-		"privateFormat:" : "pre 8/24/2020 16:39",
-		"reformat:basedOn:" : "pre 9/28/2020 11:06",
+		"privateFormat:" : "jb 12/3/2020 23:35",
+		"reformat:basedOn:" : "jb 12/3/2020 22:58",
 		"removePotentialEmptyLinesInText:around:" : "pre 8/25/2020 09:47",
-		"selectedMethod:" : "pre 7/1/2019 16:38",
-		"textForAnnotation:from:at:" : "pre 8/24/2020 16:14",
+		"selectedMethod:" : "jb 12/7/2020 19:03",
+		"textForAnnotation:from:at:" : "pre 11/23/2020 11:57",
 		"unstyledTextFrom:" : "pre 11/11/2019 11:52" } }

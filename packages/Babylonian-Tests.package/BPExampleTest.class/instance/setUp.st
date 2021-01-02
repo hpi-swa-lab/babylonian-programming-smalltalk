@@ -5,5 +5,5 @@ setUp
 
 	{method.
 	(BPTestExamplesClass>>#methodWithLiveSpecimen:) .
-	(BPTestExamplesClass>>#methodWithScriptExamples) } do: [:m | 
-		m removeProperty: #bpExamples ifAbsent: []]
+	(BPTestExamplesClass>>#methodWithScriptExamples) } do: [:aMethod | 
+		aMethod removeProperty: #bpExamples ifAbsent: []].

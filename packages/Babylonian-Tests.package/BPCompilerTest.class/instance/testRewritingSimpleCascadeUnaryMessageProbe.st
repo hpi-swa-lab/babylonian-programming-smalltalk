@@ -8,4 +8,4 @@ testRewritingSimpleCascadeUnaryMessageProbe
 		to:
 'method
 	<layer: #bpInstrumented>
-	2 in: [:bpr | (self bpTrace: [bpr negated] forProbe: 1 inContext: thisContext)]; moreNegated'
+	2 in: [:bpr | (self bpTrace: [bpr negated] forProbe: 1 inContext: thisContext)]; moreNegated'.

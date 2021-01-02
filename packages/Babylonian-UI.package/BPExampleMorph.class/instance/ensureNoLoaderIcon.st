@@ -3,4 +3,4 @@ ensureNoLoaderIcon
 
 	(self submorphNamed: #loaderIconHolder)
 		removeAllMorphs;
-		extent: 0@0
+		extent: 0@0.
