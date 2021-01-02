@@ -1,0 +1,4 @@
+private - serializing
+serializedMethodCategory
+
+	^ #tests

@@ -1,6 +1,10 @@
 initialization
 setColorOfExecutionResultButtonForTrace: aTrace
 	
-	 aTrace executionResult = self example newExpectedResultObject
-		ifTrue: [executionResultButton color: Color paleGreen]
-		ifFalse: [executionResultButton color: Color paleRed].
+	 (aTrace executionResult isKindOf: Exception) 
+		ifTrue: [
+			self setExecutionResultButtonColorAccordingToExpression: (aTrace executionResult class = self example newExpectedResultObject)]
+		ifFalse: [
+			self setExecutionResultButtonColorAccordingToExpression: (aTrace executionResult = self example newExpectedResultObject)]
+	
+	

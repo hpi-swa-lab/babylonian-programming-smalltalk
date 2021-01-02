@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"createMockExample" : "pm 12/10/2020 10:22" },
+	"instance" : {
+		"setUp" : "jb 1/2/2021 01:30",
+		"testCanBeCreatedIn" : "jb 1/2/2021 01:01",
+		"testCanBeCreatedInPseudoGeneratedMethod" : "jb 1/2/2021 01:03",
+		"testCanNotBeCreatedIn" : "jb 1/2/2021 01:01",
+		"testCombineMethodWithArguments" : "jb 1/2/2021 01:03",
+		"testCombineMethodWithNoArguments" : "jb 1/2/2021 01:04",
+		"testSerializedClassCategory" : "jb 1/2/2021 01:42",
+		"testSerializedClassName" : "jb 1/2/2021 01:42",
+		"testSerializedExpectedResultCode" : "jb 1/2/2021 01:45",
+		"testSerializedExpectedResultSimple" : "jb 1/2/2021 01:42",
+		"testSerializedExpectedResultSymbol" : "jb 1/2/2021 01:43",
+		"testSerializedReceiverConstructorCode" : "jb 1/2/2021 01:46",
+		"testSerializedReceiverConstructorEmpty" : "jb 1/2/2021 01:48",
+		"testSerializedReceiverConstructorSymbol" : "jb 1/2/2021 01:47",
+		"testSmallestAvailableIdForInNoneExistingMethod" : "jb 1/2/2021 01:10",
+		"testSmallestAvailableIdForInWithExistingMethod" : "jb 1/2/2021 01:16",
+		"testSmallestAvailableIdForInWithExistingMethod1" : "jb 1/2/2021 01:16",
+		"withFirstMethodExample" : "jb 1/2/2021 01:41",
+		"withSecondMethodExample" : "jb 1/2/2021 01:43",
+		"withThirdMethodExample" : "jb 1/2/2021 01:44" } }
