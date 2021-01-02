@@ -1,4 +1,4 @@
 initialization
 initializeActualExample: anExample
 
-	actualExample := anExample
+	actualExample := anExample.

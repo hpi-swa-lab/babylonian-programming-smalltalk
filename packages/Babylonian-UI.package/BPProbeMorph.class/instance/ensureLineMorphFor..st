@@ -2,7 +2,7 @@ private - ui
 ensureLineMorphFor: aTrace
 
 	^ tracesMorph submorphs 
-		detect: [:m | (m valueOfProperty: #bpTrace) ifNil: [false] ifNotNil: [:t | t == aTrace]]
+		detect: [:aSubmorph | (aSubmorph valueOfProperty: #bpTrace) ifNil: [false] ifNotNil: [:trace | trace == aTrace]]
 		ifNone: [ | newLine |
 			newLine := self newLineMorphFor: aTrace.
 			tracesMorph addMorphBack: newLine.

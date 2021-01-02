@@ -1,0 +1,15 @@
+{
+	"category" : "Babylonian-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pre 11/11/2020 11:36",
+	"instvars" : [
+		"line",
+		"connectedMorph" ],
+	"name" : "BPSidebarConnectedMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

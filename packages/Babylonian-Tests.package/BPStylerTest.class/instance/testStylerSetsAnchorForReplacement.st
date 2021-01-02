@@ -13,4 +13,4 @@ testStylerSetsAnchorForReplacement
 		
 	attributes := formattedSourceCode attributesAt: (formattedSourceCode asString lastIndexOf: Character startOfHeader).
 	attributes := attributes select: [:a | a isKindOf: TextAnchor].
-	self assert: (attributes first anchoredMorph isKindOf: BPReplacementMorph)
+	self assert: (attributes first anchoredMorph isKindOf: BPReplacementMorph).

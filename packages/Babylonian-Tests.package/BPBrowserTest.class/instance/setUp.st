@@ -7,4 +7,4 @@ setUp
 	method := self class>>#mockMethod.	
 	browser := BPBrowser new
 		setClass: self class selector: #mockMethod;
-		yourself
+		yourself.

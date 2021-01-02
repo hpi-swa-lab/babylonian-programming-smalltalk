@@ -1,4 +1,6 @@
 *Babylonian-UI
-bpProbeValueMorphIn: traceValue
-	
-	^ self printString asMorph
+bpProbeValueMorphIn: traceValue	
+
+	^ BPAnnotationMorph newContainerMorph 
+		addMorph: self printString asMorph; 
+		yourself

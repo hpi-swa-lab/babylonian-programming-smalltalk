@@ -8,4 +8,4 @@ defaultExpression: aNode
 			(self notOhmBuiltInRule: aNode ruleName) ifTrue: [
 				(self sourceMap at: index) add: sourceMapNode]].
   
-	aNode children do: [:c | self value: c].
+	aNode children do: [:aChild | self value: aChild]
