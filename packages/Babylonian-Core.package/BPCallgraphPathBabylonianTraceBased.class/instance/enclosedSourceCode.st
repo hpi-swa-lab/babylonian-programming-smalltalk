@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 enclosedSourceCode
 	
 	"(self compiledMethod partialMethodFor: #bpInstrumented) decompileWithTemps nodesDo: [:node | 

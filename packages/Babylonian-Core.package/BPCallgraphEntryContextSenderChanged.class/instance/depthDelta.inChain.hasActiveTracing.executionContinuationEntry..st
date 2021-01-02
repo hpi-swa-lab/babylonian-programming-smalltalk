@@ -4,5 +4,5 @@ depthDelta: theDepthDelta inChain: isInChain hasActiveTracing: tracing execution
 	depthDelta := theDepthDelta.
 	inChain := isInChain.
 	hasActiveTracing := tracing.
-	entry contextSenderChangedEntry: self.
-	executionContinuationEntry := entry
+	executionContinuationEntry := entry.
+	entry contextSenderChangedEntry: self

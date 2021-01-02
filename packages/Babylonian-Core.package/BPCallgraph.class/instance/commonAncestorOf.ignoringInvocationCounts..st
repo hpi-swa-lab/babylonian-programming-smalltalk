@@ -20,7 +20,7 @@ commonAncestorOf: aCollection ignoringInvocationCounts: aBoolean
 					ancestorIdx ~= 0 ifTrue: [
 						possibleAncestors := possibleAncestors copyFrom: 1 to: ancestorIdx.
 						found := true.
-						(aBoolean and: [true]) ifTrue: [| remainingPath |
+						aBoolean ifTrue: [| remainingPath |
 							remainingPath := path allButFirst: i.
 							possibleAncestors allButLast do: [:possibleAncestor | 
 								(remainingPath findFirst: [:remainingEntry | remainingEntry equalsClassSelectorBlockIdx: possibleAncestor]) == 0 ifTrue: [

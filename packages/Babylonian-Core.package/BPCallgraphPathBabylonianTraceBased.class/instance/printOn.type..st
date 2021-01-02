@@ -9,4 +9,4 @@ printOn: aStream type: aString
 		nextPutAll: methodReference selector;
 		nextPutAll: ' ';
 		"nextPutAll: id asString;"
-		nextPutAll: self enclosedSourceCode
+		nextPutAll: ((self removeLineBreaksFromSourceCode: self enclosedSourceCode) contractTo: 24)

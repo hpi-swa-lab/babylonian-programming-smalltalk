@@ -10,7 +10,7 @@ testGenerator
 			enableTracingForClass: Generator class.
 
 		self assertBlock: [| generator |
-			generator := Generator on: [:g | {2 . 3} do: [:prime | g yield: prime]].
+			generator := Generator on: [:g | {2 . 3} do: [:n | g yield: n]].
 			[generator atEnd] whileFalse: [generator next]] generatesTrace: '
 Generator class >> on: ctx: 1
 	Generator >> initializeOn: ctx: 1

@@ -1,4 +1,4 @@
 as yet unclassified
 label
 	
-	^ 'Context sender changed'
+	^ 'Context sender changed', String tab

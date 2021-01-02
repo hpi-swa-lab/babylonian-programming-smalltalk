@@ -3,6 +3,6 @@ getVisualizationTypes
 	
 	^ {
 		'callgraph' -> #callgraph.
-		'annotations' -> #annotations.
-		'method set' -> #methodSet.
+		'annotation set'-> #annotations.
+		'procedure set' -> #methodSet.
 	}

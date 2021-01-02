@@ -90,9 +90,10 @@ eventsToString
 				
 				"1 to: depth do: [:i | aStream space].
 				aStream nextPutAll: data; cr"].
-			[#contextSenderChanged] -> [ | depthDelta inChain hasActiveTracing |
+			[#contextSenderChanged] -> [ | depthDelta inChain inChainOrNumMoveRight hasActiveTracing |
 				depthDelta := eventStream next.
-				inChain := eventStream next.
+				inChainOrNumMoveRight := eventStream next.
+				inChain := inChainOrNumMoveRight == true.
 				hasActiveTracing := eventStream next.
 				
 				"ignore events when depth didn't change and method that causes the change does not have active tracing."

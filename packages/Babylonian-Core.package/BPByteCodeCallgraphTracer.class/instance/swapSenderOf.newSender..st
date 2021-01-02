@@ -12,7 +12,7 @@ swapSenderOf: context newSender: newSenderContext
 		depth := self instrumentedDepthOf: context below: newSenderContext.
 		events nextPut: #contextSenderChanged.
 		events nextPut: -1 * depth.
-		events nextPut: true.
+		events nextPut: true. "in-stack"
 		events nextPut: hasActiveTracing.
 		^ self].
 	
@@ -21,7 +21,7 @@ swapSenderOf: context newSender: newSenderContext
 		depth := self instrumentedDepthOf: newSenderContext below: context.
 		events nextPut: #contextSenderChanged.
 		events nextPut: depth.
-		events nextPut: true.
+		events nextPut: true. "in-stack"
 		events nextPut: hasActiveTracing.
 		^ self].
 	
@@ -37,7 +37,7 @@ swapSenderOf: context newSender: newSenderContext
 		self assert: (depth <= 0 or: [tmp first >= 0]).
 		
 		events nextPut: #contextSenderChanged.
-		events nextPut: depth.
-		events nextPut: tmp first.
+		events nextPut: tmp second. "depth"
+		events nextPut: tmp first. "num of context-moving-right entries to be generated (not in-stack)"
 		events nextPut: hasActiveTracing.
 		^ self] value

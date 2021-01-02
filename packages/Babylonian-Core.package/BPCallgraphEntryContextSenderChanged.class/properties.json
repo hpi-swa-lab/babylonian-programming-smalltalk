@@ -9,8 +9,7 @@
 		"depthDelta",
 		"inChain",
 		"hasActiveTracing",
-		"executionContinuationEntry",
-		"tmpdebug" ],
+		"executionContinuationEntry" ],
 	"name" : "BPCallgraphEntryContextSenderChanged",
 	"pools" : [
 		 ],

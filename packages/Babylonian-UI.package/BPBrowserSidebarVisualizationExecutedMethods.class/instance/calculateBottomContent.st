@@ -11,7 +11,7 @@ calculateBottomContent
 	
 	"common ancestor that ignores invocation counts"
 	ancestor := self callgraph commonAncestorOf: entriesForAncestorSearch ignoringInvocationCounts: true.
-	list add: (Text string: 'Common ancestor (ignoring context)' attributes: {TextEmphasis bold}).
+	list add: (Text string: 'Common ancestor (context-insensitive)' attributes: {TextEmphasis bold}).
 	ancestor 
 		ifNotNil: [		
 			list add: ancestor.
@@ -22,7 +22,7 @@ calculateBottomContent
 	paths := (entries collect: [:each | each pathWithoutContextMovingRight collect: #asPathPart]) withoutDuplicates.
 	paths withIndexDo: [:path :i |
 		list addLast: ''.
-		list addLast: (Text string: 'Unique Invocation Path ', i, ' (ignoring context)' attributes: {TextEmphasis bold}).
+		list addLast: (Text string: 'Unique Invocation Path ', i, ' (context-insensitive)' attributes: {TextEmphasis bold}).
 		path do: [:each |
 			list add: each.
 			each = ancestor ifTrue: [additionalBottomTextAttributes at: list size put: ancestorHighlightAttributes]]].
@@ -33,7 +33,7 @@ calculateBottomContent
 	
 	"common ancestor with invocation counts"
 	ancestor := self callgraph commonAncestorOf: entriesForAncestorSearch ignoringInvocationCounts: false.
-	list add: (Text string: 'Common ancestor' attributes: {TextEmphasis bold}).
+	list add: (Text string: 'Common ancestor (context-sensitive)' attributes: {TextEmphasis bold}).
 	ancestor
 		ifNotNil: [		
 			list add: ancestor.
@@ -43,7 +43,7 @@ calculateBottomContent
 	"all invocations with invocation counts"
 	entries withIndexDo: [:entry :i |
 		list addLast: ''.
-		list addLast: (Text string: 'Invocation ', i attribute: TextEmphasis bold).
+		list addLast: (Text string: 'Invocation ', i, ' (context-sensitive)' attribute: TextEmphasis bold).
 		entry pathWithoutContextMovingRight do: [:each |
 			list add: each.
 			self flag: #todo. "What if the ancestor is not a BPCallgraphEntryEnter?"
