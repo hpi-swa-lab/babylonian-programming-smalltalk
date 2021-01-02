@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"createMockExample" : "pm 12/10/2020 10:22" },
+		 },
 	"instance" : {
 		"setUp" : "jb 1/2/2021 01:30",
 		"testCanBeCreatedIn" : "jb 1/2/2021 01:01",
