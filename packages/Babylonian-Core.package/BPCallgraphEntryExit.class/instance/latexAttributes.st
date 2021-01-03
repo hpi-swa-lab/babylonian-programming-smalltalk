@@ -1,4 +1,6 @@
 as yet unclassified
-latexAttributes 
+latexAttributes
+	
 
-	^ 'return'
+
+	^ 'return_local'

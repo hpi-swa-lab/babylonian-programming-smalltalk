@@ -2,8 +2,9 @@
 uninstrumentClassCategory: aSymbol
 	
 	CSLayeredMethod pauseFlushingCachesDuring: [
-		self for: (SystemOrganization classesIn: aSymbol) 
-			do: [:class | 
-				self uninstrumentClass: class theNonMetaClass.
-				self uninstrumentClass: class theMetaClass]
-			displayingProgress: [:selector | 'Recompiling ', aSymbol]]
+		SystemChangeNotifier uniqueInstance doSilently: [
+			self for: (SystemOrganization classesIn: aSymbol) 
+				do: [:class | 
+					self uninstrumentClass: class theNonMetaClass.
+					self uninstrumentClass: class theMetaClass]
+				displayingProgress: [:selector | 'Recompiling ', aSymbol]]]

@@ -16,6 +16,7 @@ disableTracingForCompiledMethod: oldMethod mode: aSymbol howToAddToMethodDictWhe
 	aSymbol == #slow ifTrue: [
 		oldMethod isInstalled 
 			ifTrue: [
-				aBlock value: newMethod.
-				oldMethod selector flushCache]
-			ifFalse: [oldMethod becomeForward: newMethod]]
+				aBlock value: newMethod]
+			ifFalse: [oldMethod becomeForward: newMethod]].
+	
+	oldMethod selector flushCache
