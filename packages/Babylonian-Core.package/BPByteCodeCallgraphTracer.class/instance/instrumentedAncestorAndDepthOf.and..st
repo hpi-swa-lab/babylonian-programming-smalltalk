@@ -15,9 +15,12 @@ instrumentedAncestorAndDepthOf: aContext and: anotherContext
 	2. 
 	"
 
-	| a b seenA seenB |
+	| a b seenA seenB hasActiveTracing |
 	seenA := OrderedCollection new.
 	seenB := OrderedCollection new.
+	
+	
+	hasActiveTracing := BPByteCodeRewriter hasActiveTracing: aContext method.
 	
 	a := aContext.
 	b := anotherContext.
@@ -30,10 +33,10 @@ instrumentedAncestorAndDepthOf: aContext and: anotherContext
 			depth := seenB size - seenA size.
 			^ depth <= 0
 				ifTrue: [{Float negativeInfinity "unused" . depth}]
-				ifFalse: [{seenB size . depth}]]. self flag: #todo. "Verify that the first return value is correct."
+				ifFalse: [{seenB size - (hasActiveTracing ifTrue: [1] ifFalse: [0]) . depth}]]. self flag: #todo. "Verify that the first return value is correct."
 
 		a ifNotNil: [seenA addLast: a].
-		b ifNotNil: [seenB addLast: b].	
+		b ifNotNil: [seenB addLast: b].
 
 		a ifNotNil: [(idx := seenB indexOf: a) > 0 ifTrue: ["jump left" 
 			depth := idx - seenA size.
