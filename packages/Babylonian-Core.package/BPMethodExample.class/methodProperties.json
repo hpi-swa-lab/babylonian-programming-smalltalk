@@ -1,24 +1,24 @@
 {
 	"class" : {
-		"bpExamplePragmaSelectors" : "pre 7/25/2019 15:37" },
+		"bpExamplePragmaSelectors" : "jb 12/3/2020 23:05" },
 	"instance" : {
 		"=" : "pre 8/20/2020 11:56",
 		"argumentNames" : "pre 8/25/2020 09:41",
 		"argumentScriptStringAt:" : "pre 7/10/2020 18:23",
 		"argumentScripts" : "pre 7/23/2019 12:20",
 		"argumentScripts:" : "pre 7/23/2019 09:23",
-		"asPragma" : "pre 9/30/2020 10:48",
-		"canBeUsedForDoIts" : "pre 10/6/2020 09:17",
-		"execute" : "pre 9/30/2020 09:54",
+		"asPragma" : "jb 12/3/2020 23:17",
+		"canBeUsedForDoIts" : "jb 12/3/2020 22:38",
+		"execute" : "jb 12/3/2020 22:38",
 		"initialize" : "pre 9/30/2020 09:55",
-		"initializeFromMethod:" : "pre 9/30/2020 11:09",
+		"initializeFromMethod:" : "jb 12/3/2020 23:18",
 		"initializeFromPragma:" : "pre 9/30/2020 10:22",
 		"isLiveSpecimenReference:" : "pre 7/10/2020 18:22",
-		"liveSpecimen" : "pre 9/29/2020 17:20",
+		"liveSpecimen" : "jb 12/3/2020 23:19",
 		"morphClass" : "pre 9/30/2020 10:40",
 		"newArguments" : "pre 8/21/2020 16:51",
-		"newReceiver" : "pre 9/28/2020 12:04",
+		"newReceiver" : "pre 11/11/2020 10:28",
 		"receiverConstructor" : "pre 5/17/2019 14:06",
 		"receiverConstructor:" : "pre 5/17/2019 14:06",
 		"receiverConstructorString" : "pre 9/28/2020 12:03",
-		"resolveLiveSpecimen:" : "pre 7/10/2020 18:22" } }
+		"resolveLiveSpecimen:" : "jb 12/1/2020 14:22" } }

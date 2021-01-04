@@ -2,17 +2,18 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addButtonBar" : "pre 9/30/2020 11:06",
-		"addCreateExampleButtonLabeled:selector:" : "pre 10/6/2020 11:54",
-		"addExampleButtonClicked" : "pre 9/30/2020 11:12",
+		"addButtonBar" : "jb 12/7/2020 18:59",
+		"addCreateExampleButtonLabeled:selector:" : "jb 12/7/2020 18:59",
+		"addExampleButtonClicked" : "jb 12/7/2020 18:59",
 		"addExtractedFromClassExampleButtonClicked" : "ek 11/2/2020 14:57",
 		"addExtractedFromTestExampleButtonClicked" : "ek 11/2/2020 14:57",
-		"addNewExampleAnnotation:" : "pre 9/30/2020 11:11",
+		"addNewExampleAnnotation:" : "pre 11/24/2020 09:45",
 		"addRecordedExampleButtonClicked" : "ek 12/16/2020 10:34",
-		"addScriptExampleButtonClicked" : "pre 9/30/2020 11:12",
+		"addScriptExampleButtonClicked" : "jb 12/7/2020 18:59",
 		"compiledMethod" : "ek 12/16/2020 10:30",
-		"createAndAddNewExampleFrom:" : "ek 12/16/2020 10:30",
+		"createAndAddNewExampleFrom:" : "jb 12/7/2020 18:59",
 		"createNewRecordedExampleWithReceiverSpecimen:andPotentiallyArgumentSpecimen:" : "ek 12/10/2020 21:37",
 		"exampleAnnotations" : "pre 8/24/2020 17:10",
-		"exampleAnnotations:" : "pre 9/30/2020 10:32",
-		"initialize" : "ek 12/10/2020 21:31" } }
+		"exampleAnnotations:" : "jb 12/7/2020 18:59",
+		"initialize" : "ek 12/10/2020 21:31",
+		"isExamples" : "pre 11/25/2020 16:52" } }

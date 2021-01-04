@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addArgumentScriptMorphs" : "pre 10/8/2020 10:48",
+		"addArgumentScriptMorphs" : "jb 12/7/2020 18:58",
 		"addExampleSpecificMorphs" : "pre 9/30/2020 10:37",
 		"addReceiverConstructorMorph" : "ek 12/8/2020 13:44",
 		"addRecordingButton" : "ek 12/8/2020 13:30",
 		"openRecordingTool" : "ek 12/8/2020 14:18",
-		"selectLiveSpecimenThen:" : "pre 7/10/2020 18:24",
+		"selectLiveSpecimenThen:" : "jb 12/7/2020 18:58",
 		"setReceiverSpecimen:andPotentiallyArgumentSpecimen:" : "ek 12/8/2020 14:43" } }

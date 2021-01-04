@@ -7,4 +7,4 @@ testTracingAnErrorShouldNotLeakAnyExceptions
 		
 	self
 		should: [(BPTestManuallyInstrumentedClass>>#methodWithError) bpExamples first trace]
-		raise: BPExampleExecutionInterrupted
+		raise: BPExampleExecutionInterrupted.

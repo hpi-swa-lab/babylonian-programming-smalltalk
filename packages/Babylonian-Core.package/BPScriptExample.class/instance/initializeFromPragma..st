@@ -9,4 +9,4 @@ initializeFromPragma: aPragma
 		ifFalse: [aPragma arguments allButFirst].
 
 	(aPragma keyword includesSubstring: 'script:') 
-		ifTrue: [self script: remainingArguments first]
+		ifTrue: [self script: remainingArguments first].

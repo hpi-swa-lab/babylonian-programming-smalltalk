@@ -1,4 +1,4 @@
 running
 setUp
 
-	compiler := BPCompiler new
+	compiler := BPCompiler new.

@@ -8,4 +8,4 @@ testRewritingUnaryInBinaryMessageChainProbe
 		to:
 'method
 	<layer: #bpInstrumented>
-	2 + (self bpTrace: [3 negated] forProbe: 1 inContext: thisContext) + 4'
+	2 + (self bpTrace: [3 negated] forProbe: 1 inContext: thisContext) + 4'.

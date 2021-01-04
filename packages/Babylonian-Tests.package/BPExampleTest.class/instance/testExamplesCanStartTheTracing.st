@@ -1,4 +1,4 @@
 tests
 testExamplesCanStartTheTracing
 
-	self fail
+	self fail.

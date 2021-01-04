@@ -1,7 +1,6 @@
 private - ui
 newAddExpressionMorph
 	
-	
 	| setExpressionButton |
 	setExpressionButton := IconicButton new
 		labelGraphic: ((TextMorph string: 'set expression' size: BPAnnotationMorph smallFontHeight) textColor: Color lightGray; yourself) imageForm;

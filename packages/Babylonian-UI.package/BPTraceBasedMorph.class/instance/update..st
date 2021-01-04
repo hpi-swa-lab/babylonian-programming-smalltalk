@@ -1,5 +1,4 @@
 private
 update: anAspect
 	
-	anAspect = #filterContext ifTrue: [
-		self updateFrom: displayedTraces]
+	anAspect = #filterContext ifTrue: [self updateFrom: displayedTraces].

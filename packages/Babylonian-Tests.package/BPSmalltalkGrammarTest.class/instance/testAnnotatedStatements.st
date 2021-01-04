@@ -7,4 +7,4 @@ testAnnotatedStatements
 	self 
 		shouldParse: '"<bpProbe id: 1>"variable + 2"</bpProbe>"'
 		to: #(Statement
-				(NormalStatement '"<bpProbe id: 1>"variable + 2"</bpProbe>"'))
+				(NormalStatement '"<bpProbe id: 1>"variable + 2"</bpProbe>"')).

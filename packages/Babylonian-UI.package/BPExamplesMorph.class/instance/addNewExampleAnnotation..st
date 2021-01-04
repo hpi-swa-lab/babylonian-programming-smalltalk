@@ -1,5 +1,8 @@
 adding examples
 addNewExampleAnnotation: anExampleAnnotation
 	
+	| newMorph |
 	self exampleAnnotations addLast: anExampleAnnotation.
-	self addMorph: anExampleAnnotation asMorph inFrontOf: buttonBar.
+	newMorph := anExampleAnnotation asMorph.
+	newMorph setProperty: #bpExampleIsNew toValue: true. 
+	self addMorph: newMorph inFrontOf: buttonBar.

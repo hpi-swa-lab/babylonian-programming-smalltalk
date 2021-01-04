@@ -31,4 +31,4 @@ addArgumentScriptMorphs
 					self codeContentChanged.
 					editField setText: (self example argumentScriptStringAt: index)]];
 			actionSelector: #value;
-			yourself)]
+			yourself)].

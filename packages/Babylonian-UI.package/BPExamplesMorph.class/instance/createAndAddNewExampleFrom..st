@@ -1,10 +1,9 @@
 adding examples
 createAndAddNewExampleFrom: aClass
-	
-	"This is were new examples are created. The other place were examples come to be is CompiledMethod>>#bpExamples"
+	"This is were new examples are created. The other place where examples come to be is CompiledMethod>>#bpExamples"
 	
 	| newExample newExampleName compiledMethod |
-	compiledMethod := self compiledMethod.
+	compiledMethod := self containingBrowser compiledMethod.
 	newExampleName := 'some example ' , 100 random.
 	newExample := (aClass newFor: compiledMethod)
 		exampleName: newExampleName;
@@ -17,5 +16,3 @@ createAndAddNewExampleFrom: aClass
 		in: self containingBrowser methodReference).
 		
 	self codeContentChanged.
-	
-	^ newExample

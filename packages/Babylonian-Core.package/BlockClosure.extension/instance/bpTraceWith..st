@@ -3,7 +3,7 @@ bpTraceWith: tracer
 	
 	#bpInstrumented withLayerDo: [
 		BPActiveTracer value: tracer during: [
-			self 
+			self
 				on: Error, Halt
 				do: [:e | 
 					#bpInstrumented withoutLayerDo: [

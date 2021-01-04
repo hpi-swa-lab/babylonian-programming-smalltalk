@@ -1,4 +1,4 @@
 as yet unclassified
 addExampleSpecificMorphs
 
-	self addScriptMorph
+	self addScriptMorph.
