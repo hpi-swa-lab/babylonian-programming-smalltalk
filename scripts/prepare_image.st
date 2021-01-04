@@ -44,11 +44,14 @@ browserWindow extent: 891@806.
 (browserWindow submorphsSatisfying: [:m | (m isKindOf: ProportionalSplitterMorph) and: [m width > m height]]) first repositionBy: 0@(-100).
 browserWindow topLeft: 30@30.
 
-(["Give the probes some time to step once"
-  browserWindow exportAsPNGNamed: 'screenshot-for-readme.png'.
+"Give the probes some time to step once"
+1 second wait.
+ActiveWorld doOneCycle; doOneCycle; doOneCycle.
 
-  "Wrap up the image and save it"
-  TranscriptStream redirectToStdOut: false.
-  Deprecation suppressed: false.
-  
-  SmalltalkImage current snapshot: true andQuit: true.] future: 2000 "ms") value.
+browserWindow exportAsPNGNamed: 'screenshot-for-readme.png'.
+
+"Wrap up the image and save it"
+TranscriptStream redirectToStdOut: false.
+Deprecation suppressed: false.
+
+SmalltalkImage current snapshot: true andQuit: true.
