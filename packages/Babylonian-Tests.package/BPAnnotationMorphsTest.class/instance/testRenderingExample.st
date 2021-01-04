@@ -1,6 +1,6 @@
 tests
 testRenderingExample
-
+	
 	| example exampleAnnotation renderedSource anchorAttribute examplesAnnotation examplesMorph |
 	source := ('method
 ',Character startOfHeader,'
@@ -8,6 +8,7 @@ testRenderingExample
 	example := BPMethodExample new
 		method: methodReference compiledMethod;
 		exampleName: 'example 1';
+		expectedResult: '5';
 		argumentScripts: #('Object new' . #(1 2 3) . nil);
 		yourself.
 	exampleAnnotation := BPExampleAnnotation new
@@ -24,6 +25,6 @@ testRenderingExample
 	
 	renderedSource := source asBPSource.
 	self assert: 'method
-	<exampleNamed: ''example 1'' self: #tester with: ''Object new'' with: #(1 2 3) with: nil>
+	<exampleNamed: ''example 1'' self: #tester with: ''Object new'' with: #(1 2 3) with: nil expectedResult: ''5''>
 ^ 2 + 3' equals: renderedSource
 	

@@ -9,4 +9,4 @@ testLiveSpecimanExample
 		example := (BPTestExamplesClass>>#methodWithLiveSpecimen:) bpExamples first.
 		self 
 			assert: specimen equals: example newArguments first;
-			assert: specimen equals: example newReceiver].
+			assert: specimen equals: example newReceiver]

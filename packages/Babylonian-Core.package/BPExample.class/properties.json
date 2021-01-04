@@ -9,7 +9,8 @@
 		"isActive",
 		"exampleName",
 		"method",
-		"traceInformation" ],
+		"traceInformation",
+		"expectedResult" ],
 	"name" : "BPExample",
 	"pools" : [
 		 ],

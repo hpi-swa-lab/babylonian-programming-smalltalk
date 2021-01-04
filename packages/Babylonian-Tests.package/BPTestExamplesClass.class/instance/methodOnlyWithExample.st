@@ -1,6 +1,4 @@
 as yet unclassified
 methodOnlyWithExample
- 
-	<exampleNamed: 'some example'>  
-	
+	<exampleNamed: 'some example' self: ''>
 	^ 2

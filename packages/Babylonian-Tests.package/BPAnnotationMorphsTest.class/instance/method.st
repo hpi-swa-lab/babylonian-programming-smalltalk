@@ -1,5 +1,5 @@
 fixtures
 method
-<exampleNamed: 'example 1' self: #tester with: 'Object new' with: #(1 2 3) with: nil>    
+<exampleNamed: 'example 1' self: #tester with: 'Object new' with: #(1 2 3) with: nil expectedResult: '5'>    
 
-	^ 2 + 3 
+  ^ 2 + 3 

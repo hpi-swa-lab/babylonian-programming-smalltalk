@@ -26,7 +26,8 @@ Preferences disable: #showSharedFlaps.
 PluggableSystemWindow allInstances do: #abandon.
 PreferenceWizardMorph allInstances do: #abandon.
 SystemBrowser default: BPBrowser.
-
+Preferences disable: #mouseOverForKeyboardFocus.
+TextMorphForEditView draggableTextSelection: false.
 
 "
 Take a screenshot
