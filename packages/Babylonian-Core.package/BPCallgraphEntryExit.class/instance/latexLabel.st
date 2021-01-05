@@ -1,13 +1,12 @@
 as yet unclassified
 latexLabel
-
+	
 	^ String streamContents: [:s |
 		s
 			nextPutAll: '\lstinline{';
 			nextPutAll: (isExplicitReturn ifTrue: ['^ '] ifFalse: ['_ ']);
 			nextPutAll: class asString;
 			nextPutAll: '} \\ \lstinline{';
-			nextPutAll: '#';
 			nextPutAll: selector.
 		blockIndex > 1 ifTrue: [
 			s

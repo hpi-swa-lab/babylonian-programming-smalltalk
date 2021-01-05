@@ -1,5 +1,6 @@
 *Babylonian-Core-Callgraph-ByteCode
 emitNOPs: encoder stack: stack n: aNumber type: aSymbol
+	
 	<layer: #bpCallgraph>
 	| start |
 	true caseOf: {

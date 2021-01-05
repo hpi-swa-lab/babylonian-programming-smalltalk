@@ -19,5 +19,6 @@ menu: aMenuMorph
 	
 	aMenuMorph addLine.
 	aMenuMorph add: 'find common ancestor of all invocations' action: #findCommonAncestorOfAllInvocations.
+	aMenuMorph add: 'find all procedures called by this invocation (recursively)' action: #selectChildMethodCalls.
 	
 	super menu: aMenuMorph

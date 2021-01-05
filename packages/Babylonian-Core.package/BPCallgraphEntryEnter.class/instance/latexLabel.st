@@ -6,7 +6,6 @@ latexLabel
 			nextPutAll: '\lstinline{';
 			nextPutAll: class asString;
 			nextPutAll: '} \\ \lstinline{';
-			nextPutAll: '#';
 			nextPutAll: selector.
 		blockIndex > 1 ifTrue: [
 			s
