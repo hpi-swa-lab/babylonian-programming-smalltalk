@@ -6,5 +6,3 @@ setColorOfExecutionResultButtonForTrace: aTrace
 			self setExecutionResultButtonColorAccordingToExpression: (aTrace executionResult class = self example newExpectedResultObject)]
 		ifFalse: [
 			self setExecutionResultButtonColorAccordingToExpression: (aTrace executionResult = self example newExpectedResultObject)]
-	
-	

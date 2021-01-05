@@ -22,4 +22,3 @@ addArgumentScriptMorphs
 					self example argumentScripts at: index put: specimen.
 					self codeContentChanged.
 					editField setText: (self example argumentScriptStringAt: index)]]].
-
