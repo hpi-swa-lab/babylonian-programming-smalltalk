@@ -3,10 +3,11 @@ asMorph
 	
 	| newMorph |
 	newMorph := BPExamplesMorph new
-		exampleAnnotations: self exampleAnnotations;
 		annotation: self;
 		yourself.
-	
+		
+	self examples addDependent: newMorph.
+		
 	^ BPStyler wantsSidebarAnnotations 
 		ifTrue: [
 			BPSidebarConnectedMorph new

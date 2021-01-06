@@ -7,8 +7,8 @@
 	"instance" : {
 		"annotation" : "pre 7/2/2019 16:39",
 		"annotation:" : "jb 12/7/2020 18:56",
-		"codeContentChanged" : "jb 12/7/2020 18:56",
-		"containingBrowser" : "jb 12/7/2020 18:56",
+		"codeContentChanged" : "pre 1/6/2021 19:46",
+		"containingBrowser" : "pre 1/6/2021 19:45",
 		"createErrorIndicatorFor:" : "pre 8/17/2020 09:17",
 		"editFieldFor:text:onChange:onAccept:" : "pre 10/8/2020 11:29",
 		"editFieldInitialContent:onChange:onAccept:" : "pre 11/11/2019 10:41",
@@ -28,6 +28,7 @@
 		"isBPAnnotationMorph" : "pre 7/3/2019 11:10",
 		"isExample" : "pre 7/23/2019 12:47",
 		"isExamples" : "pre 11/25/2020 16:52",
+		"isInBrowser" : "pre 1/6/2021 19:44",
 		"isProbe" : "pre 7/3/2019 11:11",
 		"isReplacement" : "pre 7/3/2019 11:11",
 		"isSlider" : "pre 1/24/2020 16:15",

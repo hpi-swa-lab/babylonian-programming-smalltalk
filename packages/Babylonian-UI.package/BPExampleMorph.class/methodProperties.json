@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"activateExampleButtonClicked" : "jb 12/7/2020 18:57",
+		"activateExampleButtonClicked" : "pre 1/6/2021 19:23",
 		"addActivationButtonMorph" : "pre 9/30/2020 10:35",
-		"addDeleteButtonMorph" : "jb 12/7/2020 18:57",
+		"addDeleteButtonMorph" : "pre 1/6/2021 19:14",
 		"addExampleNameMorph" : "jb 12/7/2020 18:57",
 		"addExampleSpecificMorphs" : "pre 9/30/2020 10:37",
 		"addLoaderIconHolder" : "jb 12/7/2020 18:58",
@@ -15,7 +15,7 @@
 		"initialize" : "pre 1/6/2021 10:50",
 		"isExample" : "pre 9/30/2020 10:34",
 		"isExampleActive" : "pre 9/30/2020 10:34",
-		"removeButtonClicked" : "jb 12/7/2020 18:58",
+		"removeButtonClicked" : "pre 1/6/2021 19:41",
 		"step" : "jb 12/13/2020 20:41",
 		"textEmphasis" : "pre 9/30/2020 10:35",
 		"updateMorphs" : "jb 12/13/2020 20:40" } }

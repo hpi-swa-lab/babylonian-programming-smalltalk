@@ -2,8 +2,8 @@
 bpExamples
 	
 	"This is were examples from annotations are born, and this should remain the only place.
-	The other place were examples come to be is the BPExamplesMorph that can create new
-	examples."
+	The collection is observed, do not create a new one!
+	New examples can be created via: bpNewExampleFrom:"
 	| pragmaSelectors |
 	pragmaSelectors := BPExample bpExamplePragmaSelectors.
 	^ self properties at: #bpExamples ifAbsentPut: [ | newExamples |

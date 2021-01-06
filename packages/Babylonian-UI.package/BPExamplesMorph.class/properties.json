@@ -4,9 +4,8 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "pre 1/6/2021 19:12",
 	"instvars" : [
-		"exampleAnnotations",
 		"buttonBar" ],
 	"name" : "BPExamplesMorph",
 	"pools" : [

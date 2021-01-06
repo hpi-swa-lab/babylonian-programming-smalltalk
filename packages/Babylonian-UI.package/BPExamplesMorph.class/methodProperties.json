@@ -5,10 +5,10 @@
 		"addButtonBar" : "jb 12/7/2020 18:59",
 		"addCreateExampleButtonLabeled:selector:" : "jb 12/7/2020 18:59",
 		"addExampleButtonClicked" : "jb 12/7/2020 18:59",
-		"addNewExampleAnnotation:" : "pre 11/24/2020 09:45",
 		"addScriptExampleButtonClicked" : "jb 12/7/2020 18:59",
-		"createAndAddNewExampleFrom:" : "jb 12/7/2020 18:59",
-		"exampleAnnotations" : "pre 8/24/2020 17:10",
-		"exampleAnnotations:" : "jb 12/7/2020 18:59",
+		"annotation:" : "pre 1/6/2021 19:21",
+		"createAndAddNewExampleFrom:" : "pre 1/6/2021 19:42",
 		"initialize" : "pre 1/6/2021 10:34",
-		"isExamples" : "pre 11/25/2020 16:52" } }
+		"isExamples" : "pre 11/25/2020 16:52",
+		"update:" : "pre 1/6/2021 19:32",
+		"updateExampleMorphsFrom:" : "pre 1/6/2021 19:49" } }

@@ -1,21 +1,18 @@
 tests
 testRenderingExample
-
-	| example exampleAnnotation renderedSource anchorAttribute examplesAnnotation examplesMorph |
+	
+	| example renderedSource anchorAttribute examplesAnnotation examplesMorph |
 	source := ('method
 ',Character startOfHeader,'
 ^ 2 + 3') asText.
 	example := BPMethodExample new
 		method: methodReference compiledMethod;
 		exampleName: 'example 1';
-		argumentScripts: #('Object new' . #(1 2 3) . nil);
-		yourself.
-	exampleAnnotation := BPExampleAnnotation new
-		exampleName: 'example 1';
-		methodReference: methodReference;
+		receiverConstructor: #tester;
+		argumentScripts: #('Object new' #(1 2 3) nil);
 		yourself.
 	examplesAnnotation := BPExamplesAnnotation new
-		exampleAnnotations: {exampleAnnotation};
+		examples: {example};
 		methodReference: methodReference;
 		yourself.
 	examplesMorph := examplesAnnotation asMorph.
