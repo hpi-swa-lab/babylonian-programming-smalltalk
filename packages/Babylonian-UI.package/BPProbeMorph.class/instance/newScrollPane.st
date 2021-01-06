@@ -24,7 +24,6 @@ newScrollPane
 		
 	scrollPane := ScrollPane new
 		name: #scrollPane;
-		width: 300;
 		color: Color transparent;
 		borderWidth: 0;
 		hResizing: #spaceFill;
@@ -33,6 +32,13 @@ newScrollPane
 		scrollBarThickness: self scrollBarSize;
 		height: 20;	
 		yourself.
+		
+	BPStyler 
+		withSideBarAnnotations: [scrollPane width: 300]
+		without: [
+			scrollPane 
+				hResizing: #rigid;
+				width: 500].
 		
 	^ wrapper 
 		addMorphBack: blocker;

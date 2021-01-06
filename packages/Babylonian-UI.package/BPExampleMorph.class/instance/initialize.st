@@ -2,9 +2,13 @@ initialization
 initialize
 	
 	super initialize.
+	
+	BPStyler withSideBarAnnotations: [
+		self 
+			wrapDirection: #leftToRight;
+			hResizing: #shrinkWrap;
+			vResizing: #shrinkWrap].
+	
 	self 
-		hResizing: #shrinkWrap;
-		vResizing: #shrinkWrap;
-		wrapDirection: #leftToRight;
 		cellPositioning: #leftCenter;
 		cellInset: 1.
