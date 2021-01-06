@@ -34,7 +34,7 @@ newScrollPane
 		yourself.
 		
 	BPStyler 
-		withSideBarAnnotations: [scrollPane width: 300]
+		withSidebarAnnotations: [scrollPane width: 300]
 		without: [
 			scrollPane 
 				hResizing: #rigid;

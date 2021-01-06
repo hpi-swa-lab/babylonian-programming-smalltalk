@@ -1,5 +1,5 @@
 preferences
-withSideBarAnnotations: aBlock without: anotherBlock
+withSidebarAnnotations: aBlock without: anotherBlock
 	
 	^ self wantsSidebarAnnotations
 		ifTrue: aBlock

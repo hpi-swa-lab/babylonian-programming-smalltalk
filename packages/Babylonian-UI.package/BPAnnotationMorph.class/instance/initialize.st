@@ -15,7 +15,7 @@ initialize
 		layoutInset: 2.
 		
 	BPStyler 
-		withSideBarAnnotations: [
+		withSidebarAnnotations: [
 			self 
 				hResizing: #rigid;
 				width: 370] 

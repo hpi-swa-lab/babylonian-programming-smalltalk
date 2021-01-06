@@ -3,7 +3,7 @@ initialize
 	
 	super initialize.
 	
-	BPStyler withSideBarAnnotations: [
+	BPStyler withSidebarAnnotations: [
 		self 
 			wrapDirection: #leftToRight;
 			hResizing: #shrinkWrap;
