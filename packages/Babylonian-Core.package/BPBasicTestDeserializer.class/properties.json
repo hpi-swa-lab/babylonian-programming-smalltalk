@@ -1,0 +1,16 @@
+{
+	"category" : "Babylonian-Core-Deserializing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"test",
+		"consumer",
+		"ast" ],
+	"name" : "BPBasicTestDeserializer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
