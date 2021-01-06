@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 for: anExampleConsumer from: aTestMethod
 
 	^ self basicNew

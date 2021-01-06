@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 consumer: aConsumer
 
 	consumer := aConsumer.
