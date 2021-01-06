@@ -3,4 +3,5 @@
 		 },
 	"instance" : {
 		"testBasicTestDeserializer" : "pm 1/6/2021 12:18",
-		"testMethodTestDeserializer" : "pm 1/6/2021 12:53" } }
+		"testMethodTestDeserializer" : "pm 1/6/2021 12:53",
+		"testNegativeMethodTestDeserializer" : "pm 1/6/2021 13:17" } }

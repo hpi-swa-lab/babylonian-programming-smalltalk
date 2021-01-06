@@ -1,10 +1,9 @@
 building
 deserialize
 
-	| stmts call |
+	| call |
 
-	stmts := self ast body statements.
-	call := (stmts at: (stmts findFirst: [:statement | statement selector = #assert:equals:])) arguments.
+	call := self findStatementWithMessage: #assert:equals:.
 
 	^ BPMethodExample new
 		expectedResult: (self deserializeExpected: ((call at: 1) token value));
