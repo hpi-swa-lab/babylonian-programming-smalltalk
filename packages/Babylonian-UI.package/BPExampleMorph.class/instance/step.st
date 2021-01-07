@@ -7,6 +7,6 @@ step
 		ifTrue: [self ensureErrorIndicatorFor: trace]
 		ifFalse: [self ensureNoErrorIndicator].
 		
-	(trace notNil and: [trace hasTraceCompleted not])
+	(trace notNil and: [trace hasTraceCompleted not and: [self example tracingIsStillRunning]])
 		ifTrue: [self ensureLoaderIcon]
 		ifFalse: [self ensureNoLoaderIcon].
