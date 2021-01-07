@@ -16,16 +16,9 @@ addReceiverConstructorMorph
 				self containingBrowser codeTextMorph accept]).
 	self addMorphBack: editField.
 			
-	"Live specimen selection - Copied from addArgumentScriptMorphs"
-		self addMorphBack: (SimpleButtonMorph new
-			height: self smallFontHeight;
-			color: self color;
-			borderWidth: 2;
-			label: 's';
-			target: [
+	"Live specimen selection"
+	self addMorphBack: (self newSpecimenSelectionButtonOnClick: [
 				self selectLiveSpecimenThen: [:specimen |.
 					self example receiverConstructor: specimen.
 					self codeContentChanged.
-					editField setText: self example receiverConstructorString]];
-			actionSelector: #value;
-			yourself)
+					editField setText: self example receiverConstructorString]]).

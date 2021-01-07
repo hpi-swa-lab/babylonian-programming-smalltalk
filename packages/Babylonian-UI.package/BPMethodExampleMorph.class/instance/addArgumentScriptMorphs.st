@@ -20,15 +20,8 @@ addArgumentScriptMorphs
 		self addMorphBack: editField.
 		
 		"Live specimen selection"
-		self addMorphBack: (SimpleButtonMorph new
-			height: self smallFontHeight;
-			color: self color;
-			borderWidth: 2;
-			label: 's';
-			target: [
-				self selectLiveSpecimenThen: [:specimen |.
+		self addMorphBack: (self newSpecimenSelectionButtonOnClick: [
+				self selectLiveSpecimenThen: [:specimen |
 					self example argumentScripts at: index put: specimen.
 					self codeContentChanged.
-					editField setText: (self example argumentScriptStringAt: index)]];
-			actionSelector: #value;
-			yourself)].
+					editField setText: (self example argumentScriptStringAt: index)]])].

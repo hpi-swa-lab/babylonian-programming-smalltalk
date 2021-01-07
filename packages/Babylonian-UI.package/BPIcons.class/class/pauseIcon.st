@@ -1,4 +1,4 @@
-icons  - accessing
+icons-accessing
 pauseIcon
 	"Auto-generated.
 	Copyright Material Icons: https://material.io/resources/icons/.

@@ -11,4 +11,4 @@ initialize
 	
 	self 
 		cellPositioning: #leftCenter;
-		cellInset: 1.
+		cellInset: 0.

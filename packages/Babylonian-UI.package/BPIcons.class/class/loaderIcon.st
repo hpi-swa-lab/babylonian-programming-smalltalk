@@ -1,4 +1,4 @@
-icons - accessing
+icons-accessing
 loaderIcon
 	"Auto-generated.
 	Copyright Feather Icons: https://github.com/feathericons/feather.
