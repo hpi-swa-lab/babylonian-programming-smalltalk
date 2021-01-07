@@ -5,7 +5,8 @@ updateFrom: traces
 	tracesMorph removeAllMorphs.
 	self removeLinesWithoutCurrentTrace: traces.
 	traces do: [:aTrace |
-		(aTrace runsForBlockId: self annotation id) ifNotEmpty: [:candidateRuns | | runs newLine selectedContextModel sliderMorph runLabelMorph offsetOfRuns |
+		(aTrace runsForBlockId: self annotation id) ifNotEmpty: [:candidateRuns | 
+			| runs newLine selectedContextModel sliderMorph runLabelMorph offsetOfRuns |
 			runs := self filterValues: candidateRuns throughSliderForTrace: aTrace.
 			offsetOfRuns := runs ifEmpty: [0] ifNotEmpty: [(candidateRuns indexOf: runs first) - 1].
 			newLine := self newExampleLineMorph
