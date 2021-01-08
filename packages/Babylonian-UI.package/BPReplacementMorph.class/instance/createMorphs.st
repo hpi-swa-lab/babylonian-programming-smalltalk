@@ -14,16 +14,7 @@ createMorphs
 		onAccept: [:str | 
 			self containingBrowser codeTextMorph accept].
 		
-	exampleSelectionMorph := BPExampleSelectFieldMorph new
-		optionsBlock: [ 
-			{BPExampleSpecificScript allExamplesName} , SystemNavigation default allExamples];
-		model: (BPObjectValueModel new
-			object: (self annotation ifNotNil: [:anAnnotation | anAnnotation example] ifNil: ['']);
-			onChangeBlock: [:example | 
-				self annotation exampleName: example uniqueIdentifier.
-				self codeContentChanged]);
-		yourself.
-		
+	exampleSelectionMorph := self newExampleSelectionFieldMorph.
 	removeButton := self newRemoveButton.
 		
 	self 
