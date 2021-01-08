@@ -1,4 +1,5 @@
 stepping
 step
 	
-	self width: self owner right - self left - 30
+	BPStyler withoutSidebarAnnotations: [
+		self width: self owner right - self left - 30]
