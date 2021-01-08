@@ -1,4 +1,5 @@
 private - ui
 exampleMorphs
-
-	^ self submorphs select: [:m | m isBPAnnotationMorph and: [m isExample]]
+	
+	^ (self submorphs , collapsedExamplesMorph submorphs) select: [:m | 
+		m isBPAnnotationMorph and: [m isExample]]

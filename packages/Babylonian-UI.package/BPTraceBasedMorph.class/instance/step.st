@@ -1,7 +1,7 @@
 stepping and presenter
 step
 	
-	| newTraces priorEditor tracesChanged |
+	| newTraces tracesChanged |
 	self methodReference ifNil: [^ false].
 	newTraces := self getTraces asIdentitySet.
 	tracesChanged := newTraces ~= displayedTraces.
@@ -13,8 +13,4 @@ step
 		self updateFrom: (newTraces ifEmpty: [self emptyTraces]).
 		displayedTraces := newTraces].
 
-	tracesChanged ifTrue: [
-		Project current addDeferredUIMessage: [
-			priorEditor := self owner editor.
-			self owner releaseParagraph.
-			self owner installEditorToReplace: priorEditor]].
+	tracesChanged ifTrue: [self refreshTextComposition].
