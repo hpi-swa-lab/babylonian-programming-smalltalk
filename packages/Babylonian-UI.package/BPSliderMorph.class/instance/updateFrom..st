@@ -12,7 +12,7 @@ updateFrom: traces
 			newLine := self newExampleLineMorph
 				setProperty: #bpTrace toValue: aTrace;
 				yourself.
-			newLine addMorphBack: (self newExampleLabelMorphFor: aTrace).
+			newLine addMorphBack: (self newExampleLabelMorphFor: aTrace example).
 			
 			runLabelMorph := 'all' asMorph.
 			
