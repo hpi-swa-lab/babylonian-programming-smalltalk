@@ -3,6 +3,8 @@ initialize
 	
 	super initialize.
 	
+	collapsed := false.
+	
 	BPStyler withSidebarAnnotations: [
 		self 
 			wrapDirection: #leftToRight;

@@ -10,8 +10,13 @@ initialize
 		
 	self
 		changeTableLayout;
-		listDirection: #topToBottom;
 		cellInset: 1.
+		
+	BPStyler withoutSidebarAnnotations: [
+		self
+			hResizing: #rigid;
+			listDirection: #leftToRight;
+			wrapDirection: #topToBottom].
 		
 	self 
 		addButtonBar;

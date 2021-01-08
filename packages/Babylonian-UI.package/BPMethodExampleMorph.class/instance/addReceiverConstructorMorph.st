@@ -2,7 +2,7 @@ private - ui
 addReceiverConstructorMorph
 	
 	| editField |
-	self addMorphBack: ('self: ' asMorph 
+	exampleSpecificMorphs addMorphBack: ('self: ' asMorph 
 			color: Color lightGray;
 			borderWidth: 0;
 			yourself).
@@ -14,10 +14,10 @@ addReceiverConstructorMorph
 				self codeContentChanged]
 			onAccept: [:str |
 				self containingBrowser codeTextMorph accept]).
-	self addMorphBack: editField.
+	exampleSpecificMorphs addMorphBack: editField.
 			
 	"Live specimen selection"
-	self addMorphBack: (self newSpecimenSelectionButtonOnClick: [
+	exampleSpecificMorphs addMorphBack: (self newSpecimenSelectionButtonOnClick: [
 				self selectLiveSpecimenThen: [:specimen |.
 					self example receiverConstructor: specimen.
 					self codeContentChanged.
