@@ -6,10 +6,12 @@
 		"addCreateExampleButtonLabeled:selector:" : "jb 12/7/2020 18:59",
 		"addExampleButtonClicked" : "jb 12/7/2020 18:59",
 		"addScriptExampleButtonClicked" : "jb 12/7/2020 18:59",
-		"annotation:" : "pre 1/6/2021 19:21",
+		"annotation:" : "pre 1/8/2021 14:46",
 		"createAndAddNewExampleFrom:" : "pre 1/6/2021 19:42",
+		"exampleMorphs" : "pre 1/8/2021 14:44",
 		"initialize" : "pre 1/8/2021 14:37",
 		"isExamples" : "pre 11/25/2020 16:52",
 		"step" : "pre 1/8/2021 14:33",
+		"stepTime" : "pre 1/8/2021 14:48",
 		"update:" : "pre 1/6/2021 19:32",
-		"updateExampleMorphsFrom:" : "pre 1/6/2021 19:49" } }
+		"updateExampleMorphsFrom:" : "pre 1/8/2021 14:45" } }

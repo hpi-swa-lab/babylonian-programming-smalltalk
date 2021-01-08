@@ -2,7 +2,7 @@ updating
 updateExampleMorphsFrom: examples
 	
 	| currentExamples exampleMorphs examplesToAdd examplesToDelete morphsToAdd |
-	exampleMorphs := self submorphs select: [:m | m isBPAnnotationMorph and: [m isExample]].
+	exampleMorphs := self exampleMorphs.
 	currentExamples := exampleMorphs collect: [:m | m example].
 	examplesToDelete := currentExamples difference: examples.
 	examplesToAdd := examples difference: currentExamples.
