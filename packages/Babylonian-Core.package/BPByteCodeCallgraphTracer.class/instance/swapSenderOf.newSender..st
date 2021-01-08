@@ -3,7 +3,7 @@ swapSenderOf: context newSender: newSenderContext
 	
 	| upwards downwards hasActiveTracing |
 	"only care about swapping sender of contexts that are currently in the stack."
-	("thisContext hasSender: context"thisContext sender sender sender sender sender sender sender sender sender == context) ifFalse: [^ self]. 
+	("thisContext hasSender: context"thisContext sender sender sender sender sender sender sender sender sender == context) ifFalse: [^ self].
 	
 	hasActiveTracing := BPByteCodeRewriter hasActiveTracing: context method.
 	
@@ -34,7 +34,7 @@ swapSenderOf: context newSender: newSenderContext
 		"new code"
 		tmp := self instrumentedAncestorAndDepthOf: context and: newSenderContext.
 		self assert: depth == tmp second.
-		self assert: (depth <= 0 or: [tmp first >= 0]).
+		self assert: (depth <= 0 or: [tmp first notNil]).
 		
 		events nextPut: #contextSenderChanged.
 		events nextPut: tmp second. "depth"

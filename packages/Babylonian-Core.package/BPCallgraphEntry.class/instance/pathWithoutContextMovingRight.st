@@ -5,7 +5,7 @@ pathWithoutContextMovingRight
 	path := OrderedCollection new.
 	entry := self.
 	[entry notNil] whileTrue: [
-		entry class == BPCallgraphEntryContextJumpHelper ifTrue: [| target |
+		entry class == BPCallgraphEntryReenter ifTrue: [| target |
 			target := entry executionContinuationEntry.
 			path addFirst: target.
 			entry := target contextSenderChangedEntry].

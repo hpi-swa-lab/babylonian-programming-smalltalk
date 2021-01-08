@@ -17,10 +17,14 @@ eventsForTree
 		theDepth > (prevDepth + 1) ifTrue: [
 			"context jumped to the right by more than 1 step, therefore we need to add 
 			new tree nodes (->) to correctly mount the following nodes"
-			self assert: theDepth - 1 - executionContinuation second >= 0.
-			(theDepth - 1 - executionContinuation second) to: theDepth - 1 do: [:i | 
+			self assert: theDepth - executionContinuation second size >= 0.
+			
+			executionContinuation second withIndexDo: [:helper :i |
+				overwriteDepth := theDepth - 1 - (executionContinuation second size - i).
+				addToTree value: helper].
+			"(theDepth - 1 - executionContinuation second size) to: theDepth - 1 do: [:i | 
 				overwriteDepth := i.
-				addToTree value: BPCallgraphEntryContextJumpHelper new].
+				addToTree value: BPCallgraphEntryContextJumpHelper new]."
 			overwriteDepth := -1].
 		
 		theDepth == 0

@@ -1,5 +1,5 @@
 private
-instrumentedAncestorAndDepthOf: aContext and: anotherContext
+instrumentedAncestorAndDepthOf: aContext and: newSenderContext
 	
 	"
 	I calculate two things:
@@ -15,38 +15,22 @@ instrumentedAncestorAndDepthOf: aContext and: anotherContext
 	2. 
 	"
 
-	| a b seenA seenB hasActiveTracing |
-	seenA := OrderedCollection new.
-	seenB := OrderedCollection new.
+	| oldStack newStack numSharedStackFrames diff |
+	oldStack := self stackWithActiveTracingOf: aContext.
+	newStack := self stackWithActiveTracingOf: newSenderContext.
 	
+	"remove the stack frame that called swapSender:, since our calculation only cares about the stack after it returns"
+	"(BPByteCodeRewriter hasActiveTracing: aContext method) ifTrue: [oldStack := oldStack allButLast]."
 	
-	hasActiveTracing := BPByteCodeRewriter hasActiveTracing: aContext method.
+	numSharedStackFrames := self numEqualElementsOf: oldStack and: newStack.
 	
-	a := aContext.
-	b := anotherContext.
-	
-	[| idx depth |
-		[a notNil and: [(BPByteCodeRewriter hasActiveTracing: a method) not]] whileTrue: [a := a sender].
-		[b notNil and: [(BPByteCodeRewriter hasActiveTracing: b method) not]] whileTrue: [b := b sender].
-
-		(a isNil and: [b isNil]) ifTrue: [
-			depth := seenB size - seenA size.
-			^ depth <= 0
-				ifTrue: [{Float negativeInfinity "unused" . depth}]
-				ifFalse: [{seenB size - (hasActiveTracing ifTrue: [1] ifFalse: [0]) . depth}]]. self flag: #todo. "Verify that the first return value is correct."
-
-		a ifNotNil: [seenA addLast: a].
-		b ifNotNil: [seenB addLast: b].
-
-		a ifNotNil: [(idx := seenB indexOf: a) > 0 ifTrue: ["jump left" 
-			depth := idx - seenA size.
-			self assert: depth <= 0.
-			^ {Float negativeInfinity "unused" . depth}]].		
-		b ifNotNil: [(idx := seenA indexOf: b) > 0 ifTrue: ["jump right"
-			depth := seenB size - idx.
-			self assert: depth > 0.
-			^ {idx "- 1" . depth}]]. self flag: #todo. "Verify that the first return value is correct."
-		
-		a ifNotNil: [a := a sender].
-		b ifNotNil: [b := b sender].
-	] repeat.
+	diff := newStack size - oldStack size.
+	diff <= 0
+		ifTrue: ["jump left"
+			self halt.
+			self flag: #todo. "This should probably also return context jump helpers"
+			^ {nil "unused" . diff}]
+		ifFalse: ["jump right"
+			^ {
+				newStack collect: [:each | self jumpHelperFor: each] from: numSharedStackFrames + 1 to: newStack size  . 
+				diff}]

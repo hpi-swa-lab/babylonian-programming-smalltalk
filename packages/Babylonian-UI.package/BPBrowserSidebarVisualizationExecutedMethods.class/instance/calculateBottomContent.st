@@ -19,7 +19,7 @@ calculateBottomContent
 		ifNil: [list add: '--- not found ---'].
 	
 	"unique invocation paths that ignore invocation counts"
-	paths := (entries collect: [:each | each pathWithoutContextMovingRight collect: #asPathPart]) withoutDuplicates.
+	paths := (entries collect: [:each | (each pathWithResolvedOutOfStackJumps: self callgraph) collect: #asPathPart]) withoutDuplicates.
 	paths withIndexDo: [:path :i |
 		list addLast: ''.
 		list addLast: (Text string: 'Unique Invocation Path ', i, ' (context-insensitive)' attributes: {TextEmphasis bold}).
@@ -44,7 +44,7 @@ calculateBottomContent
 	entries withIndexDo: [:entry :i |
 		list addLast: ''.
 		list addLast: (Text string: 'Invocation ', i, ' (context-sensitive)' attribute: TextEmphasis bold).
-		entry pathWithoutContextMovingRight do: [:each |
+		(entry pathWithResolvedOutOfStackJumps: self callgraph) do: [:each |
 			list add: each.
 			self flag: #todo. "What if the ancestor is not a BPCallgraphEntryEnter?"
 			(ancestor notNil and: [each class == BPCallgraphEntryEnter] and: [each equalsClassSelectorBlockIdxInvocation: ancestor]) 

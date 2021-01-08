@@ -3,7 +3,7 @@ selectCorrespondingMethodExit
 	
 	| entry |
 	entry := self getSelectedEntry.
-	self assert: (entry class == BPCallgraphEntryEnter).
+	self assert: (entry class == BPCallgraphEntryEnter or: [entry class == BPCallgraphEntryContextJumpHelper]) .
 	
 	callgraph 
 		detect: [:each | (each class == BPCallgraphEntryExit) 

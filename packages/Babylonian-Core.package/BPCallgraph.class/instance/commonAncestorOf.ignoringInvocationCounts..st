@@ -4,11 +4,11 @@ commonAncestorOf: aCollection ignoringInvocationCounts: aBoolean
 	| theAncestor possibleAncestors |
 	aCollection ifEmpty: [^ nil].
 	
-	possibleAncestors := aCollection first pathWithoutContextMovingRight allButLast.
+	possibleAncestors := (aCollection first pathWithResolvedOutOfStackJumps: self) allButLast.
 	
 	aCollection allButFirst do: [:each | | found path |
 		found := false.
-		path := each pathWithoutContextMovingRight allButLast reversed.
+		path := (each pathWithResolvedOutOfStackJumps: self) allButLast reversed.
 		path withIndexDo: [:entry :i | | ancestorIdx |
 			found
 				ifFalse: [
