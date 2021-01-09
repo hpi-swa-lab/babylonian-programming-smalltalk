@@ -1,6 +1,6 @@
 initialization
-setExecutionResultButtonColorAccordingToExpression: aBooleanExpression
+setExecutionResultButtonColorAccordingTo: aBoolean
 	
-	 aBooleanExpression
+	 aBoolean
 		ifTrue: [executionResultButton color: Color paleGreen]
 		ifFalse: [executionResultButton color: Color paleRed]
