@@ -1,4 +1,4 @@
 accessing
 methodName
 	
-	^ self method selector asString
+	^ self method selector

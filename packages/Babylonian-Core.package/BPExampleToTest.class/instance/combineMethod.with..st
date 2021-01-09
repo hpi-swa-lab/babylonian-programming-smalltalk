@@ -5,6 +5,6 @@ combineMethod: aMethodString with: anArrayOfParameters
 	
 	| methodParts |
 	methodParts := (aMethodString splitBy: ':') allButLast.
-	^ methodParts isEmpty 
-		ifTrue: [aMethodString]
-		ifFalse: [self zipToString: methodParts with: anArrayOfParameters]
+	^ methodParts 
+		ifEmpty: [aMethodString]
+		ifNotEmpty: [self zipToString: methodParts with: anArrayOfParameters]
