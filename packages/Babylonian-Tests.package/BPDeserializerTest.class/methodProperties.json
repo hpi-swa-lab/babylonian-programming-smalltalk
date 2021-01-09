@@ -3,5 +3,12 @@
 		 },
 	"instance" : {
 		"testBasicTestDeserializer" : "pm 1/6/2021 12:18",
-		"testMethodTestDeserializer" : "pm 1/6/2021 12:53",
-		"testNegativeMethodTestDeserializer" : "pm 1/6/2021 13:17" } }
+		"testDeserializerDirectorWithBasicTest" : "pm 1/9/2021 16:26",
+		"testDeserializerDirectorWithMethodTest" : "pm 1/9/2021 16:37",
+		"testDeserializerDirectorWithNegativeMethodTest" : "pm 1/9/2021 16:38",
+		"testMethodTestDeserializerReturnsExpectedResultArray" : "pm 1/9/2021 16:52",
+		"testMethodTestDeserializerReturnsExpectedResultNumber" : "pm 1/9/2021 16:41",
+		"testMethodTestDeserializerReturnsExpectedResultString" : "pm 1/9/2021 16:42",
+		"testNegativeMethodTestDeserializerReturnsErrorType" : "pm 1/9/2021 16:39",
+		"testNegativeMethodTestDeserializerReturnsParameters" : "pm 1/9/2021 16:40",
+		"testNegativeMethodTestDeserializerReturnsReceiver" : "pm 1/9/2021 16:40" } }

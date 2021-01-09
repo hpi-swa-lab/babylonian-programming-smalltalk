@@ -1,4 +1,4 @@
 private - building
 deserializeExpected: anExpectedValue
 
-	^ anExpectedValue 
+	^ self nodeToValue: anExpectedValue 

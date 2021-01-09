@@ -1,4 +1,4 @@
 private - building
 deserializeArguments: anArgumentList
 
-	^ anArgumentList 
+	^ anArgumentList collect: [:arg | self nodeToValue: arg]

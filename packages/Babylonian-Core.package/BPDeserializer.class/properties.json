@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "pm 1/9/2021 17:05",
+	"commentStamp" : "pm 1/9/2021 16:59",
 	"instvars" : [
 		 ],
-	"name" : "BPMethodTestDeserializer",
+	"name" : "BPDeserializer",
 	"pools" : [
 		 ],
-	"super" : "BPBasicTestDeserializer",
+	"super" : "Object",
 	"type" : "normal" }

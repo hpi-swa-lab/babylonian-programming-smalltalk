@@ -7,6 +7,6 @@ deserialize
 	msg := self getFirstStatementFrom: (call at: 1).
 
 	^ BPMethodExample new
-		expectedResult: (self deserializeException: ((call at: 2) token value));
+		expectedResult: (self deserializeException: (call at: 2));
 		receiverConstructor: (self deserializeReceiver: (msg receiver));
-		argumentScripts: (self deserializeArguments: (msg arguments collect: [:arg | arg value]))
+		argumentScripts: (self deserializeArguments: (msg arguments))

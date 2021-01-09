@@ -8,4 +8,4 @@ deserialize
 
 	^ BPMethodExample new
 		receiverConstructor: (self deserializeReceiver: (call receiver));
-		argumentScripts: (self deserializeArguments: (call arguments collect: [:arg | arg value])) 
+		argumentScripts: (self deserializeArguments: (call arguments)) 

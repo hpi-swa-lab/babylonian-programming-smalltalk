@@ -1,4 +1,4 @@
 private - building
 deserializeException: anException
 
-	^ anException
+	^ self nodeToValue: anException

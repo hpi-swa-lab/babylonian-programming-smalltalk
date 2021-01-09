@@ -6,6 +6,6 @@ deserialize
 	call := self findStatementWithMessage: #assert:equals:.
 
 	^ BPMethodExample new
-		expectedResult: (self deserializeExpected: ((call at: 1) token value));
+		expectedResult: (self deserializeExpected: (call at: 1));
 		receiverConstructor: (self deserializeReceiver: ((call at: 2) receiver));
-		argumentScripts: (self deserializeArguments: ((call at: 2) arguments collect: [:arg | arg value]))
+		argumentScripts: (self deserializeArguments: ((call at: 2) arguments))
