@@ -2,4 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testDetectSerializerForMethodExample" : "pm 1/9/2021 18:06",
+		"testDetectSerializerForMethodTest" : "pm 1/9/2021 18:06",
+		"testDetectSerializerForNegativeMethodTest" : "pm 1/9/2021 18:13",
 		"testKnowsAllSerializationClasses" : "jb 1/2/2021 02:15" } }
