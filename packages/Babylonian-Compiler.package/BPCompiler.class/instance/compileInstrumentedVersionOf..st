@@ -1,8 +1,10 @@
 private
 compileInstrumentedVersionOf: aCue
-
+	
 	| originalCode parseResult |
-	originalCode := aCue sourceStream contents asBPSource asString.
+	"We do not serialize the examples into the instrumented method as
+	they only 'live' in the base method."
+	originalCode := aCue sourceStream contents asBPSourceWithoutExamples.
 	parseResult := self parse: originalCode.
 	
 	parseResult succeeded 

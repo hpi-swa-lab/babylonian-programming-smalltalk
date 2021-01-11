@@ -3,6 +3,8 @@ bpExamples
 	
 	"This is were examples from annotations are born, and this should remain the only place.
 	The collection is observed, do not create a new one!
+	This collection is also only available from base methods, and not for layered or
+	partial methods.
 	New examples can be created via: bpNewExampleFrom:"
 	| pragmaSelectors |
 	pragmaSelectors := BPExample bpExamplePragmaSelectors.

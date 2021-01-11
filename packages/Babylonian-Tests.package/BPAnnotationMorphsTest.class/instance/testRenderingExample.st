@@ -19,8 +19,8 @@ testRenderingExample
 	anchorAttribute := BPTextAnchor new anchoredMorph: examplesMorph.
 	source addAttribute: anchorAttribute from: 8 to: 9.
 	
-	renderedSource := source asBPSource.
+	renderedSource := source asBPSourceWithoutExamples.
 	self assert: 'method
-	<exampleNamed: ''example 1'' self: #tester with: ''Object new'' with: #(1 2 3) with: nil>
+
 ^ 2 + 3' equals: renderedSource
 	
