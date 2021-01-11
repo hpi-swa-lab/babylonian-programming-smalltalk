@@ -1,4 +1,4 @@
 annotation morph
 textEmphasis
 	
-	^ nil
+	^ self connectedMorph textEmphasis
