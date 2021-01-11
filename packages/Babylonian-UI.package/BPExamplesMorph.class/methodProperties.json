@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"addButtonBar" : "jb 12/7/2020 18:59",
-		"addCollapsedExamplesMorph" : "pre 1/8/2021 16:21",
+		"addCollapsedExamplesMorph" : "pre 1/11/2021 18:35",
 		"addCreateExampleButtonLabeled:selector:" : "jb 12/7/2020 18:59",
 		"addExampleButtonClicked" : "jb 12/7/2020 18:59",
 		"addScriptExampleButtonClicked" : "jb 12/7/2020 18:59",
@@ -14,8 +14,9 @@
 		"exampleMorphs" : "pre 1/8/2021 16:25",
 		"initialize" : "pre 1/8/2021 16:21",
 		"isExamples" : "pre 11/25/2020 16:52",
-		"step" : "pre 1/8/2021 18:02",
-		"stepTime" : "pre 1/8/2021 18:02",
+		"step" : "pre 1/11/2021 18:38",
+		"stepTime" : "pre 1/11/2021 18:39",
 		"update:" : "pre 1/6/2021 19:32",
 		"updateExampleMorphsFrom:" : "pre 1/8/2021 14:45",
-		"wantsSidebarLine" : "pre 1/8/2021 18:04" } }
+		"wantsSidebarLine" : "pre 1/8/2021 18:04",
+		"width:" : "pre 1/11/2021 18:34" } }

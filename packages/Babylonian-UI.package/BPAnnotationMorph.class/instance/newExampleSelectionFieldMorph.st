@@ -1,13 +1,12 @@
 private - ui
 newExampleSelectionFieldMorph
-
-	^ BPSelectFieldMorph new
-		optionsBlock: [
-			{BPExampleSpecificScript allExamplesName} , 
-			(SystemNavigation default allExamples collect: [:anExample | anExample uniqueIdentifier])];
+	
+	^ BPExampleSelectFieldMorph new
+		optionsBlock: [ 
+			{BPExampleSpecificScript allExamplesName} , SystemNavigation default allExamples];
 		model: (BPObjectValueModel new
-			object: (self annotation ifNotNil: [:anAnnotation | anAnnotation exampleName] ifNil: ['']);
-			onChangeBlock: [:exampleName | 
-				self annotation exampleName: exampleName.
+			object: (self annotation ifNotNil: [:anAnnotation | anAnnotation example]);
+			onChangeBlock: [:example | 
+				self annotation exampleName: example uniqueIdentifier.
 				self codeContentChanged]);
 		yourself.

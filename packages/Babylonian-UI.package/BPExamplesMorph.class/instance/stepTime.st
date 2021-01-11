@@ -2,5 +2,5 @@ stepping
 stepTime
 	
 	^ BPStyler 
-		withSidebarAnnotations: [100]
+		withSidebarAnnotations: [50]
 		without: [1000]

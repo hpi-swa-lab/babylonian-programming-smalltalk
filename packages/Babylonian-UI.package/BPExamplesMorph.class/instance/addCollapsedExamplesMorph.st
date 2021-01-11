@@ -7,6 +7,7 @@ addCollapsedExamplesMorph
 		cellInset: 0;
 		name: #collapsedExamplesMorph;
 		height: 0;
+		cellGap: 2;
 		hResizing: #spaceFill;
 		yourself.
 	self addMorphFront: collapsedExamplesMorph.
