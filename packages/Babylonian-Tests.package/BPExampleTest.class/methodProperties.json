@@ -7,7 +7,6 @@
 		"setUp" : "pre 1/6/2021 19:09",
 		"tearDown" : "pre 1/6/2021 19:08",
 		"testCreatingAnExampleNotifiesDependents" : "pre 1/6/2021 19:09",
-		"testExampleAndExampleReferenceCompareEqual" : "jb 12/7/2020 19:08",
 		"testExamplesAreEqualIfTheirValuesAreEqual" : "jb 12/7/2020 19:08",
 		"testExamplesAreNotEqualIfTheirValuesAreNotEqual" : "jb 12/7/2020 19:08",
 		"testExamplesAreNotEqualIfTheyAreNotBothExamples" : "jb 12/7/2020 19:08",
