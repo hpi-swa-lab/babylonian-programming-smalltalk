@@ -1,0 +1,1 @@
+Serializes an example by adding an assertion if the example's expected result is equal to the actual result.
