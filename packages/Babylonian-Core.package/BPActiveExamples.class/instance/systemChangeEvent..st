@@ -1,6 +1,6 @@
 change notifications
-systemChangeEvent: aModifiedEvent 
-
+systemChangeEvent: aModifiedEvent
+	
 	self 
 		updateActiveExamplesOnEvent: aModifiedEvent;
 		runActiveExamples.

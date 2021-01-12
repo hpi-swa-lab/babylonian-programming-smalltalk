@@ -12,7 +12,7 @@ newScrollPane
 		borderWidth: 0;
 		changeTableLayout;
 		listDirection: #topToBottom;
-		hResizing: #shrinkWrap;
+		hResizing: #spaceFill;
 		vResizing: #shrinkWrap;
 		yourself.
 	
@@ -24,14 +24,21 @@ newScrollPane
 		
 	scrollPane := ScrollPane new
 		name: #scrollPane;
-		width: 500;
 		color: Color transparent;
 		borderWidth: 0;
+		hResizing: #spaceFill;
 		vScrollBarPolicy: #never;
 		showHScrollBarOnlyWhenNeeded;
 		scrollBarThickness: self scrollBarSize;
 		height: 20;	
 		yourself.
+		
+	BPStyler 
+		withSidebarAnnotations: [scrollPane width: 300]
+		without: [
+			scrollPane 
+				hResizing: #rigid;
+				width: 500].
 		
 	^ wrapper 
 		addMorphBack: blocker;

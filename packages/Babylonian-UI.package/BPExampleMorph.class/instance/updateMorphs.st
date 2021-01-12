@@ -5,6 +5,7 @@ updateMorphs
 	
 	self 
 		addActivationButtonMorph;
+		addCollapseButtonMorph;
 		addLoaderIconHolder;
 		addExampleNameMorph;
 		addExampleSpecificMorphs;

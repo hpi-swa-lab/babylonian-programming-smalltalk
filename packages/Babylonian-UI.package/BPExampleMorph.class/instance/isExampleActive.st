@@ -1,4 +1,4 @@
-accessing
+testing
 isExampleActive
 
 	^ self example isActive

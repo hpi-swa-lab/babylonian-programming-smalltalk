@@ -13,7 +13,9 @@ initialize
 		listDirection: #topToBottom;
 		cellInset: 1.
 		
+	self addCollapsedExamplesMorph.
+		
 	self 
 		addButtonBar;
 		addCreateExampleButtonLabeled: 'add example' selector: #addExampleButtonClicked;
-		addCreateExampleButtonLabeled: '| add script example' selector: #addScriptExampleButtonClicked
+		addCreateExampleButtonLabeled: '| add script example' selector: #addScriptExampleButtonClicked.

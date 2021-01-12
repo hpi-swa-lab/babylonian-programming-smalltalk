@@ -1,15 +1,18 @@
 stepping and presenter
 step
 	
-	| newTraces |
+	| newTraces tracesChanged |
 	self methodReference ifNil: [^ false].
+	self resetHeight.
+	
 	newTraces := self getTraces asIdentitySet.
+	tracesChanged := newTraces ~= displayedTraces.
 	
-	(allTracesCompleted not or: [newTraces ~= displayedTraces]) ifTrue: [
-		allTracesCompleted := newTraces ifEmpty: [false] ifNotEmpty: [:ts | ts allSatisfy: [:t | t hasTraceCompleted]].
-		(newTraces notNil and: [newTraces notEmpty])  
-			ifTrue: [	self updateFrom: newTraces] 
-			ifFalse: [self updateFrom: self emptyTraces].
+	(allTracesCompleted not or: [tracesChanged]) ifTrue: [
+		allTracesCompleted := newTraces 
+			ifEmpty: [true] 
+			ifNotEmpty: [:ts | ts allSatisfy: [:t | t hasTraceCompleted]].
+		self updateFrom: (newTraces ifEmpty: [self emptyTraces]).
 		displayedTraces := newTraces].
-	
-	self owner owner changed.
+
+	tracesChanged ifTrue: [self refreshTextComposition].

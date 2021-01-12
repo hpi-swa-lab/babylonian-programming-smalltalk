@@ -1,4 +1,4 @@
 private
 checkForHaltAt: aProbeId
 	
-	haltProbeId == aProbeId ifTrue: [BPExampleExecutionInterrupted signal]
+	haltProbeId == aProbeId ifTrue: [BPExampleExecutionInterrupted signal].

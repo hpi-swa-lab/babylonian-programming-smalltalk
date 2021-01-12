@@ -3,7 +3,7 @@ addArgumentScriptMorphs
 	
 	| editField |
 	self example argumentNames withIndexDo: [:argumentName :index |
-		self addMorphBack: ((argumentName , ': ') asMorph 
+		exampleSpecificMorphs addMorphBack: ((argumentName , ': ') asMorph 
 			color: Color lightGray; 
 			borderWidth: 0;
 			yourself).
@@ -17,18 +17,11 @@ addArgumentScriptMorphs
 			onAccept: [:str |
 				self containingBrowser saveMethodWithExamples.
 				false "Do not continue handling this morphs edit"].
-		self addMorphBack: editField.
+		exampleSpecificMorphs addMorphBack: editField.
 		
 		"Live specimen selection"
-		self addMorphBack: (SimpleButtonMorph new
-			height: self smallFontHeight;
-			color: self color;
-			borderWidth: 2;
-			label: 's';
-			target: [
-				self selectLiveSpecimenThen: [:specimen |.
+		exampleSpecificMorphs addMorphBack: (self newSpecimenSelectionButtonOnClick: [
+				self selectLiveSpecimenThen: [:specimen |
 					self example argumentScripts at: index put: specimen.
 					self codeContentChanged.
-					editField setText: (self example argumentScriptStringAt: index)]];
-			actionSelector: #value;
-			yourself)]
+					editField setText: (self example argumentScriptStringAt: index)]])].

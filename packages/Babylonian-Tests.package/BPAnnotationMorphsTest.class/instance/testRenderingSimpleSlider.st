@@ -17,4 +17,4 @@ testRenderingSimpleSlider
 	renderedSource := source asBPSource.
 	self assert: 'methodWithBlock
 	<exampleNamed: ''example 1''>
-^ self do: "<bpSlider id: 10>"[:r | 2 + 3]"</bpSlider>"' equals: renderedSource asString.
+^ self do: "<bpSlider id: 10>"[:r | 2 + 3]"</bpSlider>"' equals: renderedSource asString

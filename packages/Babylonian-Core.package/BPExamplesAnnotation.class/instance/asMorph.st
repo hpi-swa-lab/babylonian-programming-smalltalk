@@ -1,7 +1,16 @@
 ui
 asMorph
 	
-	^ BPExamplesMorph new
-		exampleAnnotations: self exampleAnnotations;
+	| newMorph |
+	newMorph := BPExamplesMorph new
 		annotation: self;
-		yourself
+		yourself.
+		
+	self examples addDependent: newMorph.
+		
+	^ BPStyler wantsSidebarAnnotations 
+		ifTrue: [
+			BPSidebarConnectedMorph new
+				connectedMorph: newMorph;
+				yourself]
+		ifFalse: [newMorph]

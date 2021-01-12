@@ -1,6 +1,6 @@
 private - ui
 updateAssertionFieldsMorph
-
+	
 	| assertionScript assertionScriptMorph exampleSelectionMorph |
 	assertionFieldsMorph ifNotNil: [assertionFieldsMorph abandon].
 	assertionFieldsMorph := Morph new
@@ -12,7 +12,7 @@ updateAssertionFieldsMorph
 		vResizing: #shrinkWrap;
 		yourself.
 		
-	assertionScript := self annotation ifNil: [''] ifNotNil: [:a | a assertion asString].
+	assertionScript := self annotation ifNil: [''] ifNotNil: [:anAnnotation | anAnnotation assertion asString].
 	assertionScript := assertionScript copyFrom: 2 to: (assertionScript size - 1 max: 1). "Removes the square brackets"
 	assertionScriptMorph := self 
 		editFieldInitialContent: assertionScript
@@ -22,16 +22,7 @@ updateAssertionFieldsMorph
 		onAccept: [:str | 
 			self containingBrowser codeTextMorph accept].
 		
-	exampleSelectionMorph := BPSelectFieldMorph new
-		optionsBlock: [
-			{BPExampleSpecificScript allExamplesName} , 
-			(SystemNavigation default allExamples collect: [:e | e uniqueIdentifier])];
-		model: (BPObjectValueModel new
-			object: (self annotation ifNotNil: [:a | a exampleName] ifNil: ['']);
-			onChangeBlock: [:exampleName | 
-				self annotation exampleName: exampleName.
-				self codeContentChanged]);
-		yourself.
+	exampleSelectionMorph := self newExampleSelectionFieldMorph.
 		
 	assertionFieldsMorph 
 		addMorphBack: assertionScriptMorph;

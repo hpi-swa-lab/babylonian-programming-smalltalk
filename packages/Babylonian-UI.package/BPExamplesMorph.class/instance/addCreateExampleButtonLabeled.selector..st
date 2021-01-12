@@ -17,5 +17,5 @@ addCreateExampleButtonLabeled: aLabel selector: anActionSelector
 		target: self;
 		actionSelector: anActionSelector. 
 		
-	buttonBar addMorphBack: addExampleButton
+	buttonBar addMorphBack: addExampleButton.
 	

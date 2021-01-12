@@ -1,4 +1,4 @@
 accessing
 selectedMethod: aMethod
 
-	selectedMethod := aMethod
+	selectedMethod := aMethod.

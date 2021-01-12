@@ -8,4 +8,4 @@ testRewritingSimpleExpressionExpressionProbe
 		to:
 'method
 	<layer: #bpInstrumented>
-	(self bpTrace: [2 + 3] through: [:result | result asFloat] forProbe: 1 inContext: thisContext)'
+	(self bpTrace: [2 + 3] through: [:result | result asFloat] forProbe: 1 inContext: thisContext)'.

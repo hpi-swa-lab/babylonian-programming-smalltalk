@@ -1,4 +1,5 @@
-as yet unclassified
+private - ui
 addExampleSpecificMorphs
-
-	self addScriptMorph
+	
+	super addExampleSpecificMorphs.
+	self addScriptMorph.

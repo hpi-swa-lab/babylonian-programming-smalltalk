@@ -7,4 +7,4 @@ selectLiveSpecimenThen: uiThenBlock
 		then: [:specimen | | reference |
 			reference := BPActiveSpecimenRegistry value storeSpecimen: specimen.
 			uiThenBlock value: reference];
-		openInWindow
+		openInWindow.

@@ -5,13 +5,14 @@ updateFrom: traces
 	tracesMorph removeAllMorphs.
 	self removeLinesWithoutCurrentTrace: traces.
 	traces do: [:aTrace |
-		(aTrace runsForBlockId: self annotation id) ifNotEmpty: [:candidateRuns | | runs newLine selectedContextModel sliderMorph runLabelMorph offsetOfRuns |
+		(aTrace runsForBlockId: self annotation id) ifNotEmpty: [:candidateRuns | 
+			| runs newLine selectedContextModel sliderMorph runLabelMorph offsetOfRuns |
 			runs := self filterValues: candidateRuns throughSliderForTrace: aTrace.
 			offsetOfRuns := runs ifEmpty: [0] ifNotEmpty: [(candidateRuns indexOf: runs first) - 1].
 			newLine := self newExampleLineMorph
 				setProperty: #bpTrace toValue: aTrace;
 				yourself.
-			newLine addMorphBack: (self newExampleLabelMorphFor: aTrace).
+			newLine addMorphBack: (self newExampleLabelMorphFor: aTrace example).
 			
 			runLabelMorph := 'all' asMorph.
 			
@@ -22,7 +23,7 @@ updateFrom: traces
 					actualIndex := index = 0 ifTrue: [0] ifFalse: [offsetOfRuns + index].
 					self annotation selectedContexts: (actualIndex to: actualIndex).
 					self for: aTrace selectContextAt: actualIndex.
-					runLabelMorph contents: (index = 0 ifTrue: ['all'] ifFalse: [actualIndex asString]).
+					runLabelMorph contents: ((index = 0 ifTrue: ['all'] ifFalse: [actualIndex asString]) padded: #left to: 4 with: Character space).
 					selectedContextModel changed: #object].
 			sliderMorph := Slider 
 				on: selectedContextModel

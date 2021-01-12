@@ -1,4 +1,4 @@
-as yet unclassified
+preferences
 cleanUpTracesOnShutdown: aBoolean
 	
-	CleanUpOnShutdown := aBoolean
+	CleanUpOnShutdown := aBoolean.

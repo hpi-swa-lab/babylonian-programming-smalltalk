@@ -1,6 +1,6 @@
 private - ui
 addDeleteButtonMorph
-
+	
 	| removeButton |
 	removeButton := self newRemoveButton.
 	removeButton 

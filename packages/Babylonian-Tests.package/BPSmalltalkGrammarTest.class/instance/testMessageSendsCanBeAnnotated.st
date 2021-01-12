@@ -1,5 +1,6 @@
 tests
 testMessageSendsCanBeAnnotated
+
 	"This is required for sliders ... probably also for ordinary probes"
 	startRule := #Expression.
 
@@ -7,4 +8,4 @@ testMessageSendsCanBeAnnotated
 	self shouldParseAll: {
 		'5"<ab>"+ 2"</ab>"' . 
 		'#(a b) "<ab>"ifTrue: [aVariable]"</ab>"'.
-		'2 negated "<ab>"detect: [bar] ifFound: [foo]"</bc>"'}
+		'2 negated "<ab>"detect: [bar] ifFound: [foo]"</bc>"'}.

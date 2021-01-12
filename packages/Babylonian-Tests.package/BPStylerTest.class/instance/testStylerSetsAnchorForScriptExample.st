@@ -11,4 +11,4 @@ testStylerSetsAnchorForScriptExample
 		
 	attributes := formattedSourceCode attributesAt: (formattedSourceCode asString indexOf: Character startOfHeader).
 	attributes := attributes select: [:a | a isKindOf: TextAnchor].
-	self assert: (attributes first anchoredMorph isKindOf: BPExamplesMorph)
+	self assert: (attributes first anchoredMorph isKindOf: BPExamplesMorph).

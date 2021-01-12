@@ -1,4 +1,4 @@
-icons -contents
+icons-contents
 pauseIconContents
 	"Auto-generated.
 	Copyright Feather Icons: https://github.com/feathericons/feather.
