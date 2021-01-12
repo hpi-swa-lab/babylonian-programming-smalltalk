@@ -1,6 +1,18 @@
 private - ui
 exampleMorphExpanded: aMorph
 	
-	self addMorph: aMorph after: collapsedExamplesMorph.
-	collapsedExamplesMorph submorphs ifEmpty: [collapsedExamplesMorph height: 0].
+	| lastCollapseMorph |
+	lastCollapseMorph := collapsedExamplesMorphSeparator isInWorld 
+		ifTrue: [collapsedExamplesMorphSeparator]
+		ifFalse: [collapsedExamplesMorph].
+	self addMorph: aMorph after: lastCollapseMorph.
+	
+	self anyExampleMorphsIsCollapsed
+		ifTrue: [
+			self 
+				addMorph: collapsedExamplesMorphSeparator 
+				after: collapsedExamplesMorph]
+		ifFalse: [
+			collapsedExamplesMorph height: 0.
+			collapsedExamplesMorphSeparator abandon.].
 	self refreshTextComposition

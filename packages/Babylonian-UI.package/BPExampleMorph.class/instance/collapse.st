@@ -5,8 +5,10 @@ collapse
 	
 	exampleSpecificMorphs abandon.
 	self collapseButton labelGraphic: (BPIcons moreVerticalIcon scaledToSize: self iconSize * 0.7).
+	collapsed := true.
+	
 	self flag: #todo. "The following is very brittle --pre"
 	self owner exampleMorphCollapsed: self.
 	
-	collapsed := true.
+	
 	

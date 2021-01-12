@@ -11,4 +11,10 @@ addCollapsedExamplesMorph
 		hResizing: #spaceFill;
 		yourself.
 	self addMorphFront: collapsedExamplesMorph.
+	collapsedExamplesMorphSeparator := Morph new
+		height: 1;
+		color: Color lightGray;
+		hResizing: #spaceFill;
+		yourself.
+	
 	
