@@ -2,5 +2,5 @@ initialize-release
 initialize
 	
 	super initialize.
-	examples := Dictionary new.
+	examples := WeakIdentityKeyDictionary new.
 	mutex := Mutex new.
