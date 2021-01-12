@@ -1,8 +1,7 @@
 initialization
 addLabelMorph
 	
-	"super addLabelMorph."
-	self selectedObject isNil
+	(self selectedObject isNil or: [self selectedObject = BPExampleSpecificScript allExamplesName])
 		ifTrue: [super addLabelMorph]
 		ifFalse: [
 			labelMorph := self newExampleLabelMorphFor: self selectedObject.
