@@ -1,0 +1,4 @@
+*Babylonian-Core
+asBPSourceWithoutExamples
+	
+	^ self

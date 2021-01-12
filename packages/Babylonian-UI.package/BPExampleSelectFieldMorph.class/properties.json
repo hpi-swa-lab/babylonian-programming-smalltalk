@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPExampleSelectFieldMorph",
+	"pools" : [
+		 ],
+	"super" : "BPSelectFieldMorph",
+	"type" : "normal" }

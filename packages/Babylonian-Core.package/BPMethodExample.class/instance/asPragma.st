@@ -1,6 +1,6 @@
 serialization
 asPragma
-
+	
 	^ '<exampleNamed: ''{1}''{2}{3}{4}>' format: {
 		self exampleName.
 		self isActive ifFalse: [''] ifTrue: [' active: true'].

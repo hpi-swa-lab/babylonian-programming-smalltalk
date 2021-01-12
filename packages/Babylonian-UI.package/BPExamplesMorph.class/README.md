@@ -1,0 +1,1 @@
+The ExamplesMorph is somewhat special, as it does not directly display an annotation in the text, but the list of examples of this method. The list of examples is not an annotation per se, but a property of the method. Thus, it is a dependent of the collection of bpExamples of the CompiledMethod it belongs to.

@@ -1,4 +1,5 @@
 private - ui
 addExampleSpecificMorphs
-
-	^ self subclassResponsibility
+	
+	exampleSpecificMorphs := self newContainerMorph.
+	self addMorphBack: exampleSpecificMorphs.

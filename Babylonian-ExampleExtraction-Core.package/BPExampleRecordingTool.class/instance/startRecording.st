@@ -1,9 +1,8 @@
 recording
 startRecording
 	
-	recorder := (BPMessageSendRecorder new
-  		watchMethod: self compiledMethod;
-		exampleMorph: self;
+	recorder := (BPExampleRecorder new
+  		instrumentMethod: self compiledMethod;
 		yourself).
 	
 	recorder startRecording

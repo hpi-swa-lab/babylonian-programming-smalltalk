@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"example" ],
+		"example",
+		"collapsed",
+		"exampleSpecificMorphs" ],
 	"name" : "BPExampleMorph",
 	"pools" : [
 		 ],
