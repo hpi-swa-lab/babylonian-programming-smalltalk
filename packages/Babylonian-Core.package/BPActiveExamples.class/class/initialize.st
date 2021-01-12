@@ -2,4 +2,4 @@ class initialization
 initialize
 	
 	Smalltalk addToShutDownList: self.
-	Smalltalk removeKey: #bpGlobalActiveExamples. 
+	Smalltalk globals removeKey: #bpGlobalActiveExamples. 
