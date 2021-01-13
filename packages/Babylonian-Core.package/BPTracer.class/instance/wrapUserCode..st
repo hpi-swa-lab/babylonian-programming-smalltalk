@@ -1,4 +1,6 @@
 callgraph
 wrapUserCode: aBlock
-
-	^ [RSSimulator simulateIfNeeded: aBlock additionalDepth: 0]
+	
+	^ Smalltalk at: #RSSimulator 
+		ifPresent: [:simulator | [simulator simulateIfNeeded: aBlock additionalDepth: 0]]
+		ifAbsent: [aBlock]

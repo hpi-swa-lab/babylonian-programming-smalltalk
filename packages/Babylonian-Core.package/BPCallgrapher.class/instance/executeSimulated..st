@@ -7,8 +7,8 @@ executeSimulated: aBlock
 	events := OrderedCollection new: 100000.
 	
 	prev := aBlock.
-	simulator := RSSimulator new.
-	simulator config: RSSimulatorConfiguration babylonian.
+	simulator := (Smalltalk at: #RSSimulator) new.
+	simulator config: (Smalltalk at: #RSSimulatorConfiguration) babylonian.
 	result := simulator simulate: aBlock withRecorder: [:event :data | 
 		event caseOf: {
 			[#step] -> [ | current depth |
