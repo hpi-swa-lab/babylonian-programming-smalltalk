@@ -1,11 +1,17 @@
 as yet unclassified
 addExample
 	
-	| argumentSpecimen receiverSpecimen |
-	receiverSpecimen := BPActiveSpecimenRegistry default storeSpecimen: self selectedRecording receiverObject.
-	argumentSpecimen := self selectedRecording argumentObjects
+	| argumentSpecimen receiverSpecimen example |
+	receiverSpecimen := BPActiveSpecimenRegistry default storeSpecimen: self selectedRecording first.
+	argumentSpecimen := self selectedRecording second
 		collect: [:argumentObject | BPActiveSpecimenRegistry default storeSpecimen: argumentObject].
 	
-	self exampleMorph
+	"self exampleMorph
 		createNewRecordedExampleWithReceiverSpecimen: receiverSpecimen
-		andPotentiallyArgumentSpecimen: argumentSpecimen
+		andPotentiallyArgumentSpecimen: argumentSpecimen"
+		
+	example := self compiledMethod bpNewExampleFrom: BPMethodExample.
+	example receiverConstructor: receiverSpecimen.
+	argumentSpecimen withIndexDo: [:specimen :index |
+		example argumentScripts at: index put: specimen].
+	
