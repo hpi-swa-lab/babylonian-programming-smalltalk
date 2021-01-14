@@ -2,13 +2,20 @@ public
 executeSimulated: aBlock
 	
 	"based on Context >> #trace:on"
-	| prev result events simulator |
+	| prev result events simulator config |
 	
 	events := OrderedCollection new: 100000.
 	
 	prev := aBlock.
+	
+	config := (Smalltalk at: #RSSimulatorConfiguration) "empty" default.
+	config quickSelectors addAll: ((Object methodsInCategory: #'*Babylonian-Core') collect: [:symbol | symbol -> #yesNotWrapped]).
+	config quickClasses addAll: {
+		BPByteCodeCallgraphTracer -> #yesNotWrapped.
+		BPByteCodeCallgraphTracer class -> #yesNotWrapped}.
+		
 	simulator := (Smalltalk at: #RSSimulator) new.
-	simulator config: (Smalltalk at: #RSSimulatorConfiguration) babylonian.
+	simulator config: config.
 	result := simulator simulate: aBlock withRecorder: [:event :data | 
 		event caseOf: {
 			[#step] -> [ | current depth |
