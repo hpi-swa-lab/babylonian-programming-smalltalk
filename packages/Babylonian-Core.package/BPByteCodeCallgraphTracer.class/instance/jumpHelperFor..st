@@ -2,7 +2,7 @@ private
 jumpHelperFor: aContext
 	
 	| helper |
-	helper := BPCallgraphEntryContextJumpHelper new.
+	helper := BPCallgraphEntryReenter new.
 	helper
 		class: aContext methodClass asString
 		selector: aContext selector 
