@@ -15,7 +15,7 @@ baseline: spec
 				package: 'ContextS2-Core' with:
  					[ spec repository: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/ContextSTrunk' ];
 				baseline: 'MethodWrappers' with: 
-					[ sepc repository: 'github://hpi-swa/MethodWrappers:master/packages' ];
+					[ spec repository: 'github://hpi-swa/MethodWrappers:master/packages' ];
 				package: 'Babylonian-Core' with: [spec requires: #('Babylonian-Compiler' 'ContextS2-Core' 'MethodWrappers')];
 				package: 'Babylonian-Compiler' with: [
 					spec 
