@@ -2,4 +2,7 @@
 [(Process respondsTo: #removeInstVarName:)
 	ifTrue: [Process removeInstVarName: ''tracer'']
 	ifFalse: [Process removeInstVarNamed: ''tracer'']] on: Warning do: [:e | e resume].
+[(MethodNode respondsTo: #removeInstVarName:)
+	ifTrue: [MethodNode removeInstVarName: ''bpCallgraphNOPs'']
+	ifFalse: [MethodNode removeInstVarNamed: ''bpCallgraphNOPs'']] on: Warning do: [:e | e resume].
 '!
