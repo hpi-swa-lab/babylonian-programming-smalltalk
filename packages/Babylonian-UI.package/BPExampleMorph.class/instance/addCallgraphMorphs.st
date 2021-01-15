@@ -1,7 +1,6 @@
-private - ui
+callgraph
 addCallgraphMorphs
 	
-
 	self addMorphBack:  (TextMorph new
 		color: Color black;
 		hResizing: #shrinkWrap;

@@ -14,7 +14,7 @@ traceInBackgroundWithCallgraph: aSymbol
 			"We need to remember this in order to terminate example processes
 			whenever a trace leaves the registry."
 			e trace exampleExecutionProcess: Processor activeProcess.
-			promise resolveWith: e trace.
+			promise resolveWith: {e trace . nil}.
 			Processor activeProcess suspend.]].
 	traceInformation tracingProcess: (exampleExecution 
 		forkAt: Processor userSchedulingPriority 

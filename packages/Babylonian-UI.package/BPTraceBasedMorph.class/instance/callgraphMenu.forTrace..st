@@ -1,4 +1,4 @@
-private - ui
+callgraphs
 callgraphMenu: menu forTrace: aTrace
 	
 	| example callgraph entries |

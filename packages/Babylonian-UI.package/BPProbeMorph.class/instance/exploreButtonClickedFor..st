@@ -1,6 +1,5 @@
 actions
 exploreButtonClickedFor: aBPTrace
-	
 
 	| menu |
 	menu := MenuMorph new.

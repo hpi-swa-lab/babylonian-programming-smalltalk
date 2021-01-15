@@ -1,4 +1,4 @@
-private - ui
+callgraphs
 viewCommonAncestorForTrace: aTrace
 	
 	| ancestor callgraph children paths |

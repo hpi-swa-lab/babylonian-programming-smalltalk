@@ -1,4 +1,4 @@
-callgraph ui
+callgraph
 buildWindowWith: aBuilder specs: aCollection
 	
 	| specs |

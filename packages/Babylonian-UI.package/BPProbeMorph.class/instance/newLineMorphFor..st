@@ -23,6 +23,6 @@ newLineMorphFor: aTrace
 		
 	scrollPane := self newScrollPane.
 	newLine addMorphBack: scrollPane.
-		
+	
 	^ newLine
 	

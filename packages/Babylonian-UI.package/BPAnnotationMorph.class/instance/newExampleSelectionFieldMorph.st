@@ -9,6 +9,6 @@ newExampleSelectionFieldMorph
 			onChangeBlock: [:exampleOrAllExampleString |
 				exampleOrAllExampleString = BPExampleSpecificScript allExamplesName
 					ifTrue: [self annotation exampleName: exampleOrAllExampleString]
-					ifFalse: [self annotation exampleName: exampleOrAllExampleString uniqueIdentifier]
+					ifFalse: [self annotation exampleName: exampleOrAllExampleString uniqueIdentifier].
 				self codeContentChanged]);
 		yourself.

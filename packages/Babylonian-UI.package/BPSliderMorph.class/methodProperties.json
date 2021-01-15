@@ -2,10 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"annotation:" : "pre 1/24/2020 16:13",
-		"createMorphs" : "pre 1/24/2020 16:15",
-		"for:selectContextAt:" : "pre 9/28/2020 10:54",
-		"initialize" : "pre 9/28/2020 09:56",
+		"for:selectContextAt:" : "jb 12/7/2020 19:01",
+		"initialize" : "jb 12/7/2020 19:01",
 		"isSlider" : "pre 1/24/2020 16:14",
 		"removeButtonClicked" : "jb 12/3/2020 22:53",
 		"resetAllFilters" : "pre 9/28/2020 11:19",

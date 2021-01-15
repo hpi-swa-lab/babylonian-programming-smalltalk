@@ -4,9 +4,7 @@
 	"instance" : {
 		"activateExampleButtonClicked" : "pre 1/6/2021 19:23",
 		"addActivationButtonMorph" : "pre 9/30/2020 10:35",
-		"addArgumentScriptMorphs" : "pre 8/25/2020 10:23",
-		"addCallgraphMorphs" : "cmfcmf 11/10/2020 10:59",
-		"addReceiverConstructorMorph" : "pre 8/25/2020 09:26",
+		"addCallgraphMorphs" : "pre 1/15/2021 13:43",
 		"addCollapseButtonMorph" : "pre 1/8/2021 14:09",
 		"addDeleteButtonMorph" : "pre 1/6/2021 19:14",
 		"addExampleNameMorph" : "jb 12/7/2020 18:57",
@@ -24,9 +22,7 @@
 		"isCollapsed" : "pre 1/12/2021 10:20",
 		"isExample" : "pre 9/30/2020 10:34",
 		"isExampleActive" : "pre 9/30/2020 10:34",
-		"removeButtonClicked" : "pre 9/30/2020 10:35",
-		"selectLiveSpecimenThen:" : "pre 7/10/2020 18:24",
-		"step" : "cmfcmf 10/30/2020 12:43",
+		"removeButtonClicked" : "pre 1/6/2021 19:41",
+		"step" : "pre 1/15/2021 13:43",
 		"textEmphasis" : "pre 9/30/2020 10:35",
-		"updateMorphs" : "cmfcmf 10/30/2020 12:28",
-		"viewInSidebar" : "cmfcmf 11/10/2020 11:01" } }
+		"updateMorphs" : "pre 1/15/2021 13:44" } }

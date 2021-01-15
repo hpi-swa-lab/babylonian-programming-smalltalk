@@ -1,8 +1,8 @@
 private
-valueMorphFor: traceValue trace: trace
+valueMorphFor: traceValue trace: aTrace
 	
 	| initialValueMorph previousValueMorph |
-	initialValueMorph := super valueMorphFor: traceValue trace: trace.
+	initialValueMorph := super valueMorphFor: traceValue trace: aTrace.
 	initialValueMorph addMorphFront: '|' asText asMorph.
 	
 	previousValueMorph := (traceValue previousValueOf: traceValue assignedVariableNames first) printString asText asMorph.

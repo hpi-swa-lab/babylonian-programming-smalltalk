@@ -11,4 +11,3 @@ updateMorphs
 		addExampleSpecificMorphs;
 		addDeleteButtonMorph;
 		addCallgraphMorphs.
-	

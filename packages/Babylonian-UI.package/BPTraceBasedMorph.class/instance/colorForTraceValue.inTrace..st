@@ -1,4 +1,4 @@
-private
+callgraphs
 colorForTraceValue: aBPTraceValue inTrace: aBPTrace
 	
 	^ (colorCache at: aBPTrace ifAbsentPut: [| callgraph values path paths uniquePaths colors |

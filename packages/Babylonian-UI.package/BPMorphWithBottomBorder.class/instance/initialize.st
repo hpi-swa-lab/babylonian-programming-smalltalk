@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initialize
 	
 
@@ -8,6 +8,6 @@ initialize
 		hResizing: #shrinkWrap;
 		changeTableLayout;
 		listDirection: #leftToRight;
-		borderWidth: 4;
+		borderWidth: 0;
 		color: Color transparent;
 		bottomColor: Color transparent

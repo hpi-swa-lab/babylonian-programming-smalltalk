@@ -2,10 +2,10 @@ private - ui
 newExampleLineMorph
 	
 	^  Morph new 
-		color: Color transparent; 
-		changeTableLayout; 
+		color: Color transparent;
+		changeTableLayout;
 		layoutInset: 0;
-		listDirection: #leftToRight; 
+		listDirection: #leftToRight;
 		vResizing: #shrinkWrap;
 		hResizing: #spaceFill;
 		cellPositioning: #leftCenter;

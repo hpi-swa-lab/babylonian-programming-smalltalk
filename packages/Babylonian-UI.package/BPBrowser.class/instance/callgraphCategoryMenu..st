@@ -1,4 +1,4 @@
-callgraph context menus
+callgraph
 callgraphCategoryMenu: aMenu
 	
 	<systemCategoryMenu>
