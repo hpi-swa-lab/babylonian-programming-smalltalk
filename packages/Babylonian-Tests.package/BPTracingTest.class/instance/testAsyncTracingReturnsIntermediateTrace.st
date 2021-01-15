@@ -3,5 +3,5 @@ testAsyncTracingReturnsIntermediateTrace
 
 	[BPTestManuallyInstrumentedClass new methodA] 
 		bpTraceAsyncForExample: nil
-		notifying: [:t | self assert: t hasTraceCompleted not].
+		notifying: [:tuple | self assert: tuple first hasTraceCompleted not].
 	
