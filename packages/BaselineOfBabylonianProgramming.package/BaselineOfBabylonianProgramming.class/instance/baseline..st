@@ -26,12 +26,10 @@ baseline: spec
 						postLoadDoIt: #postLoadUI];
 				yourself.
 				
-				spec project: 'Refactoring-Core' with: [
+				spec project: 'Refactoring' with: [
 				spec
 					className: 'ConfigurationOfRefactoringBrowser';
-					repository: 'http://www.squeaksource.com/MetacelloRepository';
-					loads: #('Core');
-					version: '3.0'].
+					repository: 'http://www.squeaksource.com/MetacelloRepository'].
 				
 			spec
 				group: 'default' with: #('Babylonian-Core' 'Babylonian-UI');
