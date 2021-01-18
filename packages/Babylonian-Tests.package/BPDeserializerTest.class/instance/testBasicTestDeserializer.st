@@ -1,9 +1,9 @@
 tests
 testBasicTestDeserializer
-
+	
 	| result |
 
-	result := (BPBasicTestDeserializer 
+	result := (BPMethodExampleTestDeserializer 
 		for: (BPGeneratedTest>>#add:to:) 
 		from: (BPGeneratedTest>>#testBasicTestExample)) deserialize.
 	self assert: '(BPGeneratedTest for: 10)' equals: result receiverConstructor.

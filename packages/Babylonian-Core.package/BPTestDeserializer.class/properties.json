@@ -9,7 +9,7 @@
 		"test",
 		"consumer",
 		"ast" ],
-	"name" : "BPBasicTestDeserializer",
+	"name" : "BPTestDeserializer",
 	"pools" : [
 		 ],
 	"super" : "Object",
