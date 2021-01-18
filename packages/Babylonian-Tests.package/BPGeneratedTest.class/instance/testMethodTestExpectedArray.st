@@ -1,4 +1,4 @@
-as yet unclassified
+generated tests
 testMethodTestExpectedArray
 	"generated Test"
 

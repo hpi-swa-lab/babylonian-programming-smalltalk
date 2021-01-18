@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "jb 1/2/2021 02:12",
+		"testBuildMethodBody" : "jb 1/2/2021 02:13",
+		"testCanNotSerialize" : "jb 1/2/2021 02:12",
+		"testCanSerialize" : "jb 1/2/2021 02:12" } }

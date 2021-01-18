@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-Core-Serializing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jb 1/2/2021 00:06",
+	"instvars" : [
+		 ],
+	"name" : "BPExampleToTestSerializer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
