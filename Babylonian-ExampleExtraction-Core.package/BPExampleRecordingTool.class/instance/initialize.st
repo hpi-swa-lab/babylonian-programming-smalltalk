@@ -1,10 +1,10 @@
-initialization
+as yet unclassified
 initialize
 	
+
+
 	super initialize.
 	
-	isRecording := false.
-	
 	self
-		color: Color gray lighter;
-		updateMorphs
+		resultsList: OrderedCollection new;
+		resultsListIndex: 1

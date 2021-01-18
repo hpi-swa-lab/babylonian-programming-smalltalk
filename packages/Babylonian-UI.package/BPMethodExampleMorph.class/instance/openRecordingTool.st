@@ -1,4 +1,4 @@
 recording
 openRecordingTool
 	
-	(BPExampleRecordingTool new exampleMorph: self) openInWorld
+	(BPExampleRecordingToolOld new exampleMorph: self) openInWorld

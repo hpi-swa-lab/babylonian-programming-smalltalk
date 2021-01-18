@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"resultsList",
-		"resultsListIndex",
-		"method" ],
-	"name" : "BPExampleRecordingTool",
+		 ],
+	"name" : "BabylonianDebugger",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "Debugger",
 	"type" : "normal" }
