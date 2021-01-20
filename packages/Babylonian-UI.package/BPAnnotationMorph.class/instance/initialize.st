@@ -3,7 +3,7 @@ initialize
 	
 	super initialize.
 	self color: ((ScrollPane basicNew userInterfaceTheme color ifNil: [
-		Color peach lighter]) adjustBrightness: -0.02).
+		Color peach lighter]) adjustBrightness: -0.05).
 	self height: self fontHeight.
 	
 	self 
@@ -11,8 +11,8 @@ initialize
 		cellPositioning: #topLeft;
 		listDirection: #leftToRight;
 		vResizing: #shrinkWrap;
-		cellInset: 2; 
-		layoutInset: 2.
+		cellInset: 1; 
+		layoutInset: 1.
 		
 	BPStyler 
 		withSidebarAnnotations: [
