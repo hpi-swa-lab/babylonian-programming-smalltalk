@@ -10,7 +10,7 @@ enableTracingForCompiledMethod: oldMethod mode: aSymbol howToAddToMethodDictWhen
 		ifFalse: [^ UIManager default inform: 'Cannot enable tracing for ', oldMethod methodClass, ' >> ', oldMethod selector, '.'].
 		
 	self assert: ({#slow . #fast} includes: aSymbol).
-	
+	self haltOnce.
 	aSymbol == #slow ifTrue: [newMethod := self copyCompiledMethod: oldMethod].
 	aSymbol == #fast ifTrue: [newMethod := oldMethod.
 		"newMethod objectAt: 1 put: (self adjustNumTemps: oldMethod numTemps + 1 in: oldMethod header)"].
@@ -19,8 +19,7 @@ enableTracingForCompiledMethod: oldMethod mode: aSymbol howToAddToMethodDictWhen
 	
 	aSymbol == #slow ifTrue: [
 		oldMethod isInstalled 
-			ifTrue: [
-				aBlock value: newMethod]
+			ifTrue: [	aBlock value: newMethod]
 			ifFalse: [oldMethod becomeForward: newMethod]].
 		
 	oldMethod selector flushCache
