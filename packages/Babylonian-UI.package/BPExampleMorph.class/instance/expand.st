@@ -3,6 +3,9 @@ expand
 	
 	collapsed ifFalse: [^ self].
 	
+	self
+		addMorph: configurationButton
+		inFrontOf: self submorphs last.
 	self 
 		addMorph: exampleSpecificMorphs 
 		inFrontOf: self submorphs last.

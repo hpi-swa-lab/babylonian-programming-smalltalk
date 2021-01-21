@@ -1,7 +1,7 @@
 private - ui
 addCollapseButtonMorph
 	
-	| collapseButton | 
+	| collapseButton |
 	collapseButton := IconicButton new.
 	collapseButton := collapseButton
 		name: #collapseButton;

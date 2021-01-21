@@ -8,5 +8,5 @@ initializeFromPragma: aPragma
 		
 	aPragma bpAsDictionary 
 		at: #active ifPresent: [:isActive | self isActive: isActive];
-		at: #setUp ifPresent: [:setUpScript | self setUpScript: setUpScript];
-		at: #tearDown ifPresent: [:tearDownScript | self setUpScript: tearDownScript].
+		at: #setUp ifPresent: [:newScript | self setUpScript: newScript];
+		at: #tearDown ifPresent: [:newScript | self tearDownScript: newScript].

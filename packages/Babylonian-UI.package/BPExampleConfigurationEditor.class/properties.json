@@ -7,11 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"example",
-		"collapsed",
-		"exampleSpecificMorphs",
-		"configurationButton" ],
-	"name" : "BPExampleMorph",
+		"requestor" ],
+	"name" : "BPExampleConfigurationEditor",
 	"pools" : [
 		 ],
-	"super" : "BPAnnotationMorph",
+	"super" : "Model",
 	"type" : "normal" }
