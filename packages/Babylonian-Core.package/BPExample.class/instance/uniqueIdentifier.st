@@ -1,4 +1,4 @@
 accessing
 uniqueIdentifier
-
-	^ self method reference , '>>#''' , self exampleName , ''''
+	
+	^ self method reference asString , '>>#''' , self exampleName , ''''
