@@ -4,6 +4,8 @@ compileMessage: aText notifying: aController
 	"Wrapped to allow for re-instrumenting methods that already have been instrumented"
 	| oldMethod result |
 	oldMethod := self compiledMethod.
+	oldMethod ifNil: [
+		^ super compileMessage: aText notifying: aController].
 	(BPByteCodeRewriter hasTracing: oldMethod)
 		ifTrue: [
 			result := #bpCallgraph withLayerDo: [
