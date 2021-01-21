@@ -9,6 +9,7 @@ expand
 	self 
 		addMorph: exampleSpecificMorphs 
 		inFrontOf: self submorphs last.
+	nameTextMorph wrapFlag: true.
 	self collapseButton labelGraphic: (BPIcons moreVerticalIcon scaledToSize: self iconSize * 0.7).
 	collapsed := false.
 	

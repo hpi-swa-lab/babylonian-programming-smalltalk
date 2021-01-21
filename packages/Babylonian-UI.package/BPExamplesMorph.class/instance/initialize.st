@@ -10,6 +10,7 @@ initialize
 		
 	self
 		changeTableLayout;
+		hResizing: #rigid;
 		listDirection: #topToBottom;
 		cellInset: 1.
 		
