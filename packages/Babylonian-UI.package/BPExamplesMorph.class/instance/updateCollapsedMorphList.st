@@ -1,0 +1,12 @@
+private - ui
+updateCollapsedMorphList
+	<exampleNamed: 'some example 5' self: ''>
+	(self anyExampleMorphsIsCollapsed and: [self anyExampleMorphsIsExpanded]) 
+		ifTrue: [
+			self 
+				addMorph: collapsedExamplesMorphSeparator 
+				after: collapsedExamplesMorph]
+		ifFalse: [
+			collapsedExamplesMorphSeparator abandon.
+			self anyExampleMorphsIsExpanded ifTrue: ["Only expanded morphs"
+				collapsedExamplesMorph height: 0.]]
