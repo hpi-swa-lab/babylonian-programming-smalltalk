@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"bpExamplePragmaSelectors" : "jb 12/3/2020 23:05" },
+		"bpExamplePragmaPrefix" : "pre 1/21/2021 15:45" },
 	"instance" : {
 		"=" : "pre 1/12/2021 15:22",
 		"argumentNames" : "pre 8/25/2020 09:41",
@@ -12,7 +12,7 @@
 		"execute" : "jb 12/3/2020 22:38",
 		"initialize" : "pre 9/30/2020 09:55",
 		"initializeFromMethod:" : "jb 12/3/2020 23:18",
-		"initializeFromPragma:" : "pre 9/30/2020 10:22",
+		"initializeFromPragma:" : "pre 1/21/2021 16:06",
 		"isLiveSpecimenReference:" : "pre 7/10/2020 18:22",
 		"liveSpecimen" : "jb 12/3/2020 23:19",
 		"morphClass" : "pre 9/30/2020 10:40",

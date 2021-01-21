@@ -6,11 +6,12 @@ bpExamples
 	This collection is also only available from base methods, and not for layered or
 	partial methods.
 	New examples can be created via: bpNewExampleFrom:"
-	| pragmaSelectors |
-	pragmaSelectors := BPExample bpExamplePragmaSelectors.
+	| pragmaPrefixes |
+	pragmaPrefixes := BPExample bpExamplePragmaPrefixes.
 	^ self properties at: #bpExamples ifAbsentPut: [ | newExamples |
 		newExamples := self pragmas 
-				select: [:p | pragmaSelectors includes: p keyword]
+				select: [:p | pragmaPrefixes anySatisfy: [:prefix | 
+								p keyword beginsWith: prefix]]
 				thenCollect: [:pragma |
 					(BPExample fromPragma: pragma)
 						method: self;
