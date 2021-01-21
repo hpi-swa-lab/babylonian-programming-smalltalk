@@ -1,5 +1,5 @@
 tests
-testRenderingExample
+testRenderingWithoutExamples
 	
 	| example renderedSource anchorAttribute examplesAnnotation examplesMorph |
 	source := ('method
@@ -10,8 +10,6 @@ testRenderingExample
 		exampleName: 'example 1';
 		receiverConstructor: #tester;
 		argumentScripts: #('Object new' #(1 2 3) nil);
-		setUpScript: #basicSetUp;
-		tearDownScript: '"do nothing"';
 		yourself.
 	examplesAnnotation := BPExamplesAnnotation new
 		examples: {example};
@@ -21,8 +19,8 @@ testRenderingExample
 	anchorAttribute := BPTextAnchor new anchoredMorph: examplesMorph.
 	source addAttribute: anchorAttribute from: 8 to: 9.
 	
-	renderedSource := source asBPSource.
+	renderedSource := source asBPSourceWithoutExamples.
 	self assert: 'method
-	<exampleNamed: ''example 1'' setUp: #basicSetUp tearDown: ''"do nothing"'' self: #tester with: ''Object new'' with: #(1 2 3) with: nil>
+
 ^ 2 + 3' equals: renderedSource
 	
