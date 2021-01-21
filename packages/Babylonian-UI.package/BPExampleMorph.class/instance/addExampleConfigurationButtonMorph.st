@@ -3,7 +3,7 @@ addExampleConfigurationButtonMorph
 	
 	configurationButton := IconicButton new.
 	configurationButton 
-		labelGraphic: (UiSilkIcons wrenchIcon scaledToSize: self iconSize * 0.7) asGrayScale;
+		labelGraphic: (BPIcons wrenchIcon scaledToSize: self iconSize * 0.7) asGrayScale;
 		color: Color transparent;
 		borderWidth: 0;
 		extent: configurationButton extent * 0.7.
