@@ -1,4 +1,6 @@
-tracing
+executing
 execute
 	
-	^ self subclassResponsibility
+	self runSetUp.
+	[^ self run] ensure: [
+		self runTearDown]

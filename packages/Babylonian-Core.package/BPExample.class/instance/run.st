@@ -1,0 +1,4 @@
+executing
+run
+	
+	^ self subclassResponsibility
