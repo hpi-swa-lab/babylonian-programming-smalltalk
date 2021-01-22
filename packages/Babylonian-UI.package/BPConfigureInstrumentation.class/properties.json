@@ -1,0 +1,18 @@
+{
+	"category" : "Babylonian-UI-Callgraph",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"PackagesToInstrument" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"acceptChanges",
+		"instrumentedPackages",
+		"selectionInstrumented",
+		"selectionUninstrumented",
+		"uninstrumentedPackages" ],
+	"name" : "BPConfigureInstrumentation",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }
