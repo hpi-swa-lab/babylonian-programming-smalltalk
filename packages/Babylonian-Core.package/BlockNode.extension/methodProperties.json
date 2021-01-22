@@ -2,15 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"additionalSize:" : " 1/22/2021 16:40:39",
-		"additionalSizeBeforeBlock:" : " 1/22/2021 16:40:39",
-		"emitCodeForEvaluatedClosureValue:encoder:" : " 1/22/2021 16:40:39",
-		"emitCodeForEvaluatedFullClosureValue:encoder:" : " 1/22/2021 16:40:39",
-		"emitCodeForEvaluatedValue:encoder:" : " 1/22/2021 16:40:39",
-		"emitCodeForValue:encoder:" : " 1/22/2021 16:40:39",
-		"isRootBlock:" : " 1/22/2021 16:40:39",
-		"litIndexBlockIdentifier:" : " 1/22/2021 16:40:39",
-		"sizeCodeForEvaluatedClosureValue:" : " 1/22/2021 16:40:39",
-		"sizeCodeForEvaluatedFullClosureValue:" : " 1/22/2021 16:40:39",
-		"sizeCodeForEvaluatedValue:" : " 1/22/2021 16:40:39",
-		"sizeCodeForValue:" : " 1/22/2021 16:40:39" } }
+		"additionalSize: (bpCallgraph)" : "1/22/2021 16:40:39",
+		"additionalSizeBeforeBlock: (bpCallgraph)" : "1/22/2021 16:40:39",
+		"emitCodeForEvaluatedClosureValue:encoder: (bpCallgraph)" : "1/22/2021 16:40:39",
+		"emitCodeForEvaluatedFullClosureValue:encoder: (bpCallgraph)" : "1/22/2021 16:40:39",
+		"emitCodeForEvaluatedValue:encoder: (bpCallgraph)" : "1/22/2021 16:40:39",
+		"emitCodeForValue:encoder: (bpCallgraph)" : "1/22/2021 16:40:39",
+		"isRootBlock: (bpCallgraph)" : "1/22/2021 16:40:39",
+		"litIndexBlockIdentifier: (bpCallgraph)" : "1/22/2021 16:40:39",
+		"sizeCodeForEvaluatedClosureValue: (bpCallgraph)" : "1/22/2021 16:40:39",
+		"sizeCodeForEvaluatedFullClosureValue: (bpCallgraph)" : "1/22/2021 16:40:39",
+		"sizeCodeForEvaluatedValue: (bpCallgraph)" : "1/22/2021 16:40:39",
+		"sizeCodeForValue: (bpCallgraph)" : "1/22/2021 16:40:39" } }

@@ -8,7 +8,7 @@ shouldNeverInstrument: aClass selector: aSymbol
 	
 	{{CompiledMethod . {#valueWithReceiver:arguments:}}.
 	  {BlockClosure . {#value . #ensure}}.
-	  {WriteStream . {#nextPut:}}} anySatisfy: [:tuple |
+	  {WriteStream . {#nextPut:}}} do: [:tuple |
 		((aClass includesBehavior: tuple first) and: [tuple second anySatisfy: [:excludedSelector | 
 				excludedSelector == aSymbol]]) ifTrue: [^ true]].
 
@@ -18,7 +18,7 @@ shouldNeverInstrument: aClass selector: aSymbol
 	  {DynamicVariable . {"only check for the class ;)"}}.
 	  {BPByteCodeMethodState . {"only check for the class ;)"}}.
 	  {BPByteCodeAssociation . {"only check for the class ;)"}}
-	 } anySatisfy: [:tuple |
+	 } do: [:tuple |
 		((aClass theNonMetaClass includesBehavior: tuple first) and: [tuple second isEmpty or: 
 			[tuple second anySatisfy: [:excludedSelector | excludedSelector == aSymbol]]]) 
 				ifTrue: [^ true]].
