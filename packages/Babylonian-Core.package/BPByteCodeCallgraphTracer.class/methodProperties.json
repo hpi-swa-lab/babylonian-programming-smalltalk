@@ -1,6 +1,7 @@
 {
 	"class" : {
 		"customEvent:data:" : "cmfcmf 12/31/2020 19:11",
+		"deactivateDuring:" : "pre 1/22/2021 11:22",
 		"enter:invocation:" : "cmfcmf 12/31/2020 19:11",
 		"exit:invocation:returns:" : "cmfcmf 12/31/2020 19:11",
 		"swapSenderOf:newSender:" : "cmfcmf 12/31/2020 19:11",
