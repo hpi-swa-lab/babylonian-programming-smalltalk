@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "BPBrowser",
+		"sidebar" ],
+	"name" : "BPCallgraphBrowser",
 	"pools" : [
 		 ],
-	"super" : "Browser",
+	"super" : "BPBrowser",
 	"type" : "normal" }
