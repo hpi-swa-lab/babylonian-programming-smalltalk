@@ -5,17 +5,23 @@ shouldNeverInstrument: aClass selector: aSymbol
 	| class method |
 	(aClass category beginsWith: 'Babylonian-') ifTrue: [
 		aClass category ~= 'Babylonian-Tests-Callgraph-ByteCode-Fixtures' ifTrue: [^ true]].
-	(aClass theNonMetaClass includesBehavior: Context) ifTrue: [^ true].
-	((aClass includesBehavior: CompiledMethod) and: [aSymbol == #valueWithReceiver:arguments:]) ifTrue: [^ true].
-	((aClass includesBehavior: BlockClosure) and: [aSymbol == #value or: [aSymbol == #ensure:]]) ifTrue: [^ true].
-	((aClass theNonMetaClass includesBehavior: Binding) and: [aSymbol == #value]) ifTrue: [^ true].
 	
-	(aClass theNonMetaClass includesBehavior: BPByteCodeCallgraphTracer) ifTrue: [^ true].
-	(aClass theNonMetaClass includesBehavior: DynamicVariable) ifTrue: [^ true].
-	((aClass includesBehavior: WriteStream) and: [aSymbol == #nextPut:]) ifTrue: [^ true].
-	
-	(aClass theNonMetaClass includesBehavior: BPByteCodeMethodState) ifTrue: [^ true].
-	(aClass theNonMetaClass includesBehavior: BPByteCodeAssociation) ifTrue: [^ true].
+	{{CompiledMethod . {#valueWithReceiver:arguments:}}.
+	  {BlockClosure . {#value . #ensure}}.
+	  {WriteStream . {#nextPut:}}} anySatisfy: [:tuple |
+		((aClass includesBehavior: tuple first) and: [tuple second anySatisfy: [:excludedSelector | 
+				excludedSelector == aSymbol]]) ifTrue: [^ true]].
+
+	{{Context . {"only check for the class ;)"}}.
+	  {Binding . {#value}}.
+	  {BPByteCodeCallgraphTracer . {"only check for the class ;)"}}.
+	  {DynamicVariable . {"only check for the class ;)"}}.
+	  {BPByteCodeMethodState . {"only check for the class ;)"}}.
+	  {BPByteCodeAssociation . {"only check for the class ;)"}}
+	 } anySatisfy: [:tuple |
+		((aClass theNonMetaClass includesBehavior: tuple first) and: [tuple second isEmpty or: 
+			[tuple second anySatisfy: [:excludedSelector | excludedSelector == aSymbol]]]) 
+				ifTrue: [^ true]].
 
 	class := aClass whichClassIncludesSelector: aSymbol.
 	class isNil ifTrue: [^ true].
