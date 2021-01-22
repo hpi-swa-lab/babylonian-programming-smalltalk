@@ -1,4 +1,4 @@
 serialization
 asPragma
-
+	
 	^ self subclassResponsibility

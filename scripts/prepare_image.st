@@ -21,6 +21,9 @@ FileStream fileIn: 'SOHCharacter.cs'.
   repository: 'filetree:///home/runner/work/babylonian-programming-smalltalk/babylonian-programming-smalltalk/packages';
   load: 'tests'.
 
+"Install new tool set"
+ToolSet default: (Smalltalk at: #BPToolSet).
+
 "Prepare Image a little bit"
 Preferences disable: #showSharedFlaps.
 PluggableSystemWindow allInstances do: #abandon.

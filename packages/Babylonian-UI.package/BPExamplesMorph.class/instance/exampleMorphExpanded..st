@@ -6,13 +6,8 @@ exampleMorphExpanded: aMorph
 		ifTrue: [collapsedExamplesMorphSeparator]
 		ifFalse: [collapsedExamplesMorph].
 	self addMorph: aMorph after: lastCollapseMorph.
+	self rememberThat: aMorph hasACollapsedStateOf: false.
 	
-	self anyExampleMorphsIsCollapsed
-		ifTrue: [
-			self 
-				addMorph: collapsedExamplesMorphSeparator 
-				after: collapsedExamplesMorph]
-		ifFalse: [
-			collapsedExamplesMorph height: 0.
-			collapsedExamplesMorphSeparator abandon.].
-	self refreshTextComposition
+	self 
+		updateCollapsedMorphList;
+		refreshTextComposition

@@ -1,0 +1,15 @@
+{
+	"category" : "Babylonian-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"example",
+		"requestor" ],
+	"name" : "BPExampleConfigurationEditor",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

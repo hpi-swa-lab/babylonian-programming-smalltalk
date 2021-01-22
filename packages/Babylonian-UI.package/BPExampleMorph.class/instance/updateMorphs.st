@@ -8,6 +8,7 @@ updateMorphs
 		addCollapseButtonMorph;
 		addLoaderIconHolder;
 		addExampleNameMorph;
+		addExampleConfigurationButtonMorph;
 		addExampleSpecificMorphs;
 		addDeleteButtonMorph;
 		addCallgraphMorphs.

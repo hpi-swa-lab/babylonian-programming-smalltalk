@@ -1,4 +1,5 @@
 private - ui
 codeContentChanged
 
-	self containingBrowser codeTextMorph hasUnacceptedEdits: true.
+	self containingBrowser ifNotNil: [:browser |
+		browser codeTextMorph hasUnacceptedEdits: true].

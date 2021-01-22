@@ -1,5 +1,5 @@
 tracing
-execute
+run
 	
 	^ self newReceiver 
 		perform: self method selector 

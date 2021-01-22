@@ -8,7 +8,9 @@
 	"instvars" : [
 		"example",
 		"collapsed",
-		"exampleSpecificMorphs" ],
+		"exampleSpecificMorphs",
+		"configurationButton",
+		"nameTextMorph" ],
 	"name" : "BPExampleMorph",
 	"pools" : [
 		 ],

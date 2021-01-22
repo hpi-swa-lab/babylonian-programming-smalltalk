@@ -9,7 +9,9 @@
 		"isActive",
 		"exampleName",
 		"method",
-		"traceInformation" ],
+		"traceInformation",
+		"setUpScript",
+		"tearDownScript" ],
 	"name" : "BPExample",
 	"pools" : [
 		 ],
