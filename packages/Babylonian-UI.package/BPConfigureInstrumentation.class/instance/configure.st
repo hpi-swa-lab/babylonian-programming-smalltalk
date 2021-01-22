@@ -5,7 +5,7 @@ configure
 
 	| originalPackages addedPackages removedPackages |
 	acceptChanges := false.
-	instrumentedPackages := self packagesToInstrument.
+	instrumentedPackages := self packagesToInstrument asOrderedCollection sorted.
 	originalPackages := instrumentedPackages copy.
 	self updateUninstrumentedPackages.
 	
@@ -16,6 +16,14 @@ configure
 	addedPackages := self instrumentedPackages copyWithoutAll: originalPackages.
 	(removedPackages isEmpty and: [addedPackages isEmpty]) ifTrue: [^ false].
 	
-	PackagesToInstrument removeAll: removedPackages.
-	PackagesToInstrument addAll: addedPackages.
-	^ true
+	(self confirm: 'This will instrument the newly selected 
+packages and can take considerable time!')
+		ifTrue: [
+			removedPackages do: [:p | 
+				BPByteCodeRewriter uninstrumentClassCategory: p].
+			PackagesToInstrument removeAll: removedPackages.
+			addedPackages do: [:p | 
+				BPByteCodeRewriter instrumentClassCategory: p].
+			PackagesToInstrument addAll: addedPackages.
+			^ true]
+		ifFalse: [^ false]
