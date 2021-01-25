@@ -10,5 +10,5 @@
 	"name" : "BPMethodTestDeserializer",
 	"pools" : [
 		 ],
-	"super" : "BPBasicTestDeserializer",
+	"super" : "BPTestDeserializer",
 	"type" : "normal" }

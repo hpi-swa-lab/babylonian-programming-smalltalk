@@ -25,6 +25,12 @@ baseline: spec
 						requires: #('Babylonian-Core' 'IconsBase');
 						postLoadDoIt: #postLoadUI];
 				yourself.
+				
+				spec project: 'Refactoring' with: [
+				spec
+					className: 'ConfigurationOfRefactoringBrowser';
+					repository: 'http://www.squeaksource.com/MetacelloRepository'].
+				
 			spec
 				group: 'default' with: #('Babylonian-Core' 'Babylonian-UI');
 				group: 'tests' with: #('Babylonian-Tests')];

@@ -1,4 +1,4 @@
-as yet unclassified
+generated tests
 testBasicTestExample
 	"generated Test"
 
