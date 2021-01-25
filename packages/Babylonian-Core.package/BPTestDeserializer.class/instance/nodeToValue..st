@@ -1,4 +1,4 @@
 helpers
 nodeToValue: aNode
 
-	^ self formatWithoutParentheses: aNode
+	^ aNode formattedCode

@@ -1,4 +1,4 @@
 private - building
 deserializeReceiver: aReceiverNode
 
-	^ self nodeToValue: aReceiverNode
+	^ self formatWithoutParentheses: aReceiverNode
