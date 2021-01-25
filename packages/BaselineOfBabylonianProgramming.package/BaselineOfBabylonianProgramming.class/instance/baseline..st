@@ -6,7 +6,7 @@ baseline: spec
 		for: #'common'
 		do: [
 			spec
-				baseline: 'Refactoring-Core' with:
+				project: 'Refactoring-Core' with:
 					[ spec 
 						className: 'ConfigurationOfRefactoringBrowser'; 
 						repository: 'http://www.squeaksource.com/MetacelloRepository'; 
