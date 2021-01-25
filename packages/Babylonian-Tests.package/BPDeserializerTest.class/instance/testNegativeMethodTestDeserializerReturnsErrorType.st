@@ -7,4 +7,4 @@ testNegativeMethodTestDeserializerReturnsErrorType
 		for: (BPGeneratedTest>>#add:to:) 
 		from: (BPGeneratedTest>>#testNegativeMethodTestExample)) deserialize.
 	
-	self assert: Error equals: result expectedResult.
+	self assert: 'Error' equals: result expectedResult.

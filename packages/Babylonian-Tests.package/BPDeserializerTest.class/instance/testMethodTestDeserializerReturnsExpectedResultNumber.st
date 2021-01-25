@@ -7,4 +7,4 @@ testMethodTestDeserializerReturnsExpectedResultNumber
 		for: (BPGeneratedTest>>#add:to:) 
 		from: (BPGeneratedTest>>#testMethodTestExample)) deserialize.
 	
-	self assert: 15 equals: result expectedResult.
+	self assert: '15' equals: result expectedResult.
