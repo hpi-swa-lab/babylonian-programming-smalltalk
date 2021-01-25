@@ -6,6 +6,12 @@ baseline: spec
 		for: #'common'
 		do: [
 			spec
+				baseline: 'Refactoring-Core' with:
+					[ spec 
+						className: 'ConfigurationOfRefactoringBrowser'; 
+						repository: 'http://www.squeaksource.com/MetacelloRepository'; 
+						loads: #('Core');
+						version: '3.0'];
 				baseline: 'Ohm' with: 
 					[ spec repository: 'github://hpi-swa/Ohm-S:master/packages' ];
 				baseline: 'PEG' with:
@@ -14,7 +20,7 @@ baseline: spec
 					spec repository: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/SwaUtilities'];
 				package: 'ContextS2-Core' with:
  					[ spec repository: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/ContextSTrunk' ];
-				package: 'Babylonian-Core' with: [spec requires: #('Babylonian-Compiler' 'ContextS2-Core')];
+				package: 'Babylonian-Core' with: [spec requires: #('Babylonian-Compiler' 'ContextS2-Core' 'Refactoring-Core')];
 				package: 'Babylonian-Compiler' with: [
 					spec 
 						requires: #('Ohm' 'PEG');
@@ -25,11 +31,6 @@ baseline: spec
 						requires: #('Babylonian-Core' 'IconsBase');
 						postLoadDoIt: #postLoadUI];
 				yourself.
-				
-				spec project: 'Refactoring' with: [
-				spec
-					className: 'ConfigurationOfRefactoringBrowser';
-					repository: 'http://www.squeaksource.com/MetacelloRepository'].
 				
 			spec
 				group: 'default' with: #('Babylonian-Core' 'Babylonian-UI');
