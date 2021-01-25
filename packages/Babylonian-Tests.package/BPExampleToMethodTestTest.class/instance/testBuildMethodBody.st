@@ -1,5 +1,5 @@
 tests
 testBuildMethodBody
 
-	self assert: 'self assert: ((BPTestExamplesClass one) addAndLog: 20) equals: (21)' 
+	self assert: 'self assert: (21) equals: ((BPTestExamplesClass one) addAndLog: 20)' 
 	equals: (BPExampleToMethodTest forExample: method bpExamples first) buildMethodBody

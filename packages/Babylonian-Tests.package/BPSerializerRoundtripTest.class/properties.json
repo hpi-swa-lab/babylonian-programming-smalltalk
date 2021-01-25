@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPSerializerRoundtripTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

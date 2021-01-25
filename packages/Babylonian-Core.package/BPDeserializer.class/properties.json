@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-Core-Deserializing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pm 1/9/2021 16:59",
+	"instvars" : [
+		 ],
+	"name" : "BPDeserializer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
