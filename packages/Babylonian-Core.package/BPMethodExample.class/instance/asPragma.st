@@ -2,7 +2,7 @@ serialization
 asPragma
 	
 	"'exampleNamed:' 'active:'? 'setUp:'? 'tearDown:'? 'self:'? 'expectedResult:'? 'with'*"
-	^ '<exampleNamed: ''{1}''{2}{3}{4}{5}{6}>' format: {
+	^ '<exampleNamed: ''{1}''{2}{3}{4}{5}{6}{7}>' format: {
 		self exampleName.
 		self isActive ifFalse: [''] ifTrue: [' active: true'].
 		self setUpScript ifNil: [''] ifNotNil: [:setUpScript | ' setUp: ' , setUpScript printString].
