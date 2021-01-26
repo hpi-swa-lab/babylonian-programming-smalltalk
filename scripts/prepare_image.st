@@ -21,28 +21,38 @@ FileStream fileIn: 'SOHCharacter.cs'.
   repository: 'filetree:///home/runner/work/babylonian-programming-smalltalk/babylonian-programming-smalltalk/packages';
   load: 'tests'.
 
+"Install new tool set"
+ToolSet default: (Smalltalk at: #BPToolSet).
+
 "Prepare Image a little bit"
 Preferences disable: #showSharedFlaps.
 PluggableSystemWindow allInstances do: #abandon.
 PreferenceWizardMorph allInstances do: #abandon.
-SystemBrowser default: BPBrowser.
 Preferences disable: #mouseOverForKeyboardFocus.
 TextMorphForEditView draggableTextSelection: false.
+
+SystemBrowser default: (Smalltalk at: #BPBrowser).
 
 "
 Take a screenshot
 "
 
 "First, ensure that the method is fully compiled and the examples are run"
-(Smalltalk at: #BPSearchCollection) recompile: #binarySearch:.
+{#BPSearchCollection . #BPEuropeanFlag . #BPEuropeanFlagStar} do: [:className |
+  (Smalltalk at: className) methodsDo: [:m | m bpRecompile]].
 ((Smalltalk at: #BPSearchCollection)>>#binarySearch:) bpExamples do: [:e | e isActive: true].
-BPActiveExamples value runActiveExamples.
+(Smalltalk at: #BPActiveExamples) value runActiveExamples.
 
 "Second, set up the stage and take the screenshot"
 browserWindow := (ToolSet default browse: (Smalltalk at: #BPSearchCollection) selector: #binarySearch:) containingWindow.
 browserWindow extent: 891@806.
 (browserWindow submorphsSatisfying: [:m | (m isKindOf: ProportionalSplitterMorph) and: [m width > m height]]) first repositionBy: 0@(-100).
 browserWindow topLeft: 30@30.
+
+"Give the probes some time to step once"
+1 second wait.
+ActiveWorld doOneCycle; doOneCycle; doOneCycle.
+
 browserWindow exportAsPNGNamed: 'screenshot-for-readme.png'.
 
 "Wrap up the image and save it"

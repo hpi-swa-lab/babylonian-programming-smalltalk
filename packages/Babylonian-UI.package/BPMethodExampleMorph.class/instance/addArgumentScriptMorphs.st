@@ -1,9 +1,14 @@
 private - ui
 addArgumentScriptMorphs
 	
-	| editField |
+	| editField labelMorph container |
 	self example argumentNames withIndexDo: [:argumentName :index |
-		self addSimpleTextMorph: (argumentName , ': ').
+		container := self newContainerMorph.
+		labelMorph := ((argumentName , ': ') asMorph 
+			color: Color lightGray; 
+			borderWidth: 0;
+			yourself).
+		container addMorphBack: labelMorph.
 
 		"Editing field"
 		editField := self
@@ -14,11 +19,14 @@ addArgumentScriptMorphs
 			onAccept: [:str |
 				self containingBrowser saveMethodWithExamples.
 				false "Do not continue handling this morphs edit"].
-		self addMorphBack: editField.
+		editField width: 240.
+		container addMorphBack: editField.
 		
-		self addLiveSpecimenSelectionMorphFor: editField 
-			withTarget: [
-				self selectLiveSpecimenThen: [:specimen |.
+		"Live specimen selection"
+		container addMorphBack: (self newSpecimenSelectionButtonOnClick: [
+				self selectLiveSpecimenThen: [:specimen |
 					self example argumentScripts at: index put: specimen.
 					self codeContentChanged.
-					editField setText: (self example argumentScriptStringAt: index)]]].
+					editField setText: (self example argumentScriptStringAt: index)]]).
+		
+		exampleSpecificMorphs addMorphBack: container].

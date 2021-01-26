@@ -5,8 +5,10 @@ updateMorphs
 	
 	self 
 		addActivationButtonMorph;
+		addCollapseButtonMorph;
 		addLoaderIconHolder;
 		addExampleNameMorph;
+		addExampleConfigurationButtonMorph;
 		addExampleSpecificMorphs;
 		addExpectedResultMorph;
 		addExampleResultMorph;

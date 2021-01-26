@@ -10,8 +10,11 @@ initialize
 		
 	self
 		changeTableLayout;
+		hResizing: #rigid;
 		listDirection: #topToBottom;
 		cellInset: 1.
+		
+	self addCollapsedExamplesMorph.
 		
 	self 
 		addButtonBar;

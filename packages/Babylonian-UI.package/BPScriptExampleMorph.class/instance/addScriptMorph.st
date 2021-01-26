@@ -1,8 +1,8 @@
-as yet unclassified
+private - ui
 addScriptMorph
 	
 	| editField |
-	self addMorphBack: 'script: ' asMorph.
+	exampleSpecificMorphs addMorphBack: 'script: ' asMorph.
 	
 	editField := (self
 			editFieldInitialContent: self example script
@@ -11,4 +11,4 @@ addScriptMorph
 				self codeContentChanged]
 			onAccept: [:str |
 				self containingBrowser codeTextMorph accept]).
-	self addMorphBack: editField.
+	exampleSpecificMorphs addMorphBack: editField.

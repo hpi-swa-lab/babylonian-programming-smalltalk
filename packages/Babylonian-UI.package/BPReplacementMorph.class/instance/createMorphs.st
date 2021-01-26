@@ -1,6 +1,6 @@
 initialize-release
 createMorphs
-
+	
 	| replacementScriptMorph replacementScript exampleSelectionMorph removeButton |
 	self removeAllMorphs.
 	replacementScript := self annotation ifNil: [''] ifNotNil: [:anAnnotation | anAnnotation replacementScript asString].
@@ -14,17 +14,7 @@ createMorphs
 		onAccept: [:str | 
 			self containingBrowser codeTextMorph accept].
 		
-	exampleSelectionMorph := BPSelectFieldMorph new
-		optionsBlock: [
-			{BPExampleSpecificScript allExamplesName} , 
-			(SystemNavigation default allExamples collect: [:anExample | anExample uniqueIdentifier])];
-		model: (BPObjectValueModel new
-			object: (self annotation ifNotNil: [:anAnnotation | anAnnotation exampleName] ifNil: ['']);
-			onChangeBlock: [:exampleName | 
-				self annotation exampleName: exampleName.
-				self codeContentChanged]);
-		yourself.
-		
+	exampleSelectionMorph := self newExampleSelectionFieldMorph.
 	removeButton := self newRemoveButton.
 		
 	self 

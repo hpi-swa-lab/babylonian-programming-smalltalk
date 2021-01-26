@@ -1,11 +1,11 @@
 {
 	"class" : {
-		"bpExamplePragmaSelectors" : "jb 1/2/2021 19:19" },
+		"bpExamplePragmaPrefix" : "pre 1/21/2021 15:45" },
 	"instance" : {
-		"asPragma" : "jb 1/2/2021 19:22",
-		"execute" : "jb 12/7/2020 18:13",
-		"initializeFromPragma:" : "jb 1/2/2021 19:24",
+		"asPragma" : "pre 1/21/2021 16:19",
+		"initializeFromPragma:" : "pre 1/21/2021 16:06",
 		"morphClass" : "pre 9/30/2020 10:41",
+		"run" : "pre 1/21/2021 17:18",
 		"script" : "pre 9/30/2020 11:00",
 		"script:" : "jb 12/7/2020 18:13",
 		"scriptString" : "pre 9/30/2020 10:57" } }

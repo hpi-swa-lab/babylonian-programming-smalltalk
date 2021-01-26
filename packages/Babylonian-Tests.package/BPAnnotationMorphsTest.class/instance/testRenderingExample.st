@@ -1,22 +1,21 @@
 tests
 testRenderingExample
 	
-	| example exampleAnnotation renderedSource anchorAttribute examplesAnnotation examplesMorph |
+	| example renderedSource anchorAttribute examplesAnnotation examplesMorph |
 	source := ('method
 ',Character startOfHeader,'
 ^ 2 + 3') asText.
 	example := BPMethodExample new
 		method: methodReference compiledMethod;
 		exampleName: 'example 1';
+		receiverConstructor: #tester;
+		argumentScripts: #('Object new' #(1 2 3) nil);
+		setUpScript: #basicSetUp;
+		tearDownScript: '"do nothing"';
 		expectedResult: '5';
-		argumentScripts: #('Object new' . #(1 2 3) . nil);
-		yourself.
-	exampleAnnotation := BPExampleAnnotation new
-		exampleName: 'example 1';
-		methodReference: methodReference;
 		yourself.
 	examplesAnnotation := BPExamplesAnnotation new
-		exampleAnnotations: {exampleAnnotation};
+		examples: {example};
 		methodReference: methodReference;
 		yourself.
 	examplesMorph := examplesAnnotation asMorph.
@@ -25,6 +24,6 @@ testRenderingExample
 	
 	renderedSource := source asBPSource.
 	self assert: 'method
-	<exampleNamed: ''example 1'' self: #tester with: ''Object new'' with: #(1 2 3) with: nil expectedResult: ''5''>
+	<exampleNamed: ''example 1'' setUp: #basicSetUp tearDown: ''"do nothing"'' self: #tester expectedResult: ''5'' with: ''Object new'' with: #(1 2 3) with: nil>
 ^ 2 + 3' equals: renderedSource
 	

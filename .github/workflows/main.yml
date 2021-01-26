@@ -26,17 +26,17 @@ jobs:
         env: 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: ./scripts/build_image.sh
-        if: matrix.os == 'ubuntu-latest'
+        if: matrix.os == 'ubuntu-latest' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/develop')
         shell: bash
       - name: Upload Image
         uses: actions/upload-artifact@v2
-        if: matrix.os == 'ubuntu-latest'
+        if: matrix.os == 'ubuntu-latest' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/develop')
         with:
           name: Babylonian-trunk.zip 
           path: ./deploy/Babylonian-trunk.zip
       - name: Upload Image
         uses: actions/upload-artifact@v2
-        if: matrix.os == 'ubuntu-latest'
+        if: matrix.os == 'ubuntu-latest' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/develop')
         with:
           name: screenshot 
           path: ./deploy/screenshot-for-readme.png

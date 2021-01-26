@@ -1,4 +1,9 @@
 private - ui
 addExampleSpecificMorphs
-
-	^ self subclassResponsibility
+	
+	exampleSpecificMorphs := self newContainerMorph.
+	exampleSpecificMorphs
+		hResizing: #spaceFill;
+		listDirection: #leftToRight;
+		wrapDirection: #topToBottom. 
+	self addMorphBack: exampleSpecificMorphs.

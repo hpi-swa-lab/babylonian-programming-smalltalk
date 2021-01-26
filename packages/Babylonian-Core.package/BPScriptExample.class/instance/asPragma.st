@@ -1,8 +1,10 @@
 serialization
 asPragma
 	
-	^ '<scriptExampleNamed: ''{1}''{2}{3}{4}>' format: {
+	^ '<scriptExampleNamed: ''{1}''{2}{3}{4}{5}{6}>' format: {
 		self exampleName .
 		self isActive ifFalse: [''] ifTrue: [' active: true'].
-		script ifNil: [''] ifNotNil: [' script:' , self scriptString].
-		self expectedResult ifNil: [''] ifNotNil: [:anExpectedResult | ' expectedResult: ' , anExpectedResult printString]}
+		self setUpScript ifNil: [''] ifNotNil: [:setUpScript | ' setUp: ' , setUpScript printString].
+		self tearDownScript ifNil: [''] ifNotNil: [:tearDownScript | ' tearDown: ' , tearDownScript printString].
+		self expectedResult ifNil: [''] ifNotNil: [:anExpectedResult | ' expectedResult: ' , anExpectedResult printString]
+		script ifNil: [''] ifNotNil: [' script:' , self scriptString]}

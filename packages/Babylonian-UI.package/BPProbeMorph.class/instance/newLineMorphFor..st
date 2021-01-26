@@ -19,7 +19,7 @@ newLineMorphFor: aTrace
 		extent: 0@0;
 		yourself).
 	
-	newLine addMorphBack: (self newExampleLabelMorphFor: aTrace).
+	newLine addMorphBack: (self newExampleLabelMorphFor: aTrace example).
 		
 	scrollPane := self newScrollPane.
 	newLine addMorphBack: scrollPane.

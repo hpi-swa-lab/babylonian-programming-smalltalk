@@ -1,6 +1,6 @@
 private - ui
 updateAssertionFieldsMorph
-
+	
 	| assertionScript assertionScriptMorph exampleSelectionMorph |
 	assertionFieldsMorph ifNotNil: [assertionFieldsMorph abandon].
 	assertionFieldsMorph := Morph new
@@ -22,16 +22,7 @@ updateAssertionFieldsMorph
 		onAccept: [:str | 
 			self containingBrowser codeTextMorph accept].
 		
-	exampleSelectionMorph := BPSelectFieldMorph new
-		optionsBlock: [
-			{BPExampleSpecificScript allExamplesName} , 
-			(SystemNavigation default allExamples collect: [:anExample | anExample uniqueIdentifier])];
-		model: (BPObjectValueModel new
-			object: (self annotation ifNotNil: [:anAnnotation | anAnnotation exampleName] ifNil: ['']);
-			onChangeBlock: [:exampleName | 
-				self annotation exampleName: exampleName.
-				self codeContentChanged]);
-		yourself.
+	exampleSelectionMorph := self newExampleSelectionFieldMorph.
 		
 	assertionFieldsMorph 
 		addMorphBack: assertionScriptMorph;

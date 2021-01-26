@@ -1,0 +1,4 @@
+accessing
+ignoreExamples
+	
+	writesExamples := false.

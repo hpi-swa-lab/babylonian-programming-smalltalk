@@ -1,5 +1,7 @@
 {
 	"class" : {
+		"basicSetUpForExamples" : "pre 1/21/2021 17:15",
+		"basicTearDownForExamples" : "pre 1/21/2021 17:15",
 		"empty" : "pre 5/17/2019 16:40",
 		"one" : "pre 7/1/2019 14:22" },
 	"instance" : {

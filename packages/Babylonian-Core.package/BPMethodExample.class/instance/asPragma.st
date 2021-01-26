@@ -1,9 +1,12 @@
 serialization
 asPragma
 	
-	^ '<exampleNamed: ''{1}''{2}{3}{4}{5}>' format: {
+	"'exampleNamed:' 'active:'? 'setUp:'? 'tearDown:'? 'self:'? 'expectedResult:'? 'with'*"
+	^ '<exampleNamed: ''{1}''{2}{3}{4}{5}{6}>' format: {
 		self exampleName.
 		self isActive ifFalse: [''] ifTrue: [' active: true'].
-		self receiverConstructor ifNil: [''] ifNotNil: [:c | ' self: ' , c printString].
-		self argumentScripts ifEmpty: [''] ifNotEmpty: [(self argumentScripts collect: [:s | ' with: ' , s printString]) join].
-		self expectedResult ifNil: [''] ifNotNil: [:anExpectedResult | ' expectedResult: ' , anExpectedResult printString]}
+		self setUpScript ifNil: [''] ifNotNil: [:setUpScript | ' setUp: ' , setUpScript printString].
+		self tearDownScript ifNil: [''] ifNotNil: [:tearDownScript | ' tearDown: ' , tearDownScript printString].
+		self receiverConstructor ifNil: [''] ifNotNil: [:aReceiverConstructor | ' self: ' , aReceiverConstructor printString].
+		self expectedResult ifNil: [''] ifNotNil: [:anExpectedResult | ' expectedResult: ' , anExpectedResult printString]
+		self argumentScripts ifEmpty: [''] ifNotEmpty: [(self argumentScripts collect: [:anArgumentScript | ' with: ' , anArgumentScript printString]) join]}

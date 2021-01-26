@@ -18,5 +18,7 @@ annotationMorphFor: anAnnotation
 				connectedMorph setProperty: #textAnchorProperties toValue: newMorph textAnchorProperties.
 				newMorph := connectedMorph].
 		newMorph].
-	annotationMorph annotation: anAnnotation.
+	annotationMorph 
+		annotation: anAnnotation;
+		methodReference: selectedMethod.
 	^ annotationMorph

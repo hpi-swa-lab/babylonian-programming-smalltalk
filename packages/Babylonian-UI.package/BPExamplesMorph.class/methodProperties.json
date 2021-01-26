@@ -1,14 +1,26 @@
 {
 	"class" : {
-		 },
+		"cleanUp" : "pre 1/21/2021 17:38" },
 	"instance" : {
 		"addButtonBar" : "jb 12/7/2020 18:59",
+		"addCollapsedExamplesMorph" : "pre 1/12/2021 10:11",
 		"addCreateExampleButtonLabeled:selector:" : "jb 12/7/2020 18:59",
 		"addExampleButtonClicked" : "jb 12/7/2020 18:59",
-		"addNewExampleAnnotation:" : "pre 11/11/2020 18:30",
 		"addScriptExampleButtonClicked" : "jb 12/7/2020 18:59",
-		"createAndAddNewExampleFrom:" : "jb 12/7/2020 18:59",
-		"exampleAnnotations" : "pre 8/24/2020 17:10",
-		"exampleAnnotations:" : "jb 12/7/2020 18:59",
-		"initialize" : "jb 12/7/2020 18:59",
-		"isExamples" : "pre 11/25/2020 16:52" } }
+		"annotation:" : "pre 1/21/2021 17:35",
+		"anyExampleMorphsIsCollapsed" : "pre 1/12/2021 10:27",
+		"anyExampleMorphsIsExpanded" : "pre 1/12/2021 10:30",
+		"createAndAddNewExampleFrom:" : "pre 1/6/2021 19:42",
+		"exampleMorphCollapsed:" : "pre 1/21/2021 17:29",
+		"exampleMorphExpanded:" : "pre 1/21/2021 17:31",
+		"exampleMorphs" : "pre 1/8/2021 16:25",
+		"initialize" : "pre 1/21/2021 18:11",
+		"isExamples" : "pre 11/25/2020 16:52",
+		"rememberThat:hasACollapsedStateOf:" : "pre 1/21/2021 17:36",
+		"step" : "pre 1/21/2021 18:20",
+		"stepTime" : "pre 1/21/2021 18:01",
+		"update:" : "pre 1/6/2021 19:32",
+		"updateCollapsedMorphList" : "pre 1/21/2021 17:10",
+		"updateExampleMorphsFrom:" : "pre 1/21/2021 17:09",
+		"wantsSidebarLine" : "pre 1/8/2021 18:04",
+		"width:" : "pre 1/11/2021 18:34" } }

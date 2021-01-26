@@ -10,7 +10,9 @@
 		"exampleName",
 		"method",
 		"traceInformation",
-		"expectedResult" ],
+		"expectedResult",
+		"setUpScript",
+		"tearDownScript" ],
 	"name" : "BPExample",
 	"pools" : [
 		 ],

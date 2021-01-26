@@ -1,4 +1,4 @@
-as yet unclassified
+preferences
 cleanUpTracesOnShutdown
 	<preference: 'Remove all recorded traces on shutdown'
 		category: 'Babylonian Browser'
