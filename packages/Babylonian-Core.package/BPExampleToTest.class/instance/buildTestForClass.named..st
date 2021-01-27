@@ -1,9 +1,9 @@
 building
-buildTestForClass: aClass
+buildTestForClass: aClass named: aNameString
 
 	^ '{1}<n><t>{2}<n><n><t>{3}'
 		expandMacros
 		format: {
-			self buildTestNameForClass: aClass.
+			aNameString.
 			self buildComment.
 			self buildMethodBody.}

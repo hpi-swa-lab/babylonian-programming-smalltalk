@@ -1,4 +1,4 @@
 instance-creation
 serialize: anExample
 	
-	(self forExample: anExample) serialize
+	^ (self forExample: anExample) serialize

@@ -1,0 +1,4 @@
+serialization
+serialize
+	
+	^ self subclassResponsibility
