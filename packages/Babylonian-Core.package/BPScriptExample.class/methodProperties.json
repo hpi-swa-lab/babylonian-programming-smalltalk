@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"bpExamplePragmaPrefix" : "pre 1/21/2021 15:45" },
+		"bpExamplePragmaPrefix" : "pre 1/21/2021 15:45",
+		"pragmaSelectors" : "pre 2/1/2021 10:48" },
 	"instance" : {
 		"asPragma" : "pre 1/21/2021 16:19",
 		"initializeFromPragma:" : "pre 1/21/2021 16:06",
