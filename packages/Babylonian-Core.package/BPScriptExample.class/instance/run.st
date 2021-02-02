@@ -1,5 +1,5 @@
 tracing
-execute
+run
 	
 	| block |
 	self script ifNotNil: [

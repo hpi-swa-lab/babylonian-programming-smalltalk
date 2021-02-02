@@ -19,7 +19,7 @@ insertExamplesMorphFrom: parseResult into: text basedOn: annotations
 				ifTrue: [
 					(text attributesAt: endOfHeaderIndex + 3) 
 						detect: [:a | (a isKindOf: BPTextAnchor) and: [a anchoredMorph isExamples]]
-						ifFound: [:oldExamples | bpExamplesMorph := oldExamples].
+						ifFound: [:oldExamplesAnchor | bpExamplesMorph := oldExamplesAnchor anchoredMorph].
 					text]
 				ifFalse: [
 					text 

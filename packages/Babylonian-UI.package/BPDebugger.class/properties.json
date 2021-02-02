@@ -1,5 +1,5 @@
 {
-	"category" : "Babylonian-ExampleExtraction-Core",
+	"category" : "Babylonian-UI",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -10,5 +10,5 @@
 	"name" : "BPDebugger",
 	"pools" : [
 		 ],
-	"super" : "Debugger",
+	"super" : "MorphicDebugger",
 	"type" : "normal" }

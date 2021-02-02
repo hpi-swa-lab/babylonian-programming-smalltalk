@@ -10,6 +10,7 @@ initialize
 		
 	self
 		changeTableLayout;
+		hResizing: #rigid;
 		listDirection: #topToBottom;
 		cellInset: 1.
 		
@@ -18,6 +19,4 @@ initialize
 	self 
 		addButtonBar;
 		addCreateExampleButtonLabeled: 'add example' selector: #addExampleButtonClicked;
-		addCreateExampleButtonLabeled: '| add script example' selector: #addScriptExampleButtonClicked;
-		addCreateExampleButtonLabeled: '| open search tool' selector: #openSearchTool;
-		addCreateExampleButtonLabeled: '| open recording tool' selector: #openRecordingTool
+		addCreateExampleButtonLabeled: '| add script example' selector: #addScriptExampleButtonClicked.

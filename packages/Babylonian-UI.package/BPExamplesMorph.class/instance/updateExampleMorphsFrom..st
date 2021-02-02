@@ -17,5 +17,7 @@ updateExampleMorphsFrom: examples
 	morphsToAdd do: [:m |
 		self addMorph: m inFrontOf: buttonBar].
 	
+	self updateCollapsedMorphList.
+	
 	(examplesToDelete notEmpty or: [examplesToAdd notEmpty]) ifTrue: [
 		self isInWorld ifTrue: [self codeContentChanged]].	

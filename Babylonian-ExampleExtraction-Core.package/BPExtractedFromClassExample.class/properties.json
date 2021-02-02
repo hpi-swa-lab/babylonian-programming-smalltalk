@@ -11,5 +11,5 @@
 	"name" : "BPExtractedFromClassExample",
 	"pools" : [
 		 ],
-	"super" : "BPExample",
+	"super" : "Object",
 	"type" : "normal" }
