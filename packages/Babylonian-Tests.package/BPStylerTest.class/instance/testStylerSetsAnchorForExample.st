@@ -1,9 +1,9 @@
 tests
 testStylerSetsAnchorForExample
-
+	
 	| formattedSourceCode originalSourceCode attributes |
 	originalSourceCode := 'method
-	<testRef: ''BPStylerTest>>#method''>
+	<testRef: ''BPAnnotationMorphsTestTest>>#testExample1''>
 "<bpReplace for: ''example 1'' with: [10]>"2 + 3"</bpReplace>"' asText.
 	formattedSourceCode := styler format: originalSourceCode.
 	

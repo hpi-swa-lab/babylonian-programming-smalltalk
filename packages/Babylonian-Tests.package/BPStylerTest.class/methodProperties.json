@@ -2,18 +2,18 @@
 	"class" : {
 		 },
 	"instance" : {
-		"method" : "pre 7/23/2019 12:04",
+		"method" : "jb 2/2/2021 20:31",
 		"runCase" : "pre 12/16/2020 19:16",
 		"setUp" : "jb 12/7/2020 19:10",
-		"testStylerCanCopeWithProbeWithinSliderRange" : "jb 12/7/2020 19:10",
+		"testStylerCanCopeWithProbeWithinSliderRange" : "jb 2/2/2021 19:55",
 		"testStylerSetsAnchorAttributeForNestedProbes" : "jb 12/7/2020 19:10",
 		"testStylerSetsAnchorAttributeForProbe" : "jb 12/7/2020 19:10",
 		"testStylerSetsAnchorAttributeForProbeOnOperand" : "jb 12/7/2020 19:10",
 		"testStylerSetsAnchorAttributeForProbeOnUnaryMessageChain" : "jb 12/7/2020 19:10",
 		"testStylerSetsAnchorCharacterForProbe" : "jb 12/7/2020 19:10",
-		"testStylerSetsAnchorForAssertion" : "jb 2/2/2021 14:04",
+		"testStylerSetsAnchorForAssertion" : "jb 2/2/2021 19:53",
 		"testStylerSetsAnchorForAssignmentProbe" : "jb 12/7/2020 19:10",
-		"testStylerSetsAnchorForExample" : "jb 2/2/2021 14:04",
-		"testStylerSetsAnchorForReplacement" : "jb 12/7/2020 19:10",
-		"testStylerSetsAnchorForScriptExample" : "jb 12/7/2020 19:10",
-		"testStylerSetsAnchorForSlider" : "jb 12/7/2020 19:10" } }
+		"testStylerSetsAnchorForExample" : "jb 2/2/2021 20:31",
+		"testStylerSetsAnchorForReplacement" : "jb 2/2/2021 20:31",
+		"testStylerSetsAnchorForScriptExample" : "jb 2/2/2021 20:31",
+		"testStylerSetsAnchorForSlider" : "jb 2/2/2021 19:54" } }

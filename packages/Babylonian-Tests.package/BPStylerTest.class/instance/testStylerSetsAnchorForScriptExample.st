@@ -1,9 +1,9 @@
 tests
 testStylerSetsAnchorForScriptExample
-
+	
 	| formattedSourceCode originalSourceCode attributes |
 	originalSourceCode := 'method
-<scriptExampleNamed: ''example 1'' script: ''2 + 3''>
+<scriptExampleNamed: ''example1'' script: ''2 + 3''>
 "<bpReplace for: ''example 1'' with: [10]>"2 + 3"</bpReplace>"' asText.
 	formattedSourceCode := styler format: originalSourceCode.
 	

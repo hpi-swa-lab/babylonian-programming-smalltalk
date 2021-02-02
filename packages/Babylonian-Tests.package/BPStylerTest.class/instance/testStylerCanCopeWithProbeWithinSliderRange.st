@@ -3,7 +3,7 @@ testStylerCanCopeWithProbeWithinSliderRange
 	
 	| formattedSourceCode originalSourceCode attributes |
 	originalSourceCode := 'method
-	<exampleNamed: ''example 1''>
+	<testRef: ''BPAnnotationMorphsTestTest>>#testExample1''>
 	self do: "<bpSlider>"[:n | 2 + "<bpProbe id: 31412>"3"</bpProbe>"]"</bpSlider>"' asText.
 	formattedSourceCode := styler format: originalSourceCode.
 	
