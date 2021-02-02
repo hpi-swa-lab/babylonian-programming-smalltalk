@@ -5,5 +5,5 @@ assertRoundtripFromMethod: anExampleMethod At: anIndex ToTest: aTestMethodBlock
 
 	original := anExampleMethod bpExamples at: anIndex.
 	BPExampleToTestSerializer serialize: original.
-	result := BPDeserializer deserialize: aTestMethodBlock value.
+	result := BPDeserializer deserializeTest: aTestMethodBlock value.
 	self assertExample: original equals: result.

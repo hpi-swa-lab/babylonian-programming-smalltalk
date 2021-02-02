@@ -1,6 +1,9 @@
 building
-deserialize: aTest
-	
-	"Deserializes a given Test into a newly generated Example. Consumer is the method which uses the example"
+deserialize: anExample
 
-	^ ((self registeredDeserializers collect: [:d | d for: aTest]) detect: [:d | d canDeserialize]) deserialize
+	| newExample |
+	
+	newExample := self deserializeTest: anExample testRef.
+	anExample argumentScripts: newExample argumentScripts.
+	anExample receiverConstructor: newExample receiverConstructor.
+	anExample expectedResult: newExample expectedResult.

@@ -2,5 +2,5 @@ tests
 testDeserializerDirectorWithMethodTest
 	
 	self assert: '15' equals: (
-		(BPDeserializer deserialize: BPGeneratedTest>>#testMethodTestExample)
+		(BPDeserializer deserializeTest: BPGeneratedTest>>#testMethodTestExample)
 		expectedResult).
