@@ -1,12 +1,10 @@
 {
 	"class" : {
-		"for:from:" : "jb 1/18/2021 23:42" },
+		"for:" : "pm 2/2/2021 10:39" },
 	"instance" : {
 		"ast" : "pm 1/6/2021 12:08",
 		"ast:" : "pm 1/6/2021 12:08",
 		"canDeserialize" : "jb 1/18/2021 23:11",
-		"consumer" : "pm 1/6/2021 12:08",
-		"consumer:" : "pm 1/6/2021 12:08",
 		"deserialize" : "jb 1/18/2021 23:39",
 		"deserializeArguments:" : "pm 1/25/2021 22:33",
 		"deserializeReceiver:" : "pm 1/25/2021 23:26",
