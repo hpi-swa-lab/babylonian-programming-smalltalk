@@ -1,4 +1,4 @@
 constants
 bpExamplePragmaPrefix
 	
-	^ #exampleNamed
+	^ #testRef
