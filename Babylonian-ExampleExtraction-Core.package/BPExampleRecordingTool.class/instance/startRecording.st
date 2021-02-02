@@ -5,4 +5,5 @@ startRecording
   		instrumentMethod: self method;
 		yourself).
 	
-	recorder startRecording
+	recorder startRecording.
+	self changed: #lampOn.

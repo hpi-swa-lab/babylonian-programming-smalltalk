@@ -1,4 +1,0 @@
-adding examples
-addRecordedExampleButtonClicked
-	
-	BPExampleRecordingTool openFor: self containingBrowser compiledMethod

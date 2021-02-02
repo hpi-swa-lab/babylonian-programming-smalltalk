@@ -3,11 +3,11 @@
 		"openFor:" : "ek 1/14/2021 14:35" },
 	"instance" : {
 		"addExample" : "ek 1/26/2021 14:12",
-		"buildButtonPaneWith:" : "ek 1/14/2021 14:33",
+		"buildButtonPaneWith:" : "ek 2/2/2021 17:20",
 		"buildExplorerWith:" : "ek 2/2/2021 16:05",
 		"buildResultViewWith:" : "ek 1/14/2021 14:00",
 		"buildResultsListWith:" : "ek 2/2/2021 15:54",
-		"buildWith:" : "ek 1/26/2021 14:10",
+		"buildWith:" : "ek 2/2/2021 17:18",
 		"initialize" : "ek 2/2/2021 15:54",
 		"method" : "ek 1/14/2021 14:33",
 		"method:" : "ek 1/14/2021 14:34",
@@ -16,6 +16,6 @@
 		"selectedRecording" : "ek 2/2/2021 15:59",
 		"selectedRecordingIndex" : "ek 2/2/2021 15:53",
 		"selectedRecordingIndex:" : "ek 2/2/2021 16:08",
-		"startRecording" : "ek 1/26/2021 14:53",
-		"stopRecording" : "ek 2/2/2021 15:53",
+		"startRecording" : "ek 2/2/2021 17:10",
+		"stopRecording" : "ek 2/2/2021 17:10",
 		"toggleRecording" : "ek 1/26/2021 14:53" } }

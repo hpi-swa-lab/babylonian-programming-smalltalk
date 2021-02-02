@@ -1,22 +1,32 @@
 toolbuilder
 buildButtonPaneWith: aBuilder
 
-	| panelSpec buttonSpec |
+	| panelSpec buttonSpec lampSpec |
 	panelSpec := aBuilder pluggablePanelSpec new.
 	panelSpec children: OrderedCollection new.
 	
-	buttonSpec := aBuilder pluggableActionButtonSpec new.
-	buttonSpec model: self.
-	buttonSpec label: 'toggle recording'.
-	buttonSpec action: #toggleRecording.
-	buttonSpec help: 'Toggle Recording'.
+	lampSpec := BPExampleRecordingToolLampSpec new
+		model: self;
+		lampOff: #lampOff;
+		lampOn: #lampOn;
+		yourself.
+	panelSpec children add: lampSpec.
+	
+	buttonSpec := aBuilder pluggableActionButtonSpec new
+		model: self;
+		label: 'toggle recording';
+	 	action: #toggleRecording;
+	 	help: 'Toggle Recording';
+		yourself.
 	panelSpec children add: buttonSpec.
 	
-	buttonSpec := aBuilder pluggableActionButtonSpec new.
-	buttonSpec model: self.
-	buttonSpec label: 'add example'.
-	buttonSpec action: #addExample.
-	buttonSpec help: 'add example to method'.
+	buttonSpec := aBuilder pluggableActionButtonSpec new
+		model: self;
+		label: 'add example';
+		action: #addExample;
+		help: 'add example to method';
+		yourself.
 	panelSpec children add: buttonSpec.
+	
 	panelSpec layout: #horizontal.
 	^panelSpec

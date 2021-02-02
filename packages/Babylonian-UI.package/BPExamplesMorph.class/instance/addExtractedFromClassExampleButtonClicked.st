@@ -1,4 +1,0 @@
-adding examples
-addExtractedFromClassExampleButtonClicked
-	
-	self createAndAddNewExampleFrom: BPExtractedFromClassExample

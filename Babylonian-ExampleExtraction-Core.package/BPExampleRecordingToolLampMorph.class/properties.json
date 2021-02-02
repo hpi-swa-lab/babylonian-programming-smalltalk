@@ -4,12 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "ek 2/2/2021 17:02",
+	"commentStamp" : "<historical>",
 	"instvars" : [
-		"exploree",
-		"getExploreeSelector",
+		"lamp",
+		"lampOnSelector",
+		"lampOffSelector",
 		"model" ],
-	"name" : "BPExampleRecordingToolExplorerMorph",
+	"name" : "BPExampleRecordingToolLampMorph",
 	"pools" : [
 		 ],
 	"super" : "Morph",

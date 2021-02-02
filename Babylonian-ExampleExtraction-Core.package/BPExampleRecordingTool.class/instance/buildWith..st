@@ -8,5 +8,5 @@ buildWith: aBuilder
 	}.
 	windowSpec
 		label: 'Babylonian recording Tool';
-		extent: 250@500.
+		extent: 500@400.
 	 ^ aBuilder build: windowSpec

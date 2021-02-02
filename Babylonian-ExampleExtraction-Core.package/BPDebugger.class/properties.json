@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "ek 2/2/2021 17:03",
+	"commentStamp" : "ek 2/2/2021 17:01",
 	"instvars" : [
-		"getExploree" ],
-	"name" : "BPExampleRecordingToolExplorerSpec",
+		 ],
+	"name" : "BPDebugger",
 	"pools" : [
 		 ],
-	"super" : "PluggableWidgetSpec",
+	"super" : "Debugger",
 	"type" : "normal" }
