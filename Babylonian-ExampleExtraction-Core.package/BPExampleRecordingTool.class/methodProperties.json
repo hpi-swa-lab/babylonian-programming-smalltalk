@@ -2,15 +2,20 @@
 	"class" : {
 		"openFor:" : "ek 1/14/2021 14:35" },
 	"instance" : {
+		"addExample" : "ek 1/26/2021 14:12",
 		"buildButtonPaneWith:" : "ek 1/14/2021 14:33",
-		"buildExplorerWith:" : "ek 1/14/2021 14:01",
+		"buildExplorerWith:" : "ek 2/2/2021 16:05",
 		"buildResultViewWith:" : "ek 1/14/2021 14:00",
-		"buildResultsListWith:" : "ek 1/14/2021 13:50",
-		"buildWith:" : "ek 1/14/2021 13:45",
-		"initialize" : "ek 1/14/2021 14:37",
+		"buildResultsListWith:" : "ek 2/2/2021 15:54",
+		"buildWith:" : "ek 1/26/2021 14:10",
+		"initialize" : "ek 2/2/2021 15:54",
 		"method" : "ek 1/14/2021 14:33",
 		"method:" : "ek 1/14/2021 14:34",
-		"resultsList" : "ek 1/14/2021 14:36",
-		"resultsList:" : "ek 1/14/2021 14:36",
-		"resultsListIndex" : "ek 1/14/2021 14:36",
-		"resultsListIndex:" : "ek 1/14/2021 14:36" } }
+		"recordings" : "ek 2/2/2021 15:52",
+		"recordings:" : "ek 2/2/2021 15:52",
+		"selectedRecording" : "ek 2/2/2021 15:59",
+		"selectedRecordingIndex" : "ek 2/2/2021 15:53",
+		"selectedRecordingIndex:" : "ek 2/2/2021 16:08",
+		"startRecording" : "ek 1/26/2021 14:53",
+		"stopRecording" : "ek 2/2/2021 15:53",
+		"toggleRecording" : "ek 1/26/2021 14:53" } }

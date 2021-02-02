@@ -6,13 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"recordings",
-		"selectedRecordingIndex",
-		"method",
-		"recorder",
-		"isRecording" ],
-	"name" : "BPExampleRecordingTool",
+		"exploree",
+		"getExploreeSelector",
+		"model" ],
+	"name" : "BPExampleRecordingToolExplorerMorph",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "Morph",
 	"type" : "normal" }

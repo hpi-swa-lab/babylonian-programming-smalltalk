@@ -1,10 +1,12 @@
-as yet unclassified
+initialize-release
 initialize
 	
 
 
 	super initialize.
 	
+	isRecording := false.
+	
 	self
-		resultsList: OrderedCollection new;
-		resultsListIndex: 1
+		recordings: "{1 -> {1}. 1 -> {2} . 4 -> {3}}" OrderedCollection new;
+		selectedRecordingIndex: 1

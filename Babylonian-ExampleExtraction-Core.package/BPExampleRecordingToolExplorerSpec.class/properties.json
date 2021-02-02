@@ -6,13 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"recordings",
-		"selectedRecordingIndex",
-		"method",
-		"recorder",
-		"isRecording" ],
-	"name" : "BPExampleRecordingTool",
+		"getExploree" ],
+	"name" : "BPExampleRecordingToolExplorerSpec",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "PluggableWidgetSpec",
 	"type" : "normal" }

@@ -1,13 +1,11 @@
-as yet unclassified
+toolbuilder
 buildResultsListWith: aBuilder
-
+	
 	| listSpec |
 	listSpec := aBuilder pluggableListSpec new.
 	listSpec 
 		model: self;
-		list: #resultsList; 
-		getIndex: #resultsListIndex; 
-		setIndex: #resultsListIndex:"; 
-		menu: #packageMenu:; 
-		keyPress: #packageListKey:from:".
+		list: #recordings; 
+		getIndex: #selectedRecordingIndex;
+		setIndex: #selectedRecordingIndex:.
 	^listSpec

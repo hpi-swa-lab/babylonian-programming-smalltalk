@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildButtonPaneWith: aBuilder
 
 	| panelSpec buttonSpec |

@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildResultViewWith: aBuilder
 
 	| panelSpec |
