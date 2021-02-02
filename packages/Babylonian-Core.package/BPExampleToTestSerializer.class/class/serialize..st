@@ -1,4 +1,5 @@
 serialize
 serialize: anExample
 
-	(self chooseSerializationClassFor: anExample) serialize: anExample
+	"Returns the created method."
+	^ (self chooseSerializationClassFor: anExample) serialize: anExample

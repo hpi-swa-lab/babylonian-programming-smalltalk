@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-Tests-Test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPAnnotationMorphsTestTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

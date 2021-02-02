@@ -1,9 +1,10 @@
 {
 	"class" : {
-		"bpExamplePragmaPrefix" : "pre 1/21/2021 15:45" },
+		"bpExamplePragmaPrefix" : "jb 2/2/2021 19:58" },
 	"instance" : {
-		"asPragma" : "pre 1/21/2021 16:19",
-		"initializeFromPragma:" : "pre 1/21/2021 16:06",
+		"asPragma" : "jb 2/2/2021 20:05",
+		"initializeFromDeserialized:" : "jb 2/1/2021 18:22",
+		"initializeFromPragma:" : "jb 2/2/2021 13:49",
 		"morphClass" : "pre 9/30/2020 10:41",
 		"run" : "pre 1/21/2021 17:18",
 		"script" : "pre 9/30/2020 11:00",

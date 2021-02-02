@@ -1,4 +1,5 @@
 instance-creation
 serialize: anExample
 	
-	(self forExample: anExample) serialize
+	"Returns the created method."
+	^ (self forExample: anExample) serialize

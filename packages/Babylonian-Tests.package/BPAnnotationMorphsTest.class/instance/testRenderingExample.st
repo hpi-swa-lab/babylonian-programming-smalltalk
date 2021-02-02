@@ -24,6 +24,6 @@ testRenderingExample
 	
 	renderedSource := source asBPSource.
 	self assert: 'method
-	<exampleNamed: ''example 1'' setUp: #basicSetUp tearDown: ''"do nothing"'' self: #tester expectedResult: ''5'' with: ''Object new'' with: #(1 2 3) with: nil>
+<testRef: ''BPAnnotationMorphsTestTest>>#testExample1''>
 ^ 2 + 3' equals: renderedSource
 	

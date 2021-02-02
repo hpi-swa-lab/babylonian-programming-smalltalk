@@ -1,6 +1,7 @@
 serializing
 serialize
-
-	| class |
+	
+	| class methodName |
 	class := self buildClass.
-	class compile: (self buildTestForClass: class) classified: (self serializedMethodCategory).
+	methodName := class compile: (self buildTestForClass: class) classified: (self serializedMethodCategory).
+	^ (self methodEntryFor: methodName in: class) asString.

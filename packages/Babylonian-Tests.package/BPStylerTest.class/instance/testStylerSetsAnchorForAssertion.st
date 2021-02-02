@@ -3,7 +3,7 @@ testStylerSetsAnchorForAssertion
 
 	| formattedSourceCode originalSourceCode attributes |
 	originalSourceCode := 'method
-<exampleNamed: ''example 1''>
+	<testRef: ''BPAnnotationMorphsTestTest>>#testExample1''>
 "<bpAssert that: [2 = 2]>"2 + 3"</bpAssert>"' asText.
 	formattedSourceCode := styler format: originalSourceCode.
 	

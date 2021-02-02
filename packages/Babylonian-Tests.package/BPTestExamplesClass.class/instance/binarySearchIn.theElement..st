@@ -1,10 +1,10 @@
 example methods
 binarySearchIn: aCollection theElement: anElement
 
-	<exampleNamed: 'basic' self: #empty expectedResult: '2' with: '#(3 1 2)' with: '1' >
-	<exampleNamed: 'small example' self: #empty with: '#(3 1 2)' with: '1'>
-	<exampleNamed: 'error example' self: #empty with: #(1 2 4) with: '3'>
-	<exampleNamed: 'complex example' setUp: '#basicSetUpScript' tearDown: '#basicTearDownScript' self: #empty expectedResult: 'Date today' with: '{Date yesterday . DateAndTime tomorrow . Date today}' with: 'Date today'>
+	<testRef: 'BPTestExamplesClassTest>>#testBasic'>
+	<testRef: 'BPTestExamplesClassTest>>#testSmallExample'>
+	<testRef: 'BPTestExamplesClassTest>>#testErrorExample'>
+	<testRef: 'BPTestExamplesClassTest>>#testComplexExample' setUp: '#basicSetUpScript' tearDown: '#basicTearDownScript'>
 	| index low test distance high | 
 	low := 1.
 	high := aCollection size.

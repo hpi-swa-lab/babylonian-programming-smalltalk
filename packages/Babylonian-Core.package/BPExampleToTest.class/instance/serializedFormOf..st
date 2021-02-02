@@ -3,8 +3,8 @@ serializedFormOf: aPossibleCodeSnippet
 	
 	| result |
 	aPossibleCodeSnippet isSymbol ifTrue: [^ self exampleMethodClassName, ' ' , aPossibleCodeSnippet].
-	(self example isLiveSpecimenReference: aPossibleCodeSnippet) ifTrue: [^ '']. 
 	result := Compiler evaluate: aPossibleCodeSnippet.
+	(self example isLiveSpecimenReference: result) ifTrue: [^ (self example resolveLiveSpecimen: result) printString]. 
 	^ result isSymbol
 		ifTrue: [self exampleMethodClassName, ' ' , result]
 		ifFalse: [aPossibleCodeSnippet]

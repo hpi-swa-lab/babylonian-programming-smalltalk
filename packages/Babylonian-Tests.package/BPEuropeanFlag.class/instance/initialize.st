@@ -1,6 +1,6 @@
 initialization
 initialize
-	<exampleNamed: 'one example' active: true self: '#new'>
+	<testRef: 'BPEuropeanFlagTest>>#testOneExample'>
 	| newStar |
 	super initialize. 
 	

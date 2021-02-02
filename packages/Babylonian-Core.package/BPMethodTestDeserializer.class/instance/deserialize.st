@@ -1,10 +1,10 @@
 building
 deserialize
-
+	
 	| call |
 	
 	call := self findStatementWithMessage: #assert:equals:.
-
+	
 	^ BPMethodExample new
 		exampleName: self exampleName;
 		method: self test;

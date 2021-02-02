@@ -3,7 +3,7 @@ testStylerSetsAnchorForSlider
 	
 	| formattedSourceCode originalSourceCode attributes |
 	originalSourceCode := 'method
-	<exampleNamed: ''example 1''>
+	<testRef: ''BPAnnotationMorphsTestTest>>#testExample1''>
 	"<bpSlider>"2 + 3"</bpSlider>"' asText.
 	formattedSourceCode := styler format: originalSourceCode.
 	

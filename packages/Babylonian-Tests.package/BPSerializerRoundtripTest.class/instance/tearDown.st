@@ -1,4 +1,4 @@
-as yet unclassified
+running
 tearDown
 
 	self removeAllMethodsFromClass: self class testClass.

@@ -1,12 +1,9 @@
 serialization
 asPragma
 	
-	"'exampleNamed:' 'active:'? 'setUp:'? 'tearDown:'? 'self:'? 'expectedResult:'? 'with'*"
-	^ '<exampleNamed: ''{1}''{2}{3}{4}{5}{6}{7}>' format: {
-		self exampleName.
+	"'testRef' 'active:'? 'setUp:'? 'tearDown:'? "
+	^ '<testRef: ''{1}''{2}{3}{4}>' format: {
+		self testRef.
 		self isActive ifFalse: [''] ifTrue: [' active: true'].
 		self setUpScript ifNil: [''] ifNotNil: [:setUpScript | ' setUp: ' , setUpScript printString].
-		self tearDownScript ifNil: [''] ifNotNil: [:tearDownScript | ' tearDown: ' , tearDownScript printString].
-		self receiverConstructor ifNil: [''] ifNotNil: [:aReceiverConstructor | ' self: ' , aReceiverConstructor printString].
-		self expectedResult ifNil: [''] ifNotNil: [:anExpectedResult | ' expectedResult: ' , anExpectedResult printString].
-		self argumentScripts ifEmpty: [''] ifNotEmpty: [(self argumentScripts collect: [:anArgumentScript | ' with: ' , anArgumentScript printString]) join]}
+		self tearDownScript ifNil: [''] ifNotNil: [:tearDownScript | ' tearDown: ' , tearDownScript printString]}
