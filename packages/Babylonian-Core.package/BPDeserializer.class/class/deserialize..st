@@ -7,3 +7,4 @@ deserialize: anExample
 	anExample argumentScripts: newExample argumentScripts.
 	anExample receiverConstructor: newExample receiverConstructor.
 	anExample expectedResult: newExample expectedResult.
+	anExample isActive: false.
