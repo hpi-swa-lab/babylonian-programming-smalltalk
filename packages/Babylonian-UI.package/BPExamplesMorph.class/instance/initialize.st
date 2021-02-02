@@ -19,4 +19,6 @@ initialize
 	self 
 		addButtonBar;
 		addCreateExampleButtonLabeled: 'add example' selector: #addExampleButtonClicked;
-		addCreateExampleButtonLabeled: '| add script example' selector: #addScriptExampleButtonClicked.
+		addCreateExampleButtonLabeled: '| add script example' selector: #addScriptExampleButtonClicked;
+		addCreateExampleButtonLabeled: '| open search tool' selector: #openSearchTool;
+		addCreateExampleButtonLabeled: '| open recording tool' selector: #openRecordingTool.
