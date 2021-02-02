@@ -2,7 +2,6 @@ private - serializing
 serializedFormOf: aPossibleCodeSnippet
 	
 	| result |
-	self halt.
 	aPossibleCodeSnippet isSymbol ifTrue: [^ self exampleMethodClassName, ' ' , aPossibleCodeSnippet].
 	result := Compiler evaluate: aPossibleCodeSnippet.
 	(self example isLiveSpecimenReference: result) ifTrue: [^ (self example resolveLiveSpecimen: result) printString]. 

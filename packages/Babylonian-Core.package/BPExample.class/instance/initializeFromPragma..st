@@ -1,7 +1,7 @@
 initialize-release
 initializeFromPragma: aPragma
 	
-	"'(scriptTestRef / testRef):' 'active:'? 'setUp:'? 'tearDown:'?"
+	"'testRef:' 'active:'? 'setUp:'? 'tearDown:'? / 'scriptExampleNamed:' 'active:'? 'setUp:'? 'tearDown:'? 'expectedResult:'? 'script:'? "
 	| serializingMethod |
 	serializingMethod := Compiler evaluate: aPragma arguments first.
 	self initializeFromDeserialized: (BPDeserializer deserialize: serializingMethod);
