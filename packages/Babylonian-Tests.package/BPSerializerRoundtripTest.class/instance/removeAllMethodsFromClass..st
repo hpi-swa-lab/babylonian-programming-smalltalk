@@ -1,4 +1,4 @@
-as yet unclassified
+helper
 removeAllMethodsFromClass: aClass
 
 	aClass methodDict removeAll.

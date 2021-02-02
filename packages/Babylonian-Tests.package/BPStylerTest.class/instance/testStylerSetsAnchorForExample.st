@@ -3,11 +3,11 @@ testStylerSetsAnchorForExample
 
 	| formattedSourceCode originalSourceCode attributes |
 	originalSourceCode := 'method
-<exampleNamed: ''example 1''>
+	<testRef: ''BPStylerTest>>#method''>
 "<bpReplace for: ''example 1'' with: [10]>"2 + 3"</bpReplace>"' asText.
 	formattedSourceCode := styler format: originalSourceCode.
 	
-	self deny: (formattedSourceCode asString includesSubstring: '<exampleNamed: ''example 1''>').
+	self deny: (formattedSourceCode asString includesSubstring: '<testRef: ''BPStylerTest>>#method''>').
 		
 	attributes := formattedSourceCode attributesAt: (formattedSourceCode asString indexOf: Character startOfHeader).
 	attributes := attributes select: [:a | a isKindOf: TextAnchor].

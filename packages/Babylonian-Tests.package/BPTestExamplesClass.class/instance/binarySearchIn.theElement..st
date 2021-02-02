@@ -4,7 +4,7 @@ binarySearchIn: aCollection theElement: anElement
 	<testRef: 'BPTestExamplesClassTest>>#testBasic'>
 	<testRef: 'BPTestExamplesClassTest>>#testSmallExample'>
 	<testRef: 'BPTestExamplesClassTest>>#testErrorExample'>
-	<testRef: 'BPTestExamplesClassTest>>#testComplexExample'>
+	<testRef: 'BPTestExamplesClassTest>>#testComplexExample' setUp: '#basicSetUpScript' tearDown: '#basicTearDownScript'>
 	| index low test distance high | 
 	low := 1.
 	high := aCollection size.

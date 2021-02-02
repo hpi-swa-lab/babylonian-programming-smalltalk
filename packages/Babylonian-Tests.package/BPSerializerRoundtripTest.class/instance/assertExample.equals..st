@@ -1,4 +1,4 @@
-as yet unclassified
+helper
 assertExample: anExample1 equals: anExample2
 
 	self assert: anExample1 exampleName equals: anExample2 exampleName.
