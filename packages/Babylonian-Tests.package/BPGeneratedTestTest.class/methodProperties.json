@@ -2,4 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"testBar" : "jb 2/1/2021 19:00",
+		"testBasic" : "jb 2/1/2021 19:03",
+		"testFoo" : "jb 2/1/2021 19:00" } }

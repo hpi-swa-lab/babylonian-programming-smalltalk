@@ -1,4 +1,4 @@
 as yet unclassified
 methodOnlyWithExample
-	<exampleNamed: 'some example' self: ''>
+	<testRef: 'BPTestExamplesClassTest>>#testSomeExample'>
 	^ 2
