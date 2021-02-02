@@ -1,4 +1,4 @@
 accessing
 lampOff: aSymbol
 	
-	lampOff := aSymbol
+	lampOff := aSymbol.

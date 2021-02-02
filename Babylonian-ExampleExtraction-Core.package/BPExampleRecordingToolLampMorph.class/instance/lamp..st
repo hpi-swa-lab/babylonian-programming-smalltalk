@@ -1,4 +1,4 @@
 accessing
 lamp: aMorph
 	
-	lamp := aMorph
+	lamp := aMorph.

@@ -1,4 +1,4 @@
 accessing
 getExploree: aSymbol
 	
-	getExploree := aSymbol
+	getExploree := aSymbol.

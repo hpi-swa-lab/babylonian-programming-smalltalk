@@ -12,4 +12,4 @@ initialize
 		color: Color transparent;
 		layoutPolicy: TableLayout new;
 		addMorph: self lamp;
-		lampOff
+		lampOff.

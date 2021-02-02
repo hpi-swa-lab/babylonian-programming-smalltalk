@@ -1,4 +1,4 @@
 accessing
 getExploreeSelector: aSymbol
 	
-	getExploreeSelector := aSymbol
+	getExploreeSelector := aSymbol.

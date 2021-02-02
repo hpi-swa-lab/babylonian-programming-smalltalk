@@ -1,4 +1,4 @@
 ui
 lampOn
-
-	self lamp color: Color red
+	
+	self lamp color: Color red.

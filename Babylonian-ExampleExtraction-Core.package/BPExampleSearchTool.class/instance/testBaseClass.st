@@ -1,0 +1,4 @@
+test searching
+testBaseClass
+	
+	^ TestCase

@@ -1,4 +1,4 @@
 accessing
 lampOnSelector: aSymbol
 	
-	lampOnSelector := aSymbol
+	lampOnSelector := aSymbol.

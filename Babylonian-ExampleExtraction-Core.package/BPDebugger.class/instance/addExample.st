@@ -1,4 +1,4 @@
-as yet unclassified
+examples
 addExample
 	
 	| argumentSpecimen receiverSpecimen example |
@@ -21,6 +21,6 @@ addExample
 	example := currentCompiledMethod bpNewExampleFrom: BPMethodExample.
 		example receiverConstructor: receiverSpecimen.
 		argumentSpecimen withIndexDo: [:specimen :index |
-		example argumentScripts at: index put: specimen]
+		example argumentScripts at: index put: specimen].
 	
 	

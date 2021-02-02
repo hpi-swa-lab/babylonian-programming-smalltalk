@@ -1,4 +1,4 @@
 accessing
 lampOn: aSymbol
 	
-	lampOn := aSymbol
+	lampOn := aSymbol.

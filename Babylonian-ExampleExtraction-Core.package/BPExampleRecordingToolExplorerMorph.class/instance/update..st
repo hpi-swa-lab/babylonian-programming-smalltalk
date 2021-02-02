@@ -1,4 +1,4 @@
 updating
 update: aSymbol
 	
-	aSymbol == getExploreeSelector ifTrue: [self updateExploree]
+	aSymbol == getExploreeSelector ifTrue: [self updateExploree].

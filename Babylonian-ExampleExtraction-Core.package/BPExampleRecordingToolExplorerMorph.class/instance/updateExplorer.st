@@ -10,4 +10,4 @@ updateExplorer
 		position: self position;
 		hResizing: #spaceFill;
 		vResizing: #spaceFill.
-	self addMorph: explorer 
+	self addMorph: explorer.

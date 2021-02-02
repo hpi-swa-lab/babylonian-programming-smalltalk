@@ -2,20 +2,20 @@
 	"class" : {
 		"openFor:" : "ek 1/14/2021 14:35" },
 	"instance" : {
-		"addExample" : "ek 1/26/2021 14:12",
+		"addExample" : "ek 2/2/2021 18:05",
 		"buildButtonPaneWith:" : "ek 2/2/2021 17:20",
 		"buildExplorerWith:" : "ek 2/2/2021 16:05",
-		"buildResultViewWith:" : "ek 1/14/2021 14:00",
+		"buildResultViewWith:" : "ek 2/2/2021 17:56",
 		"buildResultsListWith:" : "ek 2/2/2021 15:54",
 		"buildWith:" : "ek 2/2/2021 17:18",
-		"initialize" : "ek 2/2/2021 15:54",
+		"initialize" : "ek 2/2/2021 17:58",
 		"method" : "ek 1/14/2021 14:33",
-		"method:" : "ek 1/14/2021 14:34",
+		"method:" : "ek 2/2/2021 17:46",
 		"recordings" : "ek 2/2/2021 15:52",
-		"recordings:" : "ek 2/2/2021 15:52",
+		"recordings:" : "ek 2/2/2021 17:46",
 		"selectedRecording" : "ek 2/2/2021 15:59",
 		"selectedRecordingIndex" : "ek 2/2/2021 15:53",
 		"selectedRecordingIndex:" : "ek 2/2/2021 16:08",
 		"startRecording" : "ek 2/2/2021 17:10",
 		"stopRecording" : "ek 2/2/2021 17:10",
-		"toggleRecording" : "ek 1/26/2021 14:53" } }
+		"toggleRecording" : "ek 2/2/2021 17:45" } }

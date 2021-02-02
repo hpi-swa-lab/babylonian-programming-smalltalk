@@ -2,6 +2,10 @@ recording
 addExample
 	
 	| argumentSpecimen receiverSpecimen example |
+	
+	self selectedRecording ifNil: [UIManager default inform: 'no recording selected'.
+	 ^ self].
+	
 	receiverSpecimen := BPActiveSpecimenRegistry default storeSpecimen: self selectedRecording first.
 	argumentSpecimen := self selectedRecording second
 		collect: [:argumentObject | BPActiveSpecimenRegistry default storeSpecimen: argumentObject].

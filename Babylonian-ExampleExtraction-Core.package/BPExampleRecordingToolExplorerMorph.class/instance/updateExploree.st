@@ -1,4 +1,4 @@
 updating
 updateExploree
-
-	self exploree: (self model perform: self getExploreeSelector)
+	
+	self exploree: (self model perform: self getExploreeSelector).

@@ -1,4 +1,4 @@
 ui
 lampOff
 	
-	self lamp color: Color gray
+	self lamp color: Color gray.

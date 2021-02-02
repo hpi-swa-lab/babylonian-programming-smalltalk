@@ -6,4 +6,4 @@ initialize
 	self
 		color: Color transparent;
 		layoutPolicy: TableLayout new;
-		updateExplorer
+		updateExplorer.

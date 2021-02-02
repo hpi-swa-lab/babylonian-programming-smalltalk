@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"method",
+		"searchResults",
+		"searchResultIndex" ],
 	"name" : "BPExampleSearchTool",
 	"pools" : [
 		 ],

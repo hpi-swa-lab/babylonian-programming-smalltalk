@@ -7,5 +7,4 @@ toggleRecording
 			isRecording := false]
 		ifFalse: [
 			self startRecording.
-			isRecording := true]".
-	self updateRecordingButtonLabel"
+			isRecording := true].
