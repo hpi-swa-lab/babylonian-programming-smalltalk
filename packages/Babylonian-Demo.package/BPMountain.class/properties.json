@@ -1,0 +1,15 @@
+{
+	"category" : "Babylonian-Demo-TreeScene",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"color",
+		"ratio" ],
+	"name" : "BPMountain",
+	"pools" : [
+		 ],
+	"super" : "BPSceneObject",
+	"type" : "normal" }
