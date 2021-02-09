@@ -1,4 +1,0 @@
-test finding
-testBaseClass
-
-	^ TestCase

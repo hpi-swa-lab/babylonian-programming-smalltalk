@@ -1,4 +1,0 @@
-ui
-morphClass
-	
-	^ BPExtractedFromTestExampleMorph

@@ -2,10 +2,10 @@ examples
 addExample
 	
 	| example |
-	self selectedSearchResult ifNil: [UIManager default inform: 'no recording selected'.
+	self selectedSearchResult ifNil: [UIManager default inform: 'no method selected'.
 	 ^ self].
 
-	example := self method bpNewExampleFrom: BPExtractedFromTestExample.
+	example := self method bpNewExampleFrom: BPTestCaseExample.
 	example
-		extractedClassName: self selectedSearchResult key;
-		extractedMethodSelector: self selectedSearchResult value.
+		testCaseClassFrom: self selectedSearchResult key;
+		methodSelector: self selectedSearchResult value.

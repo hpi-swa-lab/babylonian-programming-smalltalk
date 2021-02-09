@@ -8,7 +8,11 @@ buildResultViewWith: aBuilder
 		model: self;
 		list: #searchResults; 
 		getIndex: #searchResultIndex;
-		setIndex: #searchResultIndex:).
-	panelSpec children add: (PluggableTextSpec new).
+		setIndex: #searchResultIndex:;
+		yourself).
+	panelSpec children add: (aBuilder pluggableTextSpec new
+		model: self;
+		getText: #methodAsText;
+		yourself).
 	panelSpec layout: #horizontal.
 	^panelSpec

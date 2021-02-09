@@ -1,4 +1,0 @@
-serialization
-pragmaStart
-
-	self subclassResponsibility

@@ -1,4 +1,0 @@
-example finding
-findPotentialExamples
-
-	self subclassResponsibility

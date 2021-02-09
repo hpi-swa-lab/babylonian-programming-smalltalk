@@ -1,5 +1,0 @@
-tracing
-executeString
-	
-	
-	self subclassResponsibility

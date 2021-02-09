@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"bpExamplePragmaPrefix" : "ek 2/9/2021 14:39",
+		"pragmaSelectors" : "ek 2/9/2021 15:47" },
+	"instance" : {
+		"asPragma" : "ek 2/9/2021 17:05",
+		"initialize" : "ek 2/9/2021 15:16",
+		"initializeFromPragma:" : "ek 2/9/2021 17:05",
+		"methodSelector" : "ek 2/9/2021 14:55",
+		"methodSelector:" : "ek 2/9/2021 15:15",
+		"morphClass" : "ek 2/9/2021 15:36",
+		"run" : "ek 2/9/2021 15:19",
+		"setUpTestCase" : "ek 2/9/2021 15:18",
+		"tearDownTestCase" : "ek 2/9/2021 15:18",
+		"testCaseClass" : "ek 2/9/2021 14:55",
+		"testCaseClass:" : "ek 2/9/2021 15:15",
+		"testCaseClassFrom:" : "ek 2/9/2021 15:42",
+		"testCaseInstance" : "ek 2/9/2021 15:14",
+		"testCaseInstance:" : "ek 2/9/2021 15:15" } }

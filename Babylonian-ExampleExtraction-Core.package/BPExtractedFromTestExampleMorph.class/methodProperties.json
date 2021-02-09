@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"findCategories" : "ek 11/2/2020 13:45",
-		"findClassesForCategories:" : "ek 11/2/2020 13:46",
-		"findPotentialExamples" : "ek 11/2/2020 16:44",
-		"findTestsFor:" : "ek 11/2/2020 16:44",
-		"testBaseClass" : "ek 11/2/2020 13:31" } }

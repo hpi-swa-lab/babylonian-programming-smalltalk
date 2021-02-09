@@ -1,4 +1,0 @@
-as yet unclassified
-bpExamplePragmaSelectors
-	
-	^   #(extractedFromClassExampleNamed:extractedClassName: extractedFromClassExampleNamed:active:extractedClassName: extractedFromClassExampleNamed: extractedFromClassExampleNamed:active: extractedFromClassExampleNamed:extractedMethodSelector: extractedFromClassExampleNamed:extractedClassName:extractedMethodSelector: extractedFromClassExampleNamed:active:extractedClassName:extractedMethodSelector:)
