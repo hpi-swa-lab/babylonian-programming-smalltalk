@@ -3,7 +3,6 @@ colorForTraceValue: aBPTraceValue inTrace: aBPTrace
 	
 	^ (colorCache at: aBPTrace ifAbsentPut: [| callgraph values path paths uniquePaths colors |
 		callgraph := aBPTrace example currentCallgraph.
-		callgraph ifNil: ["No call graph yet" ^ Color transparent].
 		values := aBPTrace valuesForProbeId: self id.
 		paths := values collect: [:value | | entry |
 			entry := callgraph detect: [:each | 

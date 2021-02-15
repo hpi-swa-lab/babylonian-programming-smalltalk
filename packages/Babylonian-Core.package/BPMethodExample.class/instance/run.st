@@ -1,11 +1,6 @@
 tracing
 run
 	
-	| receiver arguments |
-	BPByteCodeCallgraphTracer deactivateDuring: [#bpInstrumented withoutLayerDo: [
-		receiver := self newReceiver.
-		arguments := self newArguments]].
-	
-	^ receiver 
+	^ self newReceiver 
 		perform: self method selector 
-		withArguments: arguments
+		withArguments: self newArguments

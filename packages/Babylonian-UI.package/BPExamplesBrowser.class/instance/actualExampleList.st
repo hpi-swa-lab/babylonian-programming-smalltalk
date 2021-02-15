@@ -10,4 +10,4 @@ actualExampleList
 			writing browsers is boring --pre"
 			(anExample isActive 
 				ifTrue: ['aaa'] 
-				ifFalse: ['xxx']) , anExample exampleName] ascending]
+				ifFalse: ['xxx']) , anExample exampleName]]

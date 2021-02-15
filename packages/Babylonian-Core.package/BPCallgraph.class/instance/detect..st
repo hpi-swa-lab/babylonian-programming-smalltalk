@@ -1,4 +1,4 @@
 enumerating
 detect: aBlock
 	
-	^ self detect: aBlock ifFound: [:entry | ^ entry] ifNone: [self error: aBlock asString]
+	^ self detect: aBlock ifFound: [:entry | ^ entry] ifNone: [self errorNotFound: aBlock]
