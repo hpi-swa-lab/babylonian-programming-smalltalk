@@ -1,9 +1,8 @@
 *Babylonian-Core-Callgraph-ByteCode
 findEnclosingNonOptimizedBlock: encoder
-	
 	<layer: #bpCallgraph>
 	| node |
-	(self class == VariableNode or: [self class == TempVariableNode])
+	(self class == VariableNode or: [self class == TempVariableNode] or: [self class == InstanceVariableNode])
 		ifTrue: [| ctx |
 			"ugly hack for VariableNodes and TempVariableNode. 
 			VariableNodes like self, super, ..., all use the same instance! See VariableNode class >> #initialize (NodeNil, NodeTrue, ...).
@@ -16,6 +15,7 @@ findEnclosingNonOptimizedBlock: encoder
 				((ctx receiver isKindOf: ParseNode) 
 					and: [(ctx receiver isKindOf: VariableNode) not] 
 					and: [(ctx receiver isKindOf: TempVariableNode) not] 
+					and: [(ctx receiver isKindOf: InstanceVariableNode) not]
 					and: [(ctx receiver isKindOf: Encoder) not]) ifTrue: [
 					node := ctx receiver]]]
 		ifFalse: [node := self].
