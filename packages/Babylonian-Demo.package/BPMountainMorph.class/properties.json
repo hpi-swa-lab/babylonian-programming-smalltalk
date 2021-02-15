@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-Demo-Morphs",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPMountainMorph",
+	"pools" : [
+		 ],
+	"super" : "BPSceneMorph",
+	"type" : "normal" }

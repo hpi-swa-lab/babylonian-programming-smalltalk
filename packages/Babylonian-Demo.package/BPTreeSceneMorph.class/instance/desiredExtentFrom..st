@@ -1,0 +1,4 @@
+drawing
+desiredExtentFrom: aPoint
+
+	^ aPoint

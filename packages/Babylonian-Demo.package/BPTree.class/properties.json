@@ -1,0 +1,16 @@
+{
+	"category" : "Babylonian-Demo-TreeScene",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"stemColor",
+		"blossomColor",
+		"blossomPointsDuringDrawing" ],
+	"name" : "BPTree",
+	"pools" : [
+		 ],
+	"super" : "BPSceneObject",
+	"type" : "normal" }

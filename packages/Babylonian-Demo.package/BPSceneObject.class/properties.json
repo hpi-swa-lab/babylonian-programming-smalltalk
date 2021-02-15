@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-Demo-TreeScene",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"extent" ],
+	"name" : "BPSceneObject",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

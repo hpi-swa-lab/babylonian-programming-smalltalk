@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"bpExamplePragmaPrefix" : "pre 1/21/2021 15:45" },
+		"bpExamplePragmaPrefix" : "pre 1/21/2021 15:45",
+		"pragmaSelectors" : "pre 2/1/2021 10:47" },
 	"instance" : {
 		"=" : "pre 1/12/2021 15:22",
 		"argumentNames" : "pre 8/25/2020 09:41",
@@ -13,7 +14,7 @@
 		"initializeFromMethod:" : "jb 12/3/2020 23:18",
 		"initializeFromPragma:" : "pre 1/21/2021 16:06",
 		"isLiveSpecimenReference:" : "pre 7/10/2020 18:22",
-		"liveSpecimen" : "jb 12/3/2020 23:19",
+		"liveSpecimen" : "pre 1/22/2021 18:52",
 		"morphClass" : "pre 9/30/2020 10:40",
 		"newArguments" : "pre 8/21/2020 16:51",
 		"newReceiver" : "pre 11/11/2020 10:28",
