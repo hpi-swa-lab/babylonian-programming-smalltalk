@@ -1,4 +1,4 @@
 choosing packages
 packagesToInstrument
-	
-	^ PackagesToInstrument ifNil: [PackagesToInstrument := Set new]
+
+	^ PackagesToInstrument ifNil: [PackagesToInstrument := OrderedCollection new]

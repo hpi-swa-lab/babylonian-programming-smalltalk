@@ -1,12 +1,12 @@
 choosing packages
-configure
+chooseFor: aWorkingCopy
 	
 	"returns true if any changes were made"
 
-	| originalPackages addedPackages removedPackages |
+	| originalPackages addedPackages removedPackages subPath |
 	acceptChanges := false.
 	instrumentedPackages := self packagesToInstrument.
-	originalPackages := instrumentedPackages copy.
+	originalPackages := trackedPackages copy.
 	self updateUninstrumentedPackages.
 	
 	ToolBuilder open: self.
