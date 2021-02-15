@@ -4,11 +4,12 @@ shouldNeverInstrument: aClass selector: aSymbol
 	"largely copied from MwMethodWrapper class >> #canWrap:inClass:"
 	| class method |
 	(aClass category beginsWith: 'Babylonian-') ifTrue: [
-		aClass category ~= 'Babylonian-Tests-Callgraph-ByteCode-Fixtures' ifTrue: [^ true]].
+		({'Babylonian-Tests-Callgraph-ByteCode-Fixtures' . 'Babylonian-Demo-TreeScene'} includes: aClass category) 
+			ifFalse: [^ true]].
 	
 	{{CompiledMethod . {#valueWithReceiver:arguments:}}.
 	  {BlockClosure . {#value . #ensure}}.
-	  {WriteStream . {#nextPut:}}} anySatisfy: [:tuple |
+	  {WriteStream . {#nextPut:}}} do: [:tuple |
 		((aClass includesBehavior: tuple first) and: [tuple second anySatisfy: [:excludedSelector | 
 				excludedSelector == aSymbol]]) ifTrue: [^ true]].
 
@@ -18,7 +19,7 @@ shouldNeverInstrument: aClass selector: aSymbol
 	  {DynamicVariable . {"only check for the class ;)"}}.
 	  {BPByteCodeMethodState . {"only check for the class ;)"}}.
 	  {BPByteCodeAssociation . {"only check for the class ;)"}}
-	 } anySatisfy: [:tuple |
+	 } do: [:tuple |
 		((aClass theNonMetaClass includesBehavior: tuple first) and: [tuple second isEmpty or: 
 			[tuple second anySatisfy: [:excludedSelector | excludedSelector == aSymbol]]]) 
 				ifTrue: [^ true]].
