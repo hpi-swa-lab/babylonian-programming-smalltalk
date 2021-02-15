@@ -1,7 +1,7 @@
 post processing
 eventsForTree
 	
-	| callgraph depth depthAfterExit depthMap printContinuesHere eventStream treeCache addToTree prevDepth overwriteDepth executionContinuation |
+	| callgraph depth depthAfterExit depthMap printContinuesHere eventStream treeCache addToTree prevDepth overwriteDepth executionContinuation senderMethod |
 	
 	depth := 0.
 	depthAfterExit := nil.
@@ -39,16 +39,18 @@ eventsForTree
 	
 	eventStream := self eventStream.
 	[eventStream atEnd] whileFalse: [| entry | eventStream next caseOf: {
-		[#enter] -> [ | parts class selector blockIdx invocationCount |			
+		[#enter] -> [ | parts class selector blockIdx invocationCount senderPC |			
 			parts := eventStream next splitBy: ' >> '.
 			class := parts first.
 			selector := parts second.
 			blockIdx := parts third asInteger.
 			"invocation count of the surrounding method. In other words: 'Id' of the context of this block/method, unique per method"
 			invocationCount := eventStream next.
+			senderPC := eventStream next.
+			senderMethod := eventStream next.
 			
 			entry := BPCallgraphEntryEnter new.
-			entry class: class selector: selector blockIdx: blockIdx invocationCount: invocationCount.
+			entry class: class selector: selector blockIdx: blockIdx invocationCount: invocationCount senderPC: senderPC senderMethod: senderMethod.
 			addToTree value: entry.
 			
 			blockIdx == 1 ifTrue: [depthMap at: {class . selector . invocationCount} put: depth].
