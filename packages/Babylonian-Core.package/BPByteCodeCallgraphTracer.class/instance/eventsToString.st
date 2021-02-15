@@ -26,8 +26,8 @@ eventsToString
 				blockIdx := parts third asInteger.
 				"invocation count of the surrounding method. In other words: 'Id' of the context of this block/method, unique per method"
 				invocationCount := eventStream next.
-				senderPC := eventStream next.
-				senderMethod := eventStream next.
+				"senderPC := eventStream next.
+				senderMethod := eventStream next."
 				
 				stringStream 
 					nextPutAll: class;

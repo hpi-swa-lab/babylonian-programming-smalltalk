@@ -46,8 +46,8 @@ eventsForTree
 			blockIdx := parts third asInteger.
 			"invocation count of the surrounding method. In other words: 'Id' of the context of this block/method, unique per method"
 			invocationCount := eventStream next.
-			senderPC := eventStream next.
-			senderMethod := eventStream next.
+			"senderPC := eventStream next.
+			senderMethod := eventStream next."
 			
 			entry := BPCallgraphEntryEnter new.
 			entry class: class selector: selector blockIdx: blockIdx invocationCount: invocationCount senderPC: senderPC senderMethod: senderMethod.
