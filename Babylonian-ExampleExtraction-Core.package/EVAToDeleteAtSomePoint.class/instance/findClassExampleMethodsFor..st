@@ -1,4 +1,4 @@
-class example searching
+as yet unclassified
 findClassExampleMethodsFor: aClass
 	
 	| foundMethods |

@@ -8,7 +8,8 @@
 	"instvars" : [
 		"method",
 		"searchResults",
-		"searchResultIndex" ],
+		"searchResultIndex",
+		"classNamePreference" ],
 	"name" : "BPExampleSearchTool",
 	"pools" : [
 		 ],

@@ -1,4 +1,4 @@
-examples
+searching
 search
 	
 	self searchResults: (self findTestsFor: self method).

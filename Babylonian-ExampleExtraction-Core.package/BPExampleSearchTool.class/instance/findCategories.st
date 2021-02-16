@@ -1,4 +1,4 @@
-test searching
+searching
 findCategories
 	
 "blatantly stolen from the TestRunner"

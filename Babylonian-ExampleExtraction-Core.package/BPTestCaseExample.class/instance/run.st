@@ -1,5 +1,5 @@
 executing
 run
 	
-	self testCaseInstance ifNotNil: [
-		self testCaseInstance perform: self methodSelector]
+	self testCaseClass ifNotNil: [
+		self testCaseInstance: (self testCaseClass run: self methodSelector)]

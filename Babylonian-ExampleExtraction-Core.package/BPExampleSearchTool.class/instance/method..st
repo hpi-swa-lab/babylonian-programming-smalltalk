@@ -1,4 +1,5 @@
 accessing
 method: aMethod
 	
-	method := aMethod.
+	self basicMethod: aMethod.
+	self search

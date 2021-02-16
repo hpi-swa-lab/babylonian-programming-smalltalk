@@ -1,4 +1,4 @@
-test searching
+searching
 findClassesForCategories: aCollection
 	
 "blatantly stolen from the TestRunner"

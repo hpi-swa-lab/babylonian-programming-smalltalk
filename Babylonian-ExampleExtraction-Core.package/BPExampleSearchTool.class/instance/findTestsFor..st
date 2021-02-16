@@ -1,4 +1,4 @@
-test searching
+searching
 findTestsFor: aMethod
 	
 	| foundTests packages classes |
@@ -7,7 +7,8 @@ findTestsFor: aMethod
 	packages := self findCategories.
 	classes := self findClassesForCategories: packages.
 	
-	classes := classes reject: [:class | (class name asString includesSubstring: aMethod methodClass name asString) not].
+	self classNamePreference
+		ifTrue: [classes := classes reject: [:class | (class name asString includesSubstring: aMethod methodClass name asString) not]].
 	
 	classes do: [:class |
 		class methodDict keysAndValuesDo: [:methodSelector :compiledMethod |

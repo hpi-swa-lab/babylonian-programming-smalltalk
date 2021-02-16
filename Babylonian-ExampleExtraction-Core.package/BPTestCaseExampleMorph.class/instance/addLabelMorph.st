@@ -1,7 +1,13 @@
 private - ui
 addLabelMorph
-
-	self addMorphBack: (self labelString asMorph 
-		color: Color lightGray;
+	
+	| label |
+		
+	label := SimpleButtonMorph new
+		label: self labelString;
+		color: Color transparent;
 		borderWidth: 0;
-		yourself).
+		actionSelector: #browseMethod;
+		target: self example.
+	
+	self addMorphBack: label.
