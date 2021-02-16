@@ -1,0 +1,4 @@
+private
+initializeForm
+	
+	self resetForm

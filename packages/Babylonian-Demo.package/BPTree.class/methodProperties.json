@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"compilerClass" : "pre 2/4/2021 15:30" },
+	"instance" : {
+		"blossomColor" : "pre 2/5/2021 09:03",
+		"blossomColor:" : "pre 2/5/2021 09:03",
+		"blossomPointsDuringDrawing" : "pre 2/5/2021 08:57",
+		"blossomPointsDuringDrawing:" : "pre 2/5/2021 08:57",
+		"drawBlossomsOn:" : "pre 2/5/2021 11:35",
+		"drawBranchesOn:number:angle:root:branchWidth:" : "pre 2/5/2021 09:28",
+		"drawOn:" : "pre 2/5/2021 10:48",
+		"initialize" : "pre 2/5/2021 09:04",
+		"stemColor" : "pre 2/5/2021 09:03",
+		"stemColor:" : "pre 2/5/2021 09:03",
+		"stemHeight" : "pre 2/4/2021 17:52",
+		"stemWidth" : "pre 2/4/2021 17:53" } }
