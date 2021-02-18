@@ -8,7 +8,7 @@
 	"instvars" : [
 		"recordings",
 		"selectedRecordingIndex",
-		"method",
+		"methodReference",
 		"recorder",
 		"isRecording" ],
 	"name" : "BPExampleRecordingTool",

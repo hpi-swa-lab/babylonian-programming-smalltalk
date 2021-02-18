@@ -1,4 +1,4 @@
 accessing
 method
-
-	^ method
+	
+	^ self methodReference compiledMethod
