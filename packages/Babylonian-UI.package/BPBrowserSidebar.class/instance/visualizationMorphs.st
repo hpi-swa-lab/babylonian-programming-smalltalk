@@ -15,6 +15,8 @@ visualizationMorphs
 			(visualization := class new)
 				example: self selectedExample;
 				when: #browseMethod evaluate: [:ref | self triggerEvent: #browseMethod with: ref];
+				when: #highlightSend evaluate: [:method :pc | 
+					self triggerEvent: #highlightSend withArguments: {method . pc}];
 				buildWith: ToolBuilder default]}.
 		
 	^ {content isString

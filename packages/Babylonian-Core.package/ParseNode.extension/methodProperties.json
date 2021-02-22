@@ -6,7 +6,6 @@
 		"emitCodeForReturn:encoder:" : "2/15/2021 09:53:45",
 		"emitNOPs:stack:n:type:" : "2/15/2021 09:53:45",
 		"findEnclosingNonOptimizedBlock:" : "2/15/2021 09:53:45",
-		"findEnclosingNonOptimizedBlock: (bpCallgraph)" : "pre 2/15/2021 16:31",
 		"findEnclosingNonOptimizedBlockId:" : "2/15/2021 09:53:45",
 		"invocationTempIndex:" : "2/15/2021 09:53:45",
 		"litIndexBlockIdentifier:" : "2/15/2021 09:53:45",

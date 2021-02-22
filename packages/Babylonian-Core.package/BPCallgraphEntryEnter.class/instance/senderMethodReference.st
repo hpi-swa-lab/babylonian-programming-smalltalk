@@ -1,0 +1,4 @@
+accessing
+senderMethodReference
+	
+	^ senderMethod methodReference

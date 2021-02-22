@@ -6,7 +6,7 @@
 		"callgraph" : "cmfcmf 10/28/2020 10:40",
 		"callgraph:" : "cmfcmf 10/27/2020 14:12",
 		"childrenOf:" : "cmfcmf 11/6/2020 14:29",
-		"doubleClick:" : "cmfcmf 10/30/2020 14:57",
+		"doubleClick:" : "pre 2/22/2021 17:53",
 		"findCommonAncestorOfAllInvocations" : "cmfcmf 11/10/2020 10:52",
 		"getSelectedEntry" : "cmfcmf 10/22/2020 14:29",
 		"getSpec" : "cmfcmf 10/30/2020 14:57",
@@ -33,5 +33,5 @@
 		"selectPrevBlockCallInSameContext" : "cmfcmf 11/2/2020 14:07",
 		"selectPrevCustomEvent" : "cmfcmf 10/28/2020 11:01",
 		"selectPrevMethodCall" : "cmfcmf 11/2/2020 14:02",
-		"setSelectedEntry:" : "cmfcmf 10/23/2020 15:38",
+		"setSelectedEntry:" : "pre 2/22/2021 18:57",
 		"withoutReturnNodes:" : "cmfcmf 11/6/2020 14:29" } }
