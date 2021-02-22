@@ -10,5 +10,5 @@ updateMorphs
 		addExampleNameMorph;
 		addExampleConfigurationButtonMorph;
 		addExampleSpecificMorphs;
-		addDeleteButtonMorph;
-		addCallgraphMorphs.
+		addCallgraphMorphs;
+		addDeleteButtonMorph
