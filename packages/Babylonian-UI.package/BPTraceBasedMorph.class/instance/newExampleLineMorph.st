@@ -1,7 +1,7 @@
 private - ui
 newExampleLineMorph
 	
-	^  Morph new 
+	^ Morph new 
 		color: Color transparent; 
 		changeTableLayout; 
 		layoutInset: 0;

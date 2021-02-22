@@ -19,7 +19,9 @@ addArgumentScriptMorphs
 			onAccept: [:str |
 				self containingBrowser saveMethodWithExamples.
 				false "Do not continue handling this morphs edit"].
-		editField width: 240.
+		editField 
+			balloonText: 'write code that instantiates the argument';
+			width: 240.
 		container addMorphBack: editField.
 		
 		"Live specimen selection"

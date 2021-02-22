@@ -11,7 +11,9 @@ initialize
 	
 	tracesMorph := self newTracesMorph.
 	tracesMorph height: self height.
-	removeButton := self newRemoveButton.
+	removeButton := self newRemoveButton
+		balloonText: 'click to remove the ' , self annotationLabel;
+		yourself.
 	"This morph holds the traces and the expression morph"
 	widgetsMorph := self newWidgetsMorph.
 	
