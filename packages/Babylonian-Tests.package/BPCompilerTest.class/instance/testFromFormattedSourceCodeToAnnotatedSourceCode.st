@@ -1,6 +1,6 @@
 tests
 testFromFormattedSourceCodeToAnnotatedSourceCode
-
+	
 	| text |
 	self fail.
 	text := 'simpleMethodWithProbes
@@ -10,3 +10,4 @@ testFromFormattedSourceCodeToAnnotatedSourceCode
 		from: 27 to: 31.
 		
 	BPCompiler compile: text. "TODO: Better word for that."
+	
