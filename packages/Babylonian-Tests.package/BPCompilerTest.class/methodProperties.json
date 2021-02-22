@@ -9,7 +9,7 @@
 		"testFromFormattedSourceCodeToAnnotatedSourceCode" : "jb 12/7/2020 19:06",
 		"testRewritingBinaryMessageChainProbe" : "pre 2/22/2021 17:16",
 		"testRewritingDoesNotAddTwoLayerPragmas" : "jb 12/7/2020 19:06",
-		"testRewritingErrorOnIncompleteExpressionForAssertion" : "jb 12/7/2020 19:06",
+		"testRewritingErrorOnIncompleteExpressionForAssertion" : "pre 2/22/2021 17:24",
 		"testRewritingErrorOnIncompleteExpressionForReplacement" : "jb 12/7/2020 19:06",
 		"testRewritingErrorOnIncompleteExpressionProbe" : "jb 12/7/2020 19:06",
 		"testRewritingExampleSpecificAssertion" : "jb 12/7/2020 19:06",
