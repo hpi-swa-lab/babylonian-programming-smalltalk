@@ -2,5 +2,6 @@ visualization type
 setVisualizationTypeIndex: aNumber
 	
 	visualizationTypeIndex := aNumber.
-	self changed: #getVisualizationTypeIndex.
-	self changed: #visualizationMorphs
+	self 
+		changed: #getVisualizationTypeIndex;
+		changed: #visualizationMorphs.
