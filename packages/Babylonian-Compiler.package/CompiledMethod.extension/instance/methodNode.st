@@ -9,6 +9,9 @@ methodNode
 				in: aClass.
 	
 	"------- custom code ----------"
+	"This breaks the contract, that the method node contains the nodes for 
+	the unstyled code. Any use case, using the debugger map with unstyled code
+	will break as a consequence (e.g. SmalltalkCI error reporting)."
 	source := (BPStyler new
 		selectedMethod: self;
 		format:	source asText) asString asText.
