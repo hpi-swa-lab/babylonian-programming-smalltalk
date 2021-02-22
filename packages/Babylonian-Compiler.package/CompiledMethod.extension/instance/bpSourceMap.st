@@ -1,4 +1,4 @@
-*Babylonian-Core
+*Babylonian-Compiler
 bpSourceMap
 
 	^ (self propertyValueAt: #bpSourceMap) ifNil: [
