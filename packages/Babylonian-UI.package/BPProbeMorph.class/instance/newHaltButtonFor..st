@@ -11,5 +11,6 @@ newHaltButtonFor: aTrace
 	exploreButton 
 		actionSelector: #haltButtonClickedFor:and:;
 		arguments: {self id . aTrace example};
-		target: self.	
+		target: self;
+		balloonText: 'click to open a debugger at the first invocation of this expression'.
 	^ exploreButton

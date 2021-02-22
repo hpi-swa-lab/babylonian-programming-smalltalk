@@ -11,4 +11,5 @@ addScriptMorph
 				self codeContentChanged]
 			onAccept: [:str |
 				self containingBrowser codeTextMorph accept]).
+	editField balloonText: 'write a script that will be executed to trigger this method'.
 	exampleSpecificMorphs addMorphBack: editField.

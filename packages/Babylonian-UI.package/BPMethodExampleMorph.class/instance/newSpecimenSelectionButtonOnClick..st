@@ -8,4 +8,6 @@ newSpecimenSelectionButtonOnClick: aBlock
 		borderWidth: 0;
 		target: aBlock;
 		actionSelector: #value;
+		balloonText: 'Click to open the live specimen tool.
+It allows you to select a live object as an argument.';
 		yourself

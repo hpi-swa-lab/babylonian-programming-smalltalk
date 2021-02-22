@@ -9,6 +9,7 @@ addExampleNameMorph
 			self codeContentChanged]
 		onAccept: [:str | "nop"].
 	nameTextMorph 
+		balloonText: 'enter a name for the example';
 		setTextColor: example color;
 		width: 15 * self fontWidth;
 		hideScrollBarsIndefinitely.

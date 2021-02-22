@@ -21,8 +21,11 @@ updateAssertionFieldsMorph
 			self codeContentChanged]
 		onAccept: [:str | 
 			self containingBrowser codeTextMorph accept].
+	assertionScriptMorph balloonText: 'Write code to check the probed value. The value is available through the `result` variable. The code should return a Boolean value.'.
 		
-	exampleSelectionMorph := self newExampleSelectionFieldMorph.
+	exampleSelectionMorph := self newExampleSelectionFieldMorph
+		balloonText: 'Click to select an example the assertion should be scoped to. The assertion will only be checked for the selected example.';
+		yourself.
 		
 	assertionFieldsMorph 
 		addMorphBack: assertionScriptMorph;

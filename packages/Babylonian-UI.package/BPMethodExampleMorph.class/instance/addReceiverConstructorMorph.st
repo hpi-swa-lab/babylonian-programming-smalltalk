@@ -16,7 +16,11 @@ addReceiverConstructorMorph
 				self codeContentChanged]
 			onAccept: [:str |
 				self containingBrowser codeTextMorph accept]).
-	editField width: 240.
+	editField 
+		balloonText: 'Write code that instantiates the receiver. 
+You can also provide a selector that will be called on the
+class-side of this class to create a receiver object.';
+		width: 240.
 	container addMorphBack: editField.
 			
 	"Live specimen selection"

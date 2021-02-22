@@ -8,6 +8,7 @@ addCollapseButtonMorph
 		labelGraphic: (BPIcons moreHorizontalIcon scaledToSize: self iconSize * 0.7);
 		color: Color transparent;
 		borderWidth: 0;
+		balloonText: 'hide details of the example';
 		extent: collapseButton extent * 0.7.
 	collapseButton 
 		actionSelector: #collapseButtonClicked;
