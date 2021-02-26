@@ -1,4 +1,4 @@
 failures
 expectedFailures
-
-	^ #(testExamplesCanStartTheTracing)
+	
+	^ #()

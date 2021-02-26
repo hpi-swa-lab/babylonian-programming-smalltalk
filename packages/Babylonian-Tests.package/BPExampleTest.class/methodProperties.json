@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"createExamples" : "jb 12/7/2020 19:07",
-		"expectedFailures" : "pre 5/10/2019 16:49",
+		"expectedFailures" : "pre 2/22/2021 17:24",
 		"setUp" : "pre 1/6/2021 19:09",
 		"tearDown" : "pre 1/6/2021 19:08",
 		"testCreatingAnExampleNotifiesDependents" : "pre 1/6/2021 19:09",
@@ -15,7 +15,6 @@
 		"testExamplesCanRunTheirSymbolSetup" : "pre 1/21/2021 17:17",
 		"testExamplesCanRunTheirSymbolTearDown" : "pre 1/21/2021 17:16",
 		"testExamplesCanRunTheirTearDown" : "pre 1/21/2021 17:16",
-		"testExamplesCanStartTheTracing" : "jb 12/7/2020 19:08",
 		"testExamplesKnowTheirArguments" : "jb 12/7/2020 19:08",
 		"testExamplesKnowTheirName" : "jb 12/7/2020 19:08",
 		"testExamplesKnowTheirOriginalMethod" : "jb 12/7/2020 19:08",

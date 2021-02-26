@@ -11,5 +11,6 @@ newExploreButtonFor: aTrace
 	exploreButton 
 		actionSelector: #exploreButtonClickedFor:;
 		arguments: {aTrace valuesForProbeId: self id};
-		target: self.	
+		target: self;
+		balloonText: 'click to see the traced values of this probe'.
 	^ exploreButton
