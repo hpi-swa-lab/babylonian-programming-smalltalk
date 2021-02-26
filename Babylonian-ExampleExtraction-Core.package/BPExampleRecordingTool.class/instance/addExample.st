@@ -2,7 +2,7 @@ recording
 addExample
 	
 	| argumentSpecimen receiverSpecimen example |
-	
+	     
 	self selectedRecording ifNil: [UIManager default inform: 'no recording selected'.
 	 ^ self].
 	

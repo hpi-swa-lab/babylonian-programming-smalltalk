@@ -1,0 +1,15 @@
+{
+	"category" : "Babylonian-ExampleExtraction-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"subject",
+		"calls" ],
+	"name" : "BPProxy",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

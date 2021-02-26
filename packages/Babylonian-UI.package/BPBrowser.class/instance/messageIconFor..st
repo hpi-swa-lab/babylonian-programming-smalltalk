@@ -1,4 +1,4 @@
-as yet unclassified
+message list
 messageIconFor: aSelector
 	
 	| baseIcon exampleIcon combinedIcon |

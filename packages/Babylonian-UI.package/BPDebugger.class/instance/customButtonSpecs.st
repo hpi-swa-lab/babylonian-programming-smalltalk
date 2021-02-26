@@ -12,7 +12,7 @@ customButtonSpecs
 		('Full Stack'		showFullStack			'show full stack')
 		('Where'		showWhere				'select current pc range')
 		('Tally It'			tally				'evaluate current selection and measure the time')
-		('Add as recorded Example' addExample 'Add current receiver and parameter as a Babylonian example')).
+		('Add Example' addExample 'Add current receiver and parameters as a Babylonian Example')).
 	(Preferences restartAlsoProceeds and: [self interruptedProcessShouldResume]) ifTrue:
 		[list := list collect: [:each |
 			each second == #restart
