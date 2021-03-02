@@ -5,6 +5,7 @@
 		"bpExamplePragmaPrefix" : "1/22/2021 11:04:38",
 		"bpExamplePragmaPrefixes" : "1/22/2021 11:04:38",
 		"fromPragma:" : "pre 9/30/2020 10:20",
+		"exampleColors" : "pre 3/2/2021 17:58",
 		"newFor:" : "pre 9/30/2020 11:08" },
 	"instance" : {
 		"=" : "pre 8/20/2020 11:56",
@@ -14,7 +15,7 @@
 		"argumentScripts:" : "pre 7/23/2019 09:23",
 		"asPragma" : "pre 9/30/2020 10:48",
 		"canBeUsedForDoIts" : "pre 10/6/2020 09:17",
-		"color" : "pre 9/30/2020 09:50",
+		"color" : "pre 3/2/2021 17:32",
 		"currentCallgraph" : "cmfcmf 11/10/2020 12:23",
 		"currentTrace" : "pre 9/30/2020 09:53",
 		"deprecatedExecuteWithCallgraphUsingSimulator" : "cmfcmf 11/9/2020 15:22",
