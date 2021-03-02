@@ -2,15 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"additionalReturnSize:returns:" : "2/15/2021 09:53:45",
-		"emitCodeForReturn:encoder:" : "2/15/2021 09:53:45",
-		"emitNOPs:stack:n:type:" : "2/15/2021 09:53:45",
-		"findEnclosingNonOptimizedBlock:" : "2/15/2021 09:53:45",
-		"findEnclosingNonOptimizedBlockId:" : "2/15/2021 09:53:45",
-		"invocationTempIndex:" : "2/15/2021 09:53:45",
-		"litIndexBlockIdentifier:" : "2/15/2021 09:53:45",
-		"litIndexEnterInvocation:" : "2/15/2021 09:53:45",
-		"litIndexExitInvocation:" : "2/15/2021 09:53:45",
-		"litIndexInvocationCount:" : "2/15/2021 09:53:45",
-		"litIndexTracerClass:" : "2/15/2021 09:53:45",
-		"sizeCodeForReturn:" : "2/15/2021 09:53:45" } }
+		"additionalReturnSize:returns: (bpCallgraph)" : "2/15/2021 09:53:45",
+		"emitCodeForReturn:encoder: (bpCallgraph)" : "2/15/2021 09:53:45",
+		"emitNOPs:stack:n:type: (bpCallgraph)" : "2/15/2021 09:53:45",
+		"findEnclosingNonOptimizedBlock: (bpCallgraph)" : "2/15/2021 09:53:45",
+		"findEnclosingNonOptimizedBlockId: (bpCallgraph)" : "2/15/2021 09:53:45",
+		"invocationTempIndex: (bpCallgraph)" : "2/15/2021 09:53:45",
+		"litIndexBlockIdentifier: (bpCallgraph)" : "2/15/2021 09:53:45",
+		"litIndexEnterInvocation: (bpCallgraph)" : "2/15/2021 09:53:45",
+		"litIndexExitInvocation: (bpCallgraph)" : "2/15/2021 09:53:45",
+		"litIndexInvocationCount: (bpCallgraph)" : "2/15/2021 09:53:45",
+		"litIndexTracerClass: (bpCallgraph)" : "2/15/2021 09:53:45",
+		"sizeCodeForReturn: (bpCallgraph)" : "2/15/2021 09:53:45" } }

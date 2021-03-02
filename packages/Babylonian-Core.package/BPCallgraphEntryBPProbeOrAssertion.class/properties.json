@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"enclosedSourceCode" ],
 	"name" : "BPCallgraphEntryBPProbeOrAssertion",
 	"pools" : [
 		 ],
