@@ -10,7 +10,8 @@
 		"selectedRecordingIndex",
 		"methodReference",
 		"recorder",
-		"isRecording" ],
+		"isRecording",
+		"requestor" ],
 	"name" : "BPExampleRecordingTool",
 	"pools" : [
 		 ],

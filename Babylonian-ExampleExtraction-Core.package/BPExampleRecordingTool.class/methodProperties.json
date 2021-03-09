@@ -1,13 +1,16 @@
 {
 	"class" : {
-		"openFor:" : "ek 1/14/2021 14:35" },
+		"openFor:with:" : "ek 3/8/2021 12:01" },
 	"instance" : {
-		"addExample" : "ek 2/18/2021 20:38",
+		"addExample" : "ek 3/8/2021 12:03",
+		"addExampleReceiverMock" : "ek 3/2/2021 13:36",
+		"addExampleWith:and:" : "ek 3/2/2021 12:08",
 		"buildButtonPaneWith:" : "ek 2/2/2021 17:20",
 		"buildExplorerWith:" : "ek 2/2/2021 16:05",
 		"buildResultViewWith:" : "ek 2/2/2021 17:56",
 		"buildResultsListWith:" : "ek 2/2/2021 15:54",
 		"buildWith:" : "ek 2/2/2021 17:18",
+		"informRequestor" : "ek 3/9/2021 10:29",
 		"initialize" : "ek 2/18/2021 20:45",
 		"method" : "ek 2/18/2021 19:28",
 		"method:" : "ek 2/18/2021 19:29",
@@ -15,6 +18,8 @@
 		"methodReference:" : "ek 2/18/2021 19:23",
 		"recordings" : "ek 2/2/2021 15:52",
 		"recordings:" : "ek 2/2/2021 17:46",
+		"requestor" : "ek 3/8/2021 12:02",
+		"requestor:" : "ek 3/8/2021 12:02",
 		"selectedRecording" : "ek 2/2/2021 15:59",
 		"selectedRecordingIndex" : "ek 2/2/2021 15:53",
 		"selectedRecordingIndex:" : "ek 2/2/2021 16:08",

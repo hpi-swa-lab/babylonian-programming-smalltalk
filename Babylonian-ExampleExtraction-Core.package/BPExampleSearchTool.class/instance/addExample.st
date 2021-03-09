@@ -9,3 +9,5 @@ addExample
 	example
 		testCaseClassFrom: self selectedSearchResult key;
 		methodSelector: self selectedSearchResult value.
+		
+	self informRequestor.

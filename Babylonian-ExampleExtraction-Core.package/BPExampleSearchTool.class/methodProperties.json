@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"openFor:" : "ek 2/2/2021 16:38" },
+		"openFor:with:" : "ek 3/8/2021 12:00" },
 	"instance" : {
-		"addExample" : "ek 2/9/2021 15:41",
+		"addExample" : "ek 3/9/2021 10:31",
 		"basicMethod:" : "ek 2/18/2021 19:29",
 		"buildButtonPaneWith:" : "ek 2/2/2021 18:00",
 		"buildResultViewWith:" : "ek 2/3/2021 14:02",
@@ -14,12 +14,15 @@
 		"findCategories" : "ek 2/2/2021 18:10",
 		"findClassesForCategories:" : "ek 2/2/2021 18:10",
 		"findTestsFor:" : "ek 2/16/2021 12:11",
+		"informRequestor" : "ek 3/9/2021 10:30",
 		"initialize" : "ek 2/16/2021 12:10",
 		"method" : "ek 2/18/2021 19:30",
 		"method:" : "ek 2/16/2021 11:48",
 		"methodAsText" : "ek 2/3/2021 14:08",
 		"methodReference" : "ek 2/18/2021 19:28",
 		"methodReference:" : "ek 2/18/2021 19:28",
+		"requestor" : "ek 3/8/2021 11:43",
+		"requestor:" : "ek 3/8/2021 11:42",
 		"search" : "ek 2/2/2021 18:13",
 		"searchResultIndex" : "ek 2/2/2021 17:57",
 		"searchResultIndex:" : "ek 2/3/2021 13:59",

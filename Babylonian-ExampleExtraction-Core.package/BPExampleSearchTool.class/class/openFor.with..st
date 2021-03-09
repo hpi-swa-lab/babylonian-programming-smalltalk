@@ -1,9 +1,10 @@
 as yet unclassified
-openFor: aMethod
+openFor: aMethod with: aRequestor
 	
 	| tool |
 	tool := self new
 		method: aMethod;
+		requestor: aRequestor;
 		yourself.
 		
 	^ ToolBuilder open: tool 
