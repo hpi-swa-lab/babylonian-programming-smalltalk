@@ -1,6 +1,7 @@
 {
 	"class" : {
-		 },
+		"showFancyAnalysisInCallgraph" : "pre 2/22/2021 19:15",
+		"showFancyAnalysisInCallgraph:" : "pre 2/22/2021 19:16" },
 	"instance" : {
 		"bottomBarText" : "cmfcmf 11/9/2020 16:29",
 		"buildButtonBarWith:" : "cmfcmf 11/10/2020 10:21",
