@@ -4,7 +4,7 @@ shouldNeverInstrument: aClass selector: aSymbol
 	"largely copied from MwMethodWrapper class >> #canWrap:inClass:"
 	| class method |
 	(aClass category beginsWith: 'Babylonian-') ifTrue: [
-		({'Babylonian-Tests-Callgraph-ByteCode-Fixtures' . 'Babylonian-Demo-TreeScene'} includes: aClass category) 
+		({'Babylonian-Tests-Callgraph-ByteCode-Fixtures' . 'Babylonian-Demo-TreeScene' . 'Babylonian-Demo-Morphs' } includes: aClass category) 
 			ifFalse: [^ true]].
 	
 	{{CompiledMethod . {#valueWithReceiver:arguments:}}.

@@ -1,4 +1,4 @@
 accessing
 instrumentedPackagesWithTitle
 	
-	^ #('-- Tracked Packages --'), self instrumentedPackages
+	^ #('-- Tracked Packages --'), self instrumentedPackages sorted
