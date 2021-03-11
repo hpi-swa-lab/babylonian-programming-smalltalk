@@ -2,8 +2,8 @@
 	"class" : {
 		"openFor:with:" : "ek 3/8/2021 12:01" },
 	"instance" : {
-		"addExample" : "ek 3/8/2021 12:03",
-		"addExampleReceiverMock" : "ek 3/2/2021 13:36",
+		"addExample" : "ek 3/9/2021 11:28",
+		"addExampleReceiverMock" : "ek 3/9/2021 11:28",
 		"addExampleWith:and:" : "ek 3/2/2021 12:08",
 		"buildButtonPaneWith:" : "ek 2/2/2021 17:20",
 		"buildExplorerWith:" : "ek 2/2/2021 16:05",
@@ -18,7 +18,7 @@
 		"methodReference:" : "ek 2/18/2021 19:23",
 		"recordings" : "ek 2/2/2021 15:52",
 		"recordings:" : "ek 2/2/2021 17:46",
-		"requestor" : "ek 3/8/2021 12:02",
+		"requestor" : "ek 3/9/2021 13:12",
 		"requestor:" : "ek 3/8/2021 12:02",
 		"selectedRecording" : "ek 2/2/2021 15:59",
 		"selectedRecordingIndex" : "ek 2/2/2021 15:53",
