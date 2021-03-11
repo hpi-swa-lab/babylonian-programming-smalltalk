@@ -1,4 +1,4 @@
 private
 isLiveSpecimenReference: anObject
-
-	^ anObject isArray and: [anObject first = #object and: [anObject size = 2]]
+	
+	^ anObject isArray and: [(anObject first = #object or: [anObject first = #copy]) and: [anObject size = 2]]

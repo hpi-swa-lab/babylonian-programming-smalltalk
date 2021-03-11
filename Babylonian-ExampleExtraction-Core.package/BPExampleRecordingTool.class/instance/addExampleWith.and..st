@@ -3,9 +3,9 @@ addExampleWith: receiver and: arguments
 	
 	| receiverSpecimen argumentSpecimen example |
 	
-	receiverSpecimen := BPActiveSpecimenRegistry default storeSpecimen: receiver.
+	receiverSpecimen := BPActiveSpecimenRegistry default storeCopySpecimen: receiver.
 	argumentSpecimen := arguments
-		collect: [:argumentObject | BPActiveSpecimenRegistry default storeSpecimen: argumentObject].
+		collect: [:argumentObject | BPActiveSpecimenRegistry default storeCopySpecimen: argumentObject].
 	
 	example := self method bpNewExampleFrom: BPMethodExample.
 	example receiverConstructor: receiverSpecimen.
