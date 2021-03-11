@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildWith:" : "pre 2/22/2021 18:44",
+		"buildWith:" : "pre 3/11/2021 17:35",
+		"example:" : "pre 3/11/2021 17:50",
 		"highlightMethod:" : "cmfcmf 11/2/2020 14:27",
-		"highlightTraceValue:id:" : "cmfcmf 11/9/2020 15:33" } }
+		"highlightTraceValue:id:" : "cmfcmf 11/9/2020 15:33",
+		"initialize" : "pre 3/11/2021 17:35" } }

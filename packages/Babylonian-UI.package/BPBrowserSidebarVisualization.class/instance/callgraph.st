@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 callgraph
 	
 	^ self example currentCallgraph 

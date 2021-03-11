@@ -22,8 +22,10 @@
 		"postCopy" : "cmfcmf 11/4/2020 15:44",
 		"selectedExample" : "cmfcmf 10/30/2020 14:20",
 		"selectedVisualizationType" : "cmfcmf 10/30/2020 14:14",
+		"selectedVisualizationTypeClass" : "pre 3/11/2021 17:43",
 		"setExampleListIndex:" : "pre 2/22/2021 11:36",
 		"setVisualizationTypeIndex:" : "pre 2/22/2021 11:35",
 		"showExample:id:traceValue:" : "cmfcmf 11/5/2020 13:01",
 		"showMethod:" : "cmfcmf 11/2/2020 14:34",
-		"visualizationMorphs" : "pre 2/22/2021 17:59" } }
+		"updateVisualizationMorphsIfNecessary" : "pre 3/11/2021 17:44",
+		"visualizationMorphs" : "pre 3/11/2021 17:43" } }

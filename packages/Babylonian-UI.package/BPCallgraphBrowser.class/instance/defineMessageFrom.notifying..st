@@ -12,5 +12,5 @@ defineMessageFrom: aString notifying: aController
 				selector: resultingSelector]
 		ifFalse: [resultingSelector := super defineMessageFrom: aString notifying: aController].
 
-	sidebar changed: #visualizationMorphs.
-	^ resultingSelector
+	sidebar updateVisualizationMorphsIfNecessary.
+	^ resultingSelector 

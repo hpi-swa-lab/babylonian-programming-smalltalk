@@ -1,8 +1,7 @@
 toolbuilder
 buildWith: aBuilder
 	
-
-	model := BPCallgraphModel new.
+	
 	model callgraph: self callgraph.
 	model 
 		when: #doubleClicked 
