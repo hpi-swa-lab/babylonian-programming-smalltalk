@@ -3,7 +3,7 @@ uninstrumentClassCategory: aSymbol
 	
 	CSLayeredMethod pauseFlushingCachesDuring: [
 		SystemChangeNotifier uniqueInstance doSilently: [
-			self for: (SystemOrganization classesIn: aSymbol) 
+			self for: (SystemOrganization classesIn:  aSymbol , '*') 
 				do: [:class | 
 					self uninstrumentClass: class theNonMetaClass.
 					self uninstrumentClass: class theMetaClass]
