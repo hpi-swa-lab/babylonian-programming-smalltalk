@@ -29,7 +29,7 @@ To cite this work, please use the [COP'19][cop19_paper] and the [Programming'19]
 - Patrick Rein, Jens Lincke, Stefan Ramson, Toni Mattis, Fabio Niephaus, and
 Robert Hirschfeld. *Implementing Babylonian/S by Putting Examples Into Contexts:
 Tracing Instrumentation for Example-based Live Programming as a Use Case for
-Context-oriented Programming*. In Proceedings of [the Workshop on
+Context-oriented Programming*. In Proceedings of the [Workshop on
 Context-oriented Programming (COP) 2019][cop19], co-located with the European
 Conference on Object-oriented Programming (ECOOP), London, UK, July 15, 2019,
 ACM DL.  
@@ -45,7 +45,7 @@ pages, 2019.
 - Fabio Niephaus, Patrick Rein, Jakob Edding, Jonas Hering, Bastian König, Kolya
 Opahle, Nico Scordialo, and Robert Hirschfeld. *Example-Based Live Programming
 for Everyone: Building Language-agnostic Tools for Live Programming With LSP and
-GraalVM*. In Proceedings of [the ACM Symposium for New Ideas, New Paradigms, and
+GraalVM*. In Proceedings of the [ACM Symposium for New Ideas, New Paradigms, and
 Reflections on Everything to do with Programming and Software (Onward!)
 2020][onward20], co-located with the Conference on Object-oriented Programming,
 Systems, Languages, and Applications (OOPSLA), pages 108-124, Chicago, United
@@ -71,3 +71,5 @@ States, November 17-18, 2020, ACM DL.
 [squeakorg]: http://www.squeak.org
 [metacello]: https://github.com/dalehenrich/metacello-work
 [babylonian_screenshot]: https://github.com/hpi-swa-lab/babylonian-programming-smalltalk/blob/media/screenshot-for-readme.png?raw=true
+[cop19]: https://2019.ecoop.org/home/COP-2019
+[prog19]: https://programming-journal.org/2019/3/issue3/
