@@ -5,6 +5,6 @@ visualizationMorph
 		name: #visualization;
 		color: Color blue;
 		width: self traceValuesMorph width;
-		height: self preferredHeight;
+		height: self class canvasHeight;
 		borderWidth: 0;
 		yourself.
