@@ -6,8 +6,12 @@ newLineMorphFor: aTrace
 		setProperty: #bpTrace toValue: aTrace;
 		yourself.
 		
-	newLine addMorphBack: (self newExploreButtonFor: aTrace).
-	newLine addMorphBack: (self newHaltButtonFor: aTrace).
+	newLine 
+		addMorphBack: (self newExploreButtonFor: aTrace);
+		addMorphBack: (self newHaltButtonFor: aTrace).
+	
+	(self canBeVisualized: aTrace)
+		ifTrue: [newLine addMorphBack: (self newVisualizeButtonFor: aTrace)].
 	
 	newLine addMorphBack: (Morph new
 		color: Color transparent; 

@@ -1,0 +1,16 @@
+{
+	"category" : "Babylonian-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"range",
+		"domain",
+		"scaleBehavior" ],
+	"name" : "BPScale",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

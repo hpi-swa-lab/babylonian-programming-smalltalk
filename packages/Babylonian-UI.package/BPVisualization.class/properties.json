@@ -1,0 +1,16 @@
+{
+	"category" : "Babylonian-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"traceValues",
+		"traceValuesMorph",
+		"scaleY" ],
+	"name" : "BPVisualization",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"linearScale" : "jb 4/18/2021 00:14",
+		"newLinearScaleWithDomain:forRange:" : "jb 4/18/2021 00:09",
+		"newWithDomain:forRange:scalingLike:" : "jb 4/18/2021 00:09" },
+	"instance" : {
+		"domain" : "jb 4/17/2021 23:18",
+		"domain:" : "jb 4/17/2021 23:36",
+		"range" : "jb 4/17/2021 23:18",
+		"range:" : "jb 4/17/2021 23:36",
+		"scaleBehavior" : "jb 4/17/2021 23:18",
+		"scaleBehavior:" : "jb 4/17/2021 23:28",
+		"scaledValueOf:" : "jb 4/18/2021 00:20" } }
