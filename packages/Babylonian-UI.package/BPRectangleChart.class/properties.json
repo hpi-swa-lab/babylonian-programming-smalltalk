@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"scaleX" ],
 	"name" : "BPRectangleChart",
 	"pools" : [
 		 ],

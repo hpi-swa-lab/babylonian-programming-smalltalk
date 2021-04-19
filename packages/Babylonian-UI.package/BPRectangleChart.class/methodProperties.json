@@ -1,7 +1,22 @@
 {
 	"class" : {
-		"newWithValues:forMorph:" : "jb 4/18/2021 01:49",
-		"supportedClass" : "jb 4/17/2021 01:06" },
+		"coordinateSystemSize" : "jb 4/18/2021 23:55",
+		"newWithValues:forMorph:" : "jb 4/19/2021 01:54",
+		"preferredHeight" : "jb 4/19/2021 01:40",
+		"supportedClass" : "jb 4/19/2021 00:06",
+		"traceValuesMorphClassesToFilterOut" : "jb 4/19/2021 00:06" },
 	"instance" : {
-		"axisYNotationMorph" : "jb 4/18/2021 22:18",
-		"visualizationMorph" : "jb 4/18/2021 21:55" } }
+		"lineColor" : "jb 4/19/2021 00:24",
+		"lineWidth" : "jb 4/19/2021 01:50",
+		"newCoordinateSystemFor:centeredIn:" : "jb 4/19/2021 02:09",
+		"newCoordinateSystems:" : "jb 4/19/2021 01:22",
+		"newRectangleFor:centeredIn:" : "jb 4/19/2021 02:17",
+		"newRectangles:" : "jb 4/19/2021 01:29",
+		"rectangleColorForValue:" : "jb 4/19/2021 01:53",
+		"rectangleNegNegColor" : "jb 4/19/2021 01:51",
+		"rectangleNegPosColor" : "jb 4/19/2021 01:51",
+		"rectanglePosNegColor" : "jb 4/19/2021 02:37",
+		"rectanglePosPosColor" : "jb 4/19/2021 01:50",
+		"scaleX" : "jb 4/18/2021 23:53",
+		"scaleX:" : "jb 4/18/2021 23:54",
+		"visualizationMorph" : "jb 4/19/2021 01:55" } }

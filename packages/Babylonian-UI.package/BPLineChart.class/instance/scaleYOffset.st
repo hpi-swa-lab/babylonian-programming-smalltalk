@@ -2,4 +2,4 @@ visualization - constants
 scaleYOffset
 	
 	
-	^ self datapointExtent x / 2
+	^ self datapointExtent y / 2

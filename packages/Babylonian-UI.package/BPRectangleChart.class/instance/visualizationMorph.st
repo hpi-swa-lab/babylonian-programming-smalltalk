@@ -1,10 +1,13 @@
 visualization
 visualizationMorph
 	
-	^ Morph new
-		name: #visualization;
-		color: Color blue;
-		width: self traceValuesMorph width;
-		height: self class canvasHeight;
-		borderWidth: 0;
-		yourself.
+	
+	| visualizationMorph filteredValueMorphs |
+	visualizationMorph := self newBackground.
+		
+	filteredValueMorphs := self traceValuesMorph submorphs reject: [ :aTraceMorph | 
+		self class traceValuesMorphClassesToFilterOut anySatisfy: [:aFilterClass | aTraceMorph isKindOf: aFilterClass]].
+	visualizationMorph addAllMorphs: (self newCoordinateSystems: filteredValueMorphs).
+	visualizationMorph addAllMorphsFront: (self newRectangles: filteredValueMorphs).
+	
+	^ visualizationMorph

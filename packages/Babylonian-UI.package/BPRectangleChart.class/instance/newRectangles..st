@@ -1,7 +1,7 @@
 visualization
-newDataPoints: filteredValueMorphs
+newRectangles: filteredValueMorphs
 	
 	
 	^ self traceValues collectWithIndex: [:aTraceValue :index |
-		 self newDatapointFor: aTraceValue 
+		 self newRectangleFor: aTraceValue 
 		centeredIn: (filteredValueMorphs at: index)]

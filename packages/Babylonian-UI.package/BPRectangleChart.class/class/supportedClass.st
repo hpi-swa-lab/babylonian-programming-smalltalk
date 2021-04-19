@@ -1,4 +1,5 @@
 support
 supportedClass
 	
+	
 	^ Point class

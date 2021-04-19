@@ -2,11 +2,12 @@ visualization
 visualizationMorph
 	
 	
-	| visualizationMorph stringFilteredValueMorphs |
+	| visualizationMorph filteredValueMorphs |
 	visualizationMorph := self newBackground.
 		
-	stringFilteredValueMorphs := self traceValuesMorph submorphs reject: [ :aTraceMorph | aTraceMorph isKindOf: StringMorph].
-	visualizationMorph addAllMorphs: (self newDataPoints: stringFilteredValueMorphs).
+	filteredValueMorphs := self traceValuesMorph submorphs reject: [ :aTraceMorph | 
+		self class traceValuesMorphClassesToFilterOut anySatisfy: [:aFilterClass | aTraceMorph isKindOf: aFilterClass]].
+	visualizationMorph addAllMorphs: (self newDataPoints: filteredValueMorphs).
 	visualizationMorph addAllMorphsBack: (self newLinesForDatapointsOn: visualizationMorph).
 	visualizationMorph addAllMorphsBack: (self newScaleLinesOn: visualizationMorph).
 	

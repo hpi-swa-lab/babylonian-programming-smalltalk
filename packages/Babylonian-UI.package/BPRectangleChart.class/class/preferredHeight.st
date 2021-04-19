@@ -1,0 +1,4 @@
+constants
+preferredHeight
+
+	^ 40
