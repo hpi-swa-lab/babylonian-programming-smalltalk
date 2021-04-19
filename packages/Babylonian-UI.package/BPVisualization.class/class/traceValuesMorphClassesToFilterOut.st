@@ -2,4 +2,4 @@ constants
 traceValuesMorphClassesToFilterOut
 	
 	
-	^ self subclassResponsibility
+	^ {StringMorph}

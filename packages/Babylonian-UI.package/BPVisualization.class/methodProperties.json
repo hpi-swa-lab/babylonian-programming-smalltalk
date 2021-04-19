@@ -2,18 +2,18 @@
 	"class" : {
 		"canvasHeight" : "jb 4/18/2021 03:35",
 		"heightMargin" : "jb 4/18/2021 03:42",
+		"highlightedDataPercentage" : "jb 4/19/2021 23:57",
 		"newWithValues:forMorph:" : "jb 4/18/2021 01:49",
 		"preferredHeight" : "jb 4/18/2021 03:29",
 		"supportedClass" : "jb 4/17/2021 02:26",
-		"traceValuesMorphClassesToFilterOut" : "jb 4/18/2021 21:52",
+		"traceValuesMorphClassesToFilterOut" : "jb 4/20/2021 00:16",
 		"visualizationClassesForValues:" : "jb 4/18/2021 01:03",
-		"visualizationForValues:overMorph:" : "jb 4/17/2021 03:15",
 		"visualizationObjectForValues:overMorph:" : "jb 4/18/2021 04:35" },
 	"instance" : {
-		"axisYNotationMorph" : "jb 4/18/2021 23:58",
-		"axisYNotationMorphWithContents:" : "jb 4/18/2021 22:46",
 		"defaultBackgroundColor" : "jb 4/18/2021 01:11",
 		"fontHeight" : "jb 4/18/2021 22:28",
+		"legendMorph" : "jb 4/20/2021 00:11",
+		"legendMorphWithContents:" : "jb 4/20/2021 00:10",
 		"newBackground" : "jb 4/19/2021 02:09",
 		"scaleY" : "jb 4/18/2021 00:10",
 		"scaleY:" : "jb 4/18/2021 00:11",
@@ -21,4 +21,4 @@
 		"traceValues:" : "jb 4/18/2021 00:10",
 		"traceValuesMorph" : "jb 4/18/2021 00:10",
 		"traceValuesMorph:" : "jb 4/18/2021 00:10",
-		"visualizationMorph" : "jb 4/18/2021 03:28" } }
+		"visualizationMorph" : "jb 4/19/2021 23:58" } }

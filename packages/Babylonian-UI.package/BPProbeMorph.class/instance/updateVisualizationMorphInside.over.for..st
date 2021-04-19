@@ -7,7 +7,7 @@ updateVisualizationMorphInside: aScrollPane over: aValuesMorph for: aTrace
 		overMorph: aValuesMorph.
 		
 		visualizationMorph :=  visualizer visualizationMorph.
-		axisYNotationMorph := visualizer axisYNotationMorph.
+		axisYNotationMorph := visualizer legendMorph.
 		aScrollPane scroller addMorph: visualizationMorph.
 		visualizationMorph hide.
 		(self ensureLineMorphFor: aTrace) addMorph: axisYNotationMorph inFrontOf: aScrollPane owner.

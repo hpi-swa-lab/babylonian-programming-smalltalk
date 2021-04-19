@@ -1,4 +1,5 @@
 visualization - constants
 rectanglePosNegColor
 	
-	^ Color lavender
+	
+	^ Color bubblegum

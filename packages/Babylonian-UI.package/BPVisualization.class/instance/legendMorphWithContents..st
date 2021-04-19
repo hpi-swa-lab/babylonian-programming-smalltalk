@@ -1,5 +1,5 @@
 visualization
-axisYNotationMorphWithContents: aStringCollection
+legendMorphWithContents: aStringCollection
 	
 	
 	"Only works with collection sizes > 1"

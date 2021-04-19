@@ -8,7 +8,6 @@ newCoordinateSystemFor: aValue centeredIn: aValueMorph
 		x: aValueMorph x;
 		color: Color transparent;
 		balloonText: aValue printString;
-		borderWidth: 0;
 		addAllMorphs: 
 			{LineMorph 
 				from: (aValueMorph center x)@0 

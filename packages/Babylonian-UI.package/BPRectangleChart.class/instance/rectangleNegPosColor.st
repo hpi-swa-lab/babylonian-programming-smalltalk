@@ -1,4 +1,5 @@
 visualization - constants
 rectangleNegPosColor
-
-	^ Color blue
+	
+	
+	^ Color bubblegum

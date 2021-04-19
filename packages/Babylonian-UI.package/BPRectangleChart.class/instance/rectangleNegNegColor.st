@@ -1,4 +1,5 @@
 visualization - constants
 rectangleNegNegColor
-
-	^ Color red
+	
+	
+	^ Color teal

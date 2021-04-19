@@ -1,10 +1,9 @@
 {
 	"class" : {
 		"newWithValues:forMorph:" : "jb 4/18/2021 03:36",
-		"supportedClass" : "jb 4/19/2021 00:06",
-		"traceValuesMorphClassesToFilterOut" : "jb 4/19/2021 00:06" },
+		"supportedClass" : "jb 4/19/2021 00:06" },
 	"instance" : {
-		"datapointColorForValue:" : "jb 4/18/2021 01:03",
+		"datapointColorForValue:" : "jb 4/19/2021 23:14",
 		"datapointDefaultColor" : "jb 4/18/2021 00:36",
 		"datapointExtent" : "jb 4/18/2021 02:53",
 		"datapointHigherPercentColor" : "jb 4/18/2021 00:37",
@@ -16,7 +15,7 @@
 		"newLineFrom:to:" : "jb 4/18/2021 02:16",
 		"newLinesForDatapointsOn:" : "jb 4/18/2021 03:13",
 		"newScaleLinesOn:" : "jb 4/18/2021 03:50",
-		"scaleLineColor" : "jb 4/18/2021 03:19",
+		"scaleLineColor" : "jb 4/19/2021 23:58",
 		"scaleLineWidth" : "jb 4/18/2021 03:45",
 		"scaleYOffset" : "jb 4/19/2021 00:23",
 		"visualizationMorph" : "jb 4/19/2021 00:29" } }
