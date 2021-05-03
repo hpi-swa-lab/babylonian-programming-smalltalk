@@ -31,6 +31,8 @@ PreferenceWizardMorph allInstances do: #abandon.
 
 SystemBrowser default: (Smalltalk at: #BPBrowser).
 TextMorphForEditView draggableTextSelection: false.
+TextEditor autoEnclose: false.
+TextEditor encloseSelection: true.
 
 
 "
