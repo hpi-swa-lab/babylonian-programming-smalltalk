@@ -10,3 +10,7 @@ step
 	(trace notNil and: [trace hasTraceCompleted not and: [self example tracingIsStillRunning]])
 		ifTrue: [self ensureLoaderIcon]
 		ifFalse: [self ensureNoLoaderIcon].
+		
+	"(trace notNil and: [trace hasTraceCompleted] and: [trace exampleErrored not])
+		ifTrue: [(self submorphNamed: #duration) contents: trace duration asMilliSeconds asString, ' ms'] 
+		ifFalse: [(self submorphNamed: #duration) contents: 'did not run yet']"

@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-UI-ToolBuilder",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"backgroundColor" ],
+	"name" : "BPPluggableMultiColumnListSpec",
+	"pools" : [
+		 ],
+	"super" : "PluggableMultiColumnListSpec",
+	"type" : "normal" }

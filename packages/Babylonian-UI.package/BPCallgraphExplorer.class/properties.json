@@ -1,0 +1,17 @@
+{
+	"category" : "Babylonian-UI-Callgraph",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"callgraphModel",
+		"selectedAnnotationIndex",
+		"browser",
+		"codePaneMethodReference" ],
+	"name" : "BPCallgraphExplorer",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

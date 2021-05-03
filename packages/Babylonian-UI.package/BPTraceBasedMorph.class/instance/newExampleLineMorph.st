@@ -5,7 +5,7 @@ newExampleLineMorph
 		color: Color transparent; 
 		changeTableLayout; 
 		layoutInset: 0;
-		listDirection: #leftToRight; 
+		listDirection: #leftToRight;
 		vResizing: #shrinkWrap;
 		hResizing: #spaceFill;
 		cellPositioning: #leftCenter;

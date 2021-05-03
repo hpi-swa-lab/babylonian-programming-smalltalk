@@ -5,6 +5,8 @@ initialize
 	| removeButton |
 	super initialize.
 	
+	colorCache := Dictionary new.
+	
 	allTracesCompleted := false.
 	slidersForFiltering := Set new.
 	displayedTraces := Set new.

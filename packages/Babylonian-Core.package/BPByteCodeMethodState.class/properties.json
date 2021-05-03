@@ -1,0 +1,15 @@
+{
+	"category" : "Babylonian-Core-Callgraph-ByteCode",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"state",
+		"nopPositions" ],
+	"name" : "BPByteCodeMethodState",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-UI-ToolBuilder",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"callgraphModel" ],
+	"name" : "BPCallgraphListItemWrapper",
+	"pools" : [
+		 ],
+	"super" : "PluggableTreeItemNode",
+	"type" : "normal" }

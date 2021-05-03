@@ -1,0 +1,16 @@
+{
+	"category" : "Babylonian-Core-Callgraph",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"class",
+		"selector",
+		"blockIndex" ],
+	"name" : "BPCallgraphPathMethodExecution",
+	"pools" : [
+		 ],
+	"super" : "BPCallgraphPathPart",
+	"type" : "normal" }

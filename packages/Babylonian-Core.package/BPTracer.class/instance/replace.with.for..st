@@ -1,6 +1,8 @@
 replacing
-replace: originalCode with: replacementCode for: exampleName 
+replace: originalCode with: replacementCode for: exampleName
+	
+
 
 	^ ((self exampleNameMatches: exampleName) or: [exampleName = BPReplacement allExamplesName])
  		ifTrue: replacementCode
-		ifFalse: originalCode
+		ifFalse: (self wrapUserCode: originalCode)

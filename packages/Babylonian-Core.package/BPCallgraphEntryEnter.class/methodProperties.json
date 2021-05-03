@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"textColor" : "cmfcmf 11/3/2020 12:53" },
+	"instance" : {
+		"asPathPart" : "cmfcmf 11/3/2020 13:44",
+		"class:selector:blockIdx:invocationCount:" : "cmfcmf 10/28/2020 13:45",
+		"class:selector:blockIdx:invocationCount:senderPC:senderMethod:" : "pre 1/20/2021 17:46",
+		"doBrowse" : "cmfcmf 10/30/2020 14:53",
+		"equalsClassSelector:" : "cmfcmf 1/4/2021 13:31",
+		"equalsClassSelectorBlockIdx:" : "cmfcmf 1/4/2021 13:31",
+		"equalsClassSelectorBlockIdxInvocation:" : "cmfcmf 1/4/2021 13:31",
+		"getBlockIdx" : "cmfcmf 10/27/2020 16:48",
+		"getClass" : "cmfcmf 10/27/2020 16:48",
+		"getInvocationCount" : "cmfcmf 10/27/2020 16:48",
+		"getSelector" : "cmfcmf 10/27/2020 16:48",
+		"icon" : "cmfcmf 10/23/2020 16:27",
+		"label" : "cmfcmf 10/26/2020 12:00",
+		"latexLabel" : "cmfcmf 1/4/2021 13:56",
+		"menu:" : "cmfcmf 1/4/2021 20:50",
+		"methodReference" : "cmfcmf 10/30/2020 14:53",
+		"senderMethod" : "pre 2/22/2021 17:56",
+		"senderMethodReference" : "pre 2/22/2021 18:20",
+		"senderPC" : "pre 2/22/2021 17:56",
+		"textColor" : "cmfcmf 11/3/2020 12:53" } }

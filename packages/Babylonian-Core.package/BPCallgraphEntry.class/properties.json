@@ -1,0 +1,15 @@
+{
+	"category" : "Babylonian-Core-Callgraph",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"children",
+		"parent" ],
+	"name" : "BPCallgraphEntry",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

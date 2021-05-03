@@ -1,0 +1,26 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addRoot:" : "cmfcmf 10/27/2020 14:10",
+		"allInvocationsOf:" : "cmfcmf 11/3/2020 13:57",
+		"babylonianEntries" : "cmfcmf 10/28/2020 11:01",
+		"commonAncestorOf:ignoringInvocationCounts:" : "cmfcmf 1/4/2021 13:26",
+		"detect:" : "cmfcmf 11/2/2020 14:20",
+		"detect:after:" : "cmfcmf 10/27/2020 16:26",
+		"detect:after:ifFound:ifNone:" : "cmfcmf 10/27/2020 16:25",
+		"detect:before:" : "cmfcmf 1/4/2021 19:22",
+		"detect:before:ifFound:ifNone:" : "cmfcmf 10/27/2020 16:37",
+		"detect:ifFound:" : "cmfcmf 11/2/2020 14:20",
+		"detect:ifFound:ifNone:" : "cmfcmf 11/2/2020 14:19",
+		"do:" : "cmfcmf 10/27/2020 14:48",
+		"do:after:" : "cmfcmf 10/27/2020 17:07",
+		"do:before:" : "cmfcmf 10/27/2020 16:42",
+		"do:between:and:" : "cmfcmf 11/2/2020 20:20",
+		"do:entry:" : "cmfcmf 10/27/2020 14:48",
+		"forLatex" : "cmfcmf 1/2/2021 16:10",
+		"initialize" : "cmfcmf 10/27/2020 14:14",
+		"interactiveAncestorSearchFor:ignoringInvocationCounts:browseMethodBlock:" : "cmfcmf 11/10/2020 13:40",
+		"pathsBetween:andChildren:" : "cmfcmf 1/4/2021 13:27",
+		"roots" : "cmfcmf 10/27/2020 14:11",
+		"select:" : "cmfcmf 10/28/2020 10:47" } }

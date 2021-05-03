@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-Tests-Callgraph-ByteCode",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPByteCodeCallgraphTracerTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

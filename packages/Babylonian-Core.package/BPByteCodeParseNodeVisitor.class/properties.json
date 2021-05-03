@@ -1,0 +1,16 @@
+{
+	"category" : "Babylonian-Core-Callgraph-ByteCode",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "cmfcmf 10/20/2020 12:34",
+	"instvars" : [
+		"lastNonOptimizedBlock",
+		"targetNode",
+		"whenFoundBlock" ],
+	"name" : "BPByteCodeParseNodeVisitor",
+	"pools" : [
+		 ],
+	"super" : "ParseNodeVisitor",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-Tests-Fixtures",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPFancyMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "Babylonian-UI-ToolBuilder",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"getBackgroundColorSelector",
+		"backgroundColorList" ],
+	"name" : "BPPluggableMultiColumnListMorph",
+	"pools" : [
+		 ],
+	"super" : "PluggableMultiColumnListMorph",
+	"type" : "normal" }

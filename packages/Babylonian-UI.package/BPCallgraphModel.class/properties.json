@@ -1,0 +1,15 @@
+{
+	"category" : "Babylonian-UI-Callgraph",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ShowReturnNodes" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"callgraph",
+		"selectedEntry" ],
+	"name" : "BPCallgraphModel",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

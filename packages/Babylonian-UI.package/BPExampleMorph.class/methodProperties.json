@@ -4,6 +4,7 @@
 	"instance" : {
 		"activateExampleButtonClicked" : "pre 1/6/2021 19:23",
 		"addActivationButtonMorph" : "pre 9/30/2020 10:35",
+		"addCallgraphMorphs" : "pre 2/22/2021 11:50",
 		"addCollapseButtonMorph" : "pre 2/22/2021 12:05",
 		"addDeleteButtonMorph" : "pre 2/22/2021 12:06",
 		"addExampleConfigurationButtonMorph" : "pre 2/22/2021 12:06",
@@ -23,7 +24,8 @@
 		"isCollapsed" : "pre 1/12/2021 10:20",
 		"isExample" : "pre 9/30/2020 10:34",
 		"isExampleActive" : "pre 9/30/2020 10:34",
-		"removeButtonClicked" : "pre 1/21/2021 17:08",
-		"step" : "pre 1/7/2021 09:29",
+		"removeButtonClicked" : "pre 1/6/2021 19:41",
+		"step" : "pre 1/15/2021 13:43",
 		"textEmphasis" : "pre 9/30/2020 10:35",
-		"updateMorphs" : "pre 1/21/2021 16:22" } }
+		"updateMorphs" : "pre 2/22/2021 11:49",
+		"viewInSidebar" : "pre 1/20/2021 17:22" } }

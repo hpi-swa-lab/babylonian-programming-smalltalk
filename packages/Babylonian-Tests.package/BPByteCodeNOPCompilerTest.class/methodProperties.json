@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assertLiterals:" : "cmfcmf 10/10/2020 16:08",
+		"testBlockTemporaries" : "cmfcmf 10/15/2020 21:12",
+		"testBlockTemporaries2" : "cmfcmf 10/15/2020 21:45",
+		"testBlockTemporaries3" : "cmfcmf 10/15/2020 21:56",
+		"testBlockTemporaries4" : "cmfcmf 10/15/2020 22:03",
+		"testBlockWithExplicitReturn" : "cmfcmf 10/19/2020 13:15",
+		"testBlockWithImplicitReturn" : "cmfcmf 10/19/2020 13:15",
+		"testBlocks" : "cmfcmf 10/20/2020 12:05",
+		"testIfTrueIfFalse" : "cmfcmf 10/19/2020 13:14",
+		"testIfTrueIfFalseWithInnerReturns" : "cmfcmf 10/19/2020 13:15",
+		"testQuickReturnMethods" : "cmfcmf 10/9/2020 16:04",
+		"testSimpleExplicitlyReturningMethod" : "cmfcmf 10/19/2020 13:14",
+		"testSimpleImplicitlyReturningMethod" : "cmfcmf 10/19/2020 13:14" } }

@@ -1,0 +1,4 @@
+callgraph context menu actions
+callgraphEnableTracingForMessage
+	
+	BPByteCodeRewriter enableTracingForClass: self selectedClassOrMetaClass selector: self selectedMessageName

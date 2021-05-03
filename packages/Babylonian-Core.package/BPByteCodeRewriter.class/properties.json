@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-Core-Callgraph-ByteCode",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"InstrumentationMode" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPByteCodeRewriter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

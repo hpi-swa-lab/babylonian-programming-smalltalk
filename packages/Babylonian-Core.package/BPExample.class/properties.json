@@ -3,8 +3,8 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
-	"commentStamp" : "",
+		"AlwaysGenerateCallgraph" ],
+	"commentStamp" : "pre 8/20/2020 10:29",
 	"instvars" : [
 		"isActive",
 		"exampleName",

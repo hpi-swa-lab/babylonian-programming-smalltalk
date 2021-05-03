@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"class:selector:blockIdx:" : "cmfcmf 11/3/2020 12:44" },
+	"instance" : {
+		"=" : "cmfcmf 11/3/2020 12:42",
+		"class:selector:blockIdx:" : "cmfcmf 11/3/2020 12:36",
+		"doBrowse" : "cmfcmf 11/3/2020 12:55",
+		"equalsCallgraphEntry:" : "cmfcmf 11/10/2020 10:13",
+		"equalsClassSelectorBlockIdx:" : "cmfcmf 11/3/2020 12:46",
+		"getBlockIdx" : "cmfcmf 11/3/2020 12:36",
+		"getClass" : "cmfcmf 11/3/2020 12:36",
+		"getSelector" : "cmfcmf 11/3/2020 12:43",
+		"hash" : "cmfcmf 11/3/2020 12:42",
+		"methodReference" : "cmfcmf 11/3/2020 12:55",
+		"printOn:" : "cmfcmf 11/3/2020 12:48",
+		"textColor" : "cmfcmf 11/3/2020 12:53" } }

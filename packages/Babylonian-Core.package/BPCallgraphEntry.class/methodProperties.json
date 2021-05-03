@@ -1,0 +1,27 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addChild:" : "cmfcmf 10/27/2020 14:01",
+		"asPathPart" : "cmfcmf 1/4/2021 14:38",
+		"children" : "cmfcmf 11/10/2020 12:16",
+		"doBrowse" : "cmfcmf 10/23/2020 15:42",
+		"hasChildren" : "cmfcmf 10/22/2020 14:15",
+		"icon" : "cmfcmf 10/23/2020 17:05",
+		"initialize" : "cmfcmf 10/22/2020 14:10",
+		"keyPressed:" : "cmfcmf 10/23/2020 15:51",
+		"label" : "cmfcmf 10/22/2020 13:43",
+		"latexAttributes" : "cmfcmf 1/2/2021 15:46",
+		"latexLabel" : "cmfcmf 1/2/2021 15:51",
+		"menu:" : "cmfcmf 11/9/2020 16:44",
+		"parent" : "cmfcmf 10/27/2020 14:10",
+		"parent:" : "cmfcmf 10/27/2020 14:01",
+		"path" : "cmfcmf 10/27/2020 16:31",
+		"pathWithResolvedOutOfStackJumps:" : "cmfcmf 1/8/2021 16:30",
+		"pathWithoutContextMovingRight" : "cmfcmf 1/8/2021 16:30",
+		"printForLatexOn:" : "cmfcmf 1/4/2021 14:01",
+		"printOn:" : "cmfcmf 11/2/2020 17:33",
+		"root" : "cmfcmf 10/27/2020 16:20",
+		"selfOrParentMethodBlockOfBPProbeOrAssertion" : "cmfcmf 11/10/2020 12:17",
+		"textColor" : "cmfcmf 10/23/2020 16:14",
+		"visualizationLabel" : "cmfcmf 11/5/2020 13:17" } }

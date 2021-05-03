@@ -1,0 +1,12 @@
+example selection
+setExampleListIndex: aNumber
+	
+	aNumber == exampleListIndex ifTrue: [^ self].
+	exampleListIndex := aNumber.
+	self changed: #getExampleListIndex.
+	self changed: #visualizationMorphs.
+	self changed: #bottomBarText.
+	
+	self getVisualizationTypeIndex > 0 
+		ifTrue: [self setVisualizationTypeIndex: self getVisualizationTypeIndex]
+		ifFalse: [self setVisualizationTypeIndex: 1].

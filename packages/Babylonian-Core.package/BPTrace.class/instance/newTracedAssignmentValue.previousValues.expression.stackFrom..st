@@ -6,3 +6,4 @@ newTracedAssignmentValue: aValue previousValues: variableAndValuesTuples express
 			identityHash: aValue identityHash
 			previousValues: variableAndValuesTuples
 			stack: (self stackFrom: aContext)
+			methodReference: aContext method asCodeReference

@@ -1,4 +1,4 @@
 initialize-release
 defaultBrowserTitle
-
-	^ 'Babylonian Browser'
+	
+	^ 'Basic Babylonian Browser'

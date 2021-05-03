@@ -4,7 +4,7 @@ check: assertionBlock after: codeBlock forAssertion: anAssertionId given: anExam
 	| result |
 	self checkForHaltAt: anAssertionId.
 	
-	result := #bpInstrumented withLayerDo: [codeBlock value].
+	result := #bpInstrumented withLayerDo: [(self wrapUserCode: codeBlock) value].
 	(self exampleNameMatches: anExampleName) ifTrue: [
 		trace
 			trace: ((assertionBlock cull: result) = true)

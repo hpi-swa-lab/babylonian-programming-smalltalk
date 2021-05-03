@@ -1,0 +1,5 @@
+accessing
+textColor
+	
+
+	^ BPCallgraphEntryContextExecutionContinuation textColor 

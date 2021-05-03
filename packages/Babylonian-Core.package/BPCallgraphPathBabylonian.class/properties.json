@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-Core-Callgraph",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPCallgraphPathBabylonian",
+	"pools" : [
+		 ],
+	"super" : "BPCallgraphPathCustomEvent",
+	"type" : "normal" }

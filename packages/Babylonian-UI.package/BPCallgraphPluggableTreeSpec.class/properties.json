@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-UI-ToolBuilder",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPCallgraphPluggableTreeSpec",
+	"pools" : [
+		 ],
+	"super" : "PluggableTreeSpec",
+	"type" : "normal" }

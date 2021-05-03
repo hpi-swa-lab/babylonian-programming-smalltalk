@@ -1,0 +1,15 @@
+{
+	"category" : "Babylonian-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sidebar",
+		"selectedPC" ],
+	"name" : "BPCallgraphBrowser",
+	"pools" : [
+		 ],
+	"super" : "BPBrowser",
+	"type" : "normal" }

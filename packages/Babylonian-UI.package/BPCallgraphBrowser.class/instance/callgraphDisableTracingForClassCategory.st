@@ -1,0 +1,4 @@
+callgraph context menu actions
+callgraphDisableTracingForClassCategory
+	
+	BPByteCodeRewriter disableTracingForClassCategory: self selectedSystemCategory 

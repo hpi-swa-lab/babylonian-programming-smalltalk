@@ -1,10 +1,15 @@
 {
 	"class" : {
-		"value:identityHash:stack:" : "pre 10/12/2020 17:57" },
+		"value:identityHash:stack:methodReference:" : "cmfcmf 10/30/2020 12:30" },
 	"instance" : {
-		"printOn:" : "jb 12/7/2020 18:55",
+		"initialize" : "cmfcmf 9/17/2020 14:45",
+		"methodReference" : "cmfcmf 10/28/2020 12:05",
+		"methodReference:" : "cmfcmf 10/28/2020 12:04",
+		"printOn:" : "cmfcmf 9/17/2020 13:24",
 		"stack" : "pre 5/8/2019 18:36",
-		"stack:" : "jb 12/7/2020 18:55",
+		"stack:" : "pre 5/8/2019 18:36",
+		"time" : "cmfcmf 9/17/2020 13:09",
+		"time:" : "cmfcmf 9/17/2020 13:08",
 		"traceHasFailedBefore" : "pre 7/10/2020 15:52",
 		"tracedValue" : "pre 5/8/2019 16:42",
 		"tracedValue:" : "jb 12/7/2020 18:55",

@@ -1,0 +1,4 @@
+visualization type
+getVisualizationTypeIndex
+
+	^ visualizationTypeIndex

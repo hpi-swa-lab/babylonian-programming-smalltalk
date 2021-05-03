@@ -1,0 +1,16 @@
+{
+	"category" : "Babylonian-Core-Callgraph",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"id",
+		"methodReference",
+		"enclosedSourceCode" ],
+	"name" : "BPCallgraphPathBabylonianTraceBased",
+	"pools" : [
+		 ],
+	"super" : "BPCallgraphPathBabylonian",
+	"type" : "normal" }

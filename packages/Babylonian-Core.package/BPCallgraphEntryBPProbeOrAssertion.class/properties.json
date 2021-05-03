@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-Core-Callgraph",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"enclosedSourceCode" ],
+	"name" : "BPCallgraphEntryBPProbeOrAssertion",
+	"pools" : [
+		 ],
+	"super" : "BPCallgraphEntryBabylonian",
+	"type" : "normal" }

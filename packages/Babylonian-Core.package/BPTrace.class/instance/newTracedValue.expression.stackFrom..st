@@ -5,3 +5,4 @@ newTracedValue: aValue expression: expressionSource stackFrom: aContext
 			value: aValue bpSnapshot
 			identityHash: aValue identityHash
 			stack: (self stackFrom: aContext)
+			methodReference: aContext method asCodeReference

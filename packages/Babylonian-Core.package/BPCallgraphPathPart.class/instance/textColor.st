@@ -1,0 +1,4 @@
+accessing
+textColor
+	
+	self subclassResponsibility 

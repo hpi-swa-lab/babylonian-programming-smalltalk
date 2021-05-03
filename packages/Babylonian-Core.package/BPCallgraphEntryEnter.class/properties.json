@@ -1,0 +1,19 @@
+{
+	"category" : "Babylonian-Core-Callgraph",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"class",
+		"selector",
+		"blockIndex",
+		"invocationCount",
+		"senderPC",
+		"senderMethod" ],
+	"name" : "BPCallgraphEntryEnter",
+	"pools" : [
+		 ],
+	"super" : "BPCallgraphEntry",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-Core-Callgraph-ByteCode",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "cmfcmf 10/20/2020 12:33",
+	"instvars" : [
+		 ],
+	"name" : "BPByteCodeAssociation",
+	"pools" : [
+		 ],
+	"super" : "Association",
+	"type" : "normal" }

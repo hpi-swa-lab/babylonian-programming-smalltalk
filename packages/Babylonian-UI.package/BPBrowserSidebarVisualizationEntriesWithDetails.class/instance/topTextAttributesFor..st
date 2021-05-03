@@ -1,0 +1,4 @@
+list top
+topTextAttributesFor: entry
+	
+	^ {}
