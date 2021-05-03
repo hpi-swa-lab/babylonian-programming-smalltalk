@@ -1,6 +1,8 @@
 executing
 execute
 	
-	self runSetUp.
-	[^ self run] ensure: [
-		self runTearDown]
+	| state |
+	state := self prepareRunState.
+	self runSetUpWith: state.
+	[^ self runOn: state] ensure: [
+		self runTearDownWith: state]
