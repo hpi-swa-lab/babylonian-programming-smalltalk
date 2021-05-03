@@ -28,7 +28,9 @@ ToolSet default: (Smalltalk at: #BPToolSet).
 Preferences disable: #showSharedFlaps.
 PluggableSystemWindow allInstances do: #abandon.
 PreferenceWizardMorph allInstances do: #abandon.
+
 SystemBrowser default: (Smalltalk at: #BPBrowser).
+TextMorphForEditView draggableTextSelection: false.
 
 
 "
