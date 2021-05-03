@@ -12,7 +12,7 @@ compile: aCueWithBPSource ifFail: failBlock
 		environment: aCueWithBPSource environment 
 		requestor: aCueWithBPSource requestor.
 	originalMethodNode := super compile: basicCue ifFail: failBlock.
-	self haltOnce.
+	
 	bpSource := originalMethodNode sourceText asString.
 	(self methodSourceRequiresBPLayers: bpSource) ifTrue: [
 		(self compileInstrumentedVersionOf: aCueWithBPSource) ifFalse: failBlock].
