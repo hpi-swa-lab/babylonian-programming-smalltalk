@@ -3,6 +3,7 @@ valuesMorphFor: trace
 	
 	| values valuesContainer |
 	values := trace valuesForProbeId: self id.
+	values ifEmpty: [^ self noValuesText asMorph].
 	values first traceHasFailedBefore ifTrue: [^ ('Error during execution: ' , trace recordedException printString) asMorph].
 	
 	values := self filterValues: values throughSliderForTrace: trace.

@@ -1,6 +1,6 @@
 private
 getTraces
-
-	^ BPActiveExamples value tracesOfActiveExamples
+	
+	^ BPActiveExamples value paddedTracesOfActiveExamples
 		reject: [:aTrace | aTrace isNil]
 		
