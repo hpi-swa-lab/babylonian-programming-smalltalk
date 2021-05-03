@@ -4,6 +4,7 @@ addExampleSpecificMorphs
 	exampleSpecificMorphs := self newContainerMorph.
 	exampleSpecificMorphs
 		hResizing: #spaceFill;
-		listDirection: #leftToRight;
-		wrapDirection: #topToBottom. 
+		listDirection: #topToBottom;
+		cellPositioning: #topLeft;
+		cellGap: ((self fontHeight * 0.2) rounded max: 2). 
 	self addMorphBack: exampleSpecificMorphs.

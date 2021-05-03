@@ -1,8 +1,10 @@
 private - ui
 addScriptMorph
 	
-	| editField |
-	exampleSpecificMorphs addMorphBack: 'script: ' asMorph.
+	| editField container |
+	container := self newContainerMorph.
+	container cellPositioning: #topLeft.
+	container addMorphBack: 'script: ' asMorph.
 	
 	editField := (self
 			editFieldInitialContent: self example script
@@ -12,4 +14,5 @@ addScriptMorph
 			onAccept: [:str |
 				self containingBrowser codeTextMorph accept]).
 	editField balloonText: 'write a script that will be executed to trigger this method'.
-	exampleSpecificMorphs addMorphBack: editField.
+	container addMorphBack: editField.
+	exampleSpecificMorphs addMorphBack: container.

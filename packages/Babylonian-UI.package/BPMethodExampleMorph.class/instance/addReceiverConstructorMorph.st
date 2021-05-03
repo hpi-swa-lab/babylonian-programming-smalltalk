@@ -3,6 +3,7 @@ addReceiverConstructorMorph
 	
 	| container editField labelMorph |
 	container := self newContainerMorph.
+	container cellPositioning: #topLeft.
 	labelMorph := 'self: ' asMorph 
 			color: Color lightGray;
 			borderWidth: 0;

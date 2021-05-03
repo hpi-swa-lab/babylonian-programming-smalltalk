@@ -4,6 +4,7 @@ addArgumentScriptMorphs
 	| editField labelMorph container |
 	self example argumentNames withIndexDo: [:argumentName :index |
 		container := self newContainerMorph.
+		container cellPositioning: #topLeft.
 		labelMorph := ((argumentName , ': ') asMorph 
 			color: Color lightGray; 
 			borderWidth: 0;
