@@ -1,14 +1,14 @@
 {
 	"class" : {
 		"bpExamplePragmaPrefix" : "pre 1/21/2021 15:45",
-		"pragmaSelectors" : "pre 2/1/2021 10:47" },
+		"pragmaSelectors" : "pre 5/3/2021 17:04" },
 	"instance" : {
 		"=" : "pre 1/12/2021 15:22",
 		"argumentNames" : "pre 8/25/2020 09:41",
 		"argumentScriptStringAt:" : "pre 7/10/2020 18:23",
 		"argumentScripts" : "pre 7/23/2019 12:20",
 		"argumentScripts:" : "pre 7/23/2019 09:23",
-		"asPragma" : "pre 1/21/2021 16:19",
+		"asPragma" : "pre 5/3/2021 17:03",
 		"canBeUsedForDoIts" : "jb 12/3/2020 22:38",
 		"initialize" : "pre 9/30/2020 09:55",
 		"initializeFromMethod:" : "jb 12/3/2020 23:18",

@@ -1,0 +1,1 @@
+This is a globally accessible collection of all examples.

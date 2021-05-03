@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"default" : "pre 5/3/2021 16:35",
+		"initialize" : "pre 5/3/2021 16:35",
+		"removeAll" : "jb 12/7/2020 18:56",
+		"shutDown:" : "jb 12/7/2020 18:56" },
+	"instance" : {
+		"activeExamples" : "pre 5/3/2021 16:55",
+		"add:" : "pre 5/3/2021 17:12",
+		"exampleIdentifiers" : "pre 5/3/2021 16:41",
+		"examples" : "pre 5/3/2021 16:43",
+		"initialize" : "pre 5/3/2021 16:42",
+		"paddedTracesOfActiveExamples" : "pre 5/3/2021 16:55",
+		"remove:" : "pre 5/3/2021 17:12",
+		"removeAll:" : "jb 12/7/2020 18:52",
+		"removeTraces" : "jb 12/7/2020 18:52",
+		"runActiveExamples" : "pre 5/3/2021 16:55",
+		"systemChangeEvent:" : "pre 5/3/2021 17:12",
+		"tracesOfActiveExamples" : "pre 5/3/2021 16:55",
+		"update:" : "pre 5/3/2021 17:13",
+		"updateExamplesOnEvent:" : "pre 5/3/2021 17:14" } }

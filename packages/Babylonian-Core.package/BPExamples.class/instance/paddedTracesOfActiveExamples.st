@@ -1,5 +1,5 @@
 tracing
 paddedTracesOfActiveExamples
 	
-	^ self examples collect: [:anExample | 
+	^ self activeExamples collect: [:anExample | 
 		anExample currentTrace ifNil: [BPTrace new example: anExample; yourself]]

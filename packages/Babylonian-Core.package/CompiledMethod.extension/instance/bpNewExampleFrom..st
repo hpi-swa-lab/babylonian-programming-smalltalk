@@ -8,6 +8,7 @@ bpNewExampleFrom: anExampleClass
 		exampleName: newExampleName;
 		yourself.
 
+	BPExamples value add: newExample.
 	self bpExamples add: newExample.
 	self bpExamples changed: #bpExamples.
 	
