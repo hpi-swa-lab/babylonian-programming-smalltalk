@@ -1,4 +1,4 @@
 executing
-run
+runOn: initialState
 	
 	^ self subclassResponsibility

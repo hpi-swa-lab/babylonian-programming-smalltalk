@@ -1,6 +1,6 @@
 initialization
 initialize
-	<exampleNamed: 'one example' active: true self: '#new'>
+	<scriptExampleNamed: 'foo' active: true script:'BPEuropeanFlag new'>
 	| newStar |
 	super initialize. 
 	

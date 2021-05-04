@@ -1,9 +1,9 @@
 private
 resetForm
-	<exampleNamed: 'basic' active: true self: 'BPTreeSceneMorph new
+	<exampleNamed: 'basic' self: 'BPTreeSceneMorph new
 	extent: 500@300;
 	yourself'>
-	<exampleNamed: 'custom scene' active: true self: 'BPTreeSceneMorph new
+	<exampleNamed: 'custom scene' self: 'BPTreeSceneMorph new
 	extent: 800@600;
 	tree: (BPTree new
 		blossomColor: Color lightMagenta;

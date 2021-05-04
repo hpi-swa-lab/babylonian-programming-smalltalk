@@ -2,8 +2,8 @@ private - ui
 addExampleConfigurationButtonMorph
 	
 	configurationButton := IconicButton new.
-	configurationButton 
-		labelGraphic: (BPIcons wrenchIcon scaledToSize: self iconSize * 0.7) asGrayScale;
+	configurationButton
+		labelGraphic: (BPIcons streamlineWrenchIcon scaledToSize: self iconSize * 0.8) ;
 		balloonText: 'configure the examples pre- and postscript';
 		color: Color transparent;
 		borderWidth: 0;

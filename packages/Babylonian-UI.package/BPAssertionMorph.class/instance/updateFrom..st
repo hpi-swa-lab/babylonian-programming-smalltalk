@@ -12,7 +12,7 @@ updateFrom: traces
 		
 		valuesMorph := self newExampleLineMorph.
 		(trace resultsForAssertionId: self annotation id) 
-			ifEmpty: [lineMorph addMorphBack: ToolIcons testGray asMorph]
+			ifEmpty: [valuesMorph addMorphBack: ToolIcons testGray asMorph]
 			ifNotEmpty: [:results | |values|
 				values := self filterValues: results throughSliderForTrace: trace.
 				values do: [:result | | iconMorph |

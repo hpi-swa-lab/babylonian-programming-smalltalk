@@ -1,5 +1,5 @@
 tracing
-run
+runOn: aState
 	
 	| block |
 	self script ifNotNil: [
