@@ -6,6 +6,7 @@
 		"fromPragma:" : "pre 1/21/2021 15:45",
 		"newFor:" : "pre 9/30/2020 11:08" },
 	"instance" : {
+		"=" : "pre 5/4/2021 15:46",
 		"asPragma" : "pre 1/21/2021 16:14",
 		"canBeUsedForDoIts" : "pre 10/6/2020 09:17",
 		"color" : "pre 3/2/2021 17:32",
@@ -14,7 +15,7 @@
 		"exampleName" : "pre 9/30/2020 09:50",
 		"exampleName:" : "jb 12/7/2020 18:10",
 		"execute" : "pre 5/3/2021 12:15",
-		"hash" : "pre 9/30/2020 09:54",
+		"hash" : "pre 5/4/2021 15:46",
 		"initialize" : "pre 1/7/2021 09:33",
 		"initializeFromMethod:" : "jb 12/3/2020 22:37",
 		"initializeFromPragma:" : "pre 5/3/2021 17:06",

@@ -1,6 +1,6 @@
 comparing
 hash
-
-	^ self method methodReference hash + self exampleName hash
+	
+	^ self method reference hash + self exampleName hash
 	
 	

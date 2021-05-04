@@ -5,10 +5,12 @@ bpExamples
 	The collection is observed, do not create a new one!
 	This collection is also only available from base methods, and not for layered or
 	partial methods.
-	New examples can be created via: bpNewExampleFrom:"
+	New examples can be created via: bpNewExampleFrom:.
+	Removing examples only works via BPExamples>>#remove:. The collection of CompiledMethods
+	will be rebuild on every recompile based on the examples stored in BPExamples."
 	| pragmaPrefixes |
 	pragmaPrefixes := BPExample bpExamplePragmaPrefixes.
-	^ self properties at: #bpExamples ifAbsentPut: [ | newExamples existingIdentifiers |
+	^ self properties at: #bpExamples ifAbsentPut: [ | newExamples existingExamples |
 		newExamples := self pragmas 
 				select: [:p | pragmaPrefixes anySatisfy: [:prefix | 
 								p keyword beginsWith: prefix]]
@@ -18,17 +20,14 @@ bpExamples
 						yourself].
 	  	
 		"Merge with existing examples"
-		existingIdentifiers := BPExamples value exampleIdentifiers.
-		newExamples 
-			collect: [:newExample | 
-				(existingIdentifiers includes: newExample uniqueIdentifier)
-					ifTrue: [ | uniqueExample |
-						uniqueExample := BPExamples value examples detect: [:e | 
-							e uniqueIdentifier = newExample uniqueIdentifier].
+		existingExamples := BPExamples value examplesForMethod: self.
+		(existingExamples , (newExamples collect: [:newExample | 
+				existingExamples 
+					detect: [:existingExample | existingExample uniqueIdentifier = newExample uniqueIdentifier]
+					ifFound: [:uniqueExample |
 						uniqueExample method: self.
 						uniqueExample]
-					ifFalse: [
+					ifNone: [
 						"This example is new, we should have it in the BPExamples collection"
 						BPExamples value add: newExample.
-						newExample]]
-			into: OrderedCollection new]
+						newExample]])) asSet asOrderedCollection]

@@ -1,4 +1,4 @@
 accessing
 examples
 	
-	^ mutex critical: [examples] 
+	^ mutex critical: [examples shallowCopy] 

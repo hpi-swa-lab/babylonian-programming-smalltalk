@@ -9,7 +9,10 @@ bpNewExampleFrom: anExampleClass
 		yourself.
 
 	BPExamples value add: newExample.
-	self bpExamples add: newExample.
-	self bpExamples changed: #bpExamples.
+	(self bpExamples includes: newExample) ifFalse: [
+		"The intermediate calculation of bpExamples might
+		have already added the example to the collection."
+		self bpExamples add: newExample.
+		self bpExamples changed: #bpExamples.].
 	
 	^ newExample
