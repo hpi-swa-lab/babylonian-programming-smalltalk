@@ -2,4 +2,4 @@ support
 supportedClass
 	
 	
-	^ Number class
+	^ Number

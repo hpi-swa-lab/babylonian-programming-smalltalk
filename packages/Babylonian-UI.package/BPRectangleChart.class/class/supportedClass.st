@@ -2,4 +2,4 @@ support
 supportedClass
 	
 	
-	^ Point class
+	^ Point
