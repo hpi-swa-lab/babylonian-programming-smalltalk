@@ -1,4 +1,4 @@
-# Babylonian Programming / Smalltalk [![Build Status][ci_badge]][travis_ci]
+# Babylonian Programming / Smalltalk [![Build Status Main](https://github.com/hpi-swa-lab/babylonian-programming-smalltalk/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/hpi-swa-lab/babylonian-programming-smalltalk/actions/workflows/main.yml) [![Build Status Develop](https://github.com/hpi-swa-lab/babylonian-programming-smalltalk/actions/workflows/main.yml/badge.svg?branch=develop)](https://github.com/hpi-swa-lab/babylonian-programming-smalltalk/actions/workflows/main.yml)
 
 A Smalltalk implementation of the Babylonian Programming System.
 
@@ -53,8 +53,6 @@ States, November 17-18, 2020, ACM DL.
 [![doi][onward20_doi]][onward20_paper] [![Preprint][preprint]][onward20_pdf]
 
 
-[ci_badge]: https://travis-ci.com/hpi-swa-lab/babylonian-programming-smalltalk.svg?token=bqyHR3eLHhu2pssQTD6R&branch=develop
-[travis_ci]: https://travis-ci.com/hpi-swa-lab/babylonian-programming-smalltalk
 [preprint]: https://img.shields.io/badge/preprint-download-blue.svg
 [babylonian_js]: https://lively-kernel.org/lively4/lively4-core/start.html?load=https://lively-kernel.org/lively4/lively4-core/src/babylonian-programming-editor/demos/index.md
 [babylonian_vsc]: https://github.com/hpi-swa/polyglot-live-programming
