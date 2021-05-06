@@ -3,7 +3,7 @@ insertExamplesMorphFrom: parseResult into: text basedOn: annotations
 	
 	| bpExamples endOfHeaderIndex lineAfterHeader newText bpExamplesMorph |
 	bpExamples := BPExamplesAnnotation new
-		examples: selectedMethod compiledMethod bpExamples;
+		methodReference: selectedMethod;
 		yourself. 
 	endOfHeaderIndex := self extractEndOfMethodHeader value: parseResult.
 	bpExamplesMorph := bpExamples asMorph.

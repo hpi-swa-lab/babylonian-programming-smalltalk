@@ -13,8 +13,8 @@ testRenderingExample
 		setUpScript: #basicSetUp;
 		tearDownScript: '"do nothing"';
 		yourself.
+	BPExamples value add: example.
 	examplesAnnotation := BPExamplesAnnotation new
-		examples: {example};
 		methodReference: methodReference;
 		yourself.
 	examplesMorph := examplesAnnotation asMorph.

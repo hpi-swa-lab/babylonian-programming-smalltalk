@@ -1,1 +1,1 @@
-This is a globally accessible collection of all examples.
+This is a globally accessible collection of all examples. You can observe this collection it will notify you on any new or removed example.
