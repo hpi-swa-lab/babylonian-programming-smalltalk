@@ -16,7 +16,7 @@
 		"testMockReceiverVariableUsedByGetterAndMocked" : "ek 5/4/2021 11:36",
 		"testMockReceiverVariableUsedOnlyByUsingGetterAndMocked" : "ek 5/4/2021 11:36",
 		"testMockReceiverWithDefaultObjectInVariable" : "ek 5/3/2021 22:51",
-		"testMockReceiverWithDefaultObjectInVariableWhosVariablesAreAlsoUsed" : "ek 5/3/2021 22:52",
+		"testMockReceiverWithDefaultObjectInVariableWhosVariablesAreAlsoUsed" : "ek 5/18/2021 14:43",
 		"testRecordingIsEmpty" : "ek 5/3/2021 15:46",
 		"testRecordingIsNotEmptyMultipleRecordings" : "ek 5/3/2021 15:18",
 		"testRecordingIsNotEmptySingleRecording" : "ek 5/3/2021 15:46",

@@ -23,3 +23,5 @@ testMockReceiverWithDefaultObjectInVariableWhosVariablesAreAlsoUsed
 	self assert: mockReceiver myObject myCollection equals: nil.
 	self assert: mockReceiver myObject myBoolean equals: nil.
 	self assert: mockReceiver myObject myObject equals: nil.
+	
+	"Transcript show: self getMockTreesForFirstRecording first serialize."

@@ -9,6 +9,7 @@
 		"recordings",
 		"selectedRecordingIndex",
 		"methodReference",
+		"script",
 		"recorder",
 		"isRecording",
 		"requestor" ],
