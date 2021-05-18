@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 openFor: aMethod with: aRequestor
 	
 	| tool |

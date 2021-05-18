@@ -1,4 +1,4 @@
-as yet unclassified
+special ui updating
 informRequestor
 	
 	self requestor isNil ifTrue: [^ self].

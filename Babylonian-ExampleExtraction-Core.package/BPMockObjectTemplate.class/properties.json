@@ -1,0 +1,16 @@
+{
+	"category" : "Babylonian-ExampleExtraction-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"receiver",
+		"instVarNumbersAndValues",
+		"blackList" ],
+	"name" : "BPMockObjectTemplate",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

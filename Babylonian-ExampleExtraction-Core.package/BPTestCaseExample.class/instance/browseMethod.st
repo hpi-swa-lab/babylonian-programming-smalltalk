@@ -1,4 +1,4 @@
-as yet unclassified
+test exploration
 browseMethod
 	
 	(self testCaseClass >> self methodSelector) browse.

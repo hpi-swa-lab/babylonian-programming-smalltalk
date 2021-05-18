@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"for:" : "ek 4/8/2021 23:01" },
+	"instance" : {
+		"addLeaf:forInstVarNumber:" : "ek 4/8/2021 23:54",
+		"addMock:forInstVarNumber:notify:" : "ek 5/11/2021 18:04",
+		"basicReceiver:" : "ek 4/21/2021 16:55",
+		"blacklistInstVarNumber:" : "ek 4/8/2021 22:50",
+		"correctObjectReferences:for:" : "ek 4/28/2021 10:12",
+		"createMinimalObject" : "ek 5/12/2021 15:05",
+		"initialize" : "ek 4/8/2021 23:27",
+		"newMockObject" : "ek 4/8/2021 23:59",
+		"objectIsLeaf:" : "ek 4/21/2021 16:34",
+		"receiver:" : "ek 4/21/2021 16:55",
+		"reset" : "ek 4/27/2021 22:31",
+		"tryToAddInstVarNumber:notify:" : "ek 5/4/2021 11:02" } }
