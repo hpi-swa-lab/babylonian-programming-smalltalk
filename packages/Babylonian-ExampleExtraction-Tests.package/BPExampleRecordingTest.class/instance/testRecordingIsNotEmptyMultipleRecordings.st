@@ -1,0 +1,20 @@
+tests-recording
+testRecordingIsNotEmptyMultipleRecordings
+	
+	| usedInstancesAndEmptyParams |
+	
+	usedInstancesAndEmptyParams := {BPClassWithMethods new -> {}. BPClassWithMethods new -> {}} asDictionary.
+	
+	self assert: exampleExtractionTool recordings isEmpty.
+	
+	self
+		recordMethod: #doSomething
+		inClass: BPClassWithMethods
+		forInstancesAndParameters: usedInstancesAndEmptyParams.
+	
+	self assert: self recordings isEmpty not.
+	self assert: self recordings size equals: 2.
+	self assert: self recordings first first class equals: usedInstancesAndEmptyParams keys first class. "TODO better"
+	self assert: self recordings second first class equals: usedInstancesAndEmptyParams keys second class. "TODO better"
+	self assert: self recordings first second isEmpty.
+	self assert: self recordings second second isEmpty.

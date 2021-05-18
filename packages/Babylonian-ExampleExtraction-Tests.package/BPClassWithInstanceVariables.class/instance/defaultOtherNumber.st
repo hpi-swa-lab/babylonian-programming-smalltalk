@@ -1,0 +1,4 @@
+defaults
+defaultOtherNumber
+	
+	^ 5

@@ -1,0 +1,25 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"getMockTreesForFirstRecording" : "ek 5/3/2021 20:33",
+		"getMockedObjectsForFirstRecording" : "ek 5/3/2021 14:56",
+		"recordMethod:inClass:forInstancesAndParameters:" : "ek 5/3/2021 15:05",
+		"recordMethod:inClass:with:" : "ek 5/3/2021 20:32",
+		"recordings" : "ek 5/3/2021 15:10",
+		"scamperGoTo401" : "ek 5/5/2021 10:26",
+		"setUp" : "ek 4/21/2021 16:27",
+		"testMockReceiverVariableAndNumberParameterIsUsedAndMocked" : "ek 5/4/2021 11:41",
+		"testMockReceiverVariableAndParameterWithNumberInstVarIsUsedAndMocked" : "ek 5/4/2021 11:54",
+		"testMockReceiverVariableIsUsedAndMocked" : "ek 5/3/2021 17:10",
+		"testMockReceiverVariableNotMockedIfSetBeforeUse" : "ek 5/3/2021 17:10",
+		"testMockReceiverVariableUsedByGetterAndMocked" : "ek 5/4/2021 11:36",
+		"testMockReceiverVariableUsedOnlyByUsingGetterAndMocked" : "ek 5/4/2021 11:36",
+		"testMockReceiverWithDefaultObjectInVariable" : "ek 5/3/2021 22:51",
+		"testMockReceiverWithDefaultObjectInVariableWhosVariablesAreAlsoUsed" : "ek 5/3/2021 22:52",
+		"testRecordingIsEmpty" : "ek 5/3/2021 15:46",
+		"testRecordingIsNotEmptyMultipleRecordings" : "ek 5/3/2021 15:18",
+		"testRecordingIsNotEmptySingleRecording" : "ek 5/3/2021 15:46",
+		"testRecordingIsNotEmptyWithParameter" : "ek 5/3/2021 16:10",
+		"testRecordingScamper" : "ek 5/5/2021 10:28",
+		"testRecordingWebClient" : "ek 5/11/2021 11:21" } }

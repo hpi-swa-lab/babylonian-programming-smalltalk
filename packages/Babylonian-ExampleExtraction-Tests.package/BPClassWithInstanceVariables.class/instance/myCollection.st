@@ -1,0 +1,4 @@
+accessing
+myCollection
+	
+	^ myCollection

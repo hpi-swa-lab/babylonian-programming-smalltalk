@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-ExampleExtraction-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPScamper",
+	"pools" : [
+		 ],
+	"super" : "Scamper",
+	"type" : "normal" }
