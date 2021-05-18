@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"authDispatch:from:header:params:" : "ek 2/18/2021 21:43",
-		"authenticate:from:" : "ek 2/18/2021 21:46",
-		"flushAuthState:" : "ek 2/18/2021 21:44",
-		"initialize" : "ek 2/18/2021 21:42",
-		"isConnected" : "ek 2/18/2021 21:41" } }
