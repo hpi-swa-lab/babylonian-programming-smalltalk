@@ -9,4 +9,5 @@ initialize
 	
 	self
 		recordings: OrderedCollection new;
-		selectedRecordingIndex: 1.
+		selectedRecordingIndex: 1;
+		mockingPreference: false.
