@@ -1,7 +1,7 @@
 searching
 findClassesForCategories: aCollection
 	
-"blatantly stolen from the TestRunner"
+	"see TestRunner"
 
 	| environment items |
 	aCollection isEmpty 

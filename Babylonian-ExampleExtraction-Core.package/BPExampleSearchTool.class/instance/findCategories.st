@@ -1,7 +1,7 @@
 searching
 findCategories
 	
-"blatantly stolen from the TestRunner"
+	"see TestRunner"
 
 	| visible |
 	visible := Set new.

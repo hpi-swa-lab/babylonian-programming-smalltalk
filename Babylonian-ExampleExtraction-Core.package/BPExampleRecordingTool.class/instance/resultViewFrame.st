@@ -1,4 +1,4 @@
-toolbuilder
+toolbuilder-frames
 resultViewFrame
 	
 	^ LayoutFrame new

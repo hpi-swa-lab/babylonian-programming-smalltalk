@@ -9,9 +9,10 @@ findTestsFor: aMethod
 	
 	self classNamePreference
 		ifTrue: [classes := classes reject: [:class | (class name asString includesSubstring: aMethod methodClass name asString) not]].
-	
+
 	classes do: [:class |
 		class methodDict keysAndValuesDo: [:methodSelector :compiledMethod |
-			(compiledMethod methodNode sourceText asString includesSubstring: ' ', aMethod selector asString, ' ')
+			(compiledMethod literals includes: aMethod selector)
 				ifTrue: [foundTests add: class name asString -> methodSelector]]].
+	
 	^ foundTests

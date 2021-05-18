@@ -1,4 +1,4 @@
-toolbuilder
+toolbuilder-frames
 scriptButtonsFrame
 	
 	^ LayoutFrame new
