@@ -2,4 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"blacklistInstVarNumber:" : "ek 5/18/2021 22:44",
+		"correctObjectReferences:for:" : "ek 5/18/2021 22:45",
+		"createMinimalObject" : "ek 5/18/2021 22:44",
+		"receiver:" : "ek 5/18/2021 22:57",
+		"reset" : "ek 5/18/2021 22:43",
+		"serializeWith:" : "ek 5/18/2021 22:45",
+		"tryToAddInstVarNumber:notify:" : "ek 5/18/2021 22:44" } }

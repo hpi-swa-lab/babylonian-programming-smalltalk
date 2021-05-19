@@ -1,0 +1,4 @@
+object creation
+createMinimalObject
+
+	^ receiver

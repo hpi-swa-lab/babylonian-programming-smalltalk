@@ -1,0 +1,2 @@
+record mock
+blacklistInstVarNumber: aNumber

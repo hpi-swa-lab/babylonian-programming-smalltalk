@@ -2,7 +2,7 @@ tests-recording
 testRecordingIsEmpty
 	
 	
-	self assert: exampleExtractionTool recordings isEmpty.
+	self assert: self recordings isEmpty.
 	
 	self
 		recordMethod: #doSomething

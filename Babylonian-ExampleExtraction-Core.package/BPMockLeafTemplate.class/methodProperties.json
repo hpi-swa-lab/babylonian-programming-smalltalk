@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addMock:forInstVarNumber:notify:" : "ek 5/18/2021 22:35",
+		"blacklistInstVarNumber:" : "ek 5/18/2021 22:35",
+		"correctObjectReferences:for:" : "ek 5/18/2021 22:34",
+		"createMinimalObject" : "ek 5/18/2021 22:32",
+		"serializeWith:" : "ek 5/19/2021 11:03",
+		"tryToAddInstVarNumber:notify:" : "ek 5/18/2021 22:35" } }

@@ -2,7 +2,8 @@
 	"class" : {
 		"default" : "ek 5/3/2021 17:05",
 		"defaultWithAnotherDefaultAsMyObject" : "ek 5/3/2021 17:08",
-		"defaultWithOtherNumber" : "ek 5/4/2021 11:47" },
+		"defaultWithOtherNumber" : "ek 5/4/2021 11:47",
+		"doSomethingClassSide" : "ek 5/19/2021 10:56" },
 	"instance" : {
 		"defaultBoolean" : "ek 5/3/2021 16:45",
 		"defaultCollection" : "ek 5/3/2021 16:46",

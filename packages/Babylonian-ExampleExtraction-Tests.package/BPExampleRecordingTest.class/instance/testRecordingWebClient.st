@@ -1,7 +1,7 @@
 tests-recording
 testRecordingWebClient
 	
-	self assert: exampleExtractionTool recordings isEmpty.
+	self assert: self recordings isEmpty.
 	self
 		recordMethod: #authenticate:from:
 		inClass: WebClient

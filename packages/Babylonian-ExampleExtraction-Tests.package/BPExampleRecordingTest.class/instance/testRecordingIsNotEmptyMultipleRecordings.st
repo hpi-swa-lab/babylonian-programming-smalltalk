@@ -5,7 +5,7 @@ testRecordingIsNotEmptyMultipleRecordings
 	
 	usedInstancesAndEmptyParams := {BPClassWithMethods new -> {}. BPClassWithMethods new -> {}} asDictionary.
 	
-	self assert: exampleExtractionTool recordings isEmpty.
+	self assert: self recordings isEmpty.
 	
 	self
 		recordMethod: #doSomething

@@ -2,7 +2,7 @@ tests-recording
 testRecordingIsNotEmptySingleRecording
 	
 	| recordedObject |
-	self assert: exampleExtractionTool recordings isEmpty.
+	self assert: self recordings isEmpty.
 	recordedObject := BPClassWithMethods new.
 	self
 		recordMethod: #doSomething

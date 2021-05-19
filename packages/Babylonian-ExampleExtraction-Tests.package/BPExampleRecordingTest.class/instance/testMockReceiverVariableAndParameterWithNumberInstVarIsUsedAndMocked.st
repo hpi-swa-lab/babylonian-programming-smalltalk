@@ -3,7 +3,7 @@ testMockReceiverVariableAndParameterWithNumberInstVarIsUsedAndMocked
 	
 	| receiver parameter mockReceiver mockParameter mockReceiverAndParameters |
 	
-	self assert: exampleExtractionTool recordings isEmpty.
+	self assert: self recordings isEmpty.
 	
 	receiver := BPClassWithInstanceVariables default.
 	parameter := BPClassWithInstanceVariables defaultWithOtherNumber.
@@ -13,7 +13,7 @@ testMockReceiverVariableAndParameterWithNumberInstVarIsUsedAndMocked
 		inClass: BPClassWithInstanceVariables
 		forInstancesAndParameters: {receiver -> {parameter}} asDictionary.
 	
-	self assert: exampleExtractionTool recordings isEmpty not.
+	self assert: self recordings isEmpty not.
 	
 	mockReceiverAndParameters := self getMockedObjectsForFirstRecording.
 	mockReceiver := mockReceiverAndParameters first.

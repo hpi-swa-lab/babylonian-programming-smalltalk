@@ -3,7 +3,7 @@ testMockReceiverWithDefaultObjectInVariable
 	
 	| receiver mockReceiver |
 	
-	self assert: exampleExtractionTool recordings isEmpty.
+	self assert: self recordings isEmpty.
 	
 	receiver := BPClassWithInstanceVariables defaultWithAnotherDefaultAsMyObject.
 	
@@ -12,7 +12,7 @@ testMockReceiverWithDefaultObjectInVariable
 		inClass: BPClassWithInstanceVariables
 		forInstancesAndParameters: {receiver -> {}} asDictionary.
 	
-	self assert: exampleExtractionTool recordings isEmpty not.
+	self assert: self recordings isEmpty not.
 	
 	mockReceiver := self getMockedObjectsForFirstRecording first.
 	self assert: mockReceiver myNumber equals: nil.

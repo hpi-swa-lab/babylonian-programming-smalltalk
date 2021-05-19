@@ -1,4 +1,4 @@
 record mock
 ensureMockExistsFor: anObject
 	
-	^ objectMockMapping at: anObject ifAbsentPut: [BPMockObjectTemplate for: anObject]
+	^ objectMockMapping at: anObject ifAbsentPut: [anObject bpMockTemplateClass for: anObject]
