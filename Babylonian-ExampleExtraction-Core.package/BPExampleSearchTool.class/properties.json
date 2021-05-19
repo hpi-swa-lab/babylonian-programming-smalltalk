@@ -9,8 +9,10 @@
 		"methodReference",
 		"searchResults",
 		"searchResultIndex",
+		"requestor",
 		"classNamePreference",
-		"requestor" ],
+		"includesMethodSelectorPreference",
+		"tryRecordingPreference" ],
 	"name" : "BPExampleSearchTool",
 	"pools" : [
 		 ],

@@ -6,4 +6,6 @@ initialize
 	self
 		searchResults: OrderedCollection new;
 		searchResultIndex: 1;
-		classNamePreference: true.
+		classNamePreference: true;
+		includesMethodSelectorPreference: true;
+		tryRecordingPreference: false.
