@@ -1,3 +1,4 @@
 object creation
 createMinimalObject
-	"todo"
+	
+	^ receiver class new

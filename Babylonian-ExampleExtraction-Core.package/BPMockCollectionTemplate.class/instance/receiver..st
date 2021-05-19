@@ -2,5 +2,4 @@ accessing
 receiver: anObject
 	
 	super receiver: anObject.
-	mockTemplateCollection := receiver collect: [:each | each "asMock"].
-	"todo"
+	mockTemplateCollection := receiver collect: [:each | self addMock: each].

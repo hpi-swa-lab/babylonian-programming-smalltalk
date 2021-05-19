@@ -1,4 +1,4 @@
-tests-mocking
+tests-mocking-leaf
 testMockReceiverIsAClass
 	
 	| receiver mockReceiver |

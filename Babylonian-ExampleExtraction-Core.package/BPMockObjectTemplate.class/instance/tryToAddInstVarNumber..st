@@ -1,5 +1,5 @@
 record mock
-tryToAddInstVarNumber: aNumber notify: aMockTree
+tryToAddInstVarNumber: aNumber
 	
 	| instVarValue |
 	
@@ -7,4 +7,4 @@ tryToAddInstVarNumber: aNumber notify: aMockTree
 	(blackList includes: aNumber) ifTrue: [^ self].
 	
 	instVarValue := receiver instVarAt: aNumber.
-	self addMock: instVarValue forInstVarNumber: aNumber notify: aMockTree.
+	self addMock: instVarValue forInstVarNumber: aNumber.

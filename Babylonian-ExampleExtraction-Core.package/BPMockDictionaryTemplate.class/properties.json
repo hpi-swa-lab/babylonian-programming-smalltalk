@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"receiver",
-		"instVarNumbersAndValues",
-		"blackList",
-		"mockTree" ],
-	"name" : "BPMockObjectTemplate",
+		 ],
+	"name" : "BPMockDictionaryTemplate",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "BPMockCollectionTemplate",
 	"type" : "normal" }

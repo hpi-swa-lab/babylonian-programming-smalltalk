@@ -1,4 +1,4 @@
 object creation
 correctObjectReferences: existingObjects for: aMiniObject
-
-	"todo"
+	
+	mockTemplateCollection do: [:template | aMiniObject add: (existingObjects at: template)]

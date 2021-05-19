@@ -1,4 +1,4 @@
-tests-mocking
+tests-mocking-leaf
 testMockReceiverIsANumber
 	
 	| receiver mockReceiver |
