@@ -1,6 +1,7 @@
 executing
 execute
 	
+	<bpRelevantMethod>
 	| state |
 	state := self prepareRunState.
 	self runSetUpWith: state.

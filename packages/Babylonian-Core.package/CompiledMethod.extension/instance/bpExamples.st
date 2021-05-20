@@ -1,6 +1,7 @@
 *Babylonian-Core
 bpExamples
 	
+	<bpRelevantMethod>
 	"This is were examples from annotations are born, and this should remain the only place.
 	This collection is also only available from base methods, and not for layered or partial methods.
 	New examples can be created via: bpNewExampleFrom:.
