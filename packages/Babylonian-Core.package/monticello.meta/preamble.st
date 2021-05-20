@@ -1,4 +1,1 @@
-(PackageInfo named: 'Babylonian-Core') preamble: 'Smalltalk at: #BPActiveExamples ifPresent: [:e | 
-	SystemChangeNotifier uniqueInstance noMoreNotificationsFor: e].
-
-BPExamples removeAll.'!
+(PackageInfo named: 'Babylonian-Core') preamble: 'CompiledMethod allInstancesDo: [:m | m removeProperty: #bpExamples].'!
