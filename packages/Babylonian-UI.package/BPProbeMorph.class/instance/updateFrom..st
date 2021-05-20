@@ -4,6 +4,7 @@ updateFrom: traces
 	| lineMorph errorIndicatorMorph |
 	self 
 		removeLinesWithoutCurrentTrace: traces;
+		updateLabelMorphIfNecessary;
 		updateExpressionMorphIfNecessary.
 	
 	self relevantTracesOf: traces do: [:aTrace | | valuesMorph scrollPane |
