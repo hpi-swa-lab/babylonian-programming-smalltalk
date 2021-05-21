@@ -1,0 +1,15 @@
+{
+	"category" : "Babylonian-ExampleExtraction-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"rowCount",
+		"columnCount" ],
+	"name" : "BPMockMatrixTemplate",
+	"pools" : [
+		 ],
+	"super" : "BPMockCollectionTemplate",
+	"type" : "normal" }

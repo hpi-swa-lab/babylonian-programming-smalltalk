@@ -5,9 +5,9 @@ testMockReceiverIsAMatrix
 	self assert: self recordings isEmpty.
 	
 	receiver := (Matrix rows: 3 columns: 3 contents: #(
-		 1 2 1
-		 2 4 2
-		 1 2 1
+		 1 2 3
+		 4 5 6
+		 7 8 9
 	)).
 	
 	self

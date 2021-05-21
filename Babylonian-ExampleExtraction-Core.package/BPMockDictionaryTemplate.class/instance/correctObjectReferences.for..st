@@ -1,4 +1,4 @@
-as yet unclassified
+object creation
 correctObjectReferences: existingObjects for: aMiniObject
 	
 	mockTemplateCollection keysAndValuesDo: [:keyTemplate :valueTemplate |

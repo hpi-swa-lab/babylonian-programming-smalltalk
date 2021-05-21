@@ -1,0 +1,17 @@
+{
+	"category" : "Babylonian-ExampleExtraction-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"methodReference",
+		"receiver",
+		"arguments",
+		"lastMockTrees" ],
+	"name" : "BPMockContext",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

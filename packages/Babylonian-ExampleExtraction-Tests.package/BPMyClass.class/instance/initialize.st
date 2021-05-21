@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 initialize
 
 	myNumber1 := 1.

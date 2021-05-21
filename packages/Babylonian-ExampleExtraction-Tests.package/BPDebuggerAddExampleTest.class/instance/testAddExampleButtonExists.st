@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testAddExampleButtonExists
 	
 	| process debugger addExampleButtonMaybe |

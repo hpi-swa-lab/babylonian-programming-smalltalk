@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 receiver: anObject
 	
 	super receiver: anObject.

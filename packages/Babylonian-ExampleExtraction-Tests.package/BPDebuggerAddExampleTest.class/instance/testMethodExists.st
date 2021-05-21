@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testMethodExists
 
 	BPDebugger selectors includes: #addExample.

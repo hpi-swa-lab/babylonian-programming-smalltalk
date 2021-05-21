@@ -15,6 +15,6 @@ testMockReceiverIsAMorph
 	
 	mockReceiver := self getMockedObjectsForFirstRecording first.
 	self assert: mockReceiver isMorph.
-	mockReceiver inspect.
+	"mockReceiver inspect."
 	self flag: #todo. "test more once more stuff works"
 	"self assert: mockReceiver x equals: receiver x."

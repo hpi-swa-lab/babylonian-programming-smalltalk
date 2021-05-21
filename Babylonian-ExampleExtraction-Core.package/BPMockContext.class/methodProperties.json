@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"methodReference:receiver:arguments:" : "ek 5/20/2021 10:25" },
+	"instance" : {
+		"arguments:" : "ek 5/20/2021 10:10",
+		"createMockTrees" : "ek 5/21/2021 10:59",
+		"method" : "ek 5/20/2021 10:35",
+		"methodReference:" : "ek 5/20/2021 10:04",
+		"methodSelector" : "ek 5/20/2021 10:08",
+		"minimalObjects" : "ek 5/20/2021 10:22",
+		"receiver:" : "ek 5/20/2021 10:04" } }
