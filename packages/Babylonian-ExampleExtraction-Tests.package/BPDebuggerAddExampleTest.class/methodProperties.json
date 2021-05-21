@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"compilerClass" : "ek 5/21/2021 13:16" },
 	"instance" : {
 		"testAddExampleButtonExists" : "ek 5/3/2021 22:17",
-		"testMethodExists" : "ek 5/3/2021 21:47" } }
+		"testMethodExists" : "ek 5/21/2021 13:17" } }
