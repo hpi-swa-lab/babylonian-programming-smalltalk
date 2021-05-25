@@ -2,10 +2,17 @@
 	"class" : {
 		"methodReference:receiver:arguments:" : "ek 5/20/2021 10:25" },
 	"instance" : {
+		"addInstVar:for:" : "ek 5/21/2021 13:43",
 		"arguments:" : "ek 5/20/2021 10:10",
-		"createMockTrees" : "ek 5/21/2021 10:59",
+		"blacklistInstVar:for:" : "ek 5/21/2021 13:42",
+		"createMockTrees" : "ek 5/25/2021 22:08",
+		"instVarAccessRead:" : "ek 5/21/2021 13:50",
+		"instVarAccessReadQuick:" : "ek 5/25/2021 22:02",
+		"instVarNumberForGetter:" : "ek 5/25/2021 22:06",
+		"instVarWriteAccess:" : "ek 5/21/2021 13:48",
+		"isGetterMethod:" : "ek 5/25/2021 22:01",
 		"method" : "ek 5/20/2021 10:35",
 		"methodReference:" : "ek 5/20/2021 10:04",
 		"methodSelector" : "ek 5/20/2021 10:08",
-		"minimalObjects" : "ek 5/20/2021 10:22",
+		"minimalObjects" : "ek 5/21/2021 13:40",
 		"receiver:" : "ek 5/20/2021 10:04" } }

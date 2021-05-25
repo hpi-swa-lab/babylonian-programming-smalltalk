@@ -9,7 +9,8 @@
 		"methodReference",
 		"receiver",
 		"arguments",
-		"lastMockTrees" ],
+		"receiverMockTree",
+		"argumentsMockTrees" ],
 	"name" : "BPMockContext",
 	"pools" : [
 		 ],

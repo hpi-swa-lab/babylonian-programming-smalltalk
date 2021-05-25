@@ -1,5 +1,5 @@
 mocking
 minimalObjects
 	
-	lastMockTrees ifNil: [^ nil].
-	^ {lastMockTrees first createMinimalObject. lastMockTrees second collect: [:mockTree | mockTree createMinimalObject]}
+	receiverMockTree ifNil: [^ nil].
+	^ {receiverMockTree createMinimalObject. argumentsMockTrees collect: [:mockTree | mockTree createMinimalObject]}
