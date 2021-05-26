@@ -1,4 +1,4 @@
 system startup
 shutDown: quitting
-
-	self cleanUpTracesOnShutdown ifTrue: [quitting ifTrue: [self value removeTraces]].
+	
+	quitting ifTrue: [self value removeTraces].
