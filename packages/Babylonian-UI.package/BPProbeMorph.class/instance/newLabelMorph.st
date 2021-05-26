@@ -14,13 +14,12 @@ newLabelMorph
 		layoutInset: 1;
 		yourself.
 		
-	labelSource := self annotation hasLabel ifTrue: [self annotation label asString] ifFalse: [''].
-	"labelSource := labelSource copyFrom: 2 to: (labelSource size - 1 max: 1)." "Removes the quotes brackets"
+	labelSource := self annotation hasLabel ifTrue: [self annotation label] ifFalse: [''].
+	labelSource := labelSource copyFrom: 2 to: (labelSource size - 1 max: 1). "Removes the quotes brackets"
 	labelFieldMorph := (self 
 		editFieldInitialContent: labelSource
 		onChange: [:str | 
-			"self annotation label: ('{1}' format: {str})." "add quotes about label"
-			self annotation label: str.
+			self annotation label: ('''{1}''' format: {str}). "add quotes about label"
 			self codeContentChanged.
 			]
 		onAccept: [:str | 

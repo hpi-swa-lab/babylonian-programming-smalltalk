@@ -1,10 +1,10 @@
 private
 resetForm
 	<exampleNamed: 'basic' self: 'BPTreeSceneMorph new
-	extent: 500@300;
+	extent: 500@300; 
 	yourself'>
-	<exampleNamed: 'custom scene' self: 'BPTreeSceneMorph new
-	extent: 800@600;
+	<exampleNamed: 'custom scene' self: 'BTreeSceneMorph new
+	extent: 800@600; 
 	tree: (BPTree new
 		blossomColor: Color lightMagenta;
 		yourself);
@@ -15,6 +15,6 @@ resetForm
 	self sceneParts do: [:part |
 		canvas := cachedForm getCanvas.
 		part drawOn: canvas.
-		"<bpProbe id: 2152072 expression: [canvas form]>"canvas flush"</bpProbe>"].
+		"<bpProbe id: 4905632 label: 'BPTreeSceneMorph>>rF-4905632'>"canvas"</bpProbe>" flush].
 	
-	^ "<bpProbe id: 8151076>"cachedForm"</bpProbe>"
+	^ "<bpProbe id: 8876984 label: 'BPTreeSceneMorph>>rF-8876984'>"cachedForm"</bpProbe>"

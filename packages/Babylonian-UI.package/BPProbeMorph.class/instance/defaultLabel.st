@@ -20,4 +20,4 @@ defaultLabel
 				'{1}:{2}' format: { shortMethodName . shortSubName }]
 			ifTrue: [shortMethodName, ':']]. "it last one is an empty string the method must take parameters"
 	
-	^ '{1}>>{2}-{3}' format: { className . shortMethodName allButFirst . probeId }.
+	^ '''{1}>>{2}-{3}''' format: { className . shortMethodName allButFirst . probeId }.
