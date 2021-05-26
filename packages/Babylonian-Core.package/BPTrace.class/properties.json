@@ -13,7 +13,8 @@
 		"recordedException",
 		"exampleExecutionProcess",
 		"hasTraceCompleted",
-		"blockRecord" ],
+		"blockRecord",
+		"probesTraceValuesCount" ],
 	"name" : "BPTrace",
 	"pools" : [
 		 ],
