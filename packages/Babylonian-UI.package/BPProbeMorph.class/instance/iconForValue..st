@@ -7,4 +7,4 @@ iconForValue: aValue
 	aValue isForm ifTrue: [
 		^ (aValue scaledToSize: self iconSize * 4) asMorph].
 	
-	^ ((BPEmojis emojiFor: aValue) scaledToSize: self iconSize * 1.1) asMorph
+	^ ((BPEmojis emojiFor: aValue tracedValueIdentityHash) scaledToSize: self iconSize * 1.1) asMorph

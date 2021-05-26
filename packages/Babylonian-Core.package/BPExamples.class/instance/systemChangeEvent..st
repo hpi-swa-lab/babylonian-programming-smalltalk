@@ -1,6 +1,7 @@
 change notifications
 systemChangeEvent: aModifiedEvent
 	
+	<bpRelevantMethod>
 	self 
-		updateActiveExamplesOnEvent: aModifiedEvent;
+		updateExamplesOnEvent: aModifiedEvent;
 		runActiveExamples.

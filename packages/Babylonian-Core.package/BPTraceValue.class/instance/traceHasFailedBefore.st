@@ -1,4 +1,5 @@
 testing
 traceHasFailedBefore
-
+	
+	<bpRelevantMethod>
 	^ false
