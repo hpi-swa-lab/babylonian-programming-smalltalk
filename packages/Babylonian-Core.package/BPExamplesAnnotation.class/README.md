@@ -1,0 +1,1 @@
+The BPExamplesAnnotation is a mere wrapper around the #bpExamples collection of a CompiledMethod. This is the very same collection that is actually stored in the CompiledMethod and observed by the BPExamplesMorph.

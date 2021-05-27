@@ -1,6 +1,7 @@
 tracing
 trace: aBlock through: expressionProbe forProbe: aProbeId inContext: aContext
 	
+	<bpRelevantMethod>
 	| result |
 	self checkForHaltAt: aProbeId.
 	

@@ -1,0 +1,5 @@
+helper
+supportedClass
+	
+	
+	^ self subclassResponsibility

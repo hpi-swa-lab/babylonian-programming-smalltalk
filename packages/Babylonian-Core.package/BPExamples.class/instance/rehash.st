@@ -1,0 +1,4 @@
+accessing
+rehash
+
+	examples rehash

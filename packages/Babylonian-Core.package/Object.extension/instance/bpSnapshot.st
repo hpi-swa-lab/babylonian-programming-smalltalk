@@ -1,5 +1,7 @@
 *Babylonian-Core
 bpSnapshot
+	
+	<bpRelevantMethod>
 	"This is a copy of veryDeepCopy which skips fixDependents as it is currently of minor importance 
 	and takes a lot of time."
 
