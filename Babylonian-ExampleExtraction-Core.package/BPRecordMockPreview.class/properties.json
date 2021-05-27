@@ -6,10 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"specimenUUIDSymbol",
-		"methodReference",
-		"example" ],
-	"name" : "BPSpecimenEditor",
+		"receiver",
+		"arguments",
+		"mockReceiver",
+		"mockArguments",
+		"methodReference" ],
+	"name" : "BPRecordMockPreview",
 	"pools" : [
 		 ],
 	"super" : "Model",

@@ -4,6 +4,7 @@
 		"methodReference:receiver:arguments:" : "ek 5/20/2021 10:25" },
 	"instance" : {
 		"addInstVar:for:" : "ek 5/21/2021 13:43",
+		"arguments" : "ek 5/27/2021 21:44",
 		"arguments:" : "ek 5/20/2021 10:10",
 		"blacklistInstVar:for:" : "ek 5/21/2021 13:42",
 		"configureFor:" : "ek 5/27/2021 17:58",
@@ -18,6 +19,7 @@
 		"methodReference:" : "ek 5/20/2021 10:04",
 		"methodSelector" : "ek 5/20/2021 10:08",
 		"minimalObjects" : "ek 5/21/2021 13:40",
+		"receiver" : "ek 5/27/2021 21:44",
 		"receiver:" : "ek 5/20/2021 10:04",
 		"receiverAndArguments" : "ek 5/27/2021 17:22",
 		"runToBeMockedMethod" : "ek 5/27/2021 18:20" } }
