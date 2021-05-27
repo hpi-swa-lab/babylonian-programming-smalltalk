@@ -1,17 +1,17 @@
 {
 	"class" : {
 		"coordinateSystemSize" : "jb 4/18/2021 23:55",
-		"newWithValues:forMorph:" : "jb 4/19/2021 22:59",
+		"newWithValues:forMorph:" : "pre 5/27/2021 12:26",
 		"preferredHeight" : "jb 4/19/2021 23:56",
 		"supportedClass" : "jb 5/4/2021 17:26" },
 	"instance" : {
 		"borderStyleFor:" : "jb 4/19/2021 23:48",
 		"lineColor" : "jb 4/19/2021 00:24",
 		"lineWidth" : "jb 4/19/2021 01:50",
-		"newCoordinateSystemFor:centeredIn:" : "jb 4/19/2021 23:55",
-		"newCoordinateSystems:" : "jb 4/19/2021 01:22",
-		"newRectangleFor:centeredIn:" : "jb 4/19/2021 23:24",
-		"newRectangles:" : "jb 4/19/2021 01:29",
+		"newCoordinateSystemFor:at:" : "pre 5/27/2021 12:25",
+		"newCoordinateSystems" : "pre 5/27/2021 12:20",
+		"newRectangleFor:at:" : "pre 5/27/2021 12:19",
+		"newRectangles" : "pre 5/27/2021 12:20",
 		"rectangleColorForValue:" : "jb 4/19/2021 22:37",
 		"rectangleNegNegColor" : "jb 4/19/2021 23:31",
 		"rectangleNegPosColor" : "jb 4/19/2021 23:31",
@@ -19,7 +19,8 @@
 		"rectanglePosPosColor" : "jb 4/19/2021 22:37",
 		"scaleX" : "jb 4/18/2021 23:53",
 		"scaleX:" : "jb 4/18/2021 23:54",
+		"spaceBetweenPoints" : "pre 5/27/2021 12:24",
 		"valueHigherLowerPercentColor" : "jb 4/19/2021 23:49",
 		"valueHigherPercentColor" : "jb 4/19/2021 23:20",
 		"valueLowerPercentColor" : "jb 4/19/2021 23:20",
-		"visualizationMorph" : "jb 4/19/2021 23:54" } }
+		"visualizationMorph" : "pre 5/27/2021 12:20" } }

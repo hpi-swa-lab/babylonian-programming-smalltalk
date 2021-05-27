@@ -2,12 +2,9 @@ visualization
 visualizationMorph
 	
 	
-	| visualizationMorph filteredValueMorphs |
+	| visualizationMorph |
 	visualizationMorph := self newBackground.
-		
-	filteredValueMorphs := self traceValuesMorph submorphs reject: [ :aTraceMorph | 
-		self class traceValuesMorphClassesToFilterOut anySatisfy: [:aFilterClass | aTraceMorph isKindOf: aFilterClass]].
-	visualizationMorph addAllMorphs: (self newCoordinateSystems: filteredValueMorphs).
-	visualizationMorph addAllMorphs: (self newRectangles: filteredValueMorphs).
+	visualizationMorph addAllMorphs: self newCoordinateSystems.
+	visualizationMorph addAllMorphs: self newRectangles.
 	
 	^ visualizationMorph
