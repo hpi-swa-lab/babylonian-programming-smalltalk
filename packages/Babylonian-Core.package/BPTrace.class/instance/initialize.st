@@ -7,3 +7,4 @@ initialize
 	exampleErrored := false.
 	hasTraceCompleted := false.
 	blockRecord := Dictionary new.
+	probesTraceValuesCount := 0.
