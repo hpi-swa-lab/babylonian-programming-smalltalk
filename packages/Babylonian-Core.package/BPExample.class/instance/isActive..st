@@ -10,5 +10,6 @@ isActive: aBoolean
 			ifFalse: [
 				self liveSpecimen do: [:aSpecimen |
 					aSpecimen removeDependent: BPExamples value].
-				self ensureTerminatedProcess]].
+				self ensureTerminatedProcess].
+		self changed: #exampleIsActive with: self.].
 	^ aBoolean
