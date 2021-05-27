@@ -6,19 +6,13 @@ createMockTrees
 	receiverMockTree := BPMockTree for: receiver.
 	argumentsMockTrees := arguments collect: [:argument | BPMockTree for: argument].
 	transcriptMode := false.
-	
-	"instVarNumber := c receiver class
-								instVarIndexFor: c method referredInstVars asOrderedCollection last
-								ifAbsent: [-1].
-							self addInstVar: instVarNumber for: c receiver."
-	
+		
 	transcriptMode ifTrue: [Transcript clear].
-	
 	(self isGetterMethod: self method)
 		ifTrue: [self addInstVar: (self instVarNumberForGetter: self method) for: receiver]
 		ifFalse: [
 			thisContext
-				runSimulated: [receiver perform: self methodSelector withArguments: arguments]
+				runSimulated: [self runToBeMockedMethod]
 				contextAtEachStep: [:c |
 					transcriptMode
 						ifTrue: [
