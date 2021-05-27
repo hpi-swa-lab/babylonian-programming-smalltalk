@@ -1,4 +1,4 @@
-A BPVisualization transforms the text of probes to visual projections for easier reading. Visualizes the values contained in the collection traceValues and draws itself over traceValuesMorph. scaleY is a BPScale used to eg project your values to the canvas appropriately.
+A BPVisualization transforms the text of probes to visual projections for easier reading. Visualizes the values contained in the collection traceValues. scaleY is a BPScale used to e.g. project your values to the canvas appropriately.
 
 Subclasses must provide following features:
 
