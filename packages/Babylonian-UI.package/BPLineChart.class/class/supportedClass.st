@@ -1,0 +1,5 @@
+support
+supportedClass
+	
+	
+	^ Number

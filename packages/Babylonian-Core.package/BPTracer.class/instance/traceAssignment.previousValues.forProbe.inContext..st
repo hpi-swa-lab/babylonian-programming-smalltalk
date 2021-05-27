@@ -1,6 +1,7 @@
 tracing
 traceAssignment: aBlock previousValues: variablesAndValueTuples forProbe: aProbeId inContext: aContext
 	
+	<bpRelevantMethod>
 	| result |
 	self checkForHaltAt: aProbeId.
 	

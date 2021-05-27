@@ -2,7 +2,7 @@ tests - dependents
 testCreatingAnExampleNotifiesDependents
 	
 	| example |
-	method bpExamples addDependent: self.
+	BPExamples value addDependent: self.
 	example := method bpNewExampleFrom: BPMethodExample.
 	
 	self 

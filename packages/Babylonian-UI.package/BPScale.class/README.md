@@ -1,0 +1,3 @@
+A scale inspired by their usages in d3. Define a domain from which a set of numbers gets projected to your defined range. Both are Interval objects. As operations like min or array accesses don't work on reversed ordered Intervals (eg meaning it sorted descending), only Intervals sorted ascending work. 
+
+A scale behavior is a block accepting a domain and a value to scale. The output is a percentage [0;1] representing its relative position in your domain. It can scale the value linear, logarithmic, exponentially etc. For an example, view class > linearScale.

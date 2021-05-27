@@ -1,0 +1,5 @@
+constants
+traceValuesMorphClassesToFilterOut
+	
+	
+	^ {StringMorph}
