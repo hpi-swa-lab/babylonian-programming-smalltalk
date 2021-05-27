@@ -10,8 +10,8 @@ newLineMorphFor: aTrace
 		addMorphBack: (self newExploreButtonFor: aTrace);
 		addMorphBack: (self newHaltButtonFor: aTrace).
 	
-	(self canBeVisualized: aTrace)
-		ifTrue: [newLine addMorphBack: (self newVisualizeButtonFor: aTrace)].
+	(self canBeVisualized: aTrace) ifTrue: [
+		newLine addMorphBack: (self newVisualizeButtonFor: aTrace)].
 	
 	newLine addMorphBack: (Morph new
 		color: Color transparent; 
@@ -24,6 +24,12 @@ newLineMorphFor: aTrace
 		yourself).
 	
 	newLine addMorphBack: (self newExampleLabelMorphFor: aTrace example).
+	
+	(self canBeVisualized: aTrace) ifTrue: [
+		newLine addMorphBack: (self newContainerMorph
+			extent: 0@0;
+			name: #axisYNotationHolder;
+			yourself)].
 		
 	scrollPane := self newScrollPane.
 	newLine addMorphBack: scrollPane.

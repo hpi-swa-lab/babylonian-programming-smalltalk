@@ -16,8 +16,9 @@ updateFrom: traces
 			valuesMorph := (self valuesMorphFor: aTrace)
 				hResizing: #shrinkWrap;
 				yourself.
+			lineMorph setProperty: #bpValuesMorph toValue: valuesMorph.
 				
 			scrollPane scroller addMorph: valuesMorph.
 			scrollPane height: valuesMorph height + self scrollBarSize.
-		
+			
 			self updateVisualizationMorphInside: scrollPane over: valuesMorph for: aTrace].
