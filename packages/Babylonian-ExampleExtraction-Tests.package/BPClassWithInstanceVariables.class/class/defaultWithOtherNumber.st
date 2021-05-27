@@ -1,4 +1,4 @@
 constructors
 defaultWithOtherNumber
 	
-	^ self new setDefaults setDefaultOtherNumber
+	^ self default setDefaultOtherNumber

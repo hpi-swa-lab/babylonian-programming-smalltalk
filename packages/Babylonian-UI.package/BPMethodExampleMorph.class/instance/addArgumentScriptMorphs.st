@@ -24,6 +24,10 @@ addArgumentScriptMorphs
 			width: 240.
 		container addMorphBack: editField.
 		
+		"Live specimen editing"
+		(self example isLiveSpecimenReference: (self example argumentScriptAt: index))
+			ifTrue: [container addMorphBack: (self newSpecimenEditingButtonFor: (self example argumentScriptAt: index) second)].
+		
 		"Live specimen selection"
 		container addMorphBack: (self newSpecimenSelectionButtonOnClick: [
 				self selectLiveSpecimenThen: [:specimen |

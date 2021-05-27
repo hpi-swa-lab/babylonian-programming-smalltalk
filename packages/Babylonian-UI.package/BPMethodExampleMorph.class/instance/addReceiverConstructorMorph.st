@@ -22,7 +22,11 @@ You can also provide a selector that will be called on the
 class-side of this class to create a receiver object.';
 		width: 240.
 	container addMorphBack: editField.
-			
+	
+	"Live specimen editing"
+	(self example isLiveSpecimenReference: self example receiverConstructor)
+		ifTrue: [container addMorphBack: (self newSpecimenEditingButtonFor: self example receiverConstructor second)].
+	
 	"Live specimen selection"
 	container addMorphBack: (self newSpecimenSelectionButtonOnClick: [
 				self selectLiveSpecimenThen: [:specimen |.

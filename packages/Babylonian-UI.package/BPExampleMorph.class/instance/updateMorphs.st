@@ -10,4 +10,5 @@ updateMorphs
 		addExampleNameMorph;
 		addExampleConfigurationButtonMorph;
 		addExampleSpecificMorphs;
+		addRecordAndMockButtonMorph;
 		addDeleteButtonMorph.

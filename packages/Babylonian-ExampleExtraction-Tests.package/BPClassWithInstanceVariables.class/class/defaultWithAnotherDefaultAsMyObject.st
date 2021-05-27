@@ -1,7 +1,4 @@
 constructors
 defaultWithAnotherDefaultAsMyObject
 	
-	^ self new
-		setDefaults;
-		setMyObject1;
-		yourself
+	^ self default setMyObject1

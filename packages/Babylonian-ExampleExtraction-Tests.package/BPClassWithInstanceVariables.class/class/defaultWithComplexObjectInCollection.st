@@ -1,0 +1,4 @@
+constructors
+defaultWithComplexObjectInCollection
+	
+	^ self default setCollectionWithComplexObject
