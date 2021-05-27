@@ -25,7 +25,7 @@ class-side of this class to create a receiver object.';
 	
 	"Live specimen editing"
 	(self example isLiveSpecimenReference: self example receiverConstructor)
-		ifTrue: [container addMorphBack: (self newSpecimenEditingButtonFor: self example receiverConstructor second)].
+		ifTrue: [container addMorphBack: (self newSpecimenEditingButtonFor: self example receiverConstructor)].
 	
 	"Live specimen selection"
 	container addMorphBack: (self newSpecimenSelectionButtonOnClick: [

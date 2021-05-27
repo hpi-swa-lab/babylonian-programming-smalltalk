@@ -33,7 +33,7 @@ createMockTrees
 									self addInstVar: instVarNumber for: c receiver.].
 							(self instVarAccessReadQuick: c)
 								ifTrue: [|instVarNumber getterMethod|
-									getterMethod := c receiver class >> (c method abstractBytecodeMessageAt: c pc) arguments first.
+									getterMethod := c receiver class lookupSelector: (c method abstractBytecodeMessageAt: c pc) arguments first.
 									instVarNumber := self instVarNumberForGetter: getterMethod.
 									self addInstVar: instVarNumber for: c receiver.].
 							(self instVarWriteAccess: c)

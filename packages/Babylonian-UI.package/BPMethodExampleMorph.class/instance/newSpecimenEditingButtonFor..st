@@ -1,12 +1,12 @@
 private - ui
-newSpecimenEditingButtonFor: aUUIDasSymbol
-		
+newSpecimenEditingButtonFor: specimenConstructor
+	
 	^ IconicButton new
 		height: self iconSize * 0.7;
 		labelGraphic: (BPIcons wrenchIcon scaledToSize: self iconSize * 0.7);
 		color: self color;
 		borderWidth: 0;
-		target: [BPSpecimenEditor openFor: aUUIDasSymbol with: self example method];
+		target: [(self example resolveLiveSpecimen: specimenConstructor) inspect];
 		actionSelector: #value;
 		balloonText: 'Click to open the specimen editing tool';
 		yourself

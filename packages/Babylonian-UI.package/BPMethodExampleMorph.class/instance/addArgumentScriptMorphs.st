@@ -26,7 +26,7 @@ addArgumentScriptMorphs
 		
 		"Live specimen editing"
 		(self example isLiveSpecimenReference: (self example argumentScriptAt: index))
-			ifTrue: [container addMorphBack: (self newSpecimenEditingButtonFor: (self example argumentScriptAt: index) second)].
+			ifTrue: [container addMorphBack: (self newSpecimenEditingButtonFor: (self example argumentScriptAt: index))].
 		
 		"Live specimen selection"
 		container addMorphBack: (self newSpecimenSelectionButtonOnClick: [

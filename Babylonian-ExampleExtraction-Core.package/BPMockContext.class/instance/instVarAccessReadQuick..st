@@ -6,8 +6,7 @@ instVarAccessReadQuick: context
 	message := context method abstractBytecodeMessageAt: context pc.
 	(message selector = #send:super:numArgs: and: [message arguments third = 0])
 		ifTrue: [
-			potentialGetterMethod := context receiver class methodDict
-				at: message arguments first
-				ifAbsent: [^ false].
+			(potentialGetterMethod := context receiver class lookupSelector: message arguments first) 
+				ifNil: [^ false].
 			^ self isGetterMethod: potentialGetterMethod].
 	^ false
