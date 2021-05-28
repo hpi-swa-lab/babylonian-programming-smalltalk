@@ -10,7 +10,8 @@
 		"receiver",
 		"arguments",
 		"receiverMockTree",
-		"argumentsMockTrees" ],
+		"argumentsMockTrees",
+		"transcriptMode" ],
 	"name" : "BPMockContext",
 	"pools" : [
 		 ],

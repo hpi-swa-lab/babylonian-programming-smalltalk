@@ -1,0 +1,4 @@
+doSomething-methods
+doSomethingWithTheMyObjectMyNumberGetter
+	
+	myObject myNumber.

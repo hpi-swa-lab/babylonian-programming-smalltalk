@@ -1,11 +1,9 @@
 mocking
 createMockTrees
 	
-	| transcriptMode | 
-
 	receiverMockTree := BPMockTree for: receiver.
 	argumentsMockTrees := arguments collect: [:argument | BPMockTree for: argument].
-	transcriptMode := false.
+	"transcriptMode := true."
 		
 	transcriptMode ifTrue: [Transcript clear].
 	(self isGetterMethod: self method)
@@ -27,9 +25,9 @@ createMockTrees
 									self addInstVar: instVarNumber for: c receiver.].
 							(self instVarAccessReadQuick: c)
 								ifTrue: [|instVarNumber getterMethod|
-									getterMethod := c receiver class lookupSelector: (c method abstractBytecodeMessageAt: c pc) arguments first.
+									getterMethod := (c at: c stackPtr) class lookupSelector: (c method abstractBytecodeMessageAt: c pc) arguments first.
 									instVarNumber := self instVarNumberForGetter: getterMethod.
-									self addInstVar: instVarNumber for: c receiver.].
+									self addInstVar: instVarNumber for: (c at: c stackPtr).].
 							(self instVarWriteAccess: c)
 								ifTrue: [|instVarNumber|
 									instVarNumber := (c method abstractBytecodeMessageAt: c pc) arguments first + 1.
