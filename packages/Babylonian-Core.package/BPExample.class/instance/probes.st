@@ -1,4 +1,4 @@
 accessing
 probes
-
-	^ self currentTrace probes
+	
+	^ self trace probes
