@@ -21,10 +21,10 @@ updateExpressionMorphIfNecessary
 		ifTrue: [
 			addExpressionMorph ifNotNil: [:aMorph | aMorph abandon].
 			expressionMorph ifNil: [
-				expressionMorph := self newExpressionMorph.
-				expressionBox addMorphBack: expressionMorph]]
+				expressionMorph := self newExpressionMorph].
+			expressionBox addMorphBack: expressionMorph]
 		ifFalse: [
 			expressionMorph ifNotNil: [:aMorph | aMorph abandon].
 			addExpressionMorph ifNil: [
-				addExpressionMorph := self newAddExpressionMorph.
-				expressionBox addMorphBack: addExpressionMorph]].
+				addExpressionMorph := self newAddExpressionMorph].
+			expressionBox addMorphBack: addExpressionMorph].

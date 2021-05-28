@@ -22,10 +22,10 @@ updateLabelMorphIfNecessary
 			addLabelMorph ifNotNil: [:aMorph | aMorph abandon].
 			labelMorph ifNil: [
 				labelMorph := self newLabelMorph.
-				labelMorph submorphs first hResizing: #spaceFill.
-				labelBox addMorphBack: labelMorph]]
+				labelMorph submorphs first hResizing: #spaceFill].
+			labelBox addMorphBack: labelMorph]
 		ifFalse: [
 			labelMorph ifNotNil: [:aMorph | aMorph abandon].
 			addLabelMorph ifNil: [
-				addLabelMorph := self newAddLabelMorph.
-				labelBox addMorphBack: addLabelMorph]].
+				addLabelMorph := self newAddLabelMorph].
+			labelBox addMorphBack: addLabelMorph].
