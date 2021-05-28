@@ -1,0 +1,4 @@
+testing
+hasLabel
+	
+	^ label notNil
