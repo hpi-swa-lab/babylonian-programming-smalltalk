@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"scaleX" ],
+	"name" : "BPRectangleChart",
+	"pools" : [
+		 ],
+	"super" : "BPVisualization",
+	"type" : "normal" }

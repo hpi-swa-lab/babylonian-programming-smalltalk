@@ -1,6 +1,7 @@
 *Babylonian-Core
 bpTraceWith: tracer
 	
+	<bpRelevantMethod>
 	#bpInstrumented withLayerDo: [
 		BPActiveTracer value: tracer during: [
 			self

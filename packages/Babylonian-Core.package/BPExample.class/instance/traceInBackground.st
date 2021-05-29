@@ -1,6 +1,7 @@
 tracing
 traceInBackground
 	
+	<bpRelevantMethod>
 	| exampleExecution promise |
 	traceInformation terminateTracingProcess.
 	promise := Promise new.
