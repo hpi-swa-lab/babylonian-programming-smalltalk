@@ -1,0 +1,4 @@
+tests
+testSwimlaneDisplaysTraceValuesForTwoProbesChronologicallySorted
+
+	self assert: false.

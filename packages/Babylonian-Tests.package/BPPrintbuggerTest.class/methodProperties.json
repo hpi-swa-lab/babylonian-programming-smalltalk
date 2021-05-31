@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"compilerClass" : "jb 5/31/2021 14:19" },
+	"instance" : {
+		"setUp" : "jb 5/31/2021 14:33",
+		"tearDown" : "jb 5/31/2021 13:53",
+		"testShows2SwimlanesFor2ActiveExamples" : "jb 5/31/2021 14:49",
+		"testShowsNoSwimlanesForNoActiveExamples" : "jb 5/31/2021 14:20",
+		"testSwimlaneDisplaysTraceValuesForOneProbe" : "jb 5/31/2021 13:42",
+		"testSwimlaneDisplaysTraceValuesForTwoProbesChronologicallySorted" : "jb 5/31/2021 13:42",
+		"testSwimlaneEmptyForNoProbes" : "jb 5/31/2021 13:42",
+		"testSwimlaneUpdatesWithNewProbe" : "jb 5/31/2021 13:42",
+		"testUpdatesSwimlanesAfterDeactivatingExample" : "jb 5/31/2021 13:42",
+		"testUpdatesSwimlanesAfterNewActiveExample" : "jb 5/31/2021 13:42" } }
