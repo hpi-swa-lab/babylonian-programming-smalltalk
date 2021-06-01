@@ -2,17 +2,7 @@ private - ui
 newLabelMorph
 	
 	| container labelSource labelFieldMorph |
-	container := Morph new
-		color: Color transparent;
-		changeTableLayout;
-		listDirection: #topToBottom;
-		vResizing: #shrinkWrap;
-		hResizing: #spaceFill;
-		cellPositioning: #leftCenter;
-		borderWidth: 1;
-		borderColor: Color black;
-		layoutInset: 1;
-		yourself.
+	container := self newContainerMorph.
 		
 	labelSource := self annotation hasLabel ifTrue: [self annotation label] ifFalse: [''].
 	labelSource := labelSource copyFrom: 2 to: (labelSource size - 1 max: 1). "Removes the quotes brackets"
@@ -24,7 +14,7 @@ newLabelMorph
 			]
 		onAccept: [:str | 
 			self containingBrowser codeTextMorph accept]).
-	labelFieldMorph balloonText: 'Write a label that will be printed along the examples in the printbugger.'.	
+	labelFieldMorph balloonText: 'Write a label that will be printed along the examples in the Printbugger.'.	
 		
 	container addMorph: labelFieldMorph.
 	

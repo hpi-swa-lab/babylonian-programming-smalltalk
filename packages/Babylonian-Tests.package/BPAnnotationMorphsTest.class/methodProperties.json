@@ -14,6 +14,7 @@
 		"testRenderingSiblingProbes" : "jb 12/3/2020 22:59",
 		"testRenderingSimpleAssertion" : "jb 12/3/2020 22:59",
 		"testRenderingSimpleAssignmentProbe" : "jb 12/3/2020 22:59",
+		"testRenderingSimpleDefaultLabelProbe" : "lu 6/1/2021 21:26",
 		"testRenderingSimpleExpressionProbe" : "jb 12/3/2020 22:59",
 		"testRenderingSimpleLabelProbe" : "lu 5/26/2021 23:24",
 		"testRenderingSimpleProbe" : "jb 12/3/2020 22:59",

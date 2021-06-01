@@ -18,6 +18,6 @@ defaultLabel
 					char isUppercase ifTrue: [shortSubName := shortSubName, char asString].
 					char = $: ifTrue: [shortSubName := shortSubName, char asString]].
 				'{1}:{2}' format: { shortMethodName . shortSubName }]
-			ifTrue: [shortMethodName, ':']]. "it last one is an empty string the method must take parameters"
+			ifTrue: [shortMethodName, ':']]. "if last one is an empty string the method must take parameters"
 	
 	^ '''{1}>>{2}-{3}''' format: { className . shortMethodName allButFirst . probeId }.
