@@ -10,13 +10,13 @@ defaultLabel
 	"shorten method name countUpTo:butSkip: -> cUT:bS:"
 	shortMethodName := ''.
 	submethodNames := methodName splitBy: ':'.
-	submethodNames do: [:name |
-		shortMethodName := name = ''
+	submethodNames do: [:aName |
+		shortMethodName := aName = ''
 			ifFalse: [
-				shortSubName := name first asString.
-				name asArray do: [:char |
-					char isUppercase ifTrue: [shortSubName := shortSubName, char asString].
-					char = $: ifTrue: [shortSubName := shortSubName, char asString]].
+				shortSubName := aName first asString.
+				aName asArray do: [:aChar |
+					aChar isUppercase ifTrue: [shortSubName := shortSubName, aChar asString].
+					aChar = $: ifTrue: [shortSubName := shortSubName, aChar asString]].
 				'{1}:{2}' format: { shortMethodName . shortSubName }]
 			ifTrue: [shortMethodName, ':']]. "if last one is an empty string the method must take parameters"
 	

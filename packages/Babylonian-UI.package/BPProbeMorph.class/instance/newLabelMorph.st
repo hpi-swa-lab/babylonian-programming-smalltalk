@@ -8,13 +8,14 @@ newLabelMorph
 	labelSource := labelSource copyFrom: 2 to: (labelSource size - 1 max: 1). "Removes the quotes brackets"
 	labelFieldMorph := (self 
 		editFieldInitialContent: labelSource
-		onChange: [:str | 
-			self annotation label: ('''{1}''' format: {str}). "add quotes about label"
+		onChange: [:aString | 
+			self annotation label: ('''{1}''' format: {aString}). "add quotes about label"
 			self codeContentChanged.
 			]
 		onAccept: [:str | 
 			self containingBrowser codeTextMorph accept]).
-	labelFieldMorph balloonText: 'Write a label that will be printed along the examples in the Printbugger.'.	
+	labelFieldMorph balloonText: 'Write a label that will be printed along the examples in the Printbugger.'.
+	labelFieldMorph hResizing: #spaceFill.
 		
 	container addMorph: labelFieldMorph.
 	

@@ -2,20 +2,7 @@ private - ui
 updateExpressionMorphIfNecessary
 	
 	| expressionBox |
-	(widgetsMorph submorphNamed: #expressionBox) ifNil: [
-		widgetsMorph addMorphBack: ( 
-			Morph new
-				name: #expressionBox; 
-				color: Color transparent; 
-				changeTableLayout; 
-				layoutInset: 0;
-				listDirection: #leftToRight; 
-				vResizing: #shrinkWrap;
-				hResizing: #spaceFill;
-				cellPositioning: #topLeft;
-				cellGap: 1;
-				yourself)].
-	expressionBox := widgetsMorph submorphNamed: #expressionBox.
+	expressionBox := self ensureInputBoxNamed: #expressionBox atFront: false.
 	
 	self annotation hasExpression 
 		ifTrue: [
@@ -26,5 +13,5 @@ updateExpressionMorphIfNecessary
 		ifFalse: [
 			expressionMorph ifNotNil: [:aMorph | aMorph abandon].
 			addExpressionMorph ifNil: [
-				addExpressionMorph := self newAddExpressionMorph].
+				addExpressionMorph := self newButtonMorphWithLabel: 'set expression' doOnClick: #setExpressionButtonClicked].
 			expressionBox addMorphBack: addExpressionMorph].
