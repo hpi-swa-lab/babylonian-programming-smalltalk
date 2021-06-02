@@ -1,0 +1,15 @@
+{
+	"category" : "Babylonian-Printbugger",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"canvasMorph",
+		"scrollPane" ],
+	"name" : "BPPrintbugger",
+	"pools" : [
+		 ],
+	"super" : "SystemWindow",
+	"type" : "normal" }

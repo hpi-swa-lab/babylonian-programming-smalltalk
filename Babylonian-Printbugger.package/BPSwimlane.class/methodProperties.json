@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"compilerClass" : "jb 5/31/2021 14:15",
+		"newFor:" : "jb 5/28/2021 18:01" },
+	"instance" : {
+		"clearSubmorphs" : "jb 5/28/2021 18:05",
+		"example:" : "jb 5/28/2021 18:01",
+		"initialize" : "jb 5/28/2021 17:21",
+		"initializeProperties" : "jb 5/28/2021 17:21",
+		"newTitleMorphFor:" : "jb 5/28/2021 17:21",
+		"update:with:" : "jb 5/28/2021 18:15",
+		"visualize" : "jb 5/28/2021 17:59",
+		"visualizeLineFor:" : "jb 5/28/2021 17:21",
+		"visualizeLinesFor:" : "jb 5/28/2021 17:22" } }
