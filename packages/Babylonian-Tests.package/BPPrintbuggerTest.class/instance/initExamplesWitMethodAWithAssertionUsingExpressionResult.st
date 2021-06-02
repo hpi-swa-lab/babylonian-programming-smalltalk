@@ -10,5 +10,11 @@ initExamplesWitMethodAWithAssertionUsingExpressionResult
 	BPExamples value add: example2.
 	
 	"Force update notifications"
+	example1 isActive: true.
+	example2 isActive: true.
 	example1 changed: #exampleIsActive with: self.
 	example2 changed: #exampleIsActive with: self.
+	
+	"Activate that probes have trace values"
+	example1 trace.
+	example2 trace.

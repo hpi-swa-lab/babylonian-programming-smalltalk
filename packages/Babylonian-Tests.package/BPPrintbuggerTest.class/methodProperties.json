@@ -2,15 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initExamples" : "jb 6/2/2021 21:36",
-		"initExamplesWitMethodAWithAssertionUsingExpressionResult" : "jb 6/2/2021 21:56",
+		"initExample1WithMethodWithMultipleProbes" : "jb 6/2/2021 23:31",
+		"initExamplesWitMethodAWithAssertionUsingExpressionResult" : "jb 6/2/2021 23:36",
 		"setUp" : "jb 6/2/2021 21:45",
 		"tearDown" : "jb 6/2/2021 21:51",
 		"testShows2SwimlanesFor2ActiveExamples" : "jb 6/2/2021 21:56",
 		"testShowsNoSwimlanesForNoActiveExamples" : "jb 5/31/2021 14:20",
-		"testSwimlaneDisplaysTraceValuesForOneProbe" : "jb 5/31/2021 13:42",
-		"testSwimlaneDisplaysTraceValuesForTwoProbesChronologicallySorted" : "jb 5/31/2021 13:42",
-		"testSwimlaneEmptyForNoProbes" : "jb 5/31/2021 13:42",
-		"testSwimlaneUpdatesWithNewProbe" : "jb 5/31/2021 13:42",
+		"testSwimlaneDisplaysTraceValuesForOneProbe" : "jb 6/2/2021 23:45",
+		"testSwimlaneDisplaysTraceValuesForTwoProbesChronologicallySorted" : "jb 6/2/2021 23:35",
+		"testSwimlaneEmptyForNoProbes" : "jb 6/3/2021 00:18",
 		"testUpdatesSwimlanesAfterDeactivatingExample" : "jb 6/2/2021 21:57",
 		"testUpdatesSwimlanesAfterNewActiveExample" : "jb 6/2/2021 21:57" } }
