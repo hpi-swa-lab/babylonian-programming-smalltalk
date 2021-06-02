@@ -1,14 +1,16 @@
 {
 	"class" : {
-		"compilerClass" : "jb 5/31/2021 14:19" },
+		 },
 	"instance" : {
-		"setUp" : "jb 5/31/2021 14:33",
-		"tearDown" : "jb 5/31/2021 13:53",
-		"testShows2SwimlanesFor2ActiveExamples" : "jb 5/31/2021 14:49",
+		"initExamples" : "jb 6/2/2021 21:36",
+		"initExamplesWitMethodAWithAssertionUsingExpressionResult" : "jb 6/2/2021 21:56",
+		"setUp" : "jb 6/2/2021 21:45",
+		"tearDown" : "jb 6/2/2021 21:51",
+		"testShows2SwimlanesFor2ActiveExamples" : "jb 6/2/2021 21:56",
 		"testShowsNoSwimlanesForNoActiveExamples" : "jb 5/31/2021 14:20",
 		"testSwimlaneDisplaysTraceValuesForOneProbe" : "jb 5/31/2021 13:42",
 		"testSwimlaneDisplaysTraceValuesForTwoProbesChronologicallySorted" : "jb 5/31/2021 13:42",
 		"testSwimlaneEmptyForNoProbes" : "jb 5/31/2021 13:42",
 		"testSwimlaneUpdatesWithNewProbe" : "jb 5/31/2021 13:42",
-		"testUpdatesSwimlanesAfterDeactivatingExample" : "jb 5/31/2021 13:42",
-		"testUpdatesSwimlanesAfterNewActiveExample" : "jb 5/31/2021 13:42" } }
+		"testUpdatesSwimlanesAfterDeactivatingExample" : "jb 6/2/2021 21:57",
+		"testUpdatesSwimlanesAfterNewActiveExample" : "jb 6/2/2021 21:57" } }

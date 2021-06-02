@@ -7,4 +7,4 @@ setUp
 	newSource := ({'methodB'} , {'<layer: #bpInstrumented>'} , instrumentedSource lines copyWithoutFirst) joinSeparatedBy: String cr. 
 	BPTestManuallyInstrumentedClass compileSilently: newSource.
 	printbugger := BPPrintbugger new.
-	BPExamples value removeAll: BPExamples value activeExamples.
+	BPExamples value activeExamples do: [:anExample | anExample isActive:false].
