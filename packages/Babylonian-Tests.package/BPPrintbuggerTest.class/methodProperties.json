@@ -4,8 +4,9 @@
 	"instance" : {
 		"initExample1WithMethodWithMultipleProbes" : "jb 6/2/2021 23:31",
 		"initExamplesWitMethodAWithAssertionUsingExpressionResult" : "jb 6/2/2021 23:36",
-		"setUp" : "jb 6/2/2021 21:45",
-		"tearDown" : "jb 6/2/2021 21:51",
+		"runCase" : "jb 6/3/2021 14:18",
+		"setUp" : "jb 6/3/2021 14:19",
+		"tearDown" : "jb 6/3/2021 14:19",
 		"testShows2SwimlanesFor2ActiveExamples" : "jb 6/2/2021 21:56",
 		"testShowsNoSwimlanesForNoActiveExamples" : "jb 5/31/2021 14:20",
 		"testSwimlaneDisplaysTraceValuesForOneProbe" : "jb 6/2/2021 23:45",
