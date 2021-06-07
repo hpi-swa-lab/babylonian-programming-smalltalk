@@ -5,10 +5,12 @@
 	"instance" : {
 		"clearSubmorphs" : "jb 6/2/2021 22:03",
 		"example:" : "jb 6/2/2021 22:03",
+		"haltButtonClickedFor:and:" : "lu 6/2/2021 23:34",
 		"initialize" : "jb 6/2/2021 22:03",
 		"initializeProperties" : "jb 6/2/2021 22:03",
+		"newHaltButtonFor:" : "lu 6/2/2021 23:34",
 		"newTitleMorphFor:" : "jb 6/2/2021 22:03",
 		"update:with:" : "jb 6/2/2021 22:03",
 		"visualize" : "jb 6/2/2021 22:03",
-		"visualizeLineFor:" : "jb 6/2/2021 22:03",
+		"visualizeLineFor:" : "lu 6/2/2021 23:32",
 		"visualizeLinesFor:" : "jb 6/2/2021 22:03" } }

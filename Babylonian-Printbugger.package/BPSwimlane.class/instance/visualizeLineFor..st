@@ -1,13 +1,14 @@
 private
 visualizeLineFor: aTraceValue
 	
-	|name valueMorph blockMorph|
+	|name valueMorph blockMorph button|
 	"name := aProbe label asMorph." self flag: #todo. "get the actual label"
 	name:= aTraceValue belongingProbeId asMorph.
 	valueMorph := aTraceValue asValueMorph.
 	blockMorph := Morph new 
 						color: Color gray;
 						extent: (14@(valueMorph height + 20)).
+	button := self newHaltButtonFor: (aTraceValue belongingProbeId).
 	
 	^ Morph new
 		color: Color transparent;
@@ -16,5 +17,5 @@ visualizeLineFor: aTraceValue
 		cellPositioning: #center;
 		vResizing: #shrinkWrap;
 		cellInset: 10@0;
-		addAllMorphsBack: {blockMorph. name. valueMorph.};
+		addAllMorphsBack: {blockMorph. button. name. valueMorph.};
 		yourself.
