@@ -1,6 +1,7 @@
 accessing
 at: aKey putInformation: anObject
 	
+	aKey = #label ifTrue: [^ self label: anObject].
 	^ aKey = #expression
 		ifTrue: [
 			(anObject isString 
