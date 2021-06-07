@@ -7,7 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"expressionMorph",
-		"addExpressionMorph" ],
+		"addExpressionMorph",
+		"labelMorph",
+		"addLabelMorph" ],
 	"name" : "BPProbeMorph",
 	"pools" : [
 		 ],
