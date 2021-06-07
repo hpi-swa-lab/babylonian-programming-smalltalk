@@ -1,4 +1,4 @@
-as yet unclassified
+class list
 classIconAt: anIndex
 	
 	| baseIcon examplesIcon combinedIcon |
