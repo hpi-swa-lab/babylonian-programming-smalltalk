@@ -13,7 +13,7 @@ addArgumentScriptMorphs
 
 		"Editing field"
 		editField := self
-			editFieldInitialContent: (self example argumentScriptStringAt: index)
+			editFieldStyledInitialContent: (self example argumentScriptStringAt: index)
 			onChange: [:str | 
 				self example argumentScripts at: index put: str.
 				self codeContentChanged]
