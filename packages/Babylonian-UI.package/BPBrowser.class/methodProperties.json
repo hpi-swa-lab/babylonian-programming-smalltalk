@@ -1,5 +1,7 @@
 {
 	"class" : {
+		"automaticallyAcceptMethodOnAddingAnnotations" : "pre 6/7/2021 14:34",
+		"automaticallyAcceptMethodOnAddingAnnotations:" : "pre 6/7/2021 14:35",
 		"compilerClass" : "pre 7/26/2019 10:07",
 		"initialize" : "pre 8/25/2020 10:35",
 		"startUp" : "jb 12/3/2020 23:07" },
