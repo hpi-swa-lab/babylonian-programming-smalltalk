@@ -8,7 +8,7 @@ visualizeLineFor: aTraceValue
 	blockMorph := Morph new 
 						color: Color gray;
 						extent: (14@(valueMorph height + 20)).
-	button := self newHaltButtonFor: (aTraceValue belongingProbeId).
+	button := self newHaltButtonFor: aTraceValue.
 	
 	^ Morph new
 		color: Color transparent;

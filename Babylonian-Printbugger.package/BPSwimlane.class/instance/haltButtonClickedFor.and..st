@@ -1,5 +1,8 @@
 private
-haltButtonClickedFor: aProbeId and: aBPExample
+haltButtonClickedFor: aTraceValue and: aBPExample
 	
 	self flag: #todo. "merge with same method from BPProbeMorph"
-	aBPExample traceToHaltAt: aProbeId.
+	self halt.
+	aBPExample traceToHaltAt: (aTraceValue belongingProbeId) onCount: (aTraceValue chronologicalPosition).
+	
+	self flag: #todo. "aTraceValue chronologicalPosition"

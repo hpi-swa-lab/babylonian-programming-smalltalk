@@ -1,5 +1,5 @@
 private
-newHaltButtonFor: aProbeId
+newHaltButtonFor: aTraceValue
 	
 	| exploreButton iconSize|
 	self flag: #todo. "merge with same method from BPProbeMorph"
@@ -18,7 +18,7 @@ newHaltButtonFor: aProbeId
 	"set action"
 	exploreButton 
 		actionSelector: #haltButtonClickedFor:and:;
-		arguments: {aProbeId . example};
+		arguments: {aTraceValue . example};
 		target: self;
 		balloonText: 'click to open a debugger at the first invocation of this expression'.
 	^ exploreButton
