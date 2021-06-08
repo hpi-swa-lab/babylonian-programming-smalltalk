@@ -2,7 +2,7 @@ private - ui
 newExpressionMorph
 	
 	| container expressionSource expressionFieldMorph |
-	container := self newContainerMorph.
+	container := self newLabelContainerMorph.
 		
 	expressionSource := self annotation hasExpression ifTrue: [self annotation expression asString] ifFalse: [''].
 	expressionSource := expressionSource copyFrom: 2 to: (expressionSource size - 1 max: 1). "Removes the square brackets"

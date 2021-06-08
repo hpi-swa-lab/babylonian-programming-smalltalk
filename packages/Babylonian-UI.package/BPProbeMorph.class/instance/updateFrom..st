@@ -6,6 +6,7 @@ updateFrom: traces
 		removeLinesWithoutCurrentTrace: traces;
 		updateLabelMorphIfNecessary;
 		updateExpressionMorphIfNecessary.
+		
 	self relevantTracesOf: traces do: [:aTrace | | valuesMorph scrollPane |
 			lineMorph := self ensureLineMorphFor: aTrace.
 			scrollPane := (lineMorph submorphNamed: #scrollWrapper) submorphNamed: #scrollPane.
