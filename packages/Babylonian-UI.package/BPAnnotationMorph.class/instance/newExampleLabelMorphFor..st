@@ -3,8 +3,8 @@ newExampleLabelMorphFor: anExample
 	
 	| exampleLabel |
 	exampleLabel := ((String 
-		streamContents: [:str | str nextPutAll: (anExample exampleName padded: #right to: 6 with: Character space)] 
-		limitedTo: 6), '...') asText.
+		streamContents: [:str | str nextPutAll: (anExample exampleName padded: #right to: 9 with: Character space)] 
+		limitedTo: 9), '...') asText.
 	exampleLabel addAttribute: (BPPluggableTextAttribute new evalBlock: [
 		ToolSet 
 			browse: anExample method methodClass 
