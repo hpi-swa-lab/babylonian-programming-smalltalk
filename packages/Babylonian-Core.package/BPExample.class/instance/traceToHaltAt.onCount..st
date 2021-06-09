@@ -5,16 +5,19 @@ traceToHaltAt: aProbeId onCount: aChronologicalPosition
 	only to bring us to the probe as quickly as possible"
 	
 	| exampleExecution |
-	self flag: #todo. "merge with self traceToHaltAt:"
 	exampleExecution := [[([self execute] bpTraceForExample: self andHaltAt: aProbeId onCount: aChronologicalPosition)]
 		on: BPExampleExecutionInterrupted
-		do: [:anError | | methodContext process | 	
+		do: [:anError | | methodContext process traceMethodReferences |
+			traceMethodReferences := {
+				(Object>>#bpTrace:forProbe:inContext:) reference . 
+				(Object>>#bpTrace:through:forProbe:inContext:) reference}.
 			methodContext := anError signalerContext findContextSuchThat: [:aContext | 
-				aContext method reference = self method reference].
+				(traceMethodReferences includes: aContext method reference) and: [
+					aContext isExecutingBlock not]].
 			process := Processor activeProcess.
 			ToolSet default 
 					debugProcess: process
-					context: methodContext
+					context: methodContext sender
 					label: anError printString
 					contents: nil
 					fullView: true]].
