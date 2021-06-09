@@ -2,7 +2,7 @@ private - ui
 editFieldFor: model text: getTextSelector onChange: setTextSelector onAccept: acceptTextSelector
 	
 	| pluggableTextMorph | 
-	pluggableTextMorph := PluggableTextMorph 
+	pluggableTextMorph := PluggableTextMorphPlus
 		on: model
 		text: getTextSelector
 		accept: acceptTextSelector.

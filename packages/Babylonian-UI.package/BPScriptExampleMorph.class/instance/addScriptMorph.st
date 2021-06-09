@@ -7,7 +7,7 @@ addScriptMorph
 	container addMorphBack: 'script: ' asMorph.
 	
 	editField := (self
-			editFieldInitialContent: self example script
+			editFieldStyledInitialContent: self example script
 			onChange: [:str | 
 				self example script: str.
 				self codeContentChanged]

@@ -6,4 +6,5 @@ testNewExample
 	
 	self 
 		assert: example method = (BPTestExamplesClass>>#binarySearchIn:theElement:) compiledMethod;
-		assert: example argumentScripts size = 2.
+		assert: example argumentScripts size = 2;
+		assert: example receiverConstructor = 'BPTestExamplesClass new'.

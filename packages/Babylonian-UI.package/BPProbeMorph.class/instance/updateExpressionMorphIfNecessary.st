@@ -1,17 +1,18 @@
 private - ui
 updateExpressionMorphIfNecessary
 	
-	| expressionBox |
-	expressionBox := self ensureInputBoxNamed: #expressionBox atFront: false.
+	| inputsBox |
+	inputsBox := self ensureInputBoxNamed: #inputsBox atFront: false.
 	
 	self annotation hasExpression 
 		ifTrue: [
 			addExpressionMorph ifNotNil: [:aMorph | aMorph abandon].
-			expressionMorph ifNil: [
-				expressionMorph := self newExpressionMorph].
-			expressionBox addMorphBack: expressionMorph]
+			expressionMorph ifNil: [expressionMorph := self newExpressionMorph].
+			"Hacky!"
+			expressionMorph submorphs first model setString: self annotation expression.
+			inputsBox addMorphFront: expressionMorph.]
 		ifFalse: [
 			expressionMorph ifNotNil: [:aMorph | aMorph abandon].
 			addExpressionMorph ifNil: [
 				addExpressionMorph := self newButtonMorphWithLabel: 'set expression' doOnClick: #setExpressionButtonClicked].
-			expressionBox addMorphBack: addExpressionMorph].
+			inputsBox addMorphFront: addExpressionMorph].

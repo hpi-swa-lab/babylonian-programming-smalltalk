@@ -19,6 +19,7 @@
 		"testTracingExecutesMethodOnTheConstructedReceiver" : "jb 12/7/2020 19:11",
 		"testTracingOfAssignments" : "jb 12/7/2020 19:11",
 		"testTracingRecordsASerializedStack" : "jb 12/7/2020 19:11",
+		"testTracingRecordsDuringProbeExpression" : "pre 6/8/2021 11:05",
 		"testTracingRecordsValues" : "jb 12/7/2020 19:11",
 		"testTracingRecordsValuesInReplacementsBaseCase" : "jb 12/7/2020 19:11",
 		"testTracingRecordsValuesTransformedByTheProbeExpression" : "jb 12/7/2020 19:11",

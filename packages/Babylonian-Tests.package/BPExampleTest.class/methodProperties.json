@@ -27,7 +27,7 @@
 		"testLiveSpecimanExampleDoesNotExist" : "jb 12/7/2020 19:08",
 		"testMethodExamplesCanAccessArgumentsInTheSetup" : "pre 5/3/2021 12:12",
 		"testMethodExamplesCanAccessArgumentsInTheTeardown" : "pre 5/3/2021 12:12",
-		"testNewExample" : "pre 1/6/2021 19:04",
+		"testNewExample" : "pre 6/7/2021 15:12",
 		"testNewExampleArePartOfTheirMethod" : "pre 1/6/2021 19:06",
 		"testRemovingAnExampleNotifiesDependents" : "pre 5/20/2021 15:30",
 		"update:" : "pre 1/6/2021 19:07" } }
