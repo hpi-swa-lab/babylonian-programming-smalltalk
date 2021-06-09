@@ -1,6 +1,13 @@
 serialization
 startTag
 	
-	^ self hasExpression
-		ifFalse: ['"<bpProbe id: {1}>"' format: {self id}]
-		ifTrue: ['"<bpProbe id: {1} expression: {2}>"' format: {self id . self expression}]
+	| label expression |
+	label := self hasLabel 
+		ifTrue: [' label: {1}' format: {self label}] 
+		ifFalse: [''].
+	expression := self hasExpression 
+		ifTrue: [' expression: {1}' format: {self expression}] 
+		ifFalse: [''].
+	
+	^ '"<bpProbe id: {1}{2}{3}>"' format: {self id . label . expression}
+	

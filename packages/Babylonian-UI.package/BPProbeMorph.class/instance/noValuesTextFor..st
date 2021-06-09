@@ -6,5 +6,6 @@ noValuesTextFor: aTrace
 		ifTrue: ['']
 		ifFalse: [' yet']).
 	^ (Text fromString: text) 
-		addAttribute: TextColor gray; 
+		addAttribute: (TextColor color: Color lightGray); 
+		addAttribute: TextEmphasis italic;
 		yourself

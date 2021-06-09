@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"AutoAcceptOnAddingAnnotations" ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],

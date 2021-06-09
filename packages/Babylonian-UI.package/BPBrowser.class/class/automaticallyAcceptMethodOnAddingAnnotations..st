@@ -1,0 +1,4 @@
+preferences
+automaticallyAcceptMethodOnAddingAnnotations: aBoolean
+	
+	AutoAcceptOnAddingAnnotations := aBoolean

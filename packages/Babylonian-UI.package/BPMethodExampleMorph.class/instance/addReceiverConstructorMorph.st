@@ -11,7 +11,7 @@ addReceiverConstructorMorph
 	container addMorphBack: labelMorph.
 	
 	editField := (self
-			editFieldInitialContent: self example receiverConstructorString
+			editFieldStyledInitialContent: self example receiverConstructorString
 			onChange: [:str | 
 				self example receiverConstructor: str.
 				self codeContentChanged]
