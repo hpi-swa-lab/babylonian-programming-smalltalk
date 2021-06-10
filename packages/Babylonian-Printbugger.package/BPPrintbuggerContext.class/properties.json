@@ -4,13 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "jb 6/3/2021 01:11",
+	"commentStamp" : "",
 	"instvars" : [
-		"canvasMorph",
-		"scrollPane",
-		"context" ],
-	"name" : "BPPrintbugger",
+		"methodToCount" ],
+	"name" : "BPPrintbuggerContext",
 	"pools" : [
 		 ],
-	"super" : "SystemWindow",
+	"super" : "Object",
 	"type" : "normal" }

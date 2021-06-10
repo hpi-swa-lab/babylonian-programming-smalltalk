@@ -1,13 +1,19 @@
 {
 	"class" : {
+		"barColorScheme" : "jb 6/11/2021 01:08",
 		"compilerClass" : "jb 6/2/2021 22:04",
-		"newFor:" : "jb 6/2/2021 22:04" },
+		"newFor:" : "jb 6/10/2021 23:33",
+		"newFor:withContext:" : "jb 6/10/2021 23:24" },
 	"instance" : {
+		"colorFor:in:" : "jb 6/11/2021 01:04",
+		"context:" : "jb 6/10/2021 23:26",
 		"example:" : "jb 6/10/2021 15:06",
-		"initialize" : "jb 6/2/2021 22:03",
+		"initialize" : "jb 6/10/2021 23:34",
 		"initializeProperties" : "jb 6/2/2021 22:03",
 		"newTitleMorphFor:" : "jb 6/2/2021 22:03",
-		"update:with:" : "jb 6/10/2021 15:31",
+		"update:" : "jb 6/11/2021 01:26",
+		"update:with:" : "jb 6/10/2021 23:28",
+		"updateLayoutToContext" : "jb 6/11/2021 00:33",
 		"visualize" : "jb 6/2/2021 22:03",
-		"visualizeLineFor:" : "jb 6/10/2021 15:17",
-		"visualizeLinesFor:" : "jb 6/2/2021 22:03" } }
+		"visualizeLineFor:" : "jb 6/11/2021 00:10",
+		"visualizeLinesFor:" : "jb 6/11/2021 00:34" } }

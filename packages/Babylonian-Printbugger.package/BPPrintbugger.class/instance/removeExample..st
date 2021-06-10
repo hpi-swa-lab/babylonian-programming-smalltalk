@@ -1,7 +1,8 @@
 private
-removeExample: anExample
+removeExample: aBPExample
 	
-	canvasMorph removeMorph: (canvasMorph submorphNamed: anExample uniqueIdentifier 
-		ifNone: [Exception signal: 'Attempted to remove non-existing swimlane for example.']).
+	canvasMorph removeMorph: (canvasMorph submorphNamed: aBPExample uniqueIdentifier 
+		ifNone: ["don't care"]).
 	
+	context untrack: aBPExample.
 	BPExamples value activeExamples ifEmpty: [canvasMorph addMorph: self newEmptyExamplesNotification].
