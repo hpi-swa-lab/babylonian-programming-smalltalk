@@ -7,7 +7,7 @@ trace: aBlock through: expressionProbe forProbe: aProbeId inContext: aContext
 	
 	result := self traceBlock: aBlock forProbe: aProbeId.
 	trace 
-		trace: (expressionProbe cull: result)
+		trace: (#bpInstrumented withLayerDo: [expressionProbe cull: result])
 		forId: aProbeId 
 		inContext: aContext.
 		
