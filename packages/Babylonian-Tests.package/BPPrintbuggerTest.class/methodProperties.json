@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"initExample1WithMethodWithMultipleProbes" : "jb 6/10/2021 15:54",
+		"initExamplesWitMethodAWithAssertionUsingExpressionResult" : "jb 6/10/2021 15:54",
+		"runCase" : "jb 6/3/2021 14:18",
+		"setUp" : "jb 6/10/2021 15:53",
+		"tearDown" : "jb 6/10/2021 15:54",
+		"testShows2SwimlanesFor2ActiveExamples" : "jb 6/2/2021 21:56",
+		"testShowsNoSwimlanesForNoActiveExamples" : "jb 5/31/2021 14:20",
+		"testSwimlaneDisplaysTraceValuesForOneProbe" : "jb 6/10/2021 13:27",
+		"testSwimlaneDisplaysTraceValuesForTwoProbesChronologicallySorted" : "jb 6/2/2021 23:35",
+		"testSwimlaneEmptyForNoProbes" : "jb 6/10/2021 13:27",
+		"testUpdatesSwimlanesAfterDeactivatingExample" : "jb 6/10/2021 13:26",
+		"testUpdatesSwimlanesAfterNewActiveExample" : "jb 6/2/2021 21:57" } }

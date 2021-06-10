@@ -1,0 +1,16 @@
+{
+	"category" : "Babylonian-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"printbugger",
+		"example1",
+		"example2" ],
+	"name" : "BPPrintbuggerTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
