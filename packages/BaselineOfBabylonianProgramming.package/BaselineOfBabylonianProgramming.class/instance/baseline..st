@@ -15,6 +15,7 @@ baseline: spec
 				package: 'ContextS2-Core' with:
  					[ spec repository: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/ContextSTrunk' ];
 				package: 'Babylonian-Core' with: [spec requires: #('Babylonian-Compiler' 'ContextS2-Core')];
+				package: 'Babylonian-Printbugger' with: [spec requires: #('Babylonian-Core')];
 				package: 'Babylonian-Compiler' with: [
 					spec 
 						requires: #('Ohm' 'PEG');
