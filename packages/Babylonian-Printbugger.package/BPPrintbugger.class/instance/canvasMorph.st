@@ -1,0 +1,4 @@
+private
+canvasMorph
+
+	^ canvasMorph
