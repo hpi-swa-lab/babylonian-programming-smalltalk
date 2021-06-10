@@ -25,8 +25,11 @@ baseline: spec
 					spec 
 						requires: #('Babylonian-Core' 'IconsBase');
 						postLoadDoIt: #postLoadUI];
+				package: 'Babylonian-Demo' with: [];
 				yourself.
 			spec
 				group: 'default' with: #('Babylonian-Core' 'Babylonian-UI');
-				group: 'tests' with: #('Babylonian-Tests')];
+				group: 'tests' with: #('Babylonian-Tests');
+				group: 'full' with: #(tests 'Babylonian-Demo')];
+				
 		yourself
