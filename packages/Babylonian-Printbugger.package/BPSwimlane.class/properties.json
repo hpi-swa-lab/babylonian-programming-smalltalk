@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-Printbugger",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jb 6/3/2021 01:54",
+	"instvars" : [
+		"example" ],
+	"name" : "BPSwimlane",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }
