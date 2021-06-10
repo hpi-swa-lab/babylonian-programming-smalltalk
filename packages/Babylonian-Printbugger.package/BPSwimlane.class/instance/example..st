@@ -1,6 +1,6 @@
 accessing
 example: aBPExample
 	
-	example ifNotNil: [example traceInformation removeDependent: self].
+	example ifNotNil: [example removeDependent: self].
 	example := aBPExample.
-	example traceInformation addDependent: self.
+	example addDependent: self.

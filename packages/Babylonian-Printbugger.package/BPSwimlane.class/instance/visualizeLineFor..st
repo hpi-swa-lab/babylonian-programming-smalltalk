@@ -7,7 +7,7 @@ visualizeLineFor: aTraceValue
 	valueMorph := aTraceValue asValueMorph.
 	barMorph := Morph new 
 						color: Color gray;
-						extent: (14@(valueMorph imageForm height + 20)).
+						extent: (14@(valueMorph fullBounds height + 20)).
 	
 	^ Morph new
 		color: Color transparent;

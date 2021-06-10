@@ -2,11 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initExample1WithMethodWithMultipleProbes" : "jb 6/10/2021 13:37",
-		"initExamplesWitMethodAWithAssertionUsingExpressionResult" : "jb 6/10/2021 13:37",
+		"initExample1WithMethodWithMultipleProbes" : "jb 6/10/2021 15:54",
+		"initExamplesWitMethodAWithAssertionUsingExpressionResult" : "jb 6/10/2021 15:54",
 		"runCase" : "jb 6/3/2021 14:18",
-		"setUp" : "jb 6/10/2021 13:37",
-		"tearDown" : "jb 6/10/2021 13:43",
+		"setUp" : "jb 6/10/2021 15:53",
+		"tearDown" : "jb 6/10/2021 15:54",
 		"testShows2SwimlanesFor2ActiveExamples" : "jb 6/2/2021 21:56",
 		"testShowsNoSwimlanesForNoActiveExamples" : "jb 5/31/2021 14:20",
 		"testSwimlaneDisplaysTraceValuesForOneProbe" : "jb 6/10/2021 13:27",
