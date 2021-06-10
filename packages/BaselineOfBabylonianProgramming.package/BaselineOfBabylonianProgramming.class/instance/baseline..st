@@ -19,7 +19,7 @@ baseline: spec
 					spec 
 						requires: #('Ohm' 'PEG');
 						postLoadDoIt: #postLoadCompiler];
-				package: 'Babylonian-Tests' with: [spec requires: #('Babylonian-Core' 'Babylonian-UI')];
+				package: 'Babylonian-Tests' with: [spec requires: #('Babylonian-Core' 'Babylonian-UI' 'Babylonian-Printbugger')];
 				package: 'Babylonian-UI' with: [
 					spec 
 						requires: #('Babylonian-Core' 'IconsBase');
