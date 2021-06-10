@@ -8,4 +8,4 @@ annotation: anExamplesAnnotation
 		ExampleCollapsedState 
 			ifNil: [m collapse]
 			ifNotNil: [(ExampleCollapsedState at: m example uniqueIdentifier 
-				ifAbsent: [true]) ifTrue: [m collapse]]].
+				ifAbsentPut: [false]) ifTrue: [m collapse]]].
