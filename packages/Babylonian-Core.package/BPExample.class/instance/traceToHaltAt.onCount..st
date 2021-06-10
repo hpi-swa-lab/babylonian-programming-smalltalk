@@ -1,11 +1,11 @@
 tracing
-traceToHaltAt: aProbeId onCount: aChronologicalPosition
+traceToHaltAt: aProbeId onCount: aCount
 	
 	"We do not care for the traceInformation as this is not intended to record anything but
 	only to bring us to the probe as quickly as possible"
 	
 	| exampleExecution |
-	exampleExecution := [[([self execute] bpTraceForExample: self andHaltAt: aProbeId onCount: aChronologicalPosition)]
+	exampleExecution := [[([self execute] bpTraceForExample: self andHaltAt: aProbeId onCount: aCount)]
 		on: BPExampleExecutionInterrupted
 		do: [:anError | | methodContext process traceMethodReferences |
 			traceMethodReferences := {

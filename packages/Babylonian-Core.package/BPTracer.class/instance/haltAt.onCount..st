@@ -1,6 +1,6 @@
 accessing
-haltAt: aProbeId onCount: aChronologicalPosition
+haltAt: aProbeId onCount: aCount
 	
 	haltProbeId := aProbeId.
-	haltChronologicalPosition := aChronologicalPosition.
-	haltProbeIdCount := 0.
+	haltProbeIdCount := aCount.
+	probeIdCount := 1.

@@ -8,8 +8,8 @@
 	"instvars" : [
 		"trace",
 		"haltProbeId",
-		"haltChronologicalPosition",
-		"haltProbeIdCount" ],
+		"haltProbeIdCount",
+		"probeIdCount" ],
 	"name" : "BPTracer",
 	"pools" : [
 		 ],
