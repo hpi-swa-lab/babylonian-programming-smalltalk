@@ -1,0 +1,4 @@
+instrumenting
+uninstall
+
+	self removeRecordingLayer.

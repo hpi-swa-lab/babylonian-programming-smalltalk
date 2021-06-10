@@ -7,10 +7,11 @@
 	"commentStamp" : "<historical>",
 	"instvars" : [
 		"currentAnnotation",
-		"keywordMessageExtraction",
+		"annotationExtraction",
 		"currentProbeId",
 		"currentBlockId",
-		"inCascade" ],
+		"inCascade",
+		"currentSliderId" ],
 	"name" : "BPSourceRewriter",
 	"pools" : [
 		 ],

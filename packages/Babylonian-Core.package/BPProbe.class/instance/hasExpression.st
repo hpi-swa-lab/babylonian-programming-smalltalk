@@ -1,0 +1,5 @@
+testing
+hasExpression
+	
+	^ expression notNil 
+		

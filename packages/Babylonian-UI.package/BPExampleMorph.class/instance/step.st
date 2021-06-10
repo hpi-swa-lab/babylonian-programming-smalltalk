@@ -1,8 +1,12 @@
 stepping and presenter
 step
-
+	
 	| trace |
-	trace := (BPTraces value at: self example ifAbsent: [BPTrace new]) ifNil: [BPTrace new].
-	trace exampleErrored 
+	trace := self example currentTrace.
+	(trace notNil and: [trace exampleErrored])
 		ifTrue: [self ensureErrorIndicatorFor: trace]
 		ifFalse: [self ensureNoErrorIndicator].
+		
+	(trace notNil and: [trace hasTraceCompleted not and: [self example tracingIsStillRunning]])
+		ifTrue: [self ensureLoaderIcon]
+		ifFalse: [self ensureNoLoaderIcon].

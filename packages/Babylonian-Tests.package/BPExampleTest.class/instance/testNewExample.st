@@ -1,8 +1,10 @@
 tests
 testNewExample
-
+	
 	| example |
-	example := BPExample newFor: (BPTestExamplesClass>>#binarySearchIn:theElement:).
+	example := method bpNewExampleFrom: BPMethodExample.
+	
 	self 
-		assert: example method = (BPTestExamplesClass>>#binarySearchIn:theElement:);
-		assert: example argumentScripts size = 2
+		assert: example method = (BPTestExamplesClass>>#binarySearchIn:theElement:) compiledMethod;
+		assert: example argumentScripts size = 2;
+		assert: example receiverConstructor = 'BPTestExamplesClass new'.

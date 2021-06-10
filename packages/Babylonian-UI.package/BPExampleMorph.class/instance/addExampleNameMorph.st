@@ -1,7 +1,6 @@
 private - ui
 addExampleNameMorph
-
-	| nameTextMorph |
+	
 	nameTextMorph := self 
 		editFieldInitialContent: self example exampleName asText
 		onChange: [:str | 
@@ -9,5 +8,9 @@ addExampleNameMorph
 			self example exampleName: str.
 			self codeContentChanged]
 		onAccept: [:str | "nop"].
-	nameTextMorph setTextColor: example color.
+	nameTextMorph 
+		balloonText: 'enter a name for the example';
+		setTextColor: example color;
+		width: 15 * self fontWidth;
+		hideScrollBarsIndefinitely.
 	self addMorphBack: nameTextMorph.

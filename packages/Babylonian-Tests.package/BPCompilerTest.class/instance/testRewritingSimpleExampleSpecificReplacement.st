@@ -1,6 +1,6 @@
 tests
 testRewritingSimpleExampleSpecificReplacement
-
+	
 	self 
 		assertCompilerRewrites: 
 'method
@@ -10,5 +10,4 @@ testRewritingSimpleExampleSpecificReplacement
 'method
 	<layer: #bpInstrumented>
 	<exampleNamed: ''example 1''>
-	self bpBlock: 1 enteredAt: thisContext.
-self bpBlock: 1 leftWith: ((self bpReplace: [2 + 3] with: [100] for: ''Class1>>method>>#''''example 1'''''')) at: thisContext'
+	(self bpReplace: [2 + 3] with: [100] for: ''Class1>>method>>#''''example 1'''''')'.

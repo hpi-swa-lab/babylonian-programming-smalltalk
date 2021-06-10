@@ -3,7 +3,8 @@ aboutToStyle: aStyler
 	
 	(super aboutToStyle: aStyler)
 		ifTrue: [
-				(aStyler respondsTo: #selectedMethod:) ifTrue: [
-					aStyler selectedMethod: self methodReference].
-				^ true]
+				(aStyler respondsTo: #selectedMethod:) 
+					ifTrue: [
+						aStyler selectedMethod: self methodReference].
+						^ true]
 		ifFalse: [^ false]

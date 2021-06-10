@@ -1,17 +1,20 @@
 {
 	"class" : {
-		"forExample:" : "pre 5/8/2019 16:28" },
+		"forExample:" : "jb 12/3/2020 23:06" },
 	"instance" : {
-		"check:after:forAssertion:given:inContext:" : "pre 8/17/2020 10:14",
-		"completeTrace" : "pre 8/17/2020 10:12",
+		"check:after:forAssertion:given:inContext:" : "pre 9/29/2020 16:15",
+		"checkForHaltAt:" : "jb 12/7/2020 18:55",
+		"completeTrace" : "pre 5/6/2021 18:22",
 		"example" : "pre 8/17/2020 10:15",
 		"exampleNameMatches:" : "pre 11/18/2019 13:03",
-		"initialize" : "pre 5/8/2019 16:27",
-		"intermediateTrace" : "pre 8/17/2020 10:18",
+		"haltAt:" : "jb 12/7/2020 18:55",
+		"initialize" : "pre 5/20/2021 14:46",
+		"intermediateTrace" : "pre 5/6/2021 18:23",
+		"recordBlock:enteredFrom:" : "jb 12/7/2020 18:55",
 		"replace:with:" : "pre 5/17/2019 16:43",
 		"replace:with:for:" : "pre 11/18/2019 12:12",
-		"setExample:" : "pre 5/8/2019 16:29",
-		"trace:forProbe:inContext:" : "pre 8/17/2020 10:15",
-		"traceAssignment:previousValues:forProbe:inContext:" : "pre 8/17/2020 10:15",
-		"traceBlock:forProbe:" : "pre 8/17/2020 10:15",
-		"traceException:" : "pre 8/17/2020 10:15" } }
+		"setExample:" : "jb 12/7/2020 18:56",
+		"trace:through:forProbe:inContext:" : "pre 5/31/2021 10:42",
+		"traceAssignment:previousValues:forProbe:inContext:" : "pre 5/6/2021 18:23",
+		"traceBlock:forProbe:" : "jb 12/3/2020 23:22",
+		"traceError:" : "jb 12/7/2020 18:56" } }

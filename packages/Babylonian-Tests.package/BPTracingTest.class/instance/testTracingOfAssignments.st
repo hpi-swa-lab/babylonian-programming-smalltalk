@@ -2,7 +2,7 @@ tests
 testTracingOfAssignments
 
 	| result example traceRecord |
-	example := BPExample new.
+	example := BPMethodExample new.
 	result := [BPTestManuallyInstrumentedClass new methodWithAssignment] bpTraceForExample: example.
 	self assert: (result valuesForProbeId: 1) notEmpty.
 
@@ -10,5 +10,5 @@ testTracingOfAssignments
 	self 
 		assert: 2 equals: traceRecord tracedValue;
 		assert: 1 equals: traceRecord assignedVariableNames size;
-		assert: 62 equals: (traceRecord previousValueOf: 'a')  
+		assert: 62 equals: (traceRecord previousValueOf: 'a').
 	

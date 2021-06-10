@@ -4,10 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "lu 6/1/2021 21:28",
 	"instvars" : [
 		"probeId",
-		"methodReference" ],
+		"expression",
+		"label" ],
 	"name" : "BPProbe",
 	"pools" : [
 		 ],

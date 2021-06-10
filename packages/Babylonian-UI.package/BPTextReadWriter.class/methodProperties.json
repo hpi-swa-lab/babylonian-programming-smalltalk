@@ -2,11 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"activateAttributesEnding:starting:" : "pre 7/3/2019 10:43",
-		"deactivateAttributesEnding:starting:" : "pre 7/3/2019 10:52",
+		"activateAttributesEnding:starting:" : "pre 1/11/2021 14:53",
+		"attributeShouldBeWritten:" : "pre 1/11/2021 14:53",
+		"deactivateAttributesEnding:starting:" : "pre 1/11/2021 14:53",
+		"ignoreExamples" : "pre 1/11/2021 14:54",
+		"initialize" : "pre 1/11/2021 14:55",
 		"nextPut:" : "pre 7/3/2019 10:48",
 		"nextPutAll:" : "pre 7/3/2019 10:45",
-		"nextPutText:" : "pre 7/3/2019 10:40",
-		"writeContent:" : "pre 7/3/2019 10:49",
-		"writeEndTagFor:" : "pre 7/23/2019 12:35",
-		"writeStartTagFor:" : "pre 7/3/2019 10:42" } }
+		"nextPutText:" : "jb 12/7/2020 19:03",
+		"respectExamples" : "pre 1/11/2021 14:54",
+		"writeContent:" : "jb 12/7/2020 19:03",
+		"writeEndTagFor:" : "jb 12/7/2020 19:03",
+		"writeStartTagFor:" : "jb 12/7/2020 19:03" } }

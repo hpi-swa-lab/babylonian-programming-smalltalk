@@ -1,4 +1,4 @@
 ui
 color
-
-	^ Color indexedColors reversed atWrap: self exampleName hash
+	
+	^ BPExample exampleColors atWrap: self exampleName hash

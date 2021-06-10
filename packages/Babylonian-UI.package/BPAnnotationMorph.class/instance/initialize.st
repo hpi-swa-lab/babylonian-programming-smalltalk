@@ -1,13 +1,23 @@
 initialization
 initialize
-
+	
 	super initialize.
-	self color: Color palePeach slightlyLighter.
+	self color: ((ScrollPane basicNew userInterfaceTheme color ifNil: [
+		Color peach lighter]) adjustBrightness: -0.05).
 	self height: self fontHeight.
+	
 	self 
 		changeTableLayout;
 		cellPositioning: #topLeft;
 		listDirection: #leftToRight;
-		hResizing: #shrinkWrap;
 		vResizing: #shrinkWrap;
-		layoutInset: 3.
+		cellInset: 1; 
+		layoutInset: 1.
+		
+	BPStyler 
+		withSidebarAnnotations: [
+			self 
+				hResizing: #rigid;
+				width: 370] 
+		without: [
+			self hResizing: #shrinkWrap].

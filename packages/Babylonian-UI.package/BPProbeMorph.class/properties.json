@@ -6,9 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"displayedTraces" ],
+		"expressionMorph",
+		"addExpressionMorph",
+		"labelMorph",
+		"addLabelMorph" ],
 	"name" : "BPProbeMorph",
 	"pools" : [
 		 ],
-	"super" : "BPAnnotationMorph",
+	"super" : "BPTraceBasedMorph",
 	"type" : "normal" }

@@ -1,11 +1,13 @@
 *Babylonian-Core
 bpTraceWith: tracer
-
+	
+	<bpRelevantMethod>
 	#bpInstrumented withLayerDo: [
 		BPActiveTracer value: tracer during: [
-			self 
+			self
 				on: Error, Halt
 				do: [:e | 
-					BPActiveTracer value traceException: e.
-					BPExampleExecutionInterrupted signal: tracer completeTrace]]].
+					#bpInstrumented withoutLayerDo: [
+						BPActiveTracer value traceError: e.
+						BPExampleExecutionInterrupted signal: tracer completeTrace]]]].
 	^ tracer completeTrace

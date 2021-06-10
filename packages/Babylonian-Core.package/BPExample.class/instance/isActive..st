@@ -1,7 +1,15 @@
 accessing
 isActive: aBoolean
 	
-	isActive := aBoolean.
-	aBoolean 
-		ifFalse: [BPTraces value removeKey: self exampleReference ifAbsent: []]
-		ifTrue: [BPTraces value at: self exampleReference put: nil]
+	aBoolean ~= isActive ifTrue: [
+		isActive := aBoolean.
+		aBoolean 
+			ifTrue: [
+				self liveSpecimen do: [:aSpecimen | 
+					aSpecimen addDependent: BPExamples value]]
+			ifFalse: [
+				self liveSpecimen do: [:aSpecimen |
+					aSpecimen removeDependent: BPExamples value].
+				self ensureTerminatedProcess].
+		self changed: #exampleIsActive with: self.].
+	^ aBoolean

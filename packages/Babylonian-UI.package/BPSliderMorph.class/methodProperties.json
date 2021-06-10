@@ -2,7 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"annotation:" : "pre 1/24/2020 16:13",
-		"createMorphs" : "pre 1/24/2020 16:15",
-		"initialize" : "pre 1/24/2020 16:13",
-		"isSlider" : "pre 1/24/2020 16:14" } }
+		"annotationLabel" : "pre 2/22/2021 12:19",
+		"for:selectContextAt:" : "jb 12/7/2020 19:01",
+		"initialize" : "jb 12/7/2020 19:01",
+		"isSlider" : "pre 1/24/2020 16:14",
+		"removeButtonClicked" : "jb 12/3/2020 22:53",
+		"resetAllFilters" : "pre 9/28/2020 11:19",
+		"selectedContextFor:" : "jb 12/3/2020 22:53",
+		"selectedContextPerExample" : "pre 9/28/2020 09:55",
+		"selectedContextPerExample:" : "pre 9/28/2020 09:55",
+		"textEmphasis" : "pre 9/30/2020 09:33",
+		"updateFrom:" : "pre 1/8/2021 16:51" } }

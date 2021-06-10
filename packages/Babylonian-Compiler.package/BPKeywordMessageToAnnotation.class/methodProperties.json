@@ -7,10 +7,11 @@
 		"BlockLiteral:with:" : "pre 11/18/2019 13:30",
 		"KeywordMessage:with:" : "pre 1/27/2020 20:25",
 		"KeywordMessageArgument:with:" : "pre 1/27/2020 20:26",
-		"KeywordMessageSegment:with:and:" : "pre 11/18/2019 13:22",
+		"KeywordMessageSegment:with:and:" : "jb 12/7/2020 18:03",
 		"Literal:with:" : "pre 11/18/2019 13:31",
+		"NestedExpression:with:andExpression:and:" : "pre 9/22/2020 17:51",
 		"NormalBinaryMessageSend:with:and:" : "pre 3/5/2020 16:22",
-		"NormalKeywordMessage:with:" : "pre 1/27/2020 20:23",
+		"NormalKeywordMessage:with:" : "jb 12/7/2020 18:03",
 		"NormalKeywordMessageArgument:with:with:" : "pre 1/27/2020 20:24",
 		"NormalOperand:with:" : "pre 3/5/2020 17:37",
 		"NormalUnaryMessageSend:with:" : "pre 3/5/2020 16:23",
@@ -18,4 +19,4 @@
 		"Operand:with:" : "pre 11/18/2019 13:29",
 		"UnaryMessageSend:with:" : "pre 3/5/2020 16:23",
 		"currentAnnotation" : "pre 5/10/2019 12:10",
-		"currentAnnotation:" : "pre 5/10/2019 12:10" } }
+		"currentAnnotation:" : "jb 12/7/2020 18:03" } }

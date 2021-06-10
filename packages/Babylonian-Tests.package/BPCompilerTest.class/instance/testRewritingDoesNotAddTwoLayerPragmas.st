@@ -15,5 +15,4 @@ testRewritingDoesNotAddTwoLayerPragmas
 	<exampleNamed: ''remove anchor'' active: true self: #anchoredMorphsInstance with: ''KeyboardEvent new''>
 	  
 	| view previousAnchors  |
-	self bpBlock: 1 enteredAt: thisContext.
-self bpBlock: 1 leftWith: (super keyStroke: evt) at: thisContext.'
+	super keyStroke: evt.'.

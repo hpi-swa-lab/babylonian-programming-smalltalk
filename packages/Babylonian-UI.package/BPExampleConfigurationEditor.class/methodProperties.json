@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"buildWith:" : "pre 1/21/2021 16:31",
+		"example" : "pre 1/21/2021 16:31",
+		"example:" : "pre 1/21/2021 16:31",
+		"setUpScript" : "pre 1/21/2021 16:33",
+		"setUpScript:" : "pre 5/5/2021 18:00",
+		"tearDownScript" : "pre 1/21/2021 16:33",
+		"tearDownScript:" : "pre 5/5/2021 18:00",
+		"windowLabel" : "pre 1/21/2021 16:34" } }

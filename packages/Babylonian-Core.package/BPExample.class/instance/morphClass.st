@@ -1,0 +1,4 @@
+ui
+morphClass
+
+	^ self subclassResponsibility

@@ -1,0 +1,15 @@
+{
+	"category" : "Babylonian-Core-Annotations",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"trace",
+		"tracingProcess" ],
+	"name" : "BPExampleTraceInformation",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

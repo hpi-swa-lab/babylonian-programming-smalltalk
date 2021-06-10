@@ -8,4 +8,4 @@ testStylerSetsAnchorCharacterForProbe
 	
 	self 
 		assert: (formattedSourceCode asString includesSubstring: (Character startOfHeader asString , '2 + 3'));
-		deny: (formattedSourceCode asString includesSubstring: '</bpProbe>')
+		deny: (formattedSourceCode asString includesSubstring: '</bpProbe>').

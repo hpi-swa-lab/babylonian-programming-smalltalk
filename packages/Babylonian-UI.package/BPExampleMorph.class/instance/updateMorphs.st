@@ -1,12 +1,13 @@
 private - ui
 updateMorphs
-
+	
 	self removeAllMorphs.
 	
 	self 
 		addActivationButtonMorph;
+		addCollapseButtonMorph;
+		addLoaderIconHolder;
 		addExampleNameMorph;
-		addReceiverConstructorMorph;
-		addArgumentScriptMorphs;
+		addExampleConfigurationButtonMorph;
+		addExampleSpecificMorphs;
 		addDeleteButtonMorph.
-	

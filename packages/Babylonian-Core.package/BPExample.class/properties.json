@@ -6,11 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"method",
+		"isActive",
 		"exampleName",
-		"receiverConstructor",
-		"argumentScripts",
-		"isActive" ],
+		"method",
+		"traceInformation",
+		"setUpScript",
+		"tearDownScript" ],
 	"name" : "BPExample",
 	"pools" : [
 		 ],

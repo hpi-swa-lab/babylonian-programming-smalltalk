@@ -1,6 +1,6 @@
 tests - annotations
 testRewritingSimpleBinaryMessageOperandProbe
-
+	
 	self 
 		assertCompilerRewrites: 
 'method
@@ -8,5 +8,4 @@ testRewritingSimpleBinaryMessageOperandProbe
 		to:
 'method
 	<layer: #bpInstrumented>
-	self bpBlock: 1 enteredAt: thisContext.
-self bpBlock: 1 leftWith: (2 negated + (self bpTrace: [3 negated] forProbe: 1 inContext: thisContext)) at: thisContext'
+	2 negated + (self bpTrace: [3 negated] forProbe: 1 inContext: thisContext)'.

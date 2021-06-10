@@ -1,8 +1,12 @@
 private
 textForAnnotation: annotation from: aText at: startTagStart
-
+	
 	| newMorph startOfExpressionText expressionText |
-	newMorph := annotation asMorph.
+	newMorph := self annotationMorphFor: annotation.	
+	
+	newMorph ifNil: [
+		"The annotation does not want to be drawn directly"
+		^ '' asText].
 	
 	startOfExpressionText := aText indexOfSubCollection: annotation enclosedExpressionSource startingAt: startTagStart.
 	expressionText := aText copyFrom: startOfExpressionText to: startOfExpressionText + annotation enclosedExpressionSource size - 1.

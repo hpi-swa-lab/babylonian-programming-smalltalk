@@ -1,19 +1,18 @@
-as yet unclassified
+searching
 binarySearch: anElement
 	<exampleNamed: 'basic' active: true self: 'BPSearchCollection newFrom: (1 to: 15)' with: '15'>
-	<exampleNamed: 'not found' self: #numbersUpTo10 with: '20'>
-	<exampleNamed: 'broken example' with: ''>
-
-	| index low high flag | 
+	<exampleNamed: 'not found' active: true self: #numbersUpTo10 with: '20'>
+	<exampleNamed: 'large example' active: true self: #numbersUpTo10000 with: '4532'>
+	| index low high | 
 	low := 1.
-	high := self size.
-	flag := Object new.
-	
-	[high < low] whileFalse: [
-		index := "<bpAssert id: 7345425 for: 'BPSearchCollection>>#binarySearch:>>#''not found''' that: [:result | result < 20]>"high + low // 2"</bpAssert>".	 
+	high := self size. 
+	 
+	[high < low] whileFalseDo: [
+		index := "<bpAssert id: 7345425 for: 'BPSearchCollection>>#binarySearch:>>#''large example''' that: [:result | result between: 4000 and: 5000]>"high + low // 2"</bpAssert>".	 
+		
 		(anElement < (self at: "<bpProbe id: 3156627>"index"</bpProbe>"))
 			ifTrue: [ high := index - 1 ]
 			ifFalse: [
 				anElement > (self at: index)
-					ifTrue: [ "<bpProbe id: 4824443>"low := index + 1 "</bpProbe>"]
-					ifFalse: [ ^ "<bpProbe id: 5475766>"index"</bpProbe>" ]]].
+					ifTrue: [ low := index + 1]
+					ifFalse: [ ^ index ]]].

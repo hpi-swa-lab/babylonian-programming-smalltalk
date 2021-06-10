@@ -1,0 +1,18 @@
+{
+	"category" : "Babylonian-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"displayedTraces",
+		"allTracesCompleted",
+		"tracesMorph",
+		"widgetsMorph",
+		"slidersForFiltering" ],
+	"name" : "BPTraceBasedMorph",
+	"pools" : [
+		 ],
+	"super" : "BPAnnotationMorph",
+	"type" : "normal" }

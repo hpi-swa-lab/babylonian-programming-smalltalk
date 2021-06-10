@@ -2,7 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"bpExamples" : "pre 8/7/2019 10:51",
-		"bpSourceMap" : "pre 7/2/2020 19:22",
+		"bpActiveExamples" : "pre 8/20/2020 15:51",
+		"bpExamples" : "pre 5/10/2021 09:11",
+		"bpNewExampleFrom:" : "pre 5/10/2021 09:11",
+		"bpRemoveExample:" : "pre 5/19/2021 21:35",
 		"compiledMethod" : "pre 7/7/2020 15:39",
-		"runExamples" : "pre 7/13/2020 17:54" } }
+		"isBPInstalled" : "pre 1/11/2021 12:00",
+		"runExamples" : "pre 8/20/2020 12:30" } }

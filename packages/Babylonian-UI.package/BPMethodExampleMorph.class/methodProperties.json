@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addArgumentScriptMorphs" : "pre 6/7/2021 16:28",
+		"addExampleSpecificMorphs" : "pre 1/8/2021 13:48",
+		"addReceiverConstructorMorph" : "pre 6/7/2021 16:28",
+		"newSpecimenSelectionButtonOnClick:" : "pre 2/22/2021 12:09",
+		"selectLiveSpecimenThen:" : "jb 12/7/2020 18:58" } }

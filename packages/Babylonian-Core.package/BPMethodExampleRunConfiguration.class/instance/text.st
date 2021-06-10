@@ -1,0 +1,4 @@
+requestor compatibility
+text
+
+	^ '' asText

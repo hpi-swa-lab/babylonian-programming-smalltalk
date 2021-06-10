@@ -1,0 +1,43 @@
+name: testAndBuild
+on: [push, pull_request]
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        # Select platform(s)
+        os: [ ubuntu-latest, windows-latest ]
+        # Select compatible Smalltalk image(s)
+        smalltalk: [ Squeak64-trunk, Squeak64-5.3 ]
+    name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+      - uses: hpi-swa/setup-smalltalkCI@v1
+        with:
+          smalltalk-image: ${{ matrix.smalltalk }}
+        env: 
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: smalltalkci -s ${{ matrix.smalltalk }}
+        timeout-minutes: 15
+        env: 
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: ./scripts/build_image.sh
+        if: matrix.os == 'ubuntu-latest' && (github.ref == 'refs/heads/main')
+        shell: bash
+      - name: Upload Image
+        uses: actions/upload-artifact@v2
+        if: matrix.os == 'ubuntu-latest' && (github.ref == 'refs/heads/main')
+        with:
+          name: Babylonian-trunk.zip 
+          path: ./deploy/Babylonian-trunk.zip
+      - name: Upload Image
+        uses: actions/upload-artifact@v2
+        if: matrix.os == 'ubuntu-latest' && (github.ref == 'refs/heads/main')
+        with:
+          name: screenshot 
+          path: ./deploy/screenshot-for-readme.png

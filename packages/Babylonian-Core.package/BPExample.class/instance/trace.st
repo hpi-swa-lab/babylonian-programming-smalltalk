@@ -1,4 +1,5 @@
 tracing
 trace
-
-	^ [self execute] bpTraceForExample: self
+	
+	<bpRelevantMethod>
+	^ traceInformation trace: ([self execute] bpTraceForExample: self)

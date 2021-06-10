@@ -1,11 +1,7 @@
 comparing
 = anotherExample
-
-	^ (anotherExample class = self class 
-		and: [self method = anotherExample method]
+	
+	^ anotherExample class = self class 
+		and: [self method reference = anotherExample method reference]
 		and: [self exampleName = anotherExample exampleName]
-		and: [self argumentScripts = anotherExample argumentScripts])
-			or: [(anotherExample class = BPExampleReference) 
-				and: [anotherExample = self exampleReference]]
-
 	

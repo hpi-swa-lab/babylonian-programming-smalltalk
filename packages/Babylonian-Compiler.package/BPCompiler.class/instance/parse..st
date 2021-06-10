@@ -1,6 +1,6 @@
 private
 parse: code
-
+	
 	^ BPSmalltalkGrammar
-				match: code
-				startingFrom: #MethodDeclaration.
+		match: code
+		startingFrom: #MethodDeclaration

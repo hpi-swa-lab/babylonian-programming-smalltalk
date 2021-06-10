@@ -1,4 +1,7 @@
 serialization
 startTag
-
-	self subclassResponsibility
+	
+	<bpRelevantMethod>
+	"This is used for serialization, for parsing see #enclosedExpressionSourceCode and #startTagSource"
+	
+	self subclassResponsibility.

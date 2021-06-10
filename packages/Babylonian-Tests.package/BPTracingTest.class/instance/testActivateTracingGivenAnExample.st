@@ -2,7 +2,7 @@ tests
 testActivateTracingGivenAnExample
 
 	| result example |
-	example := BPExample new.
+	example := BPMethodExample new.
 	result := [BPTestManuallyInstrumentedClass new methodA] bpTraceForExample: example.
 	self assert: result example == example.  
 	

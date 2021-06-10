@@ -1,6 +1,6 @@
 tests - annotations
 testRewritingKeywordMessageArgumentProbe
-
+	
 	self 
 		assertCompilerRewrites: 
 'method
@@ -8,5 +8,4 @@ testRewritingKeywordMessageArgumentProbe
 		to:
 'method
 	<layer: #bpInstrumented>
-	self bpBlock: 1 enteredAt: thisContext.
-self bpBlock: 1 leftWith: (2 raisedTo: (self bpTrace: [3] forProbe: 1 inContext: thisContext)) at: thisContext'
+	2 raisedTo: (self bpTrace: [3] forProbe: 1 inContext: thisContext)'.

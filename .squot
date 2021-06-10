@@ -1,7 +1,8 @@
 OrderedDictionary {
-	'packages\/BaselineOfBabylonianProgramming.package' : #SquotCypressCodeSerializer,
-	'packages\/Babylonian-Core.package' : #SquotCypressCodeSerializer,
-	'packages\/Babylonian-Compiler.package' : #SquotCypressCodeSerializer,
-	'packages\/Babylonian-Tests.package' : #SquotCypressCodeSerializer,
-	'packages\/Babylonian-UI.package' : #SquotCypressCodeSerializer
+	'packages/Babylonian-Demo.package' : #SquotCypressCodeSerializer,
+	'packages/Babylonian-Compiler.package' : #SquotCypressCodeSerializer,
+	'packages/Babylonian-Core.package' : #SquotCypressCodeSerializer,
+	'packages/Babylonian-Tests.package' : #SquotCypressCodeSerializer,
+	'packages/Babylonian-UI.package' : #SquotCypressCodeSerializer,
+	'packages/BaselineOfBabylonianProgramming.package' : #SquotCypressCodeSerializer
 }

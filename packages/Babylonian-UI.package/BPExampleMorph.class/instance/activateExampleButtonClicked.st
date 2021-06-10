@@ -1,6 +1,7 @@
 actions
 activateExampleButtonClicked
-
+	
 	self example toggleIsActive.
-	self containingBrowser saveMethodWithExamples.
+	self example isActive ifTrue: [
+		self example traceInBackground].
 	

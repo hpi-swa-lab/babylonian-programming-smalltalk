@@ -1,5 +1,6 @@
 initialization
 initialize
-
+	
 	super initialize.
-	self listDirection: #topToBottom.
+	self listDirection: #leftToRight. 
+	self updateAssertionFieldsMorph.
