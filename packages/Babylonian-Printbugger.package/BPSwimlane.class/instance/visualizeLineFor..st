@@ -1,13 +1,13 @@
 private
 visualizeLineFor: aTraceValue
 	
-	|name valueMorph blockMorph|
+	|name valueMorph barMorph|
 	"name := aProbe label asMorph." self flag: #todo. "get the actual label"
 	name:= aTraceValue belongingProbeId asMorph.
 	valueMorph := aTraceValue asValueMorph.
-	blockMorph := Morph new 
+	barMorph := Morph new 
 						color: Color gray;
-						extent: (14@(valueMorph height + 20)).
+						extent: (14@(valueMorph imageForm height + 20)).
 	
 	^ Morph new
 		color: Color transparent;
@@ -16,5 +16,5 @@ visualizeLineFor: aTraceValue
 		cellPositioning: #center;
 		vResizing: #shrinkWrap;
 		cellInset: 10@0;
-		addAllMorphsBack: {blockMorph. name. valueMorph.};
+		addAllMorphsBack: {barMorph. name. valueMorph.};
 		yourself.

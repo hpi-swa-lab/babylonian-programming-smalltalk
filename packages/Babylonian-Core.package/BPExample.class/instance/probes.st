@@ -1,4 +1,6 @@
 accessing
 probes
 	
-	^ self trace probes
+	^ self currentTrace
+		ifNil: [{}]
+		ifNotNil: [self currentTrace probes]

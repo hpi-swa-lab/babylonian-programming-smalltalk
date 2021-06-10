@@ -1,4 +1,4 @@
 running
 tearDown
 	
-	BPExamples removeAll
+	BPExamples value removeAll: BPExamples value examples

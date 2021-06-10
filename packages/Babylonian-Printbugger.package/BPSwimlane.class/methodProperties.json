@@ -3,12 +3,11 @@
 		"compilerClass" : "jb 6/2/2021 22:04",
 		"newFor:" : "jb 6/2/2021 22:04" },
 	"instance" : {
-		"clearSubmorphs" : "jb 6/2/2021 22:03",
 		"example:" : "jb 6/2/2021 22:03",
 		"initialize" : "jb 6/2/2021 22:03",
 		"initializeProperties" : "jb 6/2/2021 22:03",
 		"newTitleMorphFor:" : "jb 6/2/2021 22:03",
-		"update:with:" : "jb 6/2/2021 22:03",
+		"update:with:" : "jb 6/10/2021 13:44",
 		"visualize" : "jb 6/2/2021 22:03",
-		"visualizeLineFor:" : "jb 6/2/2021 22:03",
+		"visualizeLineFor:" : "jb 6/10/2021 14:49",
 		"visualizeLinesFor:" : "jb 6/2/2021 22:03" } }

@@ -3,6 +3,6 @@ updateFrom: aCollectionOfExamples
 	
 	self cleanCanvas.
 	
-	aCollectionOfExamples isEmpty
-		ifTrue: [canvasMorph addMorph: self newEmptyExamplesNotification]
-		ifFalse: [canvasMorph addAllMorphsBack: (aCollectionOfExamples asOrderedCollection collect: [:aBPExample | BPSwimlane newFor: aBPExample] )].
+	aCollectionOfExamples
+		ifEmpty: [canvasMorph addMorph: self newEmptyExamplesNotification]
+		ifNotEmpty: [canvasMorph addAllMorphsBack: (aCollectionOfExamples asOrderedCollection collect: [:aBPExample | BPSwimlane newFor: aBPExample] )].
