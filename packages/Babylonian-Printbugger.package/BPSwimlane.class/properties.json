@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "jb 6/3/2021 01:54",
 	"instvars" : [
-		"example" ],
+		"example",
+		"context" ],
 	"name" : "BPSwimlane",
 	"pools" : [
 		 ],

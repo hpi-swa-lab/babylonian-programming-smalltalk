@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"newFor:" : "jb 6/10/2021 20:51" },
+	"instance" : {
+		"colorFor:having:" : "jb 6/11/2021 01:27",
+		"initialize" : "jb 6/10/2021 23:55",
+		"track:" : "jb 6/11/2021 01:27",
+		"trackAll:" : "jb 6/11/2021 01:00",
+		"trackAllTraceValues:" : "jb 6/11/2021 00:59",
+		"trackTraceValue:" : "jb 6/11/2021 01:27",
+		"untrack:" : "jb 6/11/2021 00:58",
+		"untrackAll:" : "jb 6/11/2021 01:00",
+		"untrackTraceValue:" : "jb 6/11/2021 00:54" } }

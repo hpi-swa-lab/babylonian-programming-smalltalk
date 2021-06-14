@@ -1,8 +1,9 @@
 change notifications
-update: anAspect with: aTrace
+update: anAspect with: anObject
 	
-	super update: anAspect with:aTrace.
+	
+	super update: anAspect with: anObject.
 	
 	anAspect = #newTrace ifTrue: [
 		self removeAllMorphs.
-			aTrace ifNotNil: [self visualize]]. 
+			anObject ifNotNil: [self visualize]].

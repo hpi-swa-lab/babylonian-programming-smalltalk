@@ -5,4 +5,4 @@ updateFrom: aCollectionOfExamples
 	
 	aCollectionOfExamples
 		ifEmpty: [canvasMorph addMorph: self newEmptyExamplesNotification]
-		ifNotEmpty: [canvasMorph addAllMorphsBack: (aCollectionOfExamples asOrderedCollection collect: [:aBPExample | BPSwimlane newFor: aBPExample] )].
+		ifNotEmpty: [canvasMorph addAllMorphsBack: (aCollectionOfExamples asOrderedCollection collect: [:aBPExample | BPSwimlane newFor: aBPExample withContext: context] )].

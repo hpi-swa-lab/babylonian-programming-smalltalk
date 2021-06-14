@@ -6,7 +6,7 @@ visualizeLineFor: aTraceValue
 	name:= aTraceValue belongingProbeId asMorph.
 	valueMorph := aTraceValue asValueMorph.
 	barMorph := Morph new 
-						color: Color gray;
+						color: (self colorFor: aTraceValue in: context);
 						extent: (14@(valueMorph fullBounds height + 20)).
 	button := self newHaltButtonFor: aTraceValue.
 	
