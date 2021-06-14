@@ -4,7 +4,7 @@
 		"newFor:" : "jb 6/2/2021 22:04" },
 	"instance" : {
 		"clearSubmorphs" : "jb 6/2/2021 22:03",
-		"example:" : "jb 6/2/2021 22:03",
+		"example:" : "jb 6/10/2021 15:06",
 		"haltButtonClickedFor:and:" : "lu 6/11/2021 00:09",
 		"iconSize" : "lu 6/9/2021 23:47",
 		"initialize" : "jb 6/2/2021 22:03",
@@ -12,7 +12,7 @@
 		"newHaltButtonFor:" : "lu 6/9/2021 23:48",
 		"newTitleMorphFor:" : "jb 6/2/2021 22:03",
 		"scrollBarSize" : "lu 6/9/2021 23:47",
-		"update:with:" : "jb 6/2/2021 22:03",
+		"update:with:" : "jb 6/10/2021 15:31",
 		"visualize" : "jb 6/2/2021 22:03",
-		"visualizeLineFor:" : "lu 6/7/2021 16:53",
+		"visualizeLineFor:" : "lu 6/14/2021 23:26",
 		"visualizeLinesFor:" : "jb 6/2/2021 22:03" } }

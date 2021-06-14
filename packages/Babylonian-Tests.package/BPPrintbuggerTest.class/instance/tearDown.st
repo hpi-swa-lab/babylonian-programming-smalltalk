@@ -1,7 +1,8 @@
 running
 tearDown
 	
-	((BPTestManuallyInstrumentedClass >> #methodB) isKindOf: CSLayeredMethod) ifTrue: [
-		(BPTestManuallyInstrumentedClass >> #methodB) becomeCompiledMethod].
-	((BPExamples value examples) includes: example1) ifTrue: [BPExamples value examples remove: example1].
-	((BPExamples value examples) includes: example2) ifTrue: [BPExamples value examples remove: example2].
+	BPExamples value removeAll: BPExamples value examples.
+	{
+		(BPTestManuallyInstrumentedClass>>#methodAWithAssertionUsingExpressionResult).
+		(BPTestManuallyInstrumentedClass>>#methodWithMultipleProbes)} do: [:aMethod | 
+			aMethod removeProperty: #bpExamples ifAbsent: []].

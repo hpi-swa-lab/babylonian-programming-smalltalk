@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"originalSource",
 		"printbugger",
 		"example1",
 		"example2" ],
