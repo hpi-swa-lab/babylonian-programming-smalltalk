@@ -43,7 +43,7 @@ Take a screenshot
 {#BPSearchCollection . #BPEuropeanFlag . #BPEuropeanFlagStar} do: [:className |
   (Smalltalk at: className) methodsDo: [:m | m bpRecompile]].
 ((Smalltalk at: #BPSearchCollection)>>#binarySearch:) bpExamples do: [:e | e isActive: true].
-(Smalltalk at: #BPActiveExamples) value runActiveExamples.
+(Smalltalk at: #BPExamples) value runActiveExamples.
 
 "Second, set up the stage and take the screenshot"
 browserWindow := (ToolSet default browse: (Smalltalk at: #BPSearchCollection) selector: #binarySearch:) containingWindow.
