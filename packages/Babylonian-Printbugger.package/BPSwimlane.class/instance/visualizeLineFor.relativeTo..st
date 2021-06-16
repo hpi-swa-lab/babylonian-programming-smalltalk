@@ -1,5 +1,5 @@
 private
-visualizeLineFor: aTraceValue
+visualizeLineFor: aTraceValue relativeTo: aStackRelation
 	
 	|name valueMorph barMorph|
 	"name := aProbe label asMorph." self flag: #todo. "get the actual label"
@@ -7,9 +7,11 @@ visualizeLineFor: aTraceValue
 	valueMorph := aTraceValue asValueMorph.
 	barMorph := Morph new 
 						color: (self colorFor: aTraceValue in: context);
-						extent: (14@(valueMorph fullBounds height + 20)).
+						extent: ((self barWidthFor: aTraceValue relativeTo: aStackRelation)@(valueMorph fullBounds height + 20));
+						yourself.
 	
 	^ Morph new
+		name: aTraceValue chronologicalPosition asString;
 		color: Color transparent;
 		changeTableLayout;
 		listDirection: #leftToRight;

@@ -5,15 +5,17 @@
 		"newFor:" : "jb 6/10/2021 23:33",
 		"newFor:withContext:" : "jb 6/10/2021 23:24" },
 	"instance" : {
+		"barWidthFor:relativeTo:" : "jb 6/17/2021 00:50",
 		"colorFor:in:" : "jb 6/11/2021 01:04",
 		"context:" : "jb 6/10/2021 23:26",
 		"example:" : "jb 6/10/2021 15:06",
 		"initialize" : "jb 6/10/2021 23:34",
 		"initializeProperties" : "jb 6/2/2021 22:03",
 		"newTitleMorphFor:" : "jb 6/2/2021 22:03",
+		"stackDepth" : "jb 6/17/2021 00:10",
 		"update:" : "jb 6/11/2021 01:26",
-		"update:with:" : "jb 6/10/2021 23:28",
+		"update:with:" : "jb 6/17/2021 00:46",
 		"updateLayoutToContext" : "jb 6/11/2021 00:33",
 		"visualize" : "jb 6/2/2021 22:03",
-		"visualizeLineFor:" : "jb 6/11/2021 00:10",
-		"visualizeLinesFor:" : "jb 6/11/2021 00:34" } }
+		"visualizeLineFor:relativeTo:" : "jb 6/17/2021 00:51",
+		"visualizeLinesFor:" : "jb 6/17/2021 00:53" } }

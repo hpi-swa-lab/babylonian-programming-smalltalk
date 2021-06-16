@@ -6,4 +6,4 @@ update: anAspect with: anObject
 	
 	anAspect = #newTrace ifTrue: [
 		self removeAllMorphs.
-			anObject ifNotNil: [self visualize]].
+		anObject ifNotNil: [self visualize]].
