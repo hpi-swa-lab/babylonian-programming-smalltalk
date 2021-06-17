@@ -27,7 +27,7 @@ jobs:
         env: 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: ./scripts/build_image.sh
-        if: matrix.os == 'ubuntu-latest' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/develop')
+        if: matrix.os == 'ubuntu-latest' && (github.ref == 'refs/heads/main')
         shell: bash
       - name: Upload Image
         uses: actions/upload-artifact@v2
