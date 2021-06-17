@@ -3,7 +3,7 @@ newHaltButtonFor: aTraceValue
 	
 	| exploreButton |	
 	
-	exploreButton := BPIconicButton newHaltButtonOfSize: (self iconSize) andExtentOffsetX: self scrollBarSize.
+	exploreButton := BPIconicButton newHaltButtonOfSize: self iconSize andExtentOffsetX: self scrollBarSize.
 
 	exploreButton 
 		actionSelector: #haltButtonClickedFor:and:;

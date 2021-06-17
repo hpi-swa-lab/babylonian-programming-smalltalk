@@ -2,7 +2,7 @@ private
 haltButtonClickedFor: aTraceValue and: aBPExample
 	
 	| probe positionInProbe |
-	probe := (aBPExample trace trace probes) at: (aTraceValue belongingProbeId).
+	probe := aBPExample trace probes at: aTraceValue belongingProbeId.
 	positionInProbe := (probe 
 		collect: [:aValue | aValue chronologicalPosition])
 		indexOf: aTraceValue chronologicalPosition.
