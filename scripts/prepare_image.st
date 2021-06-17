@@ -19,7 +19,7 @@ FileStream fileIn: 'SOHCharacter.cs'.
 (Smalltalk at: #Metacello) new
   baseline: 'BabylonianProgramming';
   repository: 'filetree:///home/runner/work/babylonian-programming-smalltalk/babylonian-programming-smalltalk/packages';
-  load: 'tests'.
+  load: 'full'.
 
 "Install new tool set"
 ToolSet default: (Smalltalk at: #BPToolSet).
