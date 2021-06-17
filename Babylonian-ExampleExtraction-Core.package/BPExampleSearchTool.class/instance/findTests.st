@@ -12,8 +12,9 @@ findTests
 
 	classes do: [:class |
 		class methodDict keysAndValuesDo: [:methodSelector :compiledMethod |
-			((self includesMethodSelectorConditionInMethod: compiledMethod)
-				and: [self includesMethodSelectorConditionInClass: class testSelector: methodSelector])
+			(((self includesMethodSelectorConditionInMethod: compiledMethod)
+				and: [self tryRecordingConditionInClass: class testSelector: methodSelector])
+					and: [self tryCoverageConditionInClass: class testSelector: methodSelector])
 					ifTrue: [foundTests add: class name asString -> methodSelector]]].
 	
 	^ foundTests

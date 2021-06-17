@@ -1,5 +1,5 @@
 searching
-includesMethodSelectorConditionInClass: aClass testSelector: aSymbol
+tryRecordingConditionInClass: aClass testSelector: aSymbol
 	
 	| recorder |
 	

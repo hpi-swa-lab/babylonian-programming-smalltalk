@@ -1,0 +1,4 @@
+constants
+keyClassName
+
+	^ #testsClassName

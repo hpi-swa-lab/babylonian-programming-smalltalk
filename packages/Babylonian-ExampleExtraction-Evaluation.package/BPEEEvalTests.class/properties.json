@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-ExampleExtraction-Evaluation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPEEEvalTests",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

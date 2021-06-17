@@ -29,5 +29,13 @@ buildSearchPreferencesWith: aBuilder
 		yourself.
 	panelSpec children add: checkBoxSpec.
 	
+	checkBoxSpec := aBuilder pluggableCheckBoxSpec new
+		model: self;
+		action: #toggleTryCoveragePreference;
+		state: #tryCoveragePreference;
+		label: #tryCoveragePreferenceLabel;
+		yourself.
+	panelSpec children add: checkBoxSpec.
+	
 	panelSpec layout: #vertical.
 	^panelSpec

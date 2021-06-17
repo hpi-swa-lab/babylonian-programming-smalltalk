@@ -1,0 +1,4 @@
+constants
+keyCoverage
+	
+	^ #testsCoverage 

@@ -8,4 +8,6 @@ initialize
 		searchResultIndex: 1;
 		classNamePreference: true;
 		includesMethodSelectorPreference: true;
-		tryRecordingPreference: false.
+		tryRecordingPreference: false;
+		tryCoveragePreference: false;
+		evalOnlyBase53: false.

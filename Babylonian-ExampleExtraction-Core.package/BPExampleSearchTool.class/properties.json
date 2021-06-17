@@ -12,7 +12,9 @@
 		"requestor",
 		"classNamePreference",
 		"includesMethodSelectorPreference",
-		"tryRecordingPreference" ],
+		"tryRecordingPreference",
+		"tryCoveragePreference",
+		"evalOnlyBase53" ],
 	"name" : "BPExampleSearchTool",
 	"pools" : [
 		 ],

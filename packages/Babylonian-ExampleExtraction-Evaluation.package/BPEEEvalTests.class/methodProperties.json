@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"allTestVariantsFor:" : "ek 6/16/2021 21:50",
+		"cr" : "ek 6/16/2021 14:55",
+		"howManyTestsAreFound" : "ek 6/17/2021 12:16",
+		"keyClassName" : "ek 6/16/2021 14:47",
+		"keyCoverage" : "ek 6/16/2021 14:50",
+		"keyMethodSelector" : "ek 6/16/2021 14:48",
+		"keyMethodSelectorClassName" : "ek 6/16/2021 14:49",
+		"numberOfAllTests" : "ek 6/16/2021 12:49",
+		"separator" : "ek 6/16/2021 14:43",
+		"writeHeader:" : "ek 6/16/2021 14:43",
+		"writeIntoFile:" : "ek 6/16/2021 14:44",
+		"writeResults:on:" : "ek 6/16/2021 15:02" } }
