@@ -7,14 +7,24 @@ findTests
 	packages := self findCategories.
 	classes := self findClassesForCategories: packages.
 	
+	"classes := classes reject: [:class | class = AllocationTest
+		or: [class = ClassBuilderTest]
+		or: [class = CompiledMethodComparisonTest]]."
+	
+	"self halt."
+	self packageNamePreference
+		ifTrue: [classes := classes reject: [:class | (class packageInfo packageName includesSubstring: (self method methodClass packageInfo packageName splitBy: '-') first) not]].
+	
 	self classNamePreference
 		ifTrue: [classes := classes reject: [:class | (class name asString includesSubstring: self method methodClass name asString) not]].
 
 	classes do: [:class |
 		class methodDict keysAndValuesDo: [:methodSelector :compiledMethod |
-			(((self includesMethodSelectorConditionInMethod: compiledMethod)
-				and: [self tryRecordingConditionInClass: class testSelector: methodSelector])
+			(methodSelector beginsWith: 'test')
+				ifTrue: [
+					(((self includesMethodSelectorConditionInMethod: compiledMethod)
+					and: [self tryRecordingConditionInClass: class testSelector: methodSelector])
 					and: [self tryCoverageConditionInClass: class testSelector: methodSelector])
-					ifTrue: [foundTests add: class name asString -> methodSelector]]].
+						ifTrue: [foundTests add: class name asString -> methodSelector]]]].
 	
 	^ foundTests

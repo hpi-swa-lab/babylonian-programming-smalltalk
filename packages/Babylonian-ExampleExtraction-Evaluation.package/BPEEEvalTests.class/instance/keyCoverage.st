@@ -1,4 +1,4 @@
 constants
 keyCoverage
 	
-	^ #testsCoverage 
+	^ #testsCoverage

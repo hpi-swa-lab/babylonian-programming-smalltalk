@@ -12,6 +12,14 @@ buildSearchPreferencesWith: aBuilder
 		label: #classNamePreferenceLabel;
 		yourself.
 	panelSpec children add: checkBoxSpec.
+	
+	checkBoxSpec := aBuilder pluggableCheckBoxSpec new
+		model: self;
+		action: #togglePackageNamePreference;
+		state: #packageNamePreference;
+		label: #packageNamePreferenceLabel;
+		yourself.
+	panelSpec children add: checkBoxSpec.
 
 	checkBoxSpec := aBuilder pluggableCheckBoxSpec new
 		model: self;

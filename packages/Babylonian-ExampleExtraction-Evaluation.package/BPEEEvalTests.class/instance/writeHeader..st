@@ -12,4 +12,10 @@ writeHeader: aFileStream
 		nextPutAll: self separator;
 		nextPutAll: 'c_className_MethodSelector';
 		nextPutAll: self separator;
-		nextPutAll: 'c_coverage'.
+		nextPutAll: 'c_packageName_MethodSelector';
+		nextPutAll: self separator;
+		nextPutAll: 'c_packageName_className_MethodSelector';
+		nextPutAll: self separator;
+		nextPutAll: 'c_coverage';
+		nextPutAll: self separator;
+		nextPutAll: 'c_packageName_coverage'.

@@ -11,6 +11,7 @@
 		"searchResultIndex",
 		"requestor",
 		"classNamePreference",
+		"packageNamePreference",
 		"includesMethodSelectorPreference",
 		"tryRecordingPreference",
 		"tryCoveragePreference",

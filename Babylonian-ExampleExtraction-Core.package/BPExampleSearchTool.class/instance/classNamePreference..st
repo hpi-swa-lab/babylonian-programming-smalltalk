@@ -1,4 +1,4 @@
 accessing
 classNamePreference: aBoolean
 	
-	classNamePreference := aBoolean
+	classNamePreference := aBoolean.
