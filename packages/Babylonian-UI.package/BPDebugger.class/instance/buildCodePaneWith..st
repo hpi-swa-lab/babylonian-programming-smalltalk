@@ -3,12 +3,10 @@ buildCodePaneWith: aBuilder
 	
 	| spec textSpec |
 	spec := super buildCodePaneWith: aBuilder.
-	(spec respondsTo: #stylerClass:)
-		ifTrue: [textSpec := spec]
-		ifFalse: [
-			"This seems brittle but it is kind of stable as it relies on the basic
-			structure of the browser"
-			textSpec := spec children last].
+	textSpec := (spec respondsTo: #stylerClass:)
+		ifTrue: [spec]
+		ifFalse: [spec children detect: [:child | (child respondsTo: #stylerClass:)
+			and: [child getText = #contents]]].
 	textSpec stylerClass: BPStyler.
 	
 	textSpec name: #codePaneTextMorph.
