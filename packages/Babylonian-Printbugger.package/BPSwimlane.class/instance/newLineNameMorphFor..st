@@ -7,4 +7,6 @@ newLineNameMorphFor: aTraceValue
 		ToolSet 
 			browse: aTraceValue containedMethodReference actualClass
 			selector: aTraceValue containedMethodReference methodSymbol]).
-	^ TextMorph string: name size: TextStyle defaultFont height
+	^ (TextMorph string: name size: TextStyle defaultFont height)
+		name: #lineName;
+		yourself

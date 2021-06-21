@@ -2,11 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
+		"currentBrowsers" : "lu 6/20/2021 21:49",
 		"initExample1WithMethodWithMultipleProbes" : "jb 6/10/2021 15:54",
 		"initExamplesWitMethodAWithAssertionUsingExpressionResult" : "jb 6/10/2021 15:54",
 		"runCase" : "jb 6/3/2021 14:18",
 		"setUp" : "jb 6/10/2021 15:53",
 		"tearDown" : "jb 6/10/2021 15:54",
+		"testClickOnSwimlaneNameBrowsesProbe" : "lu 6/21/2021 12:14",
+		"testClickOnTitleMorphBrowsesExample" : "lu 6/21/2021 12:15",
 		"testShows2SwimlanesFor2ActiveExamples" : "jb 6/2/2021 21:56",
 		"testShowsNoSwimlanesForNoActiveExamples" : "jb 5/31/2021 14:20",
 		"testSwimlaneDisplaysTraceValuesForOneProbe" : "jb 6/10/2021 13:27",
