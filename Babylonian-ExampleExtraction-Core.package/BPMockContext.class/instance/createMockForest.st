@@ -1,8 +1,7 @@
 mocking
-createMockTrees
+createMockForest
 	
-	receiverMockTree := BPMockTree for: receiver.
-	argumentsMockTrees := arguments collect: [:argument | BPMockTree for: argument].
+	mockForest := BPMockForest receiver: receiver arguments: arguments.
 	"transcriptMode := true."
 		
 	transcriptMode ifTrue: [Transcript clear].
@@ -31,6 +30,6 @@ createMockTrees
 							(self instVarWriteAccess: c)
 								ifTrue: [|instVarNumber|
 									instVarNumber := (c method abstractBytecodeMessageAt: c pc) arguments first + 1.
-									self blacklistInstVar: instVarNumber for: c receiver.]]]].
+									self blacklistInstVar: instVarNumber for: c receiver]]]].
 	
-	^ {receiverMockTree. argumentsMockTrees}
+	^ mockForest

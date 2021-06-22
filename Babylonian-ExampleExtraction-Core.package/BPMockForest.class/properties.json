@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"forest",
-		"rootMock" ],
-	"name" : "BPMockTree",
+		"objectMockMapping",
+		"receiverMockTree",
+		"argumentMockTrees" ],
+	"name" : "BPMockForest",
 	"pools" : [
 		 ],
 	"super" : "Object",

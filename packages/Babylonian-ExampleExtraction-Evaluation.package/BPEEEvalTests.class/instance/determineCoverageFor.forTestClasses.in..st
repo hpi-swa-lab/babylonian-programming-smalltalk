@@ -12,7 +12,15 @@ determineCoverageFor: targetClasses forTestClasses: allTestClasses in: allFoundT
 		valuesDo: [:targetCompiledMethod |
 			targetMethodsReferences add: targetCompiledMethod methodReference]].
 	
-	testMethods keysAndValuesDo: [:testMethodSelector : testClass | | coverages |
+	testMethods keysAndValuesDo: [:testMethodSelector :testClass | | coverages "fileStream" |
+		"fileStream := FileDirectory default fileNamed: 'tmp_log.txt'.
+		fileStream truncate: 0.
+		fileStream reset.
+		fileStream
+			nextPutAll: testClass printString, '>>', testMethodSelector asString, '. ';
+			nextPutAll: Character cr asString.
+		fileStream close."
+			
 		coverages := Dictionary new.
 		targetMethodsReferences do: [:targetMethodsReference |
 			coverages at: targetMethodsReference put: (TestCoverage on: targetMethodsReference)].

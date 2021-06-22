@@ -1,13 +1,11 @@
 {
 	"class" : {
-		"for:" : "ek 4/8/2021 23:02" },
+		"for:in:" : "ek 6/22/2021 15:11" },
 	"instance" : {
-		"addInstVar:for:" : "ek 5/19/2021 11:54",
-		"addMockObjectTemplate:for:" : "ek 4/8/2021 23:29",
-		"addRootObject:" : "ek 5/19/2021 10:42",
-		"blacklistInstVar:for:" : "ek 5/12/2021 15:02",
-		"createMinimalObject" : "ek 4/28/2021 10:13",
-		"ensureMockExistsFor:" : "ek 5/19/2021 11:52",
+		"addRootObject:" : "ek 6/22/2021 15:12",
+		"createMinimalObject" : "ek 6/22/2021 14:43",
+		"forest:" : "ek 6/22/2021 14:45",
 		"initialize" : "ek 4/8/2021 23:02",
-		"reset" : "ek 5/12/2021 15:01",
-		"serialize" : "ek 5/18/2021 14:42" } }
+		"reset" : "ek 6/22/2021 15:11",
+		"rootMock" : "ek 6/22/2021 15:06",
+		"serialize" : "ek 6/22/2021 14:44" } }

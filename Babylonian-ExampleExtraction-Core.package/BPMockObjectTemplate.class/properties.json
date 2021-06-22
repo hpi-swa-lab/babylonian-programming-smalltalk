@@ -9,7 +9,7 @@
 		"receiver",
 		"instVarNumbersAndValues",
 		"blackList",
-		"mockTree" ],
+		"forest" ],
 	"name" : "BPMockObjectTemplate",
 	"pools" : [
 		 ],

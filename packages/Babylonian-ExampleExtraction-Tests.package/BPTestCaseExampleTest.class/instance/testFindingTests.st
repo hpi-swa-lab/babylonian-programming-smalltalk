@@ -9,7 +9,7 @@ testFindingTests
 		classNamePreference: false;
 		includesMethodSelectorPreference: false.
 	searchTool search.
-	self assert: searchTool searchResults size equals: 8149.
+	self assert: searchTool searchResults size equals: 5955.
 	
 	searchTool
 		tryRecordingPreference: false;
@@ -30,7 +30,7 @@ testFindingTests
 		classNamePreference: false;
 		includesMethodSelectorPreference: true.
 	searchTool search.
-	self assert: searchTool searchResults size equals: 431.
+	self assert: searchTool searchResults size equals: 233.
 	
 	"this kills everything somehow"
 	"searchTool

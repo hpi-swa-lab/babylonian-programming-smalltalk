@@ -8,6 +8,8 @@ writeHeader: aFileStream
 		nextPutAll: self separator;
 		nextPutAll: 'c_className';
 		nextPutAll: self separator;
+		nextPutAll: 'c_packageName';
+		nextPutAll: self separator;
 		nextPutAll: 'c_methodSelector';
 		nextPutAll: self separator;
 		nextPutAll: 'c_className_MethodSelector';

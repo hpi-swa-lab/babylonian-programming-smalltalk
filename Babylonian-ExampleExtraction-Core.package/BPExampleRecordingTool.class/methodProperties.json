@@ -4,7 +4,7 @@
 	"instance" : {
 		"addExample" : "ek 5/18/2021 16:47",
 		"addExampleWith:and:" : "ek 3/11/2021 20:57",
-		"addExampleWithMocks" : "ek 4/27/2021 22:16",
+		"addExampleWithMocks" : "ek 6/22/2021 15:17",
 		"addExampleWithoutMocks" : "ek 3/15/2021 15:02",
 		"buildButtonPaneWith:" : "ek 2/2/2021 17:20",
 		"buildExplorerWith:" : "ek 2/2/2021 16:05",
@@ -16,7 +16,7 @@
 		"buildWith:" : "ek 5/18/2021 16:37",
 		"buttonHeight" : "ek 5/18/2021 15:31",
 		"buttonPaneFrame" : "ek 5/18/2021 16:43",
-		"createMockTrees" : "ek 5/20/2021 10:30",
+		"createMockForest" : "ek 6/22/2021 15:17",
 		"informRequestor" : "ek 3/9/2021 10:29",
 		"initialize" : "ek 5/18/2021 16:40",
 		"method" : "ek 2/18/2021 19:28",

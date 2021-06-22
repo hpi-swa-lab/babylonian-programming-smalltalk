@@ -2,8 +2,8 @@
 	"class" : {
 		"compilerClass" : "ek 5/20/2021 16:12" },
 	"instance" : {
-		"getMockTreesForFirstRecording" : "ek 5/3/2021 20:33",
-		"getMockedObjectsForFirstRecording" : "ek 5/3/2021 14:56",
+		"getMockForestForFirstRecording" : "ek 6/22/2021 15:14",
+		"getMockedObjectsForFirstRecording" : "ek 6/22/2021 15:19",
 		"recordMethod:inClass:forInstancesAndParameters:" : "ek 5/19/2021 11:13",
 		"recordMethod:inClass:forInstancesAndParameters:isClassMethod:" : "ek 5/20/2021 10:35",
 		"recordMethod:inClass:with:" : "ek 5/20/2021 10:35",
@@ -12,8 +12,8 @@
 		"scamperGoTo401" : "ek 5/5/2021 10:26",
 		"setUp" : "ek 4/21/2021 16:27",
 		"testMockAssociation" : "ek 5/27/2021 18:18",
-		"testMockContext" : "ek 5/27/2021 17:29",
-		"testMockContextWithExample" : "ek 5/27/2021 17:34",
+		"testMockContext" : "ek 6/22/2021 15:15",
+		"testMockContextWithExample" : "ek 6/22/2021 15:22",
 		"testMockIsCompleteEnoughForPrintString" : "ek 5/27/2021 17:39",
 		"testMockReceiverIsABag" : "ek 5/19/2021 13:13",
 		"testMockReceiverIsACharacter" : "ek 5/19/2021 13:37",
@@ -49,4 +49,4 @@
 		"testRecordingIsNotEmptyWithParameter" : "ek 5/19/2021 11:19",
 		"testRecordingScamper" : "ek 5/19/2021 11:19",
 		"testRecordingWebClient" : "ek 5/19/2021 11:19",
-		"testSerializingExists" : "ek 5/20/2021 16:16" } }
+		"testSerializingExists" : "ek 6/22/2021 15:20" } }

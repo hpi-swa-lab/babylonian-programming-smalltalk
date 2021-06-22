@@ -8,7 +8,7 @@ testMockContextWithExample
 		methodSelector: #testSomething;
 		method: BPTestCaseExampleTest>>#testSomething.
 	mockContext := BPMockContext example: example.
-	mockContext createMockTrees.
+	mockContext createMockForest.
 	mockReceiverAndArguments := mockContext minimalObjects.
 	self assert: (mockReceiverAndArguments first isKindOf: TestCase).
 	self assert: mockReceiverAndArguments second isEmpty

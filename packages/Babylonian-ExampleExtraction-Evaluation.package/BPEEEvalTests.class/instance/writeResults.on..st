@@ -11,6 +11,8 @@ writeResults: allFoundTests on: aFileStream
 			nextPutAll: self separator;
 			nextPutAll: (result at: self keyClassName ifAbsent: [#null]) printString;
 			nextPutAll: self separator;
+			nextPutAll: (result at: self keyPackageName ifAbsent: [#null]) printString;
+			nextPutAll: self separator;
 			nextPutAll: (result at: self keyMethodSelector ifAbsent: [#null]) printString;
 			nextPutAll: self separator;
 			nextPutAll: (result at: self keyMethodSelectorClassName ifAbsent: [#null]) printString;

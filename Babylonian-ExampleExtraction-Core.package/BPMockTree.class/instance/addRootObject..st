@@ -1,7 +1,5 @@
 initialize-release
-addRootObject: anObject
+addRootObject: aMockObject
 	
-	| mockRootObject |
 	self reset.
-	mockRootObject := self ensureMockExistsFor: anObject.
-	root := mockRootObject.
+	rootMock := aMockObject.

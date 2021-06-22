@@ -3,5 +3,5 @@ addMock: anObject forInstVarNumber: aNumber
 	
 	| mockObjectTemplate |
 	
-	mockObjectTemplate := mockTree ensureMockExistsFor: anObject.
+	mockObjectTemplate := forest ensureMockExistsFor: anObject.
 	instVarNumbersAndValues at: aNumber put: mockObjectTemplate.

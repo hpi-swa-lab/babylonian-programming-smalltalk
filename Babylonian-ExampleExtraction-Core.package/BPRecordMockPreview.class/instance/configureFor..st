@@ -6,7 +6,7 @@ configureFor: anExample
 	self method: anExample method.
 	receiver := mockContext receiver.
 	arguments := mockContext arguments.
-	mockContext createMockTrees.
+	mockContext createMockForest.
 	mockReceiverAndArguments := mockContext minimalObjects.
 	mockReceiver := mockReceiverAndArguments first.
 	mockArguments := mockReceiverAndArguments second.

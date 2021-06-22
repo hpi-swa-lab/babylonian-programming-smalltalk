@@ -1,8 +1,8 @@
 helpers
 getMockedObjectsForFirstRecording
 	
-	| mockTreeReceiverAndArguments |
+	| forest |
 	
-	mockTreeReceiverAndArguments := self getMockTreesForFirstRecording.
+	forest := self getMockForestForFirstRecording.
 	
-	^ {mockTreeReceiverAndArguments first createMinimalObject. mockTreeReceiverAndArguments second collect: [:mockTree | mockTree createMinimalObject]}
+	^ forest createMinimalObjects

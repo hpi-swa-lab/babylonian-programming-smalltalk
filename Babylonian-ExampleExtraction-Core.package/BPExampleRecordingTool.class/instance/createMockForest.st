@@ -1,7 +1,7 @@
 recording
-createMockTrees
+createMockForest
 	
 	^ (BPMockContext
 		methodReference: methodReference
 		receiver: self selectedRecording first copy
-		arguments: self selectedRecording second copy) createMockTrees
+		arguments: self selectedRecording second copy) createMockForest

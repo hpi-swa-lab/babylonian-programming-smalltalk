@@ -1,5 +1,5 @@
 initialize-release
 reset
 	
-	objectMockMapping := IdentityDictionary new.
-	root := nil.
+	forest := nil.
+	rootMock := nil.

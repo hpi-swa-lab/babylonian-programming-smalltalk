@@ -63,8 +63,8 @@ allTestVariantsFor: aMethod for: methodSelector for: class
 	searchTool
 		tryRecordingPreference: false;
 		tryCoveragePreference: false;
-		classNamePreference: true;
-		packageNamePreference: false;
+		classNamePreference: false;
+		packageNamePreference: true;
 		includesMethodSelectorPreference: false.
 	searchTool search.
 	theTests at: self keyPackageName put: searchTool searchResults size.
@@ -80,6 +80,8 @@ allTestVariantsFor: aMethod for: methodSelector for: class
 	
 	theTests at: self keyCoveragePackageName put: 0.
 	theTests at: self keyCoverage put: 0.
+	
+	
 	"##coverage"
 	"searchTool
 		tryRecordingPreference: false;

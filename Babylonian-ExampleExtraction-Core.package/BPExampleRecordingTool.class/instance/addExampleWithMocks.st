@@ -1,8 +1,9 @@
 recording
 addExampleWithMocks
 	
-	| mockTreeReceiverAndArguments |
-	mockTreeReceiverAndArguments := self createMockTrees.
+	| mockForest mockReceiverAndArguments |
+	mockForest := self createMockForest.
+	mockReceiverAndArguments := self createMinimalObjects.
 	self
-		addExampleWith: mockTreeReceiverAndArguments first createMinimalObject
-		and: (mockTreeReceiverAndArguments second collect: [:mockTree | mockTree createMinimalObject]).
+		addExampleWith: mockReceiverAndArguments first
+		and: mockReceiverAndArguments second.
