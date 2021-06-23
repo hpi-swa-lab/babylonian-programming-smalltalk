@@ -2,12 +2,12 @@ private
 newTitleMorphFor: aBPExample
 	
 	| exampleLabel |
-	exampleLabel := ((aBPExample uniqueIdentifier subStrings: '>>') fold:[:aString :otherString| aString, Character cr, otherString]) asText.
-	exampleLabel addAttribute: (BPPluggableTextAttribute new evalBlock: [
-		ToolSet 
-			browse: aBPExample method methodClass 
-			selector: aBPExample method selector asSymbol]).
-	^ (TextMorph string: exampleLabel size: TextStyle defaultFont height)
+	exampleLabel := ((aBPExample uniqueIdentifier copyReplaceAll: '>>' with: String cr) asText)
+		addAttribute: (BPPluggableTextAttribute new evalBlock: [
+			ToolSet 
+				browse: aBPExample method methodClass 
+				selector: aBPExample method selector asSymbol]).
+	^ (exampleLabel asMorph)
 		name: #swimlaneTitle;
 		color: aBPExample color;
 		layoutPolicy: TableLayout new;

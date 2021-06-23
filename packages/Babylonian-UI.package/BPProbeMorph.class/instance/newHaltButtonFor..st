@@ -1,7 +1,7 @@
 private - ui
 newHaltButtonFor: aTrace
 	
-	^ (BPIconicButton newHaltButtonOfSize: (self iconSize) andExtentOffsetX: self scrollBarSize)
+	^ (BPIconicButton newHaltButtonOfSize: self iconSize andExtentOffsetX: self scrollBarSize)
 		actionSelector: #haltButtonClickedFor:and:;
 		arguments: {self id . aTrace example};
 		target: self;
