@@ -2,9 +2,10 @@ private
 newLineNameMorphFor: aTraceValue
 	
 	|name|
-	name := aTraceValue belongingProbeLabel 
-		ifNotNil: [aTraceValue belongingProbeLabel]
+	name := aTraceValue belongingProbe
+		ifNotNil: [aTraceValue belongingProbe label]
 		ifNil: [aTraceValue belongingProbeId].
+		
 	^ name asMorph
 		name: #lineName;
 		on: #click send: #value to: [
