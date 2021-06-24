@@ -1,8 +1,11 @@
 private
 newLineNameMorphFor: aTraceValue
 	
-	"^ (self probeLabelOf: aTraceValue belongingProbeId from: aTraceValue containedMethodReference compiledMethod bpAnnotation) asStringMorph" self flag: #todo. "get the actual probe label"
-	^ (aTraceValue belongingProbeId asStringMorph)
+	|name|
+	name := aTraceValue belongingProbeLabel 
+		ifNotNil: [aTraceValue belongingProbeLabel]
+		ifNil: [aTraceValue belongingProbeId].
+	^ name asMorph
 		name: #lineName;
 		on: #click send: #value to: [
 			ToolSet 
@@ -10,4 +13,3 @@ newLineNameMorphFor: aTraceValue
 				selector: aTraceValue containedMethodReference methodSymbol];
 		yourself
 		
-	

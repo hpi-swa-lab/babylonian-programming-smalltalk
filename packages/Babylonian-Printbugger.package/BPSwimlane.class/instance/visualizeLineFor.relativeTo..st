@@ -2,7 +2,6 @@ private
 visualizeLineFor: aTraceValue relativeTo: aStackRelation
 	
 	|name valueMorph barMorph button|
-	"name := aProbe label asMorph." self flag: #todo. "get the actual label"
 	name := self newLineNameMorphFor: aTraceValue.
 	valueMorph := aTraceValue asValueMorph.
 	barMorph := Morph new 
