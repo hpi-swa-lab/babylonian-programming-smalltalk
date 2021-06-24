@@ -1,9 +1,13 @@
 private
 newLineNameMorphFor: aTraceValue
 	
-	^ (aTraceValue belongingProbeId asString asText)
-		addAttribute: (BPPluggableTextAttribute new evalBlock: [
+	"^ (self probeLabelOf: aTraceValue belongingProbeId from: aTraceValue containedMethodReference compiledMethod bpAnnotation) asStringMorph" self flag: #todo. "get the actual probe label"
+	^ (aTraceValue belongingProbeId asStringMorph)
+		name: #lineName;
+		on: #click send: #value to: [
 			ToolSet 
-				browse: aTraceValue containedMethodReference actualClass
-				selector: aTraceValue containedMethodReference methodSymbol]);
-		asMorph
+				browse: aTraceValue containedMethodReference actualClass 
+				selector: aTraceValue containedMethodReference methodSymbol];
+		yourself
+		
+	
