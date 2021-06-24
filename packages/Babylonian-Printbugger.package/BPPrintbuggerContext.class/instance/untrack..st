@@ -1,4 +1,5 @@
 state
 untrack: aBPExample
 	
-	aBPExample traceValues do: [:aTraceValue | self untrackTraceValue: aTraceValue]
+	self untrackWithoutSignal: aBPExample.
+	self changed: #updatedContext.

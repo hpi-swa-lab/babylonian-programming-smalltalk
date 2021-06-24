@@ -9,6 +9,6 @@ initializeProperties
 			listDirection: #topToBottom;
 			wrapCentering: #center;
 			cellPositioning: #topLeft;
-			layoutInset: 4@8;
+			layoutInset: 8@8;
 			yourself.
 				

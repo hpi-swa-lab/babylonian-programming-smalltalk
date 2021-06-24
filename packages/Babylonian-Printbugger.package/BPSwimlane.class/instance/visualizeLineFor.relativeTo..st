@@ -1,15 +1,6 @@
 private
 visualizeLineFor: aTraceValue relativeTo: aStackRelation
 	
-	|name valueMorph barMorph button|
-	name := self newLineNameMorphFor: aTraceValue.
-	valueMorph := aTraceValue asValueMorph.
-	barMorph := Morph new 
-						color: (self colorFor: aTraceValue in: context);
-						extent: ((self barWidthFor: aTraceValue relativeTo: aStackRelation)@(valueMorph fullBounds height + 20));
-						yourself.
-	button := self newHaltButtonFor: aTraceValue.
-	
 	^ Morph new
 		name: aTraceValue chronologicalPosition asString;
 		color: Color transparent;
@@ -18,6 +9,7 @@ visualizeLineFor: aTraceValue relativeTo: aStackRelation
 		cellPositioning: #center;
 		vResizing: #shrinkWrap;
 		hResizing: #shrinkWrap;
-		cellInset: 10@0;
-		addAllMorphsBack: {barMorph. button. name. valueMorph.};
+		cellInset: 5@0;
+		layoutInset: self stackDepth@0;
+		addAllMorphsBack: (self lineSubmorphsFor: aTraceValue relativeTo: aStackRelation);
 		yourself.

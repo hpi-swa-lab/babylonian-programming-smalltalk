@@ -1,4 +1,4 @@
-state
+private
 trackTraceValue: aTraceValue
 	
 	|traceMethod|
@@ -6,6 +6,5 @@ trackTraceValue: aTraceValue
 	methodToCount at: traceMethod 
 		ifPresent: [:aCount | methodToCount at: traceMethod put: (aCount+ 1)] 
 		ifAbsent: [
-			methodToCount at: traceMethod put: 1.
-			self changed: #updatedContext].
+			methodToCount at: traceMethod put: 1].
 	

@@ -1,4 +1,4 @@
-state
+private
 untrackTraceValue: aTraceValue
 	
 	|traceMethod|
@@ -7,7 +7,6 @@ untrackTraceValue: aTraceValue
 		ifPresent: [:aCount |
 			(aCount == 1)
 				ifTrue: [
-					methodToCount removeKey: traceMethod.
-					self changed: #updatedContext.]
+					methodToCount removeKey: traceMethod]
 				ifFalse: [methodToCount at: traceMethod put: (aCount -1 )]] 
 		ifAbsent: ["don't care"].

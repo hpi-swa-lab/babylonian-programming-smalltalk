@@ -1,10 +1,6 @@
-private
+private - ui
 haltButtonClickedFor: aTraceValue and: aBPExample
 	
-	| probe positionInProbe |
-	probe := aBPExample trace probes at: aTraceValue belongingProbeId.
-	positionInProbe := (probe 
-		collect: [:aValue | aValue chronologicalPosition])
-		indexOf: aTraceValue chronologicalPosition.
-
-	aBPExample traceToHaltAt: (aTraceValue belongingProbeId) onCount: positionInProbe.
+	aBPExample 
+		traceToHaltAt: (aTraceValue belongingProbeId) 
+		onCount: (self positionInProbeFor:aTraceValue and: aBPExample).

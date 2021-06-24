@@ -1,4 +1,4 @@
-private
+private - ui
 newHaltButtonFor: aTraceValue
 	
 	^ (BPIconicButton newHaltButtonOfSize: self iconSize andExtentOffsetX: self scrollBarSize)

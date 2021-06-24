@@ -2,4 +2,4 @@ change notifications
 updateLayoutToContext
 	
 	self submorphs allButFirst doWithIndex: [:aTraceValueLine :anIndex | 
-		aTraceValueLine firstSubmorph color: (self colorFor: (example traceValues at: anIndex) in: context) ].
+		aTraceValueLine firstSubmorph color: (self colorFor: (example traceValues at: anIndex) in: context)].

@@ -1,4 +1,4 @@
-private
+constants
 stackDepth
-
-	^ 10
+	
+	^ 13

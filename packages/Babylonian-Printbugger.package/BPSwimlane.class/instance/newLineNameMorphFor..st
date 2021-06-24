@@ -1,12 +1,7 @@
-private
+private - ui
 newLineNameMorphFor: aTraceValue
 	
-	|name|
-	name := aTraceValue belongingProbe
-		ifNotNil: [aTraceValue belongingProbe label]
-		ifNil: [aTraceValue belongingProbeId].
-		
-	^ name asMorph
+	^ (self newNameFor: aTraceValue) asMorph
 		name: #lineName;
 		on: #click send: #value to: [
 			ToolSet 
