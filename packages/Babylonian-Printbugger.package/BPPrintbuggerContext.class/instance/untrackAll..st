@@ -1,5 +1,4 @@
 state
 untrackAll: aCollectionOfBPExamples
 	
-	aCollectionOfBPExamples do: [:anExample | self untrackWithoutSignal: anExample].
-	self changed: #updatedContext.
+	self performTrackingActionRegarding: [aCollectionOfBPExamples do: [:anExample | self untrackSilently: anExample]].

@@ -1,5 +1,4 @@
 state
 untrack: aBPExample
 	
-	self untrackWithoutSignal: aBPExample.
-	self changed: #updatedContext.
+	self performTrackingActionRegarding: [self untrackSilently: aBPExample].

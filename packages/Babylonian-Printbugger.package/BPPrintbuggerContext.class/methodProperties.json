@@ -2,14 +2,15 @@
 	"class" : {
 		"newFor:" : "jb 6/10/2021 20:51" },
 	"instance" : {
-		"colorFor:having:" : "jb 6/25/2021 00:44",
+		"colorFor:having:" : "jb 6/29/2021 23:37",
 		"initialize" : "jb 6/10/2021 23:55",
-		"track:" : "jb 6/25/2021 01:21",
-		"trackAll:" : "jb 6/25/2021 00:58",
-		"trackTraceValue:" : "jb 6/25/2021 00:55",
-		"trackWithoutSignal:" : "jb 6/25/2021 01:21",
-		"untrack:" : "jb 6/25/2021 01:22",
-		"untrackAll:" : "jb 6/25/2021 00:58",
+		"performTrackingActionRegarding:" : "jb 6/30/2021 02:40",
+		"track:" : "jb 6/30/2021 02:41",
+		"trackAll:" : "jb 6/30/2021 02:41",
+		"trackSilently:" : "jb 6/30/2021 01:55",
+		"trackTraceValue:" : "jb 6/30/2021 02:38",
+		"untrack:" : "jb 6/30/2021 02:41",
+		"untrackAll:" : "jb 6/30/2021 02:41",
+		"untrackSilently:" : "jb 6/30/2021 01:57",
 		"untrackTraceValue:" : "jb 6/25/2021 00:56",
-		"untrackWithoutSignal:" : "jb 6/25/2021 01:22",
-		"update:with:" : "jb 6/25/2021 01:19" } }
+		"update:with:" : "jb 6/30/2021 01:57" } }

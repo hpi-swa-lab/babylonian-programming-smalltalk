@@ -1,5 +1,4 @@
 state
 trackAll: aCollectionOfBPExamples
 	
-	aCollectionOfBPExamples do: [:anExample | self trackWithoutSignal: anExample].
-	self changed: #updatedContext.
+	self performTrackingActionRegarding: [aCollectionOfBPExamples do: [:anExample | self trackSilently: anExample]].

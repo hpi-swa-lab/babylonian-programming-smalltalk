@@ -1,6 +1,6 @@
 state
 track: aBPExample
 	
-	self trackWithoutSignal: aBPExample.
-	self changed: #updatedContext.
+	self performTrackingActionRegarding: [self trackSilently: aBPExample].
+	
 	

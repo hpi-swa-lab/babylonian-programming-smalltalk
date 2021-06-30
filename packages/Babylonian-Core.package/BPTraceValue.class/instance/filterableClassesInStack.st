@@ -7,4 +7,6 @@ filterableClassesInStack
 		CSProcessContextInformation.
 		CSMethodObject.
 		CSLayeredMethod.
-		CSPartialMethod.}
+		CSPartialMethod.
+		TestCase.
+		TestResult.}
