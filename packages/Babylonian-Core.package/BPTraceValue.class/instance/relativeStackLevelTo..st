@@ -13,7 +13,7 @@ relativeStackLevelTo: anotherTraceValue
 	"If both stacks are full, the direction can also not be as easily concluded. Return the non zero one unless
 	both directions result in a depth of zero."
 	(self isStackFull and: [anotherTraceValue isStackFull]) ifTrue: [ 
-		{(self oneSidedStackLevelTo: anotherTraceValue) negated. anotherTraceValue oneSidedStackLevelTo: self}
+		{self oneSidedStackLevelTo: anotherTraceValue. (anotherTraceValue oneSidedStackLevelTo: self) negated}
 			detect: [:aStackDepth | aStackDepth ~~ 0]
 				ifFound: [:theStackDepth | ^ theStackDepth] 
 				ifNone: [^ 0]].

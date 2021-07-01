@@ -1,4 +1,5 @@
 state
 untrack: aBPExample
 	
-	self performTrackingActionRegarding: [self untrackSilently: aBPExample].
+	self untrackAllTraceValues: aBPExample traceValues.
+	aBPExample removeDependent: self.

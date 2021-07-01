@@ -1,6 +1,7 @@
 state
 track: aBPExample
 	
-	self performTrackingActionRegarding: [self trackSilently: aBPExample].
+	self trackAllTraceValues: aBPExample traceValues.
+	aBPExample addDependent: self.
 	
 	

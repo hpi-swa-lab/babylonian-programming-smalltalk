@@ -3,14 +3,13 @@
 		"newFor:" : "jb 6/10/2021 20:51" },
 	"instance" : {
 		"colorFor:having:" : "jb 6/29/2021 23:37",
-		"initialize" : "jb 6/10/2021 23:55",
-		"performTrackingActionRegarding:" : "jb 6/30/2021 02:40",
-		"track:" : "jb 6/30/2021 02:41",
-		"trackAll:" : "jb 6/30/2021 02:41",
-		"trackSilently:" : "jb 6/30/2021 01:55",
+		"initialize" : "jb 7/1/2021 23:08",
+		"track:" : "jb 7/1/2021 23:28",
+		"trackAll:" : "jb 7/1/2021 22:18",
+		"trackAllTraceValues:" : "jb 7/1/2021 23:25",
 		"trackTraceValue:" : "jb 6/30/2021 02:38",
-		"untrack:" : "jb 6/30/2021 02:41",
-		"untrackAll:" : "jb 6/30/2021 02:41",
-		"untrackSilently:" : "jb 6/30/2021 01:57",
+		"untrack:" : "jb 7/1/2021 23:28",
+		"untrackAll:" : "jb 7/1/2021 22:18",
+		"untrackAllTraceValues:" : "jb 7/1/2021 23:34",
 		"untrackTraceValue:" : "jb 6/25/2021 00:56",
-		"update:with:" : "jb 6/30/2021 01:57" } }
+		"update:with:" : "jb 7/1/2021 23:50" } }

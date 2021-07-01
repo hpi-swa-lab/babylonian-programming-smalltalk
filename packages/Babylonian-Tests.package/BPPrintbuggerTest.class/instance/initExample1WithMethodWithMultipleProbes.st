@@ -1,7 +1,7 @@
 running
 initExample1WithMethodWithMultipleProbes
 	
-	example1 := (BPTestManuallyInstrumentedClass>>#methodWithMultipleProbes) bpExamples first.
+	example1 := (BPTestExamplesClass>>#methodWithMultipleProbes) bpExamples first.
 	
 	"Force update notifications"
 	example1 isActive: true.

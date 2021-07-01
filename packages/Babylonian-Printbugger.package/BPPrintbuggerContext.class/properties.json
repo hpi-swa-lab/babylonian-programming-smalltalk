@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "jb 6/30/2021 00:05",
 	"instvars" : [
-		"methodToCount" ],
+		"methodToCount",
+		"keysCountCache" ],
 	"name" : "BPPrintbuggerContext",
 	"pools" : [
 		 ],
