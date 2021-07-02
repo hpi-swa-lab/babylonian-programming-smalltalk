@@ -3,6 +3,6 @@ testUpdatesSwimlanesAfterNewActiveExample
 	
 	self initExamplesWitMethodAWithAssertionUsingExpressionResult.
 	example1 isActive: false.
-	self assert: (printbugger canvasMorph submorphs size) equals: 1.
+	self assert: 1 equals: printbugger canvasMorph submorphs size.
 	example1 isActive: true.
-	self assert: (printbugger canvasMorph submorphs size) equals: 2.
+	self assert: 2 equals: printbugger canvasMorph submorphs size.

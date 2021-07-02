@@ -7,6 +7,6 @@ update: anAspect with: anObject
 		"When a new trace is set, we do not know which values were added/removed so update all trace values. Only send an update notification if tracked methods changed."
 		anObject first ifNotNil: [
 			keysCountCache := methodToCount size.
-			anObject second ifNotNil: [self untrackAllTraceValues: anObject second traceValues].
-			self trackAllTraceValues: anObject first traceValues.
+			anObject second ifNotNil: [self countAllOut: anObject second traceValues].
+			self countAllIn: anObject first traceValues.
 			(keysCountCache ~~ methodToCount size) ifTrue: [self changed: #updatedContext with: anObject first example]]].

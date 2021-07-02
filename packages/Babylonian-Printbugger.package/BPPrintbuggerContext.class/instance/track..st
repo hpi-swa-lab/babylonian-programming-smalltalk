@@ -1,7 +1,7 @@
 state
 track: aBPExample
 	
-	self trackAllTraceValues: aBPExample traceValues.
+	self countAllIn: aBPExample traceValues.
 	aBPExample addDependent: self.
 	
 	

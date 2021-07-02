@@ -1,5 +1,5 @@
 state
 untrack: aBPExample
 	
-	self untrackAllTraceValues: aBPExample traceValues.
+	self countAllOut: aBPExample traceValues.
 	aBPExample removeDependent: self.

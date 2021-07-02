@@ -1,5 +1,5 @@
 private
-trackTraceValue: aTraceValue
+countIn: aTraceValue
 	
 	|traceMethod|
 	traceMethod := aTraceValue containedMethodReference.
