@@ -1,4 +1,4 @@
-as yet unclassified
+example methods
 methodOnlyWithExample
  
 	<exampleNamed: 'some example'>  

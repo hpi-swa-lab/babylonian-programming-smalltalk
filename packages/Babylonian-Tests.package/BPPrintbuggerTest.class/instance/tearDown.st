@@ -2,7 +2,5 @@ running
 tearDown
 	
 	BPExamples value removeAll: BPExamples value examples.
-	{
-		(BPTestManuallyInstrumentedClass>>#methodAWithAssertionUsingExpressionResult).
-		(BPTestManuallyInstrumentedClass>>#methodWithMultipleProbes)} do: [:aMethod | 
+	self usedMethods do: [:aMethod | 
 			aMethod removeProperty: #bpExamples ifAbsent: []].

@@ -1,4 +1,4 @@
 state
 untrackAll: aCollectionOfBPExamples
 	
-	self performTrackingActionRegarding: [aCollectionOfBPExamples do: [:anExample | self untrackSilently: anExample]].
+	aCollectionOfBPExamples do: [:anExample | self untrack: anExample].

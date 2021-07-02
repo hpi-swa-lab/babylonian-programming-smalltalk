@@ -2,6 +2,7 @@
 	"class" : {
 		"basicSetUpForExamples" : "pre 1/21/2021 17:15",
 		"basicTearDownForExamples" : "pre 1/21/2021 17:15",
+		"compilerClass" : "smalltalkCI 7/2/2021 13:46",
 		"empty" : "pre 5/17/2019 16:40",
 		"one" : "pre 7/1/2019 14:22" },
 	"instance" : {
@@ -9,8 +10,12 @@
 		"addAndLog:" : "pre 5/3/2021 10:36",
 		"binarySearchIn:theElement:" : "pre 1/21/2021 16:48",
 		"methodOnlyWithExample" : "pre 11/18/2019 12:07",
+		"methodWithExampleCallingOnlyProbedMethod" : "jb 7/2/2021 00:56",
 		"methodWithLiveSpecimen:" : "pre 9/30/2020 09:41",
+		"methodWithMultipleProbes" : "jb 7/2/2021 00:46",
+		"methodWithOnlyProbe" : "jb 7/2/2021 00:55",
 		"methodWithScriptExamples" : "pre 10/7/2020 11:39",
+		"methodWithSingleProbe" : "jb 7/2/2021 00:49",
 		"otherMethod" : "pre 11/9/2019 14:59",
 		"plainMethod" : "pre 11/18/2019 12:07",
 		"schwubbleMethod" : "pre 11/18/2019 12:07",

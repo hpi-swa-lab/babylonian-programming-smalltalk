@@ -1,0 +1,4 @@
+compiling
+compilerClass
+
+	^ BPCompiler

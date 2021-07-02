@@ -1,7 +1,7 @@
 running
-initExamplesWithMethodBInstrumented
+initExample2WithSingleProbe
 	
-	example2 := (BPTestManuallyInstrumentedClass>>#methodBInstrumented) bpExamples first.
+	example2 := (BPTestExamplesClass>>#methodWithSingleProbe) bpExamples first.
 	
 	"Force update notifications"
 	example2 isActive: true.
