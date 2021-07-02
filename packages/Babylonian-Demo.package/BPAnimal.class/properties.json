@@ -1,0 +1,16 @@
+{
+	"category" : "Babylonian-Demo-Farm",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"velocity",
+		"name",
+		"type" ],
+	"name" : "BPAnimal",
+	"pools" : [
+		 ],
+	"super" : "CircleMorph",
+	"type" : "normal" }

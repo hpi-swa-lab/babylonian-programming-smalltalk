@@ -12,6 +12,7 @@ initializeParts
 				ratio: (1/4);
 				yourself.};
 		tree: BPTree new;
+		panda: BPPanda new;
 		sky: BPSky new.
 
 	self sceneParts do: [:part |

@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"animalNamesOnFarm" : "lu 7/2/2021 13:25",
+		"animalTypes" : "lu 7/1/2021 23:36",
+		"compilerClass" : "lu 7/2/2021 13:18",
+		"open" : "lu 7/2/2021 00:50" },
+	"instance" : {
+		"addAnimals:" : "lu 7/2/2021 00:32",
+		"animals" : "lu 7/2/2021 00:06",
+		"animals:" : "lu 7/2/2021 00:06",
+		"devide:from:to:" : "lu 7/2/2021 14:01",
+		"findFavoriteAnimalAtPosition:" : "lu 7/2/2021 14:01",
+		"initialize" : "lu 7/2/2021 01:35",
+		"shuffleAnimals:" : "lu 7/2/2021 00:07",
+		"simulateDayOnFarm" : "lu 7/2/2021 22:05",
+		"sort:" : "lu 7/2/2021 14:11",
+		"sortAnimals:from:to:" : "lu 7/2/2021 14:10",
+		"step" : "lu 7/1/2021 23:09",
+		"stepTime" : "lu 7/1/2021 23:38",
+		"validate:" : "lu 7/2/2021 14:02",
+		"validate:atPosition:" : "lu 7/2/2021 14:15" } }

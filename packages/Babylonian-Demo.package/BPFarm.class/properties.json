@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-Demo-Farm",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"animals" ],
+	"name" : "BPFarm",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

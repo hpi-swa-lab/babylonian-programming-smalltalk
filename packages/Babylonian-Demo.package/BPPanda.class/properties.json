@@ -6,12 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"mountains",
-		"tree",
-		"sky",
-		"panda" ],
-	"name" : "BPTreeSceneMorph",
+		"color",
+		"ratio" ],
+	"name" : "BPPanda",
 	"pools" : [
 		 ],
-	"super" : "BPSceneMorph",
+	"super" : "BPSceneObject",
 	"type" : "normal" }
