@@ -7,8 +7,8 @@ howManyTestsAreFound
 	"categories := {'Morphic-Basic' asSymbol}."
 	"categories := {'WebClient-Core' asSymbol}."
 	
-	"these two crash"
-	"categories := #(#'Kernel-Classes' #'Kernel-Exceptions' #'Kernel-Exceptions-Kernel' #'Kernel-Methods' #'Kernel-Models' #'Kernel-Numbers' #'Kernel-Numbers-Exceptions' #'Kernel-Objects' #'Kernel-Pools' #'Kernel-Processes' #'Kernel-Processes-Variables').	"
+	"crashs Classes Methods Numbers Objects"
+	"categories := #(#'Kernel-Classes' #'Kernel-Exceptions' #'Kernel-Exceptions-Kernel' #'Kernel-Methods' #'Kernel-Models' #'Kernel-Numbers' #'Kernel-Numbers-Exceptions' #'Kernel-Objects' #'Kernel-Pools' #'Kernel-Processes' #'Kernel-Processes-Variables')."
 		
 	"Abstract and support and unordered crash, text leads to an error"
 	"categories :=  #(#'Collections-Abstract' #'Collections-Arrayed' #'Collections-Cache' #'Collections-Exceptions' #'Collections-Heap' #'Collections-Sequenceable' #'Collections-SortFunctions' #'Collections-Stack' #'Collections-Streams' #'Collections-Strings' #'Collections-Support' #'Collections-Text' #'Collections-Unordered' #'Collections-Weak')."
@@ -39,7 +39,7 @@ howManyTestsAreFound
 	
 	classes do: [:class |
 		class methodDict keysAndValuesDo: [:methodSelector :compiledMethod |
-			(class = Mutex
+			("class = Mutex" false
 				or: [compiledMethod isAbstract]
 					or: [methodSelector = #value: and: [class = BlockClosure]])
 				ifFalse: [
