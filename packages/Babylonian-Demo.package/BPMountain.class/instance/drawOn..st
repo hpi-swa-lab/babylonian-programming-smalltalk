@@ -21,5 +21,5 @@ drawOn: aCanvas
 		borderWidth: 0
 		borderColor: Color red.
 		
-	
+	Transcript show: 'add Mountain'. Transcript cr.
 	aCanvas

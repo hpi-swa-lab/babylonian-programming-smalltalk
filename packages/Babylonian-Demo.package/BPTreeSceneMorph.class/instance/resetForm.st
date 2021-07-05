@@ -12,10 +12,13 @@ resetForm
 	yourself'>
 	| canvas |
 	super resetForm.
-	
+
 	self sceneParts do: [:part |
 		canvas := cachedForm getCanvas.
+		Transcript show: 'draw part'. Transcript cr.
+		Transcript show: part. Transcript cr.
 		part drawOn: canvas. 
+		Transcript show: canvas form. Transcript cr.
 		canvas flush].
 	
 	^ cachedForm

@@ -1,6 +1,7 @@
 drawing
 drawOn: aCanvas
 	
+	Transcript show: 'draw sky'. Transcript cr.
 	aCanvas 
 		fillRectangle: (0@0 extent: aCanvas form extent) 
 		fillStyle: ((GradientFillStyle 
