@@ -7,7 +7,7 @@ resetForm
 		yourself);
 	sky: BPSky roseSky;
 	yourself'>
-	<exampleNamed: 'basic' setUp: 'ThreadSafeRandom value: (Random seed: 10).' self: 'BPTreeSceneMorph new
+	<exampleNamed: 'basic scene' self: 'BPTreeSceneMorph new
 	extent: 800@600;
 	yourself'>
 	| canvas |
@@ -16,6 +16,6 @@ resetForm
 	self sceneParts do: [:part |
 		canvas := cachedForm getCanvas.
 		part drawOn: canvas. 
-		"<bpProbe id: 4109825 expression: [:result | result form]>"canvas"</bpProbe>" flush].
+		canvas flush].
 	
-	^ "<bpProbe id: 9184282>"cachedForm"</bpProbe>"
+	^ "<bpProbe id: 2023974>"cachedForm"</bpProbe>"
