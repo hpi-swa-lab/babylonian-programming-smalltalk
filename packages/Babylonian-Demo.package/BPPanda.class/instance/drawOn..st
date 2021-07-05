@@ -26,4 +26,4 @@ drawOn: aCanvas
 			fillOval: (20@20 center: (basePos x + 70)@(basePos y + 40)) 
 			color: Color black.
 	
-	"<bpProbe id: 1413600 expression: [:result | result form]>"alphaCanvas"</bpProbe>"
+	alphaCanvas

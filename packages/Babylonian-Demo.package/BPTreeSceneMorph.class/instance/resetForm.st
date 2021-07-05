@@ -18,4 +18,4 @@ resetForm
 		part drawOn: canvas. 
 		canvas flush].
 	
-	^ "<bpProbe id: 2023974>"cachedForm"</bpProbe>"
+	^ cachedForm
