@@ -8,6 +8,6 @@ buildWith: aBuilder
 		self resultViewFrame -> [self buildResultViewWith: aBuilder].
 	}.
 	windowSpec
-		label: 'Babylonian Recording Tool for: ', methodReference selector asString;
+		label: 'Babylonian Test Example Tool for: ', methodReference selector asString;
 		extent: 500@400.
 	 ^ aBuilder build: windowSpec

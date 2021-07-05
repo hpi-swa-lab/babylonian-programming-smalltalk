@@ -1,4 +1,4 @@
 toolbuilder
 mockingPreferenceLabel
 	
-	^ 'Use mock objects'
+	^ 'Minimize objects'

@@ -1,0 +1,15 @@
+{
+	"category" : "Babylonian-ExampleExtraction-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"mockKey",
+		"mockValue" ],
+	"name" : "BPMiniAssociationTemplate",
+	"pools" : [
+		 ],
+	"super" : "BPMiniObjectTemplate",
+	"type" : "normal" }

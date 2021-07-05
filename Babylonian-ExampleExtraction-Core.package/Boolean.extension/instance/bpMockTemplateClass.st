@@ -1,4 +1,4 @@
 *Babylonian-ExampleExtraction-Core
 bpMockTemplateClass
 	
-	^ BPMockLeafTemplate
+	^ BPMiniLeafTemplate

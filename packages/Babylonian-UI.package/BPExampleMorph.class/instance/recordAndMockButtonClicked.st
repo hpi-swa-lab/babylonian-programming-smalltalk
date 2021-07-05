@@ -1,4 +1,4 @@
 ui - actions
 recordAndMockButtonClicked
 	
-	BPRecordMockPreview openFor: self example.
+	BPMinimizePreview openFor: self example.

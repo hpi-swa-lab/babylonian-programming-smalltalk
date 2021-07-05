@@ -1,0 +1,18 @@
+{
+	"category" : "Babylonian-ExampleExtraction-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"receiver",
+		"arguments",
+		"mockReceiver",
+		"mockArguments",
+		"methodReference" ],
+	"name" : "BPMinimizePreview",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

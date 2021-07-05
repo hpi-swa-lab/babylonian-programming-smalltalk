@@ -8,7 +8,7 @@
 	"instvars" : [
 		"testCaseClass",
 		"methodSelector",
-		"testCaseInstance" ],
+		"testResult" ],
 	"name" : "BPTestCaseExample",
 	"pools" : [
 		 ],

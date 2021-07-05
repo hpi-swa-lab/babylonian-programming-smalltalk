@@ -2,4 +2,4 @@ executing
 run
 	
 	self testCaseClass ifNotNil: [
-		self testCaseInstance: (self testCaseClass run: self methodSelector)]
+		self testResult: (self testCaseClass run: self methodSelector)].
