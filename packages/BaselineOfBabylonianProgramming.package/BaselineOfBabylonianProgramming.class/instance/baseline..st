@@ -20,7 +20,10 @@ baseline: spec
 					spec 
 						requires: #('Ohm' 'PEG');
 						postLoadDoIt: #postLoadCompiler];
-				package: 'Babylonian-Tests' with: [spec requires: #('Babylonian-Core' 'Babylonian-UI' 'Babylonian-Printbugger')];
+				package: 'Babylonian-Tests' with: [
+					spec 
+						requires: #(default);
+						postLoadDoIt: #postLoadTests];
 				package: 'Babylonian-UI' with: [
 					spec 
 						requires: #('Babylonian-Core' 'IconsBase');
@@ -28,7 +31,7 @@ baseline: spec
 				package: 'Babylonian-Demo' with: [];
 				yourself.
 			spec
-				group: 'default' with: #('Babylonian-Core' 'Babylonian-UI');
+				group: 'default' with: #('Babylonian-Core' 'Babylonian-UI' 'Babylonian-Printbugger');
 				group: 'tests' with: #('Babylonian-Tests');
 				group: 'full' with: #(tests 'Babylonian-Demo')];
 				
