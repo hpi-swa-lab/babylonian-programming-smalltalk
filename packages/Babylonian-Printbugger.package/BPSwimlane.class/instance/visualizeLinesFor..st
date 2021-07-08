@@ -1,4 +1,7 @@
 private
 visualizeLinesFor: aBPExample
 	
-	^ aBPExample traceValues collect: [:aTraceValue | self visualizeLineFor: aTraceValue]
+	|stackDepthsRelativeToFirstLine| 
+	stackDepthsRelativeToFirstLine := self stackDepthsFor: aBPExample.
+	^ aBPExample traceValues withIndexCollect: [:aTraceValue :anIndex | 
+		self visualizeLineFor: aTraceValue relativeTo: (stackDepthsRelativeToFirstLine at: anIndex )]

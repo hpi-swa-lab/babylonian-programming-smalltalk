@@ -7,7 +7,8 @@
 	"commentStamp" : "jb 6/3/2021 01:11",
 	"instvars" : [
 		"canvasMorph",
-		"scrollPane" ],
+		"scrollPane",
+		"context" ],
 	"name" : "BPPrintbugger",
 	"pools" : [
 		 ],

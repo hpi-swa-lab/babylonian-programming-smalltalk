@@ -1,7 +1,7 @@
 tests
 testSwimlaneDisplaysTraceValuesForTwoProbesChronologicallySorted
 	
-	|swimlane  traceValues traceIndexes|
+	|swimlane traceValues traceIndexes|
 	self initExample1WithMethodWithMultipleProbes.
 	swimlane := BPSwimlane newFor: example1.
 	traceValues := swimlane allMorphs select: [:aSubmorph | aSubmorph isKindOf: StringMorph] thenCollect: [:aStringMorph | aStringMorph contents].
