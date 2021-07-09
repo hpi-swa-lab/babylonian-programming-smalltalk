@@ -1,4 +1,8 @@
 accessing
 examples
 	
-	^ (BPExamples value examplesForMethod: self methodReference compiledMethod) asArray
+	| compiledMethod |
+	compiledMethod := self methodReference compiledMethod.
+	^ compiledMethod 
+		ifNotNil: [(BPExamples value examplesForMethod: compiledMethod) asArray]
+		ifNil: ["Method was removed by now, so there are not examples" #()]
