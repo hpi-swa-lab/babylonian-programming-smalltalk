@@ -3,7 +3,7 @@ traceInBackground
 	
 	<bpRelevantMethod>
 	| exampleExecution promise |
-	traceInformation terminateTracingProcess.
+	self ensureTerminatedProcess.
 	promise := Promise new.
 	promise whenResolved: [:trace |
 		Project current addDeferredUIMessage: [traceInformation trace: trace]].
