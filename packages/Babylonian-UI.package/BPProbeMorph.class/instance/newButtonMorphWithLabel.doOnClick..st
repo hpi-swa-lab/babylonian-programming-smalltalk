@@ -6,15 +6,12 @@ newButtonMorphWithLabel: aString doOnClick: aSymbolOrString
 		labelGraphic: ((TextMorph string: aString size: BPAnnotationMorph smallFontHeight) textColor: Color lightGray; yourself) imageForm;
 		yourself.
 	
-	button 
+	^ button 
 		color: Color transparent;
 		borderWidth: 0;
 		hResizing: #shrinkWrap;
 		layoutInset: 1;
-		extent: button extent * 0.8.
-	
-	button 
+		extent: button extent * 0.8;
 		target: self;
-		actionSelector: aSymbolOrString. 	
-	
-	^ button
+		actionSelector: aSymbolOrString;
+		yourself

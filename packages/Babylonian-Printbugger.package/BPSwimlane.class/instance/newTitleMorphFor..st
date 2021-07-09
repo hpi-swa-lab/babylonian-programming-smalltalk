@@ -1,7 +1,7 @@
-private
+private - ui
 newTitleMorphFor: aBPExample
 	
-	^ Morph new
+	^ Morph new 
 		name: #swimlaneTitle;
 		color: Color transparent;
 		layoutPolicy: TableLayout new;
@@ -9,6 +9,8 @@ newTitleMorphFor: aBPExample
 		hResizing: #shrinkWrap;
 		vResizing: #shrinkWrap;
 		addAllMorphsBack: ((aBPExample uniqueIdentifier subStrings: '>>') collect: [:aString | aString asMorph]);
+		on: #click 
+			send: #value 
+			to: [ToolSet browse: aBPExample method methodClass selector: aBPExample method selector asSymbol];
 		yourself
-		
 	

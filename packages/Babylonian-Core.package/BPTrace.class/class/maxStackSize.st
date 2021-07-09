@@ -1,0 +1,4 @@
+constants
+maxStackSize
+
+	^ 100

@@ -1,8 +1,12 @@
 change notifications
-update: anAspect with: aTrace
+update: anAspect with: anObject
 	
-	super update: anAspect with:aTrace.
+	super update: anAspect with: anObject.
 	
 	anAspect = #newTrace ifTrue: [
-		self removeAllMorphs.
-			aTrace ifNotNil: [self visualize]]. 
+		anObject first ifNotNil: [
+			self removeAllMorphs.
+			self visualize]].
+	
+	anAspect = #updatedContext ifTrue: [
+		(anObject ~~ example) ifTrue: [self updateLayoutToContext]].
