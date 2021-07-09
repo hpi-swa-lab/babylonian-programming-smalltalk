@@ -11,4 +11,4 @@ defaultLabelFor: aMethodReference withId: aNumber
 				ifFalse: ['{1}{2}' format: {aSubMethod first . aSubMethod select: [:aChar | aChar isUppercase]}]])
 		fold: [:aString :anotherString | aString, ':', anotherString].
 	
-	^ '''{1}>>{2}-{3}''' format: { aMethodReference actualClass . shortMethodName . aNumber }.
+	^ '{1}>>{2}-{3}' format: { aMethodReference actualClass . shortMethodName . aNumber }.
