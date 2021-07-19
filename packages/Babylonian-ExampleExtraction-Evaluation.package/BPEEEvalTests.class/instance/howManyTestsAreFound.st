@@ -14,6 +14,7 @@ howManyTestsAreFound
 	"categories :=  #(#'Collections-Abstract' #'Collections-Arrayed' #'Collections-Cache' #'Collections-Exceptions' #'Collections-Heap' #'Collections-Sequenceable' #'Collections-SortFunctions' #'Collections-Stack' #'Collections-Streams' #'Collections-Strings' #'Collections-Support' #'Collections-Text' #'Collections-Unordered' #'Collections-Weak')."
 		
 	"categories := #(#'Morphic-Balloon' #'Morphic-Basic' #'Morphic-Basic-NewCurve' #'Morphic-Borders' #'Morphic-Collections-Arrayed' #'Morphic-Demo' #'Morphic-Events' #'Morphic-Explorer' #'Morphic-Kernel' #'Morphic-Layouts' #'Morphic-Menus' #'Morphic-Menus-DockingBar' #'Morphic-Pluggable Widgets' #'Morphic-Sound-Synthesis' #'Morphic-Support' #'Morphic-Text Support' #'Morphic-TrueType' #'Morphic-Widgets' #'Morphic-Windows' #'Morphic-Worlds')."
+	categories := #(#'MorphicExtras-AdditionalMorphs' #'MorphicExtras-AdditionalSupport' #'MorphicExtras-AdditionalWidgets' #'MorphicExtras-Books' #'MorphicExtras-Demo' #'MorphicExtras-EToy-Download' #'MorphicExtras-Exceptions' #'MorphicExtras-Flaps' #'MorphicExtras-GeeMail' #'MorphicExtras-Leds' #'MorphicExtras-Navigators' #'MorphicExtras-Obsolete' #'MorphicExtras-Palettes' #'MorphicExtras-PartsBin' #'MorphicExtras-Postscript Canvases' #'MorphicExtras-Postscript Filters' #'MorphicExtras-SoundInterface' #'MorphicExtras-SqueakPage' #'MorphicExtras-Support' #'MorphicExtras-Text Support' #'MorphicExtras-Undo' #'MorphicExtras-Widgets').
 	"categories :=  #(#'Regex-Core' #'Regex-Exceptions')."
 	"categories :=  #(#'Chronology-Core')."
 	
