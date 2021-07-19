@@ -1,0 +1,15 @@
+{
+	"category" : "Babylonian-ExampleMining-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"lampOn",
+		"lampOff" ],
+	"name" : "BPExampleRecordingToolLampSpec",
+	"pools" : [
+		 ],
+	"super" : "PluggableWidgetSpec",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-ExampleMining-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPClassWithInstanceVariablesSubclass",
+	"pools" : [
+		 ],
+	"super" : "BPClassWithInstanceVariables",
+	"type" : "normal" }

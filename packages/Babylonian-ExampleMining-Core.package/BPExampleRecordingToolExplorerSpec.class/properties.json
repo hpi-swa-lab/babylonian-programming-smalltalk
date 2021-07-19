@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-ExampleMining-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ek 2/2/2021 17:03",
+	"instvars" : [
+		"getExploree" ],
+	"name" : "BPExampleRecordingToolExplorerSpec",
+	"pools" : [
+		 ],
+	"super" : "PluggableWidgetSpec",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-ExampleMining-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPTestCaseExampleMorph",
+	"pools" : [
+		 ],
+	"super" : "BPExampleMorph",
+	"type" : "normal" }

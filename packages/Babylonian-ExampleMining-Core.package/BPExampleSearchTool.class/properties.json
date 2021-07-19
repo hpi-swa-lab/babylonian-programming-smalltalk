@@ -1,0 +1,23 @@
+{
+	"category" : "Babylonian-ExampleMining-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"methodReference",
+		"searchResults",
+		"searchResultIndex",
+		"requestor",
+		"classNamePreference",
+		"packageNamePreference",
+		"includesMethodSelectorPreference",
+		"tryRecordingPreference",
+		"tryCoveragePreference",
+		"evalOnlyBase53" ],
+	"name" : "BPExampleSearchTool",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

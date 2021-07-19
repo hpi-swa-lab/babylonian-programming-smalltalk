@@ -1,0 +1,15 @@
+{
+	"category" : "Babylonian-ExampleMining-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"forest",
+		"rootMock" ],
+	"name" : "BPMiniTree",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

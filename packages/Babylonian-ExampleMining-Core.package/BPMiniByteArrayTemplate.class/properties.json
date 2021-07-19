@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-ExampleMining-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPMiniByteArrayTemplate",
+	"pools" : [
+		 ],
+	"super" : "BPMiniArrayTemplate",
+	"type" : "normal" }
