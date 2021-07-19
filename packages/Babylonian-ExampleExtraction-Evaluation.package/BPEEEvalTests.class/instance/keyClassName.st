@@ -1,4 +1,0 @@
-constants
-keyClassName
-
-	^ #testsClassName

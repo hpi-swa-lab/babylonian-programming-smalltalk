@@ -1,4 +1,0 @@
-constants
-keyPackageName
-	
-	^ #testsPackageName

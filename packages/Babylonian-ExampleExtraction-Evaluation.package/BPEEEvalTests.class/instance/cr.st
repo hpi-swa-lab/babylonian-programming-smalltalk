@@ -1,4 +1,0 @@
-file
-cr
-	
-	^ '', Character cr

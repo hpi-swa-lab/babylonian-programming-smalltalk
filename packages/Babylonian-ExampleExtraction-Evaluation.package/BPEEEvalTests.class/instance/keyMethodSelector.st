@@ -1,4 +1,0 @@
-constants
-keyMethodSelector
-	
-	^ #testsMethodSelector
