@@ -1,0 +1,18 @@
+{
+	"category" : "Babylonian-ExampleMining-Minimization",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"methodReference",
+		"receiver",
+		"arguments",
+		"mockForest",
+		"transcriptMode" ],
+	"name" : "BPMiniContext",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

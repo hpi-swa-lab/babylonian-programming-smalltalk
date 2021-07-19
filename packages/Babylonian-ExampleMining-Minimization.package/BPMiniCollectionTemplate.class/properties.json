@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-ExampleMining-Minimization",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"mockTemplateCollection" ],
+	"name" : "BPMiniCollectionTemplate",
+	"pools" : [
+		 ],
+	"super" : "BPMiniObjectTemplate",
+	"type" : "normal" }
