@@ -6,6 +6,5 @@ OrderedDictionary {
 	'packages/Babylonian-UI.package' : #SquotCypressCodeSerializer,
 	'packages/Babylonian-Demo.package' : #SquotCypressCodeSerializer,
 	'Babylonian-ExampleExtraction-Core.package' : #SquotCypressCodeSerializer,
-	'packages/Babylonian-ExampleExtraction-Tests.package' : #SquotCypressCodeSerializer,
-	'packages/Babylonian-ExampleExtraction-Evaluation.package' : #SquotCypressCodeSerializer
+	'packages/Babylonian-ExampleExtraction-Tests.package' : #SquotCypressCodeSerializer
 }
