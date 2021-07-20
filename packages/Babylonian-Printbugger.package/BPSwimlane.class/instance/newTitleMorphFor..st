@@ -1,7 +1,7 @@
 private - ui
 newTitleMorphFor: aBPExample
 	
-	^ TextMorph new
+	^ StringMorph new
 		contents: (Text string: aBPExample uniqueIdentifier attribute: TextEmphasis bold);
 		on: #click 
 			send: #value 
