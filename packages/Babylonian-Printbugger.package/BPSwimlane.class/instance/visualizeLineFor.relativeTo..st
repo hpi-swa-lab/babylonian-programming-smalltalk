@@ -9,7 +9,6 @@ visualizeLineFor: aTraceValue relativeTo: aStackRelation
 		cellPositioning: #center;
 		vResizing: #shrinkWrap;
 		hResizing: #shrinkWrap;
-		cellInset: 5@0;
-		layoutInset: self stackDepth@0;
+		cellInset: 3@1;
 		addAllMorphsBack: (self lineSubmorphsFor: aTraceValue relativeTo: aStackRelation);
 		yourself.

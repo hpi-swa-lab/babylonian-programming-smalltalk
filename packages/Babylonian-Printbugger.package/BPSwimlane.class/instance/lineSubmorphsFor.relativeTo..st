@@ -2,12 +2,11 @@ private
 lineSubmorphsFor: aTraceValue relativeTo: aStackRelation
 	
 	| valueMorph |
-	valueMorph := aTraceValue asValueMorph.
+	valueMorph := self newLabelValuePairMorphFor: aTraceValue.
 	
-	^ {self newBarMorphFor: aTraceValue 
+	^ {self newHaltButtonFor: aTraceValue.
+		self newBarMorphFor: aTraceValue 
 			relativeTo: aStackRelation 
-			withHeight: (valueMorph fullBounds height + 20).
-		self newHaltButtonFor: aTraceValue.
-		self newLineNameMorphFor: aTraceValue.
+			withHeight: (valueMorph fullBounds height + 10).
 		valueMorph.}
 	

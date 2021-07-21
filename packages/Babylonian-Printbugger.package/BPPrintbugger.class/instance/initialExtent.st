@@ -1,4 +1,4 @@
 open/close
 initialExtent
-
-	^ 1080@720
+	
+	^ 700@600

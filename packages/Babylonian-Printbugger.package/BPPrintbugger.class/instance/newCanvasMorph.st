@@ -7,8 +7,8 @@ newCanvasMorph
 		changeTableLayout;
 		listDirection: #leftToRight;
 		cellPositioning: #topCenter;
-		cellInset: 20@5;
-		layoutInset: 20@10;
+		cellInset: 10@5;
+		layoutInset: 5@5;
 		hResizing: #shrinkWrap;
 		vResizing: #shrinkWrap;
 		yourself

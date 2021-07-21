@@ -1,15 +1,15 @@
 constants
 barColorScheme
 	
-	^ #('f94144'
-		 '277da1'
-		 'f3722c'
-		 '577590'
-		 'f8961e'
-		 '4d908e'
-		 'f9844a'
-		 '43aa8b'
-		 'f9c74f'
-		 '90be6d')
+	^ #('4e7aa7'
+		 'f28f2c'
+		 'e1575a'
+		 '76b7b2'
+		 '59a14f'
+		 'edca49'
+		 'af7aa1'
+		 'ff9da7'
+		 '9c755f'
+		 'bab0ab')
 			collect: [:colorHexString |
 				Color fromString: colorHexString]

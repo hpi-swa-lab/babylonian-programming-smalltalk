@@ -1,11 +1,12 @@
 private - ui
-newLineNameMorphFor: aTraceValue
+newLabelMorphFor: aTraceValue
 	
-	^ (self newNameFor: aTraceValue) asMorph
+	^ (self newLabelFor: aTraceValue) asMorph
 		name: #lineName;
 		on: #click send: #value to: [
 			ToolSet 
 				browse: aTraceValue containedMethodReference actualClass 
 				selector: aTraceValue containedMethodReference methodSymbol];
+		color: Color gray;
 		yourself
 		
