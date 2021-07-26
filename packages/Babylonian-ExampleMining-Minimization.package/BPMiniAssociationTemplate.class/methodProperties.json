@@ -3,9 +3,9 @@
 		 },
 	"instance" : {
 		"blacklistInstVarNumber:" : "ek 5/27/2021 18:01",
-		"correctObjectReferences:for:" : "ek 5/27/2021 18:08",
-		"createMinimalObject" : "ek 5/27/2021 18:07",
-		"receiver:" : "ek 5/27/2021 18:18",
-		"reset" : "ek 5/27/2021 18:17",
+		"correctObjectReferences:for:" : "ek 7/26/2021 13:09",
+		"createMinimizedObject" : "ek 7/26/2021 13:59",
+		"receiver:" : "ek 7/26/2021 13:09",
+		"reset" : "ek 7/26/2021 13:09",
 		"serializeWith:" : "ek 5/27/2021 18:02",
 		"tryToAddInstVarNumber:" : "ek 5/27/2021 18:01" } }

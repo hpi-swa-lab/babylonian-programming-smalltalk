@@ -1,6 +1,6 @@
 instance creation
-for: anObject in: aMockForest
+for: anObject in: aMiniForest
 	
 	^ self new
-	forest: aMockForest;
+	forest: aMiniForest;
 	receiver: anObject

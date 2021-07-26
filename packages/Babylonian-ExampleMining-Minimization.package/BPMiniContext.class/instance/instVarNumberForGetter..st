@@ -1,4 +1,4 @@
-mocking
+minimizing
 instVarNumberForGetter: aMethod
 	
 	^ aMethod methodClass

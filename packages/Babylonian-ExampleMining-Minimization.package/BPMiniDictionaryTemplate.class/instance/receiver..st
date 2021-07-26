@@ -2,5 +2,5 @@ accessing
 receiver: anObject
 	
 	super receiver: anObject.
-	mockTemplateCollection := Dictionary new.
-	receiver keysAndValuesDo: [:key :value | mockTemplateCollection add: (self addMock: key)->(self addMock: value)].
+	templateCollection := Dictionary new.
+	receiver keysAndValuesDo: [:key :value | templateCollection add: (self ensureTemplateFor: key)->(self ensureTemplateFor: value)].

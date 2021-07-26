@@ -13,6 +13,6 @@ testMockReceiverIsAPoint
 	
 	self assert: self recordings isEmpty not.
 	
-	mockReceiver := self getMockedObjectsForFirstRecording first.
+	mockReceiver := self getMinimizedObjectsForFirstRecording first.
 	self assert: mockReceiver isPoint.
 	self assert: mockReceiver equals: receiver.

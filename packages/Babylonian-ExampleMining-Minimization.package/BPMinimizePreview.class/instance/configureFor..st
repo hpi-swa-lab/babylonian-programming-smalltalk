@@ -1,12 +1,11 @@
-as yet unclassified
+initialize-release
 configureFor: anExample
 	
-	| mockContext mockReceiverAndArguments |
-	mockContext := BPMiniContext example: anExample.
+	| miniContext miniReceiverAndArguments |
+	miniContext := BPMiniContext example: anExample.
 	self method: anExample method.
-	receiver := mockContext receiver.
-	arguments := mockContext arguments.
-	mockContext createMockForest.
-	mockReceiverAndArguments := mockContext minimalObjects.
-	mockReceiver := mockReceiverAndArguments first.
-	mockArguments := mockReceiverAndArguments second.
+	receiver := miniContext receiver.
+	arguments := miniContext arguments.
+	miniReceiverAndArguments := miniContext createMinimizedObjects.
+	miniReceiver := miniReceiverAndArguments first.
+	miniArguments := miniReceiverAndArguments second.

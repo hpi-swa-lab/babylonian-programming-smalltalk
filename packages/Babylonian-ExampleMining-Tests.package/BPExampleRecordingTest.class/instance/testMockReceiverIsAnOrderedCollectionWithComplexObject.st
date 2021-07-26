@@ -13,7 +13,7 @@ testMockReceiverIsAnOrderedCollectionWithComplexObject
 	
 	self assert: self recordings isEmpty not.
 	
-	mockReceiver := self getMockedObjectsForFirstRecording first.
+	mockReceiver := self getMinimizedObjectsForFirstRecording first.
 	self assert: mockReceiver class equals: receiver class.
 	self assert: mockReceiver myBoolean equals: nil.
 	self assert: mockReceiver myObject equals: nil.

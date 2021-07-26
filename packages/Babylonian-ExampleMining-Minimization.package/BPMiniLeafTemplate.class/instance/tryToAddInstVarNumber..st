@@ -1,2 +1,2 @@
-record mock
+minimization
 tryToAddInstVarNumber: aNumber

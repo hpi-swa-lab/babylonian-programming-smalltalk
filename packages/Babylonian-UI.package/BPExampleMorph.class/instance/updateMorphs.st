@@ -10,5 +10,5 @@ updateMorphs
 		addExampleNameMorph;
 		addExampleConfigurationButtonMorph;
 		addExampleSpecificMorphs;
-		addRecordAndMockButtonMorph;
+		addRecordAndMinimizeButtonMorph;
 		addDeleteButtonMorph.

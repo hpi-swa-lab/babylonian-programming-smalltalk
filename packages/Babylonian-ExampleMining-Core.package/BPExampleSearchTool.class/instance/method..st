@@ -1,5 +1,5 @@
 accessing
 method: aMethod
 	
-	self basicMethod: aMethod.
+	super method: aMethod.
 	self search

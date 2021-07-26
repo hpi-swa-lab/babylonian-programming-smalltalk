@@ -13,7 +13,7 @@ testMockReceiverIsAMorph
 	
 	self assert: self recordings isEmpty not.
 	
-	mockReceiver := self getMockedObjectsForFirstRecording first.
+	mockReceiver := self getMinimizedObjectsForFirstRecording first.
 	self assert: mockReceiver isMorph.
 	"mockReceiver inspect."
 	self flag: #todo. "test more once more stuff works"

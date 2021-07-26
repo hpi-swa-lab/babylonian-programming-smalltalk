@@ -1,4 +1,4 @@
-as yet unclassified
+examples
 addExample
 	
 	self addExampleWith: receiver and: arguments.

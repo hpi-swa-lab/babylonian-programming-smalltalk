@@ -15,7 +15,7 @@ testMockReceiverVariableAndParameterWithNumberInstVarIsUsedAndMocked
 	
 	self assert: self recordings isEmpty not.
 	
-	mockReceiverAndParameters := self getMockedObjectsForFirstRecording.
+	mockReceiverAndParameters := self getMinimizedObjectsForFirstRecording.
 	mockReceiver := mockReceiverAndParameters first.
 	mockParameter := mockReceiverAndParameters second first.
 	self assert: mockReceiver myNumber equals: receiver defaultNumber.

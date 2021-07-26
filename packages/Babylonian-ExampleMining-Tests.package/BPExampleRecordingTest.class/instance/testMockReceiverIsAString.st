@@ -13,6 +13,6 @@ testMockReceiverIsAString
 	
 	self assert: self recordings isEmpty not.
 	
-	mockReceiver := self getMockedObjectsForFirstRecording first.
+	mockReceiver := self getMinimizedObjectsForFirstRecording first.
 	self assert: mockReceiver isString.
 	self assert: mockReceiver equals: receiver.

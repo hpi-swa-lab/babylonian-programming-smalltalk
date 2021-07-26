@@ -1,4 +1,4 @@
-record mock
+minimization
 blacklistInstVarNumber: aNumber
 	
 	blackList addIfNotPresent: aNumber.

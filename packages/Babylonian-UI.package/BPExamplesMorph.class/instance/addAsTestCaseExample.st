@@ -8,3 +8,4 @@ addAsTestCaseExample
 	example
 		testCaseClass: class;
 		methodSelector: method selector.
+	self containingBrowser saveMethodWithExamples.

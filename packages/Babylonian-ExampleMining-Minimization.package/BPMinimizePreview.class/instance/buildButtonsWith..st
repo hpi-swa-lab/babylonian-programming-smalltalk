@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildButtonsWith: aBuilder
 	
 	| panelSpec buttonSpec |
@@ -14,7 +14,7 @@ buildButtonsWith: aBuilder
 	buttonSpec := aBuilder pluggableActionButtonSpec new
 		model: self;
 		label: 'Add Minimized Example';
-	 	action: #addMockExample;
+	 	action: #addMinimizedExample;
 	 	help: 'Add minimized example';
 		yourself.
 	panelSpec children add: buttonSpec.

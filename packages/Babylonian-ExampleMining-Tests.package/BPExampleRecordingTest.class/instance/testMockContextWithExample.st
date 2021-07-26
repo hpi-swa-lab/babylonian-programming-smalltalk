@@ -8,7 +8,7 @@ testMockContextWithExample
 		methodSelector: #testSomething;
 		method: BPTestCaseExampleTest>>#testSomething.
 	mockContext := BPMiniContext example: example.
-	mockContext createMockForest.
-	mockReceiverAndArguments := mockContext minimalObjects.
+	mockContext createAndConfigureMiniForest.
+	mockReceiverAndArguments := mockContext minimizedObjects.
 	self assert: (mockReceiverAndArguments first isKindOf: TestCase).
 	self assert: mockReceiverAndArguments second isEmpty

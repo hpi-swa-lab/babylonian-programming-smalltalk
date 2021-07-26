@@ -17,7 +17,7 @@ testMockReceiverIsADictionary
 	
 	self assert: self recordings isEmpty not.
 	
-	mockReceiver := self getMockedObjectsForFirstRecording first.
+	mockReceiver := self getMinimizedObjectsForFirstRecording first.
 	self assert: mockReceiver isCollection.
 	self assert: (mockReceiver isKindOf: Dictionary).
 	self assert: mockReceiver size equals: 2.

@@ -13,7 +13,7 @@ testMockReceiverIsAnArray
 	
 	self assert: self recordings isEmpty not.
 	
-	mockReceiver := self getMockedObjectsForFirstRecording first.
+	mockReceiver := self getMinimizedObjectsForFirstRecording first.
 	self assert: mockReceiver isCollection.
 	self assert: (mockReceiver isKindOf: Array).
 	self assert: mockReceiver equals: receiver.

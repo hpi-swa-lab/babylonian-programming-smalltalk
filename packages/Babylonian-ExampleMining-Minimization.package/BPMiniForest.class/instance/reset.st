@@ -1,7 +1,7 @@
 initialize-release
 reset
 	
-	objectMockMapping := IdentityDictionary new.
+	objectTemplateMapping := IdentityDictionary new.
 	self
-		receiverMockTree: nil;
-		argumentMockTrees: nil.
+		receiverMiniTree: nil;
+		argumentMiniTrees: nil.

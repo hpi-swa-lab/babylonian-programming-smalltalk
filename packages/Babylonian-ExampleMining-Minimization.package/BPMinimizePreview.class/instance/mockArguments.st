@@ -1,4 +1,0 @@
-accessing
-mockArguments
-	
-	^ mockArguments

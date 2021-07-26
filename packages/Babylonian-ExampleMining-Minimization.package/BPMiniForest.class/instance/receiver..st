@@ -1,4 +1,4 @@
 accessing
 receiver: anObject
 	
-	self receiverMockTree: (BPMiniTree for: (self ensureMockExistsFor: anObject)).
+	self receiverMiniTree: (BPMiniTree for: (self ensureTemplateExistsFor: anObject)).

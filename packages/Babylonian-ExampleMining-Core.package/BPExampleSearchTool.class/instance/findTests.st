@@ -7,11 +7,6 @@ findTests
 	packages := self findCategories.
 	classes := self findClassesForCategories: packages.
 	
-	"classes := classes reject: [:class | class = AllocationTest
-		or: [class = ClassBuilderTest]
-		or: [class = CompiledMethodComparisonTest]]."
-	
-	"self halt."
 	self packageNamePreference
 		ifTrue: [classes := classes reject: [:class | (class packageInfo packageName includesSubstring: (self method methodClass packageInfo packageName splitBy: '-') first) not]].
 	

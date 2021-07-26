@@ -8,9 +8,8 @@
 	"instvars" : [
 		"receiver",
 		"arguments",
-		"methodReference",
-		"mockReceiver",
-		"mockArguments" ],
+		"miniReceiver",
+		"miniArguments" ],
 	"name" : "BPMinimizePreview",
 	"pools" : [
 		 ],

@@ -1,4 +1,0 @@
-accessing
-mockTrees
-
-	^ {receiverMockTree. argumentMockTrees}

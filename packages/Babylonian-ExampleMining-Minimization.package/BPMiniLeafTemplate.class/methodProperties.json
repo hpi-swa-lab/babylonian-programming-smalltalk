@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addMock:forInstVarNumber:" : "ek 5/19/2021 11:55",
+		"add:forInstVarNumber:" : "ek 7/26/2021 13:14",
 		"blacklistInstVarNumber:" : "ek 5/18/2021 22:35",
 		"correctObjectReferences:for:" : "ek 5/18/2021 22:34",
-		"createMinimalObject" : "ek 5/18/2021 22:32",
+		"createMinimizedObject" : "ek 7/26/2021 14:00",
 		"serializeWith:" : "ek 5/19/2021 11:03",
 		"tryToAddInstVarNumber:" : "ek 5/19/2021 11:55" } }

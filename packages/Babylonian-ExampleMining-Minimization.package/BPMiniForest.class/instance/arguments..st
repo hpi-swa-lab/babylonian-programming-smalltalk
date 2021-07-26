@@ -1,4 +1,4 @@
 accessing
 arguments: objects
 	
-	self argumentMockTrees: (objects collect: [:argument | BPMiniTree for: (self ensureMockExistsFor: argument)]).
+	self argumentMiniTrees: (objects collect: [:argument | BPMiniTree for: (self ensureTemplateExistsFor: argument)]).

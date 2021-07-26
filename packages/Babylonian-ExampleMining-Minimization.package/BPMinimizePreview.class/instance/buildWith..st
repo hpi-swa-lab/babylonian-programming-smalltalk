@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildWith: aBuilder
 	
 	| windowSpec |
@@ -8,7 +8,7 @@ buildWith: aBuilder
 		self buttonsFrame -> [self buildButtonsWith: aBuilder].
 	}.
 	windowSpec
-		label: 'Preview';
+		label: 'Minimization Preview';
 		extent: 500@400.
 		
 	 ^ aBuilder build: windowSpec

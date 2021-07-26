@@ -2,11 +2,9 @@ recording
 addExample
 	
 	     
-	self selectedRecording ifNil: [UIManager default inform: 'no recording selected'.
-	 ^ self].
+	self selectedRecording
+		ifNil: [UIManager default inform: 'no recording selected'.
+			^ self].
 	
-	self mockingPreference
-		ifTrue: [self addExampleWithMocks]
-		ifFalse: [self addExampleWithoutMocks].
-	
+	self addExampleWith: self selectedRecording first copy and: self selectedRecording second copy.
 	self informRequestor.

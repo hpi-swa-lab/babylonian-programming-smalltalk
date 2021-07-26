@@ -2,5 +2,5 @@ accessing
 receiver: anObject
 	
 	super receiver: anObject.
-	mockKey :=  self addMock: receiver key.
-	mockValue :=  self addMock: receiver value.
+	keyTemplate :=  self ensureTemplateFor: receiver key.
+	valueTemplate :=  self ensureTemplateFor: receiver value.

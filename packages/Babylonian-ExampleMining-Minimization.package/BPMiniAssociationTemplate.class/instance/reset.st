@@ -2,5 +2,5 @@ initialize-release
 reset
 	
 	super reset.
-	mockKey := nil.
-	mockValue := nil.
+	keyTemplate := nil.
+	valueTemplate := nil.

@@ -3,10 +3,10 @@
 		 },
 	"instance" : {
 		"blacklistInstVarNumber:" : "ek 5/18/2021 22:44",
-		"correctObjectReferences:for:" : "ek 5/19/2021 11:59",
-		"createMinimalObject" : "ek 5/19/2021 12:36",
-		"receiver:" : "ek 5/21/2021 11:14",
-		"reset" : "ek 5/18/2021 22:43",
+		"correctObjectReferences:for:" : "ek 7/26/2021 13:10",
+		"createMinimizedObject" : "ek 7/26/2021 13:59",
+		"createTemplateCollection" : "ek 7/26/2021 13:10",
+		"receiver:" : "ek 7/26/2021 13:11",
+		"reset" : "ek 7/26/2021 13:11",
 		"serializeWith:" : "ek 5/18/2021 22:45",
-		"setMockTemplateCollection" : "ek 5/27/2021 13:22",
 		"tryToAddInstVarNumber:" : "ek 5/19/2021 11:54" } }

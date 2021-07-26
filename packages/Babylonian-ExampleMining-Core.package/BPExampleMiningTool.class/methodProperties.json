@@ -2,6 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
+		"addExampleWith:and:" : "ek 7/26/2021 13:26",
+		"buildWith:" : "ek 7/26/2021 11:28",
 		"informRequestor" : "ek 7/26/2021 11:22",
+		"method" : "ek 7/26/2021 13:25",
+		"method:" : "ek 7/26/2021 13:25",
+		"methodReference" : "ek 7/26/2021 13:25",
+		"methodReference:" : "ek 7/26/2021 13:25",
 		"requestor" : "ek 7/26/2021 11:20",
 		"requestor:" : "ek 7/26/2021 11:19" } }

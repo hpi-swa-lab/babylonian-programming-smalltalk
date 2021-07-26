@@ -1,4 +1,4 @@
-mocking
+minimizing
 blacklistInstVar: instVarNumber for: receiverObject
 	
-	mockForest blacklistInstVar: instVarNumber for: receiverObject.
+	miniForest blacklistInstVar: instVarNumber for: receiverObject.

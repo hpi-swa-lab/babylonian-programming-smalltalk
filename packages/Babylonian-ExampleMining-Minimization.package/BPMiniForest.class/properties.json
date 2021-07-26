@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"objectMockMapping",
-		"receiverMockTree",
-		"argumentMockTrees" ],
+		"objectTemplateMapping",
+		"receiverMiniTree",
+		"argumentMiniTrees" ],
 	"name" : "BPMiniForest",
 	"pools" : [
 		 ],

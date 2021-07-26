@@ -1,4 +1,4 @@
-mocking
+minimizing
 addInstVar: instVarNumber for: receiverObject
 	
-	mockForest addInstVar: instVarNumber for: receiverObject.
+	miniForest addInstVar: instVarNumber for: receiverObject.

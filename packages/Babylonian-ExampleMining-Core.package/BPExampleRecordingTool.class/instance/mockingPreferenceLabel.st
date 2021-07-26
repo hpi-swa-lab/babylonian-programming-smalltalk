@@ -1,4 +1,0 @@
-toolbuilder
-mockingPreferenceLabel
-	
-	^ 'Minimize objects'

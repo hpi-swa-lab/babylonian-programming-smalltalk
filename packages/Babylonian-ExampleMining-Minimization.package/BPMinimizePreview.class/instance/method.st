@@ -1,4 +1,0 @@
-accessing
-method
-	
-	^ methodReference compiledMethod

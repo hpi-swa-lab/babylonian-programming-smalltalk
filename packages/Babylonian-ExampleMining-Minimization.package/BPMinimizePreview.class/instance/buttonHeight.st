@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buttonHeight
 	
 	^ Preferences standardButtonFont height * 2

@@ -1,6 +1,6 @@
 record mock
 addInstVar: instVarNumber for: anObject
 	
-	objectMockMapping
+	objectTemplateMapping
 		at: anObject
-		ifPresent: [:mockObjectTemplate | mockObjectTemplate tryToAddInstVarNumber: instVarNumber].
+		ifPresent: [:template | template tryToAddInstVarNumber: instVarNumber].

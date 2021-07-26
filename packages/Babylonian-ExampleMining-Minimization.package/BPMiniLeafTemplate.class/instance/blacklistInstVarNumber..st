@@ -1,2 +1,2 @@
-record mock
+minimization
 blacklistInstVarNumber: aNumber

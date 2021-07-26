@@ -17,7 +17,7 @@ testMockReceiverIsAMatrix
 	
 	self assert: self recordings isEmpty not.
 	
-	mockReceiver := self getMockedObjectsForFirstRecording first.
+	mockReceiver := self getMinimizedObjectsForFirstRecording first.
 	self assert: mockReceiver isCollection.
 	self assert: (mockReceiver isKindOf: Matrix).
 	self assert: mockReceiver equals: receiver.

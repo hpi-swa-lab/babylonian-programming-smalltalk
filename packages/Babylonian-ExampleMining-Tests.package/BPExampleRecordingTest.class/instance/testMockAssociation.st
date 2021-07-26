@@ -15,5 +15,5 @@ testMockAssociation
 	
 	self assert: self recordings isEmpty not.
 	
-	mockArguments := self getMockedObjectsForFirstRecording second.
+	mockArguments := self getMinimizedObjectsForFirstRecording second.
 	self assert: arguments first equals: mockArguments first.

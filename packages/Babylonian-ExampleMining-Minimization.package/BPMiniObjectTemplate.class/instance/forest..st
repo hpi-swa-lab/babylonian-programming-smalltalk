@@ -1,4 +1,4 @@
 accessing
-forest: aMockForest
+forest: aMiniForest
 	
-	forest := aMockForest.
+	forest := aMiniForest.

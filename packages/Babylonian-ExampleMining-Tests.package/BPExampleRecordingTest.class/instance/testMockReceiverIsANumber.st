@@ -13,7 +13,7 @@ testMockReceiverIsANumber
 	
 	self assert: self recordings isEmpty not.
 	
-	mockReceiver := self getMockedObjectsForFirstRecording first.
+	mockReceiver := self getMinimizedObjectsForFirstRecording first.
 	self assert: mockReceiver isNumber.
 	self assert: mockReceiver isInteger.
 	self assert: mockReceiver equals: receiver.

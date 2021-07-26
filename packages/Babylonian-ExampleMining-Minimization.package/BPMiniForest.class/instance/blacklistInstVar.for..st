@@ -1,6 +1,6 @@
 record mock
 blacklistInstVar: aNumber for: anObject
 	
-	objectMockMapping
+	objectTemplateMapping
 		at: anObject
-		ifPresent: [:mockObjectTemplate | mockObjectTemplate blacklistInstVarNumber: aNumber].
+		ifPresent: [:template | template blacklistInstVarNumber: aNumber].

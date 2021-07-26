@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 explorerSpecFor: exploreeSelector
 	
 	^ BPExampleMiningExplorerSpec new

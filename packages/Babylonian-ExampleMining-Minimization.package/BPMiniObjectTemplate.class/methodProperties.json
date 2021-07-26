@@ -1,16 +1,16 @@
 {
 	"class" : {
-		"for:in:" : "ek 6/22/2021 14:56" },
+		"for:in:" : "ek 7/26/2021 13:15" },
 	"instance" : {
-		"addMock:" : "ek 6/22/2021 14:56",
-		"addMock:forInstVarNumber:" : "ek 6/22/2021 14:56",
+		"add:forInstVarNumber:" : "ek 7/26/2021 13:05",
 		"basicReceiver:" : "ek 4/21/2021 16:55",
 		"blacklistInstVarNumber:" : "ek 4/8/2021 22:50",
 		"correctObjectReferences:for:" : "ek 5/19/2021 10:46",
-		"createMinimalObject" : "ek 5/27/2021 13:28",
-		"forest:" : "ek 6/22/2021 14:56",
+		"createMinimizedObject" : "ek 7/26/2021 13:59",
+		"ensureTemplateFor:" : "ek 7/26/2021 13:06",
+		"forest:" : "ek 7/26/2021 13:59",
 		"initialize" : "ek 4/8/2021 23:27",
 		"receiver:" : "ek 4/21/2021 16:55",
 		"reset" : "ek 6/22/2021 14:57",
 		"serializeWith:" : "ek 5/18/2021 14:40",
-		"tryToAddInstVarNumber:" : "ek 5/19/2021 11:54" } }
+		"tryToAddInstVarNumber:" : "ek 7/26/2021 13:05" } }

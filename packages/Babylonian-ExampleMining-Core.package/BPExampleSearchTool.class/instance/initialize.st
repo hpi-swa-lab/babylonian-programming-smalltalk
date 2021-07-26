@@ -10,5 +10,4 @@ initialize
 		includesMethodSelectorPreference: true;
 		packageNamePreference: false;
 		tryRecordingPreference: false;
-		tryCoveragePreference: false;
-		evalOnlyBase53: false.
+		tryCoveragePreference: false.
