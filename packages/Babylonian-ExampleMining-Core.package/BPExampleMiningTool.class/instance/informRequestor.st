@@ -1,4 +1,4 @@
-special ui updating
+ui updating
 informRequestor
 	
 	self requestor isNil ifTrue: [^ self].

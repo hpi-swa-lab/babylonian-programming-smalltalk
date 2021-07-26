@@ -1,4 +1,4 @@
 ui - actions
 recordAndMockButtonClicked
 	
-	BPMinimizePreview openFor: self example.
+	BPMinimizePreview openFor: self example with: self containingBrowser.

@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"openFor:" : "ek 5/27/2021 21:42" },
+		"openFor:with:" : "ek 7/26/2021 11:14" },
 	"instance" : {
-		"addExample" : "ek 5/27/2021 22:07",
+		"addExample" : "ek 7/26/2021 11:23",
 		"addExampleWith:and:" : "ek 5/27/2021 22:06",
 		"addMockExample" : "ek 5/27/2021 22:07",
 		"arguments" : "ek 5/27/2021 21:36",
@@ -14,7 +14,7 @@
 		"buttonHeight" : "ek 5/27/2021 22:08",
 		"buttonsFrame" : "ek 5/27/2021 22:15",
 		"configureFor:" : "ek 7/5/2021 08:26",
-		"explorerSpecFor:" : "ek 5/27/2021 21:35",
+		"explorerSpecFor:" : "ek 7/26/2021 11:10",
 		"method" : "ek 5/27/2021 22:17",
 		"method:" : "ek 5/27/2021 21:37",
 		"mockArguments" : "ek 5/27/2021 21:36",

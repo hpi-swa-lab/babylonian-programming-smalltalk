@@ -7,7 +7,7 @@ testMockReceiverIsAPoint
 	receiver := 1@2.
 	
 	self
-		recordMethod: #angle
+		recordMethod: #area
 		inClass: Point
 		forInstancesAndParameters: {receiver -> {}} asDictionary.
 	

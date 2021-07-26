@@ -1,7 +1,7 @@
 as yet unclassified
 explorerSpecFor: exploreeSelector
 	
-	^ BPExampleRecordingToolExplorerSpec new
+	^ BPExampleMiningExplorerSpec new
 		model: self;
 		getExploree: exploreeSelector;
 		yourself.

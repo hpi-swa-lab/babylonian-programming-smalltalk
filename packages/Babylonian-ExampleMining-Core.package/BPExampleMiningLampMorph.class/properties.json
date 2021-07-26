@@ -10,7 +10,7 @@
 		"lampOnSelector",
 		"lampOffSelector",
 		"model" ],
-	"name" : "BPExampleRecordingToolLampMorph",
+	"name" : "BPExampleMiningLampMorph",
 	"pools" : [
 		 ],
 	"super" : "Morph",

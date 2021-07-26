@@ -4,11 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "ek 2/2/2021 17:03",
 	"instvars" : [
-		"lampOn",
-		"lampOff" ],
-	"name" : "BPExampleRecordingToolLampSpec",
+		"getExploree" ],
+	"name" : "BPExampleMiningExplorerSpec",
 	"pools" : [
 		 ],
 	"super" : "PluggableWidgetSpec",

@@ -1,11 +1,11 @@
 toolbuilder
 buildButtonPaneWith: aBuilder
-
+	
 	| panelSpec buttonSpec lampSpec |
 	panelSpec := aBuilder pluggablePanelSpec new.
 	panelSpec children: OrderedCollection new.
 	
-	lampSpec := BPExampleRecordingToolLampSpec new
+	lampSpec := BPExampleMiningLampSpec new
 		model: self;
 		lampOff: #lampOff;
 		lampOn: #lampOn;

@@ -8,11 +8,11 @@
 	"instvars" : [
 		"receiver",
 		"arguments",
+		"methodReference",
 		"mockReceiver",
-		"mockArguments",
-		"methodReference" ],
+		"mockArguments" ],
 	"name" : "BPMinimizePreview",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "BPExampleMiningTool",
 	"type" : "normal" }

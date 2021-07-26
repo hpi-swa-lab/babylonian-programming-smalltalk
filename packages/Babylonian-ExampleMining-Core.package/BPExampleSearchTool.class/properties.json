@@ -9,15 +9,13 @@
 		"methodReference",
 		"searchResults",
 		"searchResultIndex",
-		"requestor",
 		"classNamePreference",
 		"packageNamePreference",
 		"includesMethodSelectorPreference",
 		"tryRecordingPreference",
-		"tryCoveragePreference",
-		"evalOnlyBase53" ],
+		"tryCoveragePreference" ],
 	"name" : "BPExampleSearchTool",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "BPExampleMiningTool",
 	"type" : "normal" }

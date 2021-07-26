@@ -11,10 +11,9 @@
 		"methodReference",
 		"script",
 		"recorder",
-		"isRecording",
-		"requestor" ],
+		"isRecording" ],
 	"name" : "BPExampleRecordingTool",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "BPExampleMiningTool",
 	"type" : "normal" }
