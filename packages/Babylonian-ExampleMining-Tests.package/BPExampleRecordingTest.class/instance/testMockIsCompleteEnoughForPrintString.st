@@ -14,6 +14,6 @@ testMockIsCompleteEnoughForPrintString
 	
 	self assert: self recordings isEmpty not.
 	
-	"miniReceiver := self getMinimizedObjectsForFirstRecording first.
-	self assert: miniReceiver printString isString."
+	miniReceiver := self getMinimizedObjectsForFirstRecording first.
+	self assert: miniReceiver printString isString.
 	self flag: #TODO. "why does the simulation think #newProcess is called"

@@ -2,9 +2,9 @@ changing page
 isSearchWords: aString
 	
 	| asUrl |
-	asUrl := "<bpProbe id: 8912865>"aString asUrl"</bpProbe>".
+	asUrl := aString asUrl.
 	
-	(("<bpProbe id: 2602886>"self isUrl: aString"</bpProbe>") or: (self isInternBrowserUrl: aString)) ifTrue: [^false].
+	((self isUrl: aString) or: (self isInternBrowserUrl: aString)) ifTrue: [^false].
 	
 	(self isLocalhostAdress: aString) ifTrue: [^false].
 	
