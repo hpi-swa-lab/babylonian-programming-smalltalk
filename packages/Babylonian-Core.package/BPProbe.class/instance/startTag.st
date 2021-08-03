@@ -3,7 +3,7 @@ startTag
 	
 	| label expression |
 	label := self hasLabel 
-		ifTrue: [' label: {1}' format: {self label}] 
+		ifTrue: [' label: ''{1}''' format: {self label}]
 		ifFalse: [''].
 	expression := self hasExpression 
 		ifTrue: [' expression: {1}' format: {self expression}] 
