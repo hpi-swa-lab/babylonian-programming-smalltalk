@@ -8,6 +8,7 @@
 		"setUp" : "pre 5/20/2021 15:43",
 		"tearDown" : "pre 5/20/2021 15:33",
 		"testCreatingAnExampleNotifiesDependents" : "pre 5/20/2021 15:40",
+		"testExampleWithTooManyArguments" : "pre 8/6/2021 18:25",
 		"testExamplesCanBeRemovedFromTheirMethod" : "pre 5/4/2021 15:30",
 		"testExamplesCanRunTheirSetup" : "pre 1/21/2021 17:16",
 		"testExamplesCanRunTheirSymbolSetup" : "pre 1/21/2021 17:17",
