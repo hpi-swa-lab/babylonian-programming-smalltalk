@@ -1,6 +1,6 @@
 grammar rules
-expressionAnnotationStart: aNode with: startString and: whitespace and: moreWhitespace and: annotationExpression and: evenMoreSpace and: endString
-
+expressionAnnotationStart: aNode with: startString and: whitespace and: moreWhitespace and: bpPrefix and: annotationExpression and: evenMoreSpace and: endString
+	
 	| previousAnnotation resultAnnotation |
 	previousAnnotation := currentAnnotation.
 	

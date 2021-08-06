@@ -1,5 +1,6 @@
 serialized grammar
 serializedGrammar
+	
 ^ 'BPSmalltalk <: OhmExplicitSendsSmalltalk {
 
 AnnotationInformation = Operand KeywordMessage?
@@ -68,12 +69,12 @@ NormalMessageChain =
 AnnotatedMessageChain = expressionAnnotationStart MessageChain expressionAnnotationEnd
  
 comment := 
-	~"\"<" "\"" (~"\"" (any | " " | "\n"))* "\""
+	~("\"<bp" | "\"</bp") "\"" (~"\"" (any | " " | "\n"))* "\""
 
 expressionAnnotationStart =
-	"\"<" space* ~"/" space* AnnotationInformation space* ">\""
+	"\"<" space* ~"/" &"bp" space* AnnotationInformation space* ">\""
 	
 expressionAnnotationEnd = 
-	"\"</" space* Operand space* ">\""
+	"\"</" space* &"bp" Operand space* ">\""
 
 }'
