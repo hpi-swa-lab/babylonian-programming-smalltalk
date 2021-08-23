@@ -1,4 +1,4 @@
-*Babylonian-UI
+*Babylonian-UI-code pane-override
 aboutToStyle: aPluggableShoutMorphOrView
 	"This is a notification that aPluggableShoutMorphOrView is about to re-style its text.
 	Set the classOrMetaClass in aPluggableShoutMorphOrView, so that identifiers
