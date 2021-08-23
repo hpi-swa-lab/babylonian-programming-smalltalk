@@ -12,9 +12,6 @@ Installer ensureRecentMetacello.
 author initials which might fail these tests. So we set some dummy initials here to avoid this."
 (Smalltalk at: #MetacelloPlatform) current authorName: 'BabylonianInstallation'.
 
-"Load patches for text anchor placement"
-FileStream fileIn: 'SOHCharacter.cs'.
-
 "Load Babylonian into image"
 (Smalltalk at: #Metacello) new
   baseline: 'BabylonianProgramming';
