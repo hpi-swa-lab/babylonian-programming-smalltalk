@@ -1,14 +1,11 @@
 message list
 messageIconFor: aSelector
-	
+	 
 	| baseIcon exampleIcon combinedIcon |
 	baseIcon := super messageIconFor: aSelector.
 	
-	exampleIcon := self selectedClassOrMetaClass ifNotNil: [:class | | meth |
-		meth := [class >> aSelector] on: KeyNotFound do: [^ baseIcon].
-		meth bpExamples 
-			ifEmpty: [ToolIcons blank]
-			ifNotEmpty: [BPIcons boxIcon]].
+	exampleIcon := self exampleIconForSelector: aSelector.
+	exampleIcon ifNil: [^ baseIcon].
 	exampleIcon := exampleIcon scaledToSize: 12.
 	
 	baseIcon ifNil: [^ exampleIcon].
