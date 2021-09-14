@@ -1,0 +1,1 @@
+This object encapsulates the data needed for one run of a method example. This should not be used twice as the objects might have been changed.

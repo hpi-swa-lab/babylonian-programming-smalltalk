@@ -1,11 +1,11 @@
 drawing
 drawBranchesOn: aCanvas number: branchLevel angle: aDegreesAngle root: rootPoint branchWidth: branchWidth
-	<exampleNamed: 'some example 45' active: true setUp: '(ActiveWorld submorphNamed: #demo) form fillWhite.' tearDown: '(ActiveWorld submorphNamed: #demo) changed' self: 'BPTree new
+	<exampleNamed: 'some example 45' setUp: '(ActiveWorld submorphNamed: #demo) form fillWhite.' tearDown: '(ActiveWorld submorphNamed: #demo) changed' self: 'BPTree new
 	extent: 400@400; 
 	color: Color black;
 	yourself' with: '(ActiveWorld submorphNamed: ''demo'') form getCanvas' with: '0' with: '0' with: '200@400 ' with: '15'>
       | length tipPoint |
-	branchLevel = 0 
+	branchLevel = 0
 		ifTrue: [length := self stemHeight]
 		ifFalse: [length := (self stemHeight / 3 to: self stemHeight / 2) atRandom * (1 - (branchLevel / 20))].
 	length := length rounded.

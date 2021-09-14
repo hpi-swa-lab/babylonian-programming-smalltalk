@@ -6,8 +6,6 @@ asMorph
 		annotation: self;
 		yourself.
 		
-	self examples addDependent: newMorph.
-		
 	^ BPStyler wantsSidebarAnnotations 
 		ifTrue: [
 			BPSidebarConnectedMorph new

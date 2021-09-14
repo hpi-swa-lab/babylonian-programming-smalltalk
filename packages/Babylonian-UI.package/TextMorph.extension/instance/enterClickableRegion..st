@@ -1,4 +1,4 @@
-*Babylonian-UI
+*Babylonian-UI-editing-override
 enterClickableRegion: evt
 	| index isLink |
 	evt hand hasSubmorphs ifTrue:[^false].

@@ -1,15 +1,21 @@
 {
 	"class" : {
+		"automaticallyAcceptMethodOnAddingAnnotations" : "pre 6/7/2021 14:34",
+		"automaticallyAcceptMethodOnAddingAnnotations:" : "pre 6/7/2021 14:35",
 		"compilerClass" : "pre 7/26/2019 10:07",
 		"initialize" : "pre 8/25/2020 10:35",
 		"startUp" : "jb 12/3/2020 23:07" },
 	"instance" : {
 		"aboutToStyle:" : "jb 12/3/2020 23:32",
 		"aboutToStyle:requestor:" : "jb 12/3/2020 23:32",
-		"buildCodePaneWith:" : "pre 1/21/2021 18:42",
+		"buildCodePaneWith:" : "ct 6/19/2021 21:47",
 		"buildDefaultBrowserWith:" : "pre 1/6/2021 10:50",
-		"classIconAt:" : "pre 2/15/2021 11:50",
+		"classIconAt:" : "ct 8/18/2021 17:32",
 		"defaultBrowserTitle" : "pre 11/8/2019 17:17",
-		"messageIconFor:" : "pre 2/15/2021 11:51",
+		"dropOnMessageCategories:at:" : "jb 8/29/2021 23:13",
+		"exampleIconForClass:" : "ct 8/18/2021 17:33",
+		"exampleIconForSelector:" : "ct 8/18/2021 17:27",
+		"messageIconFor:" : "ct 8/18/2021 17:28",
 		"messageList" : "pre 9/24/2020 14:26",
-		"rawMessageCategoryList" : "jb 12/3/2020 22:54" } }
+		"rawMessageCategoryList" : "jb 12/3/2020 22:54",
+		"wantsMessageCategoriesDrop:" : "jb 8/29/2021 22:15" } }

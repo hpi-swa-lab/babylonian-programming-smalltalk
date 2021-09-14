@@ -8,7 +8,9 @@
 	"instvars" : [
 		"tracedValue",
 		"tracedValueIdentityHash",
-		"stack" ],
+		"stack",
+		"chronologicalPosition",
+		"belongingProbeId" ],
 	"name" : "BPTraceValue",
 	"pools" : [
 		 ],

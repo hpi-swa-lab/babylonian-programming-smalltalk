@@ -1,0 +1,4 @@
+constants
+stackDepth
+	
+	^ self fontHeight

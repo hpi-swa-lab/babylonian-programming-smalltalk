@@ -3,9 +3,12 @@ addAnnotationAtSelection: anAnnotation
 	
 	| result |
 	self hasUnacceptedEdits ifTrue: [
-		self inform: 'To add annotations,
-save method first.'.
-		^ false].
+		BPBrowser automaticallyAcceptMethodOnAddingAnnotations ifFalse: [
+				self informUserAndCheckPreference ifFalse: [^ false]].
+		"We either have the preference set or users just changed it"
+		self assert: BPBrowser automaticallyAcceptMethodOnAddingAnnotations.
+		self codeTextMorph accept.
+		self hasUnacceptedEdits "still" ifTrue: [^ false]].
 	
 	result := self 
 		addAnnotation: anAnnotation 

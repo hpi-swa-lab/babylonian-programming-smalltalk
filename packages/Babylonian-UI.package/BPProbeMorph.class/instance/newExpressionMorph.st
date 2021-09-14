@@ -2,16 +2,7 @@ private - ui
 newExpressionMorph
 	
 	| container expressionSource expressionFieldMorph |
-	container := Morph new
-		color: Color transparent;
-		changeTableLayout;
-		listDirection: #topToBottom;
-		vResizing: #shrinkWrap;
-		hResizing: #shrinkWrap;
-		cellPositioning: #topLeft;
-		borderWidth: 0;
-		layoutInset: 1;
-		yourself.
+	container := self newLabelContainerMorph.
 		
 	expressionSource := self annotation hasExpression ifTrue: [self annotation expression asString] ifFalse: [''].
 	expressionSource := expressionSource copyFrom: 2 to: (expressionSource size - 1 max: 1). "Removes the square brackets"

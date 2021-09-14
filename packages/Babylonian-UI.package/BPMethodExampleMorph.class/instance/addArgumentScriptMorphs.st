@@ -4,6 +4,7 @@ addArgumentScriptMorphs
 	| editField labelMorph container |
 	self example argumentNames withIndexDo: [:argumentName :index |
 		container := self newContainerMorph.
+		container cellPositioning: #topLeft.
 		labelMorph := ((argumentName , ': ') asMorph 
 			color: Color lightGray; 
 			borderWidth: 0;
@@ -12,7 +13,7 @@ addArgumentScriptMorphs
 
 		"Editing field"
 		editField := self
-			editFieldInitialContent: (self example argumentScriptStringAt: index)
+			editFieldStyledInitialContent: (self example argumentScriptStringAt: index)
 			onChange: [:str | 
 				self example argumentScripts at: index put: str.
 				self codeContentChanged]

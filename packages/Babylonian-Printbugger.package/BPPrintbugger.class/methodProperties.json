@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"compilerClass" : "jb 6/2/2021 22:04",
+		"open" : "jb 6/2/2021 22:04" },
+	"instance" : {
+		"addExample:" : "jb 7/2/2021 14:39",
+		"canvasMorph" : "jb 5/31/2021 13:56",
+		"cleanCanvas" : "jb 6/10/2021 13:44",
+		"initialExtent" : "jb 7/10/2021 16:45",
+		"initialize" : "jb 7/2/2021 00:17",
+		"initializeScrollableCanvas" : "jb 6/2/2021 22:03",
+		"initializeWindowProperties" : "jb 6/2/2021 22:03",
+		"newCanvasMorph" : "jb 7/10/2021 17:00",
+		"newEmptyExamplesNotification" : "jb 6/2/2021 22:03",
+		"newScrollPane" : "jb 6/2/2021 22:03",
+		"removeExample:" : "jb 6/10/2021 22:02",
+		"update:" : "jb 6/2/2021 22:03",
+		"update:with:" : "jb 6/10/2021 20:29",
+		"updateFrom:" : "jb 6/10/2021 22:29" } }

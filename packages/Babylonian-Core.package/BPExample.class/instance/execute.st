@@ -1,6 +1,9 @@
 executing
 execute
 	
-	self runSetUp.
-	[^ self run] ensure: [
-		self runTearDown]
+	<bpRelevantMethod>
+	| state |
+	state := self prepareRunState.
+	self runSetUpWith: state.
+	[^ self runOn: state] ensure: [
+		self runTearDownWith: state]

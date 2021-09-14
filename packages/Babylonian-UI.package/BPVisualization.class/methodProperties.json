@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"canvasHeight" : "jb 4/18/2021 03:35",
+		"heightMargin" : "jb 4/18/2021 03:42",
+		"highlightedDataPercentage" : "jb 4/19/2021 23:57",
+		"newWithValues:forMorph:" : "jb 4/18/2021 01:49",
+		"preferredHeight" : "jb 4/18/2021 03:29",
+		"supportedClass" : "jb 4/17/2021 02:26",
+		"traceValuesMorphClassesToFilterOut" : "jb 4/20/2021 00:16",
+		"visualizationClassesForValues:" : "jb 5/4/2021 17:27",
+		"visualizationObjectForValues:overMorph:" : "jb 4/18/2021 04:35" },
+	"instance" : {
+		"defaultBackgroundColor" : "jb 4/18/2021 01:11",
+		"fontHeight" : "jb 4/18/2021 22:28",
+		"legendMorph" : "jb 4/20/2021 00:11",
+		"legendMorphWithContents:" : "jb 4/20/2021 00:10",
+		"newBackground" : "pre 5/27/2021 11:56",
+		"scaleY" : "jb 4/18/2021 00:10",
+		"scaleY:" : "jb 4/18/2021 00:11",
+		"spaceBetweenPoints" : "pre 5/27/2021 11:55",
+		"traceValues" : "jb 4/18/2021 00:10",
+		"traceValues:" : "jb 4/18/2021 00:10",
+		"visualizationMorph" : "pre 5/27/2021 11:46" } }

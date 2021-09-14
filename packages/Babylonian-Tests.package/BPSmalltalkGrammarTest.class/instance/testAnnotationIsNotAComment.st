@@ -1,6 +1,6 @@
 tests
 testAnnotationIsNotAComment
-
+	
 	startRule := #comment.
 
-	self shouldntParseAny: {'"<"' . '"<test>"'}.
+	self shouldntParseAny: {'"<bp"' . '"</bptest>"'}.

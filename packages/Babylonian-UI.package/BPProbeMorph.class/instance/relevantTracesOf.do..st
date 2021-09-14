@@ -1,4 +1,5 @@
 private - ui
 relevantTracesOf: traces do: aBlock
-
-	^ (traces select: [:trace | (trace valuesForProbeId: self id) notEmpty]) do: aBlock
+	
+	^ (traces sorted: [:t | t example exampleName] ascending) 
+		do: aBlock

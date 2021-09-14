@@ -4,10 +4,10 @@ drawOn: aCanvas
 	form fillWhite.' tearDown: '(ActiveWorld submorphNamed: #demo) changed' self: 'BPMountain new
 	extent: 400@400;
 	yourself' with: '(ActiveWorld submorphNamed: ''demo'') form getCanvas'>
-	<exampleNamed: 'small example' active: true self: 'BPMountain new
+	<exampleNamed: 'small example' self: 'BPMountain new
 	extent: 20@20;
 	yourself' with: '(Form extent: 20@20 depth: 32) getCanvas'>
-	| pencilPosition delta vertices | 
+	| pencilPosition delta vertices |
 	vertices := OrderedCollection new.
 	pencilPosition := 0@(self height * (1 - self ratio)) rounded. 
 	delta := 0@0.

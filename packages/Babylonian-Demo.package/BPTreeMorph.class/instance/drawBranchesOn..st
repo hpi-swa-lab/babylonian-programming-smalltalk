@@ -1,11 +1,11 @@
 drawing
 drawBranchesOn: aCanvas
-	<exampleNamed: 'basic root drawing' active: true setUp: '(ActiveWorld submorphNamed: #demo) form fillWhite.' tearDown: '(ActiveWorld submorphNamed: #demo) changed' self: 'BPTree new
+	<exampleNamed: 'basic root drawing' setUp: '(ActiveWorld submorphNamed: #demo) form fillWhite.' tearDown: '(ActiveWorld submorphNamed: #demo) changed' self: 'BPTree new
 	extent: 400@400;
 	color: Color moss;
 	yourself' with: '(ActiveWorld submorphNamed: ''demo'') form getCanvas'>
 	blossomPointsDuringDrawing := OrderedCollection new.
-	self
+	self 
 		drawBranchesOn: aCanvas
 		number: 0
 		angle: 0

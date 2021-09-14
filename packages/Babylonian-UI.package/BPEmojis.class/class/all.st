@@ -1,4 +1,4 @@
 emojis
 all
-
-	^ self class selectors select: [:s | s endsWith: 'Icon']
+	
+	^ (self class selectors select: [:s | s endsWith: 'Icon']) sorted

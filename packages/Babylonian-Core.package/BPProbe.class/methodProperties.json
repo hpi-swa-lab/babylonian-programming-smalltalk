@@ -1,16 +1,20 @@
 {
 	"class" : {
-		"annotationTag" : "pre 7/2/2019 15:26" },
+		"annotationTag" : "pre 7/2/2019 15:26",
+		"defaultLabelFor:withExpression:" : "lu 7/21/2021 17:29" },
 	"instance" : {
 		"asAssignmentProbe" : "pre 7/6/2020 17:55",
 		"asMorph" : "pre 7/3/2019 09:22",
-		"at:putInformation:" : "jb 12/3/2020 23:14",
+		"at:putInformation:" : "pre 6/7/2021 19:23",
 		"expression" : "pre 9/21/2020 17:13",
 		"expression:" : "jb 12/7/2020 18:09",
-		"hasExpression" : "pre 9/21/2020 17:13",
+		"hasExpression" : "pre 6/7/2021 16:52",
+		"hasLabel" : "lu 5/20/2021 15:14",
 		"instrumentationCallFor:" : "jb 12/3/2020 23:15",
 		"isProbe" : "pre 7/3/2019 11:12",
+		"label" : "lu 6/1/2021 21:29",
+		"label:" : "lu 5/20/2021 15:07",
 		"probeId" : "pre 9/21/2020 17:13",
 		"probeId:" : "jb 12/7/2020 18:09",
-		"startTag" : "pre 9/21/2020 17:17",
+		"startTag" : "lu 7/9/2021 22:22",
 		"stopTag" : "pre 7/2/2019 16:17" } }

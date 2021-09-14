@@ -7,7 +7,8 @@
 	"commentStamp" : "lu 6/1/2021 21:28",
 	"instvars" : [
 		"probeId",
-		"expression" ],
+		"expression",
+		"label" ],
 	"name" : "BPProbe",
 	"pools" : [
 		 ],

@@ -1,6 +1,6 @@
 private - ui
 editFieldInitialContent: aString onChange: changeBlock onAccept: acceptBlock
-
+	
 	| model |
 	model := BPStringValueModel new
 		string: aString;

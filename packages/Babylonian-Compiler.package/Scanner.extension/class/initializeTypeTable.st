@@ -1,4 +1,4 @@
-*Babylonian-Compiler
+*Babylonian-Compiler-initialization-override
 initializeTypeTable
 	
 	"self initializeTypeTable"

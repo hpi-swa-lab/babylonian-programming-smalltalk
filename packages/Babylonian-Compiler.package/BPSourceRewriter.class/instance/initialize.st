@@ -1,8 +1,8 @@
 initialize-release
 initialize
-
+	
 	super initialize.
-	keywordMessageExtraction := BPSmalltalkGrammar synthesizedAttribute: BPKeywordMessageToAnnotation new. 
+	annotationExtraction := BPSmalltalkGrammar synthesizedAttribute: BPKeywordMessageToAnnotation new. 
 	currentProbeId := 0.
 	currentBlockId := 0.
 	inCascade := false.

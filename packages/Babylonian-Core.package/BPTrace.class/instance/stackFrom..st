@@ -1,5 +1,5 @@
 private
 stackFrom: aContext
 	
-	^ (aContext stackOfSize: 100) collect: [:context | 
+	^ (aContext stackOfSize: self class maxStackSize) collect: [:context | 
 		self mementoFor: context]
