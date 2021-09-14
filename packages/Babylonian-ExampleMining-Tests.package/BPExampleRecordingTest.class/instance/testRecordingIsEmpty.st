@@ -6,7 +6,7 @@ testRecordingIsEmpty
 	
 	self
 		recordMethod: #doSomething
-		inClass: BPClassWithMethods
+		inClass: BPExampleMiningTestClass
 		forInstancesAndParameters: Dictionary new.
 	
 	self assert: self recordings isEmpty.

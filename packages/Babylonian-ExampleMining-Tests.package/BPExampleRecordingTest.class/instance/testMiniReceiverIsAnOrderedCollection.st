@@ -1,0 +1,4 @@
+tests-minimizing-collections
+testMiniReceiverIsAnOrderedCollection
+	
+	self runForNonArrayCollection: OrderedCollection.

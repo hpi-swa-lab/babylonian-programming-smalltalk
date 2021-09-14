@@ -3,10 +3,10 @@ testRecordingIsNotEmptySingleRecording
 	
 	| recordedObject |
 	self assert: self recordings isEmpty.
-	recordedObject := BPClassWithMethods new.
+	recordedObject := BPExampleMiningTestClass new.
 	self
 		recordMethod: #doSomething
-		inClass: BPClassWithMethods
+		inClass: BPExampleMiningTestClass
 		forInstancesAndParameters: {recordedObject -> {}} asDictionary.
 
 	self assert: self recordings isEmpty not.

@@ -1,9 +1,0 @@
-{
-	"class" : {
-		"compilerClass" : "ek 7/27/2021 15:32" },
-	"instance" : {
-		"downloadFromUrlAsync:" : "ek 5/5/2021 10:14",
-		"downloadFromUrlAsync:withMethod:andInputs:andEncoding:" : "ek 5/5/2021 10:12",
-		"isSearchWords:" : "ek 7/27/2021 19:55",
-		"isUrl:" : "ek 7/27/2021 20:21",
-		"startDownloadingStateIn:url:" : "ek 5/4/2021 12:19" } }

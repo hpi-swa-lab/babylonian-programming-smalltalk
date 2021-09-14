@@ -1,4 +1,0 @@
-tests-mocking-collections
-testMockReceiverIsAnOrderedCollection
-	
-	self runForNonArrayCollection: OrderedCollection.

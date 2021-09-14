@@ -2,7 +2,7 @@ tests
 testAddExampleButtonExists
 	
 	| process debugger addExampleButtonMaybe |
-	process := [ BPClassToBeDebugged new doSomething ] newProcess.
+	process := [ BPExampleMiningTestClass new doSomething ] newProcess.
 	debugger := process debugWithTitle: 'Test' full: true.
 	
 	addExampleButtonMaybe := debugger dependents select: [:morph | (morph isKindOf: PluggableButtonMorphPlus) and: [morph label asSymbol = 'Add Example' asSymbol]].

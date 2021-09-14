@@ -3,13 +3,13 @@ testRecordingIsNotEmptyMultipleRecordings
 	
 	| usedInstancesAndEmptyParams |
 	
-	usedInstancesAndEmptyParams := {BPClassWithMethods new -> {}. BPClassWithMethods new -> {}} asDictionary.
+	usedInstancesAndEmptyParams := {BPExampleMiningTestClass new -> {}. BPExampleMiningTestClass new -> {}} asDictionary.
 	
 	self assert: self recordings isEmpty.
 	
 	self
 		recordMethod: #doSomething
-		inClass: BPClassWithMethods
+		inClass: BPExampleMiningTestClass
 		forInstancesAndParameters: usedInstancesAndEmptyParams.
 	
 	self assert: self recordings isEmpty not.
