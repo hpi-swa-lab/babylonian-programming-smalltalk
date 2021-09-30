@@ -33,7 +33,7 @@ print_info "Downloading Squeak-trunk image..."
 
 wget --no-verbose https://files.squeak.org/6.0alpha/Squeak6.0alpha-20582-64bit/Squeak6.0alpha-20582-64bit-202003021730-Linux.zip
 unzip -q Squeak6.0alpha-20582-64bit-202003021730-Linux.zip
-mv Squeak6.0alpha-20582-64bit-202003021730-Linux.zip Squeak-trunk
+mv Squeak6.0alpha-20582-64bit-202003021730-Linux Squeak-trunk
 
 mv Squeak-trunk/shared/*.image "${DEPLOY_IMAGE}"
 mv Squeak-trunk/shared/*.changes "${DEPLOY_CHANGES}"
