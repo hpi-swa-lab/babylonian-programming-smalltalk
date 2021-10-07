@@ -16,10 +16,8 @@ compile: aCueWithStyledSource ifFail: failBlock
 	aCueWithStyledSource requestor ifNotNil: [
 		aCueWithStyledSource requestor useDefaultStyler.
 		aCueWithStyledSource requestor setText: bpUnstyledSource.
-		"Changing the styler here won't change the text contents back to styled. 
-		It will as soon as the morph is updated after the compilation process, which lets 
-		us avoid manually having to style back in different error cases in this method."
-		aCueWithStyledSource requestor styler: (BPStyler new view: aCueWithStyledSource requestor).].
+		aCueWithStyledSource requestor styler: (BPStyler new view: aCueWithStyledSource requestor)
+		].
 	
 	unstyledCue := CompilationCue
 		source: bpUnstyledSource readStream
@@ -30,8 +28,12 @@ compile: aCueWithStyledSource ifFail: failBlock
 		requestor: aCueWithStyledSource requestor.
 	originalMethodNode := super compile: unstyledCue ifFail: failBlock.
 	
-	bpStyledSource := originalMethodNode sourceText asString.
-	(self methodSourceRequiresBPLayers: bpStyledSource) ifTrue: [
-		(self compileInstrumentedVersionOf: aCueWithStyledSource) ifFalse: failBlock].
+	bpUnstyledSource := originalMethodNode sourceText asString.
+	(self methodSourceRequiresBPLayers: bpUnstyledSource) ifTrue: [
+		(self compileInstrumentedVersionOf: aCueWithStyledSource) ifFalse: failBlock].	
+	
+	aCueWithStyledSource requestor ifNotNil: [	
+		aCueWithStyledSource requestor setText: bpUnstyledSource.
+		].
 						
-	^ originalMethodNode
+	 ^ originalMethodNode

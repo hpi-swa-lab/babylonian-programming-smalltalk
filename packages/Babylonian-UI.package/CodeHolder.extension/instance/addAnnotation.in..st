@@ -4,7 +4,6 @@ addAnnotation: anAnnotation in: interval
 	| newContent text actualInterval newMorph |
 	actualInterval := self determineIntervalToAnnotateFor: interval forNodes: anAnnotation canBeAnnotatedTo.
 	actualInterval ifNil: [self codeTextMorph textMorph flash. ^ self].
-	
 	anAnnotation methodReference: self methodReference.
 	text := self codeTextMorph text.
 	newMorph := anAnnotation asMorph.
@@ -19,7 +18,6 @@ addAnnotation: anAnnotation in: interval
 		copyReplaceFrom: actualInterval start
 		to: actualInterval stop
 		with: newContent.
-		
 	(self codeTextMorph) 
 		addMorph: newMorph;
 		setText: newContent;
