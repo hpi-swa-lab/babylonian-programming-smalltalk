@@ -9,14 +9,12 @@ compile: aCueWithStyledSource ifFail: failBlock
 	version could have it at position 19. The parser would then re-add two lines,
 	causing for synctactic errors when compiling. Therefore, we remove the text styling
 	inside the morph to re-fullfill that premise again during compilation."
-	| originalMethodNode bpStyledSource bpUnstyledSource unstyledCue |
-	bpStyledSource := aCueWithStyledSource sourceStream contents asString.
-	bpUnstyledSource := bpStyledSource asBPSource.
-	
+	| originalMethodNode bpUnstyledSource unstyledCue |
+	bpUnstyledSource := aCueWithStyledSource sourceStream contents asString asBPSource.
 	aCueWithStyledSource requestor ifNotNil: [
 		aCueWithStyledSource requestor useDefaultStyler.
 		aCueWithStyledSource requestor setText: bpUnstyledSource.
-		aCueWithStyledSource requestor styler: (BPStyler new view: aCueWithStyledSource requestor)
+		aCueWithStyledSource requestor styler: (BPStyler new view: aCueWithStyledSource requestor).
 		].
 	
 	unstyledCue := CompilationCue
@@ -31,9 +29,5 @@ compile: aCueWithStyledSource ifFail: failBlock
 	bpUnstyledSource := originalMethodNode sourceText asString.
 	(self methodSourceRequiresBPLayers: bpUnstyledSource) ifTrue: [
 		(self compileInstrumentedVersionOf: aCueWithStyledSource) ifFalse: failBlock].	
-	
-	aCueWithStyledSource requestor ifNotNil: [	
-		aCueWithStyledSource requestor setText: bpUnstyledSource.
-		].
-						
+			
 	 ^ originalMethodNode

@@ -21,6 +21,7 @@ addAnnotation: anAnnotation in: interval
 	(self codeTextMorph) 
 		addMorph: newMorph;
 		setText: newContent;
-		hasUnacceptedEdits: true;
-		accept.
-	
+		hasUnacceptedEdits: true.
+	"Workaround to get the text to update with the correct BPAnchors"
+	(1 to: 10) do: [:anIndex | self currentWorld doOneSubCycle].
+	self codeTextMorph accept.
