@@ -21,7 +21,7 @@ addAnnotation: anAnnotation in: interval
 	(self codeTextMorph) 
 		addMorph: newMorph;
 		setText: newContent;
-		hasUnacceptedEdits: true.
-	"Workaround to get the text to update with the correct BPAnchors"
-	(1 to: 10) do: [:anIndex | self currentWorld doOneSubCycle].
-	self codeTextMorph accept.
+		hasUnacceptedEdits: true;
+		updateStyleNow;
+		flag: #workaround ;"BPStyler is currently not thread-safe, make sure to terminate any background styling operations before triggering the styler again in the line."
+		accept.
