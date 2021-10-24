@@ -10,7 +10,7 @@
 		"annotationMorphFor:" : "pre 1/6/2021 17:40",
 		"applyAnnotationsFrom:to:" : "pre 1/6/2021 17:49",
 		"extractEndOfMethodHeader" : "pre 8/24/2020 17:04",
-		"extractExistingExamplesMorphFrom:headerEndingAt:ifFound:ifNone:" : "jb 8/21/2021 15:53",
+		"extractExistingExamplesMorphFrom:headerEndingAt:ifFound:ifNone:" : "jb 10/24/2021 22:30",
 		"extractIntervals" : "jb 12/3/2020 22:57",
 		"hasExamplesMorph:" : "jb 8/21/2021 15:38",
 		"ifNoSelectedMethod:" : "pre 3/19/2020 11:07",
