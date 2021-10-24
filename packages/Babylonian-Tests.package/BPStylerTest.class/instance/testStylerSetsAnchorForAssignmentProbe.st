@@ -8,9 +8,9 @@ testStylerSetsAnchorForAssignmentProbe
 	"<bpProbe id: 31412>"variable := 2 + 3"</bpProbe>"' asText.
 	formattedSourceCode := styler styledTextFor: originalSourceCode.
 	
-	theTextAttribute := ((formattedSourceCode attributesAt: 26) select: [:attribute | 
+	theTextAttribute := ((formattedSourceCode attributesAt: 25) select: [:attribute | 
 			attribute isKindOf: TextAnchor]) first.
-	26 to: 42 do: [:offset | 
+	25 to: 41 do: [:offset | 
 		anchorTextAttributes := (formattedSourceCode attributesAt: offset) select: [:attribute | 
 			attribute isKindOf: TextAnchor].
 	
