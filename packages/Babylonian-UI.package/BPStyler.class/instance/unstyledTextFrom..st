@@ -8,6 +8,3 @@ unstyledTextFrom: aText
 			ifTrue: [
 				attribs do: [:eachAttrib |answer addAttribute: eachAttrib from: start to: stop]]].
 	^answer
-	
-	"^ Text fromString: aText asBPSource" "nur aText zurückgeben damit es gestyled ist"
-	"^ aText"
