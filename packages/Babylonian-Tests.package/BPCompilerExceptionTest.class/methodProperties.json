@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"compilerClass" : "jb 10/24/2021 01:58" },
+	"instance" : {
+		"assertText:" : "jb 10/24/2021 02:51",
+		"codePaneTextMorph" : "jb 10/20/2021 18:18",
+		"compile:" : "jb 10/24/2021 03:09",
+		"compileMethodHeaderAndSetBrowserToIt" : "jb 10/24/2021 01:52",
+		"compiling:shouldRaise:andSelect:testing:" : "jb 10/24/2021 03:03",
+		"setUp" : "jb 10/24/2021 02:11",
+		"tearDown" : "jb 10/24/2021 02:26",
+		"testAmbiguousSelector" : "jb 10/24/2021 02:52",
+		"testPastesBlockLocalTemp" : "jb 10/24/2021 02:51",
+		"testPastesFirstTempAtMethodLevel" : "jb 10/24/2021 02:56",
+		"testPastesSecondTempAtMethodLevel" : "jb 10/24/2021 02:56",
+		"testPastesTempForBlockValue" : "jb 10/24/2021 02:28",
+		"testUndefinedVariable" : "jb 10/24/2021 02:34",
+		"testUndefinedVariableBlockValue" : "jb 10/24/2021 02:37",
+		"testUnusedVariable" : "jb 10/24/2021 02:37",
+		"testUnusedVariableInBlock" : "jb 10/24/2021 02:38",
+		"undeclaredVar" : "jb 10/23/2021 16:49" } }

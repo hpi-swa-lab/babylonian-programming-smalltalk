@@ -1,0 +1,15 @@
+{
+	"category" : "Babylonian-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"browser",
+		"stylePreference" ],
+	"name" : "BPCompilerExceptionTest",
+	"pools" : [
+		 ],
+	"super" : "CompilerExceptionsTest",
+	"type" : "normal" }
