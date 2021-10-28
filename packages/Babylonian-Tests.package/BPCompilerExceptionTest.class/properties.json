@@ -6,8 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"browser",
-		"stylePreference" ],
+		"browser" ],
 	"name" : "BPCompilerExceptionTest",
 	"pools" : [
 		 ],
