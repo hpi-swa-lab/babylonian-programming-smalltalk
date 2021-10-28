@@ -1,10 +1,10 @@
 private - ui
 newVisualizeButtonFor: aTrace
-	
+
 	| visualizeButton |
 	visualizeButton := IconicButton new.
 	visualizeButton 
-		labelGraphic: (BPIcons listIcon scaledToSize: self iconSize);
+		labelGraphic: (BPIcons barChartIcon scaledToSize: self iconSize);
 		color: Color transparent;
 		borderWidth: 0;
 		extent: (visualizeButton extent x * 0.9)@(visualizeButton extent y + self scrollBarSize).
