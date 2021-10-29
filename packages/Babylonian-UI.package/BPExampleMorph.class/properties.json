@@ -10,7 +10,8 @@
 		"collapsed",
 		"exampleSpecificMorphs",
 		"configurationButton",
-		"nameTextMorph" ],
+		"nameTextMorph",
+		"hideAnnotationsButton" ],
 	"name" : "BPExampleMorph",
 	"pools" : [
 		 ],

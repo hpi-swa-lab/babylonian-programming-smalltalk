@@ -1,0 +1,4 @@
+accessing
+abandonedMorphsOnCollapse
+
+	^ {exampleSpecificMorphs. configurationButton.}

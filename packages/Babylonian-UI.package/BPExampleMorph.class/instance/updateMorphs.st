@@ -1,6 +1,6 @@
 private - ui
 updateMorphs
-	
+
 	self removeAllMorphs.
 	
 	self 
@@ -10,4 +10,5 @@ updateMorphs
 		addExampleNameMorph;
 		addExampleConfigurationButtonMorph;
 		addExampleSpecificMorphs;
+		addHideAnnotationsButtonMorph;
 		addDeleteButtonMorph.

@@ -1,10 +1,9 @@
 ui - actions
 collapse
-	
+
 	collapsed ifTrue: [^ self].
 	
-	exampleSpecificMorphs abandon.
-	configurationButton abandon.
+	self abandonedMorphsOnCollapse do: [:aMorphToAbandon | aMorphToAbandon abandon].
 	nameTextMorph 
 		wrapFlag: false;
 		hideScrollBarsIndefinitely.
