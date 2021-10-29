@@ -4,7 +4,7 @@ addHideAnnotationsButtonMorph
 	hideAnnotationsButton := IconicButton new.
 	hideAnnotationsButton
 		name: #hideAnnotationsButton;
-		labelGraphic: (BPIcons eyeIcon scaledToSize: self iconSize) ;
+		labelGraphic: self currentEyeIcon;
 		balloonText: self hideAnnotationsBalloonText;
 		color: Color transparent;
 		borderWidth: 0;

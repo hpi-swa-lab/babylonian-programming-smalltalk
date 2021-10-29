@@ -6,7 +6,7 @@ expand
 	self abandonedMorphsOnCollapse do: [:aMorphToRestore | 
 		self 
 			addMorph: aMorphToRestore
-			inFrontOf: self submorphs last].	
+			inFrontOf: hideAnnotationsButton].	 
 		
 	nameTextMorph wrapFlag: true.
 	self collapseButton labelGraphic: (BPIcons moreHorizontalIcon scaledToSize: self iconSize * 0.7).
