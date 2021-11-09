@@ -19,8 +19,6 @@ initialize
 	self 
 		addButtonBar;
 		addCreateExampleButtonLabeled: 'add example' selector: #addExampleButtonClicked;
-		addCreateExampleButtonLabeled: '| add script example' selector: #addScriptExampleButtonClicked;
-		addCreateExampleButtonLabeled: '| add TestCaseExample' selector: #addTestCaseExampleButtonClicked;
-		addCreateExampleButtonLabeled: '| add recorded example' selector: #addRecordedExampleButtonClicked.
+		addCreateExampleButtonLabeled: '| add script example' selector: #addScriptExampleButtonClicked.
 		
 	BPExamples value addDependent: self.
