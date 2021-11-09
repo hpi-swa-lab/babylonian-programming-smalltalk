@@ -1,6 +1,6 @@
 private - ui
 addArgumentScriptMorphs
-	
+
 	| editField labelMorph container |
 	self example argumentNames withIndexDo: [:argumentName :index |
 		container := self newContainerMorph.
@@ -24,6 +24,10 @@ addArgumentScriptMorphs
 			balloonText: 'write code that instantiates the argument';
 			width: 240.
 		container addMorphBack: editField.
+		
+		"Live specimen editing"
+		(self example isLiveSpecimenReference: (self example argumentScriptAt: index))
+			ifTrue: [container addMorphBack: (self newSpecimenEditingButtonFor: (self example argumentScriptAt: index))].
 		
 		"Live specimen selection"
 		container addMorphBack: (self newSpecimenSelectionButtonOnClick: [
