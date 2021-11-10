@@ -11,7 +11,7 @@ sourceStringUnannotated
 	sourceString := class ultimateSourceCodeAt: selector ifAbsent: [^'error'].
 	self validateMessageSource: sourceString forSelector: selector inClass: class.
 	sourceString := BPUnannotatedStyler new 
-		selectedMethod: class>>selector;
+		selectedMethod: (MethodReference  class: class selector: selector);
+		classOrMetaClass: class;
 		styledTextFor: sourceString.
-	
 	^ sourceString
