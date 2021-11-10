@@ -3,6 +3,7 @@
 		"automaticallyAcceptMethodOnAddingAnnotations" : "pre 6/7/2021 14:34",
 		"automaticallyAcceptMethodOnAddingAnnotations:" : "pre 6/7/2021 14:35",
 		"compilerClass" : "pre 7/26/2019 10:07",
+		"defaultContentsSymbolQuints" : "jb 10/30/2021 17:40",
 		"initialize" : "pre 8/25/2020 10:35",
 		"startUp" : "jb 12/3/2020 23:07" },
 	"instance" : {
@@ -21,5 +22,11 @@
 		"messageList" : "pre 9/24/2020 14:26",
 		"openExampleInstanceInHand:" : "pre 9/28/2021 16:25",
 		"rawMessageCategoryList" : "jb 12/3/2020 22:54",
+		"selectedMessage" : "jb 10/30/2021 13:52",
+		"showUnannotated:" : "jb 10/29/2021 23:07",
+		"showingUnannotated" : "jb 10/29/2021 22:58",
+		"showingUnannotatedSourceString" : "jb 11/1/2021 00:58",
+		"sourceStringUnannotated" : "jb 11/2/2021 15:03",
+		"toggleUnannotatedSource" : "jb 10/29/2021 23:15",
 		"toolBuilderModelsMenu:" : "pre 9/28/2021 16:32",
 		"wantsMessageCategoriesDrop:" : "jb 8/29/2021 22:15" } }
