@@ -2,7 +2,7 @@ tests
 testUnusedVariable
 
 	"Will pass once trunk changes of 5.3 are in the stable release."
-	
+	self flag: #todo.
 	"self codePaneTextMorph textMorph contents append: '| foo | ^nil'.
 	text append: '| foo | ^nil'.	
 	self 
