@@ -12,8 +12,10 @@
 		"compileMethodHeaderAndSetBrowserToIt" : "jb 10/24/2021 01:52",
 		"compiling:shouldRaise:andSelect:testing:" : "jb 11/11/2021 00:23",
 		"correctFrom:to:with:" : "jb 11/11/2021 00:21",
+		"generateUnknownSelector" : "jb 11/11/2021 00:32",
 		"handlerBlockFor:" : "jb 11/11/2021 00:23",
 		"nextTokenFrom:direction:" : "jb 11/11/2021 00:21",
+		"removeGeneratedMethods" : "jb 11/11/2021 00:32",
 		"runCase" : "jb 10/28/2021 18:04",
 		"selectFrom:to:" : "jb 11/11/2021 00:21",
 		"selectIntervalInvisibly:" : "jb 11/11/2021 00:22",
@@ -33,4 +35,5 @@
 		"testUndefinedVariableBlockValue" : "jb 10/24/2021 02:37",
 		"testUnusedVariable" : "jb 10/24/2021 22:42",
 		"testUnusedVariableInBlock" : "jb 10/24/2021 22:42",
+		"text" : "jb 11/11/2021 00:31",
 		"undeclaredVar" : "jb 10/23/2021 16:49" } }
