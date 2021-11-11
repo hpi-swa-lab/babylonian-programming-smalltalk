@@ -23,6 +23,7 @@ ToolSet default: (Smalltalk at: #BPToolSet).
 
 "Prepare Image a little bit"
 Preferences disable: #showSharedFlaps.
+Preferences disable: #confirmFirstUseOfStyle.
 PluggableSystemWindow allInstances do: #abandon.
 PreferenceWizardMorph allInstances do: #abandon.
 
