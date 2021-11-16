@@ -1,9 +1,7 @@
 tests
 testUnusedVariableInBlock
 
-	"Will pass once trunk changes of 5.3 are in the stable release."
-	self flag: #todo.
-	"self codePaneTextMorph textMorph contents append: '^[ | foo | ]'.
+	self codePaneTextMorph textMorph contents append: '^[ | foo | ]'.
 	text append: '^[ | foo | ]'.	
 	self 
 		compiling: text
@@ -12,4 +10,4 @@ testUnusedVariableInBlock
 		testing: {
 			[:ex | ex resume] -> [self assertCanceled].
 			false -> [self assertSucceeded].
-			true -> [self assertSucceeded: ('someMethod\' withCRs, Character startOfHeader, '\s*\^\[\s*\]') asRegex] }."
+			true -> [self assertSucceeded: ('someMethod\' withCRs, Character startOfHeader, '\s*\^\[\s*\]') asRegex] }.
