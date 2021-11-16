@@ -1,0 +1,4 @@
+emulating
+text
+
+	^text
