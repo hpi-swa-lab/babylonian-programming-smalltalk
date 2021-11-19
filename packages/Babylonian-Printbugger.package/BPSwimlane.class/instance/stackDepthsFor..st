@@ -1,10 +1,10 @@
 private
 stackDepthsFor: aBPExample
-	
-	|stackDepthsRelativeToFirstLine lowestDepth| 
+
+	|stackDepthsRelativeToFirstLine lowestDepth a| 
 	stackDepthsRelativeToFirstLine := aBPExample traceValues collect: [:anotherTraceValue | 
 		aBPExample traceValues first relativeStackLevelTo: anotherTraceValue].
-	
+	a := aBPExample traceValues collect: [:aTraceValue | aTraceValue filteredStack].
 	"the first trace value may be a method with a probe being called in a method which probes after the call, which would result
 	in stacks going from right to left instead of the other way around (with being thinner). so normalize the depths before returning."
 	lowestDepth := stackDepthsRelativeToFirstLine 

@@ -1,6 +1,6 @@
 private
-visualizeLineFor: aTraceValue relativeTo: aStackRelation
-	
+visualizeLineFor: aTraceValue calledBy: aStackOfMethodReferences
+
 	^ Morph new
 		name: aTraceValue chronologicalPosition asString;
 		color: Color transparent;
@@ -9,6 +9,6 @@ visualizeLineFor: aTraceValue relativeTo: aStackRelation
 		cellPositioning: #center;
 		vResizing: #shrinkWrap;
 		hResizing: #shrinkWrap;
-		cellInset: 3@1;
-		addAllMorphsBack: (self lineSubmorphsFor: aTraceValue relativeTo: aStackRelation);
-		yourself.
+		cellInset: 3@0;
+		addAllMorphsBack: (self lineSubmorphsFor: aTraceValue calledBy: aStackOfMethodReferences);
+		yourself
