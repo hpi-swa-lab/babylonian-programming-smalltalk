@@ -12,5 +12,5 @@ newBarMorphFor: aTraceValue calledBy: aStackOfMethodReferences withHeight: aNumb
 		vResizing: #shrinkWrap;
 		cellInset: 1@0;
 		addAllMorphsBack: (aStackOfMethodReferences collect: [:aStackMethod |
-			 self newBarMorphFor:  aStackMethod withHeight: aNumber]);
+			 self newStackFrameMorphFor:  aStackMethod withHeight: aNumber]);
 		yourself
