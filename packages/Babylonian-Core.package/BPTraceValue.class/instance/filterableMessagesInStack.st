@@ -1,6 +1,6 @@
 private
 filterableMessagesInStack
-	
+
 	^ {MethodReference class: BlockClosure selector: #newProcess.
 		MethodReference class: BPExample selector: #traceInBackground.
 		MethodReference class: BlockClosure selector: #on:do:.
@@ -18,4 +18,4 @@ filterableMessagesInStack
 		MethodReference class: CSMethodObject selector: #run:with:in:.
 		MethodReference class: CSLayeredMethod selector: #valueWithReceiver:arguments:.
 		MethodReference class: CSPartialMethod selector: #valueWithReceiver:arguments:.
-		MethodReference class: BlockClosure selector: #whileFalseDo:.}
+		MethodReference class: MorphicEventDispatcher selector: #dispatchEvent:toSubmorphsOf:.}

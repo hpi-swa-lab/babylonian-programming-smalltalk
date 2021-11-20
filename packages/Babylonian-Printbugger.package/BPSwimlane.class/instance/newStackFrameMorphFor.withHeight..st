@@ -3,9 +3,11 @@ newStackFrameMorphFor: aMethodReference withHeight: aNumber
 
 	| stackMorph |
 	stackMorph := Morph new 
-		color: (context colorFor: aMethodReference having: self class barColorScheme);
+		color: (self colorFor: aMethodReference);
 		extent: (self stackDepth@aNumber);
 		balloonText: aMethodReference asString;
+		setProperty: #stackMethodReference
+		toValue: aMethodReference;
 		on: #click 
 			send: #value 
 			to: [ToolSet browse: aMethodReference actualClass 
