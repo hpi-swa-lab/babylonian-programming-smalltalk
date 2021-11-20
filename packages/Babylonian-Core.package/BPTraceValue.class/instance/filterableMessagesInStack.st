@@ -17,5 +17,4 @@ filterableMessagesInStack
 		MethodReference class: BPMethodExample selector: #runOn:.
 		MethodReference class: CSMethodObject selector: #run:with:in:.
 		MethodReference class: CSLayeredMethod selector: #valueWithReceiver:arguments:.
-		MethodReference class: CSPartialMethod selector: #valueWithReceiver:arguments:.
-		MethodReference class: MorphicEventDispatcher selector: #dispatchEvent:toSubmorphsOf:.}
+		MethodReference class: CSPartialMethod selector: #valueWithReceiver:arguments:.}

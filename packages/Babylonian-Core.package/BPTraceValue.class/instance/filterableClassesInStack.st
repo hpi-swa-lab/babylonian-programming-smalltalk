@@ -1,12 +1,17 @@
 private
 filterableClassesInStack
-	
-	^ {BlockClosure.
+
+	^ {	BlockClosure.
 		Symbol.
 		DynamicVariable class.
+		ActiveHandVariable class.
 		CSProcessContextInformation.
 		CSMethodObject.
 		CSLayeredMethod.
 		CSPartialMethod.
 		TestCase.
-		TestResult.}
+		TestResult.
+		BPPrintbuggerTest.
+		MorphicEventDispatcher.
+		HandMorph.
+		}
