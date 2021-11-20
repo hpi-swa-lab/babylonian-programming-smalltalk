@@ -9,4 +9,3 @@ testTwoTraceValuesInDifferentMethodsGetDifferentStackDepthsInSameSwimlane
 		aSubmorph knownName = 'stackBar'] thenCollect: [:aBarMorph | aBarMorph fullBounds width].
 	
 	self assert: 2 equals: stackDepths asSet size.
-	self assert: stackDepths first < stackDepths second.
