@@ -1,4 +1,5 @@
 private
-addTracedValue: aTraceValue forAssertion: anAssertionid
+addTracedValue: aTraceValue forAssertion: anAssertionId
 
-	(self assertions at: anAssertionid ifAbsentPut: [OrderedCollection new]) add: aTraceValue.
+	(self assertions at: anAssertionId ifAbsentPut: [OrderedCollection new]) add: aTraceValue.
+	self addChronologicalPositionTo: aTraceValue forAnnotation: anAssertionId.
