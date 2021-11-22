@@ -7,7 +7,5 @@ traceValues
 	probesAndAssertions addAll: self assertions asCollection.
 	probesAndAssertions ifEmpty: [^ probesAndAssertions values ].
 	^ (probesAndAssertions values fold: [:a :b | a , b]) sorted: [:a | a chronologicalPosition] ascending.
-	"self probes values ifEmpty: [^ self probes values].
-	^ (self probes values fold: [:a :b | a , b]) sorted: [:a | a chronologicalPosition] ascending"
 	
 	

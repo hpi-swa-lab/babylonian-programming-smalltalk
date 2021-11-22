@@ -6,6 +6,7 @@
 		"addTracedValue:forAssertion:" : "lu 11/21/2021 18:47",
 		"addTracedValue:forProbe:" : "lu 11/21/2021 18:47",
 		"assertions" : "pre 5/10/2019 10:09",
+		"chronologicallyTrackedTraceValuesCount" : "lu 11/22/2021 22:03",
 		"example" : "pre 5/8/2019 16:26",
 		"example:" : "jb 12/7/2020 18:54",
 		"exampleErrored" : "pre 7/25/2019 12:19",
@@ -19,7 +20,6 @@
 		"newTracedAssignmentValue:previousValues:expression:stackFrom:" : "pre 10/12/2020 17:58",
 		"newTracedValue:expression:stackFrom:" : "pre 10/12/2020 17:57",
 		"probes" : "pre 5/8/2019 16:44",
-		"probesTraceValuesCount" : "jb 5/26/2021 21:04",
 		"recordedException" : "pre 7/25/2019 12:28",
 		"recordedException:" : "jb 12/7/2020 18:54",
 		"resultsForAssertionId:" : "pre 11/18/2019 12:55",
@@ -31,5 +31,5 @@
 		"traceBlock:enteredInContext:" : "jb 12/7/2020 18:54",
 		"traceException:" : "jb 12/7/2020 18:54",
 		"traceException:forId:" : "jb 12/7/2020 18:55",
-		"traceValues" : "lu 11/21/2021 16:38",
-		"valuesForProbeId:" : "pre 8/17/2020 09:30" } }
+		"traceValues" : "lu 11/22/2021 23:20",
+		"valuesForProbeId:" : "lu 11/22/2021 23:25" } }

@@ -1,9 +1,9 @@
 private - ui
 newLabelFor: aTraceValue
-	
-	aTraceValue belongingProbe hasLabel ifFalse: [ aTraceValue belongingProbe label: (
+
+	aTraceValue belongingAnnotation hasLabel ifFalse: [ aTraceValue belongingAnnotation label: (
 			BPProbe 
 				defaultLabelFor: aTraceValue containedMethodReference
-				withExpression: aTraceValue belongingProbe enclosedExpressionSource)].
+				withExpression: aTraceValue belongingAnnotation enclosedExpressionSource)].
 		
-	^ aTraceValue belongingProbe label
+	^ aTraceValue belongingAnnotation label

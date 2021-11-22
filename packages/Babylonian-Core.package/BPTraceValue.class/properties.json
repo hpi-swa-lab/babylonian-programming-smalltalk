@@ -10,7 +10,7 @@
 		"tracedValueIdentityHash",
 		"stack",
 		"chronologicalPosition",
-		"belongingProbeId" ],
+		"belongingAnnotationId" ],
 	"name" : "BPTraceValue",
 	"pools" : [
 		 ],
