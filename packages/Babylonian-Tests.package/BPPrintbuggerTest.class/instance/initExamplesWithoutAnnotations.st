@@ -1,8 +1,8 @@
 running
 initExamplesWithoutAnnotations
 
-	example1 := (BPTestExamplesClass>>#methodWithExamples) bpExamples first.
-	example2 := (BPTestExamplesClass>>#methodWithExamples) bpExamples second.
+	example1 := (BPTestExamplesClass>>#methodWithScriptExamples) bpExamples first.
+	example2 := (BPTestExamplesClass>>#methodWithScriptExamples) bpExamples second.
 	
 	"Force update notifications"
 	example1 isActive: true.

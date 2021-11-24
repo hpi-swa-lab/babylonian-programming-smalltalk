@@ -6,7 +6,7 @@ newAssertionValueMorphFor: aTraceValue
 	
 	^ BPAnnotationMorph newContainerMorph 
 		addTransparentSpacerOfSize: self class assertionValueSpacing;
-		addMorphBack: (self scaleIcon: icon by: 1.4@1.4) asMorph;
+		addMorphBack: (self scaleIcon: icon by: self class assertionIconScale) asMorph;
 		addTransparentSpacerOfSize: self class assertionValueSpacing;
 		addMorphBack: aTraceValue belongingAnnotation assertion asStringMorph; 
 		yourself

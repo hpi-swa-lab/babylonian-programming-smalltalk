@@ -6,4 +6,6 @@ usedMethods
 	(BPTestExamplesClass>>#methodWithSingleProbe).
 	(BPTestExamplesClass>>#methodWithExampleCallingOnlyProbedMethod).
 	(BPTestExamplesClass>>#methodWithOnlyProbe).
-	(BPTestExamplesClass>>#methodWithExamples).}
+	(BPTestExamplesClass>>#methodWithScriptExamples).
+	(BPTestExamplesClass>>#methodWithMultipleAssertions).
+	(BPTestExamplesClass>>#methodWithSingleAssertionAndSingleProbe).}
