@@ -1,8 +1,6 @@
 private - ui
 newLabelFor: aTraceValue
 
-	aTraceValue belongingAnnotation isAssertion ifTrue: [aTraceValue belongingAnnotation setCurrentDefaultLabel].
-	
 	"Only for other annotations than assertions:"
 	aTraceValue belongingAnnotation hasLabel ifFalse: [aTraceValue belongingAnnotation label: (
 			BPProbe 
