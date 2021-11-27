@@ -7,6 +7,7 @@
 		"newFor:" : "pre 9/30/2020 11:08" },
 	"instance" : {
 		"asPragma" : "pre 5/6/2021 17:47",
+		"assertions" : "lu 11/27/2021 13:53",
 		"canBeUsedForDoIts" : "pre 10/6/2020 09:17",
 		"color" : "pre 3/2/2021 17:32",
 		"currentTrace" : "jb 12/3/2020 22:33",
@@ -40,8 +41,8 @@
 		"trace" : "pre 5/6/2021 17:47",
 		"traceAsyncNotifying:" : "pre 5/6/2021 17:48",
 		"traceInBackground" : "pre 5/6/2021 17:47",
-		"traceToHaltAt:" : "lu 6/14/2021 23:28",
-		"traceToHaltAt:onCount:" : "lu 6/11/2021 00:10",
+		"traceToHaltAt:" : "lu 11/27/2021 14:06",
+		"traceToHaltAt:onCount:" : "lu 11/27/2021 14:03",
 		"traceValues" : "jb 5/31/2021 14:44",
 		"traceValuesMorphs" : "jb 5/20/2021 01:03",
 		"tracingIsStillRunning" : "pre 1/7/2021 09:30",

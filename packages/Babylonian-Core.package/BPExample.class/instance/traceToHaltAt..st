@@ -1,4 +1,4 @@
 tracing
-traceToHaltAt: probeId
-	
-	self traceToHaltAt: probeId onCount: 1. "halt on first occurence of probeId"
+traceToHaltAt: annotationId
+
+	self traceToHaltAt: annotationId onCount: 1. "halt on first occurence of annotationId"

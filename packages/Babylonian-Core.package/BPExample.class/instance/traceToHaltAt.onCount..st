@@ -1,16 +1,17 @@
 tracing
-traceToHaltAt: aProbeId onCount: aCount
-	
+traceToHaltAt: anAnnotationId onCount: aCount
+
 	"We do not care for the traceInformation as this is not intended to record anything but
 	only to bring us to the probe as quickly as possible"
 	
 	| exampleExecution |
-	exampleExecution := [[([self execute] bpTraceForExample: self andHaltAt: aProbeId onCount: aCount)]
+	exampleExecution := [[([self execute] bpTraceForExample: self andHaltAt: anAnnotationId onCount: aCount)]
 		on: BPExampleExecutionInterrupted
 		do: [:anError | | methodContext process traceMethodReferences |
 			traceMethodReferences := {
 				(Object>>#bpTrace:forProbe:inContext:) reference . 
-				(Object>>#bpTrace:through:forProbe:inContext:) reference}.
+				(Object>>#bpTrace:through:forProbe:inContext:) reference.
+				(Object>>#bpAssertAfter:that:forAssertion:given:inContext:) reference}.
 			methodContext := anError signalerContext findContextSuchThat: [:aContext | 
 				(traceMethodReferences includes: aContext method reference) and: [
 					aContext isExecutingBlock not]].

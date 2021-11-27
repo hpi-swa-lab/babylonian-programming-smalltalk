@@ -3,4 +3,4 @@ haltButtonClickedFor: aTraceValue and: aBPExample
 
 	aBPExample 
 		traceToHaltAt: aTraceValue belongingAnnotationId
-		onCount: (self positionInProbeFor:aTraceValue and: aBPExample).
+		onCount: (self positionInAnnotationsFor: aTraceValue and: aBPExample).
