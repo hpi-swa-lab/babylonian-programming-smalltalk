@@ -1,7 +1,7 @@
 private
-checkForHaltAt: aAnnotationId
+checkForHaltAt: anAnnotationId
 
-	haltAnnotationId == aAnnotationId ifTrue: [
+	haltAnnotationId = anAnnotationId ifTrue: [
 		haltAnnotationIdCount == annotationIdCount
 			ifTrue: [BPExampleExecutionInterrupted signal]
 			ifFalse: [annotationIdCount := annotationIdCount + 1]]

@@ -2,5 +2,5 @@ accessing
 assertions
 
 	^ self currentTrace
-		ifNil: [{}]
+		ifNil: [#()]
 		ifNotNil: [self currentTrace assertions]
