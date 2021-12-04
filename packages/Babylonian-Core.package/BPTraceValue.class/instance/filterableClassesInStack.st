@@ -1,7 +1,7 @@
 private
 filterableClassesInStack
-	
-	^ {BlockClosure.
+
+	^ {	BlockClosure.
 		Symbol.
 		DynamicVariable class.
 		CSProcessContextInformation.
@@ -9,4 +9,6 @@ filterableClassesInStack
 		CSLayeredMethod.
 		CSPartialMethod.
 		TestCase.
-		TestResult.}
+		TestResult.
+		BPPrintbuggerTest.
+		}

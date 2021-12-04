@@ -1,8 +1,8 @@
 private
 visualizeLinesFor: aBPExample
-	
-	|stackDepthsRelativeToFirstLine| 
-	stackDepthsRelativeToFirstLine := self stackDepthsFor: aBPExample.
+
+	| stackMethods | 
+	stackMethods := self stackMethodsFor: aBPExample.
 	
 	"Add a wrapper to have some distance between the title morph and the values"
 	^ Morph new
@@ -14,5 +14,5 @@ visualizeLinesFor: aBPExample
 		wrapCentering: #center;
 		cellPositioning: #topLeft;
 		addAllMorphsBack:  (aBPExample traceValues withIndexCollect: [:aTraceValue :anIndex | 
-			self visualizeLineFor: aTraceValue relativeTo: (stackDepthsRelativeToFirstLine at: anIndex )]);
+			self visualizeLineFor: aTraceValue calledBy: (stackMethods at: anIndex )]);
 		yourself
