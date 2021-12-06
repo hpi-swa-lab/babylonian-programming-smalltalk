@@ -1,6 +1,6 @@
 private
 filteredStack
-	
-	^ self filteredStackFor: self stack
+
+	^ self stack reject: [:aStackEntry | self shouldBeFiltered: aStackEntry ]
 
 	
