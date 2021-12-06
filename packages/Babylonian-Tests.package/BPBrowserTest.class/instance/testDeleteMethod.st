@@ -1,5 +1,5 @@
 tests
 testDeleteMethod
 
-	[browser removeMessage] valueSupplyingAnswer: 'Remove it'.
+	[browser removeMessage] valueSupplyingAnswer: 'Yes, remove it'.
 	self deny: (self respondsTo: #mockMethod).
