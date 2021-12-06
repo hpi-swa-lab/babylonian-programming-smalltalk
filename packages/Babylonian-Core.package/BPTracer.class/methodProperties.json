@@ -3,11 +3,11 @@
 		"forExample:" : "jb 12/3/2020 23:06" },
 	"instance" : {
 		"check:after:forAssertion:given:inContext:" : "pre 9/29/2020 16:15",
-		"checkForHaltAt:" : "lu 6/17/2021 09:18",
+		"checkForHaltAt:" : "lu 12/1/2021 07:33",
 		"completeTrace" : "pre 5/6/2021 18:22",
 		"example" : "pre 8/17/2020 10:15",
 		"exampleNameMatches:" : "pre 11/18/2019 13:03",
-		"haltAt:onCount:" : "lu 6/11/2021 00:16",
+		"haltAt:onCount:" : "lu 11/27/2021 13:29",
 		"initialize" : "pre 5/20/2021 14:46",
 		"intermediateTrace" : "pre 5/6/2021 18:23",
 		"recordBlock:enteredFrom:" : "jb 12/7/2020 18:55",

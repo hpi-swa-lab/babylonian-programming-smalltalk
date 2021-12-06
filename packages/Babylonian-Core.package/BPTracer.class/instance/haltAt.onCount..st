@@ -1,6 +1,6 @@
 accessing
-haltAt: aProbeId onCount: aCount
-	
-	haltProbeId := aProbeId.
-	haltProbeIdCount := aCount.
-	probeIdCount := 1.
+haltAt: anAnnotationId onCount: aCount
+
+	haltAnnotationId := anAnnotationId.
+	haltAnnotationIdCount := aCount.
+	annotationIdCount := 1.

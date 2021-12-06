@@ -1,0 +1,4 @@
+accessing
+hasLabel
+
+	^ label notNil

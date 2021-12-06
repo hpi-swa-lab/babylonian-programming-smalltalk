@@ -1,7 +1,7 @@
 accessing
-valuesForProbeId: aProbeIde
+valuesForProbeId: aProbeId
 
-	^ self probes at: aProbeIde ifAbsent: [
+	^ self probes at: aProbeId ifAbsent: [
 		self exampleErrored 
 			ifTrue: [{BPFailedTrace new}] 
 			ifFalse: [#()]]
