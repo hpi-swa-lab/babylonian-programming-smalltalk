@@ -1,7 +1,7 @@
 private
-checkForHaltAt: aProbeId
-	
-	haltProbeId == aProbeId ifTrue: [
-		haltProbeIdCount == probeIdCount
+checkForHaltAt: anAnnotationId
+
+	haltAnnotationId = anAnnotationId ifTrue: [
+		haltAnnotationIdCount == annotationIdCount
 			ifTrue: [BPExampleExecutionInterrupted signal]
-			ifFalse: [probeIdCount := probeIdCount + 1]]
+			ifFalse: [annotationIdCount := annotationIdCount + 1]]

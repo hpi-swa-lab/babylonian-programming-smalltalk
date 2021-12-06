@@ -1,7 +1,7 @@
 *Babylonian-Core
-bpTraceForExample: anExample andHaltAt: aProbeId onCount: aCount
-	
+bpTraceForExample: anExample andHaltAt: anAnnotationId onCount: aCount
+
 	| tracer |
 	tracer := BPTracer forExample: anExample.
-	tracer haltAt: aProbeId onCount: aCount.
+	tracer haltAt: anAnnotationId onCount: aCount.
 	^ self bpTraceWith: tracer
