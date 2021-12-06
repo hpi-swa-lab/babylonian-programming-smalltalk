@@ -1,9 +1,9 @@
 private -ui 
 newCanvasMorph
-	
+
 	^ Morph new
 		name: #canvasMorph;
-		color: Color white;
+		color: Color transparent;
 		changeTableLayout;
 		listDirection: #leftToRight;
 		cellPositioning: #topCenter;

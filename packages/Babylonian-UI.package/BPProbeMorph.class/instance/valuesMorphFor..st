@@ -1,6 +1,6 @@
 private
 valuesMorphFor: trace
-	
+
 	| values valuesContainer |
 	values := trace valuesForProbeId: self id.
 	values ifEmpty: [^ (self noValuesTextFor: trace) asMorph].
@@ -12,6 +12,8 @@ valuesMorphFor: trace
 	valuesContainer := self newContainerMorph.
 	values 
 		do: [:v | valuesContainer addMorphBack: (self valueMorphFor: v)]
-		separatedBy: [valuesContainer addMorphBack: ', ' asMorph].
+		separatedBy: [valuesContainer addMorphBack: (', ' asMorph
+						color: (PluggableTextMorph basicNew userInterfaceTheme textColor);
+						yourself)].
 	
 	^ valuesContainer

@@ -1,0 +1,1 @@
+A BPDistantMethodExampleMorph is a BPMethodExampleMorph that is not contained in a CodeHolder.

@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jb 12/5/2021 01:01",
+	"instvars" : [
+		 ],
+	"name" : "BPDistantMethodExampleMorph",
+	"pools" : [
+		 ],
+	"super" : "BPMethodExampleMorph",
+	"type" : "normal" }

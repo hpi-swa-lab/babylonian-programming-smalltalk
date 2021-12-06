@@ -1,6 +1,6 @@
 initialize-release
 createMorphs
-	
+
 	| replacementScriptMorph replacementScript exampleSelectionMorph removeButton |
 	self removeAllMorphs.
 	replacementScript := self annotation ifNil: [''] ifNotNil: [:anAnnotation | anAnnotation replacementScript asString].
@@ -12,7 +12,7 @@ createMorphs
 			self annotation replacementScript: ('[{1}]' format: {str}).
 			self codeContentChanged]
 		onAccept: [:str | 
-			self containingBrowser codeTextMorph accept].
+			self acceptChangesAtSource].
 	replacementScriptMorph balloonText: 'write code that will be executed instead of the selected code'.
 		
 	exampleSelectionMorph := self newExampleSelectionFieldMorph
