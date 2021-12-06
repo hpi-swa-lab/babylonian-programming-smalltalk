@@ -1,7 +1,7 @@
 private - ui
 newTitleMorphFor: aBPExample
 
-	^ BPDistantMethodExampleMorph new
+	^ example morphClass new
 			annotation: ( (example method bpAnnotations 
 							select: [:anAnnotation | anAnnotation isExample])
 							detect: [:anExample | anExample exampleName = example exampleName]

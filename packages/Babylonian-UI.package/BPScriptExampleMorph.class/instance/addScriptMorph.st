@@ -4,7 +4,9 @@ addScriptMorph
 	| editField container |
 	container := self newContainerMorph.
 	container cellPositioning: #topLeft.
-	container addMorphBack: 'script: ' asMorph.
+	container addMorphBack: ('script: ' asMorph
+								color: (PluggableTextMorph basicNew userInterfaceTheme textColor);
+								yourself).
 	
 	editField := (self
 			editFieldStyledInitialContent: self example script
