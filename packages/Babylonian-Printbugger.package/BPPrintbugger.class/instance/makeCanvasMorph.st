@@ -1,7 +1,7 @@
 private -ui 
-newCanvasMorph
-	
-	^ Morph new
+makeCanvasMorph
+
+	^ self
 		name: #canvasMorph;
 		color: Color white;
 		changeTableLayout;

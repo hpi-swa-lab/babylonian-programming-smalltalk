@@ -1,8 +1,8 @@
 private
 removeExample: aBPExample
-	
-	canvasMorph removeMorph: (canvasMorph submorphNamed: aBPExample uniqueIdentifier 
+
+	self removeMorph: (self submorphNamed: aBPExample uniqueIdentifier
 		ifNone: ["don't care"]).
 	
 	context untrack: aBPExample.
-	BPExamples value activeExamples ifEmpty: [canvasMorph addMorph: self newEmptyExamplesNotification].
+	BPExamples value activeExamples ifEmpty: [self addMorph: self newEmptyExamplesNotification].

@@ -4,7 +4,7 @@ testTwoTraceValuesInDifferentMethodsGetDifferentStackDepthsInSameSwimlane
 	|swimlane stackDepths|
 	self initExample1WithMethodWithExampleCallingOnlyProbedMethod.
 	
-	swimlane := printbugger canvasMorph firstSubmorph.
+	swimlane := printbugger firstSubmorph.
 	stackDepths := swimlane allMorphs select: [:aSubmorph | 
 		aSubmorph knownName = 'stackBar'] thenCollect: [:aBarMorph | aBarMorph fullBounds width].
 	

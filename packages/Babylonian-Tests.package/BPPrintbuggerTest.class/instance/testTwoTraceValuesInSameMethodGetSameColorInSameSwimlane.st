@@ -4,7 +4,7 @@ testTwoTraceValuesInSameMethodGetSameColorInSameSwimlane
 	|swimlane colors|
 	self initExample1WithMethodWithMultipleProbes.
 	
-	swimlane := printbugger canvasMorph firstSubmorph.
+	swimlane := printbugger firstSubmorph.
 	colors := (swimlane allMorphs select: [:aSubmorph | 
 		aSubmorph knownName = 'stackBar'] thenCollect: [:aBarMorph | aBarMorph firstSubmorph color]) asSet.
 	

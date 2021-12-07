@@ -1,4 +1,4 @@
 private
 cleanCanvas
-	
-	canvasMorph removeAllMorphs
+
+	self removeAllMorphs
