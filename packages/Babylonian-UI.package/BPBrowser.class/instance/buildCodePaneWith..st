@@ -1,8 +1,12 @@
 toolbuilder
 buildCodePaneWith: aBuilder
-	
-	| spec textSpec |
+
+	| spec textSpec buttonSpec |
 	spec := super buildCodePaneWith: aBuilder.
+
+	buttonSpec := self buildSidePaneButtonWith: aBuilder.
+	spec children first children add: buttonSpec.
+	
 	textSpec := (spec respondsTo: #stylerClass:)
 		ifTrue: [spec]
 		ifFalse: [spec children detect: [:child | (child respondsTo: #stylerClass:)
