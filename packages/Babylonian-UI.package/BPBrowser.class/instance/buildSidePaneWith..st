@@ -1,8 +1,6 @@
 toolbuilder
 buildSidePaneWith: aBuilder
 
-	sidePaneContent := #none.
-	isSidePaneVisible := false.
 	
 	^ aBuilder pluggableScrollPaneSpec new
 		morph: self morphForSidePane;

@@ -1,7 +1,33 @@
 what to show
 toggleSidePane
 
+	| builder newWindow deleteWindow |
+	builder := ToolBuilder default.
+		
+	self okToChange ifTrue: [
+		isSidePaneVisible
+			ifTrue: [sidePaneContent = #none
+				ifTrue:  [newWindow := self rebuildBrowserWithoutSidePaneWith: builder from: currentWindow.
+					(builder open: newWindow) 
+						width: currentWindow width - 300; 
+						position: currentWindow position.
+					deleteWindow := currentWindow.
+					currentWindow := newWindow.
+					deleteWindow delete.
+					]
+				ifFalse: [sidePane morph: self morphForSidePane]]
+			
+			ifFalse: [sidePaneContent = #none
+				ifTrue: []
+				ifFalse: [newWindow := self rebuildBrowserWithSidePaneWith: builder from: currentWindow.
+					"newWindow position: currentWindow position."
+					(builder open: newWindow) 
+						width: currentWindow width + 300;
+						position: currentWindow position.
+					deleteWindow := currentWindow.
+					currentWindow := newWindow.
+					deleteWindow delete.
+					]].
+		].
+		
 	
-	"toggle visibility / existance of side pane in browser"
-	self okToChange ifTrue:
-		[self flag: #todo. "toggle visibility of side pane from (#otherContent to #none) and (#none to #otherContent)"].
