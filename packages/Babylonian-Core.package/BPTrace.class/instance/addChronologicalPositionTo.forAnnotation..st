@@ -1,0 +1,6 @@
+private
+addChronologicalPositionTo: aTraceValue forAnnotation: anAnnotationId
+
+	aTraceValue chronologicalPosition: chronologicallyTrackedTraceValuesCount.
+	chronologicallyTrackedTraceValuesCount := chronologicallyTrackedTraceValuesCount + 1.
+	aTraceValue belongingAnnotationId: anAnnotationId.

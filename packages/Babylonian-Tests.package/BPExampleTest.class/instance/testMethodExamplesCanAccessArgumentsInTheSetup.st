@@ -8,4 +8,4 @@ testMethodExamplesCanAccessArgumentsInTheSetup
 	[example runSetUp]
 		on: Notification
 		do: [:n | result := n messageText].
-	self assert: '1' equals: result.
+	self assert: '#(1 2 3)' equals: result.

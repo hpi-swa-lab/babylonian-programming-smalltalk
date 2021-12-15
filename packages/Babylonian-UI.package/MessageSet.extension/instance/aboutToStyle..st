@@ -1,4 +1,4 @@
-*Babylonian-UI
+*Babylonian-UI-code pane-override
 aboutToStyle: aPluggableShoutMorphOrView
 	
 	"This is a notification that aPluggableShoutMorphOrView is about to re-style its text.
@@ -16,8 +16,7 @@ aboutToStyle: aPluggableShoutMorphOrView
 	"-------------------- ORIGINAL CODE -----------------------------"
 	
 	(aPluggableShoutMorphOrView respondsTo: #selectedMethod:) ifTrue: [
-		aPluggableShoutMorphOrView selectedMethod: self methodReference.
-		^ true].
+		aPluggableShoutMorphOrView selectedMethod: self methodReference].
 	
 	"-------------------- ORIGINAL CODE -----------------------------"
 	^(#(Comment Hierarchy nil) includes: selectedMessageName) not

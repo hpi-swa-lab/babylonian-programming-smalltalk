@@ -5,5 +5,5 @@ prepareRunState
 		^ BPMethodExampleRunConfiguration new
 			example: self;
 			receiver: self newReceiver;
-			arguments: self newArguments;
+			arguments: self newArgumentsDictionary;
 			yourself].

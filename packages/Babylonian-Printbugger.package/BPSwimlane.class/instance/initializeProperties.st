@@ -8,6 +8,7 @@ initializeProperties
 			changeTableLayout;
 			listDirection: #topToBottom;
 			wrapCentering: #center;
-			layoutInset: 4@8;
+			cellPositioning: #topLeft;
+			cellInset: 0@10;
 			yourself.
 				

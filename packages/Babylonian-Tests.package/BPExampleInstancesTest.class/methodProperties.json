@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testBasicExampleInstanceMethod" : "pre 9/28/2021 15:41",
+		"testExampleInstanceMethodCanCreateExamples" : "pre 9/28/2021 15:49",
+		"testExampleInstanceMethodKnowsTheName" : "pre 9/28/2021 16:34",
+		"testExampleInstanceMethodReferenceKnowsTheName" : "pre 9/28/2021 15:47",
+		"testNamedExampleInstanceMethod" : "pre 9/28/2021 15:42" } }

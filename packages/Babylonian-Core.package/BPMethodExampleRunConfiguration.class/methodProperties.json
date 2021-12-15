@@ -2,11 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"arguments" : "pre 5/3/2021 14:16",
-		"arguments:" : "pre 5/3/2021 14:16",
-		"bindingOf:" : "pre 5/3/2021 14:24",
+		"arguments" : "pre 8/6/2021 18:01",
+		"arguments:" : "pre 8/6/2021 18:02",
+		"bindingOf:" : "pre 8/6/2021 18:04",
 		"example" : "pre 5/3/2021 14:19",
 		"example:" : "pre 5/3/2021 14:19",
+		"hasBindingOf:" : "pre 8/6/2021 18:11",
 		"receiver" : "pre 5/3/2021 14:16",
 		"receiver:" : "pre 5/3/2021 14:16",
 		"selectFrom:to:" : "pre 5/3/2021 14:23",

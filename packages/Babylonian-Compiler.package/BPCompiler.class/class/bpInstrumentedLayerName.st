@@ -1,4 +1,4 @@
-nil
+accessing
 bpInstrumentedLayerName
 
 	^ #bpInstrumented

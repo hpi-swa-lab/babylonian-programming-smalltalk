@@ -1,8 +1,8 @@
 tests
 testAnnotationEndIsRecognizedAsSuch
-
+	
 	startRule := #expressionAnnotationEnd.
 
 	self 
-		shouldParseAll: {'"</ab>"' . '"</ test >"'};
+		shouldParseAll: {'"</bpab>"' . '"</ bptest >"'};
 		shouldntParseAny: {'"<>"' . '"</>"' . '"<a>"'}.

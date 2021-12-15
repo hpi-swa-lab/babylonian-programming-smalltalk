@@ -1,6 +1,6 @@
 private - ui
 updateLabelMorphIfNecessary
-	
+
 	| inputsBox |
 	inputsBox := self ensureInputBoxNamed: #inputsBox atFront: false.
 
@@ -13,5 +13,5 @@ updateLabelMorphIfNecessary
 		ifFalse: [
 			labelMorph ifNotNil: [:aMorph | aMorph abandon].
 			addLabelMorph ifNil: [
-				addLabelMorph := self newButtonMorphWithLabel: 'set label' doOnClick: #setLabelButtonClicked].
+				addLabelMorph := self newButtonMorphWithLabel: '| set label' doOnClick: #setLabelButtonClicked].
 			inputsBox addMorphBack: addLabelMorph].

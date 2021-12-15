@@ -2,7 +2,7 @@
 codePaneMenuAnnotationItems: aMenu
 	
 	<codePaneMenu> 
-	<menuPriority: 400>
+	<menuPriority: 600>
 	| annotationsInSelection |
 	
 	self hasUnacceptedEdits ifTrue: [

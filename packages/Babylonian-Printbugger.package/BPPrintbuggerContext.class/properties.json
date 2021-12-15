@@ -1,0 +1,15 @@
+{
+	"category" : "Babylonian-Printbugger",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jb 7/2/2021 02:05",
+	"instvars" : [
+		"methodToCount",
+		"keysCountCache" ],
+	"name" : "BPPrintbuggerContext",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

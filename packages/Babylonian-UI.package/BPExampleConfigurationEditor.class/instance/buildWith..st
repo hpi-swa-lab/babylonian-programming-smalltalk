@@ -13,6 +13,7 @@ buildWith: aBuilder
 		getText: #setUpScript;
 		setText: #setUpScript:;
 		name: #setUp;
+		stylerClass: SHTextStylerST80;
 		frame: (LayoutFrame new
 			leftFraction: 0 offset: 0;
 			topFraction: 0 offset: 0;
@@ -27,6 +28,7 @@ buildWith: aBuilder
 		getText: #tearDownScript;
 		setText: #tearDownScript:;
 		name: #tearDown;
+		stylerClass: SHTextStylerST80;
 		frame: (LayoutFrame new
 			leftFraction: 0 offset: 0;
 			topFraction: 0.5 offset: 0;

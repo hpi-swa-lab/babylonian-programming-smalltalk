@@ -7,7 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"trace",
-		"haltProbeId" ],
+		"haltAnnotationId",
+		"haltAnnotationIdCount",
+		"annotationIdCount" ],
 	"name" : "BPTracer",
 	"pools" : [
 		 ],

@@ -1,6 +1,6 @@
 accessing
 traceValues
-	
+
 	^ self currentTrace
-		ifNil: [{}]
+		ifNil: [#()]
 		ifNotNil: [self currentTrace traceValues]

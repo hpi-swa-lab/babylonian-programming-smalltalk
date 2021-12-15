@@ -14,7 +14,7 @@
 		"exampleExecutionProcess",
 		"hasTraceCompleted",
 		"blockRecord",
-		"probesTraceValuesCount" ],
+		"chronologicallyTrackedTraceValuesCount" ],
 	"name" : "BPTrace",
 	"pools" : [
 		 ],

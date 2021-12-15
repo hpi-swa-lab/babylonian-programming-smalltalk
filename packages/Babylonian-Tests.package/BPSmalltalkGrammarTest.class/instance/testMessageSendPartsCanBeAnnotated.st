@@ -5,11 +5,11 @@ testMessageSendPartsCanBeAnnotated
 
 	self shouldParseAll: {
 		'5 + (3 + 4)' .
-		'5 + "<ab>"2 negated"</ab>"' . 
+		'5 + "<bpab>"2 negated"</bpab>"' . 
 		"'5 + ""<ab>""2 + 3""</ab>""' . This must not be parsed because of precedence" 
-		'"<ab>"2 negated"</ab>" + 5' .
-		'"<ab>"3 + 4"</ab>" + 5'.
-		'"<ab>"2 negated"</ab>" raisedTo: 3' .
-		'"<ab>"2 + 3"</ab>" raisedTo: 3'.
-		'3 raisedTo: "<ab>"2 negated"</ab>"'.
-		'3 raisedTo: "<ab>"2 + 4"</ab>"' }.
+		'"<bpab>"2 negated"</bpab>" + 5' .
+		'"<bpab>"3 + 4"</bpab>" + 5'.
+		'"<bpab>"2 negated"</bpab>" raisedTo: 3' .
+		'"<bpab>"2 + 3"</bpab>" raisedTo: 3'.
+		'3 raisedTo: "<bpab>"2 negated"</bpab>"'.
+		'3 raisedTo: "<bpab>"2 + 4"</bpab>"' }.
