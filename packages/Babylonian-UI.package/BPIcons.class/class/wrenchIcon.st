@@ -1,6 +1,6 @@
 icons-accessing
 wrenchIcon
-	
+
 	"Auto-generated.
 	
 	Silk Icons
@@ -8,6 +8,7 @@ wrenchIcon
 	Website: http://www.famfamfam.com
 	License: http://creativecommons.org/licenses/by/2.5"
 	
-	^ Icons
+	^ (Icons
 		at: #silkWrench
-		ifAbsentPut:[ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self wrenchIconContents readStream) ].
+		ifAbsentPut:[ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self wrenchIconContents readStream) ])
+		dyed: self iconColor.
