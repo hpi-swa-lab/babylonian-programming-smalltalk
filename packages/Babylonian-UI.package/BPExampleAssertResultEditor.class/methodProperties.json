@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"actualResult" : "jb 12/30/2021 22:04",
+		"actualResultButtonPressed" : "jb 12/30/2021 22:02",
+		"buildActualResultTextSpecWith:" : "jb 12/30/2021 22:04",
+		"buildExpectedResultTextSpecWith:" : "jb 12/30/2021 19:19",
+		"buildWindowSpecWith:" : "jb 12/30/2021 22:09",
+		"buildWith:" : "jb 12/30/2021 22:07",
+		"example" : "jb 12/30/2021 18:36",
+		"example:" : "jb 12/30/2021 18:55",
+		"expectedResult" : "jb 12/30/2021 18:53",
+		"expectedResult:" : "jb 12/30/2021 21:29",
+		"windowLabel" : "jb 12/30/2021 18:38" } }

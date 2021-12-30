@@ -10,6 +10,7 @@
 		"exampleName",
 		"method",
 		"traceInformation",
+		"expectedResult",
 		"setUpScript",
 		"tearDownScript" ],
 	"name" : "BPExample",
