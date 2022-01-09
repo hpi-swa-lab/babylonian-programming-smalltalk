@@ -2,8 +2,8 @@ toolbuilder
 buildDefaultBrowserWith: aBuilder
 
 	| browser |
-	sidePaneContent := #none.
-	isSidePaneVisible := false.
+	self sidePaneContent: #none.
+	self isSidePaneVisible: false.
 	
 	browser := super buildDefaultBrowserWith: aBuilder.
 	BPStyler withSidebarAnnotations: [

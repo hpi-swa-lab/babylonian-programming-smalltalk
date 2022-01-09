@@ -26,6 +26,6 @@ rebuildBrowserWithSidePaneWith: aBuilder from: oldWindow
 		browser extent: oldWindow extent].
 	
 	self initializeSidePaneFrom: browser.
-	isSidePaneVisible := true.
+	self isSidePaneVisible: true.
 		
 	^ browser

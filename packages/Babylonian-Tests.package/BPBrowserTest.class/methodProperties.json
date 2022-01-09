@@ -5,4 +5,6 @@
 		"runCase" : "jb 12/7/2020 19:05",
 		"setUp" : "jb 12/7/2020 19:05",
 		"tearDown" : "jb 12/7/2020 19:05",
-		"testDeleteMethod" : "jb 12/7/2020 19:05" } }
+		"testClosesSidePane" : "lu 1/9/2022 12:41",
+		"testDeleteMethod" : "jb 12/7/2020 19:05",
+		"testOpensSidePane" : "lu 1/9/2022 12:39" } }
