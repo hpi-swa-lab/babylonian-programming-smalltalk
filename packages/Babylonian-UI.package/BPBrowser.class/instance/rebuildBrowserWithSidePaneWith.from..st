@@ -1,10 +1,9 @@
 toolbuilder
 rebuildBrowserWithSidePaneWith: aBuilder from: oldWindow
 
-	| browser maxVert maxHor windowSpec sidePaneSpec |
+	| browser maxVert maxHor windowSpec |
 
-	sidePaneSpec := self buildSidePaneWith: aBuilder.
-	maxHor := 1 - (300 / (oldWindow width + 300)).
+	maxHor := 1 - (self sidePaneDefaultWidth / (oldWindow width + self sidePaneDefaultWidth)).
 	maxVert := self wantsOptionalButtons ifTrue:[0.42] ifFalse:[0.5].
 	
 	windowSpec := self buildWindowWith: aBuilder specs: {

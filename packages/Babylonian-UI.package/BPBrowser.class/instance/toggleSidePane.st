@@ -1,33 +1,23 @@
 what to show
 toggleSidePane
 
-	| builder newWindow deleteWindow |
+	| builder newWindow oldSidePaneWidth |
 	builder := ToolBuilder default.
 		
 	self okToChange ifTrue: [
 		isSidePaneVisible
 			ifTrue: [sidePaneContent = #none
-				ifTrue:  [newWindow := self rebuildBrowserWithoutSidePaneWith: builder from: currentWindow.
-					(builder open: newWindow) 
-						width: currentWindow width - 300; 
-						position: currentWindow position.
-					deleteWindow := currentWindow.
-					currentWindow := newWindow.
-					deleteWindow delete.
-					]
-				ifFalse: [sidePane morph: self morphForSidePane]]
+				ifTrue:  [
+					oldSidePaneWidth := sidePane width.
+					newWindow := self rebuildBrowserWithoutSidePaneWith: builder from: currentWindow.
+					self reopenBrowser: newWindow with: builder ofSize: (currentWindow width - oldSidePaneWidth)@(currentWindow height).]
+				ifFalse: [
+					sidePane morph: self morphForSidePane]]
 			
 			ifFalse: [sidePaneContent = #none
-				ifTrue: []
-				ifFalse: [newWindow := self rebuildBrowserWithSidePaneWith: builder from: currentWindow.
-					"newWindow position: currentWindow position."
-					(builder open: newWindow) 
-						width: currentWindow width + 300;
-						position: currentWindow position.
-					deleteWindow := currentWindow.
-					currentWindow := newWindow.
-					deleteWindow delete.
-					]].
-		].
+				ifTrue: ["do nothing"]
+				ifFalse: [
+					newWindow := self rebuildBrowserWithSidePaneWith: builder from: currentWindow.
+					self reopenBrowser: newWindow with: builder ofSize: (currentWindow width + self sidePaneDefaultWidth)@(currentWindow height).]]].
 		
 	
