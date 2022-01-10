@@ -1,4 +1,4 @@
 class list
 exampleIconForClass: aClass
-	 
-	^ aClass bpExampleIcon
+
+	^ aClass theNonMetaClass bpExampleIcon ifNil: [aClass theMetaClass bpExampleIcon]
