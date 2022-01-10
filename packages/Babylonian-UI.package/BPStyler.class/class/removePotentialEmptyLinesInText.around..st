@@ -1,6 +1,6 @@
-private
+actions
 removePotentialEmptyLinesInText: aText around: replacementStart
-	
+
 	| affectedLine text |
 	text := aText.
 	affectedLine := text string lineCorrespondingToIndex: replacementStart.

@@ -1,6 +1,6 @@
 private - ui
 newExpressionMorph
-	
+
 	| container expressionSource expressionFieldMorph |
 	container := self newLabelContainerMorph.
 		
@@ -12,7 +12,7 @@ newExpressionMorph
 			self annotation expression: ('[{1}]' format: {str}).
 			self codeContentChanged]
 		onAccept: [:str | 
-			self containingBrowser codeTextMorph accept]).
+			self acceptChangesAtSource]).
 	expressionFieldMorph balloonText: 'Write code that transforms the value before recording.
 The probed value is available via the variable `result`.'.	
 		

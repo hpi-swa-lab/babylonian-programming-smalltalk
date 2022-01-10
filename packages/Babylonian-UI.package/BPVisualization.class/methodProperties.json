@@ -11,9 +11,10 @@
 		"visualizationObjectForValues:overMorph:" : "jb 4/18/2021 04:35" },
 	"instance" : {
 		"defaultBackgroundColor" : "jb 4/18/2021 01:11",
+		"fontColor" : "jb 12/24/2021 00:49",
 		"fontHeight" : "jb 4/18/2021 22:28",
 		"legendMorph" : "jb 4/20/2021 00:11",
-		"legendMorphWithContents:" : "jb 4/20/2021 00:10",
+		"legendMorphWithContents:" : "jb 12/24/2021 00:50",
 		"newBackground" : "pre 5/27/2021 11:56",
 		"scaleY" : "jb 4/18/2021 00:10",
 		"scaleY:" : "jb 4/18/2021 00:11",

@@ -1,5 +1,6 @@
 private
 reformat: aText basedOn: annotations
+
 	"The idea of this rewriting is that nested annotations simply set the annotation text attribute on
 	their complete enclosed expression, no matter whether it is also annotated or normal.
 	We then go from large to small annotations as this guarantees that we go from the enclosing to 
@@ -28,7 +29,7 @@ reformat: aText basedOn: annotations
 			to: replacementEnd
 			with: (self textForAnnotation: each from: text at: startOfTag).
 
-		text := self removePotentialEmptyLinesInText: text around: replacementStart].
+		text := self class removePotentialEmptyLinesInText: text around: replacementStart].
 
 	"Until the whole infrastructure is reworked to be completely AST based, the intervalMap is used
 	to hook up probes to any sliders in the method. It should be removed on fixing the infrastructure"

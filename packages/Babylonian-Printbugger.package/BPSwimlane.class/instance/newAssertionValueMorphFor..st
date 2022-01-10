@@ -8,5 +8,5 @@ newAssertionValueMorphFor: aTraceValue
 		addTransparentSpacerOfSize: self class assertionValueSpacing;
 		addMorphBack: (self scaleIcon: icon by: self class assertionIconScale) asMorph;
 		addTransparentSpacerOfSize: self class assertionValueSpacing;
-		addMorphBack: aTraceValue belongingAnnotation assertion asStringMorph; 
+		addMorphBack: (aTraceValue belongingAnnotation assertion asStringMorph color: self fontColor); 
 		yourself
