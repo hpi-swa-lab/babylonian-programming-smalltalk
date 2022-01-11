@@ -5,13 +5,13 @@
 	"instance" : {
 		"addExample:" : "lu 12/7/2021 23:21",
 		"buildSystemWindow" : "lu 12/7/2021 11:52",
-		"cleanCanvas" : "lu 12/7/2021 23:31",
 		"initialExtent" : "jb 7/10/2021 16:45",
-		"initialize" : "lu 12/7/2021 11:54",
-		"makeCanvasMorph" : "lu 12/7/2021 11:53",
+		"initialize" : "lu 1/11/2022 11:25",
+		"initializeProperties" : "lu 1/11/2022 11:25",
 		"newEmptyExamplesNotification" : "jb 6/2/2021 22:03",
 		"newScrollPane" : "jb 6/2/2021 22:03",
+		"removeContent" : "lu 1/11/2022 11:25",
 		"removeExample:" : "lu 12/7/2021 23:22",
 		"update:" : "jb 6/2/2021 22:03",
 		"update:with:" : "jb 6/10/2021 20:29",
-		"updateFrom:" : "lu 12/7/2021 23:32" } }
+		"updateFrom:" : "lu 1/11/2022 11:25" } }

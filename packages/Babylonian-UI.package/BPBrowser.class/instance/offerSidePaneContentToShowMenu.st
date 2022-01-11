@@ -11,7 +11,7 @@ offerSidePaneContentToShowMenu
 		item := menuSpec 
 			add: ((self sidePaneContent == aQuint first ifTrue: ['<yes>'] ifFalse: ['<no>']), aQuint second asString)
 			target: self 
-			selector: #updateSidePaneMorph:
+			selector: #updateSidePaneContent:
 			argumentList: {aQuint first}.
 		item help: aQuint third.
 	].

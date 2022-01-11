@@ -1,7 +1,7 @@
 private
 updateFrom: aCollectionOfExamples
 
-	self cleanCanvas.
+	self removeContent.
 		
 	aCollectionOfExamples
 		ifEmpty: [self addMorph: self newEmptyExamplesNotification]

@@ -2,9 +2,9 @@ tests
 testOpensSidePane
 
 	browser buildDefaultBrowserWith: ToolBuilder default.
-	browser updateSidePaneMorph: #bpPrintbugger.
+	browser updateSidePaneContent: #bpPrintbugger.
 	
-	self assert: browser isSidePaneVisible.
+	self assert: browser isSidePaneOpen.
 	self assert: browser sidePaneContent == #bpPrintbugger.
 	
 	browser currentWindow delete.

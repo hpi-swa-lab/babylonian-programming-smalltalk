@@ -1,4 +1,4 @@
 accessing
-sidePaneNameSymbol
+sidePaneName
 
 	^ #sidePane

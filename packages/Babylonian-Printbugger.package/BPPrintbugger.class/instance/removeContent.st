@@ -1,4 +1,4 @@
 private
-cleanCanvas
+removeContent
 
 	self removeAllMorphs

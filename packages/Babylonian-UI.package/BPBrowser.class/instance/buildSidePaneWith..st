@@ -6,8 +6,8 @@ buildSidePaneWith: aBuilder
 		morph: self morphForSidePane;
 		model: self;
 		wantsResizeHandles: true;
-		name: self sidePaneNameSymbol;
+		name: self sidePaneName;
 		borderWidth: 1;
 		vScrollBarPolicy: #whenNeeded;
 		hScrollBarPolicy: #whenNeeded;
-		yourself.
+		yourself

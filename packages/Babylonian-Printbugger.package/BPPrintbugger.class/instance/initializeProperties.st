@@ -1,8 +1,8 @@
 private -ui 
-makeCanvasMorph
+initializeProperties
 
-	^ self
-		name: #canvasMorph;
+	self
+		name: #bpPrintbugger;
 		color: Color white;
 		changeTableLayout;
 		listDirection: #leftToRight;
