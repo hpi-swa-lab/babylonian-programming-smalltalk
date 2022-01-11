@@ -3,7 +3,7 @@ initializeProperties
 
 	self
 		name: #bpPrintbugger;
-		color: Color white;
+		color: Color transparent;
 		changeTableLayout;
 		listDirection: #leftToRight;
 		cellPositioning: #topCenter;

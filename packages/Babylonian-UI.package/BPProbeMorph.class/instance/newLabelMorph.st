@@ -1,6 +1,6 @@
 private - ui
 newLabelMorph
-	
+
 	| container labelSource labelFieldMorph |
 	container := self newLabelContainerMorph.
 		
@@ -11,7 +11,7 @@ newLabelMorph
 			self annotation label: aString.
 			self codeContentChanged]
 		onAccept: [:str | 
-			self containingBrowser codeTextMorph accept]).
+			self acceptChangesAtSource]).
 	labelFieldMorph balloonText: 'Write a label that will be printed along the examples in the Printbugger.'.
 	labelFieldMorph hResizing: #spaceFill.
 		

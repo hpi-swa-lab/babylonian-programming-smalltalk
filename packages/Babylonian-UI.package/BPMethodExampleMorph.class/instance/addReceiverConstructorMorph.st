@@ -1,6 +1,6 @@
 private - ui
 addReceiverConstructorMorph
-	
+
 	| container editField labelMorph |
 	container := self newContainerMorph.
 	container cellPositioning: #topLeft.
@@ -16,7 +16,7 @@ addReceiverConstructorMorph
 				self example receiverConstructor: str.
 				self codeContentChanged]
 			onAccept: [:str |
-				self containingBrowser codeTextMorph accept]).
+				self acceptChangesAtSource]).
 	editField 
 		balloonText: 'Write code that instantiates the receiver. 
 You can also provide a selector that will be called on the

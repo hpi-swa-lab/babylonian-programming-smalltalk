@@ -1,6 +1,6 @@
 private - ui
 addArgumentScriptMorphs
-	
+
 	| editField labelMorph container |
 	self example argumentNames withIndexDo: [:argumentName :index |
 		container := self newContainerMorph.
@@ -18,7 +18,7 @@ addArgumentScriptMorphs
 				self example argumentScripts at: index put: str.
 				self codeContentChanged]
 			onAccept: [:str |
-				self containingBrowser saveMethodWithExamples.
+				self acceptChangesAtSource.
 				false "Do not continue handling this morphs edit"].
 		editField 
 			balloonText: 'write code that instantiates the argument';

@@ -9,6 +9,7 @@
 		"example",
 		"probes",
 		"assertions",
+		"executionResult",
 		"exampleErrored",
 		"recordedException",
 		"exampleExecutionProcess",
