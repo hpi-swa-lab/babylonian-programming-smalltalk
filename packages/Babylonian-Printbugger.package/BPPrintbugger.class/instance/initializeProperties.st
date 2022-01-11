@@ -10,5 +10,4 @@ initializeProperties
 		cellInset: 10@5;
 		layoutInset: 5@5;
 		hResizing: #shrinkWrap;
-		vResizing: #shrinkWrap;
-		yourself
+		vResizing: #shrinkWrap
