@@ -1,7 +1,7 @@
 private
 updateFrom: aCollectionOfExamples
 
-	self removeContent.
+	self removeAllMorphs.
 		
 	aCollectionOfExamples
 		ifEmpty: [self addMorph: self newEmptyExamplesNotification]

@@ -1,4 +1,4 @@
 accessing
 splitterMorphWidth
 
-	^ (self currentWindow submorphs select: [:morph | morph class = ProportionalSplitterMorph]) first width
+	^ (self currentWindow submorphs select: [:aMorph | aMorph class = ProportionalSplitterMorph]) first width

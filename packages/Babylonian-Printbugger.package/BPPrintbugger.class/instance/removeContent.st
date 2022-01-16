@@ -1,4 +1,0 @@
-private
-removeContent
-
-	self removeAllMorphs
