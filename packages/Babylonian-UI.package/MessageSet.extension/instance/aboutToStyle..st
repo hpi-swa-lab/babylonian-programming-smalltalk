@@ -8,7 +8,7 @@ aboutToStyle: aPluggableShoutMorphOrView
 
 	"-------------------- ORIGINAL CODE -----------------------------"
 	| selectedMessageName showingMethod |
-	self showingSource ifFalse: [^false].
+	self isModeStyleable ifFalse: [^false].
 	selectedMessageName := self selectedMessageName.
 	showingMethod := (#(Comment Definition Hierarchy) includes: selectedMessageName) not.
 	"Hack!  setting classOrMetaClass: to nil allows doit or class definition colouring."
