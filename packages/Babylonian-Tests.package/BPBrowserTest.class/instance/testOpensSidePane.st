@@ -6,5 +6,3 @@ testOpensSidePane
 	
 	self assert: browser isSidePaneOpen.
 	self assert: browser sidePaneContent == #bpPrintbugger.
-	
-	browser currentWindow delete.
