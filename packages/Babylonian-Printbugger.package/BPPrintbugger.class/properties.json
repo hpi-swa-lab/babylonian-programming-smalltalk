@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "jb 6/3/2021 01:11",
 	"instvars" : [
-		"canvasMorph",
-		"scrollPane",
 		"context" ],
 	"name" : "BPPrintbugger",
 	"pools" : [
 		 ],
-	"super" : "SystemWindow",
+	"super" : "Morph",
 	"type" : "normal" }

@@ -1,4 +1,4 @@
 initialize-release
 open
-	
-	self new openInWorld
+
+	self new buildSystemWindow openInWorld

@@ -1,7 +1,7 @@
 private
 addExample: aBPExample
-	
-	(BPExamples value activeExamples size = 1) ifTrue: [canvasMorph removeAllMorphs].
+
+	(BPExamples value activeExamples size = 1) ifTrue: [self removeAllMorphs].
 	context track: aBPExample.
-	canvasMorph addMorphBack: (BPSwimlane newFor: aBPExample withContext: context).
+	self addMorphBack: (BPSwimlane newFor: aBPExample withContext: context).
 	

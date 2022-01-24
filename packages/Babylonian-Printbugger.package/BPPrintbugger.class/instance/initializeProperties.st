@@ -1,8 +1,8 @@
 private -ui 
-newCanvasMorph
+initializeProperties
 
-	^ Morph new
-		name: #canvasMorph;
+	self
+		name: #bpPrintbugger;
 		color: Color transparent;
 		changeTableLayout;
 		listDirection: #leftToRight;
@@ -10,5 +10,4 @@ newCanvasMorph
 		cellInset: 10@5;
 		layoutInset: 5@5;
 		hResizing: #shrinkWrap;
-		vResizing: #shrinkWrap;
-		yourself
+		vResizing: #shrinkWrap

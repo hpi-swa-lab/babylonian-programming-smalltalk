@@ -1,4 +1,0 @@
-private
-cleanCanvas
-	
-	canvasMorph removeAllMorphs

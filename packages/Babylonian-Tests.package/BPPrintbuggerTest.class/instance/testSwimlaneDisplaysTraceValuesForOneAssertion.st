@@ -3,7 +3,7 @@ testSwimlaneDisplaysTraceValuesForOneAssertion
 
 	| swimlane traceValues green orange |
 	self initExample1WithMethodWithMultipleAssertions.
-	swimlane := printbugger canvasMorph firstSubmorph.
+	swimlane := printbugger firstSubmorph.
 	self assert: (swimlane isKindOf: BPSwimlane).
 	self assert: 6 equals: (swimlane lineSubMorphs size).
 	traceValues := swimlane allMorphs 

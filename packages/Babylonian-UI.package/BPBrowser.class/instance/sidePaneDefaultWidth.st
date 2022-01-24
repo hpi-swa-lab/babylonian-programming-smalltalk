@@ -1,0 +1,4 @@
+accessing
+sidePaneDefaultWidth
+
+	^ 350

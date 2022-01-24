@@ -6,7 +6,9 @@
 		"AutoAcceptOnAddingAnnotations" ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"sidePaneContent",
+		"isSidePaneOpen",
+		"currentWindow" ],
 	"name" : "BPBrowser",
 	"pools" : [
 		 ],
