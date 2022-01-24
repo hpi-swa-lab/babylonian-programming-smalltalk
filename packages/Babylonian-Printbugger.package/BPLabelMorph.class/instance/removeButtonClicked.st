@@ -1,4 +1,4 @@
-private - ui
+actions
 removeButtonClicked
 
 	self containingBrowser
