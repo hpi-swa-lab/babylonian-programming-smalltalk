@@ -7,5 +7,3 @@ testClosesSidePane
 	
 	self assert: browser isSidePaneOpen == false.
 	self assert: browser sidePaneContent == #none.
-	
-	browser currentWindow delete.

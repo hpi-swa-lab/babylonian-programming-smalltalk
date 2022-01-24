@@ -1,12 +1,12 @@
 toolbuilder
 buildDefaultBrowserWith: aBuilder
 
-	| browser |	
-	browser := super buildDefaultBrowserWith: aBuilder.
-	self addSidebarAnnotationsFor: browser.
+	| browserWindow |	
+	browserWindow := super buildDefaultBrowserWith: aBuilder.
+	self addSidebarAnnotationsFor: browserWindow.
 	
 	self sidePaneContent: #none.
 	self isSidePaneOpen: false.
-	currentWindow ifNil: [currentWindow := browser].
+	currentWindow ifNil: [currentWindow := browserWindow].
 	
-	^ browser
+	^ browserWindow
