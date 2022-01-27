@@ -2,7 +2,11 @@ private
 updateFrom: aCollectionOfExamples
 
 	self removeAllMorphs.
-		
-	aCollectionOfExamples
-		ifEmpty: [self addMorph: self newEmptyExamplesNotification]
-		ifNotEmpty: [self addAllMorphsBack: (aCollectionOfExamples asOrderedCollection collect: [:aBPExample | BPSwimlane newFor: aBPExample withContext: context] )].
+	
+	self examples do: [:anOldExample | self removeExample: anOldExample].
+	self addExample: BPNilExample new.
+	aCollectionOfExamples do: [:aNewExample | self addExample: aNewExample].
+	
+	self addAllMorphsBack: (self examples collect: [:aBPExample | self newColumnFor: aBPExample]).
+									
+	

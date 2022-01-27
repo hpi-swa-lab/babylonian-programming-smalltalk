@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "jb 6/3/2021 01:11",
+	"commentStamp" : "jb 1/27/2022 21:46",
 	"instvars" : [
-		"context",
-		"examples" ],
-	"name" : "BPPrintbugger",
+		 ],
+	"name" : "BPNilExample",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "Object",
 	"type" : "normal" }

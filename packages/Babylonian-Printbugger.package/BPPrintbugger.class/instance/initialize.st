@@ -4,8 +4,7 @@ initialize
 	super initialize.
 	self initializeProperties.
 	
-	context := BPPrintbuggerContext newFor: BPExamples value activeExamples.
+	self examples: OrderedCollection new.
+	context := BPPrintbuggerContext newFor: OrderedCollection new.
 	
-	BPExamples value addDependent: self.
-	BPExamples value examples do: [:anExample | anExample addDependent: self].
-	self updateFrom: BPExamples value activeExamples.
+	self updateFrom: OrderedCollection new.

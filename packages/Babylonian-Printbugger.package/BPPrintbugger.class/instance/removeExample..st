@@ -1,8 +1,7 @@
 private
 removeExample: aBPExample
 
-	self removeMorph: (self submorphNamed: aBPExample uniqueIdentifier
-		ifNone: ["don't care"]).
-	
+	self examples remove: aBPExample ifAbsent: ["don't care"].
+	aBPExample removeDependent: self.
 	context untrack: aBPExample.
-	BPExamples value activeExamples ifEmpty: [self addMorph: self newEmptyExamplesNotification].
+	
