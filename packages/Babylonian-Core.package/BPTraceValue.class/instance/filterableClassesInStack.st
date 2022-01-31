@@ -4,6 +4,7 @@ filterableClassesInStack
 	^ {	BlockClosure.
 		Symbol.
 		DynamicVariable class.
+		ActiveEventVariable class.
 		CSProcessContextInformation.
 		CSMethodObject.
 		CSLayeredMethod.
@@ -11,4 +12,6 @@ filterableClassesInStack
 		TestCase.
 		TestResult.
 		BPPrintbuggerTest.
+		BPExample.
+		MorphicEventDispatcher.
 		}

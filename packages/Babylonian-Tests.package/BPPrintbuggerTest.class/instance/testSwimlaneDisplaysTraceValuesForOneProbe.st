@@ -3,8 +3,9 @@ testSwimlaneDisplaysTraceValuesForOneProbe
 
 	| swimlane traceValues|
 	self initExample1WithMethodWithMultipleProbes.
-	swimlane := printbugger firstSubmorph.
-	self assert: (swimlane isKindOf: BPSwimlane).
+	printbugger updateFrom: {example1}.
+	swimlane := printbugger findDeeplyA: BPSwimlane.
+	self deny: nil equals: swimlane.
 	self assert: 6 equals: (swimlane lineSubMorphs size).
 	traceValues := swimlane allMorphs select: [:aSubmorph | 
 		aSubmorph isKindOf: StringMorph] thenCollect: [:aStringMorph | aStringMorph contents].
