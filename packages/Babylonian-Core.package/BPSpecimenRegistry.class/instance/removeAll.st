@@ -1,0 +1,4 @@
+accessing
+removeAll
+
+	^ dictionary removeAll

@@ -10,5 +10,5 @@ newLabelValuePairMorphFor: aTraceValue
 		wrapCentering: #center;
 		cellPositioning: #topLeft;
 		cellInset: 0@2;
-		addAllMorphsBack:  {self newLabelMorphFor: aTraceValue. self newValueMorphFor: aTraceValue};
+		addAllMorphsBack:  {BPLabelMorph newFor: aTraceValue. self newValueMorphFor: aTraceValue};
 		yourself
