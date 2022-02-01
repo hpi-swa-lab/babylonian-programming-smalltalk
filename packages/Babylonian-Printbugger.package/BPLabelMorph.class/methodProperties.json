@@ -1,8 +1,9 @@
 {
 	"class" : {
-		"newFor:" : "lu 1/16/2022 23:33" },
+		"newFor:" : "lu 2/1/2022 00:15",
+		"newFor:withButton:" : "lu 2/1/2022 00:11" },
 	"instance" : {
-		"initializeSubmorphs" : "lu 1/16/2022 23:42",
+		"initializeSubmorphsIncluding:" : "lu 2/1/2022 00:11",
 		"newLabel" : "lu 1/16/2022 23:26",
 		"newLabelMorph" : "lu 1/16/2022 23:30",
 		"newRemoveButton" : "lu 1/17/2022 00:09",
