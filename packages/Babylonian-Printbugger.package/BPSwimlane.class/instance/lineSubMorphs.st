@@ -1,4 +1,6 @@
 accessing
 lineSubMorphs
 
-	^ self submorphs second submorphs
+	^ self submorphs size > 1
+		ifTrue: [self submorphs second submorphs]
+		ifFalse: [{}] 

@@ -2,8 +2,9 @@ tests
 testSwimlaneDisplaysTraceValuesForOneAssertionAndOneProbeChronologicallySorted
 
 	|swimlane traceValues traceIndexes traceIndex expected green orange|
-
 	self initExample1WithMethodWithSingleAssertionAndSingleProbe.
+	printbugger updateFrom: {example1}.
+	
 	swimlane := BPSwimlane newFor: example1.
 	traceValues := swimlane allMorphs
 		select: [:aSubmorph | (aSubmorph isKindOf: ImageMorph) or: (aSubmorph isKindOf: StringMorph)] 

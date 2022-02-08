@@ -3,8 +3,10 @@ testSwimlaneDisplaysTraceValuesForOneAssertion
 
 	| swimlane traceValues green orange |
 	self initExample1WithMethodWithMultipleAssertions.
-	swimlane := printbugger firstSubmorph.
-	self assert: (swimlane isKindOf: BPSwimlane).
+	printbugger updateFrom: {example1}.
+	
+	swimlane := printbugger findDeeplyA: BPSwimlane.
+	self deny: nil equals: swimlane.
 	self assert: 6 equals: (swimlane lineSubMorphs size).
 	traceValues := swimlane allMorphs 
 		select: [:aSubmorph | aSubmorph isKindOf: ImageMorph] 

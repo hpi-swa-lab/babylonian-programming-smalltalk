@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 removeFromMethod: aCompiledMethod
 
 	"Intended to delete annotations from outside a browser"

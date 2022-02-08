@@ -1,7 +1,8 @@
 private - ui
 newTitleMorphFor: aBPExample
 
-	^ example morphClass new
+	| exampleMorph |
+	exampleMorph :=  example morphClass new
 			annotation: ( (example method bpAnnotations 
 							select: [:anAnnotation | anAnnotation isExample])
 							detect: [:anExample | anExample exampleName = example exampleName]
@@ -14,5 +15,14 @@ newTitleMorphFor: aBPExample
 				to: [ToolSet 
 						browse: aBPExample method methodClass 
 						selector: aBPExample method selector asSymbol];
-			yourself
+			yourself.
+	"For swimlane embedding, one may execute additional code as soon as the example is deleted through exampleMorph.
+	So, make sure to pass the event through. The using classes don't have to catch the delete event directly from
+	the button itself, but can just listen to this swimlane."
+	exampleMorph
+		when: #annotationMorphCloses
+		send: #titleMorphCloses 
+		to: self.
+		
+	^ exampleMorph
 	
