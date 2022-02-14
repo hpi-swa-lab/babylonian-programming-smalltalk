@@ -1,17 +1,16 @@
 {
 	"class" : {
 		"compilerClass" : "jb 6/2/2021 22:04",
+		"newForExamples:" : "jb 1/18/2022 15:04",
 		"open" : "lu 12/7/2021 11:50" },
 	"instance" : {
-		"addExample:" : "lu 12/7/2021 23:21",
+		"addNewColumnFor:" : "jb 2/2/2022 18:12",
 		"buildSystemWindow" : "lu 12/7/2021 11:52",
-		"initialExtent" : "jb 12/5/2021 02:28",
-		"initialize" : "lu 1/11/2022 11:25",
-		"initializeProperties" : "lu 1/11/2022 15:39",
+		"initialExtent" : "jb 1/25/2022 18:07",
+		"initialize" : "jb 2/2/2022 17:58",
+		"initializeProperties" : "jb 1/17/2022 14:56",
 		"initializeWindowProperties" : "jb 12/5/2021 02:54",
-		"newEmptyExamplesNotification" : "jb 12/5/2021 22:37",
+		"newExampleSelectionButtonMorph" : "jb 2/2/2022 17:49",
 		"newScrollPane" : "jb 12/6/2021 20:27",
-		"removeExample:" : "lu 12/7/2021 23:22",
-		"update:" : "jb 6/2/2021 22:03",
-		"update:with:" : "jb 6/10/2021 20:29",
-		"updateFrom:" : "jb 1/16/2022 17:28" } }
+		"offerExampleSelectionMenu" : "jb 2/2/2022 18:00",
+		"updateFrom:" : "jb 2/2/2022 18:22" } }
