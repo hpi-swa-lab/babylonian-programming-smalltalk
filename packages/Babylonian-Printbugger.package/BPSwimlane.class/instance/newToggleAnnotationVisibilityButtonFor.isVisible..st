@@ -3,8 +3,8 @@ newToggleAnnotationVisibilityButtonFor: aTraceValue  isVisible: aBoolean
 
 	| toggleVisibilityButton |
 	toggleVisibilityButton := aBoolean 
-		ifTrue: [IconicButton new labelGraphic: (BPIcons moreVerticalIcon scaledToSize: self iconSize * 0.7)]
-		ifFalse: [IconicButton new labelGraphic: (BPIcons moreHorizontalIcon scaledToSize: self iconSize * 0.7)].
+		ifTrue: [IconicButton new labelGraphic: (BPIcons eyeIcon scaledToSize: self iconSize * 0.7)]
+		ifFalse: [IconicButton new labelGraphic: (BPIcons eyeoffIcon scaledToSize: self iconSize * 0.7)].
 	
 	toggleVisibilityButton
 		color: Color transparent;
@@ -13,6 +13,6 @@ newToggleAnnotationVisibilityButtonFor: aTraceValue  isVisible: aBoolean
 		balloonText: 'click to toggle the visibility of this annotation''s values in the printbugger'.
 	toggleVisibilityButton 
 		actionSelector: #toggleAnnotationVisibilityButtonClicked:;
-		arguments: {aTraceValue belongingAnnotationId};
+		arguments: {aTraceValue};
 		target: self.
 	^ toggleVisibilityButton

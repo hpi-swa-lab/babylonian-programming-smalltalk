@@ -1,8 +1,8 @@
 initialization
 initializeSubmorphsIncluding: anIconicButton
 
-	self 
-		addMorphFront: (anIconicButton extent: self height@self height);
-		addMorphBack: self newLabelMorph;
-		addMorphBack: self newSpacer;
-		addMorphBack: (self newRemoveButton extent: self height@self height)
+	self addAllMorphsBack: {
+			(anIconicButton extent: self height@self height).
+			self newLabelMorph. 
+			self newSpacer.
+			(self newRemoveButton extent: self height@self height) }

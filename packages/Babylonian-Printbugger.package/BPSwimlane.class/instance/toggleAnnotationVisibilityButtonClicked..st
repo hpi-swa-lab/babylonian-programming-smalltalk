@@ -1,9 +1,11 @@
 private - ui
-toggleAnnotationVisibilityButtonClicked: anAnnotationId
+toggleAnnotationVisibilityButtonClicked: aTraceValue
 
-	((context ignoredAnnotationsOf: example) includes: anAnnotationId)
-		ifTrue: [context unignoreAnnotation: anAnnotationId for: example]
-		ifFalse: [context ignoreAnnotation: anAnnotationId for: example].
+	(self isTraceValueVisible: aTraceValue)
+		ifTrue: [context ignoreAnnotation: aTraceValue belongingAnnotationId for: example.]
+		ifFalse: [context unignoreAnnotation: aTraceValue belongingAnnotationId for: example].
 
+	annotationIdToFlash := aTraceValue belongingAnnotationId.
 	self submorphsDo: [:aSubmorph | aSubmorph delete].
 	self visualize. 
+	annotationIdToFlash := nil.

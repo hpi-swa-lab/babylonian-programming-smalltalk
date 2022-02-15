@@ -1,9 +1,10 @@
 {
 	"class" : {
-		"newFor:" : "lu 2/1/2022 00:15",
 		"newFor:withButton:" : "lu 2/1/2022 00:11" },
 	"instance" : {
-		"initializeSubmorphsIncluding:" : "lu 2/1/2022 00:11",
+		"downsized" : "lu 2/14/2022 22:53",
+		"flash" : "lu 2/15/2022 08:46",
+		"initializeSubmorphsIncluding:" : "lu 2/14/2022 22:49",
 		"newLabel" : "lu 1/16/2022 23:26",
 		"newLabelMorph" : "lu 1/16/2022 23:30",
 		"newRemoveButton" : "lu 1/17/2022 00:09",
