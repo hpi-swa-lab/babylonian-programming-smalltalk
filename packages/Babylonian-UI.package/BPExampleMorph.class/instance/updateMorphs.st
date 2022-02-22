@@ -9,7 +9,6 @@ updateMorphs
 		addAssertResultButtonMorph;
 		addLoaderIconHolder;
 		addExampleNameMorph;
-		addExampleConfigurationButtonMorph;
-		addExampleSpecificMorphs;
 		addMenuButtonMorph;
+		addExampleSpecificMorphs;
 		addDeleteButtonMorph.
