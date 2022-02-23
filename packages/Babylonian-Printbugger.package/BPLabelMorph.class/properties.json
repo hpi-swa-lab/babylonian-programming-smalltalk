@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"traceValue" ],
+		"traceValue",
+		"containingSwimlane" ],
 	"name" : "BPLabelMorph",
 	"pools" : [
 		 ],

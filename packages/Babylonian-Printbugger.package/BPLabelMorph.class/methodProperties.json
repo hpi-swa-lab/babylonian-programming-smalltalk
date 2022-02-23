@@ -1,10 +1,13 @@
 {
 	"class" : {
-		"newFor:" : "lu 1/16/2022 23:33" },
+		"newFor:" : "jb 2/22/2022 20:57",
+		"newFor:in:" : "jb 2/22/2022 21:34" },
 	"instance" : {
+		"containingSwimlane" : "jb 2/22/2022 21:31",
+		"containingSwimlane:" : "jb 2/22/2022 21:31",
 		"initializeSubmorphs" : "lu 1/16/2022 23:42",
 		"newLabel" : "lu 1/16/2022 23:26",
-		"newLabelMorph" : "lu 1/16/2022 23:30",
+		"newLabelMorph" : "jb 2/22/2022 21:38",
 		"newRemoveButton" : "lu 1/17/2022 00:09",
 		"newSpacer" : "lu 1/16/2022 23:43",
 		"removeButtonClicked" : "lu 1/16/2022 23:10",
