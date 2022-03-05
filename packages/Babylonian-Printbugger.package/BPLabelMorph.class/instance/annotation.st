@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 annotation
 
 	^ self traceValue belongingAnnotation
