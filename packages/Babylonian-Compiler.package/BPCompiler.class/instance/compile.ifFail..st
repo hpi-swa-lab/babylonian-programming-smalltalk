@@ -1,6 +1,6 @@
 public access
 compile: aCueWithStyledSource ifFail: failBlock
-	
+
 	"This method expects source code which has annotations embedded in comments, 
 	if any, meaning it's styled with text attributes. Since the BPBrowser breaks the premise 
 	of the Parser that the source stream and the code panel's morph code is the same, auto
@@ -28,6 +28,14 @@ compile: aCueWithStyledSource ifFail: failBlock
 	
 	bpUnstyledSource := originalMethodNode sourceText asString.
 	(self methodSourceRequiresBPLayers: bpUnstyledSource) ifTrue: [
-		(self compileInstrumentedVersionOf: aCueWithStyledSource) ifFalse: failBlock].	
+		(self compileInstrumentedVersionOf: aCueWithStyledSource) ifFalse: failBlock].
+	
+	aCueWithStyledSource requestor ifNotNil: [
+		"BPStyler is currently not thread-safe, make sure to terminate any 
+		background styling operations before triggering the styler again in the line."
+		aCueWithStyledSource requestor 
+			updateStyleNow;
+			flag: #workaround.
+		].	
 			
 	 ^ originalMethodNode
