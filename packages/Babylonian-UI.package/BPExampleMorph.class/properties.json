@@ -9,7 +9,6 @@
 		"example",
 		"collapsed",
 		"exampleSpecificMorphs",
-		"configurationButton",
 		"nameTextMorph" ],
 	"name" : "BPExampleMorph",
 	"pools" : [

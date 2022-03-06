@@ -15,7 +15,7 @@ resetForm
 	
 	self sceneParts do: [:part |
 		canvas := cachedForm getCanvas.
-		"<bpAssert id: 4608059 for: 'all examples' that: [:result | result class = BPTree]>"part"</bpAssert>" drawOn: canvas.
-		canvas flush].
+		"<bpAssert id: 977481 for: 'all examples' that: [:result | result class = BPMountain]>"part"</bpAssert>" drawOn: canvas.
+		"<bpProbe id: 4867004 expression: [:result | result form]>"canvas"</bpProbe>" flush].
 	
 	^ cachedForm
