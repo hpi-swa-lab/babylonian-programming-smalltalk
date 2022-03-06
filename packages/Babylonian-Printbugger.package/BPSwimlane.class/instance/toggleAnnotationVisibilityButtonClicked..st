@@ -6,6 +6,5 @@ toggleAnnotationVisibilityButtonClicked: aTraceValue
 		ifFalse: [context unignoreAnnotation: aTraceValue belongingAnnotationId for: example].
 
 	annotationIdToFlash := aTraceValue belongingAnnotationId.
-	self submorphsDo: [:aSubmorph | aSubmorph delete].
 	self visualize. 
 	annotationIdToFlash := nil.

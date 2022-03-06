@@ -1,6 +1,4 @@
 actions
 downsized
 
-	| stringMorph |
-	stringMorph := (self submorphNamed: #lineName).
-	stringMorph fontName: (TextStyle defaultFont name asSymbol) pointSize: 8.5.
+	(self submorphNamed: #lineName) fontName: (TextStyle defaultFont name asSymbol) pointSize: 8.5.
