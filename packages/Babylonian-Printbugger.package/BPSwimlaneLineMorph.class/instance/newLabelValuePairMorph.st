@@ -1,20 +1,19 @@
 private - ui
-newLabelValuePairMorphFor: aTraceValue
+newLabelValuePairMorph
 
-	| labelMorph valueMorph isTraceValueVisible |
-	isTraceValueVisible := self isTraceValueVisible: aTraceValue.
+	| labelMorph valueMorph |
 	labelMorph := BPLabelMorph 
-					newFor: aTraceValue 
-					withButton: (self newToggleAnnotationVisibilityButtonFor: aTraceValue isVisible: isTraceValueVisible).
-	valueMorph := self newValueMorphFor: aTraceValue.
+					newFor: traceValue 
+					withButton: (self newToggleAnnotationVisibilityButtonWithVisibility: self isTraceValueVisible).
+	valueMorph := self newValueMorph.
 	
-	isTraceValueVisible 
+	self isTraceValueVisible
 		ifFalse: [
 			valueMorph hide.
 			labelMorph downsized].
-	
+		
 	"flash the label if the belonging annotation just got its visibility toggled in the printbugger"	
-	((annotationIdToFlash ~= nil) and: (annotationIdToFlash = aTraceValue belongingAnnotationId)) 
+	((context annotationIdToFlash ~= nil) and: (context annotationIdToFlash = traceValue belongingAnnotationId)) 
 		ifTrue: [[labelMorph flash] fork].
 				
 	^ Morph new

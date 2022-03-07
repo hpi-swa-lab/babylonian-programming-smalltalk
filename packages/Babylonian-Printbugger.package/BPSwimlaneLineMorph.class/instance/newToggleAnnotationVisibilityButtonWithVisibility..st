@@ -1,5 +1,5 @@
 private - ui
-newToggleAnnotationVisibilityButtonFor: aTraceValue  isVisible: aBoolean
+newToggleAnnotationVisibilityButtonWithVisibility: aBoolean
 
 	| toggleVisibilityButton |
 	toggleVisibilityButton := aBoolean 
@@ -12,7 +12,6 @@ newToggleAnnotationVisibilityButtonFor: aTraceValue  isVisible: aBoolean
 		extent: toggleVisibilityButton extent * 0.7;
 		balloonText: 'click to toggle the visibility of this annotation''s values in the printbugger'.
 	toggleVisibilityButton 
-		actionSelector: #toggleAnnotationVisibilityButtonClicked:;
-		arguments: {aTraceValue};
+		actionSelector: #toggleAnnotationVisibilityButtonClicked;
 		target: self.
 	^ toggleVisibilityButton

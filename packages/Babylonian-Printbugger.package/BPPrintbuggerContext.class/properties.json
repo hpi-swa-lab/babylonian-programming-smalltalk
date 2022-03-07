@@ -8,7 +8,8 @@
 	"instvars" : [
 		"methodToCount",
 		"keysCountCache",
-		"exampleToIgnoredAnnotations" ],
+		"exampleToIgnoredAnnotations",
+		"annotationIdToFlash" ],
 	"name" : "BPPrintbuggerContext",
 	"pools" : [
 		 ],
