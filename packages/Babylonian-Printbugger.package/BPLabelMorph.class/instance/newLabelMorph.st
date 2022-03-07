@@ -6,7 +6,7 @@ newLabelMorph
 		name: #lineName;
 		on: #click send: #value to: [
 			ToolSet 
-				browse: self traceValue containedMethodReference actualClass 
-				selector: self traceValue containedMethodReference methodSymbol];
+				browse: traceValue containedMethodReference actualClass 
+				selector: traceValue containedMethodReference methodSymbol];
 		color: Color gray;
 		yourself.

@@ -10,8 +10,8 @@ testSwimlaneDisplaysTraceValuesForOneAssertionAndOneProbeChronologicallySorted
 		select: [:aSubmorph | (aSubmorph isKindOf: ImageMorph) or: (aSubmorph isKindOf: StringMorph)] 
 		thenCollect: [:aSubmorph | (aSubmorph isKindOf: ImageMorph) ifTrue: [aSubmorph form bits] ifFalse: [aSubmorph contents]].
 	
-	green := (swimlane scaleIcon: ToolIcons testGreen by: BPSwimlane assertionIconScale) bits.
-	orange := (swimlane scaleIcon: ToolIcons testOrange by: BPSwimlane assertionIconScale) bits.
+	green := (BPSwimlaneLineMorph new scaleIcon: ToolIcons testGreen by: BPSwimlane assertionIconScale) bits.
+	orange := (BPSwimlaneLineMorph new scaleIcon: ToolIcons testOrange by: BPSwimlane assertionIconScale) bits.
 	expected := {orange. '1'. green. '2'. orange. '3'}.
 	self assert: (traceValues includesAllOf: expected).
 	

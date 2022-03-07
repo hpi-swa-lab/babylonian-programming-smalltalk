@@ -1,0 +1,17 @@
+{
+	"category" : "Babylonian-Printbugger",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"traceValue",
+		"containingSwimlane",
+		"stackOfMethodReferences",
+		"context" ],
+	"name" : "BPSwimlaneLineMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

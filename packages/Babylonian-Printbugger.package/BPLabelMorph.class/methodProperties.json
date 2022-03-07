@@ -1,12 +1,13 @@
 {
 	"class" : {
-		"newFor:" : "lu 1/16/2022 23:33" },
+		"newFor:withButton:" : "lu 2/1/2022 00:11" },
 	"instance" : {
-		"initializeSubmorphs" : "lu 1/16/2022 23:42",
-		"newLabel" : "lu 1/16/2022 23:26",
-		"newLabelMorph" : "lu 1/16/2022 23:30",
+		"downsized" : "lu 2/22/2022 01:38",
+		"flash" : "lu 2/15/2022 08:46",
+		"initializeSubmorphsIncluding:" : "lu 2/14/2022 22:49",
+		"newLabel" : "lu 3/7/2022 18:56",
+		"newLabelMorph" : "lu 3/7/2022 18:56",
 		"newRemoveButton" : "lu 1/17/2022 00:09",
 		"newSpacer" : "lu 1/16/2022 23:43",
-		"removeButtonClicked" : "lu 1/16/2022 23:10",
-		"traceValue" : "lu 1/16/2022 22:10",
+		"removeButtonClicked" : "lu 3/7/2022 19:07",
 		"traceValue:" : "lu 1/16/2022 22:08" } }

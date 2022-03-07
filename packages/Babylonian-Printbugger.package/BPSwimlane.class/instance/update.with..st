@@ -15,3 +15,7 @@ update: anAspect with: anObject
 	
 	anAspect = #updatedContext ifTrue: [
 		(anObject ~~ example) ifTrue: [self updateLayoutToContext]].
+	
+	anAspect = #toggleAndFlashAnnotation ifTrue: [
+		self visualize.
+		context annotationIdToFlash: nil].

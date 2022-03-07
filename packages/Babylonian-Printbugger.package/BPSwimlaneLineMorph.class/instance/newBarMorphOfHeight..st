@@ -1,5 +1,5 @@
 private - ui
-newBarMorphFor: aTraceValue calledBy: aStackOfMethodReferences withHeight: aNumber
+newBarMorphOfHeight: aNumber
 
 	
 	^ Morph new
@@ -11,6 +11,6 @@ newBarMorphFor: aTraceValue calledBy: aStackOfMethodReferences withHeight: aNumb
 		hResizing: #shrinkWrap;
 		vResizing: #shrinkWrap;
 		cellInset: 1@0;
-		addAllMorphsBack: (aStackOfMethodReferences collect: [:aStackMethod |
+		addAllMorphsBack: (stackOfMethodReferences collect: [:aStackMethod |
 			 self newStackFrameMorphFor:  aStackMethod withHeight: aNumber]);
 		yourself

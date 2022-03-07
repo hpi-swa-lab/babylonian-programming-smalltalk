@@ -14,5 +14,9 @@ visualizeLinesFor: aBPExample
 		wrapCentering: #center;
 		cellPositioning: #topLeft;
 		addAllMorphsBack:  (aBPExample traceValues withIndexCollect: [:aTraceValue :anIndex | 
-			self visualizeLineFor: aTraceValue calledBy: (stackMethods at: anIndex )]);
+			BPSwimlaneLineMorph 
+				newFor: aTraceValue 
+				in: self 
+				calledBy: (stackMethods at: anIndex ) 
+				withContext: context]);
 		yourself
