@@ -1,6 +1,8 @@
 creation
 visualize
 
+	self submorphsDo: [:aSubmorph | aSubmorph abandon].
+	
 	self name: example uniqueIdentifier asSymbol;
 		addMorph: (self newTitleMorphFor: example).
 	

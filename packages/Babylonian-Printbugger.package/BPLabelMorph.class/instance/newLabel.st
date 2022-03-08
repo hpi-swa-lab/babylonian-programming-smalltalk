@@ -2,9 +2,9 @@ private - ui
 newLabel
 
 	"Only for other annotations than assertions:"
-	self traceValue belongingAnnotation hasLabel ifFalse: [self traceValue belongingAnnotation label: (
+	traceValue belongingAnnotation hasLabel ifFalse: [traceValue belongingAnnotation label: (
 			BPProbe 
-				defaultLabelFor: self traceValue containedMethodReference
-				withExpression: self traceValue belongingAnnotation enclosedExpressionSource)].
+				defaultLabelFor: traceValue containedMethodReference
+				withExpression: traceValue belongingAnnotation enclosedExpressionSource)].
 		
-	^ self traceValue belongingAnnotation label
+	^ traceValue belongingAnnotation label

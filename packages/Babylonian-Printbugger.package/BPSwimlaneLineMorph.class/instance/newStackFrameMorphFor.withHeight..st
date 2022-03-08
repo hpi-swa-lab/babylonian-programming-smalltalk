@@ -8,7 +8,10 @@ newStackFrameMorphFor: aMethodReference withHeight: aNumber
 		balloonText: aMethodReference asString;
 		setProperty: #stackMethodReference
 		toValue: aMethodReference;
-		on: #click send: #value to: [self browseFor: aMethodReference compiledMethod];
+		on: #click 
+			send: #value 
+			to: [ToolSet browse: aMethodReference actualClass 
+						selector: aMethodReference selector];
 		yourself.
 	
 	stackMorph
