@@ -5,8 +5,11 @@ newLabelMorph
 	^ (self newLabel) asMorph
 		name: #lineName;
 		on: #click send: #value to: [
-			ToolSet 
-				browse: traceValue containedMethodReference actualClass 
-				selector: traceValue containedMethodReference methodSymbol];
+			self containingSwimlane 
+				ifNil: [ToolSet 
+						browse: traceValue containedMethodReference actualClass 
+						selector: traceValue containedMethodReference methodSymbol]
+				ifNotNil: [self containingSwimlane 
+					browseFor: traceValue containedMethodReference compiledMethod]];
 		color: Color gray;
 		yourself.

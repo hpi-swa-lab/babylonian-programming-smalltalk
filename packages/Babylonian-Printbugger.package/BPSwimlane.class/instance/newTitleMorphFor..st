@@ -9,13 +9,10 @@ newTitleMorphFor: aBPExample
 							"ifNone may happen if the user activates a newly
 							created example without saving the method first." 
 							ifNone: [^ self newBackUpTitleMorphFor: aBPExample]);
+			name: #title;
 			example: example;
-			on: #click 
-				send: #value 
-				to: [ToolSet 
-						browse: aBPExample method methodClass 
-						selector: aBPExample method selector asSymbol];
 			yourself.
+	exampleMorph on: #click send: #openInBrowser to: exampleMorph.
 	"For swimlane embedding, one may execute additional code as soon as the example is deleted through exampleMorph.
 	So, make sure to pass the event through. The using classes don't have to catch the delete event directly from
 	the button itself, but can just listen to this swimlane."
