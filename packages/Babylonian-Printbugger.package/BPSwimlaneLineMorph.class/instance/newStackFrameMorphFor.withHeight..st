@@ -10,8 +10,7 @@ newStackFrameMorphFor: aMethodReference withHeight: aNumber
 		toValue: aMethodReference;
 		on: #click 
 			send: #value 
-			to: [ToolSet browse: aMethodReference actualClass 
-						selector: aMethodReference selector];
+			to: [containingSwimlane browseFor: aMethodReference compiledMethod];
 		yourself.
 	
 	stackMorph

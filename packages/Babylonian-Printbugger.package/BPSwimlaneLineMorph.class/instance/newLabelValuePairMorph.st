@@ -4,6 +4,7 @@ newLabelValuePairMorph
 	| labelMorph valueMorph |
 	labelMorph := BPLabelMorph 
 					newFor: traceValue 
+					in: containingSwimlane
 					withButton: (self newToggleAnnotationVisibilityButtonWithVisibility: self isTraceValueVisible).
 	valueMorph := self newValueMorph.
 	
@@ -17,6 +18,9 @@ newLabelValuePairMorph
 		ifTrue: [[labelMorph flash] fork].
 				
 	^ Morph new
+		balloonText: (BPProbe 
+			defaultLabelFor: traceValue containedMethodReference
+			withExpression: traceValue belongingAnnotation enclosedExpressionSource);
 		color: Color transparent;
 		hResizing: #shrinkWrap;
 		vResizing: #shrinkWrap;
@@ -26,4 +30,5 @@ newLabelValuePairMorph
 		cellPositioning: #topLeft;
 		cellInset: 0@2;
 		addAllMorphsBack:  {labelMorph. valueMorph};
+		on: #doubleClick send: #flashAllRepresentingMorphs to: traceValue belongingAnnotation;
 		yourself

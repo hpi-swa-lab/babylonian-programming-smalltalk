@@ -1,10 +1,10 @@
 instance creation
-newFor: aTraceValue in: aBPSwimlane
+newFor: aTraceValue in: aBPSwimlane withButton: anIconicButton
 
 	^ self new
 		color:  Color transparent;
 		traceValue: aTraceValue;
 		containingSwimlane: aBPSwimlane;
-		initializeSubmorphs;
+		initializeSubmorphsIncluding: anIconicButton;
 		yourself
 		

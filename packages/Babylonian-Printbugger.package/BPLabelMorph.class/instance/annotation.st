@@ -1,4 +1,4 @@
 accessing
 annotation
 
-	^ self traceValue belongingAnnotation
+	^ traceValue belongingAnnotation

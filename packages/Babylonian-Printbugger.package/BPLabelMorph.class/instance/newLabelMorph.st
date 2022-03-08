@@ -7,9 +7,9 @@ newLabelMorph
 		on: #click send: #value to: [
 			self containingSwimlane 
 				ifNil: [ToolSet 
-						browse: self traceValue containedMethodReference actualClass 
-						selector: self traceValue containedMethodReference methodSymbol]
+						browse: traceValue containedMethodReference actualClass 
+						selector: traceValue containedMethodReference methodSymbol]
 				ifNotNil: [self containingSwimlane 
-					browseFor: self traceValue containedMethodReference compiledMethod]];
+					browseFor: traceValue containedMethodReference compiledMethod]];
 		color: Color gray;
 		yourself.
