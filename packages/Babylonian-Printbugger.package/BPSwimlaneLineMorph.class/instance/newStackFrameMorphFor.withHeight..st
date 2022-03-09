@@ -8,18 +8,9 @@ newStackFrameMorphFor: aMethodReference withHeight: aNumber
 		balloonText: aMethodReference asString;
 		setProperty: #stackMethodReference
 		toValue: aMethodReference;
-		on: #click 
-			send: #value 
-			to: [containingSwimlane browseFor: aMethodReference compiledMethod];
 		yourself.
 	
-	stackMorph
-		on: #mouseEnter
-			send: #value
-			to: [stackMorph borderStyle: (BorderStyle width: 2 color: Color black)];
-		on: #mouseLeave
-			send: #value
-			to: [stackMorph borderStyle: nil].
+	self addInteractionsToStackMorph: stackMorph for: aMethodReference.
 			
 	^ stackMorph
 	
