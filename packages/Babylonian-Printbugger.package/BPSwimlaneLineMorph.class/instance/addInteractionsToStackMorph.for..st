@@ -7,7 +7,7 @@ addInteractionsToStackMorph: aStackMorph for: aMethodReference
 			to: [containingSwimlane browseFor: aMethodReference compiledMethod];
 		on: #mouseEnter
 			send: #value
-			to: [aStackMorph borderStyle: (BorderStyle width: 2 color: Color black)];
+			to: [aStackMorph borderStyle: (BorderStyle width: 1 color: Color black)];
 		on: #mouseLeave
 			send: #value
 			to: [aStackMorph borderStyle: nil].

@@ -2,4 +2,4 @@ private
 openExampleInDockedPrintbugger
 
 	(self containingBrowser sidePane allMorphs detect: [:aSubmorph | 
-		aSubmorph isKindOf: BPPrintbugger]) addNewColumnFor: self example
+		aSubmorph isKindOf: BPPrintbugger]) addNewColumnFrontFor: self example
