@@ -1,4 +1,4 @@
 constants
 stackDepth
 
-	^ self fontHeight / 1.25
+	^ self fontHeight / 2
