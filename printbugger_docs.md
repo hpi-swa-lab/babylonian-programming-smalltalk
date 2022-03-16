@@ -34,7 +34,7 @@
 # Flame Graph
 - One bar equals one method call stack (explorable by clicking)
 - One color responds to one unique method (up to 10 colors supported)
-- Most recent method call is the left-most bar
+- Most recent method call is the right-most bar
 
 # Theme support
 Has 
