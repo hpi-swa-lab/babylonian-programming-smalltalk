@@ -59,7 +59,7 @@ One column in the Printbugger, containing a button and a `BPSwimlane`. Responsib
 The `none` option for the displayed menu when selecting an example in `BPPrintbuggerColumnMorph`. Doesn't result in a swimlane and might delete a `BPPrintbuggerColumnMorph` when excessive.
 
 ## BPSwimlane
-Display of an example's trace values in chronological order. A top to bottom collection of `BPSwimlaneLineMorph`. Has a `BPPrintbuggerContext` to pass on.
+Display of an example's trace values in chronological order. Listens to the given example trace's update events and updates accordingly. A top to bottom collection of `BPSwimlaneLineMorph`. Has a `BPPrintbuggerContext` to pass on.
 
 ## BPSwimlaneLineMorph
 Responsible for displaying a trace value and creating the UI for its possible interactions / additional information. The halt button, method call stacks, label, filter etc.. Sets flame graph colors and hides values using the `BPPrintbuggerContext`of its belonging `BPSwimlane`.
