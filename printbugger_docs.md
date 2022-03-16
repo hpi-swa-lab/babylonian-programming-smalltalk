@@ -21,17 +21,20 @@
 
 ## Managing Annotations
 - Delete a single annotation with the x-icon besides a trace value
-- Hide/Show all values from a annotation with the eye-icon besides a trace value
+- Hide/Show all values from an annotation with the eye-icon besides a trace value
 - Delete all annotations for an example by its extented menu (...)
 - Deactivate an example to hide all its trace values
 
 ## Annotation Highlighting
-- Double click a trace value to highlight its originating annotation (given the responding morph is visible)
+- Double click on empty space around a trace value to highlight its originating annotation (given the responding morph is visible)
+
+## Object Properties
+- Click on a trace value to open its object properties
 
 # Flame Graph
 - One bar equals one method call stack (explorable by clicking)
-- One color responds to one unique method (up to 10)
-- Most recent method call from right to left 
+- One color responds to one unique method (up to 10 colors supported)
+- Most recent method call is the left-most bar
 
 # Theme support
 Has 
@@ -47,13 +50,13 @@ Detailed documentation on the classes can be found in their responding class com
 
 
 ## BPPrintbugger
-Left to right collection of all `BPColumnMorphs`. Has a global context with `BPPrintbuggerContext`
+Left to right collection of all `BPPrintbuggerColumnMorphs`. Has a global context with `BPPrintbuggerContext`
 
 ## BPPrintbuggerContext
 Saves all methods of multiple traces to have a consistent color mapping for the flame graphs used by `BPSwimlaneLineMorph`. Also knows which annotations of an example should be hidden in the visualization.
 
 ## BPPrintbuggerColumnMorph
-One column in the Printbugger, containing a button and a `BPSwimlane`. Responsible for the switch logic, eg displaying the selected example from the menu as a swimlane or deleting itself when `none` is selected.
+One column in the Printbugger, containing a button and a `BPSwimlane`. Responsible for the switch logic, for example, displaying the selected example from the menu as a swimlane or deleting itself when `none` is selected.
 
 ## BPNilExample
 The `none` option for the displayed menu when selecting an example in `BPPrintbuggerColumnMorph`. Doesn't result in a swimlane and might delete a `BPPrintbuggerColumnMorph` when excessive.
@@ -62,7 +65,7 @@ The `none` option for the displayed menu when selecting an example in `BPPrintbu
 Display of an example's trace values in chronological order. Listens to the given example trace's update events and updates accordingly. A top to bottom collection of `BPSwimlaneLineMorph`. Has a `BPPrintbuggerContext` to pass on.
 
 ## BPSwimlaneLineMorph
-Responsible for displaying a trace value and creating the UI for its possible interactions / additional information. The halt button, method call stacks, label, filter etc.. Sets flame graph colors and hides values using the `BPPrintbuggerContext`of its belonging `BPSwimlane`.
+Responsible for displaying a trace value and creating the UI for its possible interactions / additional information. The halt button, method call stacks, label, filter etc.. Sets flame graph colors and hides values using the `BPPrintbuggerContext` of its belonging `BPSwimlane`.
 
 ## BPLabelMorph
-The label of a trace value extened with deletion, backup label and downsized (when filtered) logic. 
+The label of a trace value extended with deletion, a backup label and downsize (when filtered) logic. 
