@@ -40,8 +40,11 @@ Has
 - Scrollpane color
 - Image font size
 
-# Short class overview
-Detailed documentation on the classes can be found in their responding class comments
+# Short Class Overview
+Detailed documentation on the classes can be found in their responding class comments.
+
+![image](https://user-images.githubusercontent.com/33000454/158612243-583c1bd5-92b5-4174-8713-e46ca7b2069c.png)
+
 
 ## BPPrintbugger
 Left to right collection of all `BPColumnMorphs`. Has a global context with `BPPrintbuggerContext`
