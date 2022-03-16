@@ -25,7 +25,7 @@ Due to their self-contained nature, traced values of multiple annotations are no
 - Navigate to a trace value's or example's origin by clicking on it
 - Change an example directly from a lane's title
 - Filter trace values of an annotation by clicking on the eye-icon
-- Double click a trace value to highlight its originating annotation (giving the responding morph is visible)
+- Double click a trace value to highlight its originating annotation (given the responding morph is visible)
 - Individualize your trace with the Printbugger's theme support 
 
 More detailed information on the interactions and classes can be read [here](https://github.com/hpi-swa-lab/babylonian-programming-smalltalk/blob/develop/printbugger_docs.md).
