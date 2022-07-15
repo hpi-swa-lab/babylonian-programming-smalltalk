@@ -39,7 +39,7 @@ Take a screenshot
 
 "First, ensure that the method is fully compiled and the examples are run"
 {#BPSearchCollection . #BPEuropeanFlag . #BPEuropeanFlagStar} do: [:className |
-  (Smalltalk at: className) methodsDo: [:m | m bpRecompile]].
+  (Smalltalk at: className) compileAll].
 ((Smalltalk at: #BPSearchCollection)>>#binarySearch:) bpExamples do: [:e | e isActive: true].
 (Smalltalk at: #BPActiveExamples) value runActiveExamples.
 
