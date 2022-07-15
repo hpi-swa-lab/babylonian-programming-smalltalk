@@ -11,29 +11,18 @@ compileCue: aCueWithStyledSource noPattern: aBoolean ifFail: failBlock
 	inside the morph to re-fullfill that premise again during compilation."
 	| originalMethodNode bpUnstyledSource unstyledCue |
 	bpUnstyledSource := aCueWithStyledSource sourceStream contents asString asBPSource.
-	aCueWithStyledSource requestor ifNotNil: [
-		aCueWithStyledSource requestor useDefaultStyler.
-		aCueWithStyledSource requestor setText: bpUnstyledSource.
-		aCueWithStyledSource requestor styler: (BPStyler new view: aCueWithStyledSource requestor)].
+	self fakeUnstyledCode: bpUnstyledSource in: aCueWithStyledSource during: [
+		unstyledCue := CompilationCue
+			source: bpUnstyledSource readStream
+			context: aCueWithStyledSource context
+			receiver: aCueWithStyledSource receiver 
+			class: aCueWithStyledSource getClass 
+			environment: aCueWithStyledSource environment 
+			requestor: aCueWithStyledSource requestor.
+		originalMethodNode := super compileCue: unstyledCue noPattern: aBoolean ifFail: failBlock.
 	
-	unstyledCue := CompilationCue
-		source: bpUnstyledSource readStream
-		context: aCueWithStyledSource context
-		receiver: aCueWithStyledSource receiver 
-		class: aCueWithStyledSource getClass 
-		environment: aCueWithStyledSource environment 
-		requestor: aCueWithStyledSource requestor.
-	originalMethodNode := super compileCue: unstyledCue noPattern: aBoolean ifFail: failBlock.
-	
-	bpUnstyledSource := originalMethodNode sourceText asString.
-	(self methodSourceRequiresBPLayers: bpUnstyledSource) ifTrue: [
-		(self compileInstrumentedVersionOf: aCueWithStyledSource) ifFalse: failBlock].
-	
-	aCueWithStyledSource requestor ifNotNil: [
-		"BPStyler is currently not thread-safe, make sure to terminate any 
-		background styling operations before triggering the styler again in the line."
-		aCueWithStyledSource requestor 
-			updateStyleNow;
-			flag: #workaround].	
-			
+		bpUnstyledSource := originalMethodNode sourceText asString.
+		(self methodSourceRequiresBPLayers: bpUnstyledSource) ifTrue: [
+			(self compileInstrumentedVersionOf: aCueWithStyledSource) ifFalse: failBlock].].
+
 	 ^ originalMethodNode
