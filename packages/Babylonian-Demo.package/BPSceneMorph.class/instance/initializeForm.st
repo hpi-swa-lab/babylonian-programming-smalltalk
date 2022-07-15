@@ -1,4 +1,0 @@
-private
-initializeForm
-	
-	self resetForm

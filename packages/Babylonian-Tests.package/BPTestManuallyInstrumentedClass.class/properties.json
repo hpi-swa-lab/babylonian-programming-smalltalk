@@ -10,5 +10,5 @@
 	"name" : "BPTestManuallyInstrumentedClass",
 	"pools" : [
 		 ],
-	"super" : "BPObject",
+	"super" : "Object",
 	"type" : "normal" }

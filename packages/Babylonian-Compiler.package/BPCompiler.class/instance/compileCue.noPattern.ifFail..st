@@ -1,5 +1,5 @@
 public access
-compile: aCueWithStyledSource ifFail: failBlock
+compileCue: aCueWithStyledSource noPattern: aBoolean ifFail: failBlock
 
 	"This method expects source code which has annotations embedded in comments, 
 	if any, meaning it's styled with text attributes. Since the BPBrowser breaks the premise 
@@ -14,8 +14,7 @@ compile: aCueWithStyledSource ifFail: failBlock
 	aCueWithStyledSource requestor ifNotNil: [
 		aCueWithStyledSource requestor useDefaultStyler.
 		aCueWithStyledSource requestor setText: bpUnstyledSource.
-		aCueWithStyledSource requestor styler: (BPStyler new view: aCueWithStyledSource requestor).
-		].
+		aCueWithStyledSource requestor styler: (BPStyler new view: aCueWithStyledSource requestor)].
 	
 	unstyledCue := CompilationCue
 		source: bpUnstyledSource readStream
@@ -24,7 +23,7 @@ compile: aCueWithStyledSource ifFail: failBlock
 		class: aCueWithStyledSource getClass 
 		environment: aCueWithStyledSource environment 
 		requestor: aCueWithStyledSource requestor.
-	originalMethodNode := super compile: unstyledCue ifFail: failBlock.
+	originalMethodNode := super compileCue: unstyledCue noPattern: aBoolean ifFail: failBlock.
 	
 	bpUnstyledSource := originalMethodNode sourceText asString.
 	(self methodSourceRequiresBPLayers: bpUnstyledSource) ifTrue: [
@@ -35,7 +34,6 @@ compile: aCueWithStyledSource ifFail: failBlock
 		background styling operations before triggering the styler again in the line."
 		aCueWithStyledSource requestor 
 			updateStyleNow;
-			flag: #workaround.
-		].	
+			flag: #workaround].	
 			
 	 ^ originalMethodNode

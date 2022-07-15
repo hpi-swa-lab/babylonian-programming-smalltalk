@@ -11,7 +11,7 @@ resetForm
 	sky: BPSky roseSky;
 	yourself'>
 	| canvas |
-	super resetForm.
+	super resetForm. 
 	
 	self sceneParts do: [:part |
 		canvas := cachedForm getCanvas.

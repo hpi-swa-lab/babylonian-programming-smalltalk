@@ -12,7 +12,7 @@ jobs:
         # Select platform(s)
         os: [ ubuntu-latest, windows-latest ]
         # Select compatible Smalltalk image(s)
-        smalltalk: [ Squeak64-trunk ]
+        smalltalk: [ Squeak64-6.0 ]
     name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
@@ -33,8 +33,8 @@ jobs:
         uses: actions/upload-artifact@v2
         if: matrix.os == 'ubuntu-latest' && (github.ref == 'refs/heads/main')
         with:
-          name: Babylonian-trunk.zip 
-          path: ./deploy/Babylonian-trunk.zip
+          name: Babylonian-6.0.zip 
+          path: ./deploy/Babylonian-6.0.zip
       - name: Upload Image
         uses: actions/upload-artifact@v2
         if: matrix.os == 'ubuntu-latest' && (github.ref == 'refs/heads/main')
