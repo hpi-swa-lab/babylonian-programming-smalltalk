@@ -12,5 +12,5 @@
 	"name" : "BPTreeSceneMorph",
 	"pools" : [
 		 ],
-	"super" : "BPSceneMorph",
+	"super" : "AnObsoleteBPSceneMorph",
 	"type" : "normal" }
