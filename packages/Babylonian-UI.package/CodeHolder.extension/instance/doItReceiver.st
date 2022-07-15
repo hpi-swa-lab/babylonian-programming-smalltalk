@@ -1,8 +1,8 @@
 *Babylonian-UI-evaluating
 doItReceiver
-	
+
 	^ self exampleForEvaluation 
-		ifNil: [super doItReceiver]
+		ifNil: [self selectedClass]
 		ifNotNil: [:e |
 			(self exampleMorphFor: e) ifNotNil: [:m | m flash].
 			e prepareRunState receiver]
