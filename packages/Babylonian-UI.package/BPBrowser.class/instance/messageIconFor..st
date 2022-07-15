@@ -3,12 +3,9 @@ messageIconFor: aSelector
 
 	| baseIcon exampleIcon combinedIcon |
 	baseIcon := super messageIconFor: aSelector.
-	
+	baseIcon := (baseIcon ifNil: [ToolIcons blank]) scaledToSize: 12.
 	exampleIcon := self exampleIconForSelector: aSelector.
-	exampleIcon ifNil: [^ baseIcon].
 	exampleIcon := (exampleIcon ifNil: [ToolIcons blank]) scaledToSize: 12.
-	
-	baseIcon ifNil: [^ exampleIcon].
 	
 	combinedIcon := Form extent: 24 @ 12 depth: 32.
 	combinedIcon copy: (0 @ 0 extent: 12 @ 12) from: baseIcon to: 0 @ 0 rule: Form over.
