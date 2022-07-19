@@ -7,5 +7,8 @@ unstyledTextFrom: aText
 	aText runs withStartStopAndValueDo: [:start :stop :attribs |
 		(attribs anySatisfy: [:each | each shoutShouldPreserve])
 			ifTrue: [
-				attribs do: [:eachAttrib | answer addAttribute: eachAttrib from: start to: stop]]].
+				attribs do: [:eachAttrib | answer 
+					addAttribute: eachAttrib 
+					from: start 
+					to: (stop min: answer size)]]].
 	^answer
