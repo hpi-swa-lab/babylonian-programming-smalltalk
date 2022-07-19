@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"mountains",
-		"tree",
-		"sky" ],
-	"name" : "BPTreeSceneMorph",
+		"cachedForm" ],
+	"name" : "BPSceneMorph",
 	"pools" : [
 		 ],
-	"super" : "BPSceneMorph",
+	"super" : "Morph",
 	"type" : "normal" }

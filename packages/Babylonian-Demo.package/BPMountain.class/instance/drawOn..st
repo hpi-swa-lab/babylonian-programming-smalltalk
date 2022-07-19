@@ -1,9 +1,8 @@
 drawing
 drawOn: aCanvas
-	<exampleNamed: 'normal example' setUp: '(ActiveWorld submorphNamed: #demo)
-	form fillWhite.' tearDown: '(ActiveWorld submorphNamed: #demo) changed' self: 'BPMountain new
+	<exampleNamed: 'normal example' setUp: '' tearDown: '' self: 'BPMountain new
 	extent: 400@400;
-	yourself' with: '(ActiveWorld submorphNamed: ''demo'') form getCanvas'>
+	yourself' with: '(Form extent: 20@20 depth: 32) getCanvas'>
 	<exampleNamed: 'small example' self: 'BPMountain new
 	extent: 20@20;
 	yourself' with: '(Form extent: 20@20 depth: 32) getCanvas'>
@@ -19,13 +18,12 @@ drawOn: aCanvas
 	vertices
 		add: self width@pencilPosition y;
 		add: self width@self height;
-		add: 0@self height.
+		add: 0@self height. 
 	
-	aCanvas 
-		drawPolygon: "<bpProbe id: 3009345>"vertices"</bpProbe>"
+	"<bpProbe id: 3197951>"aCanvas"</bpProbe>"
+		drawPolygon: vertices
 		color: self color
 		borderWidth: 0
 		borderColor: Color red.
-		
 	
-	"<bpProbe id: 7165636 expression: [:result | result form]>"aCanvas"</bpProbe>"
+	aCanvas

@@ -7,7 +7,7 @@ expand
 		addMorph: exampleSpecificMorphs 
 		inFrontOf: self submorphs last.
 	nameTextMorph wrapFlag: true.
-	self collapseButton labelGraphic: (BPIcons chevronUpIcon scaledToSize: self iconSize).
+	collapseButton labelGraphic: (BPIcons chevronUpIcon scaledToSize: self iconSize).
 	collapsed := false.
 	
 	self expandInExamplesMorph.

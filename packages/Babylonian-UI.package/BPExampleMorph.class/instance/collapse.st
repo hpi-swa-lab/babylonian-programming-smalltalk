@@ -7,7 +7,7 @@ collapse
 	nameTextMorph 
 		wrapFlag: false;
 		hideScrollBarsIndefinitely.
-	self collapseButton labelGraphic: (BPIcons chevronDownIcon scaledToSize: self iconSize).
+	collapseButton labelGraphic: (BPIcons chevronDownIcon scaledToSize: self iconSize).
 	collapsed := true.
 
 	self collapseInExamplesMorph.
