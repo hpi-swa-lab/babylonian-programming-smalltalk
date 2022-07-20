@@ -27,7 +27,7 @@ addArgumentScriptMorphs
 		
 		"Live specimen selection"
 		container addMorphBack: (self newSpecimenSelectionButtonOnClick: [
-				self selectLiveSpecimenThen: [:specimen |
+				self selectLiveSpecimen: (self example liveSpecimenAt: index) then: [:specimen |
 					self example argumentScripts at: index put: specimen.
 					self codeContentChanged.
 					editField setText: (self example argumentScriptStringAt: index)]]).

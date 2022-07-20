@@ -1,9 +1,9 @@
 private - ui
-editFieldInitialContent: aString onChange: changeBlock onAccept: acceptBlock
+editFieldInitialContent: aText onChange: changeBlock onAccept: acceptBlock
 	
 	| model |
 	model := BPStringValueModel new
-		string: aString;
+		setString: aText;
 		onChangeBlock: changeBlock;
 		onAcceptBlock: acceptBlock;
 		yourself.

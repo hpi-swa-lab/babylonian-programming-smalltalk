@@ -26,7 +26,7 @@ class-side of this class to create a receiver object.';
 			
 	"Live specimen selection"
 	container addMorphBack: (self newSpecimenSelectionButtonOnClick: [
-				self selectLiveSpecimenThen: [:specimen |.
+				self selectLiveSpecimen: self example receiverConstructorLiveSpecimen then: [:specimen |.
 					self example receiverConstructor: specimen.
 					self codeContentChanged.
 					editField setText: self example receiverConstructorString]]).
