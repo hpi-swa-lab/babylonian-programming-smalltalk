@@ -1,6 +1,6 @@
 tests
 testRenderingWithoutExamples
-	
+
 	| example renderedSource anchorAttribute examplesAnnotation examplesMorph |
 	source := ('method
 ',Character startOfHeader,'
@@ -16,7 +16,7 @@ testRenderingWithoutExamples
 		methodReference: methodReference;
 		yourself.
 	examplesMorph := examplesAnnotation asMorph.
-	anchorAttribute := BPTextAnchor new anchoredMorph: examplesMorph.
+	anchorAttribute := BPTextDecoration new anchoredMorph: examplesMorph.
 	source addAttribute: anchorAttribute from: 8 to: 9.
 	
 	renderedSource := source asBPSourceWithoutExamples.

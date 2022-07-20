@@ -1,0 +1,1 @@
+Kept for legacy reasons, to be deprecated in v0.7

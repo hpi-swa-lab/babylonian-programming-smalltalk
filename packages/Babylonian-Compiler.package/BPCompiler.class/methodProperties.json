@@ -2,13 +2,12 @@
 	"class" : {
 		"bpInstrumentedLayerName" : "pre 11/25/2020 11:41",
 		"compilerClass" : "pre 11/25/2020 11:17",
-		"exampleTextAnchor" : "pre 11/8/2019 12:05" },
+		"exampleTextAnchor" : "pre 7/20/2022 16:39" },
 	"instance" : {
 		"annotationKeywords" : "pre 11/8/2019 20:29",
 		"backgroundCompileInstrumentedVersionOf:basedOn:" : "pre 10/12/2020 15:36",
-		"compileCue:noPattern:ifFail:" : "pre 7/15/2022 16:46",
+		"compileCue:noPattern:ifFail:" : "pre 7/20/2022 16:41",
 		"compileInstrumentedVersionOf:" : "jb 9/9/2021 17:31",
-		"fakeUnstyledCode:in:during:" : "pre 7/15/2022 16:45",
 		"keywords" : "pre 7/26/2019 14:00",
 		"methodSourceRequiresBPLayers:" : "pre 11/11/2019 15:49",
 		"parse:" : "pre 1/11/2021 15:51",

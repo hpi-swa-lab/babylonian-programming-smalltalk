@@ -10,4 +10,4 @@ testUnusedVariableInBlock
 		testing: {
 			[:ex | ex resume] -> [self assertCanceled].
 			false -> [self assertSucceeded].
-			true -> [self assertSucceeded: ('someMethod\' withCRs, Character startOfHeader, '\s*\^\[\s*\]') asRegex] }.
+			true -> [self assertSucceeded: ('someMethod\s*\^\[\s*\]') asRegex] }.

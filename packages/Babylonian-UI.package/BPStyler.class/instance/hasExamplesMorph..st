@@ -1,4 +1,4 @@
 private
 hasExamplesMorph: aTextAttribute
-	
-	^ (aTextAttribute isKindOf: BPTextAnchor) and: [aTextAttribute anchoredMorph isExamples]
+
+	^ (aTextAttribute isKindOf: BPTextDecoration) and: [aTextAttribute anchoredMorph isExamples]

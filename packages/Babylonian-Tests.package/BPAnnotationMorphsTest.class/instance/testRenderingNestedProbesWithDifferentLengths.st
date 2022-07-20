@@ -6,13 +6,13 @@ testRenderingNestedProbesWithDifferentLengths
 		id: 1;
 		methodReference: methodReference;
 		asMorph.
-	anchorAttribute := BPTextAnchor new anchoredMorph: probeMorph.
+	anchorAttribute := BPTextDecoration new anchoredMorph: probeMorph.
 	source addAttribute: anchorAttribute from: expressionInterval start to: expressionInterval stop.
 	probeMorph := BPProbe new
 		id: 2;
 		methodReference: methodReference;
 		asMorph.
-	anchorAttribute := TextAnchor new anchoredMorph: probeMorph.
+	anchorAttribute := BPTextDecoration new anchoredMorph: probeMorph.
 	source addAttribute: anchorAttribute from: expressionInterval start + 2 to: expressionInterval start + 2.
 	
 	renderedSource := source asBPSource.

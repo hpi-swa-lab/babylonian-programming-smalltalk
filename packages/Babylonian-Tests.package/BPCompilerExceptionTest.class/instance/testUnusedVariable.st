@@ -10,4 +10,4 @@ testUnusedVariable
 		testing: {
 			[:ex | ex resume] -> [self assertCanceled].
 			false -> [self assertSucceeded].
-			true -> [self assertSucceeded: ('someMethod\' withCRs, Character startOfHeader, '\s*\^nil') asRegex] }.
+			true -> [self assertSucceeded: ('someMethod\s*\^nil') asRegex] }.

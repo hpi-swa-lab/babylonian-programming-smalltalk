@@ -2,7 +2,7 @@ tests
 getSourceFor: aProbeMorph
 	
 	| anchorAttribute |
-	anchorAttribute := BPTextAnchor new anchoredMorph: aProbeMorph.
+	anchorAttribute := BPTextDecoration new anchoredMorph: aProbeMorph.
 	source addAttribute: anchorAttribute from: expressionInterval start to: expressionInterval stop.
 	
 	^ source asBPSource

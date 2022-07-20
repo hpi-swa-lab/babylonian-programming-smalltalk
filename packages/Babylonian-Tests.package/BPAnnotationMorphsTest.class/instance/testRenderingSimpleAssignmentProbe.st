@@ -6,7 +6,7 @@ testRenderingSimpleAssignmentProbe
 		id: 1;
 		methodReference: methodReference;
 		asMorph.
-	anchorAttribute := BPTextAnchor new anchoredMorph: probeMorph.
+	anchorAttribute := BPTextDecoration new anchoredMorph: probeMorph.
 	source addAttribute: anchorAttribute from: expressionInterval start to: expressionInterval stop.
 	
 	renderedSource := source asBPSource.

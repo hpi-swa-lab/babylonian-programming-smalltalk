@@ -1,6 +1,5 @@
 private
 textForAnnotation: annotation from: aText at: startTagStart
-
 	| newMorph expressionText |
 	newMorph := self annotationMorphFor: annotation.	
 	
@@ -8,7 +7,6 @@ textForAnnotation: annotation from: aText at: startTagStart
 		"The annotation does not want to be drawn directly"
 		^ '' asText].
 	
-	expressionText := self insertAnchorCharacterForAnnotation: annotation from: aText at: startTagStart.
-	expressionText addAttribute: (BPTextAnchor new anchoredMorph: newMorph; yourself).
-	
+	expressionText := self expressionSourceFor: annotation from: aText at: startTagStart.
+	expressionText addAttribute: (BPTextDecoration new anchoredMorph: newMorph; yourself).
 	^ expressionText

@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"previousScanners" ],
+	"name" : "BPTextDecoration",
+	"pools" : [
+		 ],
+	"super" : "TextAnchor",
+	"type" : "normal" }

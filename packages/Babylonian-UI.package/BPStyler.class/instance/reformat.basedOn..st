@@ -1,13 +1,9 @@
 private
 reformat: aText basedOn: annotations
-
 	"The idea of this rewriting is that nested annotations simply set the annotation text attribute on
 	their complete enclosed expression, no matter whether it is also annotated or normal.
 	We then go from large to small annotations as this guarantees that we go from the enclosing to 
-	the enclosed annotations. 
-	If we replace source, we first check whether there already was a replacement and correspondingly
-	a text anchor character before the annotation. We reuse that text anchor character whenever
-	possible, which you can see in this method and in #textForAnnotation:from:at:"
+	the enclosed annotations."
 	
 	| text startOfTag expressionStart sortedAnnotations replacementStart intervalMap replacementEnd |
 	text := aText. 
@@ -18,11 +14,11 @@ reformat: aText basedOn: annotations
 	
 	sortedAnnotations do: [:each |
 		startOfTag := text indexOfSubCollection: each startTagSource.
-		expressionStart := text indexOfSubCollection: each enclosedExpressionSource startingAt: startOfTag + each startTagSource size.
+		expressionStart := text 
+			indexOfSubCollection: each enclosedExpressionSource 
+			startingAt: startOfTag + each startTagSource size.
 		
-		(self isAlreadyAnnotatedExpressionAt: startOfTag in: text) 
-			ifTrue: [replacementStart := startOfTag - 1]
-			ifFalse: [replacementStart := startOfTag].
+		replacementStart := startOfTag.
 		replacementEnd := startOfTag + each annotatedExpressionSourceCode size - 1.
 		text := text
 			copyReplaceFrom: replacementStart 

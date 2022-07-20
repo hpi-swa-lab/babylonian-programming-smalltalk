@@ -1,5 +1,6 @@
 public access
 compileCue: aCueWithStyledSource noPattern: aBoolean ifFail: failBlock
+	
 
 	"This method expects source code which has annotations embedded in comments, 
 	if any, meaning it's styled with text attributes. Since the BPBrowser breaks the premise 
@@ -10,19 +11,19 @@ compileCue: aCueWithStyledSource noPattern: aBoolean ifFail: failBlock
 	causing for synctactic errors when compiling. Therefore, we remove the text styling
 	inside the morph to re-fullfill that premise again during compilation."
 	| originalMethodNode bpUnstyledSource unstyledCue |
-	bpUnstyledSource := aCueWithStyledSource sourceStream contents asString asBPSource.
-	self fakeUnstyledCode: bpUnstyledSource in: aCueWithStyledSource during: [
-		unstyledCue := CompilationCue
-			source: bpUnstyledSource readStream
-			context: aCueWithStyledSource context
-			receiver: aCueWithStyledSource receiver 
-			class: aCueWithStyledSource getClass 
-			environment: aCueWithStyledSource environment 
-			requestor: aCueWithStyledSource requestor.
-		originalMethodNode := super compileCue: unstyledCue noPattern: aBoolean ifFail: failBlock.
+	bpUnstyledSource := aCueWithStyledSource sourceStream contents asString.
 	
-		bpUnstyledSource := originalMethodNode sourceText asString.
-		(self methodSourceRequiresBPLayers: bpUnstyledSource) ifTrue: [
-			(self compileInstrumentedVersionOf: aCueWithStyledSource) ifFalse: failBlock].].
+	unstyledCue := CompilationCue
+		source: bpUnstyledSource readStream
+		context: aCueWithStyledSource context
+		receiver: aCueWithStyledSource receiver 
+		class: aCueWithStyledSource getClass 
+		environment: aCueWithStyledSource environment 
+		requestor: aCueWithStyledSource requestor.
+	originalMethodNode := super compileCue: unstyledCue noPattern: aBoolean ifFail: failBlock.
+
+	bpUnstyledSource := originalMethodNode sourceText asString.
+	(self methodSourceRequiresBPLayers: bpUnstyledSource) ifTrue: [
+		(self compileInstrumentedVersionOf: aCueWithStyledSource) ifFalse: failBlock].
 
 	 ^ originalMethodNode

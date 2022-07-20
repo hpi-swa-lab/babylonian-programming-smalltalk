@@ -5,12 +5,13 @@
 		"activateAttributesEnding:starting:" : "pre 1/11/2021 14:53",
 		"attributeShouldBeWritten:" : "pre 1/11/2021 14:53",
 		"deactivateAttributesEnding:starting:" : "pre 1/11/2021 14:53",
+		"delayWritingExampleMorphTags:" : "pre 7/20/2022 14:28",
 		"ignoreExamples" : "pre 1/11/2021 14:54",
-		"initialize" : "pre 1/11/2021 14:55",
+		"initialize" : "pre 7/20/2022 14:19",
+		"insertExamplesSnippetInto:" : "pre 7/20/2022 16:24",
 		"nextPut:" : "pre 7/3/2019 10:48",
 		"nextPutAll:" : "pre 7/3/2019 10:45",
-		"nextPutText:" : "jb 12/7/2020 19:03",
-		"respectExamples" : "pre 1/11/2021 14:54",
+		"nextPutText:" : "pre 7/20/2022 14:25",
 		"writeContent:" : "jb 12/7/2020 19:03",
 		"writeEndTagFor:" : "jb 12/7/2020 19:03",
-		"writeStartTagFor:" : "jb 8/31/2021 00:29" } }
+		"writeStartTagFor:" : "pre 7/20/2022 14:27" } }

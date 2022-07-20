@@ -11,7 +11,7 @@ addAnnotation: anAnnotation in: interval
 		addAllAttributes: (text attributesAt: actualInterval start); 
 		yourself.
 	newContent := newContent , (text copyFrom: actualInterval start to: actualInterval stop).
-	newContent addAttribute: (BPTextAnchor new
+	newContent addAttribute: (BPTextDecoration new
 			anchoredMorph: newMorph;
 			yourself).
 	newContent := text 

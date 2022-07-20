@@ -6,7 +6,7 @@ testRenderingExampleSpecificReplacement
 		replacementScript: '[100]';
 		exampleName: 'Class1>>method>>#''example 1''';
 		asMorph.
-	anchorAttribute := BPTextAnchor new anchoredMorph: replacementMorph.
+	anchorAttribute := BPTextDecoration new anchoredMorph: replacementMorph.
 	source addAttribute: anchorAttribute from: expressionInterval start to: expressionInterval stop.
 	
 	renderedSource := source asBPSource.

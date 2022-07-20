@@ -1,5 +1,7 @@
 writing
 writeStartTagFor: aTextAttribute
 	
-	[self nextPutAll: aTextAttribute anchoredMorph startTag]
-		on: MessageNotUnderstood do: [].
+	aTextAttribute anchoredMorph isExamples
+		ifTrue: [self delayWritingExampleMorphTags: aTextAttribute anchoredMorph]
+		ifFalse: [self nextPutAll: aTextAttribute anchoredMorph startTag].
+	

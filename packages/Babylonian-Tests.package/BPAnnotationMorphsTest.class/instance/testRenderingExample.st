@@ -1,10 +1,8 @@
 tests
 testRenderingExample
-	
-	| example renderedSource anchorAttribute examplesAnnotation examplesMorph |
-	source := ('method
-',Character startOfHeader,'
-^ 2 + 3') asText.
+		| example renderedSource anchorAttribute examplesAnnotation examplesMorph |
+	source := 'method
+^ 2 + 3' asText.
 	example := BPMethodExample new
 		method: methodReference compiledMethod;
 		exampleName: 'example 1';
@@ -18,8 +16,8 @@ testRenderingExample
 		methodReference: methodReference;
 		yourself.
 	examplesMorph := examplesAnnotation asMorph.
-	anchorAttribute := BPTextAnchor new anchoredMorph: examplesMorph.
-	source addAttribute: anchorAttribute from: 8 to: 9.
+	anchorAttribute := BPTextDecoration new anchoredMorph: examplesMorph.
+	source addAttribute: anchorAttribute from: 1 to: 1.
 	
 	renderedSource := source asBPSource.
 	self assert: 'method
