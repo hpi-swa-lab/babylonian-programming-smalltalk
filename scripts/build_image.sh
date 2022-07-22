@@ -32,9 +32,9 @@ wget --no-verbose http://files.squeak.org/6.0/Squeak6.0-22104-64bit/Squeak6.0-22
 tar xvf Squeak6.0-22104-64bit-202206021410-Linux-x64.tar.gz
 mv Squeak6.0-22104-64bit-202206021410-Linux-x64 Squeak-6.0
 
-mv Squeak-trunk/shared/*.image "${DEPLOY_IMAGE}"
-mv Squeak-trunk/shared/*.changes "${DEPLOY_CHANGES}"
-mv Squeak-trunk/shared/SqueakV60.sources .
+mv Squeak6.0-22104-64bit-202206021410-Linux-x64/shared/*.image "${DEPLOY_IMAGE}"
+mv Squeak6.0-22104-64bit-202206021410-Linux-x64/shared/*.changes "${DEPLOY_CHANGES}"
+mv Squeak6.0-22104-64bit-202206021410-Linux-x64/shared/SqueakV60.sources .
 
 print_info "Preparing image..."
 EXIT_STATUS=0
