@@ -4,4 +4,6 @@ expectedFailures
 	^ #(testRewritingErrorOnIncompleteExpressionForAssertion 
 	testRewritingErrorOnIncompleteExpressionForReplacement
 	testRewritingErrorOnIncompleteExpressionProbe
-	testFromFormattedSourceCodeToAnnotatedSourceCode) , "should fail" #(testRewritingBinaryMessageChainProbe)
+	testFromFormattedSourceCodeToAnnotatedSourceCode) , 
+		"should fail" #(testRewritingBinaryMessageChainProbe) ,
+		#(testCompileSilentlyAddsAnnotationsProperly)
