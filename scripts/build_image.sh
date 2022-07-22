@@ -38,7 +38,7 @@ mv Squeak-6.0/shared/SqueakV60.sources .
 
 print_info "Preparing image..."
 EXIT_STATUS=0
-Squeak-trunk/bin/squeak $COG_VM_PARAM "${DEPLOY_IMAGE}" "../scripts/prepare_image.st" || EXIT_STATUS=$?
+Squeak-6.0/bin/squeak $COG_VM_PARAM "${DEPLOY_IMAGE}" "../scripts/prepare_image.st" || EXIT_STATUS=$?
 
 if [[ $EXIT_STATUS -eq 0 ]]; then
     zip "${DEPLOY_PACKAGE}" *.image *.changes *.sources
