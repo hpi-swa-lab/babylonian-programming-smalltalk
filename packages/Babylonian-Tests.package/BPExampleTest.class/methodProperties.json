@@ -28,6 +28,7 @@
 		"testMethodExamplesCanChangeArgumentsInTheSetup" : "pre 8/6/2021 18:20",
 		"testNewExample" : "pre 6/7/2021 15:12",
 		"testNewExampleArePartOfTheirMethod" : "pre 1/6/2021 19:06",
+		"testNewExampleOnMetaclass" : "pre 7/22/2022 21:44",
 		"testRemovingAnExampleNotifiesDependents" : "pre 5/20/2021 15:30",
 		"testScriptExamplesCanAccessArgumentsFromTheSetup" : "pre 7/22/2022 21:38",
 		"testScriptExamplesCanAccessArgumentsInTheTeardown" : "pre 7/22/2022 21:40",
