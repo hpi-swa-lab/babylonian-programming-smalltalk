@@ -1,6 +1,7 @@
 initialize-release
 initializeFromPragma: aPragma
-	
+
+	"'exampleNamed:' 'self:' 'setUp:'? 'tearDown:'? 'with:'*"
 	super initializeFromPragma: aPragma.
 
 	aPragma bpAsDictionary 

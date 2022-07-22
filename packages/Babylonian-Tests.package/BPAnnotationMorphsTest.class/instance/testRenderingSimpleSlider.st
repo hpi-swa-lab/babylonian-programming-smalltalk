@@ -1,13 +1,13 @@
 tests
 testRenderingSimpleSlider
-	
+
 	| anchorAttribute renderedSource slideMorph |
 	methodReference := MethodReference class: BPAnnotationMorphsTest selector: #methodWithBlock.
 	slideMorph := BPSlider new
 		methodReference: methodReference;
 		id: 10;
 		asMorph.
-	anchorAttribute := BPTextAnchor new anchoredMorph: slideMorph.
+	anchorAttribute := BPTextDecoration new anchoredMorph: slideMorph.
 	expressionInterval := 57 to: 69.
 	source := ('methodWithBlock
 	<exampleNamed: ''example 1''>

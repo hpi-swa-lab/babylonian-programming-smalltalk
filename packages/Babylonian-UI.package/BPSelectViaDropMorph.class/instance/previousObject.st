@@ -1,0 +1,4 @@
+accessing
+previousObject
+
+	^ previousObject

@@ -9,6 +9,6 @@ testStylerSetsAnchorForScriptExample
 	
 	self deny: (formattedSourceCode asString includesSubstring: '<scriptExampleNamed: ''example 1'' script: ''2 + 3''>').
 		
-	attributes := formattedSourceCode attributesAt: (formattedSourceCode asString indexOf: Character startOfHeader).
+	attributes := formattedSourceCode attributesAt: (formattedSourceCode asString indexOf: $<).
 	attributes := attributes select: [:a | a isKindOf: TextAnchor].
 	self assert: (attributes first anchoredMorph isKindOf: BPExamplesMorph).

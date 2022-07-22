@@ -6,7 +6,7 @@ testRenderingSimpleAssertion
 		id: 1;
 		assertion: '[:r | r = 5]';
 		asMorph.
-	anchorAttribute := BPTextAnchor new anchoredMorph: assertionMorph.
+	anchorAttribute := BPTextDecoration new anchoredMorph: assertionMorph.
 	source addAttribute: anchorAttribute from: expressionInterval start to: expressionInterval stop.
 	
 	renderedSource := source asBPSource.

@@ -3,8 +3,9 @@
 		 },
 	"instance" : {
 		"assertCompilerRewrites:to:" : "jb 12/7/2020 19:05",
-		"expectedFailures" : "pre 7/6/2020 17:15",
+		"expectedFailures" : "pre 7/22/2022 22:02",
 		"setUp" : "jb 12/7/2020 19:06",
+		"testCompileSilentlyAddsAnnotationsProperly" : "pre 7/22/2022 22:02",
 		"testCompilerRecognizesMethodsThatRequireRecompilation" : "jb 12/7/2020 19:06",
 		"testFromFormattedSourceCodeToAnnotatedSourceCode" : "pre 2/22/2021 18:03",
 		"testRewritingBinaryMessageChainProbe" : "pre 2/22/2021 17:16",

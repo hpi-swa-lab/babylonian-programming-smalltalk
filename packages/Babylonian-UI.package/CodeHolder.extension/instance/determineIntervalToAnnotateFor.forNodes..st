@@ -1,13 +1,20 @@
 *Babylonian-UI-private
 determineIntervalToAnnotateFor: anInterval forNodes: nodeList
-	<exampleNamed: 'problematic case' self: 'BPBrowser new setClass: BPSearchCollection selector: #binarySearch:; selectedMessage; yourself' with: '83 to: 92' with: '#(UnaryMessageSend BinaryMessageSend KeywordMessageSend Expression Statement Operand)'>
 	<exampleNamed: 'base case' self: 'BPBrowser new setClass: BPFancyStar selector: #initialize2; selectedMessage; yourself' with: '82 to: 92' with: '#(BlockLiteral ExecutableCode)'>
-	<exampleNamed: 'another closure case' self: 'BPBrowser new setClass: BPFancyStar selector: #initialize2; selectedMessage; yourself' with: '85 to: 90' with: '#(BlockLiteral ExecutableCode)'>
-	"This determines the interval to annotate for a selected interval. The selected interval can also be a 0 width selection.
+	"This determines the interval to annotate for a selected interval. 
+	The selected interval can also be a 0 width selection.
 	If there is not valid interval this method will return nil."
 
 	| nodes parents lowestCommonAncestorIndex ancestors lowestUsefulAncestor |
-
+	
+	"Workaround - When a window is collapsed the cached state of a 
+	CodeHolder is released. This means that the currentCompiledMethod
+	will be nil. To force a complete recomputation of the cache, we also
+	have to remove the cached contents."
+	contents := nil. 
+	self selectedMessage.
+	"End of workaround"
+	
 	nodes := currentCompiledMethod bpSourceMap atAll: {"<bpProbe id: 6912574>"anInterval start"</bpProbe>". anInterval stop}.
 	"This is necessary as we do only assume that the last node is the lowest one, not that
 	the rest of the nodes is necessarily ordered according to the tree"

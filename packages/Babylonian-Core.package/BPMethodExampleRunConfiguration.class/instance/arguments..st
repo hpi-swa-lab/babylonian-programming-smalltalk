@@ -1,4 +1,4 @@
 accessing
-arguments: anObject
-
-	arguments := anObject.
+arguments: anOrderedDcitionary
+	
+	arguments := anOrderedDcitionary.

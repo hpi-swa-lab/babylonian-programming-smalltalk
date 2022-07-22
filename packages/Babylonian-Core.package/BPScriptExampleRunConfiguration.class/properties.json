@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-Core-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"state" ],
+	"name" : "BPScriptExampleRunConfiguration",
+	"pools" : [
+		 ],
+	"super" : "BPExampleRunState",
+	"type" : "normal" }

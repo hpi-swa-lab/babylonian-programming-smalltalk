@@ -1,6 +1,6 @@
 private - ui
 addReceiverConstructorMorph
-	
+
 	| container editField labelMorph |
 	container := self newContainerMorph.
 	container cellPositioning: #topLeft.
@@ -16,7 +16,7 @@ addReceiverConstructorMorph
 				self example receiverConstructor: str.
 				self codeContentChanged]
 			onAccept: [:str |
-				self containingBrowser codeTextMorph accept]).
+				self acceptChangesAtSource]).
 	editField 
 		balloonText: 'Write code that instantiates the receiver. 
 You can also provide a selector that will be called on the
@@ -26,7 +26,7 @@ class-side of this class to create a receiver object.';
 			
 	"Live specimen selection"
 	container addMorphBack: (self newSpecimenSelectionButtonOnClick: [
-				self selectLiveSpecimenThen: [:specimen |.
+				self selectLiveSpecimen: self example receiverConstructorLiveSpecimen then: [:specimen |.
 					self example receiverConstructor: specimen.
 					self codeContentChanged.
 					editField setText: self example receiverConstructorString]]).

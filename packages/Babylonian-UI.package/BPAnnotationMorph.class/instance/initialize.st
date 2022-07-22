@@ -1,9 +1,8 @@
 initialization
 initialize
-	
+
 	super initialize.
-	self color: ((ScrollPane basicNew userInterfaceTheme color ifNil: [
-		Color peach lighter]) adjustBrightness: -0.05).
+	self color: self defaultColor.
 	self height: self fontHeight.
 	
 	self 

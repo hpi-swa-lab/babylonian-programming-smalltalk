@@ -8,12 +8,14 @@ testStylerCanCopeWithProbeWithinSliderRange
 	formattedSourceCode := styler format: originalSourceCode.
 	
 	self 
-		assert: (formattedSourceCode asString includesSubstring: (Character startOfHeader asString , '[:n | 2 +'));
-		assert: (formattedSourceCode asString includesSubstring: (Character startOfHeader asString , '3]'));
+		assert: (formattedSourceCode asString includesSubstring: '[:n | 2 +');
+		assert: (formattedSourceCode asString includesSubstring: '3]');
+		deny: (formattedSourceCode asString includesSubstring: (Character startOfHeader asString , '[:n | 2 +')); "prevent legacy behavior, to be removed in v0.7 --pre"
+		deny: (formattedSourceCode asString includesSubstring: (Character startOfHeader asString , '3]')); "prevent legacy behavior, to be removed in v0.7 --pre"
 		deny: (formattedSourceCode asString includesSubstring: '</bpSlider>');
 		deny: (formattedSourceCode asString includesSubstring: '</bpProbe>').
 		
-	attributes := formattedSourceCode attributesAt: (formattedSourceCode asString lastIndexOf: Character startOfHeader).
+	attributes := formattedSourceCode attributesAt: (formattedSourceCode asString indexOf: $[).
 	attributes := attributes select: [:a | a isKindOf: TextAnchor].
 	self assert: (attributes first anchoredMorph isKindOf: BPSliderMorph).
 	

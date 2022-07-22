@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"then" ],
+		"previousObject",
+		"then",
+		"explorer" ],
 	"name" : "BPSelectViaDropMorph",
 	"pools" : [
 		 ],

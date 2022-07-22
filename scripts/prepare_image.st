@@ -4,16 +4,13 @@ TranscriptStream redirectToStdOut: true.
 Deprecation showDeprecationWarnings: false.
 
 "Update the image."
-"[MCMcmUpdater updateFromServer] valueSupplyingAnswer: true."
+[MCMcmUpdater updateFromServer] valueSupplyingAnswer: true.
 
 Installer ensureRecentMetacello.
 
 "If e.g. your tests change code in the image dynamically, the image will require you to set
 author initials which might fail these tests. So we set some dummy initials here to avoid this."
 (Smalltalk at: #MetacelloPlatform) current authorName: 'BabylonianInstallation'.
-
-"Load patches for text anchor placement"
-FileStream fileIn: 'SOHCharacter.cs'.
 
 "Load Babylonian into image"
 (Smalltalk at: #Metacello) new
@@ -26,6 +23,7 @@ ToolSet default: (Smalltalk at: #BPToolSet).
 
 "Prepare Image a little bit"
 Preferences disable: #showSharedFlaps.
+Preferences disable: #confirmFirstUseOfStyle.
 PluggableSystemWindow allInstances do: #abandon.
 PreferenceWizardMorph allInstances do: #abandon.
 
@@ -41,7 +39,7 @@ Take a screenshot
 
 "First, ensure that the method is fully compiled and the examples are run"
 {#BPSearchCollection . #BPEuropeanFlag . #BPEuropeanFlagStar} do: [:className |
-  (Smalltalk at: className) methodsDo: [:m | m bpRecompile]].
+  (Smalltalk at: className) compileAll].
 ((Smalltalk at: #BPSearchCollection)>>#binarySearch:) bpExamples do: [:e | e isActive: true].
 (Smalltalk at: #BPExamples) value runActiveExamples.
 

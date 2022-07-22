@@ -5,7 +5,7 @@ testRenderingSimpleReplacement
 	replacementMorph := BPReplacement new
 		replacementScript: '[100]';
 		asMorph.
-	anchorAttribute := BPTextAnchor new anchoredMorph: replacementMorph.
+	anchorAttribute := BPTextDecoration new anchoredMorph: replacementMorph.
 	source addAttribute: anchorAttribute from: expressionInterval start to: expressionInterval stop.
 	
 	renderedSource := source asBPSource.

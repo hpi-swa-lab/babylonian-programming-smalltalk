@@ -1,4 +1,4 @@
-*Babylonian-Compiler
+*Babylonian-Compiler-*contexts2-core-accessing method dictionary-override-override
 addAndClassifySelector: selector withMethod: compiledMethod inProtocol: category notifying: requestor
 	
 	"This is an abomination of the Squeak Kernel code, ContextS2 code, and Babylonian Code"

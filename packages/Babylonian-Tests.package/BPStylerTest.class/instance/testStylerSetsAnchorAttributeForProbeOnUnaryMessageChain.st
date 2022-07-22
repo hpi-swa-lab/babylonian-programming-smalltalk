@@ -6,11 +6,9 @@ testStylerSetsAnchorAttributeForProbeOnUnaryMessageChain
 	"<bpProbe id: 31412>"2 negated"</bpProbe>" + 3' asText.
 	formattedSourceCode := styler styledTextFor: originalSourceCode.
 	
-	theTextAttribute := ((formattedSourceCode attributesAt: 12) select: [:attribute | 
-			attribute isKindOf: TextAnchor]) first.
-	12 to: 20 do: [:offset | 
-		anchorTextAttributes := (formattedSourceCode attributesAt: offset) select: [:attribute | 
-			attribute isKindOf: TextAnchor].
+	theTextAttribute := ((formattedSourceCode attributesAt: 9) select: [:attribute | attribute isKindOf: TextAnchor]) first.
+	9 to: 17 do: [:offset | 
+		anchorTextAttributes := (formattedSourceCode attributesAt: offset) select: [:attribute | attribute isKindOf: TextAnchor].
 	
 		self 
 			assert: anchorTextAttributes notEmpty;

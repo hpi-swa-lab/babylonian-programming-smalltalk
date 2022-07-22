@@ -1,6 +1,6 @@
-*Babylonian-Compiler
+*Babylonian-Compiler-decompiling-override
 methodNode
-	
+	 
 	"Return the parse tree that represents self. If parsing fails, decompile the method."
 	| aClass source |
 	aClass := self methodClass.
@@ -13,7 +13,7 @@ methodNode
 	the unstyled code. Any use case, using the debugger map with unstyled code
 	will break as a consequence (e.g. SmalltalkCI error reporting)."
 	source := (BPStyler new
-		selectedMethod: self;
+		selectedMethod: self methodReference;
 		format:	source asText) asString asText.
 	"------- end of custom code ----------"			
 	

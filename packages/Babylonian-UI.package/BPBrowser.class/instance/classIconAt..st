@@ -1,6 +1,6 @@
 class list
 classIconAt: anIndex
-	
+
 	| baseIcon examplesIcon combinedIcon |
 	self class showClassIcons
 		ifFalse: [^ nil].
@@ -8,12 +8,8 @@ classIconAt: anIndex
 	baseIcon := super classIconAt: anIndex.
 	
 	examplesIcon := (self classList at: anIndex) 
-		ifNil: [ToolIcons blank]
-		ifNotNil: [:className |
-			(Smalltalk globals at: className withBlanksTrimmed asSymbol) containsExamples
-				ifFalse: [ToolIcons blank]
-				ifTrue: [BPIcons boxIcon]].
-	examplesIcon := examplesIcon scaledToSize: 12.
+		ifNotNil: [:className | self exampleIconForClass: (Smalltalk classNamed: className withBlanksTrimmed asSymbol)].
+	examplesIcon := (examplesIcon ifNil: [ToolIcons blank]) scaledToSize: 12.
 	
 	baseIcon ifNil: [^ examplesIcon].
 	

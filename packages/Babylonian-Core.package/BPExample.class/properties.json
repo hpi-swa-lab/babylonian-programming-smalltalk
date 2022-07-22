@@ -1,5 +1,5 @@
 {
-	"category" : "Babylonian-Core-Annotations",
+	"category" : "Babylonian-Core-Examples",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -10,6 +10,7 @@
 		"exampleName",
 		"method",
 		"traceInformation",
+		"expectedResult",
 		"setUpScript",
 		"tearDownScript" ],
 	"name" : "BPExample",

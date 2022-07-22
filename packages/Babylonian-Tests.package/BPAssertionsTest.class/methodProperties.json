@@ -2,6 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAssertionsCanUseTheExpressionResult" : "jb 12/7/2020 19:05",
-		"testExampleSpecificAssertionsAreScopedByTracing" : "jb 12/7/2020 19:05",
+		"testAssertionsCanUseTheExpressionResult" : "pre 7/12/2021 14:01",
+		"testExampleSpecificAssertionsAreScopedByTracing" : "pre 7/12/2021 13:52",
 		"testGlobalExampleSpecificAssertionsAreScopedByTracing" : "pre 5/26/2021 17:43" } }

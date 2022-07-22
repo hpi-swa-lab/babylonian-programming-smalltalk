@@ -1,4 +1,4 @@
-private
+accessing
 resetForm
 	<exampleNamed: 'custom scene' self: 'BPTreeSceneMorph new
 	extent: 800@600;
@@ -10,12 +10,12 @@ resetForm
 	<exampleNamed: 'basic' setUp: 'ThreadSafeRandom value: (Random seed: 10).' self: 'BPTreeSceneMorph new
 	extent: 500@300;
 	yourself'>
-	| canvas |
-	super resetForm.
-	
-	self sceneParts do: [:part |
+	| canvas | 
+	super resetForm.    
+    
+	self sceneParts do: [:part | 
 		canvas := cachedForm getCanvas.
 		part drawOn: canvas.
-		canvas flush].
+		"<bpProbe id: 5033037 expression: []>"canvas"</bpProbe>" flush].
 	
 	^ cachedForm

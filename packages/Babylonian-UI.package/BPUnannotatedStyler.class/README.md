@@ -1,0 +1,1 @@
+A BPUnannotatedStyler is styling the same way the BPStyler does with the addition of hiding the generated annotations to make the source code seem unannotated while still being able to maintain the text anchors when edited.

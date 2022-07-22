@@ -1,0 +1,15 @@
+{
+	"category" : "Babylonian-Printbugger",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lu 3/17/2022 01:06",
+	"instvars" : [
+		"traceValue",
+		"containingSwimlane" ],
+	"name" : "BPLabelMorph",
+	"pools" : [
+		 ],
+	"super" : "BPAnnotationMorph",
+	"type" : "normal" }

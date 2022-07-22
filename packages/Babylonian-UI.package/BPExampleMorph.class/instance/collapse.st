@@ -1,18 +1,16 @@
 ui - actions
 collapse
-	
+
 	collapsed ifTrue: [^ self].
 	
 	exampleSpecificMorphs abandon.
-	configurationButton abandon.
 	nameTextMorph 
 		wrapFlag: false;
 		hideScrollBarsIndefinitely.
-	self collapseButton labelGraphic: (BPIcons moreVerticalIcon scaledToSize: self iconSize * 0.7).
+	collapseButton labelGraphic: (BPIcons chevronDownIcon scaledToSize: self iconSize).
 	collapsed := true.
-	
-	self flag: #todo. "The following is very brittle --pre"
-	self owner exampleMorphCollapsed: self.
+
+	self collapseInExamplesMorph.
 	
 	
 	

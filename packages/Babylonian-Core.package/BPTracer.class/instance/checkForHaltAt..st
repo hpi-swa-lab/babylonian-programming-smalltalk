@@ -1,4 +1,7 @@
 private
-checkForHaltAt: aProbeId
-	
-	haltProbeId == aProbeId ifTrue: [BPExampleExecutionInterrupted signal].
+checkForHaltAt: anAnnotationId
+
+	haltAnnotationId = anAnnotationId ifTrue: [
+		haltAnnotationIdCount == annotationIdCount
+			ifTrue: [BPExampleExecutionInterrupted signal]
+			ifFalse: [annotationIdCount := annotationIdCount + 1]]

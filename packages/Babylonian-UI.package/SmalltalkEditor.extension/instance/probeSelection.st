@@ -1,4 +1,5 @@
 *Babylonian-UI
 probeSelection
-
-	model addProbeToSelection
+	 
+	(model respondsTo: #addProbeToSelection)
+		ifTrue: [model addProbeToSelection]

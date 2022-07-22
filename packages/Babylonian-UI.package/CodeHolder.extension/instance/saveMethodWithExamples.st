@@ -1,5 +1,6 @@
 *Babylonian-UI-private
 saveMethodWithExamples
-	
-	self codeTextMorph hasUnacceptedEdits: true.
-	self codeTextMorph accept.
+
+	self codeTextMorph 
+		hasUnacceptedEdits: true;
+		accept.

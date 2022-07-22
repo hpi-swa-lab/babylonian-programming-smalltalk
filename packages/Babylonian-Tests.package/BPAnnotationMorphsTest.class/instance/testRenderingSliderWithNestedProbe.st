@@ -1,6 +1,6 @@
 tests
 testRenderingSliderWithNestedProbe
-	
+
 	| anchorAttribute renderedSource probeMorph sliderMorph |
 	methodReference := MethodReference class: BPAnnotationMorphsTest selector: #methodWithBlock.
 	source := ('methodWithBlock
@@ -11,14 +11,14 @@ testRenderingSliderWithNestedProbe
 		methodReference: methodReference;
 		id: 10;
 		asMorph.
-	anchorAttribute := BPTextAnchor new anchoredMorph: sliderMorph.
+	anchorAttribute := BPTextDecoration new anchoredMorph: sliderMorph.
 	source addAttribute: anchorAttribute from: 57 to: 70.
 
 	probeMorph := BPProbe new
 		id: 1;
 		methodReference: methodReference;
 		asMorph.
-	anchorAttribute := BPTextAnchor new anchoredMorph: probeMorph.
+	anchorAttribute := BPTextDecoration new anchoredMorph: probeMorph.
 	source addAttribute: anchorAttribute from: 65 to: 69.
 	
 	renderedSource := source asBPSource.

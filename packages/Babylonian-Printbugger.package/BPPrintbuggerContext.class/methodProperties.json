@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"newFor:" : "jb 6/10/2021 20:51" },
+	"instance" : {
+		"annotationIdToFlash" : "lu 3/7/2022 01:41",
+		"annotationIdToFlash:" : "lu 3/7/2022 01:40",
+		"clear" : "jb 2/2/2022 17:53",
+		"colorFor:having:" : "jb 6/29/2021 23:37",
+		"countAllIn:" : "jb 7/2/2021 15:02",
+		"countAllOut:" : "jb 7/2/2021 15:02",
+		"countIn:" : "jb 7/2/2021 15:01",
+		"countOut:" : "jb 7/2/2021 15:00",
+		"ignoreAnnotation:for:" : "lu 2/1/2022 01:08",
+		"ignoredAnnotationsOf:" : "lu 2/1/2022 01:15",
+		"initialize" : "lu 2/1/2022 00:25",
+		"track:" : "jb 7/2/2021 15:01",
+		"trackAll:" : "jb 7/1/2021 22:18",
+		"unignoreAnnotation:for:" : "lu 2/1/2022 01:07",
+		"untrack:" : "lu 2/15/2022 09:06",
+		"untrackAll:" : "jb 7/1/2021 22:18",
+		"update:with:" : "jb 7/2/2021 15:02" } }

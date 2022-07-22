@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-Printbugger",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lu 3/17/2022 01:18",
+	"instvars" : [
+		"context" ],
+	"name" : "BPPrintbugger",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

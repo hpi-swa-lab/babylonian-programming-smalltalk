@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"example" ],
+	"name" : "BPExampleAssertResultEditor",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

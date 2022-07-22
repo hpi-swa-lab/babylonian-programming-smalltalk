@@ -1,10 +1,10 @@
 private - ui
-editFieldStyledInitialContent: aString onChange: changeBlock onAccept: acceptBlock
+editFieldStyledInitialContent: aText onChange: changeBlock onAccept: acceptBlock
 	
 	
 	| field |
 	field := self 
-		editFieldInitialContent: aString 
+		editFieldInitialContent: aText 
 		onChange: changeBlock 
 		onAccept: acceptBlock.
 		

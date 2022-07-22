@@ -1,7 +1,7 @@
 #!/bin/bash
 # Copyright (c) 2014-2018 Software Architecture Group (Hasso Plattner Institute)
 # Copyright (c) 2015 Fabio Niephaus, Google Inc.
-# Copyright (c) 2020 Patrick Rein
+# Copyright (c) 2022 Patrick Rein
 
 set -e
 
@@ -11,7 +11,7 @@ function print_info {
 
 DEPLOY_PATH="deploy"
 BUILD_DIR=.
-SMALLTALK_VERSION="trunk"
+SMALLTALK_VERSION="6.0"
 VM=$SMALLTALK_CI_VM
 # ==============================================================================
 
@@ -27,18 +27,14 @@ mkdir -p "${DEPLOY_PATH}"
 cd "${DEPLOY_PATH}"
 
 print_info "Downloading Squeak-trunk image..."
-#wget http://files.squeak.org/5.3rc3/Squeak5.3rc3-19428-64bit/Squeak5.3rc3-19428-64bit-202002240037-Linux.zip
-#unzip Squeak5.3rc3-19428-64bit-202002240037-Linux.zip
-#mv Squeak5.3rc3-19428-64bit-202002240037-Linux Squeak5.3
 
-wget --no-verbose http://files.squeak.org/6.0alpha/Squeak6.0alpha-19999-64bit/Squeak6.0alpha-19999-64bit-202003021730-Linux.zip
-unzip -q Squeak6.0alpha-19999-64bit-202003021730-Linux.zip
-mv Squeak6.0alpha-19999-64bit-202003021730-Linux Squeak-trunk
+wget --no-verbose http://files.squeak.org/6.0/Squeak6.0-22104-64bit/Squeak6.0-22104-64bit-202206021410-Linux-x64.tar.gz
+tar xvf Squeak6.0-22104-64bit-202206021410-Linux-x64.tar.gz
+mv Squeak6.0-22104-64bit-202206021410-Linux-x64 Squeak-6.0
 
 mv Squeak-trunk/shared/*.image "${DEPLOY_IMAGE}"
 mv Squeak-trunk/shared/*.changes "${DEPLOY_CHANGES}"
-mv Squeak-trunk/shared/SqueakV50.sources .
-cp "../scripts/SOHCharacter.cs" SOHCharacter.cs
+mv Squeak-trunk/shared/SqueakV60.sources .
 
 print_info "Preparing image..."
 EXIT_STATUS=0

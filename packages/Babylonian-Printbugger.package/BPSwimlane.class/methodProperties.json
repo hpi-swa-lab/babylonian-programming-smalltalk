@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"assertionIconScale" : "lu 11/24/2021 14:04",
+		"assertionValueSpacing" : "lu 11/24/2021 13:54",
+		"barColorScheme" : "jb 7/10/2021 15:19",
+		"compilerClass" : "jb 6/2/2021 22:04",
+		"newFor:" : "jb 6/10/2021 23:33",
+		"newFor:withContext:" : "jb 6/10/2021 23:24" },
+	"instance" : {
+		"browseFor:" : "jb 2/22/2022 21:36",
+		"colorFor:" : "jb 11/20/2021 01:29",
+		"containingBrowser" : "jb 2/22/2022 21:21",
+		"context:" : "jb 6/10/2021 23:26",
+		"example" : "lu 3/7/2022 18:58",
+		"example:" : "jb 6/10/2021 15:06",
+		"initialize" : "jb 6/10/2021 23:34",
+		"initializeProperties" : "jb 12/5/2021 02:36",
+		"lineSubMorphs" : "jb 1/26/2022 22:04",
+		"newBackUpTitleMorphFor:" : "jb 2/22/2022 21:30",
+		"newTitleMorphFor:" : "jb 2/22/2022 21:29",
+		"stackMethodsFor:" : "jb 11/19/2021 21:21",
+		"titleMorphCloses" : "jb 1/27/2022 17:58",
+		"update:with:" : "lu 3/7/2022 01:54",
+		"updateLayoutToContext" : "jb 11/20/2021 01:33",
+		"visualize" : "lu 3/6/2022 22:45",
+		"visualizeLinesFor:" : "jb 3/9/2022 13:46" } }

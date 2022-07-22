@@ -5,6 +5,7 @@ asMorph
 	newMorph := BPExamplesMorph new
 		annotation: self;
 		yourself.
+	self updateTextAnchorPropertiesOf: newMorph.
 		
 	^ BPStyler wantsSidebarAnnotations 
 		ifTrue: [

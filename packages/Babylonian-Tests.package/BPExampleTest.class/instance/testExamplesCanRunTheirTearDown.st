@@ -1,7 +1,6 @@
 tests - running
 testExamplesCanRunTheirTearDown
 	
-	| example |
-	example := self createExamples first.
-	example tearDownScript: 'Notification signal'.
-	self should: [example runTearDown] raise: Notification.
+	self createExamples do: [:example |		
+		example tearDownScript: 'Notification signal'.
+		self should: [example runTearDown] raise: Notification].
