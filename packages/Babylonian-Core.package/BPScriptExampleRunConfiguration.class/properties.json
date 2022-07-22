@@ -4,12 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "pre 5/3/2021 14:16",
+	"commentStamp" : "",
 	"instvars" : [
-		"receiver",
-		"arguments",
-		"example" ],
-	"name" : "BPMethodExampleRunConfiguration",
+		"state" ],
+	"name" : "BPScriptExampleRunConfiguration",
 	"pools" : [
 		 ],
 	"super" : "BPExampleRunState",

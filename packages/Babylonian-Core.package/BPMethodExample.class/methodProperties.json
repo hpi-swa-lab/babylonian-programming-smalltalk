@@ -11,7 +11,7 @@
 		"canBeUsedForDoIts" : "jb 12/3/2020 22:38",
 		"initialize" : "pre 9/30/2020 09:55",
 		"initializeFromMethod:" : "pre 6/7/2021 15:11",
-		"initializeFromPragma:" : "pre 1/21/2021 16:06",
+		"initializeFromPragma:" : "pre 7/22/2022 21:06",
 		"isLiveSpecimenReference:" : "pre 7/10/2020 18:22",
 		"liveSpecimen" : "pre 1/22/2021 18:52",
 		"liveSpecimenAt:" : "pre 7/20/2022 17:29",
@@ -25,8 +25,4 @@
 		"receiverConstructorLiveSpecimen" : "pre 7/20/2022 17:31",
 		"receiverConstructorString" : "pre 3/2/2021 18:01",
 		"resolveLiveSpecimen:" : "jb 12/1/2020 14:22",
-		"runOn:" : "pre 5/3/2021 14:18",
-		"runSetUp" : "pre 5/3/2021 12:26",
-		"runSetUpWith:" : "pre 5/3/2021 14:18",
-		"runTearDown" : "pre 5/3/2021 14:27",
-		"runTearDownWith:" : "pre 5/3/2021 14:25" } }
+		"runOn:" : "pre 5/3/2021 14:18" } }

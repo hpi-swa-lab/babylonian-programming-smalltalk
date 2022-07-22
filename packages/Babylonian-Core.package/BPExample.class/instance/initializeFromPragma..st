@@ -1,7 +1,7 @@
 initialize-release
 initializeFromPragma: aPragma
 	
-	"'exampleNamed:' 'self:'? 'setUp:'? 'tearDown:'? 'with'*"
+	"'exampleNamed:' 'setUp:'? 'tearDown:'?"
 	self 
 		method: aPragma method;
 		exampleName: aPragma arguments first.
