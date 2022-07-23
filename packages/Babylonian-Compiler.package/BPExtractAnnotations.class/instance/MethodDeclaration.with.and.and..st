@@ -5,6 +5,7 @@ MethodDeclaration: aNode with: header and: pragmas and: code
 	self assert: annotations isNil description: 'The extract annotations attribute is not thread-safe!'. 
 	annotations := OrderedCollection new.
 	self 
+		value: header;
 		value: pragmas;
 		value: code.
 	resultingAnnotations := annotations.

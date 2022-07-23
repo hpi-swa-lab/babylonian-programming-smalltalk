@@ -3,11 +3,11 @@ bpSourceMap
 
 	^ (self propertyValueAt: #bpSourceMap) ifNil: [
 			| result map |
-			result := OhmExplicitSendsSmalltalk 
+			result := BPSmalltalkGrammar 
 				match: (BPStyler new selectedMethod: self methodReference; format: self getSource)
 				startingFrom: #MethodDeclaration.
 			result succeeded ifFalse: [self haltOnce. ^ #()].
-			map := (OhmExplicitSendsSmalltalk semanticAction: BPSourceMapping new) 
+			map := (BPSmalltalkGrammar semanticAction: BPSourceMapping new) 
 				createSourceMapFor: result cst.
 			self 
 				propertyValueAt: #bpSourceMap 

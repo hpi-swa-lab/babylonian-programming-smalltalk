@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"AnnotatedArgument:startTag:actualArgument:endTag:" : "pre 7/23/2022 20:12",
 		"AnnotatedBinaryMessageSend:startTag:actualMessage:endTag:" : "jb 12/7/2020 17:59",
 		"AnnotatedExpression:startTag:actualExpression:endTag:" : "jb 12/7/2020 18:00",
 		"AnnotatedKeywordMessageSend:startTag:actualMessage:endTag:" : "jb 12/7/2020 18:00",
@@ -11,6 +12,7 @@
 		"BinaryMessageSend:with:" : "pre 3/5/2020 16:40",
 		"Expression:with:" : "pre 1/24/2020 17:04",
 		"KeywordMessageSend:with:" : "pre 3/5/2020 16:38",
+		"NormalArgument:with:" : "pre 7/23/2022 20:12",
 		"Operand:with:" : "pre 3/5/2020 17:38",
 		"Statement:with:" : "pre 11/25/2020 10:19",
 		"UnaryMessageSend:with:" : "pre 3/5/2020 16:38",

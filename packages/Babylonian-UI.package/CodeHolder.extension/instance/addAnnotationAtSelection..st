@@ -13,5 +13,5 @@ addAnnotationAtSelection: anAnnotation
 	result := self 
 		addAnnotation: anAnnotation 
 		in: (self selectedInterval start to: self selectedInterval stop).
-	self codeTextMorph setSelection: (self selectedInterval start to: self selectedInterval stop).
+	self codeTextMorph setSelection: self selectedInterval.
 	^ result

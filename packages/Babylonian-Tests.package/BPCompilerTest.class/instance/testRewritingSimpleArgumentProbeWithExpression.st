@@ -8,5 +8,5 @@ testRewritingSimpleArgumentProbeWithExpression
 		to:
 'methodWithOneArgument: argument1
 	<layer: #bpInstrumented>
-	(self bpTraceMethodArgument: argument1 through: [2] forProbe: 1 inContext: thisContext).
+	(self bpTrace: [argument1] through: [2] forProbe: 1 inContext: thisContext).
 ^ argument1 + 3'
