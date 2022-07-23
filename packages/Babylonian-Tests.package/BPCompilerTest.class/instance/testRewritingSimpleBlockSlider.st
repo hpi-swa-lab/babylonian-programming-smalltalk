@@ -8,5 +8,6 @@ testRewritingSimpleBlockSlider
 		to:
 'method
 	<layer: #bpInstrumented>
-	#(a b c) do: [:v | | c | self bpBlock: 1230123 enteredAt: thisContext.
+	#(a b c) do: [:v | | c |
+self bpBlock: 1230123 enteredAt: thisContext.
 2 + 3]'.

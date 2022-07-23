@@ -11,7 +11,8 @@
 		"currentProbeId",
 		"currentBlockId",
 		"inCascade",
-		"currentSliderId" ],
+		"currentSliderId",
+		"argumentProbes" ],
 	"name" : "BPSourceRewriter",
 	"pools" : [
 		 ],

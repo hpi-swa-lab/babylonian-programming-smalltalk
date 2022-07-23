@@ -1,6 +1,6 @@
 tests - annotations - sliders
 testRewritingSimpleMethodSlider
-	<exampleNamed: 'some example 22' self: '(BPCompilerTest run: #testRewritingSimpleMethodSlider)'>
+	<scriptExampleNamed: 'test run' script:'(BPCompilerTest run: #testRewritingSimpleMethodSlider)'>
 	"Sliders do not influence the instrumentation"
 	self 
 		assertCompilerRewrites: 

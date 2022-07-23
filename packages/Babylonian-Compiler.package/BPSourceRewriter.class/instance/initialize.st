@@ -6,3 +6,4 @@ initialize
 	currentProbeId := 0.
 	currentBlockId := 0.
 	inCascade := false.
+	argumentProbes := OrderedCollection new.

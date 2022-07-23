@@ -10,4 +10,4 @@ testRewritingLeftHandOfAssignmentProbe
 'method
 	<layer: #bpInstrumented>
 	| variable |
-	(self bpTraceAssignmentOf: [variable := 2 raisedTo: 3] before: {''variable'' . variable} forProbe: 1 inContext: thisContext).'.
+(self bpTraceAssignmentOf: [variable := 2 raisedTo: 3] before: {''variable'' . variable} forProbe: 1 inContext: thisContext).'.

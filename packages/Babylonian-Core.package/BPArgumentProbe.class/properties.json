@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-Core-Annotations",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"argumentName" ],
+	"name" : "BPArgumentProbe",
+	"pools" : [
+		 ],
+	"super" : "BPProbe",
+	"type" : "normal" }

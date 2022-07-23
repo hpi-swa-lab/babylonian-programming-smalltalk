@@ -68,6 +68,21 @@ NormalMessageChain =
 
 AnnotatedMessageChain = expressionAnnotationStart MessageChain expressionAnnotationEnd
  
+Argument = 
+	AnnotatedArgument | NormalArgument
+
+NormalArgument = 
+	bindableIdentifier
+	
+AnnotatedArgument = 
+	expressionAnnotationStart NormalArgument expressionAnnotationEnd
+
+KeywordMethodHeaderSegment :=
+	keyword Argument
+	
+BinaryMethodHeader :=
+	binaryMessageSelector Argument
+	
 comment := 
 	~("\"<bp" | "\"</bp") "\"" (~"\"" (any | " " | "\n"))* "\""
 
