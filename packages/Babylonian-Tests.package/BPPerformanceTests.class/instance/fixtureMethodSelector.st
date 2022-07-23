@@ -1,0 +1,4 @@
+tests
+fixtureMethodSelector
+
+	^ #theFixtureMethod

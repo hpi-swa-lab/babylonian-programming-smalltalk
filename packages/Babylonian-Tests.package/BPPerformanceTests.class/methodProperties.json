@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"fixtureMethodSelector" : "pre 7/23/2022 20:39",
+		"fixtureMethodSource" : "pre 7/23/2022 20:44",
+		"setUp" : "pre 7/23/2022 20:51",
+		"tearDown" : "pre 7/23/2022 20:51",
+		"testAddingAnAnnotation" : "pre 7/23/2022 20:55" } }

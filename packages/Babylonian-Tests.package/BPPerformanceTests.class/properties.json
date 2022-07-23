@@ -1,0 +1,15 @@
+{
+	"category" : "Babylonian-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"browser",
+		"browserWindow" ],
+	"name" : "BPPerformanceTests",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
