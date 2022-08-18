@@ -4,6 +4,7 @@ displayLine: textLine offset: offset leftInRun: leftInRun
 	| stopCondition nowLeftInRun startIndex string lastPos lineHeight stop |
 	line := textLine.
 	morphicOffset := offset.
+	morphicLineYOffset := 0.
 	lineY := line top + offset y.
 	lineHeight := line lineHeight.
 	rightMargin := line rightMargin + offset x.
