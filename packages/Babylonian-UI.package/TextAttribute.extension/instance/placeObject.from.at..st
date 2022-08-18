@@ -1,4 +1,4 @@
 *Babylonian-UI
-placeObject: scanner
+placeObject: scanner from: aText at: characterIndex
 
 	"Subclasses may override to set, eg, font, color, etc"

@@ -34,4 +34,4 @@ setFont
 	
 	"Allow anyone to place some objects if they want"
 	(text attributesAt: lastIndex forStyle: textStyle)
-			do: [:att | att placeObject: self].
+			do: [:att | att placeObject: self from: text at: lastIndex].
