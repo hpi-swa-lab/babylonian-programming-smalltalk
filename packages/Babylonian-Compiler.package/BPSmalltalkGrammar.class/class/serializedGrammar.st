@@ -3,7 +3,19 @@ serializedGrammar
 	
 ^ 'BPSmalltalk <: OhmExplicitSendsSmalltalk {
 
-AnnotationInformation = Operand KeywordMessage?
+AnnotationInformation = Operand AnnotationInformationParameters?
+
+AnnotationInformationParameters = AnnotationInformationParameter+
+
+AnnotationInformationParameter = keyword (Literal | NestedExpression)
+
+BlockLiteral := NormalBlockLiteral | AnnotatedBlockLiteral
+
+NormalBlockLiteral = 
+	"[" BlockArguments? ExecutableCode? "]" -- normal
+	| "[" blockArgument+ "]" -- specialEmpty
+
+AnnotatedBlockLiteral = expressionAnnotationStart BlockLiteral expressionAnnotationEnd
 
 Expression := NormalExpression | AnnotatedExpression
 

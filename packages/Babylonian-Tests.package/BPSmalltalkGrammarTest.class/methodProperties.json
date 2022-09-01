@@ -23,6 +23,10 @@
 		"testMessageSendsCanBeAnnotated" : "jb 12/7/2020 19:09",
 		"testNormalExpressionsStillWork" : "pre 5/10/2019 11:27",
 		"testOtherCommentsAreStillComments" : "jb 12/7/2020 19:09",
+		"testRegressionAnnotationBlock01" : "pre 9/1/2022 20:39",
+		"testRegressionAnnotationBlock02" : "pre 9/1/2022 19:43",
+		"testRegressionAnnotationBlock03" : "pre 9/1/2022 19:44",
+		"testRegressionBlockWithComment01" : "pre 9/1/2022 19:41",
 		"testRegressionOtherPointyBracketComments" : "pre 8/6/2021 18:51",
 		"testRegressionProbeAnnotation01" : "jb 12/7/2020 19:09",
 		"testRegressionProbesExamplesReplacements01" : "jb 12/7/2020 19:09" } }

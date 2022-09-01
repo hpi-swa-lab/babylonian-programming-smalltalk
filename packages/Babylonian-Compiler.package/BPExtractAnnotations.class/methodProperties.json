@@ -4,6 +4,7 @@
 	"instance" : {
 		"AnnotatedArgument:startTag:actualArgument:endTag:" : "pre 7/23/2022 20:13",
 		"AnnotatedBinaryMessageSend:startTag:actualOperand:endTag:" : "pre 3/5/2020 16:36",
+		"AnnotatedBlockLiteral:startTag:actualBlock:endTag:" : "pre 9/1/2022 20:42",
 		"AnnotatedExpression:startTag:actualExpression:endTag:" : "pre 7/26/2019 10:49",
 		"AnnotatedKeywordMessageSend:startTag:actualOperand:endTag:" : "pre 3/5/2020 16:36",
 		"AnnotatedNode:startTag:actualNode:endTag:" : "jb 12/7/2020 18:01",
