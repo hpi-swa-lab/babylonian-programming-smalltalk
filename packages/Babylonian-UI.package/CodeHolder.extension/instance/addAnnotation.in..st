@@ -20,6 +20,5 @@ addAnnotation: anAnnotation in: interval
 		with: newContent.
 	(self codeTextMorph) 
 		addMorph: newMorph;
-		setText: newContent;
-		hasUnacceptedEdits: true;
-		accept.
+		setText: newContent.
+	self saveMethodWithExamples.

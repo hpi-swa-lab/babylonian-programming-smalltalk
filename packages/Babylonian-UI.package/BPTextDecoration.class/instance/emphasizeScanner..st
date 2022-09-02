@@ -1,5 +1,9 @@
 accessing
 emphasizeScanner: scanner
 	"Set the emphasis for text scanning"
-	(self anchoredMorph textEmphasis 
-		ifNil: [TextEmphasis underlined]) emphasizeScanner: scanner.
+	| emphasis |
+	emphasis := self anchoredMorph textEmphasis ifNil: [
+		self anchoredMorph visible 
+			ifTrue: [TextEmphasis underlined]
+			ifFalse: [TextEmphasis normal]].
+	emphasis emphasizeScanner: scanner.

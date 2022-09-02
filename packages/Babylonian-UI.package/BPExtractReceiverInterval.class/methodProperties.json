@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"Literal:with:" : "pre 9/2/2022 13:56",
+		"NormalBinaryMessageSend:receiver:and:" : "pre 9/2/2022 13:57",
+		"NormalExpressionBinaryCascade:with:and:" : "pre 9/2/2022 15:42",
+		"NormalExpressionOperandCascade:with:and:" : "pre 9/2/2022 15:42",
+		"NormalExpressionUnaryCascade:with:and:" : "pre 9/2/2022 15:42",
+		"NormalKeywordMessageSend:receiver:and:" : "pre 9/2/2022 13:54",
+		"NormalUnaryMessageSendBase:operand:" : "pre 9/2/2022 15:42",
+		"NormalUnaryMessageSendMessage:receiver:and:" : "pre 9/2/2022 15:42",
+		"defaultExpression:" : "pre 9/2/2022 15:52",
+		"extractInterval:" : "pre 9/2/2022 15:51",
+		"terminalExpression:" : "pre 9/2/2022 15:36" } }

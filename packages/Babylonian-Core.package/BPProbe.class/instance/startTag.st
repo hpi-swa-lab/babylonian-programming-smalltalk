@@ -9,5 +9,5 @@ startTag
 		ifTrue: [' expression: {1}' format: {self expression}] 
 		ifFalse: [''].
 	
-	^ '"<bpProbe id: {1}{2}{3}>"' format: {self id . label . expression}
+	^ '"<{4} id: {1}{2}{3}>"' format: {self id . label . expression . self probeTypeTag}
 	

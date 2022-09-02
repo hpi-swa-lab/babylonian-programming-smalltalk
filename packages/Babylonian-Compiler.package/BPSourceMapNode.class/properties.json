@@ -8,7 +8,8 @@
 	"instvars" : [
 		"ruleName",
 		"parent",
-		"interval" ],
+		"interval",
+		"children" ],
 	"name" : "BPSourceMapNode",
 	"pools" : [
 		 ],

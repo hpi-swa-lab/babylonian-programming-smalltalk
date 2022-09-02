@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"BinaryMessage:with:and:" : "pre 9/2/2022 15:53",
+		"KeywordMessageSegment:with:and:" : "pre 9/2/2022 14:16",
+		"Literal:with:" : "pre 9/2/2022 13:56",
+		"NormalBinaryMessageSend:receiver:and:" : "pre 9/2/2022 14:09",
+		"NormalExpressionBinaryCascade:with:and:" : "pre 9/2/2022 15:41",
+		"NormalExpressionOperandCascade:with:and:" : "pre 9/2/2022 15:53",
+		"NormalExpressionUnaryCascade:with:and:" : "pre 9/2/2022 15:53",
+		"NormalKeywordMessageSend:receiver:and:" : "pre 9/2/2022 15:53",
+		"NormalUnaryMessageSendBase:operand:" : "pre 9/2/2022 15:41",
+		"NormalUnaryMessageSendMessage:receiver:and:" : "pre 9/2/2022 15:53",
+		"UnaryMessage:with:" : "pre 9/2/2022 15:53",
+		"defaultExpression:" : "pre 9/2/2022 15:52",
+		"source" : "pre 9/2/2022 14:15",
+		"source:" : "pre 9/2/2022 14:15",
+		"terminalExpression:" : "pre 9/2/2022 15:54" } }
