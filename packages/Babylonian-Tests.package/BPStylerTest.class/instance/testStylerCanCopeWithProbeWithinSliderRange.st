@@ -10,8 +10,6 @@ testStylerCanCopeWithProbeWithinSliderRange
 	self 
 		assert: (formattedSourceCode asString includesSubstring: '[:n | 2 +');
 		assert: (formattedSourceCode asString includesSubstring: '3]');
-		deny: (formattedSourceCode asString includesSubstring: (Character startOfHeader asString , '[:n | 2 +')); "prevent legacy behavior, to be removed in v0.7 --pre"
-		deny: (formattedSourceCode asString includesSubstring: (Character startOfHeader asString , '3]')); "prevent legacy behavior, to be removed in v0.7 --pre"
 		deny: (formattedSourceCode asString includesSubstring: '</bpSlider>');
 		deny: (formattedSourceCode asString includesSubstring: '</bpProbe>').
 		
