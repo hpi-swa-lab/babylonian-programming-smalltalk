@@ -1,0 +1,1 @@
+The example recorder records the receiver and argument objects for calls to a method. The recorded objects are intended to be used as data to create an example later on.
