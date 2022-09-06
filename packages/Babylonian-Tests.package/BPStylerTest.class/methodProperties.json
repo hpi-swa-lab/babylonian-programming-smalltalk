@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"method" : "pre 7/22/2022 08:33",
+		"methodWithWorldExample" : "pre 9/6/2022 11:10",
 		"methodWithoutExample" : "pre 7/20/2022 16:17",
 		"runCase" : "pre 12/16/2020 19:16",
 		"setUp" : "jb 12/7/2020 19:10",
@@ -26,5 +27,6 @@
 		"testStylerSetsAnchorForReplacement" : "pre 9/2/2022 16:11",
 		"testStylerSetsAnchorForScriptExample" : "pre 7/20/2022 10:54",
 		"testStylerSetsAnchorForSlider" : "pre 9/2/2022 16:11",
+		"testStylerSetsAnchorForWorldExample" : "pre 9/6/2022 11:15",
 		"testUnstyledTextForMethodWithoutExample" : "pre 7/20/2022 16:18",
 		"testUnstyledTextFromBasic" : "pre 7/20/2022 14:49" } }

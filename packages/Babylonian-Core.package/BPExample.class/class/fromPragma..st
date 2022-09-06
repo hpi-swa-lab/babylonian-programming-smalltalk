@@ -1,6 +1,6 @@
 instance creation
 fromPragma: aPragma
 	
-	^ (self subclasses detect: [:c | aPragma keyword beginsWith: c bpExamplePragmaPrefix] ifNone: [self error]) new
+	^ (self allSubclasses detect: [:c | c isAbstract not and: [aPragma keyword beginsWith: c bpExamplePragmaPrefix]] ifNone: [self error]) new
 		initializeFromPragma: aPragma;
 		yourself

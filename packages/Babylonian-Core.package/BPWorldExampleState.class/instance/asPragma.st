@@ -1,0 +1,4 @@
+serialization
+asPragma
+
+	^ '<worldExample>'

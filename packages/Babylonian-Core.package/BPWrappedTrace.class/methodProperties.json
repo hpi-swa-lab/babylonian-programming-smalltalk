@@ -1,0 +1,28 @@
+{
+	"class" : {
+		"for:" : "pre 9/6/2022 09:43" },
+	"instance" : {
+		"assertions" : "pre 9/6/2022 09:44",
+		"chronologicallyTrackedTraceValuesCount" : "pre 9/6/2022 09:44",
+		"exampleErrored" : "pre 9/6/2022 09:44",
+		"exampleExecutionProcess" : "pre 9/6/2022 09:45",
+		"exampleExecutionProcess:" : "pre 9/6/2022 09:45",
+		"executionResult" : "pre 9/6/2022 09:45",
+		"hasTraceCompleted" : "pre 9/6/2022 09:45",
+		"hasTraceCompleted:" : "pre 9/6/2022 09:45",
+		"includesValuesForProbeId:" : "pre 9/6/2022 09:45",
+		"probes" : "pre 9/6/2022 10:02",
+		"recordedException" : "pre 9/6/2022 09:49",
+		"recordedException:" : "pre 9/6/2022 09:49",
+		"resultsForAssertionId:" : "pre 9/6/2022 09:49",
+		"runsForBlockId:" : "pre 9/6/2022 09:51",
+		"setActualTrace:" : "pre 9/6/2022 09:43",
+		"trace:forAssertion:inContext:" : "pre 9/6/2022 09:51",
+		"trace:forId:inContext:" : "pre 9/6/2022 09:51",
+		"traceAssignment:previousValues:forId:inContext:" : "pre 9/6/2022 09:52",
+		"traceBlock:enteredInContext:" : "pre 9/6/2022 09:52",
+		"traceException:" : "pre 9/6/2022 09:52",
+		"traceException:forId:" : "pre 9/6/2022 09:52",
+		"traceExecutionResult:" : "pre 9/6/2022 09:52",
+		"traceValues" : "pre 9/6/2022 09:52",
+		"valuesForProbeId:" : "pre 9/6/2022 09:52" } }

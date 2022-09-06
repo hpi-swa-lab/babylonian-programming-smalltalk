@@ -1,0 +1,4 @@
+accessing
+recordedException
+
+	self subclassResponsibility.

@@ -1,4 +1,4 @@
 constants
 bpExamplePragmaPrefix
-	
-	^ self subclassResponsibility
+	"Should be overridden by subclasses"
+	^ 'noExample'

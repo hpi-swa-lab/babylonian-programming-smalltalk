@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"example",
 		"probes",
 		"assertions",
 		"executionResult",
@@ -19,5 +18,5 @@
 	"name" : "BPTrace",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "BPGeneralTrace",
 	"type" : "normal" }

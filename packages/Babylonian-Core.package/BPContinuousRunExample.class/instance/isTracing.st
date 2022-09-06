@@ -1,0 +1,4 @@
+tracing
+isTracing
+
+	^ self subclassResponsibility

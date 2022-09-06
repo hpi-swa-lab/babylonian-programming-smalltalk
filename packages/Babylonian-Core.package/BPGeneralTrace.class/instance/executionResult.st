@@ -1,0 +1,3 @@
+accessing
+executionResult
+	self subclassResponsibility.

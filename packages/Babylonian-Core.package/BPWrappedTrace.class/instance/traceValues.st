@@ -1,0 +1,4 @@
+accessing
+traceValues
+
+	^ actualTrace traceValues

@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-Core-Tracing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"actualTrace" ],
+	"name" : "BPWrappedTrace",
+	"pools" : [
+		 ],
+	"super" : "BPGeneralTrace",
+	"type" : "normal" }

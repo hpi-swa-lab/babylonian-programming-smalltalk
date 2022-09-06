@@ -1,0 +1,4 @@
+accessing
+probes
+
+	self subclassResponsibility.

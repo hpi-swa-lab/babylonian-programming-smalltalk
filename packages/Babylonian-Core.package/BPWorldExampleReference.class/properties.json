@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-Core-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"SoleInstance" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"worldExampleState" ],
+	"name" : "BPWorldExampleReference",
+	"pools" : [
+		 ],
+	"super" : "BPContinuousRunExample",
+	"type" : "normal" }

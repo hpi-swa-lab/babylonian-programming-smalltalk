@@ -1,0 +1,5 @@
+tracing
+isTracing
+
+	^ worldExampleState isTracing
+	

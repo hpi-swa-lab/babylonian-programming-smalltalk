@@ -1,0 +1,4 @@
+accessing
+executionResult
+
+	^ actualTrace executionResult

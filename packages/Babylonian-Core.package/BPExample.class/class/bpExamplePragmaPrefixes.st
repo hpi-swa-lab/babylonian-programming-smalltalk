@@ -1,5 +1,6 @@
 constants
 bpExamplePragmaPrefixes
 	
-	^ self subclasses collect: [:c |
-		c bpExamplePragmaPrefix]
+	^ self allSubclasses 
+		select: [:c | c isAbstract not]
+		thenCollect: [:c | c bpExamplePragmaPrefix]

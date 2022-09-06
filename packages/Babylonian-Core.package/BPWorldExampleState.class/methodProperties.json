@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"bpExamplePragmaPrefix" : "pre 9/5/2022 13:14",
+		"initializeInstance" : "pre 9/5/2022 13:45",
+		"instance" : "pre 9/5/2022 13:15",
+		"new" : "pre 9/5/2022 13:15" },
+	"instance" : {
+		"asPragma" : "pre 9/5/2022 14:57",
+		"exampleName" : "pre 9/5/2022 14:52",
+		"initialize" : "pre 9/6/2022 09:09",
+		"installUIProcessTracing" : "pre 9/6/2022 10:17",
+		"isTracing" : "pre 9/6/2022 09:10",
+		"morphClass" : "pre 9/5/2022 14:52",
+		"removeUIProcessTracing" : "pre 9/5/2022 13:35",
+		"startTracing" : "pre 9/6/2022 10:17",
+		"stopTracing" : "pre 9/6/2022 09:09",
+		"uniqueIdentifier" : "pre 9/5/2022 13:17" } }

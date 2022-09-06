@@ -1,0 +1,4 @@
+accessing
+chronologicallyTrackedTraceValuesCount
+
+	self subclassResponsibility

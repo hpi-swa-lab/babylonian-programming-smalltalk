@@ -1,0 +1,4 @@
+accessing
+assertions
+
+	self subclassResponsibility

@@ -1,0 +1,4 @@
+testing
+hasTraceCompleted
+
+	^ actualTrace hasTraceCompleted

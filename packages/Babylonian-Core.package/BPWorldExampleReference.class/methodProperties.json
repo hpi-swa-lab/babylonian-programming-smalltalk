@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"bpExamplePragmaPrefix" : "pre 9/6/2022 11:14" },
+	"instance" : {
+		"asPragma" : "pre 9/6/2022 11:14",
+		"exampleName" : "pre 9/5/2022 14:52",
+		"initialize" : "pre 9/6/2022 10:14",
+		"initializeFromPragma:" : "pre 9/6/2022 10:29",
+		"isTracing" : "pre 9/6/2022 09:10",
+		"morphClass" : "pre 9/5/2022 14:52",
+		"startTracing" : "pre 9/6/2022 09:09",
+		"stopTracing" : "pre 9/6/2022 09:10",
+		"uniqueIdentifier" : "pre 9/5/2022 13:17",
+		"update:with:" : "pre 9/6/2022 10:16" } }

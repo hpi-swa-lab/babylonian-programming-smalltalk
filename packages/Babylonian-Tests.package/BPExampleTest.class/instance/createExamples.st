@@ -12,6 +12,6 @@ createExamples
 			exampleName: 'test name 2';
 			script: '2 + 3';
 			yourself}.
-	self assert: ((examples collect: [:e | e class]) hasEqualElements: BPExample allSubclasses).
+	self assert: (examples collect: [:e | e class]) asSet = BPSingleRunExample allSubclasses asSet.
 	^ examples
 			

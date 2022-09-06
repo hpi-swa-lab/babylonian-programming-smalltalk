@@ -1,0 +1,5 @@
+accessing
+traceInBackground
+
+	"NOP"
+	^ self

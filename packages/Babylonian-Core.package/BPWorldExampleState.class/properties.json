@@ -1,0 +1,15 @@
+{
+	"category" : "Babylonian-Core-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"SoleInstance" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"isTracing",
+		"trace" ],
+	"name" : "BPWorldExampleState",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

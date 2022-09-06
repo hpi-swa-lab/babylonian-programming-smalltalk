@@ -1,0 +1,4 @@
+accessing
+uniqueIdentifier
+
+	^ 'world example'

@@ -1,4 +1,4 @@
-as yet unclassified
+text emphasis
 textEmphasis
 
 	^ TextEmphasis normal

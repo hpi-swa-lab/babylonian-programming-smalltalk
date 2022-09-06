@@ -1,0 +1,4 @@
+accessing
+exampleName
+
+	^ self uniqueIdentifier
