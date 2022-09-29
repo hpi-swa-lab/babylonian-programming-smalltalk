@@ -1,0 +1,4 @@
+accessing
+tracingProcess
+
+	^ traceInformation tracingProcess 

@@ -12,7 +12,8 @@
 		"traceInformation",
 		"expectedResult",
 		"setUpScript",
-		"tearDownScript" ],
+		"tearDownScript",
+		"timeout" ],
 	"name" : "BPExample",
 	"pools" : [
 		 ],

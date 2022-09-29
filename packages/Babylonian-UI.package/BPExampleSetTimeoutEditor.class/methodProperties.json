@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"buildTimeoutTextSpecWith:" : "joabe 9/29/2022 00:29",
+		"buildUnitTextSpecWith:" : "joabe 9/29/2022 00:29",
+		"buildWindowSpecWith:" : "joabe 9/29/2022 00:29",
+		"buildWith:" : "joabe 9/29/2022 00:29",
+		"example" : "joabe 9/27/2022 20:30",
+		"example:" : "joabe 9/27/2022 20:30",
+		"timeout" : "joabe 9/27/2022 23:26",
+		"timeout:" : "joabe 9/27/2022 22:33",
+		"unitText" : "joabe 9/27/2022 22:44",
+		"windowLabel" : "joabe 9/27/2022 20:31" } }
