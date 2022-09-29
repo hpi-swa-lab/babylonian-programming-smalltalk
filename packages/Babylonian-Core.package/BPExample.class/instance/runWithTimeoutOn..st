@@ -9,8 +9,8 @@ runWithTimeoutOn: initialState
 	watchdog := [ 
 		delay wait. 
 		"We sadly cannot simply ask self tracingIsStillRunning as the values rely
-		on this method's return value which is not done at this point. So uglyish complete workaround" 
-		complete ifFalse: [self tracingProcess suspend]] newProcess.
+		on this method's return value which is not done at this point. So uglyish complete workaround"  
+		complete ifFalse: [self suspendTracingProcess]] newProcess.
 	watchdog priority: Processor timingPriority-1.
 	watchdog resume.		
 	
