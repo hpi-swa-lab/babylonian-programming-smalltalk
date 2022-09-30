@@ -9,7 +9,7 @@ newExampleSelectionButtonMorph
 			action: [self offerExampleSelectionMenu];
 			help: 'Determines the example which trace is displayed in this lane.';
 			yourself))
-		extent: 40@20;
+		extent: 80@20;
 		hResizing: #rigid;
 		vResizing: #rigid;
 		yourself
