@@ -8,7 +8,9 @@ step
 		ifFalse: [self ensureNoErrorIndicator].
 		
 	(trace notNil and: [trace hasTraceCompleted not and: [self example tracingIsStillRunning]])
-		ifTrue: [self ensureLoaderIcon]
+		ifTrue: [ 
+			self example tracingProcessIsSuspended 
+				ifTrue: [self ensureResumeTracingIcon]
+				ifFalse: [self ensureLoaderIcon]]
 		ifFalse: [self ensureNoLoaderIcon].
-		
 	self updateAssertResultIcon.

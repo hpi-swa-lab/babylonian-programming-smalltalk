@@ -1,4 +1,4 @@
 accessing
 hasExpectedResult
 
-	^ self expectedResult isEmptyOrNil
+	^ self expectedResult isEmptyOrNil not

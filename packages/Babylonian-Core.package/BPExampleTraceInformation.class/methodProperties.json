@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"isProcessSuspended" : "joabe 9/28/2022 01:08",
 		"probes" : "jb 5/19/2021 19:35",
 		"terminateTracingProcess" : "jb 12/7/2020 18:12",
 		"trace" : "pre 8/18/2020 08:45",

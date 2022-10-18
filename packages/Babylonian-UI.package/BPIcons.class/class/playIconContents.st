@@ -1,0 +1,13 @@
+icons-contents
+playIconContents
+
+	"Auto-generated.
+	Copyright Feather Icons: https://github.com/feathericons/feather.
+licensed under MIT license"
+	^ 'iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAABmJLR0QA/wD/AP+gvaeTAAAB
+EElEQVRYhe3Yr0oFQRSA8Z+KWLxB0GLQJMJ9A5PVaDHZfQXfQKxGm9lyk1abT2ASBIvFYBDE
+P6BrGBcvgzftxXO43A+mzJ7d/ZiZPXNmmTJBHOEVZ1iOVSm8o/lpj9iP1fmVGW4XWMsk1OAF
+h5iLFDrBZ9V3jX6UEGzhpur/wDEWIoRgXpmut+r6LbYjhFo2cFXFfOEUvQghmMEBnqvYB+xG
+CLWsYlDFNzjHSoRQy56SQIfve1JGMUQIlpR1VI/WJdYjhFp2cF89o3NC7SIEi0Yn1M0IoZa/
+EurdqODZji/7VyZqytIs6lSffZrEmGbrSLW5pik/UhVoqUrYdEX+WBPcOIVCD4rpjtLpfjZM
+Sck3vDnZkTTCqg4AAAAASUVORK5CYII='

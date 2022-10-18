@@ -1,5 +1,4 @@
 tracing
 tracingIsStillRunning
 	
-	^ traceInformation tracingProcess notNil and: [
-		traceInformation tracingProcess isTerminated not]
+	^ self tracingProcess notNil and: [self tracingProcess isTerminated not]
