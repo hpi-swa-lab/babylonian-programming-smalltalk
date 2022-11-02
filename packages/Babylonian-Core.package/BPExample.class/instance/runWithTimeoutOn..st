@@ -1,19 +1,15 @@
 executing
 runWithTimeoutOn: initialState
-	"Code heavily based off BlockClosure>>valueWithin:onTimeout:.
-	See there for explanation"
-	| delay watchdog complete |
-	delay := self timeout milliSeconds asDelay.
+	| complete semaphore |
+	semaphore := Semaphore new.
 	complete := false.
-
-	watchdog := [ 
-		delay wait. 
+	
+	self startWatchdog: [
+		semaphore waitTimeoutMSecs: self timeout. 
 		"We sadly cannot simply ask self tracingIsStillRunning as the values rely
 		on this method's return value which is not done at this point. So uglyish complete workaround"  
-		complete ifFalse: [self suspendTracingProcess]] newProcess.
-	watchdog priority: Processor timingPriority-1.
-	watchdog resume.		
-	
+		complete ifFalse: [self suspendTracingProcess]].
+
 	[ ^ self runOn: initialState] ensure: [
 		complete := true. 
-		delay delaySemaphore signal. ]
+		semaphore signal]
