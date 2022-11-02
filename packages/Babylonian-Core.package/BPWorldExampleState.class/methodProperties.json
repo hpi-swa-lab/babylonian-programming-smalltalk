@@ -11,6 +11,7 @@
 		"installUIProcessTracing" : "pre 9/6/2022 10:17",
 		"isTracing" : "pre 9/6/2022 09:10",
 		"morphClass" : "pre 9/5/2022 14:52",
+		"removeTrace" : "pre 9/7/2022 10:56",
 		"removeUIProcessTracing" : "pre 9/5/2022 13:35",
 		"startTracing" : "pre 9/6/2022 10:17",
 		"stopTracing" : "pre 9/6/2022 09:09",
