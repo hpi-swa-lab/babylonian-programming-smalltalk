@@ -1,4 +1,4 @@
 requestor compatibility
 hasBindingOf: aString
 	
-	^ arguments includesKey: aString asSymbol
+	^ aString asSymbol = #exampleReceiver or: [arguments includesKey: aString asSymbol]

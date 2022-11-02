@@ -5,5 +5,5 @@ prepareRunState
 		^ BPMethodExampleRunConfiguration new
 			example: self;
 			receiver: self newReceiver;
-			arguments: self newArgumentsDictionary;
+			in: [:config | self initializeArgumentsDictionaryIn: config];
 			yourself].

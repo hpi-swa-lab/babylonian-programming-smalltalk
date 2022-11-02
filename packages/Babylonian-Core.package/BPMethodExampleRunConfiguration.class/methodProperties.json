@@ -4,9 +4,11 @@
 	"instance" : {
 		"arguments" : "pre 8/6/2021 18:01",
 		"arguments:" : "pre 8/6/2021 18:02",
-		"bindingOf:" : "pre 8/6/2021 18:04",
+		"atArgumentNamed:put:" : "pre 9/19/2022 15:27",
+		"bindingOf:" : "pre 9/19/2022 15:31",
 		"example" : "pre 5/3/2021 14:19",
 		"example:" : "pre 5/3/2021 14:19",
-		"hasBindingOf:" : "pre 8/6/2021 18:11",
+		"hasBindingOf:" : "pre 9/19/2022 15:31",
+		"initialize" : "pre 9/19/2022 15:25",
 		"receiver" : "pre 5/3/2021 14:16",
 		"receiver:" : "pre 5/3/2021 14:16" } }
