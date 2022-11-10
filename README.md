@@ -10,7 +10,7 @@ A Smalltalk implementation of the Babylonian Programming System.
 ```Smalltalk
 Metacello new
   baseline: 'BabylonianProgramming';
-  repository: 'github://hpi-swa-lab/babylonian-programming-smalltalk/packages';
+  repository: 'github://hpi-swa-lab/babylonian-programming-smalltalk:main/packages';
   load.
 ```
 
