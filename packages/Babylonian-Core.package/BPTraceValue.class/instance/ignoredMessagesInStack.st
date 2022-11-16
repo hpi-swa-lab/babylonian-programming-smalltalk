@@ -1,5 +1,5 @@
 private
-filterableMessagesInStack
+ignoredMessagesInStack
 
 	^ {MethodReference class: BlockClosure selector: #newProcess.
 		MethodReference class: BPExample selector: #traceInBackground.

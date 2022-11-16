@@ -1,15 +1,19 @@
 private - ui
-addInteractionsToStackMorph: aStackMorph for: aMethodReference
+addInteractionsToStackMorph: aStackMorph for: abpContext
 
+	context forStackFrame: abpContext add: aStackMorph.	
 	aStackMorph 
 		on: #click 
 			send: #value 
-			to: [containingSwimlane browseFor: aMethodReference compiledMethod];
+			to: [containingSwimlane browseFor: abpContext methodReference compiledMethod];
 		on: #mouseEnter
 			send: #value
-			to: [aStackMorph borderStyle: (BorderStyle width: 1 color: Color black).
+			to: [
+				(context stackColumnFor: abpContext) do: [:stackFrameMorph |
+					stackFrameMorph borderStyle: (BorderStyle width: 1 color: Color black)].
 				aStackMorph showBalloon: aStackMorph balloonText hand: nil];
 		on: #mouseLeave
 			send: #value
-			to: [aStackMorph borderStyle: nil.
+			to: [(context stackColumnFor: abpContext) do: [:stackFrameMorph |
+					stackFrameMorph borderStyle: nil]..
 				aStackMorph deleteBalloon].

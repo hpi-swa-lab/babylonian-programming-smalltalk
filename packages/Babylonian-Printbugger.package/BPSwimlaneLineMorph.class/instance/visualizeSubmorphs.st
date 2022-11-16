@@ -8,4 +8,3 @@ visualizeSubmorphs
 	self addAllMorphsBack: {self newHaltButton.
 		self newBarMorphOfHeight: (valueMorph fullBounds height + padding).
 		valueMorph.}.
-	

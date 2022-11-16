@@ -1,5 +1,5 @@
 private
-filterableClassesInStack
+ignoredClassesInStack
 
 	^ {	BlockClosure.
 		Symbol.

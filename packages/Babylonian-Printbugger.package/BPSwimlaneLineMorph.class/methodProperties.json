@@ -4,7 +4,7 @@
 		"assertionValueSpacing" : "lu 3/7/2022 00:49",
 		"newFor:in:calledBy:withContext:" : "lu 3/7/2022 18:36" },
 	"instance" : {
-		"addInteractionsToStackMorph:for:" : "pre 11/16/2022 11:06",
+		"addInteractionsToStackMorph:for:" : "pre 11/16/2022 16:17",
 		"colorFor:" : "lu 3/7/2022 19:27",
 		"containingSwimlane:" : "lu 3/7/2022 18:35",
 		"context:" : "lu 3/7/2022 00:21",
@@ -13,13 +13,13 @@
 		"haltButtonClicked" : "lu 3/7/2022 18:35",
 		"iconSize" : "lu 3/7/2022 00:37",
 		"initialize" : "lu 3/7/2022 00:50",
-		"initializeProperties" : "lu 3/7/2022 01:57",
+		"initializeProperties" : "pre 11/16/2022 16:32",
 		"isTraceValueVisible" : "lu 3/7/2022 18:35",
 		"newAssertionValueMorph" : "lu 3/7/2022 01:04",
-		"newBarMorphOfHeight:" : "pre 11/16/2022 11:11",
+		"newBarMorphOfHeight:" : "pre 11/16/2022 16:33",
 		"newHaltButton" : "lu 3/7/2022 01:42",
 		"newLabelValuePairMorph" : "lu 3/8/2022 15:03",
-		"newStackFrameMorphFor:withHeight:" : "jb 3/9/2022 13:40",
+		"newStackFrameMorphFor:withHeight:" : "pre 11/16/2022 16:15",
 		"newToggleAnnotationVisibilityButtonWithVisibility:" : "jb 3/9/2022 13:41",
 		"newValueMorph" : "lu 3/7/2022 01:04",
 		"positionInAnnotations" : "lu 3/7/2022 18:35",
@@ -29,4 +29,4 @@
 		"stackOfMethodReferences:" : "lu 3/7/2022 00:19",
 		"toggleAnnotationVisibilityButtonClicked" : "lu 3/7/2022 19:25",
 		"traceValue:" : "lu 3/7/2022 00:20",
-		"visualizeSubmorphs" : "lu 3/7/2022 01:08" } }
+		"visualizeSubmorphs" : "pre 11/16/2022 15:41" } }

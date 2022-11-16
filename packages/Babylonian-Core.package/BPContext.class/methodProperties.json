@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"newFrom:" : "pre 11/16/2022 15:59" },
+	"instance" : {
+		"=" : "pre 11/16/2022 16:01",
+		"contextIdentityHash" : "pre 11/16/2022 15:59",
+		"contextIdentityHash:" : "pre 11/16/2022 15:59",
+		"hash" : "pre 11/16/2022 16:00",
+		"identityHash:" : "pre 11/16/2022 15:58",
+		"methodClass" : "pre 11/16/2022 15:58",
+		"methodClass:" : "pre 11/16/2022 15:58",
+		"methodReference" : "pre 11/16/2022 16:03",
+		"receiverIdentityHash" : "pre 11/16/2022 15:58",
+		"receiverIdentityHash:" : "pre 11/16/2022 15:58",
+		"selector" : "pre 11/16/2022 15:58",
+		"selector:" : "pre 11/16/2022 15:58" } }

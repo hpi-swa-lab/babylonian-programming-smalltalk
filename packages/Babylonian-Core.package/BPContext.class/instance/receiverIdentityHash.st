@@ -1,0 +1,4 @@
+accessing
+receiverIdentityHash
+
+	^ receiverIdentityHash
