@@ -10,7 +10,7 @@ newBarMorphOfHeight: aNumber
 		wrapCentering: #center;
 		hResizing: #shrinkWrap;
 		vResizing: #shrinkWrap;
-		cellInset: 1@0;
+		cellInset: 0@0;
 		addAllMorphsBack: (stackOfMethodReferences collect: [:aStackMethod |
 			 self newStackFrameMorphFor:  aStackMethod withHeight: aNumber]);
 		yourself
