@@ -12,7 +12,7 @@
 		"initExamplesWithoutAnnotations" : "lu 11/24/2021 10:30",
 		"runCase" : "jb 6/3/2021 14:18",
 		"setUp" : "jb 7/2/2021 00:50",
-		"tearDown" : "jb 7/2/2021 00:50",
+		"tearDown" : "pre 11/16/2022 16:46",
 		"testDeletesAbundantNilExampleColumn" : "jb 2/2/2022 18:16",
 		"testShows2SwimlanesFor2ActiveExamples" : "jb 1/31/2022 17:57",
 		"testShowsAllExamplesForSelection" : "jb 2/2/2022 17:35",
