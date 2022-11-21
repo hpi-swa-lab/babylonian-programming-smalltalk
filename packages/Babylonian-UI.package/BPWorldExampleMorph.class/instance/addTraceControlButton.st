@@ -1,11 +1,11 @@
 private - ui
 addTraceControlButton
 
-	traceControlButton := SimpleButtonMorph newWithLabel: 'start recording'.
+	traceControlButton := SimpleButtonMorph newWithLabel: (self example isTracing ifTrue: [self stopTracingLabel] ifFalse: [self startTracingLabel]).
 	traceControlButton 
 		color: Color transparent;
 		borderWidth: 0;
-		extent: traceControlButton extent * 0.7;
+		extent: traceControlButton extent * 0.8;
 		name: #traceControlButton.
 	traceControlButton 
 		actionSelector: #traceControlButtonClicked;
