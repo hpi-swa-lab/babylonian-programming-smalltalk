@@ -1,7 +1,7 @@
 private
 updateFrom: traces
 	
-	| scrollPane average count range |
+	| scrollPane average count stdev |
 	tracesMorph removeAllMorphs.
 	
 	"Now to the results"
@@ -18,8 +18,8 @@ updateFrom: traces
 				times := values collect: [:v | v tracedValue].
 				count := times size.
 				average := times average.
-				range := times range.
-				valuesMorph addMorphBack: ('{1} executions ({2} ms +/- {3})' format: {count . average . range}) asText asMorph].
+				stdev := self standardDeviation: times.
+				valuesMorph addMorphBack: ('{1} executions ({2} ms +/- {3})' format: {count . average . stdev}) asText asMorph].
 			
 		"The following is necessary to determine the actual width of the morph
 		after it wrapped around its submorphs"
