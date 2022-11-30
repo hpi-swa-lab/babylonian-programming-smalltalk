@@ -43,6 +43,7 @@
 		"testRewritingSimpleExpressionReplacement" : "jb 12/7/2020 19:07",
 		"testRewritingSimpleMethodSlider" : "pre 7/23/2022 15:30",
 		"testRewritingSimpleOperandProbe" : "jb 12/7/2020 19:07",
+		"testRewritingSimpleProfilingProbe" : "pre 11/30/2022 09:26",
 		"testRewritingSimpleUnaryMessageChainProbe" : "jb 12/7/2020 19:07",
 		"testRewritingTwoArgumentProbes" : "pre 7/23/2022 16:04",
 		"testRewritingUnaryInBinaryMessageChainProbe" : "jb 12/7/2020 19:07",

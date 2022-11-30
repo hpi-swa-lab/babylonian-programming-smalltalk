@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"annotationTag" : "pre 11/29/2022 16:31" },
+	"instance" : {
+		"asMorph" : "pre 11/29/2022 16:19",
+		"instrumentationCallFor:" : "pre 11/29/2022 16:25",
+		"isProfilingProbe" : "pre 11/29/2022 16:30",
+		"startTag" : "pre 11/29/2022 16:31",
+		"stopTag" : "pre 11/29/2022 16:31" } }
