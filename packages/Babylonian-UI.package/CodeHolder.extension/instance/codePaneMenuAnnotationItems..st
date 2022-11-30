@@ -16,7 +16,8 @@ codePaneMenuAnnotationItems: aMenu
 		add: 'add assertion' action: #addAssertionToSelection;
 		add: 'add replacement' action: #addReplacementToSelection;
 		add: 'add slider' action: #addSliderToSelection;
-		add: 'add profiling probe' action: #addProfilingProbeToSelection.
+		add: 'add profiling probe' action: #addProfilingProbeToSelection;
+		add: 'add type probe' action: #addTypeProbeToSelection.
 
 	aMenu addLine.
 	
@@ -30,5 +31,7 @@ codePaneMenuAnnotationItems: aMenu
 		aMenu add: 'remove slider' action: #removeSliderFromSelection].
 	(annotationsInSelection anySatisfy: [:a | a isProfilingProbe]) ifTrue: [
 		aMenu add: 'remove profiling probe' action: #removeProfilingProbe].
+	(annotationsInSelection anySatisfy: [:a | a isTypeProbe]) ifTrue: [
+		aMenu add: 'remove type probe' action: #removeTypeProbe].
 	
 	^ aMenu
