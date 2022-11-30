@@ -3,7 +3,7 @@ updateFrom: traces
 	
 	| scrollPane average count range |
 	tracesMorph removeAllMorphs.
-	self haltOnce.
+	
 	"Now to the results"
 	self relevantTracesOf: traces do: [:trace | | lineMorph valuesMorph |
 		lineMorph := self ensureLineMorphFor: trace.
@@ -12,7 +12,7 @@ updateFrom: traces
 		
 		valuesMorph := self newExampleLineMorph.
 		(trace valuesForProbeId: self annotation id) 
-			ifEmpty: [valuesMorph addMorphBack: ToolIcons testGray asMorph]
+			ifEmpty: [valuesMorph addMorphBack: (self noValuesTextFor: trace) asMorph]
 			ifNotEmpty: [:results | |values times|
 				values := self filterValues: results throughSliderForTrace: trace.
 				times := values collect: [:v | v tracedValue].
