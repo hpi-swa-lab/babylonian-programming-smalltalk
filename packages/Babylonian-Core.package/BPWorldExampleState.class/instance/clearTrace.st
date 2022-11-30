@@ -1,0 +1,4 @@
+accessing
+clearTrace
+
+	trace := nil.

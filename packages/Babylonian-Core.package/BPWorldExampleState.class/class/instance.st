@@ -1,4 +1,5 @@
 singleton
 instance
 
-	^ SoleInstance ifNil: [self initializeInstance]
+	SoleInstance ifNil: [self initializeInstance].
+	^ SoleInstance
