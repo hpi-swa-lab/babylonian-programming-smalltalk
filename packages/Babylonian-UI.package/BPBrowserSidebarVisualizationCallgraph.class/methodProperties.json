@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildWith:" : "pre 3/11/2021 17:35",
-		"example:" : "pre 3/11/2021 17:50",
-		"highlightMethod:" : "cmfcmf 11/2/2020 14:27",
-		"highlightTraceValue:id:" : "cmfcmf 11/9/2020 15:33",
-		"initialize" : "pre 3/11/2021 17:35" } }
+		"buildWith:" : "osd 3/17/2021 12:04",
+		"example:" : "osd 3/17/2021 12:04",
+		"highlightMethod:" : "osd 3/18/2021 16:41",
+		"highlightTraceValue:id:" : "osd 3/17/2021 20:13",
+		"initialize" : "pre 3/11/2021 17:35",
+		"initializeEvents" : "osd 3/17/2021 12:04" } }

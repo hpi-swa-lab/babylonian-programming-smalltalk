@@ -1,0 +1,26 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"bottomBackgroundColor:" : "cmfcmf 11/6/2020 16:02",
+		"bottomBackgroundColorFor:" : "cmfcmf 11/6/2020 15:50",
+		"bottomDoubleClickFor:" : "cmfcmf 11/4/2020 13:40",
+		"bottomEntries" : "cmfcmf 11/6/2020 15:54",
+		"bottomIconColumnFor:" : "cmfcmf 11/4/2020 16:22",
+		"bottomIconFor:" : "pre 4/6/2021 17:07",
+		"bottomIconFor:row:" : "pre 4/6/2021 17:07",
+		"bottomKey:pressedFor:" : "cmfcmf 11/4/2020 14:00",
+		"bottomLabelFor:" : "cmfcmf 11/5/2020 13:17",
+		"bottomMenu:for:" : "cmfcmf 11/10/2020 10:52",
+		"bottomTextAttributesFor:" : "cmfcmf 11/4/2020 13:39",
+		"bottomTextAttributesFor:row:" : "cmfcmf 11/5/2020 13:21",
+		"calculateBottomContent" : "pre 4/6/2021 13:50",
+		"highlightMethod:" : "osd 3/18/2021 15:01",
+		"preprocessBottomEntriesForAncestorSearch:" : "cmfcmf 11/5/2020 12:37",
+		"selectMatchingEntriesFromCallgraph:" : "cmfcmf 11/5/2020 12:38",
+		"topDoubleClickFor:" : "cmfcmf 11/4/2020 12:52",
+		"topEntries" : "osd 3/19/2021 13:20",
+		"topKey:pressedFor:" : "cmfcmf 11/4/2020 14:01",
+		"topLabelFor:" : "cmfcmf 11/4/2020 16:10",
+		"topMenu:for:" : "cmfcmf 11/10/2020 10:09",
+		"topTextAttributesFor:" : "pre 4/6/2021 17:05" } }

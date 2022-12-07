@@ -1,7 +1,7 @@
 *Babylonian-Core
 bpAsDictionary
-	<exampleNamed: 'some example 69' active: true self: 'Pragma keyword: #exampleNamed:self:tearDown:with:with arguments: #(''one'' #new #basicTearDown 100 200)'>
-	| associations exampleArguments |
+	<exampleNamed: 'some example 69' self: 'Pragma keyword: #exampleNamed:self:tearDown:with:with arguments: #(''one'' #new #basicTearDown 100 200)'>
+	| associations exampleArguments | 
 	associations := (self keyword findTokens: ':') 
 		with: self arguments 
 		collect: [:keyword :argument |

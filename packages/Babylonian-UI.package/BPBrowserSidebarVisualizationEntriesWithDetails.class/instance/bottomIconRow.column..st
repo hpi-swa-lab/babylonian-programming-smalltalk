@@ -5,5 +5,5 @@ bottomIconRow: row column: column
 	entry := self bottomEntries at: row.
 	
 	^ column == (self bottomIconColumnFor: entry)
-		ifTrue: [(self bottomIconFor: entry) ifNil: [ToolIcons blank]]
+		ifTrue: [(self bottomIconFor: entry row: row) ifNil: [ToolIcons blank]]
 		ifFalse: [ToolIcons blank]

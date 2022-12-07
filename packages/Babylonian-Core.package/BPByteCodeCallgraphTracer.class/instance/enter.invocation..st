@@ -6,5 +6,5 @@ enter: aString invocation: aNumber
 	events nextPut: aString.
 	events nextPut: aNumber.
 	senderContext := thisContext sender sender sender.
-	events nextPut: senderContext pc.
-	events nextPut: senderContext method.
+	events nextPut: 0"senderContext pc".
+	events nextPut: 0"senderContext method".

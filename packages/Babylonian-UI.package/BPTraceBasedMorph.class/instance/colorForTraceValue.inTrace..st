@@ -10,7 +10,9 @@ colorForTraceValue: aBPTraceValue inTrace: aBPTrace
 				(each isKindOf: BPCallgraphEntryBPProbeOrAssertion) and: [each traceValue == value]].
 			path := (entry pathWithResolvedOutOfStackJumps: callgraph) allButLast collect: #asPathPart.
 			value -> path].
-		uniquePaths := (paths collect: #value) withoutDuplicates.
-		colors := "("Color wheel: uniquePaths size" // 2), (Color wheel: uniquePaths size // 2 saturation: 0.3 brightness: 0.8)".
-		Dictionary newFrom: (paths collect: [:each | each key -> (colors at: (uniquePaths indexOf: each value))])
+		uniquePaths := Dictionary newFrom: ((paths collect: #value) withoutDuplicates collect: [:aPath |
+			aPath -> (aPath ifEmpty: 0 ifNotEmpty: [((aPath collect: [:entry | entry hash]) sum * 3 / 13) floor])]).
+		"self haltOnce."
+		colors := "("Color orderedCrayonColorNames " // 2), (Color wheel: uniquePaths size // 2 saturation: 0.3 brightness: 0.8)".
+		Dictionary newFrom: (paths collect: [:each | each key -> (BPExample exampleColors atWrap: (uniquePaths at: each value))])
 		]) at: aBPTraceValue

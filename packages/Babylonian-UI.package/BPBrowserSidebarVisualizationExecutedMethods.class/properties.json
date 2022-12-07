@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"additionalBottomTextAttributes" ],
+		"additionalBottomTextAttributes",
+		"additionalBottomTextIcons" ],
 	"name" : "BPBrowserSidebarVisualizationExecutedMethods",
 	"pools" : [
 		 ],

@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"configure" : "pre 1/22/2021 17:01",
-		"packagesToInstrument" : "pre 3/11/2021 16:03" },
+		"packagesToInstrument" : "pre 3/16/2021 09:34" },
 	"instance" : {
 		"accept" : "pre 1/22/2021 16:49",
 		"buildButtons:" : "pre 1/22/2021 17:02",
@@ -10,7 +10,7 @@
 		"buildWith:" : "pre 1/22/2021 16:52",
 		"buttonWidth" : "TB 4/22/2018 11:44",
 		"categoriesPlusPrefixes" : "TB 4/22/2018 00:37",
-		"configure" : "pre 3/11/2021 16:38",
+		"configure" : "pre 3/16/2021 12:33",
 		"hasInstrumentedSelection" : "pre 1/22/2021 16:55",
 		"hasUninstrumentedSelection" : "pre 1/22/2021 16:56",
 		"inform:" : "pre 1/22/2021 16:56",

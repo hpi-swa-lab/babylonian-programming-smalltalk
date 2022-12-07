@@ -1,8 +1,7 @@
 *Babylonian-Core
 textAnchorIntervals
-	
- 	<exampleNamed: 'basic' active: true self: #exampleWithAnchoredMorph>      
-	| intervals interval |
+	<exampleNamed: 'basic' self: #exampleWithAnchoredMorph>
+	| intervals interval | 
 	intervals := Dictionary new.
 	runs withStartStopAndValueDo: [:start :stop :attribs | 
 			attribs do: [:attrib | 

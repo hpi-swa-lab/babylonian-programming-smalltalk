@@ -1,9 +1,9 @@
 accessing
 example: anExample
 	
-	anExample currentCallgraph 
-		ifNil: [(self future: 100 "ms") example: anExample]
-		ifNotNil: ["done with temporal recursion"
+	(anExample isNil or: [anExample currentCallgraph isNil])
+		ifTrue: [(self future: 100 "ms") example: anExample]
+		ifFalse: ["done with temporal recursion"
 			super example: anExample.
 			self 
 				resetCache;

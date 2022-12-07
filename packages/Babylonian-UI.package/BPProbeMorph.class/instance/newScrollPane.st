@@ -38,7 +38,7 @@ newScrollPane
 		without: [
 			scrollPane 
 				hResizing: #rigid;
-				width: 500].
+				width: 200].
 		
 	^ wrapper 
 		addMorphBack: blocker;

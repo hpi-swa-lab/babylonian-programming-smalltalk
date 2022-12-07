@@ -1,6 +1,7 @@
 toolbuilder
 highlightMethod: aMethodReference
 	
+	(self example isNil or: [self example currentCallgraph isNil]) ifTrue: [^ true].
 	self callgraph
 		detect: [:each | each class == BPCallgraphEntryEnter and: [each getClass == aMethodReference actualClass] and: [each getSelector == aMethodReference selector]] 
 		ifFound: [:entry | model selectEntry: entry]

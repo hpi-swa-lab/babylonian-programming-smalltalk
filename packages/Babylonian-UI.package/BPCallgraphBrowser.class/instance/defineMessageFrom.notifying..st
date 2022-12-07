@@ -7,6 +7,7 @@ defineMessageFrom: aString notifying: aController
 		ifTrue: [
 			resultingSelector := #bpCallgraph withLayerDo: [
 				super defineMessageFrom: aString notifying: aController].
+			resultingSelector ifNil: [^ nil].
 			BPByteCodeRewriter 
 				enableTracingForClass: self selectedClassOrMetaClass
 				selector: resultingSelector]

@@ -1,4 +1,4 @@
 example methods
 actualMethodWithAReceiver
-	<exampleNamed: 'an example' active: true self: #standard>
-	^ self aVariable
+	<exampleNamed: 'an example' self: #standard>
+	^ self aVariable 

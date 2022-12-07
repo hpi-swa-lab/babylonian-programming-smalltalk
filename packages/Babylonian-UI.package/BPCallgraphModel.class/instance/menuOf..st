@@ -3,6 +3,10 @@ menuOf: aMenuMorph
 	
 	| entry |
 	entry := self getSelectedEntry.
+	(entry class == BPCallgraphEntryEnter) ifTrue: [
+		aMenuMorph add: 'browse' action: [
+			self doubleClick: entry]].
+	
 	entry menu: aMenuMorph.
 	
 	aMenuMorph add: 'select' action: [ | example |

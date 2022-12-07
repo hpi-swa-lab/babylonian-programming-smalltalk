@@ -1,4 +1,4 @@
 list bottom
 bottomTextAttributesFor: entry
 	
-	^ entry textColor ifNotNil: [:color | {TextColor color: color}] ifNil: [{}]
+	^ {}"entry textColor ifNotNil: [:color | {TextColor color: color}] ifNil: [{}]"
