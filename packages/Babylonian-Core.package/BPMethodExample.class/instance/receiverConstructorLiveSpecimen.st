@@ -1,5 +1,5 @@
 accessing
 receiverConstructorLiveSpecimen
-	(self isLiveSpecimenReference: self receiverConstructor) ifFalse: [^ nil].
+	self receiverConstructor isLiveSpecimenReference ifFalse: [^ nil].
 	^ self resolveLiveSpecimen: self receiverConstructor
 	

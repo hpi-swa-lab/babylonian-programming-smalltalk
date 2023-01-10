@@ -4,7 +4,7 @@ newExpectedResultObject
 	| result |
 	self expectedResult isSymbol ifTrue: [
 		^ self method methodClass perform: self expectedResult].
-	(self isLiveSpecimenReference: self expectedResult) ifTrue: [
+	self expectedResult isLiveSpecimenReference ifTrue: [
 		^ self resolveLiveSpecimen: self expectedResult]. 
 
 	result := Compiler evaluate: self expectedResult.

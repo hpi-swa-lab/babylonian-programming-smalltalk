@@ -6,7 +6,7 @@ newReceiver
 		ifFalse: [
 			self receiverConstructor isSymbol ifTrue: [
 				^ self method methodClass perform: self receiverConstructor].
-			(self isLiveSpecimenReference: self receiverConstructor) ifTrue: [
+			self receiverConstructor isLiveSpecimenReference ifTrue: [
 				^ self resolveLiveSpecimen: self receiverConstructor]. 
 			result := Compiler evaluate: self receiverConstructor.
 			result isSymbol

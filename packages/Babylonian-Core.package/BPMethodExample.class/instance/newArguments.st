@@ -1,6 +1,8 @@
 accessing
 newArguments
 
-	^ ((argumentScripts first: self argumentNames size) 
-		collect: [:script | Compiler evaluate: script])
-		collect: [:argumentObject | self resolveLiveSpecimen: argumentObject]
+	^ (argumentScripts first: self argumentNames size) 
+		collect: [:script | 
+			script isLiveSpecimenReference
+				ifTrue: [self resolveLiveSpecimen: script]
+				ifFalse: [Compiler evaluate: script]]

@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "BPActiveSpecimenRegistry",
+		"specimen",
+		"uuid" ],
+	"name" : "BPSpecimenReference",
 	"pools" : [
 		 ],
-	"super" : "DynamicVariable",
+	"super" : "Object",
 	"type" : "normal" }

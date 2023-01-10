@@ -1,5 +1,5 @@
 initialize-release
 initialize
-
+	
 	super initialize.
-	dictionary := IdentityDictionary new.
+	uuid := UUID new asString asSymbol.
