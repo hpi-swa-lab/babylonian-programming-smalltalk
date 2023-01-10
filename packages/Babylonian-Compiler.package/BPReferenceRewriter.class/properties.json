@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-Compiler",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"argumentNames" ],
+	"name" : "BPReferenceRewriter",
+	"pools" : [
+		 ],
+	"super" : "OhmSmalltalkSourceRewriter",
+	"type" : "normal" }
