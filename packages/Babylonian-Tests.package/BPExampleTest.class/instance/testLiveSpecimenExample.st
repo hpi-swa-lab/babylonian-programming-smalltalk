@@ -1,8 +1,7 @@
 tests
-testLiveSpecimanExample
+testLiveSpecimenExample
 	
-	| example specimen testRegistry reference |
-	testRegistry := BPSpecimenRegistry new.
+	| example specimen reference |
 	specimen := Object new.
 	reference := BPSpecimenReference new
 		specimen: specimen;
