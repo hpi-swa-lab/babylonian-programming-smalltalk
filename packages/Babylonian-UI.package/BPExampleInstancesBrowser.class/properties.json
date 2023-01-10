@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-UI-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPExampleInstancesBrowser",
+	"pools" : [
+		 ],
+	"super" : "BPExamplesBrowser",
+	"type" : "normal" }
