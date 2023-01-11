@@ -9,7 +9,8 @@
 		"isActive",
 		"method",
 		"referencedExample",
-		"traceInformation" ],
+		"traceInformation",
+		"uuid" ],
 	"name" : "BPReferencingExample",
 	"pools" : [
 		 ],

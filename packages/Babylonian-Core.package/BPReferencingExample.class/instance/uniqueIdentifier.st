@@ -1,4 +1,4 @@
 accessing
-exampleName
+uniqueIdentifier
 
 	^ self uuid

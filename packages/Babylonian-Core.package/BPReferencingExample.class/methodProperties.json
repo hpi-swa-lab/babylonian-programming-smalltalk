@@ -1,20 +1,22 @@
 {
 	"class" : {
-		 },
+		"bpExamplePragmaPrefix" : "pre 1/11/2023 14:39" },
 	"instance" : {
-		"asPragma" : "pre 1/11/2023 13:20",
+		"asPragma" : "pre 1/11/2023 14:54",
 		"canBeUsedForDoIts" : "pre 1/11/2023 13:27",
-		"exampleName" : "pre 1/11/2023 14:06",
+		"exampleName" : "pre 1/11/2023 14:51",
 		"exampleName:" : "pre 1/11/2023 10:58",
 		"execute" : "pre 1/11/2023 14:07",
-		"expectedResult" : "pre 1/11/2023 14:07",
+		"expectedResult" : "pre 1/11/2023 14:29",
 		"expectedResult:" : "pre 1/11/2023 13:20",
 		"initialize" : "pre 1/11/2023 10:36",
+		"initializeFromPragma:" : "pre 1/11/2023 15:02",
 		"isActive" : "pre 1/11/2023 13:22",
 		"method" : "pre 1/11/2023 13:22",
 		"method:" : "pre 1/11/2023 13:22",
 		"morphClass" : "pre 1/11/2023 13:28",
-		"referencedExample:" : "pre 1/11/2023 13:57",
+		"referencedExample:" : "pre 1/11/2023 14:29",
+		"referencedExampleName" : "pre 1/11/2023 14:52",
 		"setIsActive:" : "pre 1/11/2023 13:22",
 		"setUpScript" : "pre 1/11/2023 13:22",
 		"setUpScript:" : "pre 1/11/2023 13:22",
@@ -22,4 +24,6 @@
 		"tearDownScript:" : "pre 1/11/2023 13:23",
 		"timeout" : "pre 1/11/2023 13:23",
 		"timeout:" : "pre 1/11/2023 13:23",
-		"traceInformation" : "pre 1/11/2023 10:58" } }
+		"traceInformation" : "pre 1/11/2023 10:58",
+		"uniqueIdentifier" : "pre 1/11/2023 14:44",
+		"uuid" : "pre 1/11/2023 14:42" } }

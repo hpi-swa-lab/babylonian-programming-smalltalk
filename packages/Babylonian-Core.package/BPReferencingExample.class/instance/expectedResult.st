@@ -1,4 +1,4 @@
 accessing
 expectedResult
 
-	^ referencedExample expectedResult
+	^ referencedExample ifNil: [nil] ifNotNil: [:ex | ex expectedResult]

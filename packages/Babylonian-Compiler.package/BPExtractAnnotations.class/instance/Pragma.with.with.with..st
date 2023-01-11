@@ -2,7 +2,7 @@ rules
 Pragma: aNode with: literal with: values with: anotherLiteral
 
 	| exampleName |
-	(BPExample bpExamplePragmaPrefixes anySatisfy: [:prefix | values children first interval contents beginsWith: prefix]) ifTrue: [
+	(BPAbstractExample bpExamplePragmaPrefixes anySatisfy: [:prefix | values children first interval contents beginsWith: prefix]) ifTrue: [
 		exampleName := self value: values children first children first.
 		annotations add: (BPExampleAnnotation new
 			exampleName: exampleName;
