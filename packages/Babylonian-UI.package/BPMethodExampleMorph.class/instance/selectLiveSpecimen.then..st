@@ -5,7 +5,8 @@ selectLiveSpecimen: previousSpecimen then: uiThenBlock
 	the registry, example, and this UI..."
 	BPSelectViaDropMorph new
 		previousObject: previousSpecimen;
-		then: [:specimen | | reference |
-			reference := BPActiveSpecimenRegistry value storeSpecimen: specimen.
-			uiThenBlock value: reference];
+		then: [:specimen | 
+			uiThenBlock value: (BPSpecimenReference new
+				specimen: specimen;
+				yourself)];
 		openInWindow.
