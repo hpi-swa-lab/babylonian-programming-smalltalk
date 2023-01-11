@@ -1,14 +1,14 @@
 {
-	"category" : "Babylonian-Core-Explorations",
+	"category" : "Babylonian-Core-Examples",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "BPContinuousRunExample",
+		"duration" ],
+	"name" : "BPWorldSampleExample",
 	"pools" : [
 		 ],
-	"super" : "BPExample",
+	"super" : "BPSingleRunExample",
 	"type" : "normal" }
