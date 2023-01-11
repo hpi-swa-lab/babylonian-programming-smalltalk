@@ -1,4 +1,4 @@
 accessing
 resultsForAssertionId: anAssertionId
 
-	^ self assertions at: anAssertionId ifAbsent: [#()]
+	^ mutex critical: [self assertions at: anAssertionId ifAbsent: [#()]]

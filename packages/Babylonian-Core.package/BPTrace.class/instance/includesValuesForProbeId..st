@@ -1,4 +1,4 @@
 testing
 includesValuesForProbeId: aProbeId
 
-	^ (self probes at: aProbeId ifAbsent: [#()]) notEmpty
+	^ mutex critical: [(self probes at: aProbeId ifAbsent: [#()]) notEmpty]
