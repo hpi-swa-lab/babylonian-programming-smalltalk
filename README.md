@@ -1,4 +1,6 @@
-# Babylonian Programming / Smalltalk [![Build Status Main](https://img.shields.io/github/workflow/status/hpi-swa-lab/babylonian-programming-smalltalk/testAndBuild/main?logo=github&label=main)](https://github.com/hpi-swa-lab/babylonian-programming-smalltalk/actions/workflows/main.yml) [![Build Status Develop](https://img.shields.io/github/workflow/status/hpi-swa-lab/babylonian-programming-smalltalk/testAndBuild/develop?logo=github&label=develop)](https://github.com/hpi-swa-lab/babylonian-programming-smalltalk/actions/workflows/main.yml)
+# Babylonian Programming / Smalltalk
+[![Build Status Main](https://img.shields.io/github/actions/workflow/status/hpi-swa-lab/babylonian-programming-smalltalk/main.yml?logo=github&label=main&branch=main)](https://github.com/hpi-swa-lab/babylonian-programming-smalltalk/actions/workflows/main.yml) 
+[![Build Status Develop](https://img.shields.io/github/actions/workflow/status/hpi-swa-lab/babylonian-programming-smalltalk/main.yml?logo=github&label=develop&branch=develop)](https://github.com/hpi-swa-lab/babylonian-programming-smalltalk/actions/workflows/main.yml) 
 
 A Smalltalk implementation of the Babylonian Programming System.
 
