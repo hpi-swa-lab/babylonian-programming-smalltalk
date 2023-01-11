@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"bpTraceAsyncForExample:notifying:" : "pre 5/6/2021 18:20",
 		"bpTraceForExample:" : "pre 5/6/2021 18:20",
 		"bpTraceForExample:andHaltAt:onCount:" : "lu 11/27/2021 13:26",
+		"bpTraceInBackgroundForExample:" : "pre 1/11/2023 10:14",
 		"bpTraceWith:" : "jb 12/30/2021 21:21" } }

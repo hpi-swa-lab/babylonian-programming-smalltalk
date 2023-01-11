@@ -5,7 +5,7 @@ ignoredMessagesInStack
 		MethodReference class: BPExample selector: #traceInBackground.
 		MethodReference class: BlockClosure selector: #on:do:.
 		MethodReference class: BPExample selector: #traceAsyncNotifying:.
-		MethodReference class: BlockClosure selector: #bpTraceAsyncForExample:notifying:.
+		MethodReference class: BlockClosure selector: #bpTraceInBackgroundForExample:.
 		MethodReference class: BlockClosure selector: #bpTraceWith:.
 		MethodReference class: Symbol selector: #withLayerDo:.
 		MethodReference class: Array selector: #withLayersDo:.
