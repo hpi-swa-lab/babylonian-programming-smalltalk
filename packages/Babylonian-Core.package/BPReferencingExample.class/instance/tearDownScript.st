@@ -1,0 +1,4 @@
+accessing
+tearDownScript
+
+	^ referencedExample tearDownScript

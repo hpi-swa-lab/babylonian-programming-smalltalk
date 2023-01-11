@@ -4,6 +4,7 @@ setUp
 	method := BPTestExamplesClass>>#binarySearchIn:theElement:.
 	
 	{method.
+	(BPMoreTestExamplesClass>>#binarySearchIn:theElement:).
 	(BPTestExamplesClass>>#methodWithLiveSpecimen:).
 	(BPTestExamplesClass>>#methodWithScriptExamples)} do: [:aMethod | 
 		aMethod removeProperty: #bpExamples ifAbsent: []].

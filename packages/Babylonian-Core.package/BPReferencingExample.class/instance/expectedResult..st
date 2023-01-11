@@ -1,0 +1,4 @@
+accessing
+expectedResult: anObject
+
+	"NOP"

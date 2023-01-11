@@ -1,4 +1,0 @@
-tracing
-currentTrace
-	
-	^ traceInformation trace 

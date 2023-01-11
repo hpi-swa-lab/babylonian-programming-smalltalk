@@ -1,4 +1,0 @@
-tracing
-ensureTerminatedProcess
-
-	traceInformation terminateTracingProcess.

@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-Tests-Fixtures",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPMoreTestExamplesClass",
+	"pools" : [
+		 ],
+	"super" : "BPTestExamplesClass",
+	"type" : "normal" }

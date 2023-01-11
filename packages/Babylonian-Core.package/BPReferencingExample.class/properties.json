@@ -4,17 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "pre 9/6/2022 11:18",
+	"commentStamp" : "",
 	"instvars" : [
 		"isActive",
-		"exampleName",
 		"method",
-		"traceInformation",
-		"expectedResult",
-		"setUpScript",
-		"tearDownScript",
-		"timeout" ],
-	"name" : "BPExample",
+		"referencedExample",
+		"traceInformation" ],
+	"name" : "BPReferencingExample",
 	"pools" : [
 		 ],
 	"super" : "BPAbstractExample",

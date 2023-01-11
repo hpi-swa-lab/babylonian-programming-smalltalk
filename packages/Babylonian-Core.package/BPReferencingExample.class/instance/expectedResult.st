@@ -1,0 +1,4 @@
+accessing
+expectedResult
+
+	^ referencedExample expectedResult

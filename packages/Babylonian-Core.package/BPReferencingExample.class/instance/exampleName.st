@@ -1,0 +1,4 @@
+accessing
+exampleName
+
+	^ referencedExample exampleName

@@ -6,6 +6,6 @@ traceInBackground
 	self ensureTerminatedProcess.
 	
 	traceAndProcess := [self execute] bpTraceInBackgroundForExample: self.
-	traceInformation 
+	self traceInformation 
 		trace: traceAndProcess first;
 		tracingProcess: traceAndProcess second.

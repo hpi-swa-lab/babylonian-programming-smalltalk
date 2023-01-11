@@ -1,4 +1,4 @@
 executing
 runOn: initialState
 	
-	^ self subclassResponsibility
+	self subclassResponsibility.

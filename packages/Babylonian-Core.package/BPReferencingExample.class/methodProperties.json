@@ -1,0 +1,25 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"asPragma" : "pre 1/11/2023 13:20",
+		"canBeUsedForDoIts" : "pre 1/11/2023 13:27",
+		"exampleName" : "pre 1/11/2023 14:06",
+		"exampleName:" : "pre 1/11/2023 10:58",
+		"execute" : "pre 1/11/2023 14:07",
+		"expectedResult" : "pre 1/11/2023 14:07",
+		"expectedResult:" : "pre 1/11/2023 13:20",
+		"initialize" : "pre 1/11/2023 10:36",
+		"isActive" : "pre 1/11/2023 13:22",
+		"method" : "pre 1/11/2023 13:22",
+		"method:" : "pre 1/11/2023 13:22",
+		"morphClass" : "pre 1/11/2023 13:28",
+		"referencedExample:" : "pre 1/11/2023 13:57",
+		"setIsActive:" : "pre 1/11/2023 13:22",
+		"setUpScript" : "pre 1/11/2023 13:22",
+		"setUpScript:" : "pre 1/11/2023 13:22",
+		"tearDownScript" : "pre 1/11/2023 13:23",
+		"tearDownScript:" : "pre 1/11/2023 13:23",
+		"timeout" : "pre 1/11/2023 13:23",
+		"timeout:" : "pre 1/11/2023 13:23",
+		"traceInformation" : "pre 1/11/2023 10:58" } }

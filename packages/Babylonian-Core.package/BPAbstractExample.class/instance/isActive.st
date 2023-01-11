@@ -1,0 +1,4 @@
+accessing
+isActive
+
+	self subclassResponsibility.

@@ -2,4 +2,4 @@ serialization
 asPragma
 	
 	<bpRelevantMethod>
-	^ self subclassResponsibility
+	self subclassResponsibility.

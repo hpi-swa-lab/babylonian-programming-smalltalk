@@ -1,0 +1,3 @@
+accessing
+expectedResult
+	self subclassResponsibility.

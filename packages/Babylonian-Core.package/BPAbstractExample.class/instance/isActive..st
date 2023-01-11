@@ -1,8 +1,8 @@
 accessing
 isActive: aBoolean
 	
-	aBoolean ~= isActive ifTrue: [
-		isActive := aBoolean.
+	aBoolean ~= self isActive ifTrue: [
+		self setIsActive: aBoolean.
 		aBoolean 
 			ifTrue: [
 				self liveSpecimen do: [:aSpecimen | 

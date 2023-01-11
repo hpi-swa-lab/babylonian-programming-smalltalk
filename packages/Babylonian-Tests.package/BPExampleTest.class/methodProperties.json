@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createExamples" : "pre 9/5/2022 15:10",
+		"createExamples" : "pre 1/11/2023 14:05",
 		"expectedFailures" : "pre 2/22/2021 17:24",
 		"runCase" : "pre 5/4/2021 15:23",
-		"setUp" : "pre 5/20/2021 15:43",
+		"setUp" : "pre 1/11/2023 14:04",
 		"tearDown" : "pre 5/20/2021 15:33",
 		"testCreatingAnExampleNotifiesDependents" : "pre 5/20/2021 15:40",
 		"testExampleWithTooManyArguments" : "pre 8/6/2021 18:25",
@@ -29,6 +29,10 @@
 		"testNewExample" : "pre 6/7/2021 15:12",
 		"testNewExampleArePartOfTheirMethod" : "pre 1/6/2021 19:06",
 		"testNewExampleOnMetaclass" : "pre 7/22/2022 21:44",
+		"testReferencingExampleHasItsOwnActiveState" : "pre 1/11/2023 14:08",
+		"testReferencingExampleHasItsOwnTracingState" : "pre 1/11/2023 14:08",
+		"testReferencingExampleRunsTheOtherExample" : "pre 1/11/2023 13:59",
+		"testReferencingExampleShowTheNamesOfTheReferencedOne" : "pre 1/11/2023 14:06",
 		"testRemovingAnExampleNotifiesDependents" : "pre 5/20/2021 15:30",
 		"testScriptExamplesCanAccessArgumentsFromTheSetup" : "pre 7/22/2022 21:38",
 		"testScriptExamplesCanAccessArgumentsInTheTeardown" : "pre 7/22/2022 21:40",
