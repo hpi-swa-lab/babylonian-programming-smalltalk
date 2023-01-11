@@ -13,6 +13,11 @@ bpTraceInBackgroundForExample: anExample
 	traceProcess 
 		priority: Processor userSchedulingPriority;
 		name: 'Execution of example ' , anExample exampleName.
-	(traceProcess future: 1 "to delay process start") resume.
+	Project current addDeferredUIMessage: ["to delay process start"
+		traceProcess isTerminated ifFalse: [
+			"to guard against the process having been
+			terminated due to a subsequent re-execution of 
+			the example"
+			traceProcess resume]].
 	^ {tracer intermediateTrace . traceProcess}
 	
