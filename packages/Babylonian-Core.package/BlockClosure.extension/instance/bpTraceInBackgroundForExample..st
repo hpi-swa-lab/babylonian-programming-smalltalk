@@ -12,7 +12,8 @@ bpTraceInBackgroundForExample: anExample
 			e trace exampleExecutionProcess: Processor activeProcess.]] newProcess.
 	traceProcess 
 		priority: Processor userSchedulingPriority;
-		name: 'Execution of example ' , anExample exampleName.
+		name: 'Execution of example ' , anExample exampleName;
+		propagateCSLayers; propagateDynamicVariables.
 	Project current addDeferredUIMessage: ["to delay process start"
 		traceProcess isTerminated ifFalse: [
 			"to guard against the process having been
