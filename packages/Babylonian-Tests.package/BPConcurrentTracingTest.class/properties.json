@@ -1,0 +1,16 @@
+{
+	"category" : "Babylonian-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"preventTerminationSemaphore",
+		"processesToTerminate",
+		"example" ],
+	"name" : "BPConcurrentTracingTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

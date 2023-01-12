@@ -6,5 +6,11 @@ asPragma
 		self exampleName.
 		self setUpScript ifNil: [''] ifNotNil: [:setUpScript | ' setUp: ' , setUpScript printString].
 		self tearDownScript ifNil: [''] ifNotNil: [:tearDownScript | ' tearDown: ' , tearDownScript printString].
-		self receiverConstructor ifNil: [''] ifNotNil: [:aReceiverConstructor | ' self: ' , aReceiverConstructor printString].
-		self argumentScripts ifEmpty: [''] ifNotEmpty: [(self argumentScripts collect: [:anArgumentScript | ' with: ' , anArgumentScript printString]) join]}
+		self receiverConstructor ifNil: [''] ifNotNil: [:aReceiverConstructor | 
+			aReceiverConstructor isLiveSpecimenReference 
+				ifFalse: [' self: ' , aReceiverConstructor printString]
+				ifTrue: [' self: ' , {#specimen . aReceiverConstructor printString} printString]].
+		self argumentScripts ifEmpty: [''] ifNotEmpty: [(self argumentScripts collect: [:anArgumentScript | 
+			' with: ' , (anArgumentScript isLiveSpecimenReference 
+				ifFalse: [anArgumentScript printString]
+				ifTrue: [{#specimen . anArgumentScript printString} printString])]) join]}

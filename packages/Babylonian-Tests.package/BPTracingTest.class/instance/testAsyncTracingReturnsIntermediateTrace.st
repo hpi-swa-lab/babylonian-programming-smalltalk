@@ -1,7 +1,8 @@
 tests - asynchronous tracing
 testAsyncTracingReturnsIntermediateTrace
 
-	[BPTestManuallyInstrumentedClass new methodA] 
-		bpTraceAsyncForExample: nil
-		notifying: [:t | self assert: t hasTraceCompleted not].
+	| traceAndProcess |
+	traceAndProcess := [BPTestManuallyInstrumentedClass new methodA]
+		bpTraceInBackgroundForExample: BPScriptExample new.
+	self assert: traceAndProcess first hasTraceCompleted not.
 	

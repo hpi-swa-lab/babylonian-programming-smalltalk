@@ -1,16 +1,17 @@
 private - ui
-newStackFrameMorphFor: aMethodReference withHeight: aNumber
+newStackFrameMorphFor: aBPContext withHeight: aNumber
 
-	| stackMorph |
+	| stackMorph methodReference|
+	methodReference := aBPContext methodReference.
 	stackMorph := Morph new 
-		color: (self colorFor: aMethodReference);
+		color: (self colorFor: methodReference);
 		extent: (self stackDepth@aNumber);
-		balloonText: aMethodReference asString;
-		setProperty: #stackMethodReference
-		toValue: aMethodReference;
+		balloonText: methodReference asString;
+		setProperty: #stackMethodReference toValue: methodReference;
+		setProperty: #bpContext toValue: aBPContext;
 		yourself.
 	
-	self addInteractionsToStackMorph: stackMorph for: aMethodReference.
-			
+	self addInteractionsToStackMorph: stackMorph for: aBPContext.
+
 	^ stackMorph
 	

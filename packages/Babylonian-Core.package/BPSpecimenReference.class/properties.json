@@ -1,0 +1,15 @@
+{
+	"category" : "Babylonian-Core-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"specimen",
+		"uuid" ],
+	"name" : "BPSpecimenReference",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

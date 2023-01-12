@@ -1,4 +1,5 @@
 process control
 terminateTracingProcess
 
-	self tracingProcess ifNotNil: [:aTracingProcess | aTracingProcess terminate].
+	self tracingProcessAndDescendantsActiveAtBack do: [:p |
+		p isTerminated ifFalse: [p terminate]]

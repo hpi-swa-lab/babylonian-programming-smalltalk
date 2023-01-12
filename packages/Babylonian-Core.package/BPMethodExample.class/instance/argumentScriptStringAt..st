@@ -3,6 +3,6 @@ argumentScriptStringAt: index
 
 	| value |
 	value := self argumentScripts at: index.
-	^ (self isLiveSpecimenReference: value)
-		ifTrue: [(self resolveLiveSpecimen: value) printString]
+	^ value isLiveSpecimenReference
+		ifTrue: [self receiverConstructor printString]
 		ifFalse: [value]

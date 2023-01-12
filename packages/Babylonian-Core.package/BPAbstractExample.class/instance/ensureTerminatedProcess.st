@@ -1,0 +1,3 @@
+tracing
+ensureTerminatedProcess
+	self traceInformation terminateTracingProcess.

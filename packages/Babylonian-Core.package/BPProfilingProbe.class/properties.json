@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-Core-Annotations",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPProfilingProbe",
+	"pools" : [
+		 ],
+	"super" : "BPAnnotation",
+	"type" : "normal" }

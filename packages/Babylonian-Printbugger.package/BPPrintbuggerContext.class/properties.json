@@ -9,7 +9,8 @@
 		"methodToCount",
 		"keysCountCache",
 		"exampleToIgnoredAnnotations",
-		"annotationIdToFlash" ],
+		"annotationIdToFlash",
+		"stackColumns" ],
 	"name" : "BPPrintbuggerContext",
 	"pools" : [
 		 ],

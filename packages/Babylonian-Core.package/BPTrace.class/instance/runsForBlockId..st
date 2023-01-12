@@ -1,4 +1,4 @@
 accessing
 runsForBlockId: aBlockId
 	
-	^ blockRecord at: aBlockId ifAbsent: [#()]
+	^ mutex critical: [blockRecord at: aBlockId ifAbsent: [#()]]

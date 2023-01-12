@@ -8,13 +8,13 @@ bpExamples
 	Removing examples only works via BPExamples>>#remove:. The collection of CompiledMethods
 	will be rebuild on every recompile based on the examples stored in BPExamples."
 	| pragmaPrefixes |
-	pragmaPrefixes := BPExample bpExamplePragmaPrefixes.
+	pragmaPrefixes := BPAbstractExample bpExamplePragmaPrefixes.
 	^ self properties at: #bpExamples ifAbsentPut: [ | newExamples existingExamples |
 		newExamples := self pragmas 
 				select: [:p | pragmaPrefixes anySatisfy: [:prefix | 
 								p keyword beginsWith: prefix]]
 				thenCollect: [:pragma |
-					(BPExample fromPragma: pragma)
+					(BPAbstractExample fromPragma: pragma)
 						method: self;
 						yourself].
 	  	

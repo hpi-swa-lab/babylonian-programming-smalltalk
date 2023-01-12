@@ -23,4 +23,5 @@
 		"methodWithErrorNotInProbe" : "pre 7/25/2019 15:38",
 		"methodWithMultipleProbes" : "jb 6/30/2021 03:15",
 		"methodWithProbeBeforeError" : "pre 7/25/2019 15:38",
+		"methodWithProfilingProbe" : "pre 11/29/2022 16:42",
 		"methodWithSelfCallInExpression" : "pre 6/8/2021 11:05" } }

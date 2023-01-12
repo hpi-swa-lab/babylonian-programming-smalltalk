@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-Core-Tracing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Processes" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPProcessGenealogy",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

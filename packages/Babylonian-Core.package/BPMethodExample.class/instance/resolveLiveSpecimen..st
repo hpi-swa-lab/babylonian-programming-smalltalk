@@ -1,7 +1,7 @@
 private
 resolveLiveSpecimen: anObject
 	
-	^ (self isLiveSpecimenReference: anObject)
-		ifTrue: [BPActiveSpecimenRegistry value at: anObject second]
+	^ anObject isLiveSpecimenReference
+		ifTrue: [anObject specimen]
 		ifFalse: [anObject]
 	

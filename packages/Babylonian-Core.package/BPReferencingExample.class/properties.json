@@ -1,0 +1,18 @@
+{
+	"category" : "Babylonian-Core-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"isActive",
+		"method",
+		"referencedExample",
+		"traceInformation",
+		"uuid" ],
+	"name" : "BPReferencingExample",
+	"pools" : [
+		 ],
+	"super" : "BPAbstractExample",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+ui
+canBeUsedForDoIts
+
+	^ referencedExample canBeUsedForDoIts

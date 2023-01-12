@@ -1,0 +1,4 @@
+morphic
+stopTag
+
+	^ '"</bpProfilingProbe>"'

@@ -1,0 +1,4 @@
+accessing
+timeout
+
+	self subclassResponsibility.

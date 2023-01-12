@@ -1,7 +1,6 @@
 tests - asynchronous tracing
 testExampleWithProbesReturnsTraceValuesSortedChronologically
-	
-	
+
 	| result example |
 	example := BPMethodExample new.
 	result := [BPTestManuallyInstrumentedClass new methodWithMultipleProbes] bpTraceForExample: example.

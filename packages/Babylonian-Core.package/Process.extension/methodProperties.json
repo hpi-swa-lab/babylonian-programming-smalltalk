@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"forContext:priority:" : "pre 1/12/2023 13:30" },
+	"instance" : {
+		"dontPropagateCSLayers" : "pre 1/11/2023 15:44",
+		"dontPropagateDynamicVariables" : "pre 1/11/2023 15:52",
+		"propagateCSLayers" : "pre 1/11/2023 15:43",
+		"propagateDynamicVariables" : "pre 1/11/2023 15:52",
+		"propagatesCSLayers" : "pre 1/11/2023 15:43",
+		"propagatesDynamicVariables" : "pre 1/11/2023 15:51",
+		"setDynamicVariables" : "pre 1/11/2023 15:57" } }

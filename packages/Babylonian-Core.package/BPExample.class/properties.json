@@ -17,5 +17,5 @@
 	"name" : "BPExample",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "BPAbstractExample",
 	"type" : "normal" }

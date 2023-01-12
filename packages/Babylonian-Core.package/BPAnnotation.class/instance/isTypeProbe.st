@@ -1,0 +1,4 @@
+testing
+isTypeProbe
+
+	^ false

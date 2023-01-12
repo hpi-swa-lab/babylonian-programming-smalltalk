@@ -8,3 +8,4 @@ initialize
 	hasTraceCompleted := false.
 	blockRecord := Dictionary new.
 	chronologicallyTrackedTraceValuesCount := 0.
+	mutex := Mutex new.

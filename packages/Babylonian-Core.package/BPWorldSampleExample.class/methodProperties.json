@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"bpExamplePragmaPrefix" : "pre 1/11/2023 09:46" },
+	"instance" : {
+		"asPragma" : "pre 1/11/2023 09:47",
+		"duration" : "pre 1/11/2023 09:49",
+		"duration:" : "pre 1/11/2023 09:49",
+		"durationString" : "pre 1/11/2023 09:48",
+		"initializeFromPragma:" : "pre 1/11/2023 09:47",
+		"morphClass" : "pre 9/30/2020 10:41",
+		"runOn:" : "pre 1/11/2023 09:48",
+		"traceInBackground" : "pre 1/11/2023 10:34" } }

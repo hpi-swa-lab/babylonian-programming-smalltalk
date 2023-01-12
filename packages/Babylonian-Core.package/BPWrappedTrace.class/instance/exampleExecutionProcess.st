@@ -1,4 +1,0 @@
-accessing
-exampleExecutionProcess
-
-	^ actualTrace exampleExecutionProcess

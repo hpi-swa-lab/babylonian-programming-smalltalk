@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-UI-Morphs",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"assertionFieldsMorph" ],
+	"name" : "BPTypeProbeMorph",
+	"pools" : [
+		 ],
+	"super" : "BPProbeMorph",
+	"type" : "normal" }

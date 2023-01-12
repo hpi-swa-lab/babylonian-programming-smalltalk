@@ -1,0 +1,17 @@
+{
+	"category" : "Babylonian-Core-Tracing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"contextIdentityHash",
+		"receiverIdentityHash",
+		"selector",
+		"methodClass" ],
+	"name" : "BPContext",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

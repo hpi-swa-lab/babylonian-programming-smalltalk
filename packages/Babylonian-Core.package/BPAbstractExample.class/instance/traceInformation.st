@@ -1,0 +1,4 @@
+accessing
+traceInformation
+
+	self subclassResponsibility.

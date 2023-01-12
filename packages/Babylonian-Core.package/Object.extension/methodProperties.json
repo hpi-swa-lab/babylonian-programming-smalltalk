@@ -5,9 +5,12 @@
 		"bpAssertAfter:that:forAssertion:given:inContext:" : "pre 5/10/2021 09:07",
 		"bpBlock:enteredAt:" : "pre 9/25/2020 17:04",
 		"bpBlock:leftWith:at:" : "pre 9/25/2020 17:03",
+		"bpProfile:forProbe:inContext:" : "pre 11/29/2022 16:25",
 		"bpReplace:with:for:" : "pre 5/10/2021 09:07",
+		"bpResolveReferenceDynamically:in:" : "pre 1/11/2023 10:33",
 		"bpSnapshot" : "pre 5/10/2021 09:07",
 		"bpTrace:forProbe:inContext:" : "pre 5/10/2021 09:07",
 		"bpTrace:through:forProbe:inContext:" : "jb 11/29/2020 22:12",
 		"bpTraceAssignmentOf:before:forProbe:inContext:" : "pre 7/6/2020 18:34",
-		"bpTraceExecutionResult:" : "jb 12/30/2021 21:20" } }
+		"bpTraceExecutionResult:" : "jb 12/30/2021 21:20",
+		"isLiveSpecimenReference" : "pre 1/10/2023 16:16" } }

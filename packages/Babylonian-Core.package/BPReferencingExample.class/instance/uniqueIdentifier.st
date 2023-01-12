@@ -1,0 +1,4 @@
+accessing
+uniqueIdentifier
+
+	^ self uuid

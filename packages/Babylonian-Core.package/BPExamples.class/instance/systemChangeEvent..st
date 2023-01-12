@@ -3,6 +3,6 @@ systemChangeEvent: aModifiedEvent
 	
 	<bpRelevantMethod>
 	self silenceGuard: [
-		self 
-			updateExamplesOnEvent: aModifiedEvent;
-			runActiveExamples]
+		self updateExamplesOnEvent: aModifiedEvent.
+		(aModifiedEvent isReorganized not and: [aModifiedEvent isRecategorized not]) ifTrue: [
+			self runActiveExamples]]

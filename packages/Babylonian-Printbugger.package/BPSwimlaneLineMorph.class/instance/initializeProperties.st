@@ -8,4 +8,4 @@ initializeProperties
 		cellPositioning: #center;
 		vResizing: #shrinkWrap;
 		hResizing: #shrinkWrap;
-		cellInset: 3@0.
+		cellInset: 2@0.

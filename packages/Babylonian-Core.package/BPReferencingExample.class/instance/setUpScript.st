@@ -1,0 +1,4 @@
+accessing
+setUpScript
+
+	^ referencedExample setUpScript

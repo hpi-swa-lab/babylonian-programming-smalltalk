@@ -1,0 +1,4 @@
+accessing
+setUpScript
+	
+	self subclassResponsibility.
