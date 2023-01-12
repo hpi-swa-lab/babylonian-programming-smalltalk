@@ -18,7 +18,9 @@ forContext: aContext priority: anInteger
 	activeProcess propagatesDynamicVariables ifTrue: [
 		activeProcess setDynamicVariables do: [:dynamicVariable |
 			newProcess environmentAt: dynamicVariable put: (activeProcess environmentAt: dynamicVariable)]].
-	BPProcessGenealogy newProcess: newProcess descendsFrom: activeProcess.
+	(activeProcess environmentAt: BPActiveTracer ifAbsent: [nil]) ifNotNil: [
+		"we are tracing so record process genealogy"
+		BPProcessGenealogy newProcess: newProcess descendsFrom: activeProcess].
 	
 	"-------------- BP ContextS2 additions end --------------"
 	
