@@ -1,5 +1,5 @@
 process control
 resumeProcess
 	
-	self tracingProcessAndDescendants do: [:p |
+	self tracingProcessAndDescendantsActiveAtBack reversed do: [:p |
 		p isSuspended ifTrue: [p resume]]

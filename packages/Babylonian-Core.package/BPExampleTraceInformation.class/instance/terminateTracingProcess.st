@@ -1,5 +1,5 @@
 process control
 terminateTracingProcess
 
-	self tracingProcessAndDescendants do: [:p |
+	self tracingProcessAndDescendantsActiveAtBack do: [:p |
 		p isTerminated ifFalse: [p terminate]]

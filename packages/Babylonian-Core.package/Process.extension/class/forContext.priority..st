@@ -9,7 +9,6 @@ forContext: aContext priority: anInteger
 	| newProcess activeProcess |
 	newProcess := self new.
 	newProcess priority: anInteger.
-	newProcess suspendedContext: aContext asContext.
 	
 	"-------------- BP ContextS2 additions start --------------"
 	activeProcess := Processor activeProcess.
@@ -18,10 +17,20 @@ forContext: aContext priority: anInteger
 	activeProcess propagatesDynamicVariables ifTrue: [
 		activeProcess setDynamicVariables do: [:dynamicVariable |
 			newProcess environmentAt: dynamicVariable put: (activeProcess environmentAt: dynamicVariable)]].
-	(activeProcess environmentAt: BPActiveTracer ifAbsent: [nil]) ifNotNil: [
+	(activeProcess environmentAt: BPActiveTracer ifAbsent: [nil]) ifNotNil: [ | handlerContext |
 		"we are tracing so record process genealogy"
-		BPProcessGenealogy newProcess: newProcess descendsFrom: activeProcess].
+		BPProcessGenealogy newProcess: newProcess descendsFrom: activeProcess.
+		"we are tracing, install exception catching"
+		handlerContext := Context 
+			contextOn: Error 
+			do: [:exception | 
+				exception class = Halt ifFalse: [
+					BPActiveTracer value ifNotNil: [:tracer |
+						tracer traceError: exception.
+						tracer example suspendTracingProcess]].
+				exception signal].
+		aContext insertSender: handlerContext].
 	
 	"-------------- BP ContextS2 additions end --------------"
-	
+	newProcess suspendedContext: aContext asContext.
 	^newProcess
