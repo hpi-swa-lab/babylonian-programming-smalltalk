@@ -18,6 +18,8 @@ forContext: aContext priority: anInteger
 	activeProcess propagatesDynamicVariables ifTrue: [
 		activeProcess setDynamicVariables do: [:dynamicVariable |
 			newProcess environmentAt: dynamicVariable put: (activeProcess environmentAt: dynamicVariable)]].
+	BPProcessGenealogy newProcess: newProcess descendsFrom: activeProcess.
+	
 	"-------------- BP ContextS2 additions end --------------"
 	
 	^newProcess

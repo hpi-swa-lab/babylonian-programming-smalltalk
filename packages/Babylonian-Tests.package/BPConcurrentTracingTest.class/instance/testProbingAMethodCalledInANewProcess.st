@@ -1,4 +1,4 @@
-tests - concurrent tracing
+tests
 testProbingAMethodCalledInANewProcess
 
 	| example traceAndProcess semaphore |

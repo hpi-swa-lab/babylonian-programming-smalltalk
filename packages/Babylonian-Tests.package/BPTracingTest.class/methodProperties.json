@@ -12,7 +12,6 @@
 		"testExampleWithProbesCountsTraceValuesCorrectly" : "lu 11/22/2021 22:03",
 		"testExampleWithProbesReturnsTraceValuesSortedChronologically" : "pre 1/11/2023 13:43",
 		"testFinishedTracesAreComplete" : "jb 12/7/2020 19:10",
-		"testProbingAMethodCalledInANewProcess" : "pre 1/11/2023 16:18",
 		"testProfilingTracingRecordsTimesToRun" : "pre 11/29/2022 16:42",
 		"testTheTracingReturnsTheExpressionValueAnyways" : "jb 12/7/2020 19:10",
 		"testTracingAnErrorRecordsTheStack" : "jb 12/7/2020 19:10",

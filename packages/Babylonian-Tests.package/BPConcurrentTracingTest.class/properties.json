@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"preventTerminationSemaphore" ],
+	"name" : "BPConcurrentTracingTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

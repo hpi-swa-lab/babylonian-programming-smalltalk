@@ -2,5 +2,5 @@ process control
 terminateTracingProcess
 
 	self tracingProcess ifNotNil: [:aTracingProcess | 
-		aTracingProcess isTerminated ifFalse: [
-			aTracingProcess terminate]].
+		{aTracingProcess} , (BPProcessGenealogy allDescendantsOf: aTracingProcess) do: [:p |
+			p isTerminated ifFalse: [p terminate]]].
