@@ -7,9 +7,8 @@ bpTraceInBackgroundForExample: anExample
 	traceProcess := [[self bpTraceWith: tracer] 
 		on: BPExampleExecutionInterrupted
 		do: [:e | 
-			"We need to remember this in order to terminate example processes
-			whenever a trace leaves the registry."
-			e trace exampleExecutionProcess: Processor activeProcess.]] newProcess.
+			"We need to remember this in order to debug the error"
+			e trace erroredProcess: Processor activeProcess.]] newProcess.
 	traceProcess 
 		priority: Processor userSchedulingPriority;
 		name: 'Execution of example ' , anExample exampleName;

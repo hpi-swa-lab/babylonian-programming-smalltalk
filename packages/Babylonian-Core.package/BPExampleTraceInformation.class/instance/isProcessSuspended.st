@@ -1,4 +1,4 @@
-accessing
+process control
 isProcessSuspended
 
-	^ self tracingProcess isSuspended
+	^ self tracingProcess notNil and: [self tracingProcess isSuspended]

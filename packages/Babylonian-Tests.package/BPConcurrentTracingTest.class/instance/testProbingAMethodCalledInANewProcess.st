@@ -1,12 +1,7 @@
 tests
 testProbingAMethodCalledInANewProcess
 
-	| example traceAndProcess semaphore |
-	example := BPMethodExample new
-		exampleName: 'test example';
-		method: BPTestManuallyInstrumentedClass>>#methodA;
-		yourself.
-		
+	| traceAndProcess semaphore |
 	semaphore := Semaphore new.
 	traceAndProcess := [
 		[BPTestManuallyInstrumentedClass new methodA] fork.

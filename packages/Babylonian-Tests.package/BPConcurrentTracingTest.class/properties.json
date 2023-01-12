@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"preventTerminationSemaphore" ],
+		"preventTerminationSemaphore",
+		"processesToTerminate",
+		"example" ],
 	"name" : "BPConcurrentTracingTest",
 	"pools" : [
 		 ],

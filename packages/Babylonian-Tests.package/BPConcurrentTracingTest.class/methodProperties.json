@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "pre 1/12/2023 09:09",
-		"tearDown" : "pre 1/12/2023 09:10",
-		"testKeepingTrackOfAllDescendingProcesses" : "pre 1/12/2023 09:00",
-		"testProbingAMethodCalledInANewProcess" : "pre 1/11/2023 16:18",
-		"testTerminatingAllDescendantProcesses" : "pre 1/12/2023 09:13" } }
+		"setUp" : "pre 1/12/2023 10:59",
+		"tearDown" : "pre 1/12/2023 10:53",
+		"testKeepingTrackOfAllDescendingProcesses" : "pre 1/12/2023 11:00",
+		"testProbingAMethodCalledInANewProcess" : "pre 1/12/2023 11:00",
+		"testSuspendOnErroredDescendantProcesses" : "pre 1/12/2023 11:00",
+		"testTerminatingAllDescendantProcesses" : "pre 1/12/2023 11:00" } }

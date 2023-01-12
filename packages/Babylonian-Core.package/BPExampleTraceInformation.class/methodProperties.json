@@ -2,10 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"isProcessSuspended" : "joabe 9/28/2022 01:08",
+		"isProcessSuspended" : "pre 1/12/2023 09:37",
 		"probes" : "jb 5/19/2021 19:35",
-		"terminateTracingProcess" : "pre 1/12/2023 09:06",
+		"resumeProcess" : "pre 1/12/2023 10:38",
+		"suspendProcess" : "pre 1/12/2023 10:57",
+		"terminateTracingProcess" : "pre 1/12/2023 10:37",
 		"trace" : "pre 8/18/2020 08:45",
 		"trace:" : "jb 7/1/2021 23:21",
+		"tracingIsStillRunning" : "pre 1/12/2023 09:40",
 		"tracingProcess" : "pre 8/18/2020 08:45",
-		"tracingProcess:" : "jb 12/7/2020 18:12" } }
+		"tracingProcess:" : "jb 12/7/2020 18:12",
+		"tracingProcessAndDescendants" : "pre 1/12/2023 10:37" } }

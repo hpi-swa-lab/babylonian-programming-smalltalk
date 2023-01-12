@@ -1,4 +1,4 @@
 tracing
 tracingProcessIsSuspended
 	
-	^ self tracingProcess notNil and: [self traceInformation isProcessSuspended]
+	^ self traceInformation isProcessSuspended

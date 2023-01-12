@@ -11,11 +11,11 @@
 		"executionResult",
 		"exampleErrored",
 		"recordedException",
-		"exampleExecutionProcess",
 		"hasTraceCompleted",
 		"blockRecord",
 		"chronologicallyTrackedTraceValuesCount",
-		"mutex" ],
+		"mutex",
+		"erroredProcess" ],
 	"name" : "BPTrace",
 	"pools" : [
 		 ],

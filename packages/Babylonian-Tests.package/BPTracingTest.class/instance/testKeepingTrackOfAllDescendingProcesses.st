@@ -1,7 +1,11 @@
-tests
+tests - concurrent tracing
 testKeepingTrackOfAllDescendingProcesses
 
-	| traceAndProcess semaphore process1 descendants |
+	| example traceAndProcess semaphore process1 descendants |
+	example := BPMethodExample new
+		exampleName: 'test example';
+		method: BPTestManuallyInstrumentedClass>>#methodA;
+		yourself.
 	descendants := nil.
 	semaphore := Semaphore new.
 	traceAndProcess := [2+3.

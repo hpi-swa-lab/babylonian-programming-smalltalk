@@ -1,11 +1,7 @@
 tests
 testTerminatingAllDescendantProcesses
 
-	| example traceAndProcess process1 descendants descendantsSetSemaphore preventTerminationSemaphore |
-	example := BPMethodExample new
-		exampleName: 'test example';
-		method: BPTestManuallyInstrumentedClass>>#methodA;
-		yourself.
+	| traceAndProcess process1 descendants descendantsSetSemaphore preventTerminationSemaphore |
 	descendants := nil.
 	preventTerminationSemaphore := Semaphore new.
 	descendantsSetSemaphore := Semaphore new.
