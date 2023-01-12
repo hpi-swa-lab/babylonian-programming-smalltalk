@@ -3,11 +3,12 @@ valuesMorphFor: trace
 
 	| values valuesContainer |
 	values := trace valuesForProbeId: self id.
-	values ifEmpty: [^ (self noValuesTextFor: trace) asMorph].
-	values first traceHasFailedBefore ifTrue: [^ (self exceptionTextFor: trace) asMorph].
+	values ifEmpty: [^ (self noValuesTextFor: trace) bpProbeValueMorphIn: nil].
+	values first traceHasFailedBefore ifTrue: [
+		^ (self exceptionTextFor: trace) bpProbeValueMorphIn: nil].
 	
 	values := self filterValues: values throughSliderForTrace: trace.
-	values ifEmpty: [^ (self noValuesTextFor: trace) asMorph].
+	values ifEmpty: [^ (self noValuesTextFor: trace) bpProbeValueMorphIn: nil].
 	
 	valuesContainer := self newContainerMorph.
 	values 

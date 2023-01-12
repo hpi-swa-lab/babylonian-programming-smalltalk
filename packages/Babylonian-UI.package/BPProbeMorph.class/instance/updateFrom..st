@@ -16,6 +16,7 @@ updateFrom: traces
 			scrollPane scroller removeAllMorphs.				
 		
 			valuesMorph := (self valuesMorphFor: aTrace)
+				color: self defaultColor;
 				hResizing: #shrinkWrap;
 				yourself.
 			lineMorph setProperty: #bpValuesMorph toValue: valuesMorph.
