@@ -1,0 +1,6 @@
+tracing
+resumeTracing
+
+	self startTracing.
+	
+	

@@ -1,0 +1,6 @@
+tracing
+suspendTracingProcess
+
+	self stopTracing.
+	
+	

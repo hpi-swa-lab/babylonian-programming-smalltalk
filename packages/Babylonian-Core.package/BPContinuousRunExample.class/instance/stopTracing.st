@@ -1,4 +1,0 @@
-tracing
-stopTracing
-
-	self subclassResponsibility

@@ -10,5 +10,5 @@
 	"name" : "BPWorldExampleReference",
 	"pools" : [
 		 ],
-	"super" : "BPContinuousRunExample",
+	"super" : "BPExample",
 	"type" : "normal" }
