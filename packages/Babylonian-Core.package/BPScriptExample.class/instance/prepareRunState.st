@@ -1,4 +1,0 @@
-executing
-prepareRunState
-	
-	^ BPScriptExampleRunConfiguration new

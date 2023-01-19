@@ -3,4 +3,4 @@ testExamplesCanRunTheirSymbolTearDown
 	
 	self createExamples do: [:example |		
 		example tearDownScript: '#basicTearDownForExamples'.
-		self should: [example runTearDown] raise: Notification].
+		self should: [example runTearDownWith: example prepareRunState] raise: Notification].

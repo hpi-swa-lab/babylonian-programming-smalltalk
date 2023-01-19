@@ -7,8 +7,7 @@
 	"commentStamp" : "pre 5/3/2021 14:16",
 	"instvars" : [
 		"receiver",
-		"arguments",
-		"example" ],
+		"arguments" ],
 	"name" : "BPMethodExampleRunConfiguration",
 	"pools" : [
 		 ],
