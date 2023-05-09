@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"examplesToDisplayForSelection" : "jb 2/2/2022 17:34",
+		"newForExample:context:" : "joabe 5/9/2023 17:38" },
+	"instance" : {
+		"addSwimlane" : "jb 1/31/2022 22:35",
+		"addSwitchButton" : "jb 1/31/2022 22:06",
+		"cleanUpAfterRemovedExample" : "jb 2/2/2022 17:39",
+		"context" : "jb 1/31/2022 22:35",
+		"context:" : "joabe 5/9/2023 17:38",
+		"example" : "jb 1/31/2022 21:32",
+		"example:" : "jb 2/2/2022 17:34",
+		"initialize" : "joabe 5/9/2023 17:12",
+		"initializeVisualProperties" : "jb 1/31/2022 21:33",
+		"isDisplaying:" : "jb 2/2/2022 18:08",
+		"newExampleSelectionButtonMorph" : "joabe 9/30/2022 02:02",
+		"offerExampleSelectionMenu" : "jb 2/2/2022 17:35",
+		"startWatchingRemoveButtonActionOf:" : "jb 2/2/2022 17:38",
+		"update:" : "jb 2/2/2022 19:35",
+		"visualize" : "jb 2/2/2022 18:05" } }
