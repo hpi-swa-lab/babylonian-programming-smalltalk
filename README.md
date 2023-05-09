@@ -20,15 +20,15 @@ Metacello new
 
 ![Babylonian/S screenshot][babylonian_screenshot]
 
-## Babylonian Printbugger
-Due to their self-contained nature, traced values of multiple annotations are not entangled, meaning developers must manually reconstruct the program flow in order to know which trace values precede or succeed others in different annotations (possibly throughout different methods). To solve this problem, one can use the Printbugger. It sets probes and assertions - independent from their origin - into a chronological context. Hence, truthfully bringing printf-like tracing with live feedback to Babylonian Programming. The Printbugger additionally offers multiple features to enhance it from typical printf-traces: 
+## Babylonian ProbeLog
+Due to their self-contained nature, traced values of multiple annotations are not entangled, meaning developers must manually reconstruct the program flow in order to know which trace values precede or succeed others in different annotations (possibly throughout different methods). To solve this problem, one can use the ProbeLog. It sets probes and assertions - independent from their origin - into a chronological context. Hence, truthfully bringing printf-like tracing with live feedback to Babylonian Programming. The ProebeLog additionally offers multiple features to enhance it from typical printf-traces: 
 - Start debugging from a certain point in the trace by clicking the pause button
 - Know which methods were called starting from an example to the responding trace value with the generated Flame Graph
 - Navigate to a trace value's or example's origin by clicking on it
 - Change an example directly from a lane's title
 - Filter trace values of an annotation by clicking on the eye-icon
 - Double click a trace value to highlight its originating annotation (given the responding morph is visible)
-- Individualize your trace with the Printbugger's theme support 
+- Individualize your trace with the ProbeLog's theme support 
 
 More detailed information on the interactions and classes can be read [here](https://github.com/hpi-swa-lab/babylonian-programming-smalltalk/blob/develop/printbugger_docs.md).
 
