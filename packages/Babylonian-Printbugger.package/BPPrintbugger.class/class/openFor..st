@@ -1,4 +1,0 @@
-initialize-release
-openFor: anOrderedCollectionOfBPExamples
-
-	(self newForExamples: anOrderedCollectionOfBPExamples) buildSystemWindow openInWorld

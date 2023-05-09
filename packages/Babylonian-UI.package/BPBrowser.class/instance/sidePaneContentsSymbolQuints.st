@@ -3,4 +3,4 @@ sidePaneContentsSymbolQuints
 
 	^#(
 		(none				'none' 				'Close view pane')
-		(bpPrintbugger	 	'BPPrintbugger'		'A live view for babylonian annotations')).
+		(bpProbeLog	 	'BPProbeLog'		'A live view for babylonian annotations')).

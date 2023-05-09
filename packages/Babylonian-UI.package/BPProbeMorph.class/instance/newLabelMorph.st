@@ -12,7 +12,7 @@ newLabelMorph
 			self codeContentChanged]
 		onAccept: [:str | 
 			self acceptChangesAtSource]).
-	labelFieldMorph balloonText: 'Write a label that will be printed along the examples in the Printbugger.'.
+	labelFieldMorph balloonText: 'Write a label that will be printed along the examples in the ProbeLog.'.
 	labelFieldMorph hResizing: #spaceFill.
 		
 	container addMorph: labelFieldMorph.

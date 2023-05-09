@@ -1,1 +1,0 @@
-A BPNilExample implements the Nil Object Pattern for a BPExample. This way, it can be used as an option to select from in the Printbugger (being <none>).

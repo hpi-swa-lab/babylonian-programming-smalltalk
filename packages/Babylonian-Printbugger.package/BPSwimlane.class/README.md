@@ -1,3 +1,0 @@
-A BPSwimlane is a collective, chronologically sorted visualization of all of an example's traced values which are each represented in a BPSwimlaneLineMorph, effectively displaying all of its annotations in an interleaving timeline. It observes its example's trace in order to update itself with added or removed trace values (e.g., a new annotation has been added).
-
-Call "visualize" after an example was given through the message "example:" or visualize directly by calling "BPSwimlane newFor:".
