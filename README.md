@@ -21,7 +21,7 @@ Metacello new
 ![Babylonian/S screenshot][babylonian_screenshot]
 
 ## Babylonian ProbeLog
-Due to their self-contained nature, traced values of multiple annotations are not entangled, meaning developers must manually reconstruct the program flow in order to know which trace values precede or succeed others in different annotations (possibly throughout different methods). To solve this problem, one can use the ProbeLog. It sets probes and assertions - independent from their origin - into a chronological context. Hence, truthfully bringing printf-like tracing with live feedback to Babylonian Programming. The ProebeLog additionally offers multiple features to enhance it from typical printf-traces: 
+Due to their self-contained nature, traced values of multiple annotations are not entangled, meaning developers must manually reconstruct the program flow in order to know which trace values precede or succeed others in different annotations (possibly throughout different methods). To solve this problem, one can use the ProbeLog. It sets probes and assertions - independent from their origin - into a chronological context. Hence, truthfully bringing printf-like tracing with live feedback to Babylonian Programming. The ProbeLog additionally offers multiple features to enhance it from typical printf-traces: 
 - Start debugging from a certain point in the trace by clicking the pause button
 - Know which methods were called starting from an example to the responding trace value with the generated Flame Graph
 - Navigate to a trace value's or example's origin by clicking on it
