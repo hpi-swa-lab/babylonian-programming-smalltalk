@@ -20,7 +20,7 @@ Metacello new
 
 ![Babylonian/S screenshot][babylonian_screenshot]
 
-## How To Ensure Tracing for Individual Methods
+## How To Ensure Tracing for Own Classes
 When using Babylonian in your own development, make sure to add 
 ```Smalltalk
 compilerClass
