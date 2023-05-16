@@ -20,6 +20,15 @@ Metacello new
 
 ![Babylonian/S screenshot][babylonian_screenshot]
 
+## How To Ensure Tracing for Individual Methods
+When using Babylonian in your own development, make sure to add 
+```compilerClass
+
+	^ BPCompiler
+```
+on your class' side. Otherwise, the trace will disregard that class for performance reasons. 
+
+
 ## Babylonian Printbugger
 Due to their self-contained nature, traced values of multiple annotations are not entangled, meaning developers must manually reconstruct the program flow in order to know which trace values precede or succeed others in different annotations (possibly throughout different methods). To solve this problem, one can use the Printbugger. It sets probes and assertions - independent from their origin - into a chronological context. Hence, truthfully bringing printf-like tracing with live feedback to Babylonian Programming. The Printbugger additionally offers multiple features to enhance it from typical printf-traces: 
 - Start debugging from a certain point in the trace by clicking the pause button
