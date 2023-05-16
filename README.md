@@ -22,7 +22,8 @@ Metacello new
 
 ## How To Ensure Tracing for Individual Methods
 When using Babylonian in your own development, make sure to add 
-```compilerClass
+```Smalltalk
+compilerClass
 
 	^ BPCompiler
 ```
