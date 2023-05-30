@@ -32,7 +32,7 @@ baseline: spec
 				yourself.
 			spec
 				group: 'default' with: #('Babylonian-Core' 'Babylonian-UI' 'Babylonian-Printbugger');
-				group: 'tests' with: #('Babylonian-Tests' 'Babylonian-Printbugger-Tests');
+				group: 'tests' with: #('Babylonian-Tests');
 				group: 'full' with: #(tests 'Babylonian-Demo')];
 				
 		yourself
