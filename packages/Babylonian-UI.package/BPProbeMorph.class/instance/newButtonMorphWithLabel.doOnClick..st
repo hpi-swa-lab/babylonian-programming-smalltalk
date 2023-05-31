@@ -3,7 +3,7 @@ newButtonMorphWithLabel: aString doOnClick: aSymbolOrString
 	
 	| button |
 	button := IconicButton new
-		labelGraphic: ((TextMorph string: aString size: BPAnnotationMorph smallFontHeight) textColor: Color lightGray; yourself) imageForm;
+		labelGraphic: ((TextMorph string: aString size: BPAnnotationMorph smallFontHeight) textColor: self class actionTextColor; yourself) imageForm;
 		yourself.
 	
 	^ button 

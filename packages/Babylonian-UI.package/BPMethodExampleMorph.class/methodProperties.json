@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addArgumentScriptMorphs" : "pre 7/20/2022 17:30",
+		"addArgumentScriptMorphs" : "joabe 5/31/2023 14:12",
 		"addExampleSpecificMorphs" : "pre 1/8/2021 13:48",
-		"addReceiverConstructorMorph" : "pre 7/20/2022 17:32",
+		"addReceiverConstructorMorph" : "joabe 5/31/2023 14:13",
 		"newSpecimenSelectionButtonOnClick:" : "jb 12/5/2021 01:50",
 		"selectLiveSpecimen:then:" : "pre 1/10/2023 16:19" } }

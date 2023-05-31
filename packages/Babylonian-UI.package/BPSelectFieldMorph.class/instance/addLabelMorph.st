@@ -5,7 +5,7 @@ addLabelMorph
 	labelMorph hResizing: #shrinkWrap.
 	labelMorph minWidth: 5 * self fontWidth.
 	labelMorph backgroundColor: Color transparent.
-	labelMorph color: (PluggableTextMorph basicNew userInterfaceTheme textColor).
+	labelMorph color: BPAnnotationMorph textColor.
 	labelMorph lock.
 	
 	self addMorphBack: labelMorph.

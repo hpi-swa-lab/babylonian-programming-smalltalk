@@ -1,5 +1,4 @@
 visualization - constants
 datapointLowerPercentColor
 	
-	
-	^ Color blue
+	^ Color red

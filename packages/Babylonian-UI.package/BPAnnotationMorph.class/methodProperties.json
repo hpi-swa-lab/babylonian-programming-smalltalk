@@ -1,10 +1,13 @@
 {
 	"class" : {
+		"actionTextColor" : "joabe 5/31/2023 18:33",
+		"fillColor" : "joabe 5/31/2023 14:28",
 		"fontHeight" : "pre 11/18/2019 10:40",
 		"fontWidth" : "pre 11/18/2019 10:44",
 		"newContainerMorph" : "pre 10/12/2020 17:47",
 		"smallFontHeight" : "jb 9/9/2021 18:39",
-		"smallFontWidth" : "pre 1/7/2021 11:49" },
+		"smallFontWidth" : "pre 1/7/2021 11:49",
+		"textColor" : "joabe 5/31/2023 11:37" },
 	"instance" : {
 		"acceptChangesAtSource" : "jb 1/7/2022 23:43",
 		"annotation" : "pre 7/2/2019 16:39",
@@ -12,7 +15,6 @@
 		"codeContentChanged" : "pre 1/21/2021 16:45",
 		"containingBrowser" : "pre 1/6/2021 19:45",
 		"createErrorIndicatorFor:" : "pre 2/22/2021 12:15",
-		"defaultColor" : "lu 1/16/2022 23:19",
 		"editFieldFor:text:onChange:onAccept:" : "pre 6/7/2021 16:27",
 		"editFieldInitialContent:onChange:onAccept:" : "pre 7/20/2022 17:19",
 		"editFieldStyledInitialContent:onChange:onAccept:" : "pre 7/20/2022 17:17",
@@ -27,7 +29,7 @@
 		"iconSize" : "pre 7/24/2019 13:18",
 		"id" : "pre 7/2/2019 16:38",
 		"id:" : "pre 7/2/2019 16:38",
-		"initialize" : "lu 1/16/2022 23:19",
+		"initialize" : "joabe 5/31/2023 14:28",
 		"isAssertion" : "pre 7/3/2019 11:11",
 		"isBPAnnotationMorph" : "pre 7/3/2019 11:10",
 		"isExample" : "pre 7/23/2019 12:47",

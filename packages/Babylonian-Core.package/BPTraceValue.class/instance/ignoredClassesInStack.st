@@ -1,8 +1,7 @@
 private
 ignoredClassesInStack
 
-	^ {	BlockClosure.
-		Symbol.
+	^ {	Symbol.
 		DynamicVariable class.
 		ActiveEventVariable class.
 		CSProcessContextInformation.
@@ -11,7 +10,5 @@ ignoredClassesInStack
 		CSPartialMethod.
 		TestCase.
 		TestResult.
-		BPPrintbuggerTest.
-		BPExample.
 		MorphicEventDispatcher.
-		}
+		}, self allBabylonianInternalClasses

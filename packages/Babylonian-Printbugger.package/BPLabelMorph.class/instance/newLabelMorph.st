@@ -11,5 +11,5 @@ newLabelMorph
 						selector: traceValue containedMethodReference methodSymbol]
 				ifNotNil: [self containingSwimlane 
 					browseFor: traceValue containedMethodReference compiledMethod]];
-		color: Color lightGray;
+		color: self class actionTextColor;
 		yourself.

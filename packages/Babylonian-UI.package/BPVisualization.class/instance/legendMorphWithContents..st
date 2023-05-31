@@ -9,7 +9,7 @@ legendMorphWithContents: aStringCollection
 			areaHeight := self class canvasHeight  / (aStringCollection size - 1).
 			notationMorphs := aStringCollection collectWithIndex: [:aString :index | 
 				(TextMorph string: aString size: self fontHeight)
-					color: self fontColor;
+					color: BPAnnotationMorph textColor;
 					y: (aStringCollection size - index) * areaHeight - (self class heightMargin);
 					yourself]]
 			ifFalse: [ notationMorphs := {} ].

@@ -6,7 +6,7 @@ addArgumentScriptMorphs
 		container := self newContainerMorph.
 		container cellPositioning: #topLeft.
 		labelMorph := ((argumentName , ': ') asMorph 
-			color: Color lightGray; 
+			color: self class textColor; 
 			borderWidth: 0;
 			yourself).
 		container addMorphBack: labelMorph.

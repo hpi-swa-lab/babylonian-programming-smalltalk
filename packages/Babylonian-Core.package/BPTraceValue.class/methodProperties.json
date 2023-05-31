@@ -2,6 +2,7 @@
 	"class" : {
 		"value:identityHash:stack:" : "pre 10/12/2020 17:57" },
 	"instance" : {
+		"allBabylonianInternalClasses" : "joabe 5/31/2023 19:12",
 		"asValueMorph" : "jb 5/20/2021 01:00",
 		"belongingAnnotation" : "lu 1/31/2022 16:59",
 		"belongingAnnotationId" : "lu 12/1/2021 07:32",
@@ -10,7 +11,7 @@
 		"chronologicalPosition:" : "jb 5/20/2021 14:50",
 		"containedMethodReference" : "pre 11/16/2022 16:04",
 		"filteredStack" : "pre 11/16/2022 15:57",
-		"ignoredClassesInStack" : "pre 11/16/2022 15:56",
+		"ignoredClassesInStack" : "joabe 5/31/2023 19:11",
 		"ignoredMessagesInStack" : "pre 1/11/2023 10:15",
 		"isStackFull" : "jb 6/30/2021 01:26",
 		"printOn:" : "jb 5/19/2021 20:59",

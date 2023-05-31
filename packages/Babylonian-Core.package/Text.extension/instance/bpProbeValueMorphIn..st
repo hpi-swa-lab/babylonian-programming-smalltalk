@@ -3,6 +3,6 @@ bpProbeValueMorphIn: traceValue
 
 	^ BPAnnotationMorph newContainerMorph 
 		addMorph: (self asMorph
-			color: (PluggableTextMorph basicNew userInterfaceTheme textColor);
+			color: BPAnnotationMorph textColor;
 			yourself); 
 		yourself

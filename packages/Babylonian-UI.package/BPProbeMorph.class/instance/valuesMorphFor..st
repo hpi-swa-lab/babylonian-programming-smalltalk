@@ -14,7 +14,7 @@ valuesMorphFor: trace
 	values 
 		do: [:v | valuesContainer addMorphBack: (self valueMorphFor: v)]
 		separatedBy: [valuesContainer addMorphBack: (', ' asMorph
-						color: (PluggableTextMorph basicNew userInterfaceTheme textColor);
+						color: self class textColor;
 						yourself)].
 	
 	^ valuesContainer

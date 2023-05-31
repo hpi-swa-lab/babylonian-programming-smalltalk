@@ -1,0 +1,4 @@
+ui
+textColor
+
+	^ BPAnnotationMorph textColor

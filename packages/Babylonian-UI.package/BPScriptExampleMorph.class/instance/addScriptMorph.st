@@ -5,7 +5,7 @@ addScriptMorph
 	container := self newContainerMorph.
 	container cellPositioning: #topLeft.
 	container addMorphBack: ('script: ' asMorph
-								color: (PluggableTextMorph basicNew userInterfaceTheme textColor);
+								color: self class textColor;
 								yourself).
 	
 	editField := (self

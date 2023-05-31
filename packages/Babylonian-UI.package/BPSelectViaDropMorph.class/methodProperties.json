@@ -3,9 +3,11 @@
 		 },
 	"instance" : {
 		"acceptDroppingMorph:event:" : "jb 12/7/2020 19:03",
-		"initialize" : "pre 7/20/2022 17:40",
+		"fillColor" : "joabe 5/31/2023 19:41",
+		"initialize" : "joabe 5/31/2023 19:44",
 		"previousObject" : "pre 7/20/2022 17:27",
 		"previousObject:" : "pre 7/20/2022 17:36",
+		"textColor" : "joabe 5/31/2023 19:43",
 		"then" : "pre 7/10/2020 17:56",
 		"then:" : "jb 12/7/2020 19:03",
 		"wantsDroppedMorph:event:" : "pre 7/10/2020 18:06" } }

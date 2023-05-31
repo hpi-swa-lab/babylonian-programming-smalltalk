@@ -15,5 +15,5 @@ addInteractionsToStackMorph: aStackMorph for: abpContext
 		on: #mouseLeave
 			send: #value
 			to: [(context stackColumnFor: abpContext) do: [:stackFrameMorph |
-					stackFrameMorph borderStyle: nil]..
+					stackFrameMorph borderStyle: nil].
 				aStackMorph deleteBalloon].

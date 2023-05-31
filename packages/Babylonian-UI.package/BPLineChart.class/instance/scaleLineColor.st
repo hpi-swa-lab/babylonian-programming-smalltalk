@@ -1,5 +1,4 @@
 visualization - constants
 scaleLineColor
 	
-	
-	^ Color veryLightGray
+	^ BPAnnotationMorph textColor
