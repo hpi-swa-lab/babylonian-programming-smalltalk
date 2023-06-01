@@ -1,13 +1,15 @@
 as yet unclassified
 addSelectExampleButton
 
+	| labelMorph |
 	selectExampleButton := SimpleButtonMorph newWithLabel: self referencedExampleName.
-	selectExampleButton 
+	labelMorph := selectExampleButton findA: StringMorph.
+	labelMorph ifNotNil: [labelMorph color: self class textColor].
+	exampleSpecificMorphs addMorphBack: (selectExampleButton
 		color: Color transparent;
 		borderWidth: 0;
 		extent: selectExampleButton extent  * (1@0.8);
-		name: #selectExampleButton.
-	selectExampleButton 
+		name: #selectExampleButton;
 		actionSelector: #selectExampleButtonClicked;
-		target: self.
-	exampleSpecificMorphs addMorphBack: selectExampleButton.
+		target: self;
+		yourself).
