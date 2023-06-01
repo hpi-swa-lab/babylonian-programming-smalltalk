@@ -1,4 +1,4 @@
-as yet unclassified
+ui constants
 textColor
 
 	^ self actionTextColor

@@ -1,10 +1,8 @@
 private
 allBabylonianInternalClasses
-		^ (PackageOrganizer default packageNamed: 'Babylonian-Core' 
-			ifPresent: [:thePackage | thePackage classes] ifAbsent: [#()]),
-		(PackageOrganizer default packageNamed: 'Babylonian-Compiler' 
-			ifPresent: [:thePackage | thePackage classes] ifAbsent: [#()]),
-		(PackageOrganizer default packageNamed: 'Babylonian-UI' 
-			ifPresent: [:thePackage | thePackage classes] ifAbsent: [#()]),	
-		(PackageOrganizer default packageNamed: 'Babylonian-Printbugger' 
-			ifPresent: [:thePackage | thePackage classes] ifAbsent: [#()])
+		^ #('Babylonian-Core'  'Babylonian-Compiler' 'Babylonian-UI' 'Babylonian-Printbugger') 
+				inject: OrderedCollection new 
+				into: [:theClasses :aPackage | 
+					theClasses, (PackageOrganizer default packageNamed: aPackage 
+							ifPresent: [:thePackage | thePackage classes] 
+							ifAbsent: [#()])].   
