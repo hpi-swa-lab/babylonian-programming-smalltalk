@@ -5,3 +5,6 @@ postLoadUI
 	CharacterSet cleanUp: false.
 	
 	(Smalltalk at: #BPEmojis) initialize.
+	
+	"Ensure proper setup for e.g. default quints for unannotated view" 
+	BPBrowser initialize.
