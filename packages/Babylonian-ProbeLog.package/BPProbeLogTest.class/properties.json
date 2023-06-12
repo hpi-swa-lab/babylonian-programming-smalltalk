@@ -1,0 +1,16 @@
+{
+	"category" : "Babylonian-ProbeLog-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"probelog",
+		"example1",
+		"example2" ],
+	"name" : "BPProbeLogTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

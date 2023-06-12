@@ -1,0 +1,5 @@
+A BPProbeLogContext is a helper class used by BPProbeLog and BPSwimlane. It can be seen as a decoupled state extension of BPProbeLog. 
+A BPProbeLog adds examples to or removes them from a context object which tracks selected attributes throughout them, thus creating a BPProbeLog-wide state which swim lanes use for their layout. For example, BPProbeLogContext >> colorFor: having: returns the color a method should have depending on the methods found in examples' trace values to achieve consistency throughout swim lanes. 
+Whenever a new example method is added or removed, #updatedContext is sent as an update notification. On the other hand, #newTrace may be received to update the context to an updated trace (which, e.g., might add or remove methods important for colorFor: having:).
+
+The BPProbeLogContext is further responsible for holding a mapping of examples to annotation ids. If an annotation id is listed for an example, the annotation's trace values are hidden in the corresponding example's swimlane. It also holds the id of the annotation which trace values are about to flash on a hide/show interaction.
