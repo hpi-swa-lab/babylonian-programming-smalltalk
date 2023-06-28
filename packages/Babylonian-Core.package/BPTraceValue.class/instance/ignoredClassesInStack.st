@@ -11,7 +11,7 @@ ignoredClassesInStack
 		CSPartialMethod.
 		TestCase.
 		TestResult.
-		BPPrintbuggerTest.
+		BPProbeLogTest.
 		BPExample.
 		MorphicEventDispatcher.
 		}

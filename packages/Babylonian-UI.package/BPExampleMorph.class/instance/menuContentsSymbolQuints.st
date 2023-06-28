@@ -5,6 +5,6 @@ menuContentsSymbolQuints
 	^#(
 		(configurationButtonClicked	'edit example configuration'		'configure the examples pre- and postscript')
 		(deleteAllAnnotationsClicked	'delete all annotations for example' 	'delete all annotations for this example')
-		(openInPrintbuggerClicked	'open example in printbugger'		'opens this example in the BPPrintbugger')
+		(openInProbeLogClicked	'open example in probelog'		'opens this example in the BPProbeLog')
 		(debugMenuItemClicked	'debug example'		'start the example in the debugger')
 		(timeoutButtonClicked 	'set timeout'		'sets a timeout for the example`s execution')).

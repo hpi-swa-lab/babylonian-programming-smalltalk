@@ -2,7 +2,7 @@ tests
 testClosesSidePane
 
 	browser buildDefaultBrowserWith: ToolBuilder default.
-	browser updateSidePaneContent: #bpPrintbugger.
+	browser updateSidePaneContent: BPBrowser probeLogSymbol.
 	browser updateSidePaneContent: #none.
 	
 	self assert: browser isSidePaneOpen == false.
