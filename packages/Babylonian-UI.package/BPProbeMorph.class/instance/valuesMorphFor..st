@@ -12,7 +12,21 @@ valuesMorphFor: trace
 	
 	valuesContainer := self newContainerMorph.
 	values 
-		do: [:v | valuesContainer addMorphBack: (self valueMorphFor: v)]
+		do: [:v | | borderMorph borderWrapperMorph | 
+				borderWrapperMorph := self newContainerMorph.
+				borderWrapperMorph 
+					changeTableLayout;
+					listDirection: #topToBottom.
+				borderMorph := Morph new
+					color: (trace pathForTraceValue: v) color;
+					height: ((self fontHeight // 4) max: 4);
+					hResizing: #spaceFill;
+					balloonText: (trace pathForTraceValue: v) stackPrintString;
+					yourself.
+				borderWrapperMorph 
+					addMorphFront: (self valueMorphFor: v);
+					addMorphBack: borderMorph.
+			valuesContainer addMorphBack: borderWrapperMorph]
 		separatedBy: [valuesContainer addMorphBack: (', ' asMorph
 						color: (PluggableTextMorph basicNew userInterfaceTheme textColor);
 						yourself)].

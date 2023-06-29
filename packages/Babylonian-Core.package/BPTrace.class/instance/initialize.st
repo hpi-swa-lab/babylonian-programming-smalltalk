@@ -1,6 +1,7 @@
 initialize-release
 initialize
 
+	| bpContextsToRawPath |
 	super initialize.
 	probes := IdentityDictionary new.
 	assertions := IdentityDictionary new.
@@ -9,3 +10,12 @@ initialize
 	blockRecord := Dictionary new.
 	chronologicallyTrackedTraceValuesCount := 0.
 	mutex := Mutex new.
+	
+	controlFlowPaths := IdentityDictionary new.
+	
+	bpContextsToRawPath := [:bpContexts | 
+			(bpContexts collect: [:context | {context receiverClass . context selector}])].
+	allPaths := PluggableDictionary
+		hashBlock: [:bpContexts | (bpContextsToRawPath value: bpContexts) hash]
+		equalBlock: [:bpContexts1 :bpContexts2 |
+			(bpContextsToRawPath value: bpContexts1) = (bpContextsToRawPath value: bpContexts2)]

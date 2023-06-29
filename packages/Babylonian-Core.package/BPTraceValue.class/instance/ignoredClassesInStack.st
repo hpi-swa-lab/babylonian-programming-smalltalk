@@ -13,5 +13,6 @@ ignoredClassesInStack
 		TestResult.
 		BPProbeLogTest.
 		BPExample.
+		BPAbstractExample.
 		MorphicEventDispatcher.
 		}

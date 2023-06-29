@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"newFrom:" : "pre 11/16/2022 15:59" },
+		"newFrom:" : "pre 6/29/2023 11:18" },
 	"instance" : {
 		"=" : "pre 11/16/2022 16:01",
 		"contextIdentityHash" : "pre 11/16/2022 15:59",
@@ -10,6 +10,8 @@
 		"methodClass" : "pre 11/16/2022 15:58",
 		"methodClass:" : "pre 11/16/2022 15:58",
 		"methodReference" : "pre 11/16/2022 16:03",
+		"receiverClass" : "pre 6/29/2023 11:18",
+		"receiverClass:" : "pre 6/29/2023 11:18",
 		"receiverIdentityHash" : "pre 11/16/2022 15:58",
 		"receiverIdentityHash:" : "pre 11/16/2022 15:58",
 		"selector" : "pre 11/16/2022 15:58",

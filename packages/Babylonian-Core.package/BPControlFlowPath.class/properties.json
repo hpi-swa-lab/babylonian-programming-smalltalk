@@ -6,12 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"contextIdentityHash",
-		"receiverIdentityHash",
-		"selector",
-		"methodClass",
-		"receiverClass" ],
-	"name" : "BPContext",
+		"rawPath",
+		"color",
+		"path" ],
+	"name" : "BPControlFlowPath",
 	"pools" : [
 		 ],
 	"super" : "Object",
