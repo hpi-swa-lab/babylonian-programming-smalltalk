@@ -13,6 +13,8 @@ reopenBrowser: window with: aBuilder ofSize: aPoint
 	
 	self myDependents: dependents.
 	
+	isStylingValid := true.
+	
 	(window openAsTool)
 			extent: aPoint;
 			position: position;

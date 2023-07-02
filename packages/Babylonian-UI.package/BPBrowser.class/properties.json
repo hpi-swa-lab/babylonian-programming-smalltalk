@@ -8,7 +8,8 @@
 	"instvars" : [
 		"sidePaneContent",
 		"isSidePaneOpen",
-		"currentWindow" ],
+		"currentWindow",
+		"isStylingValid" ],
 	"name" : "BPBrowser",
 	"pools" : [
 		 ],

@@ -1,4 +1,4 @@
-private
+ui
 valueMorphFor: traceValue
 	
 	| morph |

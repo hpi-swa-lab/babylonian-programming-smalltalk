@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"newIn:tracing:" : "joabe 7/1/2023 17:18",
+		"textColor" : "joabe 6/29/2023 16:17" },
+	"instance" : {
+		"addValues" : "joabe 7/1/2023 16:09",
+		"applyUserInterfaceTheme" : "joabe 7/1/2023 19:04",
+		"basicValuesFor:" : "joabe 7/1/2023 16:06",
+		"exceptionText" : "joabe 6/29/2023 15:42",
+		"exceptionTextMorph" : "joabe 7/1/2023 20:07",
+		"initialize" : "joabe 7/1/2023 15:37",
+		"noValuesText" : "joabe 7/1/2023 19:16",
+		"noValuesTextMorph" : "joabe 7/2/2023 19:43",
+		"probeMorph" : "joabe 7/1/2023 15:43",
+		"probeMorph:" : "joabe 7/1/2023 15:26",
+		"trace" : "joabe 7/1/2023 15:32",
+		"trace:" : "joabe 7/1/2023 16:06",
+		"valueMorphFor:" : "joabe 6/29/2023 16:18",
+		"values" : "joabe 6/29/2023 16:25",
+		"visualize" : "joabe 7/2/2023 19:44" } }

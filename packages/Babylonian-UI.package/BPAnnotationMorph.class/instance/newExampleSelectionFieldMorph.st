@@ -3,7 +3,7 @@ newExampleSelectionFieldMorph
 	
 	^ BPExampleSelectFieldMorph new
 		optionsBlock: [ 
-			{BPExampleSpecificScript allExamplesName} , SystemNavigation default allExamples];
+			{BPExampleSpecificScript allExamplesName} , SystemNavigation default allExamples asOrderedCollection];
 		model: (BPObjectValueModel new
 			object: (self annotation ifNotNil: [:anAnnotation | anAnnotation exampleSelection]);
 			onChangeBlock: [:exampleOrAllExampleString |
