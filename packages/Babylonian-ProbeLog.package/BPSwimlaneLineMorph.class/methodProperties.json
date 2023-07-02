@@ -5,6 +5,7 @@
 		"newFor:in:calledBy:withContext:" : "joabe 5/9/2023 17:41" },
 	"instance" : {
 		"addInteractionsToStackMorph:for:" : "pre 11/16/2022 16:17",
+		"applyUserInterfaceTheme" : "joabe 7/3/2023 00:50",
 		"colorFor:" : "lu 3/7/2022 19:27",
 		"containingSwimlane:" : "lu 3/7/2022 18:35",
 		"context:" : "joabe 5/9/2023 17:41",
@@ -20,12 +21,13 @@
 		"newLabelValuePairMorph" : "joabe 5/9/2023 17:41",
 		"newStackFrameMorphFor:withHeight:" : "pre 11/16/2022 16:15",
 		"newToggleAnnotationVisibilityButtonWithVisibility:" : "joabe 5/9/2023 17:35",
-		"newValueMorph" : "lu 3/7/2022 01:04",
+		"newValueMorph" : "joabe 7/3/2023 00:35",
 		"positionInAnnotations" : "lu 3/7/2022 18:35",
 		"scaleIcon:by:" : "lu 3/7/2022 00:43",
 		"scrollBarSize" : "lu 3/7/2022 00:44",
 		"stackDepth" : "pre 11/16/2022 11:13",
 		"stackOfMethodReferences:" : "lu 3/7/2022 00:19",
+		"textColor" : "joabe 7/3/2023 00:49",
 		"toggleAnnotationVisibilityButtonClicked" : "lu 3/7/2022 19:25",
 		"traceValue:" : "lu 3/7/2022 00:20",
 		"visualizeSubmorphs" : "pre 11/16/2022 15:41" } }
