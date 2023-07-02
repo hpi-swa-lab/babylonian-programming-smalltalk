@@ -1,0 +1,16 @@
+{
+	"category" : "Babylonian-Core-Tracing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"rawPath",
+		"color",
+		"path" ],
+	"name" : "BPControlFlowPath",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

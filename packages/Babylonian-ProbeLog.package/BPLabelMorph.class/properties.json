@@ -1,0 +1,15 @@
+{
+	"category" : "Babylonian-ProbeLog",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "joabe 5/9/2023 17:13",
+	"instvars" : [
+		"traceValue",
+		"containingSwimlane" ],
+	"name" : "BPLabelMorph",
+	"pools" : [
+		 ],
+	"super" : "BPAnnotationMorph",
+	"type" : "normal" }

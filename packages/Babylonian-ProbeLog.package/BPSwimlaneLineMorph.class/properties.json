@@ -1,0 +1,17 @@
+{
+	"category" : "Babylonian-ProbeLog",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lu 3/16/2022 23:17",
+	"instvars" : [
+		"traceValue",
+		"containingSwimlane",
+		"stackOfMethodReferences",
+		"context" ],
+	"name" : "BPSwimlaneLineMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

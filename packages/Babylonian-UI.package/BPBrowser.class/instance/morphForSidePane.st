@@ -1,4 +1,4 @@
 what to show
 morphForSidePane
 
-	self sidePaneContent = #bpPrintbugger ifTrue: [^ BPPrintbugger new].
+	self sidePaneContent = self class probeLogSymbol ifTrue: [^ BPProbeLog new].

@@ -5,4 +5,5 @@ newFrom: aMemento
 		contextIdentityHash: aMemento first;
 		receiverIdentityHash: aMemento second;
 		selector: aMemento third;
-		methodClass: aMemento fourth
+		methodClass: aMemento fourth;
+		receiverClass: aMemento fifth

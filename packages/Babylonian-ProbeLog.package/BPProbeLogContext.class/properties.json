@@ -1,0 +1,18 @@
+{
+	"category" : "Babylonian-ProbeLog",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "joabe 5/9/2023 17:12",
+	"instvars" : [
+		"methodToCount",
+		"keysCountCache",
+		"exampleToIgnoredAnnotations",
+		"annotationIdToFlash",
+		"stackColumns" ],
+	"name" : "BPProbeLogContext",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

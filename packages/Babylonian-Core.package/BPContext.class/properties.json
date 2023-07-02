@@ -9,7 +9,8 @@
 		"contextIdentityHash",
 		"receiverIdentityHash",
 		"selector",
-		"methodClass" ],
+		"methodClass",
+		"receiverClass" ],
 	"name" : "BPContext",
 	"pools" : [
 		 ],

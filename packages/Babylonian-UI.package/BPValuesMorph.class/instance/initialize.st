@@ -9,7 +9,9 @@ initialize
 	
 	self color: Color transparent;
 		vResizing: #shrinkWrap;
-		hResizing: #shrinkWrap;
+		hResizing: #spaceFill;
+		cellPositioning: #topLeft;
 		changeTableLayout;
 		listDirection: #leftToRight;
+		layoutInset: 1;
 		borderWidth: 0.
