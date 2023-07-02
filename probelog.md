@@ -1,8 +1,8 @@
 # Interactions
 
 ## Open
-- Execute `BPPrintbugger open`
-- In a `BPBrowser`, click on `side pane`>`BPPrintbugger`
+- Execute `BPProbeLog open`
+- In a `BPBrowser`, click on `side pane`>`BPProbeLog`
 - Click on an example's extented menu (...)
 
 ## Adding & Removing Examples
@@ -49,23 +49,23 @@ Detailed documentation on the classes can be found in their responding class com
 ![image](https://user-images.githubusercontent.com/33000454/158612243-583c1bd5-92b5-4174-8713-e46ca7b2069c.png)
 
 
-## BPPrintbugger
-Left to right collection of all `BPPrintbuggerColumnMorphs`. Has a global context with `BPPrintbuggerContext`
+## BPProbeLog
+Left to right collection of all `BPProbeLogColumnMorphs`. Has a global context with `BPProbeLogContext`
 
-## BPPrintbuggerContext
+## BPProbeLogContext
 Saves all methods of multiple traces to have a consistent color mapping for the flame graphs used by `BPSwimlaneLineMorph`. Also knows which annotations of an example should be hidden in the visualization.
 
-## BPPrintbuggerColumnMorph
-One column in the Printbugger, containing a button and a `BPSwimlane`. Responsible for the switch logic, for example, displaying the selected example from the menu as a swimlane or deleting itself when `none` is selected.
+## BPProbeLogColumnMorph
+One column in the ProbeLog, containing a button and a `BPSwimlane`. Responsible for the switch logic, for example, displaying the selected example from the menu as a swimlane or deleting itself when `none` is selected.
 
 ## BPNilExample
-The `none` option for the displayed menu when selecting an example in `BPPrintbuggerColumnMorph`. Doesn't result in a swimlane and might delete a `BPPrintbuggerColumnMorph` when excessive.
+The `none` option for the displayed menu when selecting an example in `BPProbeLogColumnMorph`. Doesn't result in a swimlane and might delete a `BPProbeLogColumnMorph` when excessive.
 
 ## BPSwimlane
-Display of an example's trace values in chronological order. Listens to the given example trace's update events and updates accordingly. A top to bottom collection of `BPSwimlaneLineMorph`. Has a `BPPrintbuggerContext` to pass on.
+Display of an example's trace values in chronological order. Listens to the given example trace's update events and updates accordingly. A top to bottom collection of `BPSwimlaneLineMorph`. Has a `BPProbeLogContext` to pass on.
 
 ## BPSwimlaneLineMorph
-Responsible for displaying a trace value and creating the UI for its possible interactions / additional information. The halt button, method call stacks, label, filter etc.. Sets flame graph colors and hides values using the `BPPrintbuggerContext` of its belonging `BPSwimlane`.
+Responsible for displaying a trace value and creating the UI for its possible interactions / additional information. The halt button, method call stacks, label, filter etc.. Sets flame graph colors and hides values using the `BPProbeLogContext` of its belonging `BPSwimlane`.
 
 ## BPLabelMorph
 The label of a trace value extended with deletion, a backup label and downsize (when filtered) logic. 
