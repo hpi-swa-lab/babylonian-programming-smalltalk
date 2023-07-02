@@ -5,6 +5,6 @@ newBackUpTitleMorphFor: aBPExample
 		name: #title;
 		contents: (Text string: aBPExample uniqueIdentifier attribute: TextEmphasis bold);
 		on: #click send: #value to: [self browseFor: aBPExample method];
-		color: (PluggableTextMorph basicNew userInterfaceTheme textColor);
+		color: BPAnnotationMorph textColor;
 		yourself
 	
