@@ -5,5 +5,8 @@ OrderedDictionary {
 	'packages/Babylonian-Tests.package' : #SquotCypressCodeSerializer,
 	'packages/Babylonian-UI.package' : #SquotCypressCodeSerializer,
 	'packages/BaselineOfBabylonianProgramming.package' : #SquotCypressCodeSerializer,
-	'packages/Babylonian-ProbeLog.package' : #SquotCypressCodeSerializer
+	'packages/Babylonian-ProbeLog.package' : #SquotCypressCodeSerializer,
+	'Babylonian-ExampleMining-Core.package' : #SquotCypressCodeSerializer,
+	'Babylonian-ExampleMining-Minimization.package' : #SquotCypressCodeSerializer,
+	'Babylonian-ExampleMining-Tests.package' : #SquotCypressCodeSerializer
 }
