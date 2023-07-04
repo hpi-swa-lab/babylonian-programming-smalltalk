@@ -1,4 +1,4 @@
-as yet unclassified
+private - ui
 selectExampleButtonClicked
 
 	BPExamplesBrowserForSelecting openOnSelection: [	:anExample |

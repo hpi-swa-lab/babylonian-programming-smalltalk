@@ -1,7 +1,9 @@
 private - ui
 addTraceControlButton
 
-	traceControlButton := SimpleButtonMorph newWithLabel: (self example isTracing ifTrue: [self stopTracingLabel] ifFalse: [self startTracingLabel]).
+	| label |
+	label := (self example isTracing ifTrue: [self stopTracingLabel] ifFalse: [self startTracingLabel]).
+	traceControlButton := SimpleButtonMorph newWithLabel: label.
 	traceControlButton 
 		color: Color transparent;
 		borderWidth: 0;
@@ -9,5 +11,9 @@ addTraceControlButton
 		name: #traceControlButton.
 	traceControlButton 
 		actionSelector: #traceControlButtonClicked;
-		target: self.
+		target: self;
+		when: #updateLabelGraphic
+		send: #label:
+		to: traceControlButton
+		withArguments:  {label}.
 	exampleSpecificMorphs addMorphBack:  traceControlButton.

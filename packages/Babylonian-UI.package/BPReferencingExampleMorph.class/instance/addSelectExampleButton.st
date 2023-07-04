@@ -1,4 +1,4 @@
-as yet unclassified
+private - ui
 addSelectExampleButton
 
 	| labelMorph |
@@ -12,4 +12,8 @@ addSelectExampleButton
 		name: #selectExampleButton;
 		actionSelector: #selectExampleButtonClicked;
 		target: self;
+		when: #updateLabelGraphic
+		send: #label:
+		to: selectExampleButton
+		withArguments:  {self referencedExampleName};
 		yourself).
