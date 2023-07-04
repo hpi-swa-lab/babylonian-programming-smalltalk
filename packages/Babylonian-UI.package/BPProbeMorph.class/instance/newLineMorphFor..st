@@ -28,7 +28,7 @@ newLineMorphFor: aTrace
 	(self canBeVisualized: aTrace) ifTrue: [
 		newLine addMorphBack: (self newContainerMorph
 			extent: 0@0;
-			name: #axisYNotationHolder;
+			name: #bpLegendWrapper;
 			yourself)].
 		
 	scrollPane := self newScrollPane.

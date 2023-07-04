@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-UI-Morphs",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BPTypeValuesMorph",
+	"pools" : [
+		 ],
+	"super" : "BPUnwrappedValuesMorph",
+	"type" : "normal" }

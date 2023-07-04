@@ -1,0 +1,4 @@
+ui
+fontHeight
+
+	^ BPAnnotationMorph fontHeight

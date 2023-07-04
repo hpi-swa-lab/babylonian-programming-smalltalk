@@ -1,0 +1,4 @@
+ui
+fillColor
+
+	^ BPAnnotationMorph fillColor

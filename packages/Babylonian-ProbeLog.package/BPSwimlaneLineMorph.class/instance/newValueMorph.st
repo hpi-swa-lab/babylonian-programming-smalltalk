@@ -6,6 +6,7 @@ newValueMorph
 		ifTrue: [self newAssertionValueMorph]
 		ifFalse: [traceValue asValueMorph].
 		
-	morph on: #click send: #value to: [traceValue tracedValue explore].
+	morph on: #click send: #value to: [traceValue tracedValue explore];
+			name: #bpSwimlaneValue.
 	
 	^ morph

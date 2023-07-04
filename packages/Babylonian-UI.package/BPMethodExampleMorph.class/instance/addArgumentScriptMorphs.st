@@ -1,17 +1,10 @@
 private - ui
 addArgumentScriptMorphs
 
-	| editField labelMorph container |
+	| editField container |
 	self example argumentNames withIndexDo: [:argumentName :index |
-		container := self newContainerMorph.
-		container cellPositioning: #topLeft.
-		labelMorph := ((argumentName , ': ') asMorph 
-			color: Color lightGray; 
-			borderWidth: 0;
-			yourself).
-		container addMorphBack: labelMorph.
+		container := self newLabelContainerMorph: (argumentName , ': ').
 
-		"Editing field"
 		editField := self
 			editFieldStyledInitialContent: (self example argumentScriptStringAt: index)
 			onChange: [:str | 

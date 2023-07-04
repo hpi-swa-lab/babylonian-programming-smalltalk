@@ -2,7 +2,7 @@ initialization
 initialize
 
 	super initialize.
-	self color: self defaultColor.
+	self color: self class fillColor.
 	self height: self fontHeight.
 	
 	self 

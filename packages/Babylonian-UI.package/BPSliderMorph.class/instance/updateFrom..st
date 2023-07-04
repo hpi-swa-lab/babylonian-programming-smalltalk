@@ -36,6 +36,8 @@ updateFrom: traces
 				orientation: #horizontal;
 				hResizing: #rigid;
 				extent: 100@15.
+			
+			runLabelMorph color: self class textColor.
 				
 			sliderMorph value: ((self annotation selectedContexts first between: offsetOfRuns + 1 and: offsetOfRuns + runs size) 
 				ifTrue: [self annotation selectedContexts first - offsetOfRuns]

@@ -1,14 +1,8 @@
 private - ui
 addReceiverConstructorMorph
 
-	| container editField labelMorph |
-	container := self newContainerMorph.
-	container cellPositioning: #topLeft.
-	labelMorph := 'self: ' asMorph 
-			color: Color lightGray;
-			borderWidth: 0;
-			yourself.
-	container addMorphBack: labelMorph.
+	| container editField |
+	container :=  self newLabelContainerMorph: 'self: '.
 	
 	editField := (self
 			editFieldStyledInitialContent: self example receiverConstructorString

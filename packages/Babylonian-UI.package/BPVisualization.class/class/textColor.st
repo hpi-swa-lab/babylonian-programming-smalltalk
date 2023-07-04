@@ -1,0 +1,4 @@
+constants
+textColor
+
+	^ BPAnnotationMorph textColor

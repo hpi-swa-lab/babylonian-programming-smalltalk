@@ -1,4 +1,4 @@
-private
+ui
 valueMorphFor: traceValue
 	
 	| initialValueMorph previousValueMorph previousValueText |

@@ -1,0 +1,1 @@
+For ValuesMorphs that do not go into a wrapped line but should do the wrapping themselves. The layout properties differ from its superclass.

@@ -8,5 +8,5 @@ bpProbeValueMorphIn: traceValue
 	^ container 
 		addMorphBack: ((BPEmojis emojiFor: traceValue tracedValueIdentityHash) 
 			scaledToSize: BPAnnotationMorph fontHeight) asMorph;
-		addMorphBack: (' ' , self printString) asMorph;
+		addMorphBack: (((' ' , self printString) asMorph) color: BPAnnotationMorph textColor);
 		yourself

@@ -2,4 +2,4 @@ visualization - constants
 lineColor
 
 	
-	^ Color veryLightGray
+	^ BPAnnotationMorph textColor

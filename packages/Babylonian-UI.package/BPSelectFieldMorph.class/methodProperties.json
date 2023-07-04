@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addLabelMorph" : "jb 12/7/2020 19:02",
-		"addSelectButtonMorph" : "jb 12/7/2020 19:02",
+		"addLabelMorph" : "joabe 5/31/2023 11:44",
+		"addSelectButtonMorph" : "joabe 5/31/2023 11:44",
+		"applyUserInterfaceTheme" : "joabe 6/9/2023 15:17",
 		"fontWidth" : "pre 11/18/2019 10:43",
 		"iconSize" : "pre 11/18/2019 10:40",
 		"initialize" : "jb 12/7/2020 19:02",

@@ -1,9 +1,8 @@
 *Babylonian-UI
 bpProbeValueMorphIn: traceValue
 
-
 	^ BPAnnotationMorph newContainerMorph 
 		addMorph: ((self printString asMorph)
-						color: (PluggableTextMorph basicNew userInterfaceTheme textColor);
+						color: BPAnnotationMorph textColor;
 						yourself); 
 		yourself

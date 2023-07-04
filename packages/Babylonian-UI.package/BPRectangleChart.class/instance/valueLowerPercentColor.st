@@ -2,4 +2,4 @@ visualization - constants
 valueLowerPercentColor
 	
 	
-	^ Color blue
+	^ Color red

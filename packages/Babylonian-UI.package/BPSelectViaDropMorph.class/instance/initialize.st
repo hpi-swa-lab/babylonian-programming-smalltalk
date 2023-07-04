@@ -6,7 +6,7 @@ initialize
 	self dropEnabled: true.
 	
 	self 
-		color: Color white;
+		color: self fillColor;
 		borderWidth: 0;
 		extent: 300@400.
 		
@@ -19,10 +19,11 @@ initialize
 	
 	
 	textMorph := (('Drop an Object here as a Live Specimen' asText asMorph)
+		color: self textColor;
 		centered;
 		yourself).
 	containerMorph := Morph new
-		color: Color white;
+		color: self fillColor;
 		borderWidth: 0;
 		hResizing: #spaceFill;
 		height: 100;

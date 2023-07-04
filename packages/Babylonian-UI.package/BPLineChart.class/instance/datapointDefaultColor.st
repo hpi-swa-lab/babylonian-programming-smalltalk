@@ -1,5 +1,4 @@
 visualization - constants
 datapointDefaultColor
 	
-	
-	^ Color green
+	^ BPAnnotationMorph actionTextColor

@@ -9,6 +9,6 @@ noValuesTextFor: aTrace
 				ifNotEmpty:[' - expression reachable?']]
 		ifFalse: [' yet']).
 	^ (Text fromString: text) 
-		addAttribute: (TextColor color: Color lightGray); 
+		addAttribute: (TextColor color: self class textColor); 
 		addAttribute: TextEmphasis italic;
 		yourself

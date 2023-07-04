@@ -1,22 +1,22 @@
 {
 	"class" : {
-		"newWithValues:forMorph:" : "pre 5/27/2021 12:26",
+		"newWithValues:forMorph:" : "joabe 7/4/2023 11:37",
 		"supportedClass" : "jb 5/4/2021 17:26" },
 	"instance" : {
 		"datapointColorForValue:" : "jb 4/19/2021 23:14",
-		"datapointDefaultColor" : "jb 4/18/2021 00:36",
-		"datapointExtent" : "jb 4/18/2021 02:53",
-		"datapointHigherPercentColor" : "jb 4/18/2021 00:37",
-		"datapointLowerPercentColor" : "jb 4/18/2021 00:37",
-		"lineColorFrom:to:" : "pre 5/27/2021 11:46",
+		"datapointDefaultColor" : "joabe 5/31/2023 19:21",
+		"datapointExtent" : "joabe 5/31/2023 19:24",
+		"datapointHigherPercentColor" : "joabe 5/31/2023 19:22",
+		"datapointLowerPercentColor" : "joabe 5/31/2023 19:23",
+		"lineColorFrom:to:" : "joabe 5/31/2023 19:23",
 		"lineWidth" : "jb 4/18/2021 02:53",
 		"newDataPoints" : "pre 5/27/2021 11:57",
 		"newDatapointFor:at:" : "pre 5/27/2021 12:12",
 		"newLineFrom:to:" : "jb 4/18/2021 02:16",
 		"newLinesForDatapointsOn:" : "pre 5/27/2021 11:59",
 		"newScaleLinesOn:" : "jb 4/18/2021 03:50",
-		"scaleLineColor" : "jb 4/19/2021 23:58",
+		"newVisualizationMorph" : "joabe 7/2/2023 15:32",
+		"scaleLineColor" : "joabe 5/31/2023 19:17",
 		"scaleLineWidth" : "jb 4/18/2021 03:45",
 		"scaleYOffset" : "jb 4/19/2021 00:23",
-		"spaceBetweenPoints" : "pre 5/27/2021 11:59",
-		"visualizationMorph" : "pre 5/27/2021 11:57" } }
+		"spaceBetweenPoints" : "pre 5/27/2021 11:59" } }

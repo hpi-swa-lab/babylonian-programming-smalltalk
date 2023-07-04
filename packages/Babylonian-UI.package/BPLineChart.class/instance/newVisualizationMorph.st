@@ -1,8 +1,7 @@
 visualization
-visualizationMorph
+newVisualizationMorph
 	
-	
-	| visualizationMorph filteredValueMorphs |
+	| visualizationMorph |
 	visualizationMorph := self newBackground.
 		
 	visualizationMorph addAllMorphs: self newDataPoints.

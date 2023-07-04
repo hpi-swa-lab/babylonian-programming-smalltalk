@@ -5,8 +5,8 @@ initialize
 
 	self 
 		color: Color transparent;
-		borderWidth: 1;
-		borderColor: Color veryLightGray. 
+		borderWidth: (PluggableButtonMorph basicNew userInterfaceTheme borderWidth);
+		borderColor: self class textColor. 
 		
 	self
 		changeTableLayout;
