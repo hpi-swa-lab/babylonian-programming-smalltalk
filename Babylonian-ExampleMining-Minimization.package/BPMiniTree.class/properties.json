@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-ExampleMining-Minimization",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"rootTemplate" ],
+	"name" : "BPMiniTree",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

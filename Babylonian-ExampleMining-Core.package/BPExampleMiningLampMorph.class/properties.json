@@ -1,0 +1,16 @@
+{
+	"category" : "Babylonian-ExampleMining-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "joabe 7/4/2023 17:41",
+	"instvars" : [
+		"lamp",
+		"lampOnSelector",
+		"lampOffSelector" ],
+	"name" : "BPExampleMiningLampMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }
