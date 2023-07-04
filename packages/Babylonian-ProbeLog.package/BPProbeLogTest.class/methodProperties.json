@@ -15,7 +15,7 @@
 		"tearDown" : "pre 11/16/2022 16:46",
 		"testDeletesAbundantNilExampleColumn" : "joabe 5/9/2023 17:39",
 		"testShows2SwimlanesFor2ActiveExamples" : "joabe 5/9/2023 17:39",
-		"testShowsAllExamplesForSelection" : "joabe 7/4/2023 16:08",
+		"testShowsAllExamplesForSelection" : "joabe 5/9/2023 17:11",
 		"testShowsNoSwimlanesWhenJustOpened" : "joabe 5/9/2023 17:40",
 		"testShowsSingleAddButtonWhenJustOpened" : "joabe 5/9/2023 17:40",
 		"testSwimlaneDisplaysTraceValuesForOneAssertion" : "joabe 5/9/2023 17:40",
