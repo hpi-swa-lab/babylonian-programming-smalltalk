@@ -4,11 +4,13 @@ offerExampleSelectionMenu
 	| builder menuSpec |
 	builder := ToolBuilder default.
 	menuSpec := builder pluggableMenuSpec new.
-	self class examplesToDisplayForSelection do: [:anExample | 
-		 menuSpec 
-			add: (((self isDisplaying: anExample)
-				ifTrue: ['<yes>'] ifFalse: ['<no>']),  anExample uniqueIdentifier)
-			target: self 
-			selector: #example:
-			argumentList: {anExample}].
+	
+	 self class menuSelectionItems do: [:anItem | anItem == #-
+			ifTrue: [menuSpec addSeparator]
+			ifFalse: [menuSpec 
+				add: (((self isDisplaying: anItem)
+					ifTrue: ['<yes>'] ifFalse: ['<no>']),  anItem uniqueIdentifier)
+				target: self 
+				selector: #example:
+				argumentList: {anItem}]].
 	builder runModal: (builder open: menuSpec).

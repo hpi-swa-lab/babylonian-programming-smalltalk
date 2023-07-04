@@ -5,11 +5,13 @@ offerExampleSelectionMenu
 	
 	builder := ToolBuilder default.
 	menuSpec := builder pluggableMenuSpec new.
-	BPProbeLogColumnMorph examplesToDisplayForSelection do: [:anExample | 
-		 menuSpec 
-			add: ((anExample isNilExample
-				ifTrue: ['<yes>'] ifFalse: ['<no>']),  anExample uniqueIdentifier)
+	
+	BPProbeLogColumnMorph menuSelectionItems do:[:anItem | anItem == #-
+			ifTrue: [menuSpec addSeparator]
+			ifFalse: [menuSpec 
+			add: ((anItem isNilExample
+				ifTrue: ['<yes>'] ifFalse: ['<no>']),  anItem uniqueIdentifier)
 			target: self 
 			selector: #addNewColumnFor:
-			argumentList: {anExample}].
+			argumentList: {anItem}]].
 	builder runModal: (builder open: menuSpec).
