@@ -1,18 +1,16 @@
 private - ui
 offerExampleSelectionMenu
 
-	| builder menuSpec examples |
+	| builder menuSpec |
 	builder := ToolBuilder default.
 	menuSpec := builder pluggableMenuSpec new.
-	examples := self class examplesToDisplayForSelection asOrderedCollection.
-	examples add: #- afterIndex: (examples allButFirst findFirst: [:anExample | anExample isActive not]).
 	
-	examples do: [:anExample | anExample == #-
+	 self class menuSelectionItems do: [:anItem | anItem == #-
 			ifTrue: [menuSpec addSeparator]
 			ifFalse: [menuSpec 
-				add: (((self isDisplaying: anExample)
-					ifTrue: ['<yes>'] ifFalse: ['<no>']),  anExample uniqueIdentifier)
+				add: (((self isDisplaying: anItem)
+					ifTrue: ['<yes>'] ifFalse: ['<no>']),  anItem uniqueIdentifier)
 				target: self 
 				selector: #example:
-				argumentList: {anExample}]].
+				argumentList: {anItem}]].
 	builder runModal: (builder open: menuSpec).
