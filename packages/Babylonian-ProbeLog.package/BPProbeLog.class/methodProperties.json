@@ -1,7 +1,9 @@
 {
 	"class" : {
 		"compilerClass" : "jb 6/2/2021 22:04",
+		"examplesToDisplayForSelection" : "joabe 7/4/2023 16:08",
 		"newForExamples:" : "jb 1/18/2022 15:04",
+		"offerExampleSelectionMenuFor:" : "joabe 7/4/2023 16:07",
 		"open" : "lu 12/7/2021 11:50",
 		"openFor:" : "jb 3/9/2022 21:54" },
 	"instance" : {
@@ -12,7 +14,6 @@
 		"initialize" : "joabe 5/9/2023 17:12",
 		"initializeProperties" : "joabe 5/9/2023 17:07",
 		"initializeWindowProperties" : "joabe 5/9/2023 17:14",
-		"newExampleSelectionButtonMorph" : "jb 2/2/2022 17:49",
+		"newExampleSelectionButtonMorph" : "joabe 7/4/2023 16:11",
 		"newScrollPane" : "jb 12/6/2021 20:27",
-		"offerExampleSelectionMenu" : "joabe 5/9/2023 17:11",
 		"updateFrom:" : "jb 2/2/2022 18:22" } }

@@ -1,10 +1,10 @@
-private - ui
-offerExampleSelectionMenu
+as yet unclassified
+offerExampleSelectionMenuFor: aSelector
 
 	| builder menuSpec examples |
 	builder := ToolBuilder default.
 	menuSpec := builder pluggableMenuSpec new.
-	examples := self class examplesToDisplayForSelection asOrderedCollection.
+	examples := self examplesToDisplayForSelection asOrderedCollection.
 	examples add: #- afterIndex: (examples allButFirst findFirst: [:anExample | anExample isActive not]).
 	
 	examples do: [:anExample | anExample == #-
@@ -13,6 +13,6 @@ offerExampleSelectionMenu
 				add: (((self isDisplaying: anExample)
 					ifTrue: ['<yes>'] ifFalse: ['<no>']),  anExample uniqueIdentifier)
 				target: self 
-				selector: #example:
+				selector: aSelector
 				argumentList: {anExample}]].
 	builder runModal: (builder open: menuSpec).
