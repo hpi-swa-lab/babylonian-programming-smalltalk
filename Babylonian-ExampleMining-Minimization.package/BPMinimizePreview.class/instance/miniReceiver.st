@@ -1,0 +1,4 @@
+accessing
+miniReceiver
+
+	^ miniReceiver

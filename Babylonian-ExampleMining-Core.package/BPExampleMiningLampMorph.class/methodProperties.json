@@ -2,4 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"initialize" : "joabe 7/5/2023 17:56",
+		"lamp" : "joabe 7/5/2023 17:57",
+		"lamp:" : "joabe 7/5/2023 17:56",
+		"lampOff" : "joabe 7/5/2023 17:57",
+		"lampOffSelector" : "joabe 7/5/2023 17:58",
+		"lampOffSelector:" : "joabe 7/5/2023 17:57",
+		"lampOn" : "joabe 7/5/2023 17:57",
+		"lampOnSelector" : "joabe 7/5/2023 17:58",
+		"lampOnSelector:" : "joabe 7/5/2023 17:58",
+		"model" : "joabe 7/5/2023 18:00",
+		"model:" : "joabe 7/5/2023 18:01",
+		"update:" : "joabe 7/5/2023 18:01" } }

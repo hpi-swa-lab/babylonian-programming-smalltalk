@@ -8,7 +8,8 @@
 	"instvars" : [
 		"lamp",
 		"lampOnSelector",
-		"lampOffSelector" ],
+		"lampOffSelector",
+		"model" ],
 	"name" : "BPExampleMiningLampMorph",
 	"pools" : [
 		 ],

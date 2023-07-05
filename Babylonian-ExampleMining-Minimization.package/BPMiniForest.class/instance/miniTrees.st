@@ -1,0 +1,4 @@
+accessing
+miniTrees
+
+	^ {receiverMiniTree. argumentMiniTrees}

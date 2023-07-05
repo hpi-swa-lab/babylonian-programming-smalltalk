@@ -2,4 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"exploree" : "joabe 7/5/2023 17:35",
+		"exploree:" : "joabe 7/5/2023 17:35",
+		"getExploreeSelector" : "joabe 7/5/2023 17:36",
+		"getExploreeSelector:" : "joabe 7/5/2023 17:35",
+		"initialize" : "joabe 7/5/2023 17:58",
+		"model" : "joabe 7/5/2023 17:52",
+		"model:" : "joabe 7/5/2023 17:58",
+		"update:" : "joabe 7/5/2023 17:59",
+		"updateExploree" : "joabe 7/5/2023 17:59" } }
