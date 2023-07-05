@@ -1,5 +1,8 @@
 {
 	"class" : {
-		 },
+		"compilerClass" : "joabe 7/5/2023 16:49" },
 	"instance" : {
-		 } }
+		"testFindingTests" : "joabe 7/5/2023 16:50",
+		"testMakingAnExampleAndRunningIt" : "joabe 7/5/2023 16:50",
+		"testSomething" : "joabe 7/5/2023 16:51",
+		"testSomethingUnique" : "joabe 7/5/2023 16:51" } }
