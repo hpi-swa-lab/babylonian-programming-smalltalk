@@ -6,12 +6,11 @@ addExample
 		specimen: self receiverInspector object;
 		yourself.
 	argumentSpecimen := self contextVariablesInspector object arguments
-		collect: [:argumentObject | 
-			BPSpecimenReference new
+		collect: [:argumentObject | BPSpecimenReference new
 			specimen: argumentObject;
 			yourself].
-	method := self selectedContext home method.
-	self halt.
+	method := self selectedContext method.
+	
 	(method bpNewExampleFrom: BPMethodExample)
 		receiverConstructor: receiverSpecimen;
 		argumentScripts: argumentSpecimen;
