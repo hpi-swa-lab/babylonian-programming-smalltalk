@@ -2,9 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
+		"buttonHeight" : "joabe 7/6/2023 17:47",
+		"buttonPaneFrame" : "joabe 7/6/2023 17:48",
 		"recordings" : "joabe 7/5/2023 18:07",
 		"recordings:" : "joabe 7/5/2023 18:07",
+		"resultViewFrame" : "joabe 7/6/2023 17:48",
 		"script" : "joabe 7/5/2023 18:07",
 		"script:" : "joabe 7/5/2023 18:07",
+		"scriptButtonsFrame" : "joabe 7/6/2023 17:48",
+		"scriptInputFrame" : "joabe 7/6/2023 17:48",
 		"selectedRecordingIndex" : "joabe 7/5/2023 18:08",
 		"selectedRecordingIndex:" : "joabe 7/5/2023 18:07" } }

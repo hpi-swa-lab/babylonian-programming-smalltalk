@@ -1,6 +1,6 @@
 private - ui
 updateCollapsedMorphList
-	<exampleNamed: 'some example 5' self: ''>
+	
 	(self anyExampleMorphsIsCollapsed and: [self anyExampleMorphsIsExpanded]) 
 		ifTrue: [
 			self 
