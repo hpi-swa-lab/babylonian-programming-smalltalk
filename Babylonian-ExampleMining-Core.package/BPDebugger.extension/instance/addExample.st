@@ -1,4 +1,4 @@
-examples
+*Babylonian-ExampleMining-Core
 addExample
 
 	| argumentSpecimen receiverSpecimen method |

@@ -1,4 +1,4 @@
-initialize
+*Babylonian-ExampleMining-Core
 customButtonSpecs
 	"Answer an array of elements of the form wording, selector, help-message, that characterize the custom button row of a debugger."
 
