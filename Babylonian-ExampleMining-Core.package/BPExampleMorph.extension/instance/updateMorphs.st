@@ -1,4 +1,4 @@
-private - ui
+*Babylonian-ExampleMining-Core-override
 updateMorphs
 
 	self removeAllMorphs.
