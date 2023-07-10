@@ -12,5 +12,5 @@
 	"name" : "BPTestCaseExample",
 	"pools" : [
 		 ],
-	"super" : "BPExample",
+	"super" : "BPSingleRunExample",
 	"type" : "normal" }

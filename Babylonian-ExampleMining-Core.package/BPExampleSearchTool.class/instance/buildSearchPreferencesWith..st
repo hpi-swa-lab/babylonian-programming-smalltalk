@@ -37,7 +37,7 @@ buildSearchPreferencesWith: aBuilder
 		label: #tryCoveragePreferenceLabel;
 		yourself.
 
-	^ self buildPanelSpecContaining: {className. packageName. toggleIncludes. toggleRecording. toggleCoverage}
-			with: aBuilder;
+	^ (self buildPanelSpecContaining: {className. packageName. toggleIncludes. toggleRecording. toggleCoverage}
+			with: aBuilder)
 	 		layout: #vertical;
 			yourself
