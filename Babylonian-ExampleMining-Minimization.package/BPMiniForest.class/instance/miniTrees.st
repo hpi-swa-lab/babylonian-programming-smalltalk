@@ -1,4 +1,0 @@
-accessing
-miniTrees
-
-	^ {receiverMiniTree. argumentMiniTrees}

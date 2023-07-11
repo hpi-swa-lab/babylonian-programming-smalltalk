@@ -1,4 +1,0 @@
-accessing
-receiverAndArguments
-
-	^ {receiver. arguments}
