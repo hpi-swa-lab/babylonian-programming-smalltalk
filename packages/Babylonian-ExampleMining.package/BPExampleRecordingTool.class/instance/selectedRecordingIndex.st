@@ -1,0 +1,4 @@
+accessing
+selectedRecordingIndex
+
+	^ selectedRecordingIndex

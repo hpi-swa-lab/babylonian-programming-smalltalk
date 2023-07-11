@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"bpExamplePragmaPrefix" : "joabe 7/5/2023 18:12" },
+	"instance" : {
+		"asPragma" : "joabe 7/10/2023 15:57",
+		"browseMethod" : "joabe 7/10/2023 16:05",
+		"initializeFromPragma:" : "joabe 7/10/2023 15:59",
+		"methodSelector" : "joabe 7/10/2023 16:01",
+		"methodSelector:" : "joabe 7/10/2023 16:01",
+		"morphClass" : "joabe 7/10/2023 16:00",
+		"runOn:" : "joabe 7/10/2023 16:02",
+		"testCaseClass" : "joabe 7/10/2023 16:02",
+		"testCaseClass:" : "joabe 7/10/2023 16:01",
+		"testCaseClassFrom:" : "joabe 7/10/2023 16:04",
+		"testResult" : "joabe 7/10/2023 16:03",
+		"testResult:" : "joabe 7/10/2023 16:03" } }

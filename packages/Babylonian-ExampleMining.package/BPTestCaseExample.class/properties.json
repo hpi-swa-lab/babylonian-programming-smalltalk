@@ -1,0 +1,16 @@
+{
+	"category" : "Babylonian-ExampleMining-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"testCaseClass",
+		"methodSelector",
+		"testResult" ],
+	"name" : "BPTestCaseExample",
+	"pools" : [
+		 ],
+	"super" : "BPSingleRunExample",
+	"type" : "normal" }
