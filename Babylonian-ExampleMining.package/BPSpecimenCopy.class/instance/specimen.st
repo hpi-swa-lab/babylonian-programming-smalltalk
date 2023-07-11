@@ -1,4 +1,0 @@
-accessing
-specimen
-
-	^ specimen copy

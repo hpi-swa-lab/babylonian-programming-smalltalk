@@ -1,4 +1,0 @@
-helpers
-methodReference
-
-	^ exampleExtractionTool methodReference

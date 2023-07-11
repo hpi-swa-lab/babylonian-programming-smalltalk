@@ -1,4 +1,0 @@
-*Babylonian-ExampleMining-Core
-addRecordedExampleButtonClicked
-
-	self openRecordingTool

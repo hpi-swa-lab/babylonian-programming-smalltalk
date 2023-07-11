@@ -1,2 +1,0 @@
-doSomethings
-superUniqueExampleMiningTestMethod

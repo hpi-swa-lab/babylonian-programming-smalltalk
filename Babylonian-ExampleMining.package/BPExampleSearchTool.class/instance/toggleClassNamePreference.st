@@ -1,4 +1,0 @@
-examples
-toggleClassNamePreference
-
-	self classNamePreference: self classNamePreference not

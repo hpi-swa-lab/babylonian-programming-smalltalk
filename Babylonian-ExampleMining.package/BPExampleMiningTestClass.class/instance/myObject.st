@@ -1,4 +1,0 @@
-accessing
-myObject
-
-	^ myObject

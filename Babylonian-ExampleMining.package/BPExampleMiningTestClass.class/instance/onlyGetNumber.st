@@ -1,4 +1,0 @@
-doSomethings
-onlyGetNumber
-
-	^ self myNumber

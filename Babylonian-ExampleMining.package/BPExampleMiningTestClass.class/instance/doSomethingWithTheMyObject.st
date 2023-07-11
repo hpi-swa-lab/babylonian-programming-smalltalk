@@ -1,4 +1,0 @@
-doSomethings
-doSomethingWithTheMyObject
-
-	myObject printString

@@ -1,4 +1,0 @@
-helpers
-recordings
-
-	^ exampleExtractionTool recordings

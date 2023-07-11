@@ -1,2 +1,0 @@
-minimization
-tryToAddInstVarNumber: aNumber

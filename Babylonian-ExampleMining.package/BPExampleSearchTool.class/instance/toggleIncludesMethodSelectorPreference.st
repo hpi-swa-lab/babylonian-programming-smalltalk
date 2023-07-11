@@ -1,4 +1,0 @@
-examples
-toggleIncludesMethodSelectorPreference
-
-	self includesMethodSelectorPreference: self includesMethodSelectorPreference not

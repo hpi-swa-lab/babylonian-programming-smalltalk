@@ -1,4 +1,0 @@
-defaults
-defaultNumber
-
-	^ 42

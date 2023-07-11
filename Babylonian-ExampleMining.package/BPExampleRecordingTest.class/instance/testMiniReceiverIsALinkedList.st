@@ -1,4 +1,0 @@
-tests-minimizing-collections
-testMiniReceiverIsALinkedList
-
-	self runForNonArrayCollection: LinkedList

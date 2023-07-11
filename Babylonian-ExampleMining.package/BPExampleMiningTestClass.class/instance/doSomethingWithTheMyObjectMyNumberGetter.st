@@ -1,4 +1,0 @@
-doSomethings
-doSomethingWithTheMyObjectMyNumberGetter
-
-	myObject myNumber
