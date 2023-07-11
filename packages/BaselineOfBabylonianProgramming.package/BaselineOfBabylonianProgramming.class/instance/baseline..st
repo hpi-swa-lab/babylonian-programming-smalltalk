@@ -16,13 +16,11 @@ baseline: spec
  					[ spec repository: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/ContextSTrunk' ];
 				package: 'Babylonian-Core' with: [spec requires: #('Babylonian-Compiler' 'ContextS2-Core')];
 				package: 'Babylonian-ProbeLog' with: [spec requires: #('Babylonian-Core' 'Babylonian-UI')];
+				package: 'Babylonian-ExampleMining' with: [spec requires: #('Babylonian-Core' 'Babylonian-UI')];
 				package: 'Babylonian-Compiler' with: [
 					spec 
 						requires: #('Ohm' 'PEG');
 						postLoadDoIt: #postLoadCompiler];
-				package: 'Babylonian-ExampleMining' 
-					with: [spec requires: 
-						#('Babylonian-Core' 'Babylonian-UI' 'Babylonian-Compiler')];
 				package: 'Babylonian-Tests' with: [
 					spec 
 						requires: #(default);
@@ -34,7 +32,7 @@ baseline: spec
 				package: 'Babylonian-Demo' with: [];
 				yourself.
 			spec
-				group: 'default' with: #('Babylonian-Core' 'Babylonian-UI' 'Babylonian-ProbeLog');
+				group: 'default' with: #('Babylonian-Core' 'Babylonian-UI' 'Babylonian-ProbeLog' 'Babylonian-ExampleMining');
 				group: 'tests' with: #('Babylonian-Tests');
 				group: 'full' with: #(tests 'Babylonian-Demo')];
 				
