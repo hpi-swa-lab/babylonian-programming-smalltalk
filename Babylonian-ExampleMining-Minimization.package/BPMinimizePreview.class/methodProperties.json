@@ -1,11 +1,20 @@
 {
 	"class" : {
-		 },
+		"openFor:with:" : "joabe 7/11/2023 14:01" },
 	"instance" : {
+		"addExample" : "joabe 7/11/2023 14:02",
+		"addMinimizedExample" : "joabe 7/11/2023 14:02",
 		"arguments" : "joabe 7/5/2023 18:18",
 		"argumentsViewFrame" : "joabe 7/6/2023 18:00",
+		"buildArgumentsViewWith:" : "joabe 7/11/2023 14:05",
+		"buildButtonsWith:" : "joabe 7/11/2023 14:07",
+		"buildPanelSpecContaining:with:" : "joabe 7/11/2023 14:04",
+		"buildReceiverViewWith:" : "joabe 7/11/2023 14:05",
+		"buildWith:" : "joabe 7/11/2023 14:06",
 		"buttonHeight" : "joabe 7/6/2023 18:01",
 		"buttonsFrame" : "joabe 7/6/2023 18:01",
+		"configureFor:" : "joabe 7/11/2023 14:09",
+		"explorerSpecFor:" : "joabe 7/11/2023 14:02",
 		"miniArguments" : "joabe 7/5/2023 18:19",
 		"miniReceiver" : "joabe 7/5/2023 18:19",
 		"receiver" : "joabe 7/5/2023 18:19",

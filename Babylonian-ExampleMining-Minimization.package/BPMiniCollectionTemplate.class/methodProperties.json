@@ -2,4 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"blacklistInstVarNumber:" : "joabe 7/10/2023 16:41",
+		"correctObjectReferences:for:" : "joabe 7/10/2023 16:41",
+		"createMinimizedObject" : "joabe 7/10/2023 16:42",
+		"createTemplateCollection" : "joabe 7/10/2023 16:42",
+		"receiver:" : "joabe 7/10/2023 16:42",
+		"reset" : "joabe 7/10/2023 16:43",
+		"serializeWith:" : "joabe 7/10/2023 16:45",
+		"tryToAddInstVarNumber:" : "joabe 7/10/2023 16:44" } }

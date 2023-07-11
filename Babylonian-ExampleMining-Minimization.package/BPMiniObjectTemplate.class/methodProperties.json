@@ -1,6 +1,16 @@
 {
 	"class" : {
-		 },
+		"for:in:" : "joabe 7/11/2023 13:54" },
 	"instance" : {
+		"add:forInstVarNumber:" : "joabe 7/11/2023 13:54",
 		"basicReceiver:" : "joabe 7/5/2023 18:17",
-		"forest:" : "joabe 7/5/2023 18:18" } }
+		"blacklistInstVarNumber:" : "joabe 7/11/2023 13:55",
+		"correctObjectReferences:for:" : "joabe 7/11/2023 13:55",
+		"createMinimizedObject" : "joabe 7/11/2023 13:56",
+		"ensureTemplateFor:" : "joabe 7/11/2023 13:56",
+		"forest:" : "joabe 7/5/2023 18:18",
+		"initialize" : "joabe 7/11/2023 13:56",
+		"receiver:" : "joabe 7/11/2023 13:56",
+		"reset" : "joabe 7/11/2023 13:57",
+		"serializeWith:" : "joabe 7/11/2023 13:59",
+		"tryToAddInstVarNumber:" : "joabe 7/11/2023 14:00" } }

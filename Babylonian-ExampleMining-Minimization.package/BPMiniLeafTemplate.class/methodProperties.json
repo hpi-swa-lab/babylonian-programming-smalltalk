@@ -2,4 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"add:forInstVarNumber:" : "joabe 7/11/2023 13:47",
+		"blacklistInstVarNumber:" : "joabe 7/11/2023 13:47",
+		"correctObjectReferences:for:" : "joabe 7/11/2023 13:47",
+		"createMinimizedObject" : "joabe 7/11/2023 13:47",
+		"serializeWith:" : "joabe 7/11/2023 13:51",
+		"tryToAddInstVarNumber:" : "joabe 7/11/2023 13:52" } }
