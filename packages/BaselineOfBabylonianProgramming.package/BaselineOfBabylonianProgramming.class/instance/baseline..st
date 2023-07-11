@@ -20,6 +20,9 @@ baseline: spec
 					spec 
 						requires: #('Ohm' 'PEG');
 						postLoadDoIt: #postLoadCompiler];
+				package: 'Babylonian-ExampleMining' 
+					with: [spec requires: 
+						#('Babylonian-Core' 'Babylonian-UI' 'Babylonian-Compiler')];
 				package: 'Babylonian-Tests' with: [
 					spec 
 						requires: #(default);
