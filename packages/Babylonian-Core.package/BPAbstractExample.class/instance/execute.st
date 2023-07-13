@@ -1,8 +1,6 @@
 executing
 execute
 	
-	<bpRelevantMethod>
-	| state |
-	state := self prepareRunState.
-	self runSetUpWith: state.
-	[ ^ self runWithTimeoutOn: state] ensure: [self runTearDownWith: state]
+	^ [self executeSynchronously] 
+		forkAt: Processor userBackgroundPriority
+		named: 'Example process for: ' , self exampleName

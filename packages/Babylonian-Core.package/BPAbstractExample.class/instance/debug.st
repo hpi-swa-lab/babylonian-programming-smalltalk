@@ -2,5 +2,5 @@ executing
 debug
 	
 	(Process 
-		forBlock: [self execute] 
+		forBlock: [self executeSynchronously] 
 		runUntil: [:context | context selector = #runOn:]) debug.

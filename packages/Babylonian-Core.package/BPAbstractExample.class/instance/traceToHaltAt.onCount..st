@@ -5,7 +5,7 @@ traceToHaltAt: anAnnotationId onCount: aCount
 	only to bring us to the probe as quickly as possible"
 	
 	| exampleExecution |
-	exampleExecution := [[([self execute] bpTraceForExample: self andHaltAt: anAnnotationId onCount: aCount)]
+	exampleExecution := [[([self executeSynchronously] bpTraceForExample: self andHaltAt: anAnnotationId onCount: aCount)]
 		on: BPExampleExecutionInterrupted
 		do: [:anError | | methodContext process traceMethodReferences |
 			traceMethodReferences := {

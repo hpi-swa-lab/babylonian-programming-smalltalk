@@ -2,4 +2,4 @@ tracing
 trace
 	
 	<bpRelevantMethod>
-	^ self traceInformation trace: ([self execute] bpTraceForExample: self)
+	^ self traceInformation trace: ([self executeSynchronously] bpTraceForExample: self)

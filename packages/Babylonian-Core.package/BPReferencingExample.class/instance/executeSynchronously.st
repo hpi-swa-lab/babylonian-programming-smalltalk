@@ -1,0 +1,4 @@
+executing
+executeSynchronously
+
+	^ referencedExample executeSynchronously
