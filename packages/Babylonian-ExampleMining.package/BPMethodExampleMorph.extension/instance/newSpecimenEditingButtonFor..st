@@ -2,6 +2,6 @@
 newSpecimenEditingButtonFor: specimenConstructor
 
 	^ (self newSpecimenSelectionButtonOnClick: [(self example resolveLiveSpecimen: specimenConstructor) inspect])
-		labelGraphic: (BPIcons wrenchIcon scaledToSize: self iconSize * 0.7);
-		balloonText: 'Click to open the specimen editing tool'; 
+		labelGraphic: (BPIcons settingsIcon scaledToSize: self iconSize * 0.7);
+		balloonText: 'Click to edit live specimen'; 
 		yourself
