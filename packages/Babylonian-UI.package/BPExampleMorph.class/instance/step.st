@@ -2,6 +2,7 @@ stepping and presenter
 step
 
 	| trace |
+	super step.
 	trace := self example currentTrace.
 	(trace notNil and: [trace exampleErrored])
 		ifTrue: [self ensureErrorIndicatorFor: trace]

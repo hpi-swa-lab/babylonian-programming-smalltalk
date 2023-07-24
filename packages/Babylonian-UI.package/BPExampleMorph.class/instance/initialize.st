@@ -8,7 +8,7 @@ initialize
 	BPStyler withSidebarAnnotations: [
 		self 
 			wrapDirection: #leftToRight;
-			hResizing: #shrinkWrap;
+			hResizing: #spaceFill;
 			vResizing: #shrinkWrap].
 	
 	self 
