@@ -7,7 +7,7 @@ runForLeafObjectReceiver: receiver ofClass: receiverClass method: aSelector clas
 	self
 		recordMethod: aSelector
 		inClass: aClass
-		forInstancesAndParameters: {receiver -> {}} asDictionary.
+		forInstancesAndParameters: (Dictionary newFromPairs: {receiver. {}}).
 
 	self assert: self recordings isEmpty not.
 

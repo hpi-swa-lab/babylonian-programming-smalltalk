@@ -11,7 +11,7 @@
 		"runCollection:method:class:arguments:" : "ek 7/25/2023 13:05",
 		"runForLeafObjectReceiver:method:" : "ek 7/25/2023 13:05",
 		"runForLeafObjectReceiver:ofClass:method:" : "joabe 7/5/2023 16:39",
-		"runForLeafObjectReceiver:ofClass:method:class:" : "joabe 7/5/2023 16:39",
+		"runForLeafObjectReceiver:ofClass:method:class:" : "ek 7/25/2023 13:09",
 		"runForNonArrayCollection:" : "joabe 7/5/2023 16:39",
 		"setUp" : "joabe 7/5/2023 16:39",
 		"testMiniAssociation" : "ek 7/25/2023 11:51",
