@@ -10,7 +10,7 @@ testMiniReceiverIsASubclass
 	self
 		recordMethod: #subclassMethod
 		inClass: BPExampleMiningTestSubclass
-		forInstancesAndParameters: {receiver -> {}} asDictionary.
+		forInstancesAndParameters: (Dictionary newFromPairs: {receiver. {}}).
 
 	self assert: self recordings isEmpty not.
 

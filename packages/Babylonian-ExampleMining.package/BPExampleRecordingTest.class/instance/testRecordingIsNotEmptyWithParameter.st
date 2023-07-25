@@ -8,7 +8,7 @@ testRecordingIsNotEmptyWithParameter
 	self
 		recordMethod: #doSomethingWith:
 		inClass: BPExampleMiningTestClass
-		forInstancesAndParameters: {recordedObject -> parameters} asDictionary.
+		forInstancesAndParameters: (Dictionary newFromPairs: {recordedObject. parameters}).
 
 	self assert: self recordings isEmpty not.
 	self assert: self recordings size equals: 1.

@@ -10,7 +10,7 @@ testMiniReceiverWithDefaultObjectInVariableWhosVariablesAreAlsoUsed
 	self
 		recordMethod: #doSomethingWithTheMyObjectMyNumber
 		inClass: BPExampleMiningTestClass
-		forInstancesAndParameters: {receiver -> {}} asDictionary.
+		forInstancesAndParameters: (Dictionary newFromPairs: {receiver. {}}).
 
 	self assert: self recordings isEmpty not.
 

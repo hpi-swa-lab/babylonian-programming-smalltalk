@@ -8,7 +8,7 @@ testMiniReceiverVariableNotMinimizedIfSetBeforeUse
 	self
 		recordMethod: #setNumberBeforeDoingSomethingWithIt
 		inClass: BPExampleMiningTestClass
-		forInstancesAndParameters: {BPExampleMiningTestClass default -> {}} asDictionary.
+		forInstancesAndParameters: (Dictionary newFromPairs: {BPExampleMiningTestClass default. {}}).
 
 	self assert: self recordings isEmpty not.
 

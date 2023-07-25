@@ -11,7 +11,7 @@ testMiniAssociation
 	self
 		recordMethod: #doPrintStringThis:
 		inClass: BPExampleMiningTestClass
-		forInstancesAndParameters: {receiver -> arguments} asDictionary.
+		forInstancesAndParameters: (Dictionary newFromPairs: {receiver. arguments}).
 
 	self assert: self recordings isEmpty not.
 

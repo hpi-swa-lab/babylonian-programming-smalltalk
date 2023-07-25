@@ -11,7 +11,7 @@ testMiniReceiverVariableAndParameterWithNumberInstVarIsUsedAndMinimized
 	self
 		recordMethod: #doSomethingWithNumberAndNumberFrom:
 		inClass: BPExampleMiningTestClass
-		forInstancesAndParameters: {receiver -> {parameter}} asDictionary.
+		forInstancesAndParameters: (Dictionary newFromPairs: {receiver. {parameter}}).
 
 	self assert: self recordings isEmpty not.
 

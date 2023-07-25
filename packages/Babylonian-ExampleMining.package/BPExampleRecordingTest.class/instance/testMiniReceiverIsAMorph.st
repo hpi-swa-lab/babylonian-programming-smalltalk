@@ -9,7 +9,7 @@ testMiniReceiverIsAMorph
 	self
 		recordMethod: #x
 		inClass: Morph
-		forInstancesAndParameters: {receiver -> {}} asDictionary.
+		forInstancesAndParameters: (Dictionary newFromPairs: {receiver. {}}).
 
 	self assert: self recordings isEmpty not.
 

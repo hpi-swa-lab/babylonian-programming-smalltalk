@@ -10,7 +10,7 @@ testMiniReceiverVariableUsedOnlyByUsingGetterAndMinimized
 	self
 		recordMethod: #onlyGetNumber
 		inClass: BPExampleMiningTestClass
-		forInstancesAndParameters: {receiver -> {}} asDictionary.
+		forInstancesAndParameters: (Dictionary newFromPairs: {receiver. {}}).
 
 	self assert: self recordings isEmpty not.
 
