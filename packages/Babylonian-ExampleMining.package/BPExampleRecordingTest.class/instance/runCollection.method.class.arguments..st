@@ -8,7 +8,7 @@ runCollection: aCollection method: selector class: class arguments: arguments
 	self
 		recordMethod: selector
 		inClass: class
-		forInstancesAndParameters: {aCollection -> arguments} asDictionary.
+		forInstancesAndParameters: (Dictionary newFromPairs: {aCollection. arguments}).
 
 	self assert: self recordings isEmpty not.
 
