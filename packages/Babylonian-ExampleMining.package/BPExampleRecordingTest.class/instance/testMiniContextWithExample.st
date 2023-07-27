@@ -4,7 +4,7 @@ testMiniContextWithExample
 	| miniContext miniReceiverAndArguments example |
 	example := BPTestCaseExample new.
 	example
-		testCaseClassFrom: BPTestCaseExampleTest name;
+		testCaseClass: BPTestCaseExampleTest;
 		methodSelector: #testSomething;
 		method: BPTestCaseExampleTest>>#testSomething.
 	miniContext := BPMiniContext example: example.
