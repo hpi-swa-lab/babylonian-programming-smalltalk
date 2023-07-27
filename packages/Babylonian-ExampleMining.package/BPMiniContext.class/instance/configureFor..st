@@ -7,7 +7,7 @@ configureFor: anExample
   		instrumentMethod: self method;
 		yourself).
 	recorder startRecording.
-	anExample execute.
+	anExample executeSynchronously.
 	recorder stopRecording.
 	recorder uninstall.
 	receiver := recorder recordedCalls first first.
