@@ -3,6 +3,6 @@ testTracingExecutesMethodOnTheConstructedReceiver
 
 	| example result |
 	example := (BPTestManuallyInstrumentedClass>>#actualMethodWithAReceiver) bpExamples first.
-	result := example execute.
+	result := example executeSynchronously.
 	self assert: 22 equals: result.
 	

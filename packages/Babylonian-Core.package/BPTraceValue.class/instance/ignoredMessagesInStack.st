@@ -14,6 +14,7 @@ ignoredMessagesInStack
 		MethodReference class: DynamicVariable class selector: #value:during:.
 		MethodReference class: BPExample selector: #traceAsyncNotifying:.
 		MethodReference class: BPExample selector: #execute.
+		MethodReference class: BPExample selector: #executeSynchronously.
 		MethodReference class: BPMethodExample selector: #runOn:.
 		MethodReference class: CSMethodObject selector: #run:with:in:.
 		MethodReference class: CSLayeredMethod selector: #valueWithReceiver:arguments:.
