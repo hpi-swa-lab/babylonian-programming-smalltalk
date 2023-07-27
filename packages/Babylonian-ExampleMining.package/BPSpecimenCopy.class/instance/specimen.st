@@ -1,0 +1,4 @@
+accessing
+specimen
+
+	^ specimen copy

@@ -1,7 +1,7 @@
 serialization
 asPragma
 	
-	"'exampleNamed:' 'active:'? 'setUp:'? 'tearDown:'? 'self:'? 'with'*"
+	"'exampleNamed:' 'setUp:'? 'tearDown:'? 'self:'? 'with'*"
 	^ '<exampleNamed: ''{1}''{2}{3}{4}{5}>' format: {
 		self exampleName.
 		self setUpScript ifNil: [''] ifNotNil: [:setUpScript | ' setUp: ' , setUpScript printString].
@@ -9,8 +9,8 @@ asPragma
 		self receiverConstructor ifNil: [''] ifNotNil: [:aReceiverConstructor | 
 			aReceiverConstructor isLiveSpecimenReference 
 				ifFalse: [' self: ' , aReceiverConstructor printString]
-				ifTrue: [' self: ' , {#specimen . aReceiverConstructor printString} printString]].
+				ifTrue: [' self: ' , {aReceiverConstructor keyword . aReceiverConstructor printString} printString]].
 		self argumentScripts ifEmpty: [''] ifNotEmpty: [(self argumentScripts collect: [:anArgumentScript | 
 			' with: ' , (anArgumentScript isLiveSpecimenReference 
 				ifFalse: [anArgumentScript printString]
-				ifTrue: [{#specimen . anArgumentScript printString} printString])]) join]}
+				ifTrue: [{anArgumentScript keyword . anArgumentScript printString} printString])]) join]}

@@ -1,0 +1,4 @@
+doSomethings
+doSomethingWithTheMyObject
+
+	myObject printString

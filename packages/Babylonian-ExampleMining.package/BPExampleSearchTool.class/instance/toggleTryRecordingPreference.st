@@ -1,0 +1,4 @@
+examples
+toggleTryRecordingPreference
+
+	self tryRecordingPreference: self tryRecordingPreference not

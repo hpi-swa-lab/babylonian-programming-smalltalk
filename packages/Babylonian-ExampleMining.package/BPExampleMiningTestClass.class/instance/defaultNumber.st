@@ -1,0 +1,4 @@
+defaults
+defaultNumber
+
+	^ 42

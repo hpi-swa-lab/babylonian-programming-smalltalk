@@ -1,0 +1,2 @@
+minimization
+blacklistInstVarNumber: aNumber

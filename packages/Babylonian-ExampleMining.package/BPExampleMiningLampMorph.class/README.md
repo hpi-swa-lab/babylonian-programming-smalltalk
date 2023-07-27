@@ -1,0 +1,1 @@
+I am an Explorer in a Morph. My exploree can be changed.

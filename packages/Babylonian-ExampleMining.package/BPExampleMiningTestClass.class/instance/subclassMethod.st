@@ -1,0 +1,4 @@
+doSomethings
+subclassMethod
+
+	self subclassResponsibility

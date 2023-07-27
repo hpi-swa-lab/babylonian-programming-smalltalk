@@ -11,4 +11,5 @@ updateMorphs
 		addExampleNameMorph;
 		addMenuButtonMorph;
 		addExampleSpecificMorphs;
+		addRecordAndMinimizeButtonMorph;
 		addDeleteButtonMorph.
