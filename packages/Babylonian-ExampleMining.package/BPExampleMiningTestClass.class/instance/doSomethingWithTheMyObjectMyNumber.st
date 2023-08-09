@@ -1,0 +1,4 @@
+doSomethings
+doSomethingWithTheMyObjectMyNumber
+
+	myObject doSomethingWithNumber

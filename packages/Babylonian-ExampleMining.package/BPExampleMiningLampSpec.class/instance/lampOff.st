@@ -1,0 +1,4 @@
+accessing
+lampOff
+
+	^ lampOff

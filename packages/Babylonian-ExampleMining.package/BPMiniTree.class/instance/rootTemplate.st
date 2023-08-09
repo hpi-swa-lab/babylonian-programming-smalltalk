@@ -1,0 +1,4 @@
+accessing
+rootTemplate
+
+	^ rootTemplate

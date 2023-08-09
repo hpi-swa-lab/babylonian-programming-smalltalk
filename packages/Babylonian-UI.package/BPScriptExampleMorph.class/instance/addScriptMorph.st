@@ -3,7 +3,6 @@ addScriptMorph
 
 	| editField container |
 	container := self newLabelContainerMorph: 'script: '.
-	
 	editField := (self
 			editFieldStyledInitialContent: self example script
 			onChange: [:str | 

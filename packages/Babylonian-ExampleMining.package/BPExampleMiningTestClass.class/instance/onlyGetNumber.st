@@ -1,0 +1,4 @@
+doSomethings
+onlyGetNumber
+
+	^ self myNumber

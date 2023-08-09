@@ -1,0 +1,18 @@
+{
+	"category" : "Babylonian-ExampleMining-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "joabe 7/4/2023 17:42",
+	"instvars" : [
+		"recordings",
+		"selectedRecordingIndex",
+		"script",
+		"recorder",
+		"isRecording" ],
+	"name" : "BPExampleRecordingTool",
+	"pools" : [
+		 ],
+	"super" : "BPExampleMiningTool",
+	"type" : "normal" }

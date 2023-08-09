@@ -1,0 +1,15 @@
+{
+	"category" : "Babylonian-ExampleMining-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"debugger",
+		"process" ],
+	"name" : "BPDebuggerAddExampleTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
