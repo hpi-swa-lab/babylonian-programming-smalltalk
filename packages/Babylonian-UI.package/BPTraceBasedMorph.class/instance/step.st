@@ -3,7 +3,7 @@ step
 	
 	| newTraces tracesChanged |
 	self methodReference ifNil: [^ false].
-	super step.
+	
 	self resetHeight.
 	
 	newTraces := self getTraces asIdentitySet.

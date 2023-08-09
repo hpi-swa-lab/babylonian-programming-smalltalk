@@ -11,7 +11,7 @@ editFieldFor: model text: getTextSelector onChange: setTextSelector onAccept: ac
 		borderWidth: 0;
 		editTextSelector: setTextSelector;
 		vResizing: #shrinkWrap;
-		hResizing: #rigid;
+		hResizing: #shrinkWrap;
 		wrapFlag: true;
 		wantsFrameAdornments: false; 
 		cellPositioning: #topLeft;
