@@ -1,6 +1,8 @@
 drawing
 drawOn: aCanvas
-	<exampleNamed: 'normal example' setUp: '' tearDown: '' self: 'BPMountain new extent: 400@400; yourself' with: '(Form extent: 20@20 depth: 32) getCanvas'>
+	<exampleNamed: 'normal example' setUp: '' tearDown: '' self: 'BPMountain new
+extent: 400@400; 
+yourself' with: '(Form extent: 20@20 depth: 32) getCanvas'>
 	<exampleNamed: 'small example' self: 'BPMountain new
 	extent: 20@20;
 	yourself' with: '(Form extent: 20@20 depth: 32) getCanvas'>
