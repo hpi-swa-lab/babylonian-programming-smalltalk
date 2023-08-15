@@ -4,7 +4,14 @@ update: anAspect with: anObject
 	super update: anAspect with: anObject.
 	
 	anAspect = #newTrace ifTrue: [
-		anObject first ifNotNil: [
+		Project current addDeferredUIMessage: [
+			anObject first ifNotNil: [
+				anObject first addDependent: self.
+				self removeAllMorphs.
+				self visualize]]].
+	
+	(anAspect = #exampleCompleted or: [anAspect = #traceChanged]) ifTrue: [
+		Project current addDeferredUIMessage: [
 			self removeAllMorphs.
 			self visualize]].
 	

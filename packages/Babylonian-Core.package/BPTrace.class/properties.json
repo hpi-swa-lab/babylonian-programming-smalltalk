@@ -17,7 +17,8 @@
 		"mutex",
 		"erroredProcess",
 		"controlFlowPaths",
-		"allPaths" ],
+		"allPaths",
+		"notificationSent" ],
 	"name" : "BPTrace",
 	"pools" : [
 		 ],
