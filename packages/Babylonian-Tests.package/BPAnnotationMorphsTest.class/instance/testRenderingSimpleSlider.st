@@ -8,10 +8,10 @@ testRenderingSimpleSlider
 		id: 10;
 		asMorph.
 	anchorAttribute := BPTextDecoration new anchoredMorph: slideMorph.
-	expressionInterval := 57 to: 69.
+	expressionInterval := 57 to: 68.
 	source := ('methodWithBlock
 	<exampleNamed: ''example 1''>
-^ self do: ',Character startOfHeader,'[:r | 2 + 3]') asText.
+^ self do: [:r | 2 + 3]') asText.
 	source addAttribute: anchorAttribute from: expressionInterval start to: expressionInterval stop.
 	
 	renderedSource := source asBPSource.
