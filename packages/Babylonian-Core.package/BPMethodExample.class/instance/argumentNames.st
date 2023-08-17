@@ -6,7 +6,8 @@ argumentNames
 	(cachedArgumentNames isNil or: [cachedArgNamesKey ~~ self method]) ifTrue: [ 
 		parts := self method methodClass formalHeaderPartsFor: self method selector.
 		cachedArgumentNames := (1 to: self method selector numArgs) collect: [:anIndex | 
-			parts at: (4 * anIndex)]].
+			parts at: (4 * anIndex)].
+		cachedArgNamesKey := self method].
 	^ cachedArgumentNames
 	
 	
