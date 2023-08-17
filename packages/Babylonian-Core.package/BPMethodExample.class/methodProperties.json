@@ -2,7 +2,7 @@
 	"class" : {
 		"bpExamplePragmaPrefix" : "pre 1/21/2021 15:45" },
 	"instance" : {
-		"argumentNames" : "pre 8/25/2020 09:41",
+		"argumentNames" : "pre 8/17/2023 16:53",
 		"argumentScriptStringAt:" : "ek 7/24/2023 19:06",
 		"argumentScripts" : "pre 7/23/2019 12:20",
 		"argumentScripts:" : "pre 7/23/2019 09:23",
@@ -13,6 +13,7 @@
 		"initializeFromPragma:" : "pre 7/22/2022 21:06",
 		"liveSpecimen" : "pre 1/10/2023 16:19",
 		"liveSpecimenAt:" : "pre 1/10/2023 16:20",
+		"method:" : "pre 8/17/2023 16:52",
 		"morphClass" : "pre 9/30/2020 10:40",
 		"newArguments" : "pre 1/11/2023 15:15",
 		"newArgumentsDictionary" : "pre 8/6/2021 18:27",
