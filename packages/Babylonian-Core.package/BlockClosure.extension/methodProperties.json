@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"bpSnapshot" : "pre 8/17/2023 11:50",
 		"bpTraceForExample:" : "pre 5/6/2021 18:20",
 		"bpTraceForExample:andHaltAt:onCount:" : "lu 11/27/2021 13:26",
 		"bpTraceInBackgroundForExample:" : "pre 1/12/2023 09:32",
