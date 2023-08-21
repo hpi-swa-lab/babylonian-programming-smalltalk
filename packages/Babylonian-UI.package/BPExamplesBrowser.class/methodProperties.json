@@ -2,12 +2,13 @@
 	"class" : {
 		"open" : "pre 10/13/2020 15:15" },
 	"instance" : {
-		"actualExampleList" : "pre 2/15/2021 11:15",
+		"actualExampleList" : "pre 8/21/2023 11:49",
 		"actualPackageList" : "pre 8/21/2023 10:31",
 		"buildExamplesListWith:" : "pre 10/13/2020 14:49",
 		"buildPackagesListWith:" : "pre 10/13/2020 14:45",
 		"buildWith:" : "pre 10/13/2020 14:51",
-		"exampleList" : "pre 10/13/2020 15:11",
+		"exampleLabelFor:" : "pre 8/21/2023 11:49",
+		"exampleList" : "pre 8/21/2023 11:50",
 		"exampleList:" : "jb 12/7/2020 19:02",
 		"exampleListIndex" : "pre 10/13/2020 14:52",
 		"exampleListIndex:" : "jb 12/7/2020 19:02",
