@@ -3,5 +3,5 @@ actualPackageList
 	
 	^ packageList ifNil: [
 		packageList := (SystemNavigation default allExamples 
-			collect: [:anExample | anExample method methodClass package]) asSet 
+			collect: [:anExample | PackageOrganizer default packageOfMethod: anExample method methodReference]) asSet
 			sorted: [:aPackage | aPackage name] ascending]
