@@ -13,10 +13,12 @@ forContext: aContext priority: anInteger
 	"-------------- BP ContextS2 additions start --------------"
 	activeProcess := Processor activeProcess.
 	activeProcess propagatesCSLayers ifTrue: [
-		newProcess csInfo activeLayers: activeProcess csInfo activeLayers].
+		newProcess csInfo activeLayers: activeProcess csInfo activeLayers.
+		newProcess propagateCSLayers.].
 	activeProcess propagatesDynamicVariables ifTrue: [
 		activeProcess setDynamicVariables do: [:dynamicVariable |
-			newProcess environmentAt: dynamicVariable put: (activeProcess environmentAt: dynamicVariable)]].
+			newProcess environmentAt: dynamicVariable put: (activeProcess environmentAt: dynamicVariable)].
+		newProcess propagateDynamicVariables.].
 	(activeProcess environmentAt: BPActiveTracer ifAbsent: [nil]) ifNotNil: [ | handlerContext |
 		"we are tracing so record process genealogy"
 		BPProcessGenealogy newProcess: newProcess descendsFrom: activeProcess.
