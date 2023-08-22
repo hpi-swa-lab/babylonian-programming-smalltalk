@@ -11,11 +11,9 @@ editFieldFor: model text: getTextSelector onChange: setTextSelector onAccept: ac
 		borderWidth: 0;
 		editTextSelector: setTextSelector;
 		vResizing: #shrinkWrap;
-		hResizing: #shrinkWrap;
+		hResizing: #rigid;
 		wrapFlag: true;
 		wantsFrameAdornments: false; 
 		cellPositioning: #topLeft;
-		layoutInset: 0;
-		width: ((TextStyle defaultFont widthOfString: (model perform: getTextSelector)) + (self fontWidth) 
-			max: (20 * self fontWidth)).
+		layoutInset: 0.
 	^ pluggableTextMorph
