@@ -7,8 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"testCaseClass",
-		"methodSelector",
-		"testResult" ],
+		"methodSelector" ],
 	"name" : "BPTestCaseExample",
 	"pools" : [
 		 ],

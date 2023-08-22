@@ -4,6 +4,7 @@
 	"instance" : {
 		"isProcessSuspended" : "pre 1/12/2023 09:37",
 		"probes" : "jb 5/19/2021 19:35",
+		"releaseProcess" : "pre 8/22/2023 12:01",
 		"resumeProcess" : "pre 1/12/2023 13:28",
 		"suspendProcess" : "pre 1/12/2023 13:27",
 		"terminateTracingProcess" : "pre 1/12/2023 13:28",
