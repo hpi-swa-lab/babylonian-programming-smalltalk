@@ -11,5 +11,5 @@ runWithTimeoutOn: initialState
 		complete ifFalse: [self suspendTracingProcess]].
 
 	[ ^ self runOn: initialState] ensure: [
-		complete := true. 
-		semaphore signal]
+		complete := true.
+		semaphore terminateProcess.]

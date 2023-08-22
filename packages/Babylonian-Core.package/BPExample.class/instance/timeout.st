@@ -1,4 +1,4 @@
 accessing
 timeout
 
-	^ timeout ifNil: [timeout := 30000]
+	^ timeout ifNil: [timeout := 5000]

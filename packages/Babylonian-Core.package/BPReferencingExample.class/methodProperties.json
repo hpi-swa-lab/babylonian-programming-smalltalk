@@ -2,6 +2,7 @@
 	"class" : {
 		"bpExamplePragmaPrefix" : "pre 1/11/2023 14:39" },
 	"instance" : {
+		"addDependent:" : "pre 8/22/2023 15:00",
 		"asPragma" : "pre 1/11/2023 14:54",
 		"canBeUsedForDoIts" : "pre 1/11/2023 13:27",
 		"exampleName" : "pre 1/11/2023 14:51",
@@ -18,6 +19,7 @@
 		"morphClass" : "pre 1/11/2023 13:28",
 		"referencedExample:" : "pre 1/11/2023 14:29",
 		"referencedExampleName" : "pre 1/11/2023 14:52",
+		"removeDependent:" : "pre 8/22/2023 15:00",
 		"setIsActive:" : "pre 1/11/2023 13:22",
 		"setUpScript" : "pre 1/11/2023 13:22",
 		"setUpScript:" : "pre 1/11/2023 13:22",
