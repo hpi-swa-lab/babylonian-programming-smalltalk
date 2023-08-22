@@ -10,7 +10,7 @@ SmalltalkCISpec {
   #testing : {
     #categories : [ 'Babylonian-*' ],
     #coverage : {
-      #categories : [ 'Babylonian-Core', 'Babylonian-UI', 'Babylonian-Compiler', 'Babylonian-ProbeLog' ]
+      #categories : [ 'Babylonian-Core', 'Babylonian-UI', 'Babylonian-Compiler', 'Babylonian-ProbeLog', 'Babylonian-ExampleMining' ]
     }
   }
 }
