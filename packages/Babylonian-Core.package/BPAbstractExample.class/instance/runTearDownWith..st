@@ -2,7 +2,8 @@ tracing
 runTearDownWith: aState
 	
 	| result |
-	self tearDownScript ifNotNil: [
-		result := Compiler evaluate: self tearDownScript notifying: aState.
-		result isSymbol ifTrue: [
-			self method methodClass perform: result]]
+	#bpInstrumented withoutLayerDo: [
+		self tearDownScript ifNotNil: [
+			result := Compiler evaluate: self tearDownScript notifying: aState.
+			result isSymbol ifTrue: [
+				self method methodClass perform: result]]]
