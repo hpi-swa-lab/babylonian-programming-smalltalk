@@ -1,5 +1,7 @@
 *Babylonian-UI-annotations
 addProbeToSelection
 
-	self addAnnotationAtSelection: BPProbe new.
+	self editSelection == #editClass 
+		ifTrue: [self addAnnotationAtSelection: BPInstanceVariableProbe new]
+		ifFalse: [self addAnnotationAtSelection: BPProbe new]
 	

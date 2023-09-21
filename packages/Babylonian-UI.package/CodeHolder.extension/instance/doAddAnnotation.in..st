@@ -2,7 +2,7 @@
 doAddAnnotation: anAnnotation in: interval
 	"Separated from addAnotationIn: to allow for multiple annotations to be added without saving first."
 	| text actualInterval newMorph |
-	actualInterval := self determineIntervalToAnnotateFor: interval forNodes: anAnnotation canBeAnnotatedTo.
+	actualInterval := self determineIntervalToAnnotateFor: anAnnotation in: interval.
 	actualInterval ifNil: [self codeTextMorph textMorph flash. ^ self].
 	anAnnotation methodReference: self methodReference.
 	text := self codeTextMorph text.

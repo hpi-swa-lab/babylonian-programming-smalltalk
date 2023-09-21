@@ -1,0 +1,4 @@
+accessing
+wantsMetaClassIndication
+
+	^ false
