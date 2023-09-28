@@ -1,7 +1,15 @@
 {
 	"class" : {
-		 },
+		"annotationTag" : "joabe 9/25/2023 17:30" },
 	"instance" : {
+		"asMorph" : "joabe 9/21/2023 22:32",
 		"canBeAnnotatedTo" : "joabe 9/21/2023 21:08",
+		"className" : "joabe 9/27/2023 17:16",
+		"className:" : "joabe 9/27/2023 17:16",
+		"instrumentationCallFor:" : "joabe 9/25/2023 18:43",
 		"isInstanceVariableProbe" : "joabe 9/21/2023 21:18",
+		"probeTypeTag" : "joabe 9/25/2023 17:30",
+		"removeFromMethod:" : "joabe 9/27/2023 16:43",
+		"variableName" : "joabe 9/27/2023 16:52",
+		"variableName:" : "joabe 9/27/2023 16:52",
 		"wantsMetaClassIndication" : "joabe 9/21/2023 21:08" } }

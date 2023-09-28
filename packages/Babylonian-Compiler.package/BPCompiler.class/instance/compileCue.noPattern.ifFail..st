@@ -17,11 +17,11 @@ compileCue: aCueWithStyledSource noPattern: aBoolean ifFail: failBlock
 		source: bpUnstyledSource readStream
 		context: aCueWithStyledSource context
 		receiver: aCueWithStyledSource receiver 
-		class: aCueWithStyledSource getClass 
+		class: aCueWithStyledSource getClass
 		environment: aCueWithStyledSource environment 
 		requestor: aCueWithStyledSource requestor.
 	originalMethodNode := super compileCue: unstyledCue noPattern: aBoolean ifFail: failBlock.
-
+	
 	bpUnstyledSource := originalMethodNode sourceText asString.
 	(self methodSourceRequiresBPLayers: bpUnstyledSource) ifTrue: [
 		(self compileInstrumentedVersionOf: aCueWithStyledSource) ifFalse: failBlock].

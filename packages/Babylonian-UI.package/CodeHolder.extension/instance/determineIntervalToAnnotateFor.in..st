@@ -7,18 +7,17 @@ determineIntervalToAnnotateFor: anAnnotation in: anInterval
 	If there is not valid interval this method will return nil."
 
 	self bpEnsureContentsAndSelectedMessage.
-	self halt.
 	sourceMap := currentCompiledMethod ifNotNil: [currentCompiledMethod bpSourceMap] ifNil: [self bpClassDeclarationSourceMap].
 	result := self 
-				allAndLowestUsefulAncestorFor: (sourceMap atAll: anInterval)
+				allAndLowestUsefulAncestorFor: (sourceMap atAll: {anInterval start. anInterval stop})
 				canBeAnnotatedTo: anAnnotation canBeAnnotatedTo.
 	result second ifNil: [^ nil].
 	
 	anAnnotation isInstanceVariableProbe ifFalse: [^ result second interval].
-
+	
 	(self editSelection == #editClass and: [self metaClassIndicated == anAnnotation wantsMetaClassIndication]) ifFalse: [^ nil].
 	
 	^ self 
 		determineIntervalOfVariableNameIn: anInterval 
-		having: result first.			
+		having: result first.	
 		
