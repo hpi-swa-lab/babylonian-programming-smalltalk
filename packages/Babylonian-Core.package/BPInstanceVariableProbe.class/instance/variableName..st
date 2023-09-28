@@ -1,4 +1,4 @@
 accessing
 variableName: aString
 	
-	variableName := aString
+	self enclosedExpressionSource: aString

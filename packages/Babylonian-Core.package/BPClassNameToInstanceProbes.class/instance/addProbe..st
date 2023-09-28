@@ -1,9 +1,9 @@
 as yet unclassified
 addProbe: aProbe
 
-	nameToProbesDict at: aProbe className
+	nameToProbesDict at: aProbe assignedClassName
 		ifPresent: [:registeredProbes | registeredProbes add: aProbe]
 		ifAbsent: [ | k |
 			k := KeyedSet keyBlock: [ :each | each variableName ].
-			nameToProbesDict at: aProbe className put: k]
+			nameToProbesDict at: aProbe assignedClassName put: k]
 		

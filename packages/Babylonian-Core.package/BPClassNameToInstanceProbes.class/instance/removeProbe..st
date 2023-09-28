@@ -1,6 +1,6 @@
 as yet unclassified
 removeProbe: aProbe
 
-	nameToProbesDict at: aProbe className
+	nameToProbesDict at: aProbe assignedClassName
 		ifPresent: [:registeredProbes | registeredProbes remove: aProbe]
 		

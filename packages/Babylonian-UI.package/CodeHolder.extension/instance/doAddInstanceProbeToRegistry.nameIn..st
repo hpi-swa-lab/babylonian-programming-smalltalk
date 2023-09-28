@@ -2,7 +2,7 @@
 doAddInstanceProbeToRegistry: anInstanceVariableProbe nameIn: anInterval
 	
 	anInstanceVariableProbe 
-		variableName: (self codeTextMorph text atAll: {anInterval start. anInterval stop});
-		className: (self selectedClass name).
+		variableName: (self codeTextMorph text atAll: anInterval);
+		assignedClassName: (self selectedClass name).
 	BPClassNameToInstanceProbes value addProbe: anInstanceVariableProbe
 	
