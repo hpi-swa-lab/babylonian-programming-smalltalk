@@ -2,6 +2,7 @@ binding
 bindingOf: varName
 	
 	^ varName = #self 
-		ifTrue: [#self -> self receiver]
-		ifFalse: [arguments associations detect: [:assoc |
-				assoc key = varName]]
+		ifTrue: [state at: #self ifAbsentPut: [self receiver]]
+		ifFalse: [arguments associations 
+					detect: [:assoc | assoc key = varName]
+					ifNone: [super bindingOf: varName]]

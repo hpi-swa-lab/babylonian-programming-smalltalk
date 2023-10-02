@@ -1,7 +1,6 @@
 private
 startWatchdog: watchdogBlock
 
-	| watchdog |
-	watchdog := watchdogBlock newProcess.
-	watchdog priority: Processor timingPriority-1.
-	watchdog resume.	
+	watchdogBlock 
+		forkAt: Processor timingPriority-1 
+		named: 'watchdog for ' , self exampleName.

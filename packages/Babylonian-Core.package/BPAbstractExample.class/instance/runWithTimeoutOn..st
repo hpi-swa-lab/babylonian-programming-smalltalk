@@ -5,11 +5,11 @@ runWithTimeoutOn: initialState
 	complete := false.
 	
 	self startWatchdog: [
-		semaphore waitTimeoutMSecs: self timeout. 
+		self timeout milliSeconds wait. 
 		"We sadly cannot simply ask self tracingIsStillRunning as the values rely
 		on this method's return value which is not done at this point. So uglyish complete workaround"  
 		complete ifFalse: [self suspendTracingProcess]].
 
 	[ ^ self runOn: initialState] ensure: [
-		complete := true. 
-		semaphore signal]
+		complete := true.
+		semaphore terminateProcess.]

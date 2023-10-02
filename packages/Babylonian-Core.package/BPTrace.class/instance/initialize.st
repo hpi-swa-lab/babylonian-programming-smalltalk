@@ -10,6 +10,7 @@ initialize
 	blockRecord := Dictionary new.
 	chronologicallyTrackedTraceValuesCount := 0.
 	mutex := Mutex new.
+	notificationSent := false.
 	
 	controlFlowPaths := IdentityDictionary new.
 	

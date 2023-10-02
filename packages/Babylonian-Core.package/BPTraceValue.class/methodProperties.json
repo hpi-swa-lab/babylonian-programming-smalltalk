@@ -1,8 +1,10 @@
 {
 	"class" : {
+		"allBabylonianInternalClasses" : "pre 9/27/2023 14:33",
+		"ignoredClassesInStack" : "pre 9/27/2023 14:33",
+		"ignoredMessagesInStack" : "pre 9/27/2023 14:34",
 		"value:identityHash:stack:" : "pre 10/12/2020 17:57" },
 	"instance" : {
-		"allBabylonianInternalClasses" : "joabe 7/2/2023 23:54",
 		"asValueMorph" : "jb 5/20/2021 01:00",
 		"belongingAnnotation" : "lu 1/31/2022 16:59",
 		"belongingAnnotationId" : "lu 12/1/2021 07:32",
@@ -11,8 +13,8 @@
 		"chronologicalPosition:" : "jb 5/20/2021 14:50",
 		"containedMethodReference" : "pre 11/16/2022 16:04",
 		"filteredStack" : "pre 11/16/2022 15:57",
-		"ignoredClassesInStack" : "joabe 7/2/2023 23:53",
-		"ignoredMessagesInStack" : "pre 7/13/2023 10:45",
+		"ignoredClassesInStack" : "pre 9/27/2023 14:33",
+		"ignoredMessagesInStack" : "pre 9/27/2023 14:33",
 		"isStackFull" : "jb 6/30/2021 01:26",
 		"printOn:" : "jb 5/19/2021 20:59",
 		"shouldBeIgnored:" : "pre 11/16/2022 16:04",

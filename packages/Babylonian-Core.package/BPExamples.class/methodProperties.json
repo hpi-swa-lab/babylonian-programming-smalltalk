@@ -6,7 +6,7 @@
 		"shutDown:" : "pre 5/26/2021 17:17" },
 	"instance" : {
 		"activeExamples" : "pre 5/3/2021 16:55",
-		"add:" : "pre 5/6/2021 18:30",
+		"add:" : "pre 8/23/2023 10:39",
 		"doSilently:" : "pre 9/2/2022 14:46",
 		"exampleIdentifiers" : "pre 5/3/2021 16:41",
 		"examples" : "pre 5/4/2021 15:20",
@@ -14,7 +14,7 @@
 		"initialize" : "pre 5/3/2021 16:42",
 		"paddedTracesOfActiveExamples" : "pre 5/3/2021 16:55",
 		"rehash" : "pre 5/19/2021 21:36",
-		"remove:" : "pre 5/6/2021 16:54",
+		"remove:" : "pre 8/23/2023 11:02",
 		"removeAll:" : "jb 12/7/2020 18:52",
 		"removeTraces" : "jb 12/7/2020 18:52",
 		"runActiveExamples" : "pre 5/6/2021 18:31",
@@ -25,4 +25,5 @@
 		"systemChangeEvent:" : "pre 1/11/2023 13:42",
 		"tracesOfActiveExamples" : "pre 5/6/2021 18:31",
 		"update:" : "pre 9/2/2022 14:46",
+		"update:with:" : "pre 8/23/2023 10:42",
 		"updateExamplesOnEvent:" : "pre 1/11/2023 13:38" } }

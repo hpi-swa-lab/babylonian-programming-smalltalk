@@ -3,8 +3,10 @@
 		 },
 	"instance" : {
 		"arguments" : "pre 8/6/2021 18:01",
-		"arguments:" : "pre 8/6/2021 18:02",
-		"bindingOf:" : "pre 8/6/2021 18:04",
-		"hasBindingOf:" : "pre 8/6/2021 18:11",
+		"arguments:" : "pre 8/22/2023 10:26",
+		"bindingOf:" : "pre 8/22/2023 09:52",
+		"hasBindingOf:" : "pre 8/22/2023 09:50",
+		"hasBindingThatBeginsWith:" : "pre 8/22/2023 09:50",
+		"initialize" : "pre 8/22/2023 10:26",
 		"receiver" : "pre 5/3/2021 14:16",
 		"receiver:" : "pre 5/3/2021 14:16" } }
