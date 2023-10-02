@@ -3,8 +3,6 @@ addReceiverConstructorMorph
 
 	| container editField |
 	container :=  self newLabelContainerMorph: 'self: '.
-	container cellInset: self defaultCellInset;
-		layoutInset: self defaultLayoutInset.
 	
 	editField := (self
 			editFieldStyledInitialContent: self example receiverConstructorString
@@ -16,7 +14,8 @@ addReceiverConstructorMorph
 	editField 
 		balloonText: 'Write code that instantiates the receiver. 
 You can also provide a selector that will be called on the
-class-side of this class to create a receiver object.'.
+class-side of this class to create a receiver object.';
+		width: 240.
 	container addMorphBack: editField.
 			
 	"Live specimen editing"
@@ -29,5 +28,5 @@ class-side of this class to create a receiver object.'.
 					self example receiverConstructor: specimen.
 					self codeContentChanged.
 					editField setText: self example receiverConstructorString]]).
-
+			
 	exampleSpecificMorphs addMorphBack: container.

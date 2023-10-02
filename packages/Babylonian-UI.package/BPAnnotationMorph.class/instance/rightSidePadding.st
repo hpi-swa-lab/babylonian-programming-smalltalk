@@ -1,4 +1,0 @@
-ui
-rightSidePadding
-
-	^ 40

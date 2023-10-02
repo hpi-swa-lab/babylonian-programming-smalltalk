@@ -1,4 +1,4 @@
 actions
-exploreButtonClickedFor: tracedValues
+exploreButtonClickedFor: trace
 	
-	(tracedValues collect: [:aValue | aValue tracedValue]) explore.
+	((trace valuesForProbeId: self id) collect: [:aValue | aValue tracedValue]) explore.

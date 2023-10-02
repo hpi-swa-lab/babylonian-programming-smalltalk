@@ -4,8 +4,6 @@ addArgumentScriptMorphs
 	| editField container |
 	self example argumentNames withIndexDo: [:argumentName :index |
 		container := self newLabelContainerMorph: (argumentName , ': ').
-		container cellInset: self defaultCellInset;
-			layoutInset: self defaultLayoutInset.
 
 		editField := self
 			editFieldStyledInitialContent: (self example argumentScriptStringAt: index)
@@ -15,7 +13,9 @@ addArgumentScriptMorphs
 			onAccept: [:str |
 				self acceptChangesAtSource.
 				false "Do not continue handling this morphs edit"].
-		editField balloonText: 'write code that instantiates the argument'.
+		editField 
+			balloonText: 'write code that instantiates the argument';
+			width: 240.
 		container addMorphBack: editField.
 		
 		"Live specimen editing"
@@ -28,6 +28,5 @@ addArgumentScriptMorphs
 					self example argumentScripts at: index put: specimen.
 					self codeContentChanged.
 					editField setText: (self example argumentScriptStringAt: index)]]).
-			
 		
 		exampleSpecificMorphs addMorphBack: container].

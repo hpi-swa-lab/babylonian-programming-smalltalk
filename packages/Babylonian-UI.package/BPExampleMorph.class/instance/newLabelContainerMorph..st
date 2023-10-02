@@ -2,10 +2,7 @@ private - ui
 newLabelContainerMorph: aLabelString
 	
 	| container label |
-	container := self newContainerMorph 
-					cellPositioning: #topLeft;
-					hResizing: #spaceFill;
-					yourself.
+	container := self newContainerMorph cellPositioning: #topLeft; yourself.
 	label := aLabelString asMorph 
 			color: self class textColor;
 			borderWidth: 0;

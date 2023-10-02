@@ -15,7 +15,7 @@
 		"testStylerAddsExamplesMorphForEmptyTwoNewLinedMethodBody" : "jb 8/29/2021 20:32",
 		"testStylerAddsExamplesMorphForSomeFilledMethodBody" : "jb 8/29/2021 20:44",
 		"testStylerCanCopeWithProbeWithinSliderRange" : "pre 9/2/2022 16:10",
-		"testStylerReusesExamplesMorphWhenStyledAgain" : "jb 8/29/2021 20:43",
+		"testStylerReusesExamplesMorphWhenStyledAgain" : "pre 8/17/2023 08:38",
 		"testStylerSetsAnchorAttributeForAttributeProbe" : "pre 7/23/2022 16:14",
 		"testStylerSetsAnchorAttributeForNestedProbes" : "jb 10/24/2021 22:16",
 		"testStylerSetsAnchorAttributeForProbe" : "jb 10/24/2021 22:16",

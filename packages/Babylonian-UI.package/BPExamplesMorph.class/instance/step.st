@@ -1,5 +1,5 @@
-stepping and presenter
+stepping
 step
 	
 	BPStyler withoutSidebarAnnotations: [ 
-		self width: self owner width - self rightSidePadding]
+		self width: self owner width - 40]

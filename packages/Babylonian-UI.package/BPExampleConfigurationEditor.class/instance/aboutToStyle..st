@@ -3,5 +3,5 @@ aboutToStyle: aStyler
 	
 	aStyler 
 		classOrMetaClass: nil;
-		workspace: self example prepareRunState.
+		workspace: ([self example prepareRunState] on: Error do: [:e | nil]).
 	^true

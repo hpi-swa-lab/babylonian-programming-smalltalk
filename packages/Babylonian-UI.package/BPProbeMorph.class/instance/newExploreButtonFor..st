@@ -10,7 +10,7 @@ newExploreButtonFor: aTrace
 		extent: (exploreButton extent x * 0.9)@(exploreButton extent y + self scrollBarSize).
 	exploreButton 
 		actionSelector: #exploreButtonClickedFor:;
-		arguments: {aTrace valuesForProbeId: self id};
+		arguments: {aTrace};
 		target: self;
 		balloonText: 'click to see the traced values of this probe'.
 	^ exploreButton
