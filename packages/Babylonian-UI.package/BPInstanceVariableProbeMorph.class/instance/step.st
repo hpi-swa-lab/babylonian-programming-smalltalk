@@ -2,7 +2,7 @@ as yet unclassified
 step
 	
 	| newTraces tracesChanged |
-	self resetHeight.
+	"self resetHeight."
 	
 	"newTraces := self getTraces asIdentitySet.
 	tracesChanged := newTraces ~= displayedTraces.

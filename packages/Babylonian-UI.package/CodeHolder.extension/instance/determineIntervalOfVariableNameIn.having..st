@@ -12,11 +12,13 @@ determineIntervalOfVariableNameIn: anInterval having: aTopologicalCollectionOfAn
 	selectedText := (self contents atAll: anInterval) withBlanksTrimmed.
 	self flag: #todo. "wenn es sowas wie aha und aha2 gibt, dann wird das falsch sein, wenn ich aha markiere
 	und aha2 als erstes kommt"
+	"restliches todo: test schreiben"
 	
 	^ self selectedClassOrMetaClass instVarNames 
 		detect: [:aVariable | aVariable = selectedText]
-		ifFound:  [:matchingVariable | | start |
-			start := self contents findString: matchingVariable.
-			 ^ Interval from: start to: start + matchingVariable size - 1]
+		ifFound:  [:matchingVariable | | interval |
+			"in case we have variables like 'foo2' and 'foo' we have to consider spaces or '' too"
+			interval := (self contents allRangesOfRegexMatches: '(''| )', matchingVariable, '(''| )') first.
+			 ^ Interval from: (interval start + 1) to: (interval stop - 1)]
 				
 		

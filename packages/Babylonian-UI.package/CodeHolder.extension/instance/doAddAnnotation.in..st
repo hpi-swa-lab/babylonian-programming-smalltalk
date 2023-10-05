@@ -6,5 +6,6 @@ doAddAnnotation: anAnnotation in: interval
 	actualInterval ifNil: [self codeTextMorph textMorph flash. ^ self].
 	
 	anAnnotation isInstanceVariableProbe 
-		ifTrue: [self doAddInstanceProbeToRegistry: anAnnotation nameIn: actualInterval] 
+		ifTrue: [self doAddInstanceProbeToRegistry: anAnnotation nameIn: actualInterval.
+			     self doAddLinkedAnnotationsFor: anAnnotation] 
 		ifFalse: [self doAddAnnotationMorphToMethod: anAnnotation in: actualInterval].
