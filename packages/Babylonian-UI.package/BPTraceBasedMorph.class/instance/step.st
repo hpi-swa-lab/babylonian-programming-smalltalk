@@ -2,7 +2,8 @@ stepping and presenter
 step
 	
 	| newTraces tracesChanged |
-	self methodReference ifNil: [^ false].
+	"Ugly to have subclass specific condition here, but needed to avoid step method duplication - jb"
+	(self methodReference isNil and: [self annotation isInstanceVariableProbe not]) ifTrue: [^ false].
 	self resetHeight.
 	
 	newTraces := self getTraces asIdentitySet.
