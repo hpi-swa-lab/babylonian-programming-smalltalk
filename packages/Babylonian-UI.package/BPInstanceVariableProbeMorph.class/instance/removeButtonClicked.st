@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 removeButtonClicked
 
 	self annotation deleteLinkedProbes.

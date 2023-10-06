@@ -1,0 +1,4 @@
+private - ui
+valuesMorphClass
+
+	^ BPAssertionValuesMorph

@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-UI-Morphs",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "joabe 10/6/2023 11:11",
+	"instvars" : [
+		 ],
+	"name" : "BPInstanceVariableValuesMorph",
+	"pools" : [
+		 ],
+	"super" : "BPValuesMorph",
+	"type" : "normal" }
