@@ -2,7 +2,7 @@ stepping and presenter
 updateTraces
 	
 	| newTraces tracesChanged |
-	self methodReference ifNil: [^ false].
+	(self methodReference isNil and: [self wantsMethodReference]) ifTrue: [^false].
 	self resetHeight.
 	
 	newTraces := self getTraces asIdentitySet.
