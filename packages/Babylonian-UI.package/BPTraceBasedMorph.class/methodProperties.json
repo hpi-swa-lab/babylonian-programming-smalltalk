@@ -2,17 +2,18 @@
 	"class" : {
 		"isAbstract" : "pre 9/25/2020 10:15" },
 	"instance" : {
+		"annotation:" : "pre 8/23/2023 10:54",
 		"annotationLabel" : "pre 2/22/2021 12:19",
 		"filterValues:throughSliderForTrace:" : "pre 9/28/2020 11:21",
-		"initialize" : "pre 2/22/2021 12:19",
+		"initialize" : "pre 8/23/2023 10:50",
 		"listenToSlider:" : "jb 12/7/2020 18:59",
 		"newExampleLineMorph" : "pre 2/22/2021 12:17",
 		"newTracesMorph" : "pre 12/16/2020 18:52",
 		"newWidgetsMorph" : "pre 11/23/2020 13:43",
 		"removeLinesWithoutCurrentTrace:" : "jb 12/7/2020 19:00",
 		"resetHeight" : "pre 1/11/2021 13:59",
-		"step" : "joabe 10/6/2023 11:32",
-		"stepTime" : "pre 8/20/2020 17:35",
-		"update:" : "jb 12/7/2020 19:00",
+		"update:" : "pre 8/23/2023 10:56",
+		"update:with:" : "pre 8/23/2023 10:49",
 		"updateFrom:" : "jb 12/7/2020 19:00",
+		"updateTraces" : "pre 8/23/2023 10:53",
 		"valuesMorphClass" : "joabe 10/6/2023 11:20" } }

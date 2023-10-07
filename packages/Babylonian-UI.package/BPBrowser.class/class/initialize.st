@@ -12,3 +12,5 @@ initialize
 	
 	ContentsSymbolQuints := self defaultContentsSymbolQuints asOrderedCollection.
 	Smalltalk addToStartUpList: self.
+	
+	SmalltalkEditor cmdActions at: $u asciiValue + 1 put: #probeIt:.

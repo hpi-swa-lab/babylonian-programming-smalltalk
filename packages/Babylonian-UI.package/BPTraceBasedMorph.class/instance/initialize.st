@@ -5,7 +5,6 @@ initialize
 	| removeButton |
 	super initialize.
 	
-	allTracesCompleted := false.
 	slidersForFiltering := Set new.
 	displayedTraces := Set new.
 	
@@ -20,3 +19,5 @@ initialize
 	self addMorphBack: widgetsMorph.
 	widgetsMorph addMorphBack: tracesMorph.
 	self addMorphBack: removeButton.
+	
+	BPExamples value addDependent: self.

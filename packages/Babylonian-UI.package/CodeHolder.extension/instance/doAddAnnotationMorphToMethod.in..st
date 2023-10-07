@@ -11,4 +11,4 @@ doAddAnnotationMorphToMethod: anAnnotation in: anInterval
 			yourself)
 		from: anInterval start
 		to: anInterval stop.
-	(self codeTextMorph) addMorph: newMorph
+	self codeTextMorph textMorph addMorph: newMorph

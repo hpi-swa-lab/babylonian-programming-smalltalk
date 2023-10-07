@@ -1,4 +1,4 @@
-*Babylonian-ExampleMining-Core-override
+as yet unclassified
 allBabylonianInternalClasses
 		^ #('Babylonian-Core'  'Babylonian-Compiler' 'Babylonian-UI' 'Babylonian-ProbeLog' 'Babylonian-ExampleMining') 
 				inject: OrderedCollection new 
