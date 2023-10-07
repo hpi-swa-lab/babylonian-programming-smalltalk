@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 addProbe: aProbe
 
 	nameToProbesDict at: aProbe assignedClassName

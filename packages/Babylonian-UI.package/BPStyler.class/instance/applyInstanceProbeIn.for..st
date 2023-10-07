@@ -1,11 +1,11 @@
 private
-applyInstanceVariableIn: aPreformmattedText for: anInstanceProbe
+applyInstanceProbeIn: aPreformattedText for: anInstanceProbe
 	  
 	| interval |
-	interval := (aPreformmattedText string 
+	interval := (aPreformattedText string 
 		allRangesOfRegexMatches: '(''| )',  anInstanceProbe variableName, '(''| )') first.
 		
-	aPreformmattedText 
+	aPreformattedText 
 		addAttribute: (BPTextDecoration new
 			anchoredMorph: (self annotationMorphFor: anInstanceProbe);
 			yourself)

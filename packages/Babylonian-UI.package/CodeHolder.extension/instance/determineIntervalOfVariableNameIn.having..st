@@ -10,9 +10,6 @@ determineIntervalOfVariableNameIn: anInterval having: aTopologicalCollectionOfAn
 	((self contents atAll: lowestKeywordMessageSegment children first interval) ~= 'instanceVariableNames:') ifTrue: [^ nil].
 	
 	selectedText := (self contents atAll: anInterval) withBlanksTrimmed.
-	self flag: #todo. "wenn es sowas wie aha und aha2 gibt, dann wird das falsch sein, wenn ich aha markiere
-	und aha2 als erstes kommt"
-	"restliches todo: test schreiben"
 	
 	^ self selectedClassOrMetaClass instVarNames 
 		detect: [:aVariable | aVariable = selectedText]

@@ -2,8 +2,6 @@ morphic
 asMorph
 
 	| newMorph |
-	newMorph := BPInstanceVariableProbeMorph new
-		annotation: self;
-		yourself.
+	newMorph := BPInstanceVariableProbeMorph new annotation: self; yourself.
 	self updateTextAnchorPropertiesOf: newMorph.
 	^ newMorph

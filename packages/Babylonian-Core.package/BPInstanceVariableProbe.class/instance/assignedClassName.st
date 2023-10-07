@@ -1,3 +1,4 @@
 accessing
 assignedClassName
+	
 	^ assignedClassName

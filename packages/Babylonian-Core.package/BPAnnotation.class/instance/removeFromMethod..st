@@ -1,7 +1,7 @@
 initialize-release
 removeFromMethod: aCompiledMethod
 
-	"Intended to delete annotations but not the enclosed expression from outside a browser"
+	"Intended to delete annotations from outside a browser"
 	 aCompiledMethod bpAnnotations 
 		detect: [:anAnnotation | anAnnotation id = self id ]
 		ifFound: [:theAnnotationToRemove | | text startOfTag expressionStart replacementStart replacementEnd |

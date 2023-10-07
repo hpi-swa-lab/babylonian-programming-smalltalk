@@ -12,6 +12,6 @@ formatNonMethod: aText
 	BPClassNameToInstanceProbes value nameToProbesDict at: className
 		ifPresent: [:probesSet | probesSet do: [:anInstanceProbe | 
 				self 
-					applyInstanceVariableIn: formattedText 
+					applyInstanceProbeIn: formattedText 
 					for: anInstanceProbe]].
 	 ^ formattedText

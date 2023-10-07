@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 at: aClassName
 
 	^ nameToProbesDict at: aClassName 
