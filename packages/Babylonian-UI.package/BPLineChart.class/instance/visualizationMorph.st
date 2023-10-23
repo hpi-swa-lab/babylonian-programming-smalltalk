@@ -1,0 +1,4 @@
+visualization
+visualizationMorph
+	
+	^ self newVisualizationMorph

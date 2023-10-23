@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"newWithValues:forMorph:" : "joabe 7/4/2023 11:37",
-		"supportedClass" : "jb 5/4/2021 17:26" },
+		"supportedClass" : "joabe 10/16/2023 15:41" },
 	"instance" : {
 		"datapointColorForValue:" : "jb 4/19/2021 23:14",
 		"datapointDefaultColor" : "joabe 5/31/2023 19:21",
@@ -19,4 +19,5 @@
 		"scaleLineColor" : "joabe 5/31/2023 19:17",
 		"scaleLineWidth" : "jb 4/18/2021 03:45",
 		"scaleYOffset" : "jb 4/19/2021 00:23",
-		"spaceBetweenPoints" : "pre 5/27/2021 11:59" } }
+		"spaceBetweenPoints" : "pre 5/27/2021 11:59",
+		"visualizationMorph" : "joabe 10/16/2023 15:54" } }

@@ -5,7 +5,7 @@
 A Smalltalk implementation of the Babylonian Programming System.
 
 ## How to install
-1. Get [a recent Squeak][squeakorg]
+1. Get [a recent trunk Squeak][squeakorg]
 2. Load [Metacello][metacello]
 3. Finally, load Babylonian/S with the following command:
 
@@ -14,11 +14,6 @@ Metacello new
   baseline: 'BabylonianProgramming';
   repository: 'github://hpi-swa-lab/babylonian-programming-smalltalk:main/packages';
   load.
-```
-4. (Recommended) Disable the preference for notifications on saving methods with styles. This prevents that you will be asked whether you want to save style information whenever you save a method with probes.
-
-```Smalltalk
-Preferences disable: #confirmFirstUseOfStyle.
 ```
 
 ## Current State

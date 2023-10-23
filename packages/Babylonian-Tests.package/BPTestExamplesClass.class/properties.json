@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"foo2",
+		"foo" ],
 	"name" : "BPTestExamplesClass",
 	"pools" : [
 		 ],

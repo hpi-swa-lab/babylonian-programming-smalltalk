@@ -5,7 +5,7 @@ visualizeButtonClickedFor: aTrace
 	lineMorph := self ensureLineMorphFor: aTrace.
 	
 	scrollPane := (lineMorph submorphNamed: #scrollWrapper) submorphNamed: #scrollPane.
-	axisYNotationHolder := lineMorph submorphNamed: #axisYNotationHolder.
+	axisYNotationHolder := lineMorph submorphNamed: #bpLegendWrapper.
 	axisYNotationMorph := lineMorph valueOfProperty: #bpAxisYNotationMorph.
 	visualizationMorph := lineMorph valueOfProperty: #bpVisualizationMorph.
 	valuesMorph := lineMorph valueOfProperty: #bpValuesMorph.
