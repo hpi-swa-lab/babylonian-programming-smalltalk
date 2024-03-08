@@ -1,4 +1,4 @@
 accessing
 methodReference
 
-	^ self annotation methodReference
+	^ self annotation ifNotNil: [:annotation | annotation methodReference]
