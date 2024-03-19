@@ -2,7 +2,7 @@
 [![Build Status Main](https://img.shields.io/github/actions/workflow/status/hpi-swa-lab/babylonian-programming-smalltalk/main.yml?logo=github&label=main&branch=main)](https://github.com/hpi-swa-lab/babylonian-programming-smalltalk/actions/workflows/main.yml) 
 [![Build Status Develop](https://img.shields.io/github/actions/workflow/status/hpi-swa-lab/babylonian-programming-smalltalk/main.yml?logo=github&label=develop&branch=develop)](https://github.com/hpi-swa-lab/babylonian-programming-smalltalk/actions/workflows/main.yml) 
 
-A Smalltalk implementation of the Babylonian Programming System.
+A Smalltalk implementation of Babylonian Programming, enabling Example-based Live Programming for whole systems (for more details on Example-based Live Programming, see publications at the end).
 
 ## How to install
 1. Get [a recent Squeak][squeakorg]
