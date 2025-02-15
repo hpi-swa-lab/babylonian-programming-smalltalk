@@ -1,0 +1,14 @@
+{
+	"category" : "Babylonian-Core-Tracing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"DefaultValue" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"nameToProbesDict" ],
+	"name" : "BPClassNameToInstanceProbes",
+	"pools" : [
+		 ],
+	"super" : "DynamicVariable",
+	"type" : "normal" }

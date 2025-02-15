@@ -1,5 +1,4 @@
 support
 supportedClass
 	
-	
 	^ Number

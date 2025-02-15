@@ -1,0 +1,4 @@
+ui
+canBeAnnotatedTo
+	
+	^ #(stringLiteral)

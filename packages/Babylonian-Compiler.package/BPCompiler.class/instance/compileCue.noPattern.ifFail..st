@@ -12,16 +12,16 @@ compileCue: aCueWithStyledSource noPattern: aBoolean ifFail: failBlock
 	inside the morph to re-fullfill that premise again during compilation."
 	| originalMethodNode bpUnstyledSource unstyledCue |
 	bpUnstyledSource := aCueWithStyledSource sourceStream contents asString.
-	
+
 	unstyledCue := CompilationCue
 		source: bpUnstyledSource readStream
 		context: aCueWithStyledSource context
 		receiver: aCueWithStyledSource receiver 
-		class: aCueWithStyledSource getClass 
+		class: aCueWithStyledSource getClass
 		environment: aCueWithStyledSource environment 
 		requestor: aCueWithStyledSource requestor.
 	originalMethodNode := super compileCue: unstyledCue noPattern: aBoolean ifFail: failBlock.
-
+	
 	bpUnstyledSource := originalMethodNode sourceText asString.
 	(self methodSourceRequiresBPLayers: bpUnstyledSource) ifTrue: [
 		(self compileInstrumentedVersionOf: aCueWithStyledSource) ifFalse: failBlock].

@@ -21,6 +21,7 @@
 		"testGrammarParsesVariableNameCorrectly" : "jb 12/7/2020 19:09",
 		"testMessageSendPartsCanBeAnnotated" : "pre 8/6/2021 18:37",
 		"testMessageSendsCanBeAnnotated" : "jb 12/7/2020 19:09",
+		"testNestedAnnotatedAssignments" : "joabe 10/6/2023 14:22",
 		"testNormalExpressionsStillWork" : "pre 5/10/2019 11:27",
 		"testOtherCommentsAreStillComments" : "jb 12/7/2020 19:09",
 		"testRegressionAnnotationBlock01" : "pre 9/1/2022 20:39",

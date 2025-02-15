@@ -1,0 +1,4 @@
+accessing
+variableName
+	
+	^ self enclosedExpressionSource

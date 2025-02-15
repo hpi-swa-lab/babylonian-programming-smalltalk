@@ -2,7 +2,7 @@ private
 privateFormat: aText
 	  
 	| parseResult |
-	self ifNoSelectedMethod: [^ super privateFormat: aText].
+	self ifNoSelectedMethod: [ ^ self formatNonMethod: aText ].
 	
 	parseResult := PEGParserBPSmalltalk new 
 					match: aText asString
